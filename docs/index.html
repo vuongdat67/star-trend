@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub & Hugging Face Stars, Trending & AI Radar | @vuongdat67</title>
+  <meta name="description" content="Workspace theo dõi dự án nguồn mở thịnh hành, quản lý kho stars và radar tin tức AI.">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Jet-Black Zinc Stylesheet -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="site-topbar">
+    <div class="container topbar-inner">
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <div class="brand-logo">
+          <span>Stars <span style="color: var(--pill-blue-text);">&</span> Trends</span>
+        </div>
+        <span class="brand-badge">@vuongdat67</span>
+
+        <!-- Platform Switcher -->
+        <div class="source-pill-group">
+          <button class="source-btn active" id="source-btn-github" onclick="switchPlatformSource('github')">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="display: inline-block; vertical-align: middle;"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            <span>GitHub</span>
+          </button>
+          <button class="source-btn" id="source-btn-hf" onclick="switchPlatformSource('huggingface')">
+            <span>🤗 Hugging Face</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="topbar-actions">
+        <button class="btn-zinc btn-icon" id="toggle-sidebar-top-btn" onclick="toggleSidebarVisibility()" title="Ẩn/Hiện Sidebar Danh Mục">
+          <i data-lucide="sidebar" style="width: 14px; height: 14px;"></i>
+        </button>
+        <button class="btn-zinc btn-icon" id="theme-btn" onclick="toggleTheme()" title="Chuyển Dark / Light">
+          <i data-lucide="sun" id="theme-icon" style="width: 14px; height: 14px;"></i>
+        </button>
+        <button class="btn-zinc" id="sync-btn" onclick="triggerSync()" title="Đồng bộ lại từ GitHub (Tự động loại bỏ repo đã unstar)">
+          <i data-lucide="refresh-cw" style="width: 12px; height: 12px;"></i>
+          <span>Đồng Bộ</span>
+        </button>
+        <button class="btn-zinc" onclick="openExportModal()" title="Tùy chỉnh thư mục xuất và tải file">
+          <i data-lucide="folder-down" style="width: 12px; height: 12px;"></i>
+          <span>Xuất & Tải File</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== LIVE MOMENTUM TICKER (EXACT USER SPEC) ==================== -->
+  <div class="ticker-strip">
+    <div class="ticker-lead">
+      <i data-lucide="activity" style="width: 12px; height: 12px; color: var(--pill-blue-text);"></i>
+      <span>Momentum Hôm Nay</span>
+    </div>
+    <div class="ticker-marquee" id="ticker-marquee">
+      <span style="padding-left: 1rem; color: var(--text-muted);">Đang tải dữ liệu thịnh hành...</span>
+    </div>
+  </div>
+
+  <!-- ==================== MAIN WORKSPACE ==================== -->
+  <div class="container">
+    <div class="app-layout-grid" id="main-layout-grid">
+
+      <!-- MAIN FEED AREA -->
+      <main class="main-feed-area">
+
+        <!-- Controls Box -->
+        <div class="controls-panel">
+          <div class="controls-row-top">
+            <!-- Mode Tabs -->
+            <div class="tab-btn-group">
+              <button class="tab-btn active" id="mode-btn-trending" onclick="switchFeedMode('trending')">
+                <i data-lucide="flame" style="width: 13px; height: 13px; color: var(--pill-amber-text);"></i>
+                <span>Thịnh hành</span>
+              </button>
+              <button class="tab-btn" id="mode-btn-stars" onclick="switchFeedMode('stars')">
+                <i data-lucide="bookmark" style="width: 13px; height: 13px;"></i>
+                <span>Kho Stars (<span id="stars-total-count">612</span>)</span>
+              </button>
+              <button class="tab-btn" id="mode-btn-new" onclick="switchFeedMode('new')">
+                <i data-lucide="sparkle" style="width: 13px; height: 13px; color: var(--pill-green-text);"></i>
+                <span>Dự án mới</span>
+              </button>
+              <button class="tab-btn" id="mode-btn-pulse" onclick="switchFeedMode('pulse')">
+                <i data-lucide="radio" style="width: 13px; height: 13px; color: var(--pill-purple-text);"></i>
+                <span>AI & Tech Radar</span>
+              </button>
+            </div>
+
+            <!-- Time Period Group -->
+            <div class="tab-btn-group" id="period-switch-group">
+              <button class="tab-btn active" id="period-daily" onclick="changePeriod('daily')">Ngày</button>
+              <button class="tab-btn" id="period-weekly" onclick="changePeriod('weekly')">Tuần</button>
+              <button class="tab-btn" id="period-monthly" onclick="changePeriod('monthly')">Tháng</button>
+            </div>
+          </div>
+
+          <!-- Radar Sub-Category Pills (Tách bạch rõ CVE / News / Papers / X Trends / Labs) -->
+          <div id="radar-subfilters" class="radar-subfilter-bar" style="display: none;">
+            <!-- Rendered dynamically by JS -->
+          </div>
+
+          <div class="controls-row-bottom">
+            <!-- Search -->
+            <div class="search-wrap">
+              <i data-lucide="search"></i>
+              <input type="text" id="search-input" class="input-text" placeholder="Tìm theo tên repo, mô tả, CVE-ID, #topic, tác giả..." oninput="handleSearch(this.value)">
+            </div>
+
+            <!-- Language select -->
+            <select id="lang-select" class="select-control" onchange="handleLangChange()">
+              <option value="">Tất cả ngôn ngữ</option>
+            </select>
+
+            <!-- Page Limit select -->
+            <select id="page-limit-select" class="select-control" onchange="handlePageLimitChange(this.value)" title="Số lượng mỗi lần tải">
+              <option value="24">24 / trang</option>
+              <option value="48">48 / trang</option>
+              <option value="96">96 / trang</option>
+              <option value="9999">Tất cả</option>
+            </select>
+
+            <!-- Sort select -->
+            <select id="sort-select" class="select-control" onchange="handleSortChange()">
+              <option value="default">Thứ tự mặc định</option>
+              <option value="stars-desc">Nhiều Star / Điểm nhất</option>
+              <option value="date-desc">Mới cập nhật</option>
+              <option value="name-asc">Tên A-Z</option>
+            </select>
+
+            <!-- Layout switcher (3 cols, 2 cols, 1 col) -->
+            <div class="layout-toggle-group">
+              <button class="layout-btn active" id="layout-btn-3" onclick="switchLayout('layout-grid-3')" title="Lưới 3 cột (Tối ưu không gian)">
+                <i data-lucide="layout-grid" style="width: 14px; height: 14px;"></i>
+              </button>
+              <button class="layout-btn" id="layout-btn-2" onclick="switchLayout('layout-grid-2')" title="Lưới 2 cột">
+                <i data-lucide="grid" style="width: 14px; height: 14px;"></i>
+              </button>
+              <button class="layout-btn" id="layout-btn-1" onclick="switchLayout('layout-list')" title="Danh sách 1 cột">
+                <i data-lucide="list" style="width: 14px; height: 14px;"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Result Info Bar -->
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 2px 8px; font-size: 12px; color: var(--text-muted);">
+          <div>Hiển thị <strong id="displayed-count-label" style="color: var(--text-main);">0</strong> mục</div>
+          <div id="active-filter-badge" style="font-family: var(--font-mono); font-size: 11px; color: var(--pill-blue-text);"></div>
+        </div>
+
+        <!-- Cards Feed Grid -->
+        <div class="cards-feed-grid layout-grid-3" id="cards-feed-container">
+          <!-- Rendered by JS -->
+        </div>
+
+        <!-- Infinite Scroll Sentinel -->
+        <div id="scroll-sentinel" style="text-align: center; padding: 20px 0; color: var(--text-muted); display: none;">
+          <div style="display: inline-flex; align-items: center; gap: 6px; font-size: 12px;">
+            <i data-lucide="loader-2" class="spinning" style="width: 14px; height: 14px;"></i>
+            <span>Đang tải thêm...</span>
+          </div>
+        </div>
+
+      </main>
+
+      <!-- RIGHT SIDEBAR (DYNAMIC FIELDS ACCORDING TO ACTIVE VIEW) -->
+      <aside class="sidebar-column" id="sidebar-column">
+
+        <!-- Domains / Categories -->
+        <div class="sidebar-box">
+          <div class="sidebar-heading">
+            <span id="sidebar-cat-heading-title">Danh Mục Phân Loại</span>
+          </div>
+          <div id="sidebar-categories-list" style="display: flex; flex-direction: column; gap: 2px;">
+            <!-- Rendered dynamically according to active tab by JS -->
+          </div>
+        </div>
+
+        <!-- Hot Topics Cloud -->
+        <div class="sidebar-box">
+          <div class="sidebar-heading">
+            <span>Chủ Đề Hot (#Topics)</span>
+          </div>
+          <div class="topic-cloud-wrap" id="sidebar-topics-cloud">
+            <!-- Rendered dynamically according to active tab by JS -->
+          </div>
+          <button class="btn-zinc" id="toggle-more-tags-btn" onclick="toggleMoreTags()" style="width: 100%; margin-top: 8px; justify-content: center;">
+            + Xem thêm topics
+          </button>
+        </div>
+
+      </aside>
+
+    </div>
+  </div>
+
+  <!-- ==================== EXPORT & DOWNLOAD MODAL ==================== -->
+  <div class="modal-overlay" id="export-modal">
+    <div class="modal-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+        <h3 style="font-size: 14px; font-weight: 700;">📂 Tùy Chỉnh Xuất & Tải File</h3>
+        <button class="btn-zinc btn-icon" onclick="closeExportModal()"><i data-lucide="x" style="width: 14px; height: 14px;"></i></button>
+      </div>
+
+      <div style="margin-bottom: 14px;">
+        <label style="font-size: 12px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 4px;">
+          Đường dẫn thư mục lưu file (Tùy chọn):
+        </label>
+        <input type="text" id="custom-export-path-input" class="input-text" placeholder="Để trống để lưu tại E:\repo\ hoặc nhập e.g. D:\Obsidian\Vault">
+      </div>
+
+      <div style="margin-bottom: 12px;">
+        <div style="font-size: 12px; font-weight: 600; color: var(--text-muted); margin-bottom: 8px;">Tải Trực Tiếp Về Máy:</div>
+
+        <div class="file-export-row">
+          <div>
+            <strong>github_stars.md</strong>
+            <div style="font-size: 11px; color: var(--text-faint);">Theo ngôn ngữ + Thống kê</div>
+          </div>
+          <a href="/api/download?file=github_stars.md" class="btn-zinc">Tải về</a>
+        </div>
+
+        <div class="file-export-row">
+          <div>
+            <strong>github_stars_by_topic.md</strong>
+            <div style="font-size: 11px; color: var(--text-faint);">Theo Lĩnh Vực & Domain</div>
+          </div>
+          <a href="/api/download?file=github_stars_by_topic.md" class="btn-zinc">Tải về</a>
+        </div>
+
+        <div class="file-export-row">
+          <div>
+            <strong>github_stars_timeline.md</strong>
+            <div style="font-size: 11px; color: var(--text-faint);">Theo Dòng Thời Gian Star</div>
+          </div>
+          <a href="/api/download?file=github_stars_timeline.md" class="btn-zinc">Tải về</a>
+        </div>
+
+        <div class="file-export-row">
+          <div>
+            <strong>github_stars.csv</strong>
+            <div style="font-size: 11px; color: var(--text-faint);">Bảng tính Excel / CSV</div>
+          </div>
+          <a href="/api/download?file=github_stars.csv" class="btn-zinc">Tải về</a>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 16px;">
+        <button class="btn-zinc" onclick="triggerCustomExport()">Lưu Vào Thư Mục Này</button>
+        <button class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text);" onclick="closeExportModal()">Đóng</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== NOTE MODAL ==================== -->
+  <div class="modal-overlay" id="note-modal">
+    <div class="modal-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+        <h3 id="modal-repo-title" style="font-size: 13px; font-weight: 700;">Ghi chú</h3>
+        <button class="btn-zinc btn-icon" onclick="closeNoteModal()"><i data-lucide="x" style="width: 14px; height: 14px;"></i></button>
+      </div>
+      <div style="margin-bottom: 8px;">
+        <textarea id="note-textarea" rows="3" class="input-text" style="width: 100%; height: 80px;" placeholder="Ghi chú cá nhân cho repository này..."></textarea>
+      </div>
+      <div style="margin-bottom: 12px;">
+        <input type="text" id="note-tags-input" class="input-text" placeholder="Tags: ai, tool_hay, quan_trong...">
+      </div>
+      <div style="display: flex; justify-content: flex-end; gap: 6px;">
+        <button class="btn-zinc" onclick="closeNoteModal()">Hủy</button>
+        <button class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text);" onclick="saveCurrentNote()">Lưu Ghi Chú</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Box -->
+  <div class="toast-container" id="toast-box"></div>
+
+  <!-- Coordinator Script -->
+  <script src="/js/app.js"></script>
+</body>
+</html>

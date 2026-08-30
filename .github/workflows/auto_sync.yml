@@ -1,34 +1,73 @@
-name: Daily Auto-Sync Stars & Trends
+name: Build & Deploy to GitHub Pages
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Chạy tự động mỗi ngày vào 00:00 UTC
-  workflow_dispatch: # Cho phép bấm chạy thủ công trực tiếp từ GitHub Web UI
+    - cron: '0 1 * * *'   # 01:00 UTC mỗi ngày (08:00 giờ Hà Nội)
+  workflow_dispatch:        # Bấm chạy thủ công trên GitHub
+  push:
+    branches: [main]
+    paths:
+      - 'static/**'
+      - 'services/**'
+      - 'scripts/**'
+      - 'export_stars.py'
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  sync:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
-      - name: Checkout Repository
+      - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Run Full Sync Script
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Build static data & copy frontend
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python services/sync_all.py vuongdat67
+          python scripts/build_data.py vuongdat67
 
-      - name: Commit and Push Changes
+      - name: Patch app.js for static mode (no-server)
+        run: |
+          python scripts/patch_static_js.py
+
+      - name: Commit updated data files
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add github_stars.md github_stars_by_topic.md github_stars_timeline.md github_stars.csv data/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(sync): automated stars & trends update [skip ci]" && git push)
+          git add data/ docs/ github_stars.md github_stars_by_topic.md github_stars_timeline.md github_stars.csv
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update data & pages build [skip ci]" && git push)
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'docs'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
