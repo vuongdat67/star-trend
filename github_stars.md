@@ -1,7 +1,7 @@
 # 🌟 GitHub Starred Repositories - @vuongdat67
 
 > Danh sách toàn bộ starred repositories của **[@vuongdat67](https://github.com/vuongdat67)**.
-> 🕒 Cập nhật: `2026-08-30 16:39:38` | 📦 Tổng số: **612** repositories
+> 🕒 Cập nhật: `2026-08-30 16:58:13` | 📦 Tổng số: **613** repositories
 
 ---
 
@@ -12,14 +12,14 @@
 | **Python** | `166` | `27.1%` |
 | **TypeScript** | `103` | `16.8%` |
 | **Jupyter Notebook** | `57` | `9.3%` |
-| **Others** | `54` | `8.8%` |
+| **Others** | `55` | `9.0%` |
 | **Rust** | `38` | `6.2%` |
 | **JavaScript** | `31` | `5.1%` |
 | **HTML** | `28` | `4.6%` |
 | **C** | `27` | `4.4%` |
 | **Go** | `25` | `4.1%` |
 | **C++** | `19` | `3.1%` |
-| **Shell** | `15` | `2.5%` |
+| **Shell** | `15` | `2.4%` |
 | **C#** | `9` | `1.5%` |
 | **CSS** | `4` | `0.7%` |
 | **Swift** | `3` | `0.5%` |
@@ -162,7 +162,7 @@
 - [**sickn33/agentic-awesome-skills**](https://github.com/sickn33/agentic-awesome-skills) - ⭐ **45.7k** | 🍴 6.7k | 📅 `2026-04-04`
   - AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,005+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.
 
-- [**Imbad0202/academic-research-skills**](https://github.com/Imbad0202/academic-research-skills) - ⭐ **44.2k** | 🍴 3.5k | 📅 `2026-05-20`
+- [**Imbad0202/academic-research-skills**](https://github.com/Imbad0202/academic-research-skills) - ⭐ **44.3k** | 🍴 3.5k | 📅 `2026-05-20`
   - Academic Research Skills for Claude Code: research → write → review → revise → finalize
 
 - [**bojieli/ai-agent-book**](https://github.com/bojieli/ai-agent-book) - ⭐ **43.6k** | 🍴 4.8k | 📅 `2026-07-18`
@@ -200,7 +200,7 @@
 - [**tirth8205/code-review-graph**](https://github.com/tirth8205/code-review-graph) - ⭐ **31.0k** | 🍴 2.8k | 📅 `2026-04-16`
   - Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.
 
-- [**davila7/claude-code-templates**](https://github.com/davila7/claude-code-templates) - ⭐ **30.4k** | 🍴 3.4k | 📅 `2026-07-11`
+- [**davila7/claude-code-templates**](https://github.com/davila7/claude-code-templates) - ⭐ **30.5k** | 🍴 3.4k | 📅 `2026-07-11`
   - CLI tool for configuring and monitoring Claude Code
 
 - [**openai/openai-agents-python**](https://github.com/openai/openai-agents-python) - ⭐ **29.1k** | 🍴 4.6k | 📅 `2026-03-20`
@@ -247,7 +247,7 @@
 - [**kyegomez/OpenMythos**](https://github.com/kyegomez/OpenMythos) - ⭐ **14.9k** | 🍴 3.3k | 📅 `2026-04-22`
   - A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.
 
-- [**img2threejs/img2threejs**](https://github.com/img2threejs/img2threejs) - ⭐ **14.5k** | 🍴 1.2k | 📅 `2026-08-27`
+- [**img2threejs/img2threejs**](https://github.com/img2threejs/img2threejs) - ⭐ **14.6k** | 🍴 1.2k | 📅 `2026-08-27`
   - Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.
 
 - [**Gallopsled/pwntools**](https://github.com/Gallopsled/pwntools) - ⭐ **13.7k** | 🍴 1.9k | 📅 `2026-06-07`
@@ -424,7 +424,7 @@
 - [**OWASP/DockSec**](https://github.com/OWASP/DockSec) - ⭐ **476** | 🍴 93 | 📅 `2026-07-08`
   - AI-powered Docker security scanner that explains vulnerabilities in plain English. An OWASP Lab Project.
 
-- [**breslee1707/VI-Translate**](https://github.com/breslee1707/VI-Translate) - ⭐ **432** | 🍴 80 | 📅 `2026-08-28`
+- [**breslee1707/VI-Translate**](https://github.com/breslee1707/VI-Translate) - ⭐ **433** | 🍴 80 | 📅 `2026-08-28`
 
 - [**Nebulock-Inc/agentic-threat-hunting-framework**](https://github.com/Nebulock-Inc/agentic-threat-hunting-framework) - ⭐ **364** | 🍴 50 | 📅 `2026-04-05`
   - ATHF is a framework for agentic threat hunting - building systems that can remember, learn, and act with increasing autonomy.
@@ -722,7 +722,7 @@
 - [**numman-ali/openskills**](https://github.com/numman-ali/openskills) - ⭐ **10.7k** | 🍴 671 | 📅 `2026-01-22`
   - Universal skills loader for AI coding agents - npm i -g openskills
 
-- [**wonderwhy-er/DesktopCommanderMCP**](https://github.com/wonderwhy-er/DesktopCommanderMCP) - ⭐ **9.4k** | 🍴 1.1k | 📅 `2026-07-10`
+- [**wonderwhy-er/DesktopCommanderMCP**](https://github.com/wonderwhy-er/DesktopCommanderMCP) - ⭐ **9.4k** | 🍴 1.2k | 📅 `2026-07-10`
   - This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities
 
 - [**Narcooo/inkos**](https://github.com/Narcooo/inkos) - ⭐ **9.3k** | 🍴 1.8k | 📅 `2026-08-01`
@@ -999,7 +999,7 @@
   - Fraud transaction detection model using machine learning techniques, trained on an imbalanced dataset.
 
 
-### Others `(54)`
+### Others `(55)`
 
 - [**sindresorhus/awesome**](https://github.com/sindresorhus/awesome) - ⭐ **501.4k** | 🍴 36.6k | 📅 `2026-02-11`
   - 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]
@@ -1072,6 +1072,9 @@
 
 - [**cipher387/Dorks-collections-list**](https://github.com/cipher387/Dorks-collections-list) - ⭐ **2.7k** | 🍴 390 | 📅 `2026-04-29`
   - List of Github repositories and articles with list of dorks for different search engines
+
+- [**open-free-llm-api/awesome-freellm-apis**](https://github.com/open-free-llm-api/awesome-freellm-apis) - ⭐ **2.6k** | 🍴 372 | 📅 `2026-08-30`
+  - 134+ free LLM APIs & AI API keys from 40+ providers. Google Gemini, NVIDIA NIM, Groq, OpenRouter & more. One-click setup for Claude Code, Cursor and Codex.
 
 - [**apurvsinghgautam/dark-web-osint-tools**](https://github.com/apurvsinghgautam/dark-web-osint-tools) - ⭐ **2.6k** | 🍴 432 | 📅 `2026-03-06`
   - OSINT Tools for the Dark Web
@@ -1210,7 +1213,7 @@
 - [**BloopAI/vibe-kanban**](https://github.com/BloopAI/vibe-kanban) - ⭐ **28.0k** | 🍴 3.0k | 📅 `2026-05-31`
   - Get 10X more out of Claude Code, Codex or any coding agent
 
-- [**xai-org/grok-build**](https://github.com/xai-org/grok-build) - ⭐ **26.2k** | 🍴 4.9k | 📅 `2026-07-18`
+- [**xai-org/grok-build**](https://github.com/xai-org/grok-build) - ⭐ **26.3k** | 🍴 4.9k | 📅 `2026-07-18`
   - SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.
 
 - [**h4ckf0r0day/obscura**](https://github.com/h4ckf0r0day/obscura) - ⭐ **22.4k** | 🍴 1.7k | 📅 `2026-08-17`
@@ -1246,7 +1249,7 @@
 - [**signalapp/libsignal**](https://github.com/signalapp/libsignal) - ⭐ **6.0k** | 🍴 781 | 📅 `2026-01-22`
   - Home to the Signal Protocol as well as other cryptographic primitives which make Signal possible.
 
-- [**zensical/zensical**](https://github.com/zensical/zensical) - ⭐ **5.6k** | 🍴 129 | 📅 `2026-07-26`
+- [**zensical/zensical**](https://github.com/zensical/zensical) - ⭐ **5.6k** | 🍴 130 | 📅 `2026-07-26`
   - A modern static site generator by the Material for MkDocs team
 
 - [**malisper/pgrust**](https://github.com/malisper/pgrust) - ⭐ **4.8k** | 🍴 185 | 📅 `2026-07-13`
@@ -1700,7 +1703,7 @@
 - [**steipete/agent-scripts**](https://github.com/steipete/agent-scripts) - ⭐ **6.6k** | 🍴 545 | 📅 `2026-07-10`
   - Scripts for agents, shared between my repositories.
 
-- [**Astrosp/Awesome-OSINT-List**](https://github.com/Astrosp/Awesome-OSINT-List) - ⭐ **4.3k** | 🍴 574 | 📅 `2026-04-19`
+- [**Astrosp/Awesome-OSINT-List**](https://github.com/Astrosp/Awesome-OSINT-List) - ⭐ **4.3k** | 🍴 575 | 📅 `2026-04-19`
   - 📡 Comprehensive collection of OSINT tools for cybersecurity professionals, researchers, and bug bounty hunters. Topics: information gathering, reverse search, red team, trust & safety, AI.
 
 - [**internetwache/GitTools**](https://github.com/internetwache/GitTools) - ⭐ **4.2k** | 🍴 632 | 📅 `2026-05-11`
