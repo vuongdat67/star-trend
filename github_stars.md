@@ -1,7 +1,7 @@
 # 🌟 GitHub Starred Repositories - @vuongdat67
 
 > Danh sách toàn bộ starred repositories của **[@vuongdat67](https://github.com/vuongdat67)**.
-> 🕒 Cập nhật: `2026-08-30 17:05:51` | 📦 Tổng số: **613** repositories
+> 🕒 Cập nhật: `2026-08-30 17:10:25` | 📦 Tổng số: **613** repositories
 
 ---
 
@@ -36,7 +36,7 @@
 
 ### Python `(166)`
 
-- [**practical-tutorials/project-based-learning**](https://github.com/practical-tutorials/project-based-learning) - ⭐ **281.3k** | 🍴 36.1k | 📅 `2026-02-06`
+- [**practical-tutorials/project-based-learning**](https://github.com/practical-tutorials/project-based-learning) - ⭐ **281.4k** | 🍴 36.1k | 📅 `2026-02-06`
   - Curated list of project-based tutorials
 
 - [**NousResearch/hermes-agent**](https://github.com/NousResearch/hermes-agent) - ⭐ **238.4k** | 🍴 48.5k | 📅 `2026-04-05`
@@ -370,7 +370,7 @@
 - [**oil-oil/oil-motion**](https://github.com/oil-oil/oil-motion) - ⭐ **2.1k** | 🍴 162 | 📅 `2026-08-17`
   - Create smooth, responsive interactive web animations.
 
-- [**travisvn/openai-edge-tts**](https://github.com/travisvn/openai-edge-tts) - ⭐ **2.1k** | 🍴 313 | 📅 `2026-08-09`
+- [**travisvn/openai-edge-tts**](https://github.com/travisvn/openai-edge-tts) - ⭐ **2.1k** | 🍴 314 | 📅 `2026-08-09`
   - Free, high-quality text-to-speech API endpoint to replace OpenAI, Azure, or ElevenLabs
 
 - [**showlab/Code2Video**](https://github.com/showlab/Code2Video) - ⭐ **2.0k** | 🍴 288 | 📅 `2026-08-16`
@@ -424,7 +424,7 @@
 - [**OWASP/DockSec**](https://github.com/OWASP/DockSec) - ⭐ **476** | 🍴 93 | 📅 `2026-07-08`
   - AI-powered Docker security scanner that explains vulnerabilities in plain English. An OWASP Lab Project.
 
-- [**breslee1707/VI-Translate**](https://github.com/breslee1707/VI-Translate) - ⭐ **433** | 🍴 80 | 📅 `2026-08-28`
+- [**breslee1707/VI-Translate**](https://github.com/breslee1707/VI-Translate) - ⭐ **434** | 🍴 80 | 📅 `2026-08-28`
 
 - [**Nebulock-Inc/agentic-threat-hunting-framework**](https://github.com/Nebulock-Inc/agentic-threat-hunting-framework) - ⭐ **364** | 🍴 50 | 📅 `2026-04-05`
   - ATHF is a framework for agentic threat hunting - building systems that can remember, learn, and act with increasing autonomy.
@@ -1353,7 +1353,7 @@
 - [**kimchi-project/kimchi**](https://github.com/kimchi-project/kimchi) - ⭐ **3.2k** | 🍴 362 | 📅 `2026-08-11`
   - An HTML5 management interface for KVM guests
 
-- [**darkzOGx/youtube-automation-agent**](https://github.com/darkzOGx/youtube-automation-agent) - ⭐ **2.9k** | 🍴 807 | 📅 `2026-08-18`
+- [**darkzOGx/youtube-automation-agent**](https://github.com/darkzOGx/youtube-automation-agent) - ⭐ **2.9k** | 🍴 808 | 📅 `2026-08-18`
   - 🎬 Fully automated YouTube channel management with AI agents. Creates, optimizes & publishes videos 24/7. Works with FREE Gemini API or OpenAI. No coding required!
 
 - [**QwenAudio/qwen-audio-agent**](https://github.com/QwenAudio/qwen-audio-agent) - ⭐ **2.3k** | 🍴 198 | 📅 `2026-08-01`
@@ -1601,7 +1601,7 @@
 - [**btcsuite/btcd**](https://github.com/btcsuite/btcd) - ⭐ **6.7k** | 🍴 2.5k | 📅 `2026-04-02`
   - An alternative full node bitcoin implementation written in Go (golang)
 
-- [**Ed1s0nZ/CyberStrikeAI**](https://github.com/Ed1s0nZ/CyberStrikeAI) - ⭐ **6.1k** | 🍴 974 | 📅 `2026-08-19`
+- [**Ed1s0nZ/CyberStrikeAI**](https://github.com/Ed1s0nZ/CyberStrikeAI) - ⭐ **6.1k** | 🍴 975 | 📅 `2026-08-19`
   - The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.
 
 - [**nextlevelbuilder/goclaw**](https://github.com/nextlevelbuilder/goclaw) - ⭐ **3.6k** | 🍴 1.0k | 📅 `2026-04-08`
@@ -1685,7 +1685,7 @@
 - [**obra/superpowers**](https://github.com/obra/superpowers) - ⭐ **279.6k** | 🍴 25.1k | 📅 `2026-05-12`
   - An agentic skills framework & software development methodology that works.
 
-- [**mattpocock/skills**](https://github.com/mattpocock/skills) - ⭐ **241.6k** | 🍴 20.6k | 📅 `2026-03-20`
+- [**mattpocock/skills**](https://github.com/mattpocock/skills) - ⭐ **241.7k** | 🍴 20.6k | 📅 `2026-03-20`
   - Skills for Real Engineers. Straight from my .agents directory.
 
 - [**msitarzewski/agency-agents**](https://github.com/msitarzewski/agency-agents) - ⭐ **149.0k** | 🍴 24.0k | 📅 `2026-04-06`
