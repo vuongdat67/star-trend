@@ -1,7 +1,7 @@
 # 🌟 GitHub Starred Repositories - @vuongdat67
 
 > Danh sách toàn bộ starred repositories của **[@vuongdat67](https://github.com/vuongdat67)**.
-> 🕒 Cập nhật: `2026-08-30 17:14:06` | 📦 Tổng số: **613** repositories
+> 🕒 Cập nhật: `2026-08-30 17:20:27` | 📦 Tổng số: **613** repositories
 
 ---
 
@@ -72,7 +72,7 @@
 - [**nextlevelbuilder/ui-ux-pro-max-skill**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - ⭐ **123.2k** | 🍴 13.2k | 📅 `2026-01-12`
   - An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
 
-- [**harry0703/MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) - ⭐ **118.8k** | 🍴 18.1k | 📅 `2026-05-29`
+- [**harry0703/MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) - ⭐ **118.8k** | 🍴 18.2k | 📅 `2026-05-29`
   - 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
 
 - [**Graphify-Labs/graphify**](https://github.com/Graphify-Labs/graphify) - ⭐ **112.5k** | 🍴 11.0k | 📅 `2026-04-10`
@@ -352,7 +352,7 @@
 - [**NVIDIA/NeMo-Agent-Toolkit**](https://github.com/NVIDIA/NeMo-Agent-Toolkit) - ⭐ **2.6k** | 🍴 748 | 📅 `2026-01-25`
   - The NVIDIA NeMo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents.
 
-- [**geeklee/srt-whiteboard-animation**](https://github.com/geeklee/srt-whiteboard-animation) - ⭐ **2.6k** | 🍴 412 | 📅 `2026-08-19`
+- [**geeklee/srt-whiteboard-animation**](https://github.com/geeklee/srt-whiteboard-animation) - ⭐ **2.6k** | 🍴 413 | 📅 `2026-08-19`
   - 将 SRT 字幕做成暖米黄纸张底的流式笔迹白板手绘动画 skill：mask 分区遮罩编排 + stream 连续笔迹（ink→color）。
 
 - [**pnnbao97/VieNeu-TTS**](https://github.com/pnnbao97/VieNeu-TTS) - ⭐ **2.5k** | 🍴 733 | 📅 `2026-06-10`
@@ -750,7 +750,7 @@
 
 - [**bashalarmistalt/decimen-optical-transfer**](https://github.com/bashalarmistalt/decimen-optical-transfer) - ⭐ **6.6k** | 🍴 796 | 📅 `2026-08-02`
 
-- [**b-nnett/grok-bot-0.18-reconstructed**](https://github.com/b-nnett/grok-bot-0.18-reconstructed) - ⭐ **3.4k** | 🍴 3.4k | 📅 `2026-08-27`
+- [**b-nnett/grok-bot-0.18-reconstructed**](https://github.com/b-nnett/grok-bot-0.18-reconstructed) - ⭐ **3.5k** | 🍴 3.4k | 📅 `2026-08-27`
   - Unofficial source-oriented reconstruction and extension of Grok Bot 0.18.0 for macOS
 
 - [**PleasePrompto/notebooklm-mcp**](https://github.com/PleasePrompto/notebooklm-mcp) - ⭐ **3.4k** | 🍴 485 | 📅 `2026-07-24`

@@ -1,7 +1,7 @@
 # 🏷️ GitHub Starred Repositories Theo Chủ Đề - @vuongdat67
 
 > Phân loại thông minh 613 repositories theo lĩnh vực ứng dụng.
-> 🕒 Cập nhật: `2026-08-30 17:14:06`
+> 🕒 Cập nhật: `2026-08-30 17:20:27`
 
 ---
 
@@ -82,7 +82,7 @@
 - [**openai/codex**](https://github.com/openai/codex) - `Rust` | ⭐ **120.0k** | 🍴 18.3k
   - Lightweight coding agent that runs in your terminal
 
-- [**harry0703/MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) - `Python` | ⭐ **118.8k** | 🍴 18.1k
+- [**harry0703/MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) - `Python` | ⭐ **118.8k** | 🍴 18.2k
   - 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
 
 - [**DietrichGebert/ponytail**](https://github.com/DietrichGebert/ponytail) - `JavaScript` | ⭐ **117.0k** | 🍴 6.4k
@@ -753,7 +753,7 @@
 - [**NVIDIA/NeMo-Agent-Toolkit**](https://github.com/NVIDIA/NeMo-Agent-Toolkit) - `Python` | ⭐ **2.6k** | 🍴 748
   - The NVIDIA NeMo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents.
 
-- [**geeklee/srt-whiteboard-animation**](https://github.com/geeklee/srt-whiteboard-animation) - `Python` | ⭐ **2.6k** | 🍴 412
+- [**geeklee/srt-whiteboard-animation**](https://github.com/geeklee/srt-whiteboard-animation) - `Python` | ⭐ **2.6k** | 🍴 413
   - 将 SRT 字幕做成暖米黄纸张底的流式笔迹白板手绘动画 skill：mask 分区遮罩编排 + stream 连续笔迹（ink→color）。
 
 - [**open-free-llm-api/awesome-freellm-apis**](https://github.com/open-free-llm-api/awesome-freellm-apis) - `Others` | ⭐ **2.6k** | 🍴 372
@@ -1154,7 +1154,7 @@
 - [**openai/codex**](https://github.com/openai/codex) - `Rust` | ⭐ **120.0k** | 🍴 18.3k
   - Lightweight coding agent that runs in your terminal
 
-- [**harry0703/MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) - `Python` | ⭐ **118.8k** | 🍴 18.1k
+- [**harry0703/MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) - `Python` | ⭐ **118.8k** | 🍴 18.2k
   - 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
 
 - [**DietrichGebert/ponytail**](https://github.com/DietrichGebert/ponytail) - `JavaScript` | ⭐ **117.0k** | 🍴 6.4k
@@ -2917,7 +2917,7 @@
 - [**TwilitRealm/dusklight**](https://github.com/TwilitRealm/dusklight) - `C++` | ⭐ **5.2k** | 🍴 386
   - Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.
 
-- [**b-nnett/grok-bot-0.18-reconstructed**](https://github.com/b-nnett/grok-bot-0.18-reconstructed) - `TypeScript` | ⭐ **3.4k** | 🍴 3.4k
+- [**b-nnett/grok-bot-0.18-reconstructed**](https://github.com/b-nnett/grok-bot-0.18-reconstructed) - `TypeScript` | ⭐ **3.5k** | 🍴 3.4k
   - Unofficial source-oriented reconstruction and extension of Grok Bot 0.18.0 for macOS
 
 - [**thananon/9arm-skills**](https://github.com/thananon/9arm-skills) - `Shell` | ⭐ **3.2k** | 🍴 424

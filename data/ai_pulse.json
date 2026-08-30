@@ -536,8 +536,8 @@
       "url": "https://huggingface.co/papers/2608.25518",
       "source": "Hugging Face Daily Papers",
       "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 146",
-      "upvotes": 146,
+      "badge": "⭐ 147",
+      "upvotes": 147,
       "authors": "Pengfei Zhou, Hexin Wang, Zhengfeiyang Zhang",
       "published_at": "2026-08-25",
       "tags": [
@@ -680,8 +680,8 @@
       "url": "https://huggingface.co/papers/2608.27345",
       "source": "Hugging Face Daily Papers",
       "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 97",
-      "upvotes": 97,
+      "badge": "⭐ 98",
+      "upvotes": 98,
       "authors": "Yuandong Pu, Le Zhuo, Sayak Paul",
       "published_at": "2026-08-26",
       "tags": [
@@ -1002,12 +1002,12 @@
     },
     {
       "title": "Omarchy: Any User Process Can Escalate to Root",
-      "summary": "Hacker News (117 pts, 72 comments) by @trap0xcc",
+      "summary": "Hacker News (131 pts, 87 comments) by @trap0xcc",
       "url": "https://0xcc.io/posts/omarchy-root-creds/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "117 pts",
-      "upvotes": 117,
+      "badge": "131 pts",
+      "upvotes": 131,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1017,12 +1017,12 @@
     },
     {
       "title": "Creepy Crawlies",
-      "summary": "Hacker News (305 pts, 140 comments) by @zdw",
+      "summary": "Hacker News (308 pts, 143 comments) by @zdw",
       "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "305 pts",
-      "upvotes": 305,
+      "badge": "308 pts",
+      "upvotes": 308,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1032,12 +1032,12 @@
     },
     {
       "title": "Haiku R1/beta6 has been released",
-      "summary": "Hacker News (62 pts, 9 comments) by @metrofun",
+      "summary": "Hacker News (66 pts, 12 comments) by @metrofun",
       "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "62 pts",
-      "upvotes": 62,
+      "badge": "66 pts",
+      "upvotes": 66,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1047,12 +1047,12 @@
     },
     {
       "title": "Coordination Headwind: How Organizations Are Like Slime Molds",
-      "summary": "Hacker News (17 pts, 6 comments) by @rzk",
+      "summary": "Hacker News (19 pts, 9 comments) by @rzk",
       "url": "https://komoroske.com/slime-mold/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "17 pts",
-      "upvotes": 17,
+      "badge": "19 pts",
+      "upvotes": 19,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1062,12 +1062,27 @@
     },
     {
       "title": "Hacking IKEA Furniture",
-      "summary": "Hacker News (161 pts, 85 comments) by @greenlightning",
+      "summary": "Hacker News (166 pts, 88 comments) by @greenlightning",
       "url": "https://greenlightning.eu/diy/hacking-ikea-furniture/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "161 pts",
-      "upvotes": 161,
+      "badge": "166 pts",
+      "upvotes": 166,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Electric rain can eat through metal",
+      "summary": "Hacker News (18 pts, 4 comments) by @sohkamyung",
+      "url": "https://www.scientificamerican.com/article/electric-rain-can-eat-through-metal/",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "18 pts",
+      "upvotes": 18,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1091,28 +1106,13 @@
       ]
     },
     {
-      "title": "Electric rain can eat through metal",
-      "summary": "Hacker News (17 pts, 4 comments) by @sohkamyung",
-      "url": "https://www.scientificamerican.com/article/electric-rain-can-eat-through-metal/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "17 pts",
-      "upvotes": 17,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
       "title": "European Commission Revives Push for Encryption Backdoors in ProtectEU Strategy",
-      "summary": "Hacker News (109 pts, 25 comments) by @nickslaughter02",
+      "summary": "Hacker News (118 pts, 29 comments) by @nickslaughter02",
       "url": "https://reclaimthenet.org/eu-protecteu-strategy-encryption-backdoor-law-enforcement",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "109 pts",
-      "upvotes": 109,
+      "badge": "118 pts",
+      "upvotes": 118,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1122,12 +1122,12 @@
     },
     {
       "title": "Casey Muratori – The Root of the Root of All Evil – BSC 2026 [video]",
-      "summary": "Hacker News (194 pts, 93 comments) by @surprisetalk",
+      "summary": "Hacker News (199 pts, 96 comments) by @surprisetalk",
       "url": "https://www.youtube.com/watch?v=hpj6r6CjJf8",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "194 pts",
-      "upvotes": 194,
+      "badge": "199 pts",
+      "upvotes": 199,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1152,12 +1152,12 @@
     },
     {
       "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
-      "summary": "Hacker News (164 pts, 48 comments) by @joebig",
+      "summary": "Hacker News (165 pts, 48 comments) by @joebig",
       "url": "https://arxiv.org/abs/1804.07389",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "164 pts",
-      "upvotes": 164,
+      "badge": "165 pts",
+      "upvotes": 165,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1167,12 +1167,12 @@
     },
     {
       "title": "Europe's summer drought is so extreme that desertification is a growing threat",
-      "summary": "Hacker News (95 pts, 86 comments) by @Brajeshwar",
+      "summary": "Hacker News (97 pts, 89 comments) by @Brajeshwar",
       "url": "https://fortune.com/2026/08/29/europe-summer-drought-desertification-threat-rivers-fish/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "95 pts",
-      "upvotes": 95,
+      "badge": "97 pts",
+      "upvotes": 97,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1182,27 +1182,12 @@
     },
     {
       "title": "METR and Redwood Offer Holy %^ Postmortem of the HuggingFace Hack",
-      "summary": "Hacker News (14 pts, 3 comments) by @catbird",
+      "summary": "Hacker News (17 pts, 3 comments) by @catbird",
       "url": "https://thezvi.wordpress.com/2026/08/29/metr-and-redwood-offer-holy-postmortem-of-the-huggingface-hack/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "14 pts",
-      "upvotes": 14,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Zig: Pointer Stability for ArrayLists",
-      "summary": "Hacker News (16 pts, 0 comments) by @tosh",
-      "url": "https://ziglang.org/devlog/2026/#2026-08-27",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "16 pts",
-      "upvotes": 16,
+      "badge": "17 pts",
+      "upvotes": 17,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1218,6 +1203,21 @@
       "category": "📰 Hacker News Tech",
       "badge": "29 pts",
       "upvotes": 29,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Zig: Pointer Stability for ArrayLists",
+      "summary": "Hacker News (17 pts, 1 comments) by @tosh",
+      "url": "https://ziglang.org/devlog/2026/#2026-08-27",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "17 pts",
+      "upvotes": 17,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
