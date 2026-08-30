@@ -4,10 +4,12 @@
  */
 
 // ── Static / Server mode detection ──────────────────────────────────────
-// When served from GitHub Pages, DATA_BASE points to the repo subfolder.
-// When served locally by Python server, DATA_BASE is empty and /api/ routes are used.
-const _STATIC_MODE = !window.location.hostname.includes('localhost') && !window.location.hostname.includes('127.0.0.1');
-const DATA_BASE = _STATIC_MODE ? window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1) : '';
+// Local Python server runs on port 5000 → server mode (/api/ routes).
+// GitHub Pages or http.server on any other port → static mode (./data/*.json).
+const _STATIC_MODE = !(window.location.port === '5000');
+const DATA_BASE = _STATIC_MODE
+  ? window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1)
+  : '';
 
 const state = {
   platform: 'github',            // 'github' | 'huggingface'

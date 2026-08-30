@@ -2,15 +2,10 @@ name: Build & Deploy to GitHub Pages
 
 on:
   schedule:
-    - cron: '0 1 * * *'   # 01:00 UTC mỗi ngày (08:00 giờ Hà Nội)
-  workflow_dispatch:        # Bấm chạy thủ công trên GitHub
+    - cron: '0 1 * * *'   # 01:00 UTC = 08:00 giờ Hà Nội
+  workflow_dispatch:
   push:
     branches: [main]
-    paths:
-      - 'static/**'
-      - 'services/**'
-      - 'scripts/**'
-      - 'export_stars.py'
 
 permissions:
   contents: write
@@ -40,31 +35,31 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: |
-          pip install requests
+        run: pip install requests
 
-      - name: Build static data & copy frontend
+      - name: Fetch all data into docs/data/ and data/
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python scripts/build_data.py vuongdat67
+        run: python scripts/ci_build_data.py vuongdat67
 
-      - name: Patch app.js for static mode (no-server)
+      - name: Sync frontend assets (static/ -> docs/)
         run: |
-          python scripts/patch_static_js.py
+          cp -f static/index.html docs/index.html
+          cp -rf static/css/ docs/css/
+          cp -rf static/js/  docs/js/
 
-      - name: Commit updated data files
+      - name: Commit data updates
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/ docs/ github_stars.md github_stars_by_topic.md github_stars_timeline.md github_stars.csv
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update data & pages build [skip ci]" && git push)
+          git add docs/ data/ github_stars.md github_stars_by_topic.md github_stars_timeline.md github_stars.csv 2>/dev/null || true
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: daily data sync [skip ci]" && git push)
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: 'docs'
 
