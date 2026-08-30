@@ -1,7 +1,7 @@
 # 🏷️ GitHub Starred Repositories Theo Chủ Đề - @vuongdat67
 
 > Phân loại thông minh 613 repositories theo lĩnh vực ứng dụng.
-> 🕒 Cập nhật: `2026-08-30 16:58:13`
+> 🕒 Cập nhật: `2026-08-30 17:00:22`
 
 ---
 
@@ -43,7 +43,7 @@
 - [**microsoft/markitdown**](https://github.com/microsoft/markitdown) - `Python` | ⭐ **177.2k** | 🍴 13.0k
   - Python tool for converting files and office documents to Markdown.
 
-- [**firecrawl/firecrawl**](https://github.com/firecrawl/firecrawl) - `TypeScript` | ⭐ **174.3k** | 🍴 9.6k
+- [**firecrawl/firecrawl**](https://github.com/firecrawl/firecrawl) - `TypeScript` | ⭐ **174.4k** | 🍴 9.6k
   - The context API to search, scrape, and interact with the web at scale. 🔥
 
 - [**anthropics/skills**](https://github.com/anthropics/skills) - `Python` | ⭐ **172.6k** | 🍴 20.5k
@@ -1121,7 +1121,7 @@
 - [**n8n-io/n8n**](https://github.com/n8n-io/n8n) - `TypeScript` | ⭐ **202.9k** | 🍴 60.5k
   - Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 
-- [**massgravel/Microsoft-Activation-Scripts**](https://github.com/massgravel/Microsoft-Activation-Scripts) - `Batchfile` | ⭐ **188.7k** | 🍴 18.0k
+- [**massgravel/Microsoft-Activation-Scripts**](https://github.com/massgravel/Microsoft-Activation-Scripts) - `Batchfile` | ⭐ **188.8k** | 🍴 18.0k
   - Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.
 
 - [**Significant-Gravitas/AutoGPT**](https://github.com/Significant-Gravitas/AutoGPT) - `Python` | ⭐ **187.0k** | 🍴 46.0k
@@ -1130,7 +1130,7 @@
 - [**microsoft/markitdown**](https://github.com/microsoft/markitdown) - `Python` | ⭐ **177.2k** | 🍴 13.0k
   - Python tool for converting files and office documents to Markdown.
 
-- [**firecrawl/firecrawl**](https://github.com/firecrawl/firecrawl) - `TypeScript` | ⭐ **174.3k** | 🍴 9.6k
+- [**firecrawl/firecrawl**](https://github.com/firecrawl/firecrawl) - `TypeScript` | ⭐ **174.4k** | 🍴 9.6k
   - The context API to search, scrape, and interact with the web at scale. 🔥
 
 - [**521xueweihan/HelloGitHub**](https://github.com/521xueweihan/HelloGitHub) - `Python` | ⭐ **173.8k** | 🍴 12.7k
@@ -2157,7 +2157,7 @@
 - [**TheAlgorithms/Python**](https://github.com/TheAlgorithms/Python) - `Python` | ⭐ **224.1k** | 🍴 51.0k
   - All Algorithms implemented in Python
 
-- [**massgravel/Microsoft-Activation-Scripts**](https://github.com/massgravel/Microsoft-Activation-Scripts) - `Batchfile` | ⭐ **188.7k** | 🍴 18.0k
+- [**massgravel/Microsoft-Activation-Scripts**](https://github.com/massgravel/Microsoft-Activation-Scripts) - `Batchfile` | ⭐ **188.8k** | 🍴 18.0k
   - Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.
 
 - [**Hack-with-Github/Awesome-Hacking**](https://github.com/Hack-with-Github/Awesome-Hacking) - `Others` | ⭐ **119.4k** | 🍴 10.7k
@@ -2514,7 +2514,7 @@
 - [**practical-tutorials/project-based-learning**](https://github.com/practical-tutorials/project-based-learning) - `Python` | ⭐ **281.3k** | 🍴 36.1k
   - Curated list of project-based tutorials
 
-- [**firecrawl/firecrawl**](https://github.com/firecrawl/firecrawl) - `TypeScript` | ⭐ **174.3k** | 🍴 9.6k
+- [**firecrawl/firecrawl**](https://github.com/firecrawl/firecrawl) - `TypeScript` | ⭐ **174.4k** | 🍴 9.6k
   - The context API to search, scrape, and interact with the web at scale. 🔥
 
 - [**langgenius/dify**](https://github.com/langgenius/dify) - `TypeScript` | ⭐ **153.9k** | 🍴 24.3k
@@ -3073,7 +3073,7 @@
 - [**ultraworkers/claw-code**](https://github.com/ultraworkers/claw-code) - `Rust` | ⭐ **195.2k** | 🍴 108.8k
   - An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.
 
-- [**massgravel/Microsoft-Activation-Scripts**](https://github.com/massgravel/Microsoft-Activation-Scripts) - `Batchfile` | ⭐ **188.7k** | 🍴 18.0k
+- [**massgravel/Microsoft-Activation-Scripts**](https://github.com/massgravel/Microsoft-Activation-Scripts) - `Batchfile` | ⭐ **188.8k** | 🍴 18.0k
   - Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.
 
 - [**vercel/next.js**](https://github.com/vercel/next.js) - `JavaScript` | ⭐ **142.0k** | 🍴 31.8k

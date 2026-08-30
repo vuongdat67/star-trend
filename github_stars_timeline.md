@@ -1,7 +1,7 @@
 # 📅 GitHub Starred Timeline - @vuongdat67
 
 > Lịch sử các repository đã star theo dòng thời gian.
-> 🕒 Cập nhật: `2026-08-30 16:58:13`
+> 🕒 Cập nhật: `2026-08-30 17:00:22`
 
 ---
 
@@ -437,7 +437,7 @@
 
 - `2026-07-18`: [**entbappy/ML-Based-Book-Recommender-System**](https://github.com/entbappy/ML-Based-Book-Recommender-System) (`Jupyter Notebook`) - ⭐ **22**
 
-- `2026-07-18`: [**massgravel/Microsoft-Activation-Scripts**](https://github.com/massgravel/Microsoft-Activation-Scripts) (`Batchfile`) - ⭐ **188.7k**
+- `2026-07-18`: [**massgravel/Microsoft-Activation-Scripts**](https://github.com/massgravel/Microsoft-Activation-Scripts) (`Batchfile`) - ⭐ **188.8k**
   - Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.
 
 - `2026-07-18`: [**karpathy/nanochat**](https://github.com/karpathy/nanochat) (`Python`) - ⭐ **57.7k**
@@ -589,7 +589,7 @@
 - `2026-07-11`: [**davila7/claude-code-templates**](https://github.com/davila7/claude-code-templates) (`Python`) - ⭐ **30.5k**
   - CLI tool for configuring and monitoring Claude Code
 
-- `2026-07-11`: [**firecrawl/firecrawl**](https://github.com/firecrawl/firecrawl) (`TypeScript`) - ⭐ **174.3k**
+- `2026-07-11`: [**firecrawl/firecrawl**](https://github.com/firecrawl/firecrawl) (`TypeScript`) - ⭐ **174.4k**
   - The context API to search, scrape, and interact with the web at scale. 🔥
 
 - `2026-07-10`: [**Hack-with-Github/Awesome-Hacking**](https://github.com/Hack-with-Github/Awesome-Hacking) (`Others`) - ⭐ **119.4k**

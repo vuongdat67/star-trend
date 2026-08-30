@@ -1,7 +1,7 @@
 # 🌟 GitHub Starred Repositories - @vuongdat67
 
 > Danh sách toàn bộ starred repositories của **[@vuongdat67](https://github.com/vuongdat67)**.
-> 🕒 Cập nhật: `2026-08-30 16:58:13` | 📦 Tổng số: **613** repositories
+> 🕒 Cập nhật: `2026-08-30 17:00:22` | 📦 Tổng số: **613** repositories
 
 ---
 
@@ -546,7 +546,7 @@
 - [**microsoft/vscode**](https://github.com/microsoft/vscode) - ⭐ **190.1k** | 🍴 41.9k | 📅 `2026-08-03`
   - Visual Studio Code
 
-- [**firecrawl/firecrawl**](https://github.com/firecrawl/firecrawl) - ⭐ **174.3k** | 🍴 9.6k | 📅 `2026-07-11`
+- [**firecrawl/firecrawl**](https://github.com/firecrawl/firecrawl) - ⭐ **174.4k** | 🍴 9.6k | 📅 `2026-07-11`
   - The context API to search, scrape, and interact with the web at scale. 🔥
 
 - [**langgenius/dify**](https://github.com/langgenius/dify) - ⭐ **153.9k** | 🍴 24.3k | 📅 `2026-08-30`
@@ -1868,7 +1868,7 @@
 
 ### Batchfile `(1)`
 
-- [**massgravel/Microsoft-Activation-Scripts**](https://github.com/massgravel/Microsoft-Activation-Scripts) - ⭐ **188.7k** | 🍴 18.0k | 📅 `2026-07-18`
+- [**massgravel/Microsoft-Activation-Scripts**](https://github.com/massgravel/Microsoft-Activation-Scripts) - ⭐ **188.8k** | 🍴 18.0k | 📅 `2026-07-18`
   - Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.
 
 
