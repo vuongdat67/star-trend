@@ -695,19 +695,31 @@ a {
 .topic-cloud-wrap {
   display: flex;
   flex-wrap: wrap;
+  align-content: flex-start;
   gap: 5px;
-  max-height: 380px;
+  max-height: 260px;
   overflow-y: auto;
-  padding-right: 2px;
+  padding: 8px;
+  background: var(--bg-input);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
 }
 
 .topic-cloud-wrap::-webkit-scrollbar {
-  width: 4px;
+  width: 5px;
+}
+
+.topic-cloud-wrap::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 .topic-cloud-wrap::-webkit-scrollbar-thumb {
   background: var(--border);
   border-radius: 4px;
+}
+
+.topic-cloud-wrap::-webkit-scrollbar-thumb:hover {
+  background: var(--text-faint);
 }
 
 .topic-pill {
