@@ -680,8 +680,8 @@
       "url": "https://huggingface.co/papers/2608.27345",
       "source": "Hugging Face Daily Papers",
       "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 95",
-      "upvotes": 95,
+      "badge": "⭐ 96",
+      "upvotes": 96,
       "authors": "Yuandong Pu, Le Zhuo, Sayak Paul",
       "published_at": "2026-08-26",
       "tags": [
@@ -1002,12 +1002,12 @@
     },
     {
       "title": "Omarchy: Any User Process Can Escalate to Root",
-      "summary": "Hacker News (80 pts, 37 comments) by @trap0xcc",
+      "summary": "Hacker News (94 pts, 50 comments) by @trap0xcc",
       "url": "https://0xcc.io/posts/omarchy-root-creds/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "80 pts",
-      "upvotes": 80,
+      "badge": "94 pts",
+      "upvotes": 94,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1017,12 +1017,12 @@
     },
     {
       "title": "Creepy Crawlies",
-      "summary": "Hacker News (295 pts, 133 comments) by @zdw",
+      "summary": "Hacker News (297 pts, 135 comments) by @zdw",
       "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "295 pts",
-      "upvotes": 295,
+      "badge": "297 pts",
+      "upvotes": 297,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1032,12 +1032,12 @@
     },
     {
       "title": "Haiku R1/beta6 has been released",
-      "summary": "Hacker News (52 pts, 8 comments) by @metrofun",
+      "summary": "Hacker News (57 pts, 9 comments) by @metrofun",
       "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "52 pts",
-      "upvotes": 52,
+      "badge": "57 pts",
+      "upvotes": 57,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1047,12 +1047,12 @@
     },
     {
       "title": "Hacking IKEA Furniture",
-      "summary": "Hacker News (154 pts, 81 comments) by @greenlightning",
+      "summary": "Hacker News (157 pts, 82 comments) by @greenlightning",
       "url": "https://greenlightning.eu/diy/hacking-ikea-furniture/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "154 pts",
-      "upvotes": 154,
+      "badge": "157 pts",
+      "upvotes": 157,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1062,7 +1062,7 @@
     },
     {
       "title": "Coordination Headwind: How Organizations Are Like Slime Molds",
-      "summary": "Hacker News (12 pts, 2 comments) by @rzk",
+      "summary": "Hacker News (12 pts, 3 comments) by @rzk",
       "url": "https://komoroske.com/slime-mold/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
@@ -1076,13 +1076,28 @@
       ]
     },
     {
+      "title": "Artie (YC S23) Is Hiring Technical AES",
+      "summary": "Hacker News (1 pts, 0 comments) by @j-cheong",
+      "url": "https://www.artie.com/careers?ashby_jid=e87b84d2-78b3-41a3-937a-47e83643cdf1",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "1 pts",
+      "upvotes": 1,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
       "title": "European Commission Revives Push for Encryption Backdoors in ProtectEU Strategy",
-      "summary": "Hacker News (94 pts, 21 comments) by @nickslaughter02",
+      "summary": "Hacker News (103 pts, 22 comments) by @nickslaughter02",
       "url": "https://reclaimthenet.org/eu-protecteu-strategy-encryption-backdoor-law-enforcement",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "94 pts",
-      "upvotes": 94,
+      "badge": "103 pts",
+      "upvotes": 103,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1092,42 +1107,12 @@
     },
     {
       "title": "Casey Muratori – The Root of the Root of All Evil – BSC 2026 [video]",
-      "summary": "Hacker News (192 pts, 87 comments) by @surprisetalk",
+      "summary": "Hacker News (193 pts, 90 comments) by @surprisetalk",
       "url": "https://www.youtube.com/watch?v=hpj6r6CjJf8",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "192 pts",
-      "upvotes": 192,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
-      "summary": "Hacker News (150 pts, 62 comments) by @vntok",
-      "url": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "150 pts",
-      "upvotes": 150,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
-      "summary": "Hacker News (163 pts, 48 comments) by @joebig",
-      "url": "https://arxiv.org/abs/1804.07389",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "163 pts",
-      "upvotes": 163,
+      "badge": "193 pts",
+      "upvotes": 193,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1137,12 +1122,42 @@
     },
     {
       "title": "Electric rain can eat through metal",
-      "summary": "Hacker News (11 pts, 2 comments) by @sohkamyung",
+      "summary": "Hacker News (14 pts, 3 comments) by @sohkamyung",
       "url": "https://www.scientificamerican.com/article/electric-rain-can-eat-through-metal/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "11 pts",
-      "upvotes": 11,
+      "badge": "14 pts",
+      "upvotes": 14,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
+      "summary": "Hacker News (152 pts, 63 comments) by @vntok",
+      "url": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "152 pts",
+      "upvotes": 152,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
+      "summary": "Hacker News (164 pts, 48 comments) by @joebig",
+      "url": "https://arxiv.org/abs/1804.07389",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "164 pts",
+      "upvotes": 164,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1152,12 +1167,27 @@
     },
     {
       "title": "Europe's summer drought is so extreme that desertification is a growing threat",
-      "summary": "Hacker News (89 pts, 76 comments) by @Brajeshwar",
+      "summary": "Hacker News (90 pts, 78 comments) by @Brajeshwar",
       "url": "https://fortune.com/2026/08/29/europe-summer-drought-desertification-threat-rivers-fish/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "89 pts",
-      "upvotes": 89,
+      "badge": "90 pts",
+      "upvotes": 90,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Zig: Pointer Stability for ArrayLists",
+      "summary": "Hacker News (15 pts, 0 comments) by @tosh",
+      "url": "https://ziglang.org/devlog/2026/#2026-08-27",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "15 pts",
+      "upvotes": 15,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1167,12 +1197,12 @@
     },
     {
       "title": "When fruit is scarce, these monkeys hunt animals",
-      "summary": "Hacker News (29 pts, 6 comments) by @cisc",
+      "summary": "Hacker News (31 pts, 6 comments) by @cisc",
       "url": "https://www.smithsonianmag.com/smart-news/when-fruit-is-scarce-these-monkeys-hunt-animals-the-behavior-may-offer-clues-about-the-origins-of-humans-meat-eating-habits-180989412/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "29 pts",
-      "upvotes": 29,
+      "badge": "31 pts",
+      "upvotes": 31,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1181,43 +1211,13 @@
       ]
     },
     {
-      "title": "Dad's Custom Atari Peripherals – By Jim Trageser",
-      "summary": "Hacker News (24 pts, 6 comments) by @rbanffy",
-      "url": "https://www.goto10retro.com/p/dads-custom-atari-peripherals",
+      "title": "METR and Redwood Offer Holy %^ Postmortem of the HuggingFace Hack",
+      "summary": "Hacker News (9 pts, 2 comments) by @catbird",
+      "url": "https://thezvi.wordpress.com/2026/08/29/metr-and-redwood-offer-holy-postmortem-of-the-huggingface-hack/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "24 pts",
-      "upvotes": 24,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "An implementation of Conway's Game of Life for Windows 3.1x and later",
-      "summary": "Hacker News (35 pts, 5 comments) by @Bluestein",
-      "url": "https://www.muppetlabs.com/~breadbox/software/windows.html",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "35 pts",
-      "upvotes": 35,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "What my dad taught me about AI coding in the 90s",
-      "summary": "Hacker News (79 pts, 40 comments) by @askmike",
-      "url": "https://askmike.org/articles/ai-coding-lessons-in-the-90s-from-my-dad/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "79 pts",
-      "upvotes": 79,
+      "badge": "9 pts",
+      "upvotes": 9,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",

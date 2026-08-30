@@ -1,7 +1,7 @@
 # 🌟 GitHub Starred Repositories - @vuongdat67
 
 > Danh sách toàn bộ starred repositories của **[@vuongdat67](https://github.com/vuongdat67)**.
-> 🕒 Cập nhật: `2026-08-30 17:00:22` | 📦 Tổng số: **613** repositories
+> 🕒 Cập nhật: `2026-08-30 17:05:51` | 📦 Tổng số: **613** repositories
 
 ---
 
@@ -630,7 +630,7 @@
 - [**garrytan/gbrain**](https://github.com/garrytan/gbrain) - ⭐ **29.3k** | 🍴 4.4k | 📅 `2026-04-13`
   - Garry's Opinionated OpenClaw/Hermes Agent Brain
 
-- [**can1357/oh-my-pi**](https://github.com/can1357/oh-my-pi) - ⭐ **28.4k** | 🍴 2.8k | 📅 `2026-08-08`
+- [**can1357/oh-my-pi**](https://github.com/can1357/oh-my-pi) - ⭐ **28.5k** | 🍴 2.8k | 📅 `2026-08-08`
   - ⌥ Coding agent with the IDE wired in
 
 - [**srbhr/Resume-Matcher**](https://github.com/srbhr/Resume-Matcher) - ⭐ **28.3k** | 🍴 5.0k | 📅 `2026-04-10`
@@ -666,7 +666,7 @@
 - [**claude-code-best/claude-code**](https://github.com/claude-code-best/claude-code) - ⭐ **22.3k** | 🍴 16.5k | 📅 `2026-04-02`
   - 原汁原昧 Claude Code 可运行,可构建, 可调试版; 生产级工程化, 企业级可靠性; 安全无毒, 内存泄露修复
 
-- [**pingdotgg/t3code**](https://github.com/pingdotgg/t3code) - ⭐ **21.0k** | 🍴 5.0k | 📅 `2026-07-13`
+- [**pingdotgg/t3code**](https://github.com/pingdotgg/t3code) - ⭐ **21.1k** | 🍴 5.0k | 📅 `2026-07-13`
 
 - [**refactoringhq/tolaria**](https://github.com/refactoringhq/tolaria) - ⭐ **19.6k** | 🍴 1.4k | 📅 `2026-04-24`
   - Desktop app to manage markdown knowledge bases
@@ -1520,7 +1520,7 @@
 
 - [**cmc-labo/tinyos-rtos**](https://github.com/cmc-labo/tinyos-rtos) - ⭐ **235** | 🍴 8 | 📅 `2026-04-04`
 
-- [**Mastercard/pkcs11-tools**](https://github.com/Mastercard/pkcs11-tools) - ⭐ **225** | 🍴 43 | 📅 `2026-05-07`
+- [**Mastercard/pkcs11-tools**](https://github.com/Mastercard/pkcs11-tools) - ⭐ **225** | 🍴 42 | 📅 `2026-05-07`
   - A set of tools to manage objects on PKCS#11 cryptographic tokens. Compatible with many PKCS#11 library, including major HSM brands, as well as software tokens such as NSS, softoken and kryoptic.
 
 - [**rockdaboot/libpsl**](https://github.com/rockdaboot/libpsl) - ⭐ **223** | 🍴 94 | 📅 `2026-05-20`
