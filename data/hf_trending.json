@@ -66,9 +66,9 @@
       "owner": "Qwen",
       "name": "Qwen3.8-27B",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "description": "Pipeline: image-text-to-text | Downloads: 4,511,348 | Likes: 13,317",
+      "description": "Pipeline: image-text-to-text | Downloads: 4,511,348 | Likes: 13,318",
       "pipeline_tag": "image-text-to-text",
-      "likes": 13317,
+      "likes": 13318,
       "downloads": 4511348,
       "tags": [
         "transformers",
@@ -106,9 +106,9 @@
       "owner": "unsloth",
       "name": "Qwen3.8-27B-GGUF",
       "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-      "description": "Pipeline: Model | Downloads: 8,839,153 | Likes: 3,217",
+      "description": "Pipeline: Model | Downloads: 8,839,153 | Likes: 3,218",
       "pipeline_tag": "Model",
-      "likes": 3217,
+      "likes": 3218,
       "downloads": 8839153,
       "tags": [
         "gguf",
@@ -126,9 +126,9 @@
       "owner": "Lightricks",
       "name": "LTX-2.5",
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "description": "Pipeline: image-to-video | Downloads: 1,137,181 | Likes: 2,220",
+      "description": "Pipeline: image-to-video | Downloads: 1,137,181 | Likes: 2,221",
       "pipeline_tag": "image-to-video",
-      "likes": 2220,
+      "likes": 2221,
       "downloads": 1137181,
       "tags": [
         "diffusion-single-file",
@@ -226,9 +226,9 @@
       "owner": "HauhauCS",
       "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
       "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-      "description": "Pipeline: image-text-to-text | Downloads: 1,158,065 | Likes: 772",
+      "description": "Pipeline: image-text-to-text | Downloads: 1,158,065 | Likes: 775",
       "pipeline_tag": "image-text-to-text",
-      "likes": 772,
+      "likes": 775,
       "downloads": 1158065,
       "tags": [
         "gguf",
@@ -246,9 +246,9 @@
       "owner": "MiniMaxAI",
       "name": "MiniMax-H3",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
-      "description": "Pipeline: image-text-to-video | Downloads: 5,263,381 | Likes: 4,646",
+      "description": "Pipeline: image-text-to-video | Downloads: 5,263,381 | Likes: 4,647",
       "pipeline_tag": "image-text-to-video",
-      "likes": 4646,
+      "likes": 4647,
       "downloads": 5263381,
       "tags": [
         "minimax-h3",
@@ -266,9 +266,9 @@
       "owner": "BreezeBlue",
       "name": "Breeze-TTS-2",
       "url": "https://huggingface.co/BreezeBlue/Breeze-TTS-2",
-      "description": "Pipeline: text-to-speech | Downloads: 1,838 | Likes: 206",
+      "description": "Pipeline: text-to-speech | Downloads: 1,838 | Likes: 207",
       "pipeline_tag": "text-to-speech",
-      "likes": 206,
+      "likes": 207,
       "downloads": 1838,
       "tags": [
         "transformers",
@@ -286,9 +286,9 @@
       "owner": "orcarouter",
       "name": "Qwen3.8-27B-Uncensored-FP8",
       "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
-      "description": "Pipeline: image-text-to-text | Downloads: 301,964 | Likes: 1,278",
+      "description": "Pipeline: image-text-to-text | Downloads: 301,964 | Likes: 1,279",
       "pipeline_tag": "image-text-to-text",
-      "likes": 1278,
+      "likes": 1279,
       "downloads": 301964,
       "tags": [
         "transformers",
@@ -306,9 +306,9 @@
       "owner": "FastVideo",
       "name": "FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree",
       "url": "https://huggingface.co/FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree",
-      "description": "Pipeline: text-to-video | Downloads: 0 | Likes: 182",
+      "description": "Pipeline: text-to-video | Downloads: 0 | Likes: 183",
       "pipeline_tag": "text-to-video",
-      "likes": 182,
+      "likes": 183,
       "downloads": 0,
       "tags": [
         "fastvideo",
@@ -486,9 +486,9 @@
       "owner": "huihui-ai",
       "name": "Huihui-Qwen3.8-27B-abliterated-GGUF",
       "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
-      "description": "Pipeline: image-text-to-text | Downloads: 1,622,056 | Likes: 450",
+      "description": "Pipeline: image-text-to-text | Downloads: 1,622,056 | Likes: 451",
       "pipeline_tag": "image-text-to-text",
-      "likes": 450,
+      "likes": 451,
       "downloads": 1622056,
       "tags": [
         "transformers",
@@ -546,9 +546,9 @@
       "owner": "Anthropic",
       "name": "claude-protein-binder-design",
       "url": "https://huggingface.co/Anthropic/claude-protein-binder-design",
-      "description": "Pipeline: Model | Downloads: 43,864 | Likes: 179",
+      "description": "Pipeline: Model | Downloads: 43,864 | Likes: 180",
       "pipeline_tag": "Model",
-      "likes": 179,
+      "likes": 180,
       "downloads": 43864,
       "tags": [
         "license:cc-by-4.0",
@@ -682,26 +682,6 @@
     },
     {
       "rank": 10,
-      "full_name": "HuggingFaceFW/fineweb",
-      "owner": "HuggingFaceFW",
-      "name": "fineweb",
-      "url": "https://huggingface.co/HuggingFaceFW/fineweb",
-      "description": "Pipeline: Model | Downloads: 419,342 | Likes: 3,270",
-      "pipeline_tag": "Model",
-      "likes": 3270,
-      "downloads": 419342,
-      "tags": [
-        "task_categories:text-generation",
-        "language:en",
-        "license:odc-by",
-        "size_categories:10B<n<100B",
-        "modality:tabular"
-      ],
-      "source": "huggingface",
-      "type": "datasets"
-    },
-    {
-      "rank": 11,
       "full_name": "malcolmrey/various",
       "owner": "malcolmrey",
       "name": "various",
@@ -721,7 +701,7 @@
       "type": "datasets"
     },
     {
-      "rank": 12,
+      "rank": 11,
       "full_name": "saidutta69/fable-5-premium",
       "owner": "saidutta69",
       "name": "fable-5-premium",
@@ -741,7 +721,7 @@
       "type": "datasets"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "full_name": "rajpurkar/squad",
       "owner": "rajpurkar",
       "name": "squad",
@@ -756,6 +736,26 @@
         "annotations_creators:crowdsourced",
         "language_creators:crowdsourced",
         "language_creators:found"
+      ],
+      "source": "huggingface",
+      "type": "datasets"
+    },
+    {
+      "rank": 13,
+      "full_name": "HuggingFaceFW/fineweb",
+      "owner": "HuggingFaceFW",
+      "name": "fineweb",
+      "url": "https://huggingface.co/HuggingFaceFW/fineweb",
+      "description": "Pipeline: Model | Downloads: 419,342 | Likes: 3,270",
+      "pipeline_tag": "Model",
+      "likes": 3270,
+      "downloads": 419342,
+      "tags": [
+        "task_categories:text-generation",
+        "language:en",
+        "license:odc-by",
+        "size_categories:10B<n<100B",
+        "modality:tabular"
       ],
       "source": "huggingface",
       "type": "datasets"
@@ -862,6 +862,26 @@
     },
     {
       "rank": 19,
+      "full_name": "stanfordnlp/imdb",
+      "owner": "stanfordnlp",
+      "name": "imdb",
+      "url": "https://huggingface.co/stanfordnlp/imdb",
+      "description": "Pipeline: Model | Downloads: 173,123 | Likes: 488",
+      "pipeline_tag": "Model",
+      "likes": 488,
+      "downloads": 173123,
+      "tags": [
+        "task_categories:text-classification",
+        "task_ids:sentiment-classification",
+        "annotations_creators:expert-generated",
+        "language_creators:expert-generated",
+        "multilinguality:monolingual"
+      ],
+      "source": "huggingface",
+      "type": "datasets"
+    },
+    {
+      "rank": 20,
       "full_name": "LightwheelAI/EgoDemo",
       "owner": "LightwheelAI",
       "name": "EgoDemo",
@@ -876,26 +896,6 @@
         "license:other",
         "size_categories:1K<n<10K",
         "modality:video"
-      ],
-      "source": "huggingface",
-      "type": "datasets"
-    },
-    {
-      "rank": 20,
-      "full_name": "stanfordnlp/imdb",
-      "owner": "stanfordnlp",
-      "name": "imdb",
-      "url": "https://huggingface.co/stanfordnlp/imdb",
-      "description": "Pipeline: Model | Downloads: 173,123 | Likes: 487",
-      "pipeline_tag": "Model",
-      "likes": 487,
-      "downloads": 173123,
-      "tags": [
-        "task_categories:text-classification",
-        "task_ids:sentiment-classification",
-        "annotations_creators:expert-generated",
-        "language_creators:expert-generated",
-        "multilinguality:monolingual"
       ],
       "source": "huggingface",
       "type": "datasets"

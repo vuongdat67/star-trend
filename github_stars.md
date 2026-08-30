@@ -1,7 +1,7 @@
 # 🌟 GitHub Starred Repositories - @vuongdat67
 
 > Danh sách toàn bộ starred repositories của **[@vuongdat67](https://github.com/vuongdat67)**.
-> 🕒 Cập nhật: `2026-08-30 17:10:25` | 📦 Tổng số: **613** repositories
+> 🕒 Cập nhật: `2026-08-30 17:14:06` | 📦 Tổng số: **613** repositories
 
 ---
 
@@ -277,7 +277,7 @@
 - [**OpenPipe/ART**](https://github.com/OpenPipe/ART) - ⭐ **10.7k** | 🍴 982 | 📅 `2026-01-28`
   - Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen3.6, GPT-OSS, Llama, and more!
 
-- [**cactus-compute/needle**](https://github.com/cactus-compute/needle) - ⭐ **9.7k** | 🍴 628 | 📅 `2026-08-14`
+- [**cactus-compute/needle**](https://github.com/cactus-compute/needle) - ⭐ **9.8k** | 🍴 628 | 📅 `2026-08-14`
   - 14MB foundation model for tiny devices; phones, wearables, smart home, and robots.
 
 - [**omnigent-ai/omnigent**](https://github.com/omnigent-ai/omnigent) - ⭐ **9.5k** | 🍴 1.5k | 📅 `2026-06-17`
@@ -334,7 +334,7 @@
 - [**sanyuan0704/sanyuan-skills**](https://github.com/sanyuan0704/sanyuan-skills) - ⭐ **3.9k** | 🍴 340 | 📅 `2026-02-11`
   - Expert code review skill: SOLID, security, performance, error handling, boundary conditions
 
-- [**elementalsouls/Claude-BugHunter**](https://github.com/elementalsouls/Claude-BugHunter) - ⭐ **3.9k** | 🍴 601 | 📅 `2026-05-19`
+- [**elementalsouls/Claude-BugHunter**](https://github.com/elementalsouls/Claude-BugHunter) - ⭐ **3.9k** | 🍴 602 | 📅 `2026-05-19`
   - A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
 
 - [**arxhr007/Aliens_eye**](https://github.com/arxhr007/Aliens_eye) - ⭐ **3.7k** | 🍴 425 | 📅 `2026-07-16`
@@ -1723,7 +1723,7 @@
 - [**taovietducofficial/CI-CD-Beginner**](https://github.com/taovietducofficial/CI-CD-Beginner) - ⭐ **134** | 🍴 21 | 📅 `2026-08-12`
   - Production CI/CD pipeline template with quality gates, container security, SLSA provenance, cosign signing, and automated release management.
 
-- [**hieuphung97/dely**](https://github.com/hieuphung97/dely) - ⭐ **20** | 🍴 4 | 📅 `2026-08-30`
+- [**hieuphung97/dely**](https://github.com/hieuphung97/dely) - ⭐ **20** | 🍴 5 | 📅 `2026-08-30`
   - A cross-harness delivery workflow for coding agents.
 
 
@@ -1735,7 +1735,7 @@
 - [**dockersamples/example-voting-app**](https://github.com/dockersamples/example-voting-app) - ⭐ **5.8k** | 🍴 16.2k | 📅 `2026-05-25`
   - Example distributed app composed of multiple containers for Docker, Compose, Swarm, and Kubernetes
 
-- [**dotnet/skills**](https://github.com/dotnet/skills) - ⭐ **5.3k** | 🍴 402 | 📅 `2026-07-08`
+- [**dotnet/skills**](https://github.com/dotnet/skills) - ⭐ **5.3k** | 🍴 403 | 📅 `2026-07-08`
   - Repository for skills to assist AI coding agents with .NET and C#
 
 - [**microsoft/EventLogExpert**](https://github.com/microsoft/EventLogExpert) - ⭐ **567** | 🍴 55 | 📅 `2026-07-28`

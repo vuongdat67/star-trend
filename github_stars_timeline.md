@@ -1,7 +1,7 @@
 # 📅 GitHub Starred Timeline - @vuongdat67
 
 > Lịch sử các repository đã star theo dòng thời gian.
-> 🕒 Cập nhật: `2026-08-30 17:10:25`
+> 🕒 Cập nhật: `2026-08-30 17:14:06`
 
 ---
 
@@ -144,7 +144,7 @@
 - `2026-08-14`: [**altic-dev/FluidVoice**](https://github.com/altic-dev/FluidVoice) (`Swift`) - ⭐ **11.1k**
   - Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. Windows pre-build available! A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp
 
-- `2026-08-14`: [**cactus-compute/needle**](https://github.com/cactus-compute/needle) (`Python`) - ⭐ **9.7k**
+- `2026-08-14`: [**cactus-compute/needle**](https://github.com/cactus-compute/needle) (`Python`) - ⭐ **9.8k**
   - 14MB foundation model for tiny devices; phones, wearables, smart home, and robots.
 
 - `2026-08-13`: [**pesoszpesosz/antigravity-auto-accept**](https://github.com/pesoszpesosz/antigravity-auto-accept) (`JavaScript`) - ⭐ **144**

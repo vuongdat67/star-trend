@@ -1,7 +1,7 @@
 # 🏷️ GitHub Starred Repositories Theo Chủ Đề - @vuongdat67
 
 > Phân loại thông minh 613 repositories theo lĩnh vực ứng dụng.
-> 🕒 Cập nhật: `2026-08-30 17:10:25`
+> 🕒 Cập nhật: `2026-08-30 17:14:06`
 
 ---
 
@@ -604,7 +604,7 @@
 - [**LaurieWired/GhidraMCP**](https://github.com/LaurieWired/GhidraMCP) - `Java` | ⭐ **9.9k** | 🍴 1.0k
   - MCP Server for Ghidra
 
-- [**cactus-compute/needle**](https://github.com/cactus-compute/needle) - `Python` | ⭐ **9.7k** | 🍴 628
+- [**cactus-compute/needle**](https://github.com/cactus-compute/needle) - `Python` | ⭐ **9.8k** | 🍴 628
   - 14MB foundation model for tiny devices; phones, wearables, smart home, and robots.
 
 - [**omnigent-ai/omnigent**](https://github.com/omnigent-ai/omnigent) - `Python` | ⭐ **9.5k** | 🍴 1.5k
@@ -676,7 +676,7 @@
 - [**PurpleAILAB/Decepticon**](https://github.com/PurpleAILAB/Decepticon) - `Python` | ⭐ **5.4k** | 🍴 1.0k
   - Autonomous Hacking Agent for Red Team
 
-- [**dotnet/skills**](https://github.com/dotnet/skills) - `C#` | ⭐ **5.3k** | 🍴 402
+- [**dotnet/skills**](https://github.com/dotnet/skills) - `C#` | ⭐ **5.3k** | 🍴 403
   - Repository for skills to assist AI coding agents with .NET and C#
 
 - [**V4bel/dirtyfrag**](https://github.com/V4bel/dirtyfrag) - `C` | ⭐ **5.0k** | 🍴 792
@@ -699,7 +699,7 @@
 - [**theori-io/copy-fail-CVE-2026-31431**](https://github.com/theori-io/copy-fail-CVE-2026-31431) - `Python` | ⭐ **4.1k** | 🍴 910
   - Copy Fail (CVE-2026-31431): 9-year-old Linux kernel LPE found by Theori's Xint Code
 
-- [**elementalsouls/Claude-BugHunter**](https://github.com/elementalsouls/Claude-BugHunter) - `Python` | ⭐ **3.9k** | 🍴 601
+- [**elementalsouls/Claude-BugHunter**](https://github.com/elementalsouls/Claude-BugHunter) - `Python` | ⭐ **3.9k** | 🍴 602
   - A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
 
 - [**arxhr007/Aliens_eye**](https://github.com/arxhr007/Aliens_eye) - `Python` | ⭐ **3.7k** | 🍴 425
@@ -1086,7 +1086,7 @@
 - [**profullstack/threatcrush**](https://github.com/profullstack/threatcrush) - `TypeScript` | ⭐ **21** | 🍴 15
   - Real-time threat intelligence platform with threat feeds, vulnerability tracking, attack surface monitoring, and threat actor intelligence.
 
-- [**hieuphung97/dely**](https://github.com/hieuphung97/dely) - `Shell` | ⭐ **20** | 🍴 4
+- [**hieuphung97/dely**](https://github.com/hieuphung97/dely) - `Shell` | ⭐ **20** | 🍴 5
   - A cross-harness delivery workflow for coding agents.
 
 - [**nileshparab42/Diabetes-Detection**](https://github.com/nileshparab42/Diabetes-Detection) - `Jupyter Notebook` | ⭐ **20** | 🍴 5
@@ -1526,7 +1526,7 @@
 - [**internetwache/GitTools**](https://github.com/internetwache/GitTools) - `Shell` | ⭐ **4.2k** | 🍴 632
   - A repository with 3 tools for pwn'ing websites with .git repositories available
 
-- [**elementalsouls/Claude-BugHunter**](https://github.com/elementalsouls/Claude-BugHunter) - `Python` | ⭐ **3.9k** | 🍴 601
+- [**elementalsouls/Claude-BugHunter**](https://github.com/elementalsouls/Claude-BugHunter) - `Python` | ⭐ **3.9k** | 🍴 602
   - A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
 
 - [**arxhr007/Aliens_eye**](https://github.com/arxhr007/Aliens_eye) - `Python` | ⭐ **3.7k** | 🍴 425
@@ -1715,7 +1715,7 @@
 - [**microsoft/SOC**](https://github.com/microsoft/SOC) - `JavaScript` | ⭐ **25** | 🍴 18
   - The Microsoft Student Security Operations Center (SOC) Toolkit is designed to equip facilitators with everything needed to prepare high school and college students to actively contribute to a Security Operations Center at their school or institution.
 
-- [**hieuphung97/dely**](https://github.com/hieuphung97/dely) - `Shell` | ⭐ **20** | 🍴 4
+- [**hieuphung97/dely**](https://github.com/hieuphung97/dely) - `Shell` | ⭐ **20** | 🍴 5
   - A cross-harness delivery workflow for coding agents.
 
 - [**grandcamel/Splunk-Assistant-Skills**](https://github.com/grandcamel/Splunk-Assistant-Skills) - `Python` | ⭐ **16** | 🍴 3
@@ -2313,7 +2313,7 @@
 - [**sanyuan0704/sanyuan-skills**](https://github.com/sanyuan0704/sanyuan-skills) - `Python` | ⭐ **3.9k** | 🍴 340
   - Expert code review skill: SOLID, security, performance, error handling, boundary conditions
 
-- [**elementalsouls/Claude-BugHunter**](https://github.com/elementalsouls/Claude-BugHunter) - `Python` | ⭐ **3.9k** | 🍴 601
+- [**elementalsouls/Claude-BugHunter**](https://github.com/elementalsouls/Claude-BugHunter) - `Python` | ⭐ **3.9k** | 🍴 602
   - A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
 
 - [**arxhr007/Aliens_eye**](https://github.com/arxhr007/Aliens_eye) - `Python` | ⭐ **3.7k** | 🍴 425
@@ -2688,7 +2688,7 @@
 - [**internetwache/GitTools**](https://github.com/internetwache/GitTools) - `Shell` | ⭐ **4.2k** | 🍴 632
   - A repository with 3 tools for pwn'ing websites with .git repositories available
 
-- [**elementalsouls/Claude-BugHunter**](https://github.com/elementalsouls/Claude-BugHunter) - `Python` | ⭐ **3.9k** | 🍴 601
+- [**elementalsouls/Claude-BugHunter**](https://github.com/elementalsouls/Claude-BugHunter) - `Python` | ⭐ **3.9k** | 🍴 602
   - A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
 
 - [**nextlevelbuilder/goclaw**](https://github.com/nextlevelbuilder/goclaw) - `Go` | ⭐ **3.6k** | 🍴 1.0k
