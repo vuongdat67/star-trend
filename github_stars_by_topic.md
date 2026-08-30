@@ -1,7 +1,7 @@
 # 🏷️ GitHub Starred Repositories Theo Chủ Đề - @vuongdat67
 
 > Phân loại thông minh 612 repositories theo lĩnh vực ứng dụng.
-> 🕒 Cập nhật: `2026-08-30 16:11:58`
+> 🕒 Cập nhật: `2026-08-30 16:19:24`
 
 ---
 
@@ -2169,7 +2169,7 @@
 - [**Z4nzu/hackingtool**](https://github.com/Z4nzu/hackingtool) - `Python` | ⭐ **79.2k** | 🍴 9.0k
   - ALL IN ONE Hacking Tool For Hackers
 
-- [**NationalSecurityAgency/ghidra**](https://github.com/NationalSecurityAgency/ghidra) - `Java` | ⭐ **73.7k** | 🍴 8.1k
+- [**NationalSecurityAgency/ghidra**](https://github.com/NationalSecurityAgency/ghidra) - `Java` | ⭐ **73.8k** | 🍴 8.1k
   - Ghidra is a software reverse engineering (SRE) framework
 
 - [**facebook/docusaurus**](https://github.com/facebook/docusaurus) - `TypeScript` | ⭐ **66.1k** | 🍴 10.0k
