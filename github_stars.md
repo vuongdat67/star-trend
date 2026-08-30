@@ -1,7 +1,7 @@
 # 🌟 GitHub Starred Repositories - @vuongdat67
 
 > Danh sách toàn bộ starred repositories của **[@vuongdat67](https://github.com/vuongdat67)**.
-> 🕒 Cập nhật: `2026-08-30 16:32:13` | 📦 Tổng số: **612** repositories
+> 🕒 Cập nhật: `2026-08-30 16:39:38` | 📦 Tổng số: **612** repositories
 
 ---
 
@@ -379,7 +379,7 @@
 - [**tsale/EDR-Telemetry**](https://github.com/tsale/EDR-Telemetry) - ⭐ **2.0k** | 🍴 200 | 📅 `2026-08-02`
   - This project aims to compare and evaluate the telemetry of various EDR products.
 
-- [**HackUnderway/SearchPhone**](https://github.com/HackUnderway/SearchPhone) - ⭐ **1.8k** | 🍴 246 | 📅 `2026-01-15`
+- [**HackUnderway/SearchPhone**](https://github.com/HackUnderway/SearchPhone) - ⭐ **1.8k** | 🍴 247 | 📅 `2026-01-15`
   - Phone number OSINT toolkit with multi-API search (Google, GitHub, Numverify, Reddit, DuckDuckGo), Hudson Rock infostealer intelligence, and automatic report generation.
 
 - [**pixeltable/pixeltable**](https://github.com/pixeltable/pixeltable) - ⭐ **1.6k** | 🍴 219 | 📅 `2026-06-13`
@@ -534,7 +534,7 @@
 - [**openclaw/openclaw**](https://github.com/openclaw/openclaw) - ⭐ **388.1k** | 🍴 81.5k | 📅 `2026-01-25`
   - Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
 
-- [**deepseek-ai/deepseek-harness**](https://github.com/deepseek-ai/deepseek-harness) - ⭐ **204.4k** | 🍴 23.7k | 📅 `2026-08-14`
+- [**deepseek-ai/deepseek-harness**](https://github.com/deepseek-ai/deepseek-harness) - ⭐ **204.5k** | 🍴 23.7k | 📅 `2026-08-14`
   - DeepSeek Harness: Everything is a Plugin.
 
 - [**n8n-io/n8n**](https://github.com/n8n-io/n8n) - ⭐ **202.9k** | 🍴 60.5k | 📅 `2026-05-10`
@@ -651,7 +651,7 @@
 - [**TencentCloud/TencentDB-Agent-Memory**](https://github.com/TencentCloud/TencentDB-Agent-Memory) - ⭐ **25.2k** | 🍴 2.4k | 📅 `2026-07-11`
   - TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.
 
-- [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) - ⭐ **23.4k** | 🍴 4.4k | 📅 `2026-08-30`
+- [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) - ⭐ **23.5k** | 🍴 4.4k | 📅 `2026-08-30`
   - Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
 
 - [**coleam00/Archon**](https://github.com/coleam00/Archon) - ⭐ **23.3k** | 🍴 3.5k | 📅 `2026-04-10`
@@ -1380,7 +1380,7 @@
 - [**shanraisshan/claude-code-best-practice**](https://github.com/shanraisshan/claude-code-best-practice) - ⭐ **65.4k** | 🍴 6.5k | 📅 `2026-04-10`
   - from vibe coding to agentic engineering - practice makes claude perfect
 
-- [**cathrynlavery/diagram-design**](https://github.com/cathrynlavery/diagram-design) - ⭐ **28.7k** | 🍴 1.8k | 📅 `2026-08-12`
+- [**cathrynlavery/diagram-design**](https://github.com/cathrynlavery/diagram-design) - ⭐ **28.8k** | 🍴 1.8k | 📅 `2026-08-12`
   - 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.
 
 - [**hasaneyldrm/exercises-dataset**](https://github.com/hasaneyldrm/exercises-dataset) - ⭐ **21.1k** | 🍴 2.7k | 📅 `2026-06-30`
@@ -1547,7 +1547,7 @@
 - [**JuliusBrussee/caveman**](https://github.com/JuliusBrussee/caveman) - ⭐ **101.8k** | 🍴 5.9k | 📅 `2026-05-08`
   - 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
 
-- [**infiniflow/ragflow**](https://github.com/infiniflow/ragflow) - ⭐ **89.6k** | 🍴 10.6k | 📅 `2026-08-14`
+- [**infiniflow/ragflow**](https://github.com/infiniflow/ragflow) - ⭐ **89.7k** | 🍴 10.6k | 📅 `2026-08-14`
   - RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
 
 - [**usememos/memos**](https://github.com/usememos/memos) - ⭐ **62.6k** | 🍴 4.7k | 📅 `2026-01-06`
@@ -1679,7 +1679,7 @@
 
 ### Shell `(15)`
 
-- [**obra/superpowers**](https://github.com/obra/superpowers) - ⭐ **279.6k** | 🍴 25.0k | 📅 `2026-05-12`
+- [**obra/superpowers**](https://github.com/obra/superpowers) - ⭐ **279.6k** | 🍴 25.1k | 📅 `2026-05-12`
   - An agentic skills framework & software development methodology that works.
 
 - [**mattpocock/skills**](https://github.com/mattpocock/skills) - ⭐ **241.6k** | 🍴 20.6k | 📅 `2026-03-20`
@@ -1823,7 +1823,7 @@
 - [**ChrisTitusTech/winutil**](https://github.com/ChrisTitusTech/winutil) - ⭐ **61.5k** | 🍴 3.6k | 📅 `2026-06-29`
   - Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 
-- [**zhaoxuya520/reverse-skill**](https://github.com/zhaoxuya520/reverse-skill) - ⭐ **31.7k** | 🍴 4.3k | 📅 `2026-06-24`
+- [**zhaoxuya520/reverse-skill**](https://github.com/zhaoxuya520/reverse-skill) - ⭐ **31.8k** | 🍴 4.3k | 📅 `2026-06-24`
   - Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端
 
 

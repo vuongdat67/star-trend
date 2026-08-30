@@ -3,6 +3,171 @@
  * Supports both local server mode (/api/...) and static GitHub Pages mode (./data/....json)
  */
 
+// ==================== STATIC MODE FLAG ====================
+const STATIC_MODE = true;
+const DATA_BASE = (() => {
+  // Works for GitHub Pages: https://user.github.io/repo/ and local file:// 
+  const loc = window.location.pathname;
+  const base = loc.substring(0, loc.lastIndexOf('/') + 1);
+  return base;
+})();
+
+// Rewritten fetch helpers for static JSON files
+async function fetchStarsData() {
+  try {
+    const res = await fetch(DATA_BASE + 'data/stars.json');
+    const data = await res.json();
+    state.starsRepos = data.repos || [];
+    state.stats = data.stats || {};
+    const counter = document.getElementById('stars-total-count');
+    if (counter) counter.textContent = state.starsRepos.length;
+    populateLanguageSelect();
+    renderSidebar();
+    if (state.feedMode === 'stars') renderFeed();
+  } catch (err) {
+    console.error('Stars fetch error:', err);
+  }
+}
+
+async function fetchNotesData() {
+  // Load from localStorage in static mode
+  try {
+    const raw = localStorage.getItem('notesData');
+    state.notesData = raw ? JSON.parse(raw) : { bookmarks: [], notes: {} };
+  } catch (err) {
+    state.notesData = { bookmarks: [], notes: {} };
+  }
+}
+
+async function fetchTrendingData() {
+  try {
+    const period = state.period || 'daily';
+    const res = await fetch(DATA_BASE + `data/trending_${period}.json`);
+    const data = await res.json();
+    let repos = data.repos || [];
+    if (state.selectedLang) {
+      repos = repos.filter(r => (r.language || '').toLowerCase() === state.selectedLang.toLowerCase());
+    }
+    state.trendingRepos = repos;
+    renderTicker();
+    if (state.platform === 'github' && state.feedMode === 'trending') {
+      renderSidebar();
+      renderFeed();
+    }
+  } catch (err) {
+    console.error('Trending fetch error:', err);
+    state.trendingRepos = [];
+  }
+}
+
+async function fetchFreshData() {
+  try {
+    const res = await fetch(DATA_BASE + 'data/fresh.json');
+    const data = await res.json();
+    let repos = data.repos || [];
+    if (state.selectedLang) {
+      repos = repos.filter(r => (r.language || '').toLowerCase() === state.selectedLang.toLowerCase());
+    }
+    state.freshRepos = repos;
+    if (state.platform === 'github' && state.feedMode === 'new') {
+      renderSidebar();
+      renderFeed();
+    }
+  } catch (err) {
+    console.error('Fresh fetch error:', err);
+    state.freshRepos = [];
+  }
+}
+
+async function fetchHFTrending() {
+  try {
+    const res = await fetch(DATA_BASE + 'data/hf_trending.json');
+    const data = await res.json();
+    state.hfTrending = data.items || [];
+    if (state.platform === 'huggingface') {
+      renderSidebar();
+      renderFeed();
+    }
+  } catch (err) {
+    console.error('HF fetch error:', err);
+    state.hfTrending = [];
+  }
+}
+
+async function fetchAIPulse() {
+  try {
+    const res = await fetch(DATA_BASE + 'data/ai_pulse.json');
+    const data = await res.json();
+    state.aiPulse = data.items || [];
+    if (state.feedMode === 'pulse') {
+      renderRadarSubfilters();
+      renderSidebar();
+      renderFeed();
+    }
+  } catch (err) {
+    console.error('AI pulse error:', err);
+  }
+}
+
+// Bookmark/Notes: save to localStorage
+async function toggleBookmark(fullName) {
+  const index = state.notesData.bookmarks.indexOf(fullName);
+  if (index >= 0) {
+    state.notesData.bookmarks.splice(index, 1);
+    showToast('Đã bỏ bookmark ' + fullName);
+  } else {
+    state.notesData.bookmarks.push(fullName);
+    showToast('Đã bookmark ' + fullName);
+  }
+  localStorage.setItem('notesData', JSON.stringify(state.notesData));
+  renderSidebar();
+  renderFeed();
+}
+
+async function saveCurrentNote() {
+  if (!state.activeNoteTarget) return;
+  const text = document.getElementById('note-textarea').value.trim();
+  const rawTags = document.getElementById('note-tags-input').value;
+  const tags = rawTags.split(',').map(t => t.trim()).filter(Boolean);
+
+  if (text || tags.length > 0) {
+    state.notesData.notes[state.activeNoteTarget] = { text, tags, updated_at: new Date().toISOString() };
+  } else {
+    delete state.notesData.notes[state.activeNoteTarget];
+  }
+
+  closeNoteModal();
+  showToast('Đã lưu ghi chú!');
+  localStorage.setItem('notesData', JSON.stringify(state.notesData));
+  renderFeed();
+}
+
+// Export: download JSON in static mode
+async function triggerCustomExport() {
+  showToast('Đang tải xuống dữ liệu...');
+  try {
+    const blob = new Blob([JSON.stringify({
+      repos: state.starsRepos,
+      trending: state.trendingRepos,
+      stats: state.stats
+    }, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'star-trend-export.json';
+    a.click();
+    URL.revokeObjectURL(url);
+    showToast('Đã tải xuống star-trend-export.json!');
+  } catch (err) {
+    showToast('Lỗi xuất file!', 'error');
+  }
+}
+
+// Sync: not available in static mode, inform user
+async function triggerSync() {
+  showToast('Chế độ tĩnh (GitHub Pages): Dữ liệu cập nhật hàng ngày qua GitHub Actions!', 'info');
+}
+
 // ── Static / Server mode detection ──────────────────────────────────────
 // When served from GitHub Pages, DATA_BASE points to the repo subfolder.
 // When served locally by Python server, DATA_BASE is empty and /api/ routes are used.
@@ -147,131 +312,6 @@ function handlePageLimitChange(val) {
 }
 
 // ==================== DATA FETCHERS (server + static mode) ====================
-async function fetchStarsData() {
-  try {
-    const url = _STATIC_MODE ? DATA_BASE + 'data/stars.json' : '/api/stars';
-    const res = await fetch(url);
-    const data = await res.json();
-    state.starsRepos = data.repos || [];
-    state.stats = data.stats || {};
-
-    const counter = document.getElementById('stars-total-count');
-    if (counter) counter.textContent = state.starsRepos.length;
-
-    populateLanguageSelect();
-    renderSidebar();
-
-    if (state.feedMode === 'stars') renderFeed();
-  } catch (err) {
-    console.error('Stars fetch error:', err);
-  }
-}
-
-async function fetchNotesData() {
-  if (_STATIC_MODE) {
-    try {
-      const raw = localStorage.getItem('notesData');
-      state.notesData = raw ? JSON.parse(raw) : { bookmarks: [], notes: {} };
-    } catch { state.notesData = { bookmarks: [], notes: {} }; }
-    return;
-  }
-  try {
-    const res = await fetch('/api/notes');
-    state.notesData = await res.json();
-  } catch (err) {
-    console.error('Notes fetch error:', err);
-  }
-}
-
-async function fetchTrendingData() {
-  try {
-    let repos;
-    if (_STATIC_MODE) {
-      const period = state.period || 'daily';
-      const res = await fetch(DATA_BASE + `data/trending_${period}.json`);
-      const data = await res.json();
-      repos = data.repos || [];
-      if (state.selectedLang) {
-        repos = repos.filter(r => (r.language || '').toLowerCase() === state.selectedLang.toLowerCase());
-      }
-    } else {
-      const lang = encodeURIComponent(state.selectedLang);
-      const since = encodeURIComponent(state.period);
-      const res = await fetch(`/api/trending?language=${lang}&since=${since}`);
-      const data = await res.json();
-      repos = data.repos || [];
-    }
-    state.trendingRepos = repos;
-    renderTicker();
-    if (state.platform === 'github' && state.feedMode === 'trending') {
-      renderSidebar();
-      renderFeed();
-    }
-  } catch (err) {
-    console.error('Trending fetch error:', err);
-    state.trendingRepos = [];
-  }
-}
-
-async function fetchFreshData() {
-  try {
-    let repos;
-    if (_STATIC_MODE) {
-      const res = await fetch(DATA_BASE + 'data/fresh.json');
-      const data = await res.json();
-      repos = data.repos || [];
-      if (state.selectedLang) {
-        repos = repos.filter(r => (r.language || '').toLowerCase() === state.selectedLang.toLowerCase());
-      }
-    } else {
-      const lang = encodeURIComponent(state.selectedLang);
-      const res = await fetch(`/api/fresh?language=${lang}`);
-      const data = await res.json();
-      repos = data.repos || [];
-    }
-    state.freshRepos = repos;
-    if (state.platform === 'github' && state.feedMode === 'new') {
-      renderSidebar();
-      renderFeed();
-    }
-  } catch (err) {
-    console.error('Fresh fetch error:', err);
-    state.freshRepos = [];
-  }
-}
-
-async function fetchHFTrending() {
-  try {
-    const url = _STATIC_MODE ? DATA_BASE + 'data/hf_trending.json' : '/api/hf-trending?type=models';
-    const res = await fetch(url);
-    const data = await res.json();
-    state.hfTrending = data.items || [];
-    if (state.platform === 'huggingface') {
-      renderSidebar();
-      renderFeed();
-    }
-  } catch (err) {
-    console.error('HF fetch error:', err);
-    state.hfTrending = [];
-  }
-}
-
-async function fetchAIPulse() {
-  try {
-    const url = _STATIC_MODE ? DATA_BASE + 'data/ai_pulse.json' : '/api/ai-pulse';
-    const res = await fetch(url);
-    const data = await res.json();
-    state.aiPulse = data.items || [];
-    if (state.feedMode === 'pulse') {
-      renderRadarSubfilters();
-      renderSidebar();
-      renderFeed();
-    }
-  } catch (err) {
-    console.error('AI pulse error:', err);
-  }
-}
-
 // ==================== EXACT USER MOMENTUM TICKER ====================
 function renderTicker() {
   const marquee = document.getElementById('ticker-marquee');
@@ -788,32 +828,6 @@ function populateLanguageSelect() {
 }
 
 // ==================== BOOKMARKS & NOTES ====================
-async function toggleBookmark(fullName) {
-  const index = state.notesData.bookmarks.indexOf(fullName);
-  if (index >= 0) {
-    state.notesData.bookmarks.splice(index, 1);
-    showToast(`Đã bỏ bookmark ${fullName}`);
-  } else {
-    state.notesData.bookmarks.push(fullName);
-    showToast(`Đã bookmark ${fullName}`);
-  }
-
-  renderSidebar();
-  renderFeed();
-
-  if (_STATIC_MODE) {
-    localStorage.setItem('notesData', JSON.stringify(state.notesData));
-  } else {
-    try {
-      await fetch('/api/notes', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(state.notesData)
-      });
-    } catch (err) { console.error('Bookmark save error:', err); }
-  }
-}
-
 function openNoteModal(targetName) {
   state.activeNoteTarget = targetName;
   document.getElementById('modal-repo-title').textContent = `Ghi chú cho ${targetName}`;
@@ -829,35 +843,6 @@ function closeNoteModal() {
   state.activeNoteTarget = null;
 }
 
-async function saveCurrentNote() {
-  if (!state.activeNoteTarget) return;
-  const text = document.getElementById('note-textarea').value.trim();
-  const rawTags = document.getElementById('note-tags-input').value;
-  const tags = rawTags.split(',').map(t => t.trim()).filter(Boolean);
-
-  if (text || tags.length > 0) {
-    state.notesData.notes[state.activeNoteTarget] = { text, tags, updated_at: new Date().toISOString() };
-  } else {
-    delete state.notesData.notes[state.activeNoteTarget];
-  }
-
-  closeNoteModal();
-  showToast('Đã lưu ghi chú!');
-  renderFeed();
-
-  if (_STATIC_MODE) {
-    localStorage.setItem('notesData', JSON.stringify(state.notesData));
-  } else {
-    try {
-      await fetch('/api/notes', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(state.notesData)
-      });
-    } catch (err) { console.error('Note save error:', err); }
-  }
-}
-
 // ==================== EXPORT & DOWNLOAD ====================
 function openExportModal() {
   document.getElementById('export-modal').classList.add('open');
@@ -865,62 +850,6 @@ function openExportModal() {
 
 function closeExportModal() {
   document.getElementById('export-modal').classList.remove('open');
-}
-
-async function triggerCustomExport() {
-  if (_STATIC_MODE) {
-    // Static mode: download as JSON blob
-    showToast('Đang tải xuống dữ liệu...');
-    try {
-      const blob = new Blob([JSON.stringify({ repos: state.starsRepos, trending: state.trendingRepos, stats: state.stats }, null, 2)], { type: 'application/json' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a'); a.href = url; a.download = 'star-trend-export.json'; a.click();
-      URL.revokeObjectURL(url);
-      showToast('Đã tải xuống star-trend-export.json!');
-    } catch (err) { showToast('Lỗi xuất file!', 'error'); }
-    return;
-  }
-  const customPath = document.getElementById('custom-export-path-input').value.trim();
-  showToast('Đang tạo và lưu các file...');
-  try {
-    const res = await fetch('/api/export', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ export_path: customPath || null })
-    });
-    const data = await res.json();
-    if (data.success) {
-      showToast(`Đã lưu 4 file vào: ${data.output_dir}`);
-    } else {
-      showToast(data.error || 'Lỗi xuất file!', 'error');
-    }
-  } catch (err) {
-    showToast('Lỗi khi xuất file!', 'error');
-  }
-}
-
-async function triggerSync() {
-  if (_STATIC_MODE) {
-    showToast('Dữ liệu cập nhật hàng ngày qua GitHub Actions!', 'info');
-    return;
-  }
-  const syncBtn = document.getElementById('sync-btn');
-  if (syncBtn) syncBtn.disabled = true;
-  showToast('Đang kết nối GitHub API để đồng bộ stars...');
-  try {
-    const res = await fetch('/api/sync', { method: 'POST' });
-    const data = await res.json();
-    if (data.success) {
-      showToast(data.message || 'Đồng bộ hoàn tất!');
-      await fetchStarsData();
-    } else {
-      showToast(data.error || 'Đồng bộ thất bại!', 'error');
-    }
-  } catch (err) {
-    showToast('Lỗi kết nối khi đồng bộ!', 'error');
-  } finally {
-    if (syncBtn) syncBtn.disabled = false;
-  }
 }
 
 // ==================== TOAST ====================
