@@ -606,9 +606,9 @@
       "owner": "SageBio",
       "name": "mva-hackathon-2026-data",
       "url": "https://huggingface.co/SageBio/mva-hackathon-2026-data",
-      "description": "Pipeline: Model | Downloads: 944 | Likes: 83",
+      "description": "Pipeline: Model | Downloads: 944 | Likes: 84",
       "pipeline_tag": "Model",
-      "likes": 83,
+      "likes": 84,
       "downloads": 944,
       "tags": [
         "license:cc-by-4.0",
@@ -682,26 +682,6 @@
     },
     {
       "rank": 10,
-      "full_name": "saidutta69/fable-5-premium",
-      "owner": "saidutta69",
-      "name": "fable-5-premium",
-      "url": "https://huggingface.co/saidutta69/fable-5-premium",
-      "description": "Pipeline: Model | Downloads: 8,612 | Likes: 66",
-      "pipeline_tag": "Model",
-      "likes": 66,
-      "downloads": 8612,
-      "tags": [
-        "task_categories:text-generation",
-        "task_categories:token-classification",
-        "language:en",
-        "license:mit",
-        "size_categories:10K<n<100K"
-      ],
-      "source": "huggingface",
-      "type": "datasets"
-    },
-    {
-      "rank": 11,
       "full_name": "HuggingFaceFW/fineweb",
       "owner": "HuggingFaceFW",
       "name": "fineweb",
@@ -721,7 +701,7 @@
       "type": "datasets"
     },
     {
-      "rank": 12,
+      "rank": 11,
       "full_name": "malcolmrey/various",
       "owner": "malcolmrey",
       "name": "various",
@@ -741,7 +721,47 @@
       "type": "datasets"
     },
     {
+      "rank": 12,
+      "full_name": "saidutta69/fable-5-premium",
+      "owner": "saidutta69",
+      "name": "fable-5-premium",
+      "url": "https://huggingface.co/saidutta69/fable-5-premium",
+      "description": "Pipeline: Model | Downloads: 8,612 | Likes: 66",
+      "pipeline_tag": "Model",
+      "likes": 66,
+      "downloads": 8612,
+      "tags": [
+        "task_categories:text-generation",
+        "task_categories:token-classification",
+        "language:en",
+        "license:mit",
+        "size_categories:10K<n<100K"
+      ],
+      "source": "huggingface",
+      "type": "datasets"
+    },
+    {
       "rank": 13,
+      "full_name": "rajpurkar/squad",
+      "owner": "rajpurkar",
+      "name": "squad",
+      "url": "https://huggingface.co/rajpurkar/squad",
+      "description": "Pipeline: Model | Downloads: 214,128 | Likes: 482",
+      "pipeline_tag": "Model",
+      "likes": 482,
+      "downloads": 214128,
+      "tags": [
+        "task_categories:question-answering",
+        "task_ids:extractive-qa",
+        "annotations_creators:crowdsourced",
+        "language_creators:crowdsourced",
+        "language_creators:found"
+      ],
+      "source": "huggingface",
+      "type": "datasets"
+    },
+    {
+      "rank": 14,
       "full_name": "TeichAI/Ox-Alpha-10k",
       "owner": "TeichAI",
       "name": "Ox-Alpha-10k",
@@ -761,7 +781,7 @@
       "type": "datasets"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "full_name": "Anthropic/enabling-independent-research",
       "owner": "Anthropic",
       "name": "enabling-independent-research",
@@ -776,26 +796,6 @@
         "size_categories:1K<n<10K",
         "format:csv",
         "modality:tabular"
-      ],
-      "source": "huggingface",
-      "type": "datasets"
-    },
-    {
-      "rank": 15,
-      "full_name": "rajpurkar/squad",
-      "owner": "rajpurkar",
-      "name": "squad",
-      "url": "https://huggingface.co/rajpurkar/squad",
-      "description": "Pipeline: Model | Downloads: 214,128 | Likes: 480",
-      "pipeline_tag": "Model",
-      "likes": 480,
-      "downloads": 214128,
-      "tags": [
-        "task_categories:question-answering",
-        "task_ids:extractive-qa",
-        "annotations_creators:crowdsourced",
-        "language_creators:crowdsourced",
-        "language_creators:found"
       ],
       "source": "huggingface",
       "type": "datasets"
@@ -886,9 +886,9 @@
       "owner": "stanfordnlp",
       "name": "imdb",
       "url": "https://huggingface.co/stanfordnlp/imdb",
-      "description": "Pipeline: Model | Downloads: 173,123 | Likes: 486",
+      "description": "Pipeline: Model | Downloads: 173,123 | Likes: 487",
       "pipeline_tag": "Model",
-      "likes": 486,
+      "likes": 487,
       "downloads": 173123,
       "tags": [
         "task_categories:text-classification",
