@@ -1,7 +1,7 @@
 # 🌟 GitHub Starred Repositories - @vuongdat67
 
 > Danh sách toàn bộ starred repositories của **[@vuongdat67](https://github.com/vuongdat67)**.
-> 🕒 Cập nhật: `2026-08-30 16:02:25` | 📦 Tổng số: **612** repositories
+> 🕒 Cập nhật: `2026-08-30 16:11:58` | 📦 Tổng số: **612** repositories
 
 ---
 
@@ -96,10 +96,10 @@
 - [**shareAI-lab/learn-claude-code**](https://github.com/shareAI-lab/learn-claude-code) - ⭐ **75.7k** | 🍴 12.2k | 📅 `2026-04-12`
   - Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1
 
-- [**unslothai/unsloth**](https://github.com/unslothai/unsloth) - ⭐ **75.2k** | 🍴 6.8k | 📅 `2026-08-14`
+- [**unslothai/unsloth**](https://github.com/unslothai/unsloth) - ⭐ **75.3k** | 🍴 6.8k | 📅 `2026-08-14`
   - Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, FLUX and more.
 
-- [**ComposioHQ/awesome-claude-skills**](https://github.com/ComposioHQ/awesome-claude-skills) - ⭐ **74.0k** | 🍴 8.5k | 📅 `2026-08-07`
+- [**ComposioHQ/awesome-claude-skills**](https://github.com/ComposioHQ/awesome-claude-skills) - ⭐ **74.1k** | 🍴 8.5k | 📅 `2026-08-07`
   - A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
 
 - [**Asabeneh/30-Days-Of-Python**](https://github.com/Asabeneh/30-Days-Of-Python) - ⭐ **72.3k** | 🍴 13.3k | 📅 `2026-05-12`
@@ -534,7 +534,7 @@
 - [**openclaw/openclaw**](https://github.com/openclaw/openclaw) - ⭐ **388.1k** | 🍴 81.5k | 📅 `2026-01-25`
   - Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
 
-- [**deepseek-ai/deepseek-harness**](https://github.com/deepseek-ai/deepseek-harness) - ⭐ **204.4k** | 🍴 23.6k | 📅 `2026-08-14`
+- [**deepseek-ai/deepseek-harness**](https://github.com/deepseek-ai/deepseek-harness) - ⭐ **204.4k** | 🍴 23.7k | 📅 `2026-08-14`
   - DeepSeek Harness: Everything is a Plugin.
 
 - [**n8n-io/n8n**](https://github.com/n8n-io/n8n) - ⭐ **202.9k** | 🍴 60.5k | 📅 `2026-05-10`
@@ -1192,7 +1192,7 @@
 - [**Hmbown/CodeWhale**](https://github.com/Hmbown/CodeWhale) - ⭐ **40.9k** | 🍴 3.5k | 📅 `2026-05-06`
   - Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome.
 
-- [**tinyhumansai/openhuman**](https://github.com/tinyhumansai/openhuman) - ⭐ **38.9k** | 🍴 3.8k | 📅 `2026-05-13`
+- [**tinyhumansai/openhuman**](https://github.com/tinyhumansai/openhuman) - ⭐ **39.0k** | 🍴 3.8k | 📅 `2026-05-13`
   - Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.
 
 - [**xai-org/x-algorithm**](https://github.com/xai-org/x-algorithm) - ⭐ **32.4k** | 🍴 5.3k | 📅 `2026-05-18`
@@ -1500,7 +1500,7 @@
 - [**daandemeyer/reproc**](https://github.com/daandemeyer/reproc) - ⭐ **649** | 🍴 81 | 📅 `2026-05-17`
   - A cross-platform (C99/C++11) process library
 
-- [**h2o/picotls**](https://github.com/h2o/picotls) - ⭐ **635** | 🍴 173 | 📅 `2026-05-03`
+- [**h2o/picotls**](https://github.com/h2o/picotls) - ⭐ **636** | 🍴 173 | 📅 `2026-05-03`
   - TLS 1.3 implementation in C (master supports RFC8446 as well as draft-26, -27, -28)
 
 - [**apache/apr**](https://github.com/apache/apr) - ⭐ **532** | 🍴 219 | 📅 `2026-05-13`
@@ -1772,7 +1772,7 @@
 - [**apple/container**](https://github.com/apple/container) - ⭐ **49.5k** | 🍴 1.8k | 📅 `2026-06-11`
   - A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.
 
-- [**altic-dev/FluidVoice**](https://github.com/altic-dev/FluidVoice) - ⭐ **11.1k** | 🍴 768 | 📅 `2026-08-14`
+- [**altic-dev/FluidVoice**](https://github.com/altic-dev/FluidVoice) - ⭐ **11.1k** | 🍴 769 | 📅 `2026-08-14`
   - Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. Windows pre-build available! A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp
 
 - [**TableProApp/TablePro**](https://github.com/TableProApp/TablePro) - ⭐ **5.6k** | 🍴 372 | 📅 `2026-05-17`

@@ -167,19 +167,6 @@ async function triggerSync() {
   showToast('Chế độ tĩnh (GitHub Pages): Dữ liệu cập nhật hàng ngày qua GitHub Actions!', 'info');
 }
 
-// ==================== STATIC MODE FLAG ====================
-const STATIC_MODE = true;
-const DATA_BASE = (() => {
-  // Works for GitHub Pages: https://user.github.io/repo/ and local file:// 
-  const loc = window.location.pathname;
-  const base = loc.substring(0, loc.lastIndexOf('/') + 1);
-  return base;
-})();
-
-// Rewritten fetch helpers for static JSON files
-// Bookmark/Notes: save to localStorage
-// Export: download JSON in static mode
-// Sync: not available in static mode, inform user
 const state = {
   platform: 'github',            // 'github' | 'huggingface'
   feedMode: 'trending',          // 'trending' | 'stars' | 'new' | 'pulse'

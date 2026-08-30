@@ -536,8 +536,8 @@
       "url": "https://huggingface.co/papers/2608.25518",
       "source": "Hugging Face Daily Papers",
       "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 140",
-      "upvotes": 140,
+      "badge": "⭐ 141",
+      "upvotes": 141,
       "authors": "Pengfei Zhou, Hexin Wang, Zhengfeiyang Zhang",
       "published_at": "2026-08-25",
       "tags": [
@@ -680,8 +680,8 @@
       "url": "https://huggingface.co/papers/2608.27345",
       "source": "Hugging Face Daily Papers",
       "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 90",
-      "upvotes": 90,
+      "badge": "⭐ 92",
+      "upvotes": 92,
       "authors": "Yuandong Pu, Le Zhuo, Sayak Paul",
       "published_at": "2026-08-26",
       "tags": [
@@ -1002,12 +1002,12 @@
     },
     {
       "title": "Creepy Crawlies",
-      "summary": "Hacker News (169 pts, 59 comments) by @zdw",
+      "summary": "Hacker News (217 pts, 76 comments) by @zdw",
       "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "169 pts",
-      "upvotes": 169,
+      "badge": "217 pts",
+      "upvotes": 217,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1017,12 +1017,27 @@
     },
     {
       "title": "No AI Fridays",
-      "summary": "Hacker News (169 pts, 77 comments) by @xendo",
+      "summary": "Hacker News (205 pts, 104 comments) by @xendo",
       "url": "https://noaifridays.com/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "169 pts",
-      "upvotes": 169,
+      "badge": "205 pts",
+      "upvotes": 205,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Haiku R1/beta6 has been released",
+      "summary": "Hacker News (6 pts, 2 comments) by @metrofun",
+      "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "6 pts",
+      "upvotes": 6,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1032,12 +1047,12 @@
     },
     {
       "title": "Hacking IKEA Furniture",
-      "summary": "Hacker News (126 pts, 65 comments) by @greenlightning",
+      "summary": "Hacker News (133 pts, 71 comments) by @greenlightning",
       "url": "https://greenlightning.eu/diy/hacking-ikea-furniture/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "126 pts",
-      "upvotes": 126,
+      "badge": "133 pts",
+      "upvotes": 133,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1047,12 +1062,12 @@
     },
     {
       "title": "Casey Muratori – The Root of the Root of All Evil – BSC 2026 [video]",
-      "summary": "Hacker News (165 pts, 57 comments) by @surprisetalk",
+      "summary": "Hacker News (173 pts, 68 comments) by @surprisetalk",
       "url": "https://www.youtube.com/watch?v=hpj6r6CjJf8",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "165 pts",
-      "upvotes": 165,
+      "badge": "173 pts",
+      "upvotes": 173,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1062,57 +1077,12 @@
     },
     {
       "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
-      "summary": "Hacker News (139 pts, 55 comments) by @vntok",
+      "summary": "Hacker News (143 pts, 57 comments) by @vntok",
       "url": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "139 pts",
-      "upvotes": 139,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
-      "summary": "Hacker News (155 pts, 43 comments) by @joebig",
-      "url": "https://arxiv.org/abs/1804.07389",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "155 pts",
-      "upvotes": 155,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Europe's summer drought is so extreme that desertification is a growing threat",
-      "summary": "Hacker News (50 pts, 38 comments) by @Brajeshwar",
-      "url": "https://fortune.com/2026/08/29/europe-summer-drought-desertification-threat-rivers-fish/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "50 pts",
-      "upvotes": 50,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "When Fruit Is Scarce, These Monkeys Hunt Animals",
-      "summary": "Hacker News (21 pts, 1 comments) by @cisc",
-      "url": "https://www.smithsonianmag.com/smart-news/when-fruit-is-scarce-these-monkeys-hunt-animals-the-behavior-may-offer-clues-about-the-origins-of-humans-meat-eating-habits-180989412/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "21 pts",
-      "upvotes": 21,
+      "badge": "143 pts",
+      "upvotes": 143,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1122,8 +1092,38 @@
     },
     {
       "title": "European Commission Revives Push for Encryption Backdoors in ProtectEU Strategy",
-      "summary": "Hacker News (24 pts, 5 comments) by @nickslaughter02",
+      "summary": "Hacker News (47 pts, 10 comments) by @nickslaughter02",
       "url": "https://reclaimthenet.org/eu-protecteu-strategy-encryption-backdoor-law-enforcement",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "47 pts",
+      "upvotes": 47,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
+      "summary": "Hacker News (158 pts, 44 comments) by @joebig",
+      "url": "https://arxiv.org/abs/1804.07389",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "158 pts",
+      "upvotes": 158,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "When Fruit Is Scarce, These Monkeys Hunt Animals",
+      "summary": "Hacker News (24 pts, 1 comments) by @cisc",
+      "url": "https://www.smithsonianmag.com/smart-news/when-fruit-is-scarce-these-monkeys-hunt-animals-the-behavior-may-offer-clues-about-the-origins-of-humans-meat-eating-habits-180989412/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
       "badge": "24 pts",
@@ -1152,57 +1152,12 @@
     },
     {
       "title": "Brits would quite like their private messages to stay private",
-      "summary": "Hacker News (280 pts, 206 comments) by @defrost",
+      "summary": "Hacker News (287 pts, 211 comments) by @defrost",
       "url": "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "280 pts",
-      "upvotes": 280,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "What my dad taught me about AI coding in the 90s",
-      "summary": "Hacker News (72 pts, 35 comments) by @askmike",
-      "url": "https://askmike.org/articles/ai-coding-lessons-in-the-90s-from-my-dad/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "72 pts",
-      "upvotes": 72,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "RISC-V is now officially supported by CPython",
-      "summary": "Hacker News (250 pts, 43 comments) by @lumpa",
-      "url": "https://blog.python.org/2026/08/riscv-now-officially-supported/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "250 pts",
-      "upvotes": 250,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Automating Immersive Reading",
-      "summary": "Hacker News (41 pts, 14 comments) by @smoores",
-      "url": "https://smoores.dev/post/automating_immersive_reading/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "41 pts",
-      "upvotes": 41,
+      "badge": "287 pts",
+      "upvotes": 287,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1212,12 +1167,57 @@
     },
     {
       "title": "Dad's Custom Atari Peripherals – By Jim Trageser",
-      "summary": "Hacker News (12 pts, 3 comments) by @rbanffy",
+      "summary": "Hacker News (16 pts, 3 comments) by @rbanffy",
       "url": "https://www.goto10retro.com/p/dads-custom-atari-peripherals",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "12 pts",
-      "upvotes": 12,
+      "badge": "16 pts",
+      "upvotes": 16,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Europe's summer drought is so extreme that desertification is a growing threat",
+      "summary": "Hacker News (60 pts, 46 comments) by @Brajeshwar",
+      "url": "https://fortune.com/2026/08/29/europe-summer-drought-desertification-threat-rivers-fish/",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "60 pts",
+      "upvotes": 60,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "What my dad taught me about AI coding in the 90s",
+      "summary": "Hacker News (74 pts, 38 comments) by @askmike",
+      "url": "https://askmike.org/articles/ai-coding-lessons-in-the-90s-from-my-dad/",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "74 pts",
+      "upvotes": 74,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "RISC-V is now officially supported by CPython",
+      "summary": "Hacker News (253 pts, 44 comments) by @lumpa",
+      "url": "https://blog.python.org/2026/08/riscv-now-officially-supported/",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "253 pts",
+      "upvotes": 253,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
