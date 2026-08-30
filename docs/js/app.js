@@ -5,11 +5,26 @@
 
 // ── Static / Server mode detection ──────────────────────────────────────
 // Local Python server runs on port 5000 → server mode (/api/ routes).
-// GitHub Pages or http.server on any other port → static mode (./data/*.json).
+// GitHub Pages or any other host → static mode (./data/*.json).
 const _STATIC_MODE = !(window.location.port === '5000');
-const DATA_BASE = _STATIC_MODE
-  ? window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1)
-  : '';
+
+// DATA_BASE: always derived from the actual script tag location,
+// so it works regardless of trailing slash or repo sub-path.
+const DATA_BASE = (() => {
+  if (!_STATIC_MODE) return '';
+  // Find this script's src to get the correct base directory
+  const scripts = document.querySelectorAll('script[src]');
+  for (const s of scripts) {
+    if (s.src && s.src.includes('app.js')) {
+      // s.src is absolute: https://host/path/js/app.js → strip /js/app.js
+      return s.src.replace(/js\/app\.js.*$/, '');
+    }
+  }
+  // Fallback: use pathname but ensure trailing slash
+  const p = window.location.pathname;
+  const dir = p.endsWith('/') ? p : p.substring(0, p.lastIndexOf('/') + 1);
+  return dir;
+})();
 
 const state = {
   platform: 'github',            // 'github' | 'huggingface'
