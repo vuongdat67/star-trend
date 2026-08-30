@@ -1,0 +1,34 @@
+name: Daily Auto-Sync Stars & Trends
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Chạy tự động mỗi ngày vào 00:00 UTC
+  workflow_dispatch: # Cho phép bấm chạy thủ công trực tiếp từ GitHub Web UI
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run Full Sync Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python services/sync_all.py vuongdat67
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add github_stars.md github_stars_by_topic.md github_stars_timeline.md github_stars.csv data/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(sync): automated stars & trends update [skip ci]" && git push)
