@@ -1,7 +1,7 @@
 # 📅 GitHub Starred Timeline - @vuongdat67
 
 > Lịch sử các repository đã star theo dòng thời gian.
-> 🕒 Cập nhật: `2026-08-30 16:19:24`
+> 🕒 Cập nhật: `2026-08-30 16:30:07`
 
 ---
 
@@ -10,7 +10,7 @@
 - `2026-08-30`: [**hieuphung97/dely**](https://github.com/hieuphung97/dely) (`Shell`) - ⭐ **20**
   - A cross-harness delivery workflow for coding agents.
 
-- `2026-08-30`: [**K-Dense-AI/scientific-agent-skills**](https://github.com/K-Dense-AI/scientific-agent-skills) (`Python`) - ⭐ **38.7k**
+- `2026-08-30`: [**K-Dense-AI/scientific-agent-skills**](https://github.com/K-Dense-AI/scientific-agent-skills) (`Python`) - ⭐ **38.8k**
   - Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
 
 - `2026-08-30`: [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) (`TypeScript`) - ⭐ **23.4k**
@@ -57,7 +57,7 @@
 - `2026-08-27`: [**b-nnett/grok-bot-0.18-reconstructed**](https://github.com/b-nnett/grok-bot-0.18-reconstructed) (`TypeScript`) - ⭐ **3.4k**
   - Unofficial source-oriented reconstruction and extension of Grok Bot 0.18.0 for macOS
 
-- `2026-08-27`: [**kentjuno/ainovel-cli**](https://github.com/kentjuno/ainovel-cli) (`Go`) - ⭐ **482**
+- `2026-08-27`: [**kentjuno/ainovel-cli**](https://github.com/kentjuno/ainovel-cli) (`Go`) - ⭐ **483**
   - CLI sáng tác tiểu thuyết AI đa agent — Bản tiếng Việt của voocel/ainovel-cli
 
 - `2026-08-23`: [**cclank/lanshu-create-ai-presenter-video**](https://github.com/cclank/lanshu-create-ai-presenter-video) (`Python`) - ⭐ **980**
@@ -665,7 +665,7 @@
 - `2026-07-02`: [**Fraud-Detection-Handbook/fraud-detection-handbook**](https://github.com/Fraud-Detection-Handbook/fraud-detection-handbook) (`Jupyter Notebook`) - ⭐ **727**
   - Reproducible Machine Learning for Credit Card Fraud Detection - Practical Handbook
 
-- `2026-07-02`: [**Shubhamsaboo/awesome-llm-apps**](https://github.com/Shubhamsaboo/awesome-llm-apps) (`Python`) - ⭐ **135.2k**
+- `2026-07-02`: [**Shubhamsaboo/awesome-llm-apps**](https://github.com/Shubhamsaboo/awesome-llm-apps) (`Python`) - ⭐ **135.3k**
   - 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
 
 - `2026-07-02`: [**usestrix/strix**](https://github.com/usestrix/strix) (`Python`) - ⭐ **59.4k**
