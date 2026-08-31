@@ -1,7 +1,7 @@
 # 📅 GitHub Starred Timeline - @vuongdat67
 
 > Lịch sử các repository đã star theo dòng thời gian.
-> 🕒 Cập nhật: `2026-08-31 03:02:38`
+> 🕒 Cập nhật: `2026-08-31 03:14:20`
 
 ---
 
@@ -10,7 +10,7 @@
 - `2026-08-31`: [**cline/cline**](https://github.com/cline/cline) (`TypeScript`) - ⭐ **67.2k**
   - Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
 
-- `2026-08-30`: [**tt-a1i/archify**](https://github.com/tt-a1i/archify) (`JavaScript`) - ⭐ **35.1k**
+- `2026-08-30`: [**tt-a1i/archify**](https://github.com/tt-a1i/archify) (`JavaScript`) - ⭐ **35.2k**
   - Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
 
 - `2026-08-30`: [**open-free-llm-api/awesome-freellm-apis**](https://github.com/open-free-llm-api/awesome-freellm-apis) (`Others`) - ⭐ **2.6k**
@@ -22,7 +22,7 @@
 - `2026-08-30`: [**K-Dense-AI/scientific-agent-skills**](https://github.com/K-Dense-AI/scientific-agent-skills) (`Python`) - ⭐ **39.5k**
   - Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
 
-- `2026-08-30`: [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) (`TypeScript`) - ⭐ **24.4k**
+- `2026-08-30`: [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) (`TypeScript`) - ⭐ **24.5k**
   - Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
 
 - `2026-08-30`: [**AprilNEA/claude-code-source**](https://github.com/AprilNEA/claude-code-source) (`TypeScript`) - ⭐ **392**
@@ -1206,7 +1206,7 @@
 - `2026-04-29`: [**codecrafters-io/build-your-own-x**](https://github.com/codecrafters-io/build-your-own-x) (`Markdown`) - ⭐ **544.1k**
   - Master programming by recreating your favorite technologies from scratch.
 
-- `2026-04-29`: [**openai/symphony**](https://github.com/openai/symphony) (`Elixir`) - ⭐ **26.9k**
+- `2026-04-29`: [**openai/symphony**](https://github.com/openai/symphony) (`Elixir`) - ⭐ **27.0k**
   - Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.
 
 - `2026-04-29`: [**warpdotdev/warp**](https://github.com/warpdotdev/warp) (`Rust`) - ⭐ **64.7k**
@@ -1314,7 +1314,7 @@
 - `2026-04-16`: [**YishenTu/claudian**](https://github.com/YishenTu/claudian) (`TypeScript`) - ⭐ **15.1k**
   - An Obsidian plugin that embeds Claude Code/Codex as an AI collaborator in your vault
 
-- `2026-04-16`: [**Lordog/dive-into-llms**](https://github.com/Lordog/dive-into-llms) (`Jupyter Notebook`) - ⭐ **50.6k**
+- `2026-04-16`: [**Lordog/dive-into-llms**](https://github.com/Lordog/dive-into-llms) (`Jupyter Notebook`) - ⭐ **50.7k**
   - 《动手学大模型Dive into LLMs》系列编程实践教程
 
 - `2026-04-16`: [**Aditya-Mankar/Diabetes-Prediction**](https://github.com/Aditya-Mankar/Diabetes-Prediction) (`Jupyter Notebook`) - ⭐ **167**

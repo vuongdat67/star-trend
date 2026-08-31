@@ -7,7 +7,7 @@
       "html_url": "https://github.com/cline/cline",
       "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
       "language": "TypeScript",
-      "stars": 67193,
+      "stars": 67194,
       "forks": 7254,
       "open_issues": 1153,
       "topics": [],
@@ -29,8 +29,8 @@
       "html_url": "https://github.com/tt-a1i/archify",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
-      "stars": 35149,
-      "forks": 2251,
+      "stars": 35198,
+      "forks": 2253,
       "open_issues": 76,
       "topics": [
         "agent-skills",
@@ -125,7 +125,7 @@
       "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "language": "Python",
-      "stars": 39471,
+      "stars": 39493,
       "forks": 3668,
       "open_issues": 22,
       "topics": [
@@ -167,8 +167,8 @@
       "html_url": "https://github.com/THU-MAIC/OpenMAIC",
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
-      "stars": 24414,
-      "forks": 4513,
+      "stars": 24458,
+      "forks": 4514,
       "open_issues": 219,
       "topics": [],
       "starred_at": "2026-08-30T13:44:07Z",
@@ -264,9 +264,9 @@
       "html_url": "https://github.com/langgenius/dify",
       "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
       "language": "TypeScript",
-      "stars": 153932,
-      "forks": 24315,
-      "open_issues": 997,
+      "stars": 153933,
+      "forks": 24316,
+      "open_issues": 998,
       "topics": [
         "agent",
         "agentic-ai",
@@ -384,7 +384,7 @@
       "html_url": "https://github.com/voocel/ainovel-cli",
       "description": "✨多agent实现全自动AI小说生成",
       "language": "Go",
-      "stars": 1876,
+      "stars": 1877,
       "forks": 388,
       "open_issues": 24,
       "topics": [
@@ -523,7 +523,7 @@
       "language": "TypeScript",
       "stars": 15554,
       "forks": 1682,
-      "open_issues": 1159,
+      "open_issues": 1161,
       "topics": [
         "ade",
         "agents",
@@ -725,7 +725,7 @@
       "html_url": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "stars": 12160,
+      "stars": 12165,
       "forks": 1912,
       "open_issues": 22,
       "topics": [
@@ -958,7 +958,7 @@
       "html_url": "https://github.com/Lake1059/FFmpegFreeUI",
       "description": "3FUI 是 ffmpeg 在 Windows 上的轻度专业交互外壳，收录大量参数，界面美观，交互友好。此项目面向国内使用环境，让普通人也能够轻松压制视频和转换格式。",
       "language": "Visual Basic .NET",
-      "stars": 8110,
+      "stars": 8111,
       "forks": 480,
       "open_issues": 2,
       "topics": [
@@ -1005,7 +1005,7 @@
       "html_url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars": 43199,
+      "stars": 43200,
       "forks": 4159,
       "open_issues": 242,
       "topics": [
@@ -1060,7 +1060,7 @@
       "html_url": "https://github.com/h4ckf0r0day/obscura",
       "description": "The headless browser for AI agents and web scraping",
       "language": "Rust",
-      "stars": 22494,
+      "stars": 22499,
       "forks": 1679,
       "open_issues": 101,
       "topics": [
@@ -1094,7 +1094,7 @@
       "html_url": "https://github.com/krillinai/KrillinAI",
       "description": "AI video translation & dubbing tool for humans and AI Agents, powered by LLMs. Full pipeline: download, transcribe, translate, TTS dub, reformat, cover generation. 100+ languages, optimized for YouTube, TikTok, Bilibili, Douyin, and more.AI视频翻译配音工具，面向人类与AI Agent，100+语言全链路，CLI分阶段调用，适配抖音、小红书、哔哩哔哩、视频号、TikTok、YouTube",
       "language": "Go",
-      "stars": 11296,
+      "stars": 11297,
       "forks": 1079,
       "open_issues": 36,
       "topics": [
@@ -1266,8 +1266,8 @@
       "html_url": "https://github.com/deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "language": "TypeScript",
-      "stars": 204961,
-      "forks": 23739,
+      "stars": 204987,
+      "forks": 23744,
       "open_issues": 0,
       "topics": [
         "ai-agents",
@@ -1292,7 +1292,7 @@
       "html_url": "https://github.com/lightningpixel/modly",
       "description": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
       "language": "TypeScript",
-      "stars": 7331,
+      "stars": 7332,
       "forks": 691,
       "open_issues": 67,
       "topics": [
@@ -1322,7 +1322,7 @@
       "html_url": "https://github.com/infiniflow/ragflow",
       "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
       "language": "Go",
-      "stars": 89682,
+      "stars": 89686,
       "forks": 10575,
       "open_issues": 1751,
       "topics": [
@@ -1401,7 +1401,7 @@
       "html_url": "https://github.com/altic-dev/FluidVoice",
       "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. Windows pre-build available! A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp",
       "language": "Swift",
-      "stars": 11090,
+      "stars": 11091,
       "forks": 769,
       "open_issues": 85,
       "topics": [
@@ -1430,7 +1430,7 @@
       "html_url": "https://github.com/cactus-compute/needle",
       "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
       "language": "Python",
-      "stars": 9790,
+      "stars": 9792,
       "forks": 630,
       "open_issues": 32,
       "topics": [
@@ -1697,7 +1697,7 @@
       "html_url": "https://github.com/guillaumemeyer/watermarks-remover",
       "description": "A privacy-first app that strips AI watermarks from content you own.",
       "language": "Python",
-      "stars": 19507,
+      "stars": 19508,
       "forks": 2267,
       "open_issues": 13,
       "topics": [
@@ -1756,8 +1756,8 @@
       "html_url": "https://github.com/cathrynlavery/diagram-design",
       "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "stars": 28843,
-      "forks": 1839,
+      "stars": 28847,
+      "forks": 1840,
       "open_issues": 30,
       "topics": [
         "agent-skills",

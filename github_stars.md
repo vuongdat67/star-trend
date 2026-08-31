@@ -1,7 +1,7 @@
 # 🌟 GitHub Starred Repositories - @vuongdat67
 
 > Danh sách toàn bộ starred repositories của **[@vuongdat67](https://github.com/vuongdat67)**.
-> 🕒 Cập nhật: `2026-08-31 03:02:38` | 📦 Tổng số: **615** repositories
+> 🕒 Cập nhật: `2026-08-31 03:14:20` | 📦 Tổng số: **615** repositories
 
 ---
 
@@ -191,7 +191,7 @@
 - [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) - ⭐ **34.5k** | 🍴 2.6k | 📅 `2026-07-06`
   - Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.
 
-- [**HKUDS/Vibe-Trading**](https://github.com/HKUDS/Vibe-Trading) - ⭐ **32.1k** | 🍴 5.2k | 📅 `2026-07-13`
+- [**HKUDS/Vibe-Trading**](https://github.com/HKUDS/Vibe-Trading) - ⭐ **32.1k** | 🍴 5.3k | 📅 `2026-07-13`
   - "Vibe-Trading: Your Personal Trading Agent"
 
 - [**mukul975/Anthropic-Cybersecurity-Skills**](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) - ⭐ **31.7k** | 🍴 3.8k | 📅 `2026-06-23`
@@ -379,7 +379,7 @@
 - [**tsale/EDR-Telemetry**](https://github.com/tsale/EDR-Telemetry) - ⭐ **2.0k** | 🍴 200 | 📅 `2026-08-02`
   - This project aims to compare and evaluate the telemetry of various EDR products.
 
-- [**HackUnderway/SearchPhone**](https://github.com/HackUnderway/SearchPhone) - ⭐ **1.9k** | 🍴 248 | 📅 `2026-01-15`
+- [**HackUnderway/SearchPhone**](https://github.com/HackUnderway/SearchPhone) - ⭐ **1.9k** | 🍴 249 | 📅 `2026-01-15`
   - Phone number OSINT toolkit with multi-API search (Google, GitHub, Numverify, Reddit, DuckDuckGo), Hudson Rock infostealer intelligence, and automatic report generation.
 
 - [**pixeltable/pixeltable**](https://github.com/pixeltable/pixeltable) - ⭐ **1.6k** | 🍴 219 | 📅 `2026-06-13`
@@ -654,7 +654,7 @@
 - [**TencentCloud/TencentDB-Agent-Memory**](https://github.com/TencentCloud/TencentDB-Agent-Memory) - ⭐ **25.3k** | 🍴 2.4k | 📅 `2026-07-11`
   - TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.
 
-- [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) - ⭐ **24.4k** | 🍴 4.5k | 📅 `2026-08-30`
+- [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) - ⭐ **24.5k** | 🍴 4.5k | 📅 `2026-08-30`
   - Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
 
 - [**coleam00/Archon**](https://github.com/coleam00/Archon) - ⭐ **23.3k** | 🍴 3.5k | 📅 `2026-04-10`
@@ -846,7 +846,7 @@
 - [**anthropics/claude-cookbooks**](https://github.com/anthropics/claude-cookbooks) - ⭐ **52.3k** | 🍴 6.2k | 📅 `2026-06-17`
   - A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
 
-- [**Lordog/dive-into-llms**](https://github.com/Lordog/dive-into-llms) - ⭐ **50.6k** | 🍴 6.1k | 📅 `2026-04-16`
+- [**Lordog/dive-into-llms**](https://github.com/Lordog/dive-into-llms) - ⭐ **50.7k** | 🍴 6.1k | 📅 `2026-04-16`
   - 《动手学大模型Dive into LLMs》系列编程实践教程
 
 - [**patchy631/ai-engineering-hub**](https://github.com/patchy631/ai-engineering-hub) - ⭐ **37.2k** | 🍴 6.1k | 📅 `2026-01-06`
@@ -1326,7 +1326,7 @@
 - [**saadeghi/daisyui**](https://github.com/saadeghi/daisyui) - ⭐ **42.2k** | 🍴 1.7k | 📅 `2026-07-06`
   - 🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library
 
-- [**tt-a1i/archify**](https://github.com/tt-a1i/archify) - ⭐ **35.1k** | 🍴 2.3k | 📅 `2026-08-30`
+- [**tt-a1i/archify**](https://github.com/tt-a1i/archify) - ⭐ **35.2k** | 🍴 2.3k | 📅 `2026-08-30`
   - Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
 
 - [**JCodesMore/ai-website-cloner-template**](https://github.com/JCodesMore/ai-website-cloner-template) - ⭐ **33.5k** | 🍴 4.9k | 📅 `2026-06-23`
@@ -1784,7 +1784,7 @@
 - [**altic-dev/FluidVoice**](https://github.com/altic-dev/FluidVoice) - ⭐ **11.1k** | 🍴 769 | 📅 `2026-08-14`
   - Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. Windows pre-build available! A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp
 
-- [**TableProApp/TablePro**](https://github.com/TableProApp/TablePro) - ⭐ **5.6k** | 🍴 372 | 📅 `2026-05-17`
+- [**TableProApp/TablePro**](https://github.com/TableProApp/TablePro) - ⭐ **5.6k** | 🍴 373 | 📅 `2026-05-17`
   - Free and open source database client built natively for developers
 
 
@@ -1910,7 +1910,7 @@
 
 ### Elixir `(1)`
 
-- [**openai/symphony**](https://github.com/openai/symphony) - ⭐ **26.9k** | 🍴 2.8k | 📅 `2026-04-29`
+- [**openai/symphony**](https://github.com/openai/symphony) - ⭐ **27.0k** | 🍴 2.8k | 📅 `2026-04-29`
   - Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.
 
 
