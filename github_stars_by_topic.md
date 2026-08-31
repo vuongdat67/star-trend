@@ -1,7 +1,7 @@
 # 🏷️ GitHub Starred Repositories Theo Chủ Đề - @vuongdat67
 
-> Phân loại thông minh 613 repositories theo lĩnh vực ứng dụng.
-> 🕒 Cập nhật: `2026-08-30 17:20:27`
+> Phân loại thông minh 614 repositories theo lĩnh vực ứng dụng.
+> 🕒 Cập nhật: `2026-08-31 00:59:21`
 
 ---
 
@@ -79,7 +79,7 @@
 - [**nextlevelbuilder/ui-ux-pro-max-skill**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - `Python` | ⭐ **123.2k** | 🍴 13.2k
   - An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
 
-- [**openai/codex**](https://github.com/openai/codex) - `Rust` | ⭐ **120.1k** | 🍴 18.3k
+- [**openai/codex**](https://github.com/openai/codex) - `Rust` | ⭐ **120.1k** | 🍴 18.4k
   - Lightweight coding agent that runs in your terminal
 
 - [**harry0703/MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) - `Python` | ⭐ **118.8k** | 🍴 18.2k
@@ -759,10 +759,7 @@
 - [**NVIDIA/NeMo-Agent-Toolkit**](https://github.com/NVIDIA/NeMo-Agent-Toolkit) - `Python` | ⭐ **2.6k** | 🍴 748
   - The NVIDIA NeMo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents.
 
-- [**geeklee/srt-whiteboard-animation**](https://github.com/geeklee/srt-whiteboard-animation) - `Python` | ⭐ **2.6k** | 🍴 413
-  - 将 SRT 字幕做成暖米黄纸张底的流式笔迹白板手绘动画 skill：mask 分区遮罩编排 + stream 连续笔迹（ink→color）。
-
-- [**open-free-llm-api/awesome-freellm-apis**](https://github.com/open-free-llm-api/awesome-freellm-apis) - `Others` | ⭐ **2.6k** | 🍴 372
+- [**open-free-llm-api/awesome-freellm-apis**](https://github.com/open-free-llm-api/awesome-freellm-apis) - `Others` | ⭐ **2.6k** | 🍴 374
   - 134+ free LLM APIs & AI API keys from 40+ providers. Google Gemini, NVIDIA NIM, Groq, OpenRouter & more. One-click setup for Claude Code, Cursor and Codex.
 
 - [**Armur-Ai/Pentest-Swarm-AI**](https://github.com/Armur-Ai/Pentest-Swarm-AI) - `Go` | ⭐ **2.4k** | 🍴 451
@@ -1157,7 +1154,7 @@
 - [**garrytan/gstack**](https://github.com/garrytan/gstack) - `TypeScript` | ⭐ **130.5k** | 🍴 19.6k
   - Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
 
-- [**openai/codex**](https://github.com/openai/codex) - `Rust` | ⭐ **120.1k** | 🍴 18.3k
+- [**openai/codex**](https://github.com/openai/codex) - `Rust` | ⭐ **120.1k** | 🍴 18.4k
   - Lightweight coding agent that runs in your terminal
 
 - [**harry0703/MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) - `Python` | ⭐ **118.8k** | 🍴 18.2k

@@ -299,6 +299,142 @@
       ]
     },
     {
+      "title": "[cs.CR Security] Do User-Authored Permission Policies Improve Protection Against AI Agent Overreach?",
+      "summary": "AI agents are poised to become a primary interface to digital products, acting across email, files, payments, and personal data. People without professional software backgrounds need understandable, reusable ways to cont...",
+      "url": "http://arxiv.org/abs/2608.27443v1",
+      "source": "arXiv (cs.CR Security)",
+      "category": "📄 arXiv Preprints",
+      "badge": "cs.CR Security",
+      "authors": "Ting Yan",
+      "published_at": "2026-08-27",
+      "tags": [
+        "arxiv",
+        "paper",
+        "cs.cr",
+        "cs.cr",
+        "security"
+      ]
+    },
+    {
+      "title": "[cs.CR Security] RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
+      "summary": "LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent state changes, creating greater risks than unsafe text generation alone. Exist...",
+      "url": "http://arxiv.org/abs/2608.27439v1",
+      "source": "arXiv (cs.CR Security)",
+      "category": "📄 arXiv Preprints",
+      "badge": "cs.CR Security",
+      "authors": "Junjie Zhang, Hui Liu, Kecheng Chen",
+      "published_at": "2026-08-27",
+      "tags": [
+        "arxiv",
+        "paper",
+        "cs.cr",
+        "cs.cr",
+        "security"
+      ]
+    },
+    {
+      "title": "[cs.CR Security] Beyond F1: Evaluating Coverage and Failure Recovery in AI Model Security Scanners",
+      "summary": "Static scanners are increasingly used to identify executable or otherwise unsafe content in machine- learning artifacts, yet conventional evaluation metrics characterize only cases where a scanner yields a usable securit...",
+      "url": "http://arxiv.org/abs/2608.27424v1",
+      "source": "arXiv (cs.CR Security)",
+      "category": "📄 arXiv Preprints",
+      "badge": "cs.CR Security",
+      "authors": "Qianlong Lan, Vinothini Pandurangan, Anuj Kaul",
+      "published_at": "2026-08-27",
+      "tags": [
+        "arxiv",
+        "paper",
+        "cs.cr",
+        "cs.cr",
+        "security"
+      ]
+    },
+    {
+      "title": "[cs.CR Security] When Context Gets Root: Privilege Escalation in LLM Harnesses",
+      "summary": "Instruction hierarchy is a model-side defense that assigns instructions different levels of privilege according to their sources. These levels constrain which content may direct model behavior. During agent execution, ho...",
+      "url": "http://arxiv.org/abs/2608.27299v1",
+      "source": "arXiv (cs.CR Security)",
+      "category": "📄 arXiv Preprints",
+      "badge": "cs.CR Security",
+      "authors": "Xingbang He, Yuanwei Chen, Yi Qian",
+      "published_at": "2026-08-27",
+      "tags": [
+        "arxiv",
+        "paper",
+        "cs.cr",
+        "cs.cr",
+        "security"
+      ]
+    },
+    {
+      "title": "[cs.CR Security] Low-ASR Backdoors: Exploiting Attack Success Rate Reduction and Attacker-Defender Asymmetry",
+      "summary": "Backdoor attacks are among the most effective and stealthy attacks in deep learning. Existing attacks and defenses are largely designed and evaluated under the assumption that successful backdoors exhibit high Attack Suc...",
+      "url": "http://arxiv.org/abs/2608.27288v1",
+      "source": "arXiv (cs.CR Security)",
+      "category": "📄 arXiv Preprints",
+      "badge": "cs.CR Security",
+      "authors": "Arham Riaz, Ting Yu",
+      "published_at": "2026-08-27",
+      "tags": [
+        "arxiv",
+        "paper",
+        "cs.cr",
+        "cs.cr",
+        "security"
+      ]
+    },
+    {
+      "title": "[cs.CR Security] SPA: Securing Persistent LLM Agents Across Queries with Plan-First Information-Flow Control",
+      "summary": "Large language model (LLM) agents increasingly operate over untrusted webpages, documents, tools, and persistent states while exercising authority over security-sensitive resources. Existing defenses typically protect ei...",
+      "url": "http://arxiv.org/abs/2608.27234v1",
+      "source": "arXiv (cs.CR Security)",
+      "category": "📄 arXiv Preprints",
+      "badge": "cs.CR Security",
+      "authors": "Dylan Girrens, Guangjing Wang",
+      "published_at": "2026-08-27",
+      "tags": [
+        "arxiv",
+        "paper",
+        "cs.cr",
+        "cs.cr",
+        "security"
+      ]
+    },
+    {
+      "title": "[cs.CR Security] From Security Events to Conflict States: A Three-layer Cyber Defense Scenario Model for Enhanced Cyber Situational Awareness",
+      "summary": "Cyber defense in mission-critical environments requires integrated approaches capable of representing adversarial progression, defender-side uncertainty, mission impact, and defensive decision support within a unified fr...",
+      "url": "http://arxiv.org/abs/2608.27215v1",
+      "source": "arXiv (cs.CR Security)",
+      "category": "📄 arXiv Preprints",
+      "badge": "cs.CR Security",
+      "authors": "Miguel Requena Micó, Mario Fernandez-Tarraga, Daniel Díaz-López",
+      "published_at": "2026-08-27",
+      "tags": [
+        "arxiv",
+        "paper",
+        "cs.cr",
+        "cs.cr",
+        "security"
+      ]
+    },
+    {
+      "title": "[cs.CR Security] X-WAD: eXplainable Web Anomaly Detection",
+      "summary": "The rapid growth of web-based services, particularly API-driven architectures, reflects an increasing reliance on distributed systems, exposing sensitive data to security risks and making the adoption of automated defens...",
+      "url": "http://arxiv.org/abs/2608.27172v1",
+      "source": "arXiv (cs.CR Security)",
+      "category": "📄 arXiv Preprints",
+      "badge": "cs.CR Security",
+      "authors": "Matteo Bitussi, Roberto Doriguzzi-Corin",
+      "published_at": "2026-08-27",
+      "tags": [
+        "arxiv",
+        "paper",
+        "cs.cr",
+        "cs.cr",
+        "security"
+      ]
+    },
+    {
       "title": "Luce: Relightable Gaussians for 3D Asset Generation",
       "summary": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and integration into standard rendering pipelines, the representation should include phy...",
       "url": "https://huggingface.co/papers/2608.23943",
@@ -400,8 +536,8 @@
       "url": "https://huggingface.co/papers/2608.25518",
       "source": "Hugging Face Daily Papers",
       "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 147",
-      "upvotes": 147,
+      "badge": "⭐ 180",
+      "upvotes": 180,
       "authors": "Pengfei Zhou, Hexin Wang, Zhengfeiyang Zhang",
       "published_at": "2026-08-25",
       "tags": [
@@ -544,8 +680,8 @@
       "url": "https://huggingface.co/papers/2608.27345",
       "source": "Hugging Face Daily Papers",
       "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 98",
-      "upvotes": 98,
+      "badge": "⭐ 129",
+      "upvotes": 129,
       "authors": "Yuandong Pu, Le Zhuo, Sayak Paul",
       "published_at": "2026-08-26",
       "tags": [
@@ -865,13 +1001,13 @@
       ]
     },
     {
-      "title": "Omarchy: Any User Process Can Escalate to Root",
-      "summary": "Hacker News (131 pts, 87 comments) by @trap0xcc",
-      "url": "https://0xcc.io/posts/omarchy-root-creds/",
+      "title": "“I just chose words carefully”",
+      "summary": "Hacker News (203 pts, 48 comments) by @zdw",
+      "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "131 pts",
-      "upvotes": 131,
+      "badge": "203 pts",
+      "upvotes": 203,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -881,12 +1017,12 @@
     },
     {
       "title": "Creepy Crawlies",
-      "summary": "Hacker News (308 pts, 143 comments) by @zdw",
+      "summary": "Hacker News (902 pts, 418 comments) by @zdw",
       "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "308 pts",
-      "upvotes": 308,
+      "badge": "902 pts",
+      "upvotes": 902,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -896,12 +1032,102 @@
     },
     {
       "title": "Haiku R1/beta6 has been released",
-      "summary": "Hacker News (66 pts, 12 comments) by @metrofun",
+      "summary": "Hacker News (245 pts, 75 comments) by @metrofun",
       "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "66 pts",
-      "upvotes": 66,
+      "badge": "245 pts",
+      "upvotes": 245,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Cores in space: The core memory module from a 1980 Spacelab computer",
+      "summary": "Hacker News (68 pts, 11 comments) by @pwg",
+      "url": "https://www.righto.com/2026/08/spacelab-core-memory.html",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "68 pts",
+      "upvotes": 68,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Show HN: NFC Energy-Harvesting PCB Business Card with an MCU",
+      "summary": "Hacker News (89 pts, 9 comments) by @WilsonHarper",
+      "url": "https://wilsonharper.net/projects/businesscard/",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "89 pts",
+      "upvotes": 89,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Sort branches by last commit date",
+      "summary": "Hacker News (82 pts, 24 comments) by @speckx",
+      "url": "https://ryangreenberg.com/til/git-branches-by-commit-date/",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "82 pts",
+      "upvotes": 82,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Continuous Diffusion Language Models (CDLM's)",
+      "summary": "Hacker News (48 pts, 13 comments) by @peter_d_sherman",
+      "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "48 pts",
+      "upvotes": 48,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver",
+      "summary": "Hacker News (63 pts, 33 comments) by @SillyUsername",
+      "url": "https://github.com/KodeMunkie/sm750hdmifb",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "63 pts",
+      "upvotes": 63,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Relm4 makes developing beautiful cross-platform applications idiomatic",
+      "summary": "Hacker News (9 pts, 0 comments) by @Bluestein",
+      "url": "https://relm4.org/",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "9 pts",
+      "upvotes": 9,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -911,12 +1137,12 @@
     },
     {
       "title": "Coordination Headwind: How Organizations Are Like Slime Molds",
-      "summary": "Hacker News (19 pts, 9 comments) by @rzk",
+      "summary": "Hacker News (123 pts, 42 comments) by @rzk",
       "url": "https://komoroske.com/slime-mold/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "19 pts",
-      "upvotes": 19,
+      "badge": "123 pts",
+      "upvotes": 123,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -926,27 +1152,12 @@
     },
     {
       "title": "Hacking IKEA Furniture",
-      "summary": "Hacker News (166 pts, 88 comments) by @greenlightning",
+      "summary": "Hacker News (262 pts, 174 comments) by @greenlightning",
       "url": "https://greenlightning.eu/diy/hacking-ikea-furniture/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "166 pts",
-      "upvotes": 166,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Electric rain can eat through metal",
-      "summary": "Hacker News (18 pts, 4 comments) by @sohkamyung",
-      "url": "https://www.scientificamerican.com/article/electric-rain-can-eat-through-metal/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "18 pts",
-      "upvotes": 18,
+      "badge": "262 pts",
+      "upvotes": 262,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -970,103 +1181,13 @@
       ]
     },
     {
-      "title": "European Commission Revives Push for Encryption Backdoors in ProtectEU Strategy",
-      "summary": "Hacker News (118 pts, 29 comments) by @nickslaughter02",
-      "url": "https://reclaimthenet.org/eu-protecteu-strategy-encryption-backdoor-law-enforcement",
+      "title": "How would you know whether an ancient culture had zero?",
+      "summary": "Hacker News (13 pts, 1 comments) by @ibobev",
+      "url": "https://www.johndcook.com/blog/2026/08/21/ancient-number-system/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "118 pts",
-      "upvotes": 118,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Casey Muratori – The Root of the Root of All Evil – BSC 2026 [video]",
-      "summary": "Hacker News (199 pts, 96 comments) by @surprisetalk",
-      "url": "https://www.youtube.com/watch?v=hpj6r6CjJf8",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "199 pts",
-      "upvotes": 199,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
-      "summary": "Hacker News (153 pts, 63 comments) by @vntok",
-      "url": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "153 pts",
-      "upvotes": 153,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
-      "summary": "Hacker News (165 pts, 48 comments) by @joebig",
-      "url": "https://arxiv.org/abs/1804.07389",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "165 pts",
-      "upvotes": 165,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Europe's summer drought is so extreme that desertification is a growing threat",
-      "summary": "Hacker News (97 pts, 89 comments) by @Brajeshwar",
-      "url": "https://fortune.com/2026/08/29/europe-summer-drought-desertification-threat-rivers-fish/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "97 pts",
-      "upvotes": 97,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "METR and Redwood Offer Holy %^ Postmortem of the HuggingFace Hack",
-      "summary": "Hacker News (17 pts, 3 comments) by @catbird",
-      "url": "https://thezvi.wordpress.com/2026/08/29/metr-and-redwood-offer-holy-postmortem-of-the-huggingface-hack/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "17 pts",
-      "upvotes": 17,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Startup Anti-Patterns",
-      "summary": "Hacker News (71 pts, 32 comments) by @rzk",
-      "url": "https://www.itamarnovick.com/intro-to-startup-anti-pattern-series/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "71 pts",
-      "upvotes": 71,
+      "badge": "13 pts",
+      "upvotes": 13,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1076,12 +1197,27 @@
     },
     {
       "title": "Zig: Pointer Stability for ArrayLists",
-      "summary": "Hacker News (17 pts, 1 comments) by @tosh",
+      "summary": "Hacker News (83 pts, 53 comments) by @tosh",
       "url": "https://ziglang.org/devlog/2026/#2026-08-27",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "17 pts",
-      "upvotes": 17,
+      "badge": "83 pts",
+      "upvotes": 83,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Startup Anti-Patterns",
+      "summary": "Hacker News (72 pts, 32 comments) by @rzk",
+      "url": "https://www.itamarnovick.com/intro-to-startup-anti-pattern-series/",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "72 pts",
+      "upvotes": 72,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
