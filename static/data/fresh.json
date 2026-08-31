@@ -29,8 +29,8 @@
       "html_url": "https://github.com/tt-a1i/archify",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
-      "stars": 34648,
-      "forks": 2203,
+      "stars": 34684,
+      "forks": 2207,
       "open_issues": 72,
       "topics": [
         "agent-skills",
@@ -125,7 +125,7 @@
       "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "language": "Python",
-      "stars": 39275,
+      "stars": 39288,
       "forks": 3659,
       "open_issues": 22,
       "topics": [
@@ -167,8 +167,8 @@
       "html_url": "https://github.com/THU-MAIC/OpenMAIC",
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
-      "stars": 24061,
-      "forks": 4486,
+      "stars": 24090,
+      "forks": 4487,
       "open_issues": 218,
       "topics": [],
       "starred_at": "2026-08-30T13:44:07Z",
@@ -212,7 +212,7 @@
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "TypeScript",
       "stars": 3288,
-      "forks": 3667,
+      "forks": 3666,
       "open_issues": 16,
       "topics": [
         "aashuu",
@@ -264,9 +264,9 @@
       "html_url": "https://github.com/langgenius/dify",
       "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
       "language": "TypeScript",
-      "stars": 153920,
+      "stars": 153922,
       "forks": 24315,
-      "open_issues": 1000,
+      "open_issues": 1002,
       "topics": [
         "agent",
         "agentic-ai",
@@ -414,7 +414,7 @@
       "html_url": "https://github.com/imputnet/helium",
       "description": "Private, fast, and honest web browser",
       "language": "C++",
-      "stars": 20011,
+      "stars": 20012,
       "forks": 553,
       "open_issues": 489,
       "topics": [
@@ -521,7 +521,7 @@
       "html_url": "https://github.com/getpaseo/paseo",
       "description": "Orchestrate multiple coding agents from desktop and mobile",
       "language": "TypeScript",
-      "stars": 15543,
+      "stars": 15544,
       "forks": 1682,
       "open_issues": 1159,
       "topics": [
@@ -725,8 +725,8 @@
       "html_url": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "stars": 12124,
-      "forks": 1905,
+      "stars": 12127,
+      "forks": 1906,
       "open_issues": 22,
       "topics": [
         "ai",
@@ -820,7 +820,7 @@
       "html_url": "https://github.com/Ed1s0nZ/CyberStrikeAI",
       "description": "The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.",
       "language": "Go",
-      "stars": 6063,
+      "stars": 6064,
       "forks": 976,
       "open_issues": 60,
       "topics": [
@@ -893,7 +893,7 @@
       "description": "🎬 Fully automated YouTube channel management with AI agents. Creates, optimizes & publishes videos 24/7. Works with FREE Gemini API or OpenAI. No coding required!",
       "language": "JavaScript",
       "stars": 2900,
-      "forks": 813,
+      "forks": 814,
       "open_issues": 8,
       "topics": [
         "ai-agents",
@@ -1005,7 +1005,7 @@
       "html_url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars": 43186,
+      "stars": 43188,
       "forks": 4158,
       "open_issues": 241,
       "topics": [
@@ -1060,8 +1060,8 @@
       "html_url": "https://github.com/h4ckf0r0day/obscura",
       "description": "The headless browser for AI agents and web scraping",
       "language": "Rust",
-      "stars": 22478,
-      "forks": 1676,
+      "stars": 22480,
+      "forks": 1677,
       "open_issues": 100,
       "topics": [
         "antidetect",
@@ -1266,8 +1266,8 @@
       "html_url": "https://github.com/deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "language": "TypeScript",
-      "stars": 204752,
-      "forks": 23700,
+      "stars": 204767,
+      "forks": 23701,
       "open_issues": 0,
       "topics": [
         "ai-agents",
@@ -1322,7 +1322,7 @@
       "html_url": "https://github.com/infiniflow/ragflow",
       "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
       "language": "Go",
-      "stars": 89671,
+      "stars": 89672,
       "forks": 10573,
       "open_issues": 1747,
       "topics": [
@@ -1358,7 +1358,7 @@
       "html_url": "https://github.com/unslothai/unsloth",
       "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, FLUX and more.",
       "language": "Python",
-      "stars": 75272,
+      "stars": 75273,
       "forks": 6828,
       "open_issues": 1411,
       "topics": [
@@ -1401,7 +1401,7 @@
       "html_url": "https://github.com/altic-dev/FluidVoice",
       "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. Windows pre-build available! A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp",
       "language": "Swift",
-      "stars": 11084,
+      "stars": 11085,
       "forks": 769,
       "open_issues": 85,
       "topics": [
@@ -1430,7 +1430,7 @@
       "html_url": "https://github.com/cactus-compute/needle",
       "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
       "language": "Python",
-      "stars": 9779,
+      "stars": 9781,
       "forks": 630,
       "open_issues": 32,
       "topics": [
@@ -1505,7 +1505,7 @@
       "html_url": "https://github.com/jlcodes99/cockpit-tools",
       "description": "🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
       "language": "Rust",
-      "stars": 16780,
+      "stars": 16781,
       "forks": 1466,
       "open_issues": 528,
       "topics": [
@@ -1697,7 +1697,7 @@
       "html_url": "https://github.com/guillaumemeyer/watermarks-remover",
       "description": "A privacy-first app that strips AI watermarks from content you own.",
       "language": "Python",
-      "stars": 19481,
+      "stars": 19484,
       "forks": 2266,
       "open_issues": 13,
       "topics": [
