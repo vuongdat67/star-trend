@@ -1,5 +1,5 @@
 /**
- * Jet-Black Charcoal Stars, Trending, Collections, Stats & AI Radar Hub
+ * Jet-Black Charcoal Stars, Trending, Collections, Stats, Jobs & AI Radar Hub
  * Supports both local server mode (/api/...) and static GitHub Pages mode (./data/....json)
  */
 
@@ -24,9 +24,10 @@ const DATA_BASE = (() => {
 
 const state = {
   platform: 'github',            // 'github' | 'huggingface'
-  feedMode: 'trending',          // 'trending' | 'stars' | 'new' | 'pulse' | 'collections' | 'stats' | 'tools'
+  feedMode: 'trending',          // 'trending' | 'stars' | 'new' | 'pulse' | 'collections' | 'stats' | 'tools' | 'jobs'
   radarSubfilter: 'all',         // 'all' | 'conf' | 'arxiv' | 'hf' | 'cve' | 'hn' | 'x' | 'labs'
   toolsSubfilter: 'all',         // 'all' | 'launch' | 'ai' | 'debug' | 'sec'
+  jobsSubfilter: 'all',          // 'all' | 'sec' | 'ai' | 'dev' | 'game' | 'cloud' | 'platforms' | 'insights'
   period: 'daily',               // 'daily' | 'weekly' | 'monthly'
   layout: localStorage.getItem('layout') || 'layout-grid-3',
   sidebarHidden: localStorage.getItem('sidebarHidden') === 'true',
@@ -52,6 +53,7 @@ const state = {
   devTools: [],
   launches: [],
   weeklyDigest: {},
+  jobsData: { insights: {}, platforms: [], sample_jobs: [] },
   launchUpvotes: JSON.parse(localStorage.getItem('launchUpvotes') || '{}'),
   notesData: { bookmarks: [], notes: {} },
   activeNoteTarget: null
@@ -73,7 +75,7 @@ const DEV_QUOTES = [
 const CATEGORY_RULES = [
   { name: '🤖 AI & LLM Agents', keywords: ['ai', 'llm', 'claude', 'gpt', 'agent', 'mcp', 'openai', 'anthropic', 'prompt', 'rag', 'deepseek', 'langchain', 'llama', 'machine-learning', 'neurips', 'iclr', 'icml'] },
   { name: '🛠️ Dev Tools & CLI', keywords: ['cli', 'terminal', 'devtools', 'developer-tools', 'automation', 'productivity', 'tool', 'workflow', 'git', 'scraper', 'powershell', 'shell'] },
-  { name: '🛡️ Security & CVE / RE', keywords: ['security', 'cybersecurity', 'malware', 'exploit', 'reverse-engineering', 'decompiler', 'disassembler', 'pentest', 'vulnerability', 'cve', 'cwe', 'hack', 'antivirus', 'ieee-sp', 'usenix', 'ndss'] },
+  { name: '🛡️ Security & CVE / RE', keywords: ['security', 'cybersecurity', 'malware', 'exploit', 'reverse-engineering', 'decompiler', 'disassembler', 'pentest', 'vulnerability', 'cve', 'cwe', 'hack', 'antivirus', 'ieee-sp', 'usenix', 'ndss', 'soc', 'splunk'] },
   { name: '📚 Tutorials & Docs', keywords: ['awesome', 'tutorial', 'learning', 'interview', 'roadmap', 'book', 'courses', 'education', 'algorithms'] },
   { name: '🌐 Web & Backend', keywords: ['react', 'vue', 'nextjs', 'tailwind', 'frontend', 'backend', 'web', 'fastapi', 'flask', 'django', 'express', 'nodejs'] },
   { name: '⚙️ Systems & Low-Level', keywords: ['rust', 'c++', 'kernel', 'driver', 'windows', 'linux', 'operating-system', 'embedded', 'compiler', 'database', 'wasm', 'osdi', 'sosp'] }
@@ -106,7 +108,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   setupScrollObserver();
 
-  // Load all initial datasets concurrently
+  // Load all initial datasets concurrently (Dual-mode safe)
   await Promise.all([
     fetchStarsData(),
     fetchNotesData(),
@@ -116,7 +118,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     fetchAIPulse(),
     fetchCollectionsData(),
     fetchDevToolsData(),
-    fetchWeeklyDigestData()
+    fetchWeeklyDigestData(),
+    fetchJobsData()
   ]);
 
   lucide.createIcons();
@@ -147,11 +150,11 @@ function applyLayout(layoutClass) {
   state.layout = layoutClass;
   localStorage.setItem('layout', layoutClass);
   const container = document.getElementById('cards-feed-container');
-  if (container) {
+  if (container && ['trending', 'stars', 'new', 'pulse'].includes(state.feedMode)) {
     container.className = `cards-feed-grid ${layoutClass}`;
   }
 
-  document.querySelectorAll('.layout-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.layout-toggle-group .layout-btn').forEach(b => b.classList.remove('active'));
   const btnId = layoutClass === 'layout-grid-3' ? 'layout-btn-3' : (layoutClass === 'layout-grid-2' ? 'layout-btn-2' : 'layout-btn-1');
   const activeBtn = document.getElementById(btnId);
   if (activeBtn) activeBtn.classList.add('active');
@@ -185,7 +188,7 @@ function handlePageLimitChange(val) {
   renderFeed();
 }
 
-// ==================== DATA FETCHERS ====================
+// ==================== DATA FETCHERS (Dual-Mode: Local Server / GitHub Pages) ====================
 async function fetchStarsData() {
   try {
     const url = _STATIC_MODE ? DATA_BASE + 'data/stars.json' : '/api/stars';
@@ -313,7 +316,8 @@ async function fetchAIPulse() {
 
 async function fetchCollectionsData() {
   try {
-    const res = await fetch(DATA_BASE + 'data/collections.json');
+    const url = _STATIC_MODE ? DATA_BASE + 'data/collections.json' : '/api/collections';
+    const res = await fetch(url);
     const data = await res.json();
     state.collections = data.collections || [];
   } catch (err) {
@@ -323,7 +327,8 @@ async function fetchCollectionsData() {
 
 async function fetchDevToolsData() {
   try {
-    const res = await fetch(DATA_BASE + 'data/dev_tools.json');
+    const url = _STATIC_MODE ? DATA_BASE + 'data/dev_tools.json' : '/api/dev-tools';
+    const res = await fetch(url);
     const data = await res.json();
     state.devTools = data.tools || [];
     state.launches = data.launches || [];
@@ -334,10 +339,21 @@ async function fetchDevToolsData() {
 
 async function fetchWeeklyDigestData() {
   try {
-    const res = await fetch(DATA_BASE + 'data/weekly_digest.json');
+    const url = _STATIC_MODE ? DATA_BASE + 'data/weekly_digest.json' : '/api/weekly-digest';
+    const res = await fetch(url);
     state.weeklyDigest = await res.json();
   } catch (err) {
     console.error('Weekly digest fetch error:', err);
+  }
+}
+
+async function fetchJobsData() {
+  try {
+    const url = _STATIC_MODE ? DATA_BASE + 'data/jobs.json' : '/api/jobs';
+    const res = await fetch(url);
+    state.jobsData = await res.json();
+  } catch (err) {
+    console.error('Jobs fetch error:', err);
   }
 }
 
@@ -371,6 +387,7 @@ function switchFeedMode(mode) {
   const periodGroup = document.getElementById('period-switch-group');
   const radarSubfilters = document.getElementById('radar-subfilters');
   const toolsSubfilters = document.getElementById('tools-subfilters');
+  const jobsSubfilters = document.getElementById('jobs-subfilters');
   const controlsRowBottom = document.getElementById('controls-row-bottom');
   const resultInfoBar = document.getElementById('result-info-bar');
   const cardsContainer = document.getElementById('cards-feed-container');
@@ -381,6 +398,7 @@ function switchFeedMode(mode) {
   if (periodGroup) periodGroup.style.display = (mode === 'trending' || mode === 'new') ? 'flex' : 'none';
   if (radarSubfilters) radarSubfilters.style.display = (mode === 'pulse') ? 'flex' : 'none';
   if (toolsSubfilters) toolsSubfilters.style.display = (mode === 'tools') ? 'flex' : 'none';
+  if (jobsSubfilters) jobsSubfilters.style.display = (mode === 'jobs') ? 'flex' : 'none';
 
   if (mode === 'stats') {
     if (cardsContainer) cardsContainer.style.display = 'none';
@@ -414,6 +432,13 @@ function changePeriod(period) {
 function switchToolsSubfilter(sub) {
   state.toolsSubfilter = sub;
   document.querySelectorAll('#tools-subfilters .pill-btn').forEach(b => b.classList.remove('active'));
+  if (event && event.target) event.target.classList.add('active');
+  renderFeed();
+}
+
+function switchJobsSubfilter(sub) {
+  state.jobsSubfilter = sub;
+  document.querySelectorAll('#jobs-subfilters .pill-btn').forEach(b => b.classList.remove('active'));
   if (event && event.target) event.target.classList.add('active');
   renderFeed();
 }
@@ -715,7 +740,7 @@ function renderFeed() {
   const sentinel = document.getElementById('scroll-sentinel');
   if (!container) return;
 
-  // Dedicated Renderers for Non-Repo Feeds
+  // Dedicated Renderers for Custom Views
   if (state.feedMode === 'collections') {
     renderCollections();
     if (sentinel) sentinel.style.display = 'none';
@@ -726,6 +751,14 @@ function renderFeed() {
     if (sentinel) sentinel.style.display = 'none';
     return;
   }
+  if (state.feedMode === 'jobs') {
+    renderJobs();
+    if (sentinel) sentinel.style.display = 'none';
+    return;
+  }
+
+  // Repo Feed Layout (1, 2, or 3 cols)
+  applyLayout(state.layout);
 
   const items = getActiveItems();
   state.renderedCount = Math.min(state.pageSize, items.length);
@@ -840,7 +873,7 @@ function renderCardsBatch(batch) {
         <div class="card-title-block">
           <img class="card-avatar" src="${avatarUrl}" onerror="this.src='https://github.githubassets.com/favicons/favicon.png'" alt="${owner}">
           ${state.feedMode === 'trending' ? `<span class="rank-tag">#${rank}</span>` : ''}
-          <a href="${r.url || r.html_url || ('https://github.com/' + r.full_name)}" target="_blank" class="card-title-link">
+          <a href="javascript:void(0)" onclick="openRepoDetailModal('${r.full_name}')" class="card-title-link" title="Xem chi tiết repo">
             ${r.full_name || r.name}
           </a>
         </div>
@@ -862,6 +895,9 @@ function renderCardsBatch(batch) {
         </div>
 
         <div style="display: flex; align-items: center; gap: 4px;">
+          <button class="btn-zinc" style="font-size: 11px; padding: 2px 7px;" onclick="openRepoDetailModal('${r.full_name}')">
+            Chi tiết
+          </button>
           <button class="card-action-btn ${hasNote ? 'active' : ''}" onclick="openNoteModal('${r.full_name}')" title="Ghi chú cá nhân">
             <i data-lucide="file-text" style="width: 13px; height: 13px;"></i>
           </button>
@@ -907,7 +943,13 @@ function renderCollections() {
   container.className = 'collections-grid';
   let html = '';
 
-  state.collections.forEach(col => {
+  const cols = state.collections || [];
+  if (cols.length === 0) {
+    container.innerHTML = `<div style="grid-column: 1/-1; padding: 30px; text-align: center; color: var(--text-muted);">Đang tải dữ liệu bộ sưu tập...</div>`;
+    return;
+  }
+
+  cols.forEach(col => {
     html += `
       <div class="collection-card">
         <div class="collection-header">
@@ -922,7 +964,7 @@ function renderCollections() {
           <div style="font-size: 11.5px; font-weight: 600; color: var(--text-muted); margin-bottom: 6px;">Top Repositories:</div>
           <div class="collection-repos-list">
             ${col.repos.map(r => `
-              <a href="https://github.com/${r}" target="_blank" class="collection-repo-chip">
+              <a href="javascript:void(0)" onclick="openRepoDetailModal('${r}')" class="collection-repo-chip">
                 <i data-lucide="github" style="width: 11px; height: 11px;"></i>
                 ${r.split('/')[1] || r}
               </a>
@@ -945,7 +987,7 @@ function renderCollections() {
 
   container.innerHTML = html;
   const countLabel = document.getElementById('displayed-count-label');
-  if (countLabel) countLabel.textContent = `${state.collections.length} bộ sưu tập`;
+  if (countLabel) countLabel.textContent = `${cols.length} bộ sưu tập`;
   lucide.createIcons();
 }
 
@@ -1020,7 +1062,8 @@ function renderDevTools() {
 
   if (state.toolsSubfilter === 'launch') {
     // Render Launch Board
-    state.launches.forEach(item => {
+    const launches = state.launches || [];
+    launches.forEach(item => {
       const upvoted = Boolean(state.launchUpvotes[item.id]);
       const currentVotes = (item.upvotes || 0) + (upvoted ? 1 : 0);
 
@@ -1055,7 +1098,7 @@ function renderDevTools() {
     });
   } else {
     // Render Dev Tools Directory
-    let tools = state.devTools;
+    let tools = state.devTools || [];
     if (state.toolsSubfilter === 'ai') tools = tools.filter(t => t.category.includes('AI'));
     if (state.toolsSubfilter === 'debug') tools = tools.filter(t => t.category.includes('Debug') || t.category.includes('Cheat'));
     if (state.toolsSubfilter === 'sec') tools = tools.filter(t => t.category.includes('Security'));
@@ -1104,7 +1147,371 @@ function toggleLaunchUpvote(id) {
   renderDevTools();
 }
 
-// ==================== 4. QUICK REPO INSPECTOR ====================
+// ==================== 4. TECH & CYBERSECURITY JOB RADAR RENDERER ====================
+function renderJobs() {
+  const container = document.getElementById('cards-feed-container');
+  if (!container) return;
+
+  const jobsData = state.jobsData || {};
+
+  // SUBVIEW 1: 30+ PLATFORMS DIRECTORY
+  if (state.jobsSubfilter === 'platforms') {
+    container.className = 'jobs-container';
+    let html = '';
+    (jobsData.platforms || []).forEach(cat => {
+      html += `
+        <div class="platform-category-card">
+          <div class="platform-category-title">
+            <i data-lucide="layers" style="width: 15px; height: 15px; color: var(--pill-blue-text);"></i>
+            <span>${cat.category}</span>
+          </div>
+          <div class="platforms-chips-grid">
+            ${cat.items.map(p => `
+              <a href="${p.url}" target="_blank" class="platform-card-item">
+                <div class="platform-item-header">
+                  <span class="platform-name">${p.name}</span>
+                  <span class="badge-tag">${p.badge}</span>
+                </div>
+                <div class="platform-desc">${p.desc}</div>
+              </a>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    });
+    container.innerHTML = html;
+    const countLabel = document.getElementById('displayed-count-label');
+    if (countLabel) countLabel.textContent = `30+ Cổng tuyển dụng IT / An ninh mạng`;
+    lucide.createIcons();
+    return;
+  }
+
+  // SUBVIEW 2: MARKET INSIGHTS DASHBOARD (CyberJutsu Inspired)
+  if (state.jobsSubfilter === 'insights') {
+    container.className = 'jobs-container';
+    const ins = jobsData.insights || {};
+    const summ = ins.summary || {};
+
+    let html = `
+      <div class="insights-wrap">
+        <div class="digest-banner">
+          <div>
+            <div style="font-size: 16px; font-weight: 800; color: var(--text-main); margin-bottom: 4px;">📊 ${ins.title || 'Báo Cáo Tuyển Dụng ATTT & IT 2025'}</div>
+            <div style="font-size: 12.5px; color: var(--text-muted);">Tổng hợp từ ${summ.total_posts || 909} tin tuyển dụng thực tế tại Việt Nam và thị trường Remote quốc tế.</div>
+          </div>
+          <span class="badge-tag" style="font-family: var(--font-mono); font-size: 11px;">Official Data</span>
+        </div>
+
+        <!-- 1. Regional & Salary Matrices -->
+        <div class="chart-card-box">
+          <div class="chart-card-header">
+            <div class="chart-card-title">
+              <i data-lucide="map-pin" style="width: 16px; height: 16px; color: var(--pill-amber-text);"></i>
+              <span>Khu Vực Tuyển Dụng & Mức Lương Trung Vị</span>
+            </div>
+          </div>
+          <div class="insights-kpi-row">
+            ${(ins.regions || []).map(r => `
+              <div class="stats-kpi-card">
+                <div class="kpi-label">${r.name}</div>
+                <div class="kpi-value" style="font-size: 18px; color: var(--pill-green-text);">${r.median_salary}</div>
+                <div class="kpi-subtext">Tối đa: ${r.max_salary} (${r.count} bài đăng)</div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+
+        <!-- 2. Experience Level & Salary Distribution -->
+        <div class="charts-grid-2col">
+          <div class="chart-card-box">
+            <div class="chart-card-header">
+              <div class="chart-card-title">
+                <i data-lucide="user-check" style="width: 15px; height: 15px; color: var(--pill-blue-text);"></i>
+                <span>Phân Bố Cấp Độ Kinh Nghiệm</span>
+              </div>
+            </div>
+            <div class="progress-bar-container">
+              ${(ins.levels || []).map(l => `
+                <div class="progress-row">
+                  <span class="progress-label">${l.level}</span>
+                  <div class="progress-track">
+                    <div class="progress-fill" style="width: ${l.percent}%; background: ${l.color};"></div>
+                  </div>
+                  <span class="progress-val">${l.percent}%</span>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <div class="chart-card-box">
+            <div class="chart-card-header">
+              <div class="chart-card-title">
+                <i data-lucide="dollar-sign" style="width: 15px; height: 15px; color: var(--pill-green-text);"></i>
+                <span>Phân Bố Mức Lương Công Bố</span>
+              </div>
+            </div>
+            <div class="progress-bar-container">
+              ${(ins.salary_distribution || []).map(s => `
+                <div class="progress-row">
+                  <span class="progress-label" style="font-size: 11px;">${s.range}</span>
+                  <div class="progress-track">
+                    <div class="progress-fill" style="width: ${s.percent}%; background: var(--pill-green-text);"></div>
+                  </div>
+                  <span class="progress-val">${s.percent}%</span>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Top Skills & In-Demand Keywords -->
+        <div class="chart-card-box">
+          <div class="chart-card-header">
+            <div class="chart-card-title">
+              <i data-lucide="code-2" style="width: 16px; height: 16px; color: var(--pill-purple-text);"></i>
+              <span>Top Kỹ Năng & Từ Khóa Được Đề Cập Nhiều Nhất</span>
+            </div>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 10px;">
+            ${(ins.top_skills || []).map(sk => `
+              <div style="background: var(--bg-surface); padding: 10px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                  <div style="font-size: 12.5px; font-weight: 700; color: var(--text-main);">${sk.name}</div>
+                  <div style="font-size: 10.5px; color: var(--text-muted);">${sk.track} Track</div>
+                </div>
+                <span class="badge-tag" style="color: var(--pill-blue-text); font-weight: 700;">${sk.percent}% (${sk.count})</span>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+
+        <!-- 4. Perks & Benefits -->
+        <div class="chart-card-box">
+          <div class="chart-card-header">
+            <div class="chart-card-title">
+              <i data-lucide="gift" style="width: 16px; height: 16px; color: var(--pill-cyan-text);"></i>
+              <span>Chế Độ Đãi Ngộ Phổ Biến</span>
+            </div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 8px;">
+            ${(ins.benefits || []).map(b => `
+              <div style="display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px solid var(--border-subtle);">
+                <div>
+                  <div style="font-size: 12.5px; font-weight: 600; color: var(--text-main);">${b.name}</div>
+                  <div style="font-size: 11px; color: var(--text-muted);">${b.desc}</div>
+                </div>
+                <span style="font-family: var(--font-mono); font-weight: 700; color: var(--pill-amber-text);">${b.percent}%</span>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      </div>
+    `;
+    container.innerHTML = html;
+    const countLabel = document.getElementById('displayed-count-label');
+    if (countLabel) countLabel.textContent = `Báo cáo thị trường ATTT & IT`;
+    lucide.createIcons();
+    return;
+  }
+
+  // SUBVIEW 3: JOB OPENINGS CARDS (Filtered by Subfilter or Search)
+  container.className = 'jobs-grid';
+  let jobs = jobsData.sample_jobs || [];
+
+  if (state.jobsSubfilter === 'sec') jobs = jobs.filter(j => j.track.includes('Cybersecurity') || j.tags.some(t => ['SOC', 'SIEM', 'Pentest'].includes(t)));
+  if (state.jobsSubfilter === 'ai') jobs = jobs.filter(j => j.track.includes('AI') || j.tags.some(t => ['Python', 'LangChain', 'RAG'].includes(t)));
+  if (state.jobsSubfilter === 'dev') jobs = jobs.filter(j => j.track.includes('Software') || j.tags.some(t => ['React', 'Next.js', 'Golang'].includes(t)));
+  if (state.jobsSubfilter === 'game') jobs = jobs.filter(j => j.track.includes('Game'));
+  if (state.jobsSubfilter === 'cloud') jobs = jobs.filter(j => j.track.includes('Cloud') || j.tags.some(t => ['AWS', 'Kubernetes', 'CI-CD'].includes(t)));
+
+  if (state.searchQuery) {
+    const q = state.searchQuery;
+    jobs = jobs.filter(j => {
+      return j.title.toLowerCase().includes(q) || j.company.toLowerCase().includes(q) || j.description.toLowerCase().includes(q) || (j.tags || []).some(t => t.toLowerCase().includes(q));
+    });
+  }
+
+  let html = '';
+  jobs.forEach(job => {
+    html += `
+      <div class="job-card">
+        <div>
+          <div class="job-header-row">
+            <div>
+              <a href="${job.url}" target="_blank" class="job-title">${job.title}</a>
+              <div class="job-company-row">
+                <i data-lucide="building" style="width: 12px; height: 12px;"></i>
+                <span style="font-weight: 600; color: var(--text-main);">${job.company}</span>
+                <span>•</span>
+                <span>${job.location}</span>
+              </div>
+            </div>
+            <span class="job-salary-badge">${job.salary}</span>
+          </div>
+
+          <div style="font-size: 12px; color: var(--text-muted); line-height: 1.45; margin: 10px 0;">${job.description}</div>
+        </div>
+
+        <div class="card-footer-row">
+          <div style="display: flex; gap: 4px; flex-wrap: wrap;">
+            <span class="badge-tag" style="color: var(--pill-blue-text); font-weight: 700;">${job.level}</span>
+            ${(job.tags || []).slice(0, 4).map(t => `<span class="domain-chip">#${t}</span>`).join('')}
+          </div>
+          <a href="${job.url}" target="_blank" class="btn-zinc" style="font-size: 11.5px;">
+            <span>Ứng tuyển</span>
+            <i data-lucide="external-link" style="width: 11px; height: 11px;"></i>
+          </a>
+        </div>
+      </div>
+    `;
+  });
+
+  container.innerHTML = html;
+  const countLabel = document.getElementById('displayed-count-label');
+  if (countLabel) countLabel.textContent = `${jobs.length} vị trí tuyển dụng`;
+  lucide.createIcons();
+}
+
+// ==================== 5. SINGLE REPO DEEP DIVE MODAL ====================
+function openRepoDetailModal(fullName) {
+  const modal = document.getElementById('repo-detail-modal');
+  const body = document.getElementById('repo-detail-modal-body');
+  const title = document.getElementById('repo-detail-modal-title');
+  if (!modal || !body) return;
+
+  // Find repo in cache or construct metadata
+  let r = state.starsRepos.find(item => item.full_name === fullName) ||
+          state.trendingRepos.find(item => item.full_name === fullName || item.name === fullName) ||
+          state.freshRepos.find(item => item.full_name === fullName);
+
+  if (!r) {
+    r = {
+      full_name: fullName,
+      name: fullName.split('/')[1] || fullName,
+      owner: fullName.split('/')[0] || 'github',
+      description: 'Repository nguồn mở trên GitHub',
+      stars: 1000,
+      forks: 150,
+      language: 'TypeScript',
+      topics: ['open-source', 'tools'],
+      url: `https://github.com/${fullName}`
+    };
+  }
+
+  const owner = r.owner || (r.full_name ? r.full_name.split('/')[0] : 'github');
+  const avatarUrl = `https://github.com/${owner}.png?size=60`;
+  const isBookmarked = state.notesData.bookmarks.includes(r.full_name);
+  const note = state.notesData.notes[r.full_name]?.text || '';
+  const langColor = window.getLanguageColor ? window.getLanguageColor(r.language) : '#8B949E';
+
+  if (title) title.innerHTML = `<span>${r.full_name}</span>`;
+
+  body.innerHTML = `
+    <div style="display: flex; flex-direction: column; gap: 14px;">
+      <div class="repo-detail-header">
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <img src="${avatarUrl}" class="card-avatar" style="width: 44px; height: 44px;" alt="${owner}">
+          <div>
+            <div style="font-size: 16px; font-weight: 800; color: var(--text-main);">${r.full_name}</div>
+            <div style="font-size: 11.5px; color: var(--text-muted); margin-top: 2px;">
+              <span style="display: inline-flex; align-items: center; gap: 5px;">
+                <span style="width: 8px; height: 8px; border-radius: 50%; background: ${langColor};"></span>
+                ${r.language || 'Plain'}
+              </span>
+              • Cập nhật: ${r.starred_at ? r.starred_at.slice(0, 10) : 'Gần đây'}
+            </div>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 6px;">
+          <button class="btn-zinc ${isBookmarked ? 'active' : ''}" onclick="toggleBookmark('${r.full_name}'); openRepoDetailModal('${r.full_name}');">
+            <i data-lucide="bookmark" style="width: 13px; height: 13px;"></i>
+            <span>${isBookmarked ? 'Đã Bookmark' : 'Bookmark'}</span>
+          </button>
+        </div>
+      </div>
+
+      <div style="font-size: 13.5px; color: var(--text-main); line-height: 1.5;">${r.description || 'Không có mô tả chi tiết'}</div>
+
+      <!-- Stats Grid -->
+      <div class="inspector-stats-grid">
+        <div class="inspector-stat-pill">
+          <span class="inspector-stat-num" style="color: var(--pill-amber-text);">⭐ ${formatNumber(r.stars || 0)}</span>
+          <span class="inspector-stat-label">Stars</span>
+        </div>
+        <div class="inspector-stat-pill">
+          <span class="inspector-stat-num">🍴 ${formatNumber(r.forks || 0)}</span>
+          <span class="inspector-stat-label">Forks</span>
+        </div>
+        <div class="inspector-stat-pill">
+          <span class="inspector-stat-num" style="color: var(--pill-blue-text);">${r.language || 'Plain'}</span>
+          <span class="inspector-stat-label">Ngôn Ngữ</span>
+        </div>
+        <div class="inspector-stat-pill">
+          <span class="inspector-stat-num" style="color: var(--pill-green-text);">${r.open_issues || r.open_issues_count || 0}</span>
+          <span class="inspector-stat-label">Open Issues</span>
+        </div>
+      </div>
+
+      <!-- Clone Box -->
+      <div>
+        <div style="font-size: 11.5px; font-weight: 600; color: var(--text-muted); margin-bottom: 4px;">Lệnh Clone nhanh:</div>
+        <div class="repo-clone-box">
+          <code>git clone https://github.com/${r.full_name}.git</code>
+          <button class="btn-zinc btn-icon" style="width: 22px; height: 22px;" onclick="navigator.clipboard.writeText('git clone https://github.com/${r.full_name}.git'); showToast('Đã copy lệnh clone!');">
+            <i data-lucide="copy" style="width: 12px; height: 12px;"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Topics -->
+      ${(r.topics || []).length > 0 ? `
+        <div>
+          <div style="font-size: 11.5px; font-weight: 600; color: var(--text-muted); margin-bottom: 6px;">Chủ đề (#Topics):</div>
+          <div style="display: flex; gap: 5px; flex-wrap: wrap;">
+            ${(r.topics || []).map(t => `<span class="domain-chip" onclick="closeRepoDetailModal(); selectTopicFilter('${t}')">#${t}</span>`).join('')}
+          </div>
+        </div>
+      ` : ''}
+
+      <!-- Personal Notes -->
+      <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); padding: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+          <span style="font-size: 12px; font-weight: 700; color: var(--text-main); display: flex; align-items: center; gap: 5px;">
+            <i data-lucide="file-text" style="width: 12px; height: 12px; color: var(--pill-blue-text);"></i>
+            Ghi Chú Cá Nhân
+          </span>
+          <button class="btn-zinc" style="font-size: 11px; padding: 2px 6px;" onclick="closeRepoDetailModal(); openNoteModal('${r.full_name}');">Sửa ghi chú</button>
+        </div>
+        <div style="font-size: 12px; color: var(--text-muted); font-style: ${note ? 'normal' : 'italic'};">
+          ${note || 'Chưa có ghi chú nào cho repo này.'}
+        </div>
+      </div>
+
+      <!-- Footer Actions -->
+      <div style="display: flex; justify-content: flex-end; gap: 8px; border-top: 1px solid var(--border-subtle); padding-top: 12px;">
+        <a href="https://star-history.com/#${r.full_name}&Date" target="_blank" class="btn-zinc">
+          <i data-lucide="trending-up" style="width: 12px; height: 12px;"></i>
+          <span>Star History</span>
+        </a>
+        <a href="${r.url || ('https://github.com/' + r.full_name)}" target="_blank" class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text);">
+          <span>Mở GitHub</span>
+          <i data-lucide="external-link" style="width: 12px; height: 12px;"></i>
+        </a>
+      </div>
+    </div>
+  `;
+
+  modal.classList.add('open');
+  lucide.createIcons();
+}
+
+function closeRepoDetailModal() {
+  const modal = document.getElementById('repo-detail-modal');
+  if (modal) modal.classList.remove('open');
+}
+
+// ==================== 6. QUICK REPO INSPECTOR ====================
 function openInspectorModal() {
   const modal = document.getElementById('inspector-modal');
   if (modal) {
@@ -1231,7 +1638,7 @@ async function executeRepoInspect() {
   }
 }
 
-// ==================== 5. WEEKLY DIGEST ====================
+// ==================== 7. WEEKLY DIGEST ====================
 function openDigestModal() {
   const modal = document.getElementById('digest-modal');
   const content = document.getElementById('digest-modal-content');
@@ -1277,7 +1684,7 @@ function closeDigestModal() {
   if (modal) modal.classList.remove('open');
 }
 
-// ==================== 6. DEV QUOTE RADAR ====================
+// ==================== 8. DEV QUOTE RADAR ====================
 function refreshDevQuote() {
   const elText = document.getElementById('dev-quote-text');
   const elAuthor = document.getElementById('dev-quote-author');

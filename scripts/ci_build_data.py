@@ -120,10 +120,10 @@ def build_all(username='vuongdat67'):
     except Exception as e:
         print(f"   AI Pulse FAILED: {e}")
 
-    # ── 5. Static Assets Data (Collections, Dev Tools, Weekly Digest) ─────
-    print("\n[5/5] Syncing Collections, Dev Tools & Weekly Digest...")
+    # ── 5. Static Assets Data (Collections, Dev Tools, Weekly Digest, Jobs) ─────
+    print("\n[5/5] Syncing Collections, Dev Tools, Weekly Digest & Jobs...")
     import shutil
-    for extra_file in ['collections.json', 'dev_tools.json', 'weekly_digest.json']:
+    for extra_file in ['collections.json', 'dev_tools.json', 'weekly_digest.json', 'jobs.json']:
         src_path = os.path.join(DATA_DIR, extra_file)
         dst_path = os.path.join(DOCS_DATA_DIR, extra_file)
         if os.path.exists(src_path):

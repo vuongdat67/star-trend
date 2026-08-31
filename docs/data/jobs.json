@@ -1,0 +1,192 @@
+{
+  "insights": {
+    "title": "Báo Cáo Xu Hướng Tuyển Dụng Công Nghệ & An Ninh Mạng 2025 - 2026 🇻🇳",
+    "updated_at": "2026-08-31",
+    "summary": {
+      "total_posts": 909,
+      "it_jobs": 708,
+      "cybersecurity_jobs": 662,
+      "avg_likes": 44
+    },
+    "regions": [
+      { "name": "Hà Nội", "count": 422, "median_salary": "30M", "max_salary": "60M" },
+      { "name": "TP. Hồ Chí Minh", "count": 138, "median_salary": "50M", "max_salary": "120M" },
+      { "name": "Làm việc từ xa (Remote / Global)", "count": 26, "median_salary": "75M", "max_salary": "375M" },
+      { "name": "Khu vực khác / Linh hoạt", "count": 116, "median_salary": "25M", "max_salary": "50M" }
+    ],
+    "levels": [
+      { "level": "Intern / Fresher", "percent": 22.4, "color": "var(--pill-green-text)" },
+      { "level": "Junior", "percent": 44.3, "color": "var(--pill-blue-text)" },
+      { "level": "Middle", "percent": 28.0, "color": "var(--pill-purple-text)" },
+      { "level": "Senior / Lead / Manager", "percent": 27.7, "color": "var(--pill-amber-text)" }
+    ],
+    "salary_distribution": [
+      { "range": "< 15 Triệu VND", "percent": 12.5, "desc": "Fresher, Junior cơ bản, thực tập có lương" },
+      { "range": "15 – 30 Triệu VND", "percent": 38.2, "desc": "Junior 1-2 năm exp, SOC L1, Web/App Dev" },
+      { "range": "30 – 50 Triệu VND", "percent": 31.1, "desc": "Mid-level, SOC L2/L3, Pentester, DevOps" },
+      { "range": "50 – 100 Triệu VND", "percent": 12.7, "desc": "Senior Engineer, Detection/DevSecOps, Tech Lead" },
+      { "range": "100 Triệu VND++ (Remote/USD)", "percent": 5.5, "desc": "Principal, Head of Security, US/EU Remote" }
+    ],
+    "top_skills": [
+      { "name": "SOC / SIEM / Log Analysis", "count": 136, "percent": 19.8, "track": "Security" },
+      { "name": "Tiếng Anh (Giao tiếp / Báo cáo)", "count": 207, "percent": 30.1, "track": "Soft Skill" },
+      { "name": "Pentest / Web / Mobile App", "count": 210, "percent": 30.5, "track": "Security" },
+      { "name": "Cloud (AWS / Azure / GCP)", "count": 107, "percent": 15.6, "track": "DevOps" },
+      { "name": "Linux / Shell Scripting", "count": 90, "percent": 13.1, "track": "System" },
+      { "name": "Windows / Sysmon / AD", "count": 80, "percent": 11.6, "track": "System" },
+      { "name": "OSCP / CEH / Security Certs", "count": 71, "percent": 10.3, "track": "Cert" },
+      { "name": "DevSecOps / CI-CD Pipeline", "count": 35, "percent": 5.1, "track": "DevOps" },
+      { "name": "Automation / Python / Rust / Go", "count": 32, "percent": 4.7, "track": "Dev" },
+      { "name": "AI / LLM Integration", "count": 32, "percent": 4.7, "track": "AI" }
+    ],
+    "benefits": [
+      { "name": "Thưởng / Lương tháng 13 / Bonus", "percent": 37.4, "desc": "Có nhắc thưởng KPI hoặc lương tháng 13" },
+      { "name": "Yêu cầu Tiếng Anh / Đào tạo ngoại ngữ", "percent": 35.7, "desc": "Phỏng vấn và làm việc môi trường quốc tế" },
+      { "name": "Bảo hiểm sức khỏe cao cấp (BHSK/Aon)", "percent": 31.9, "desc": "Chăm sóc sức khỏe tư nhân toàn diện" },
+      { "name": "Chính sách Remote / Hybrid / WFH", "percent": 13.2, "desc": "Linh hoạt làm việc tại nhà hoặc văn phòng" },
+      { "name": "Tài trợ học phí & Thi chứng chỉ (OSCP/AWS)", "percent": 5.1, "desc": "Được tài trợ 100% chi phí thi chứng chỉ quốc tế" }
+    ]
+  },
+  "platforms": [
+    {
+      "category": "🇻🇳 Việt Nam (Hàng Đầu Cho IT & Dev)",
+      "items": [
+        { "name": "ITviec", "url": "https://itviec.com", "badge": "Chuyên IT/Dev", "desc": "Nền tảng việc làm IT chất lượng cao nhất Việt Nam, nhiều việc làm Senior, đãi ngộ rõ ràng." },
+        { "name": "TopCV", "url": "https://www.topcv.vn/viec-lam", "badge": "Đa dạng / Fresher", "desc": "Hàng chục nghìn việc làm từ thực tập, fresher đến junior mọi ngành nghề công nghệ." },
+        { "name": "VietnamWorks", "url": "https://www.vietnamworks.com", "badge": "Doanh nghiệp lớn", "desc": "Tập đoàn lớn, ngân hàng, công ty đa quốc gia tuyển dụng vị trí IT, Security, DevOps." },
+        { "name": "CareerViet", "url": "https://careerviet.vn", "badge": "Enterprise", "desc": "Cơ hội việc làm enterprise, ngân hàng, fintech và viễn thông quy mô lớn." },
+        { "name": "Glints Vietnam", "url": "https://glints.com/vn", "badge": "Startup / Intern", "desc": "Môi trường startup, công ty công nghệ trẻ tại VN và Đông Nam Á." },
+        { "name": "TopDev", "url": "https://topdev.vn", "badge": "Tech Community", "desc": "Chuyên trang việc làm cho lập trình viên kèm báo cáo thị trường IT hàng quý." },
+        { "name": "CyberJutsu Jobs", "url": "https://jobs.cyberjutsu.io", "badge": "ATTT / Security", "desc": "Kho tra cứu việc làm An toàn thông tin, SOC, Pentest, DevSecOps chuyên sâu tại VN." }
+      ]
+    },
+    {
+      "category": "🌐 Nước Ngoài & Remote Quốc Tế",
+      "items": [
+        { "name": "LinkedIn Jobs", "url": "https://www.linkedin.com/jobs", "badge": "Toàn cầu / Số 1", "desc": "Nền tảng tuyển dụng chuyên nghiệp toàn cầu quan trọng nhất, mở cơ hội remote và relocation." },
+        { "name": "Wellfound (AngelList)", "url": "https://wellfound.com/jobs", "badge": "AI & Startups", "desc": "Tìm việc tại các startup AI, SaaS, Web3 hàng đầu thế giới với equity và lương USD." },
+        { "name": "Indeed Global", "url": "https://www.indeed.com", "badge": "Toàn cầu", "desc": "Công cụ tìm kiếm việc làm lớn nhất thế giới, hỗ trợ cả thị trường US, EU và Remote." },
+        { "name": "Remote OK", "url": "https://remoteok.com", "badge": "100% Remote", "desc": "Cổng việc làm làm việc từ xa 100% dành cho developer, security researcher và data engineer." },
+        { "name": "We Work Remotely", "url": "https://weworkremotely.com", "badge": "Remote", "desc": "Cộng đồng việc làm từ xa lớn nhất với hơn 3 triệu người dùng hàng tháng." },
+        { "name": "Himalayas", "url": "https://himalayas.app/jobs", "badge": "Remote-first", "desc": "Nền tảng tuyển dụng remote hiện đại với thông tin mức lương và múi giờ minh bạch." },
+        { "name": "Hacker News (Who is Hiring)", "url": "https://news.ycombinator.com/jobs", "badge": "Silicon Valley", "desc": "Các startup được Y Combinator hậu thuẫn đăng tuyển kỹ sư trực tiếp không qua trung gian." },
+        { "name": "Arc.dev", "url": "https://arc.dev", "badge": "Developer Remote", "desc": "Mạng lưới kết nối lập trình viên remote chất lượng cao với các công ty công nghệ US." }
+      ]
+    },
+    {
+      "category": "🤖 Chuyên Biệt AI / ML / Data Science",
+      "items": [
+        { "name": "AI-Jobs.net", "url": "https://ai-jobs.net", "badge": "AI & Big Data", "desc": "Chuyên trang việc làm AI, Machine Learning, Deep Learning và Data Engineering toàn cầu." },
+        { "name": "DeepLearning.AI Jobs", "url": "https://www.deeplearning.ai/careers", "badge": "AI Research", "desc": "Cơ hội việc làm từ mạng lưới của Andrew Ng và các đối tác AI hàng đầu." },
+        { "name": "Hugging Face Jobs", "url": "https://huggingface.co/jobs", "badge": "Open Source AI", "desc": "Tuyển dụng kỹ sư mô hình ngôn ngữ lớn, open-weights và hạ tầng AI." },
+        { "name": "Kaggle Jobs", "url": "https://www.kaggle.com/jobs", "badge": "Data Science", "desc": "Cơ hội cho các nhà nghiên cứu dữ liệu, thí sinh thi đấu ML Grandmaster." }
+      ]
+    },
+    {
+      "category": "🛡️ Chuyên Biệt Cybersecurity / SOC / Pentest",
+      "items": [
+        { "name": "CyberSecJobs.com", "url": "https://www.cybersecjobs.com", "badge": "Security US", "desc": "Chuyên về An ninh mạng, bảo mật thông tin, phân tích mã độc và SOC Analyst." },
+        { "name": "CyberSecurityJobsite", "url": "https://www.cybersecurityjobsite.com", "badge": "UK & EU", "desc": "Việc làm bảo mật tại thị trường châu Âu, UK và các tổ chức an ninh quốc tế." },
+        { "name": "SANS Cyber Security Jobs", "url": "https://www.sans.org/cyber-security-careers", "badge": "SANS GIAC", "desc": "Trung tâm việc làm uy tín dành cho chuyên gia có chứng chỉ SANS GIAC, Blue Team, DFIR." },
+        { "name": "ISC2 Career Center", "url": "https://www.isc2.org", "badge": "CISSP / SSCP", "desc": "Cổng việc làm bảo mật của tổ chức cấp chứng chỉ CISSP, CCSP danh giá." }
+      ]
+    },
+    {
+      "category": "🎮 Game Development & Freelance / Contract",
+      "items": [
+        { "name": "Hitmarker", "url": "https://hitmarker.net", "badge": "Game & Esports", "desc": "Nền tảng việc làm số 1 thế giới về ngành Game (Unity, Unreal, 3D Artist, Gameplay)." },
+        { "name": "GameJobs.co", "url": "https://gamejobs.co", "badge": "Game Industry", "desc": "Tuyển dụng từ các studio game danh tiếng (Epic Games, Riot, Ubisoft, EA, Rockstar)." },
+        { "name": "Work With Indies", "url": "https://www.workwithindies.com", "badge": "Indie Game", "desc": "Việc làm tại các studio game độc lập sáng tạo và linh hoạt." },
+        { "name": "Upwork", "url": "https://www.upwork.com", "badge": "Freelance Global", "desc": "Nền tảng kiếm dự án freelance, hợp đồng ngắn và dài hạn lớn nhất thế giới." },
+        { "name": "Toptal", "url": "https://www.toptal.com", "badge": "Top 3% Dev", "desc": "Mạng lưới freelance dành cho 3% lập trình viên xuất sắc nhất, mức thu nhập vượt trội." },
+        { "name": "Contra", "url": "https://contra.com", "badge": "Commission-Free", "desc": "Nền tảng freelance thế hệ mới không thu phí hoa hồng dành cho tech & design." }
+      ]
+    }
+  ],
+  "sample_jobs": [
+    {
+      "id": "job-1",
+      "title": "Senior SOC / Threat Detection Engineer",
+      "company": "Viettel Cyber Security",
+      "location": "Hà Nội / Hybrid",
+      "salary": "35 – 65 Triệu VND",
+      "level": "Senior",
+      "track": "Cybersecurity",
+      "tags": ["SOC", "SIEM", "Splunk", "Threat Hunting", "Sysmon", "Incident Response"],
+      "source": "CyberJutsu",
+      "url": "https://jobs.cyberjutsu.io",
+      "date": "2026-08-30",
+      "description": "Giám sát, phân tích log an ninh mạng từ SIEM/EDR, xây dựng rules phát hiện tấn công nâng cao (Detection Engineering) và điều tra phản ứng sự cố DFIR."
+    },
+    {
+      "id": "job-2",
+      "title": "AI / LLM Agent Fullstack Engineer",
+      "company": "FPT Software AI Lab",
+      "location": "Hà Nội / TP.HCM",
+      "salary": "40 – 80 Triệu VND",
+      "level": "Middle / Senior",
+      "track": "AI / ML",
+      "tags": ["Python", "FastAPI", "TypeScript", "LangChain", "MCP", "Ollama", "RAG"],
+      "source": "ITviec",
+      "url": "https://itviec.com",
+      "date": "2026-08-29",
+      "description": "Phát triển các ứng dụng Multi-Agent và hệ thống RAG kết hợp Model Context Protocol (MCP) cho khách hàng doanh nghiệp quốc tế."
+    },
+    {
+      "id": "job-3",
+      "title": "Cybersecurity / Pentester (Web & Mobile)",
+      "company": "Techcombank / VIB",
+      "location": "TP. Hồ Chí Minh",
+      "salary": "30 – 55 Triệu VND",
+      "level": "Middle",
+      "track": "Cybersecurity",
+      "tags": ["Pentest", "OWASP", "BurpSuite", "API Security", "OSCP", "Mobile RE"],
+      "source": "VietnamWorks",
+      "url": "https://www.vietnamworks.com",
+      "date": "2026-08-28",
+      "description": "Đánh giá an ninh ứng dụng web, API ngân hàng, ứng dụng Mobile iOS/Android và kiểm thử thâm nhập định kỳ hạ tầng Cloud."
+    },
+    {
+      "id": "job-4",
+      "title": "DevSecOps & Cloud Security Engineer (Remote)",
+      "company": "US SaaS Tech Partner",
+      "location": "100% Remote / Toàn Quốc",
+      "salary": "$2,500 – $4,500 / tháng (~60 - 115 Triệu VND)",
+      "level": "Senior",
+      "track": "Cloud / DevOps",
+      "tags": ["AWS", "Kubernetes", "Terraform", "CI-CD", "Trivy", "SAST/DAST", "Docker"],
+      "source": "LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs",
+      "date": "2026-08-27",
+      "description": "Tích hợp công cụ bảo mật tự động vào quy trình CI/CD, bảo mật cụm Kubernetes và quản lý hạ tầng Cloud AWS theo chuẩn SOC2."
+    },
+    {
+      "id": "job-5",
+      "title": "Junior / Fresher SOC Analyst (Trực ca L1/L2)",
+      "company": "VNPT Cyber Security",
+      "location": "Hà Nội",
+      "salary": "15 – 25 Triệu VND",
+      "level": "Junior / Fresher",
+      "track": "Cybersecurity",
+      "tags": ["SOC L1", "Network", "Wireshark", "Linux", "Windows Logs", "English"],
+      "source": "TopCV",
+      "url": "https://www.topcv.vn",
+      "date": "2026-08-26",
+      "description": "Vị trí tuyệt vời cho sinh viên mới ra trường và junior đam mê ATTT. Phân tích cảnh báo an ninh mạng 24/7, xác định mã độc và leo thang sự cố."
+    },
+    {
+      "id": "job-6",
+      "title": "Fullstack Web Developer (Next.js & Go)",
+      "company": "Vui Coding / Tech Community Startup",
+      "location": "TP.HCM / Remote",
+      "salary": "25 – 45 Triệu VND",
+      "level": "Middle",
+      "track": "Software / Web",
+      "tags": ["React", "Next.js", "Golang", "PostgreSQL", "Tailwind", "Docker"],
+      "source": "TopDev",
+      "url": "https://topdev.vn",
+      "date": "2026-08-25",
+      "description": "Xây dựng các sản phẩm web ứng dụng hiệu năng cao phục vụ cộng đồng lập trình viên, tối ưu SEO và trải nghiệm người dùng."
+    }
+  ]
+}

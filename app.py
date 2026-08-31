@@ -59,10 +59,20 @@ class AppRequestHandler(SimpleHTTPRequestHandler):
             self.handle_api_hf_trending(query)
         elif path == '/api/ai-pulse':
             self.handle_api_ai_pulse()
+        elif path == '/api/collections':
+            self.handle_api_json_file('collections.json')
+        elif path in ('/api/dev-tools', '/api/tools'):
+            self.handle_api_json_file('dev_tools.json')
+        elif path in ('/api/weekly-digest', '/api/digest'):
+            self.handle_api_json_file('weekly_digest.json')
+        elif path == '/api/jobs':
+            self.handle_api_json_file('jobs.json')
         elif path == '/api/download':
             self.handle_api_download(query)
         elif path == '/api/notes':
             self.handle_api_get_notes()
+        elif path.startswith('/data/'):
+            self.handle_data_file(path)
         elif path in ('/', '/index.html'):
             self.serve_index()
         else:
@@ -236,6 +246,43 @@ class AppRequestHandler(SimpleHTTPRequestHandler):
         except Exception as e:
             print(f"[!] Export error: {e}")
             self.send_json_response({'success': False, 'error': str(e)}, status=500)
+
+    def handle_api_json_file(self, filename):
+        data_path = os.path.join(BASE_DIR, 'data', filename)
+        if not os.path.exists(data_path):
+            data_path = os.path.join(STATIC_DIR, 'data', filename)
+        if os.path.exists(data_path):
+            try:
+                with open(data_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                self.send_json_response(data)
+                return
+            except Exception as e:
+                self.send_json_response({'error': str(e)}, status=500)
+                return
+        self.send_json_response({}, status=404)
+
+    def handle_data_file(self, req_path):
+        rel_path = req_path.lstrip('/')
+        data_path = os.path.join(BASE_DIR, rel_path)
+        if not os.path.exists(data_path):
+            data_path = os.path.join(STATIC_DIR, rel_path)
+        if os.path.exists(data_path) and os.path.isfile(data_path):
+            try:
+                with open(data_path, 'rb') as f:
+                    content = f.read()
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.send_header('Content-Length', str(len(content)))
+                self.send_header('Connection', 'close')
+                self.end_headers()
+                self.wfile.write(content)
+                return
+            except Exception as e:
+                self.send_error(500, str(e))
+                return
+        self.send_error(404, "Data file not found")
 
     def send_json_response(self, data, status=200):
         body = json.dumps(data, ensure_ascii=False).encode('utf-8')

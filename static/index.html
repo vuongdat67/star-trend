@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub & Hugging Face Stars, Trending, Collections & AI Radar | @vuongdat67</title>
-  <meta name="description" content="Workspace theo dõi dự án nguồn mở thịnh hành, quản lý kho stars, bộ sưu tập công nghệ và radar tin tức AI.">
+  <title>GitHub & Hugging Face Stars, Trending, Collections, Jobs & AI Radar | @vuongdat67</title>
+  <meta name="description" content="Workspace theo dõi dự án nguồn mở thịnh hành, quản lý kho stars, việc làm IT/ATTT và radar tin tức AI.">
 
   <!-- Lucide Icons & Chart.js -->
   <script src="https://unpkg.com/lucide@latest"></script>
@@ -37,13 +37,13 @@
       </div>
 
       <div class="topbar-actions">
-        <!-- New Feature: Quick Repo Inspector -->
+        <!-- Quick Repo Inspector -->
         <button class="btn-zinc" onclick="openInspectorModal()" title="Tra cứu nhanh bất kỳ repo GitHub nào">
           <i data-lucide="scan-search" style="width: 13px; height: 13px; color: var(--pill-blue-text);"></i>
           <span>Tra Cứu Repo</span>
         </button>
 
-        <!-- New Feature: Weekly Digest -->
+        <!-- Weekly Digest -->
         <button class="btn-zinc" onclick="openDigestModal()" title="Bản tin tóm tắt xu hướng công nghệ tuần">
           <i data-lucide="newspaper" style="width: 13px; height: 13px; color: var(--pill-purple-text);"></i>
           <span>Bản Tin Tuần</span>
@@ -88,7 +88,7 @@
         <!-- Controls Box -->
         <div class="controls-panel">
           <div class="controls-row-top">
-            <!-- Mode Tabs (Expanded to 7 modes) -->
+            <!-- Mode Tabs (Expanded to 8 modes) -->
             <div class="tab-btn-group" style="flex-wrap: wrap;">
               <button class="tab-btn active" id="mode-btn-trending" onclick="switchFeedMode('trending')">
                 <i data-lucide="flame" style="width: 13px; height: 13px; color: var(--pill-amber-text);"></i>
@@ -96,7 +96,7 @@
               </button>
               <button class="tab-btn" id="mode-btn-stars" onclick="switchFeedMode('stars')">
                 <i data-lucide="bookmark" style="width: 13px; height: 13px;"></i>
-                <span>Kho Stars (<span id="stars-total-count">612</span>)</span>
+                <span>Kho Stars (<span id="stars-total-count">614</span>)</span>
               </button>
               <button class="tab-btn" id="mode-btn-new" onclick="switchFeedMode('new')">
                 <i data-lucide="sparkle" style="width: 13px; height: 13px; color: var(--pill-green-text);"></i>
@@ -106,20 +106,22 @@
                 <i data-lucide="radio" style="width: 13px; height: 13px; color: var(--pill-purple-text);"></i>
                 <span>AI & Tech Radar</span>
               </button>
-              <!-- NEW: Curated Collections Tab -->
               <button class="tab-btn" id="mode-btn-collections" onclick="switchFeedMode('collections')">
                 <i data-lucide="folder-heart" style="width: 13px; height: 13px; color: var(--pill-red-text);"></i>
                 <span>Bộ Sưu Tập</span>
               </button>
-              <!-- NEW: Stats Dashboard Tab -->
               <button class="tab-btn" id="mode-btn-stats" onclick="switchFeedMode('stats')">
                 <i data-lucide="bar-chart-3" style="width: 13px; height: 13px; color: var(--pill-blue-text);"></i>
                 <span>Thống Kê & Velocity</span>
               </button>
-              <!-- NEW: Dev Tools & Launch Tab -->
               <button class="tab-btn" id="mode-btn-tools" onclick="switchFeedMode('tools')">
                 <i data-lucide="wrench" style="width: 13px; height: 13px; color: var(--pill-cyan-text);"></i>
                 <span>Dev Tools & Launch</span>
+              </button>
+              <!-- NEW: Jobs Radar Tab -->
+              <button class="tab-btn" id="mode-btn-jobs" onclick="switchFeedMode('jobs')">
+                <i data-lucide="briefcase" style="width: 13px; height: 13px; color: var(--pill-amber-text);"></i>
+                <span>Kèo Dev & Việc Làm</span>
               </button>
             </div>
 
@@ -131,12 +133,12 @@
             </div>
           </div>
 
-          <!-- Radar Sub-Category Pills (Tách bạch rõ CVE / News / Papers / X Trends / Labs) -->
+          <!-- Radar Sub-Category Pills -->
           <div id="radar-subfilters" class="radar-subfilter-bar" style="display: none;">
             <!-- Rendered dynamically by JS -->
           </div>
 
-          <!-- Tools Sub-Category Pills (Tools vs Launch Showcase) -->
+          <!-- Tools Sub-Category Pills -->
           <div id="tools-subfilters" class="radar-subfilter-bar" style="display: none;">
             <button class="pill-btn active" onclick="switchToolsSubfilter('all')">Tất Cả Công Cụ</button>
             <button class="pill-btn" onclick="switchToolsSubfilter('launch')">🚀 Launch Board (Showcase)</button>
@@ -145,11 +147,23 @@
             <button class="pill-btn" onclick="switchToolsSubfilter('sec')">🛡️ Security & Auth</button>
           </div>
 
+          <!-- Jobs Sub-Category Pills -->
+          <div id="jobs-subfilters" class="radar-subfilter-bar" style="display: none;">
+            <button class="pill-btn active" onclick="switchJobsSubfilter('all')">📌 Tất Cả Kèo Dev</button>
+            <button class="pill-btn" onclick="switchJobsSubfilter('sec')">🛡️ An Ninh Mạng & SOC</button>
+            <button class="pill-btn" onclick="switchJobsSubfilter('ai')">🤖 AI & Machine Learning</button>
+            <button class="pill-btn" onclick="switchJobsSubfilter('dev')">💻 Software / Web / App</button>
+            <button class="pill-btn" onclick="switchJobsSubfilter('game')">🎮 Game Dev</button>
+            <button class="pill-btn" onclick="switchJobsSubfilter('cloud')">☁️ Cloud & DevOps</button>
+            <button class="pill-btn" onclick="switchJobsSubfilter('platforms')">🌐 30+ Cổng Tuyển Dụng</button>
+            <button class="pill-btn" onclick="switchJobsSubfilter('insights')">📊 Báo Cáo Xu Hướng 2025</button>
+          </div>
+
           <div class="controls-row-bottom" id="controls-row-bottom">
             <!-- Search -->
             <div class="search-wrap">
               <i data-lucide="search"></i>
-              <input type="text" id="search-input" class="input-text" placeholder="Tìm theo tên repo, mô tả, CVE-ID, #topic, tác giả..." oninput="handleSearch(this.value)">
+              <input type="text" id="search-input" class="input-text" placeholder="Tìm theo tên repo, mô tả, CVE-ID, vị trí tuyển dụng, kỹ năng..." oninput="handleSearch(this.value)">
             </div>
 
             <!-- Language select -->
@@ -175,7 +189,7 @@
 
             <!-- Layout switcher (3 cols, 2 cols, 1 col) -->
             <div class="layout-toggle-group" id="layout-toggle-group">
-              <button class="layout-btn active" id="layout-btn-3" onclick="switchLayout('layout-grid-3')" title="Lưới 3 cột (Tối ưu không gian)">
+              <button class="layout-btn active" id="layout-btn-3" onclick="switchLayout('layout-grid-3')" title="Lưới 3 cột">
                 <i data-lucide="layout-grid" style="width: 14px; height: 14px;"></i>
               </button>
               <button class="layout-btn" id="layout-btn-2" onclick="switchLayout('layout-grid-2')" title="Lưới 2 cột">
@@ -194,14 +208,13 @@
           <div id="active-filter-badge" style="font-family: var(--font-mono); font-size: 11px; color: var(--pill-blue-text);"></div>
         </div>
 
-        <!-- Cards Feed Grid (Dynamic) -->
+        <!-- Cards Feed Grid -->
         <div class="cards-feed-grid layout-grid-3" id="cards-feed-container">
           <!-- Rendered by JS -->
         </div>
 
-        <!-- STATS & VELOCITY DASHBOARD VIEW CONTAINER (Hidden by default, shown in 'stats' mode) -->
+        <!-- STATS & VELOCITY DASHBOARD VIEW CONTAINER -->
         <div id="stats-view-container" class="stats-dashboard-wrap" style="display: none;">
-          <!-- 1. KPI Cards -->
           <div class="stats-kpi-grid">
             <div class="stats-kpi-card">
               <div class="kpi-label"><i data-lucide="star" style="width: 13px; height: 13px; color: var(--accent-star);"></i> Tổng Sao Đã Tích Lũy</div>
@@ -225,7 +238,6 @@
             </div>
           </div>
 
-          <!-- 2. Star Velocity Leaderboard -->
           <div class="chart-card-box">
             <div class="chart-card-header">
               <div class="chart-card-title">
@@ -237,9 +249,7 @@
             <div id="velocity-leaderboard-container"></div>
           </div>
 
-          <!-- 3. Charts 2-Column Grid -->
           <div class="charts-grid-2col">
-            <!-- Language Doughnut -->
             <div class="chart-card-box">
               <div class="chart-card-header">
                 <div class="chart-card-title">
@@ -252,7 +262,6 @@
               </div>
             </div>
 
-            <!-- Categories Bar -->
             <div class="chart-card-box">
               <div class="chart-card-header">
                 <div class="chart-card-title">
@@ -266,7 +275,6 @@
             </div>
           </div>
 
-          <!-- 4. Timeline Bar -->
           <div class="chart-card-box">
             <div class="chart-card-header">
               <div class="chart-card-title">
@@ -316,7 +324,7 @@
           </button>
         </div>
 
-        <!-- NEW: Dev Quote & Fun Radar Widget -->
+        <!-- Dev Quote & Fun Radar Widget -->
         <div class="sidebar-box" id="sidebar-quote-box">
           <div class="sidebar-heading" style="justify-content: space-between;">
             <span style="display: flex; align-items: center; gap: 5px;">
@@ -338,7 +346,21 @@
     </div>
   </div>
 
-  <!-- ==================== NEW: QUICK REPO INSPECTOR MODAL ==================== -->
+  <!-- ==================== SINGLE REPO DEEP DIVE MODAL ==================== -->
+  <div class="modal-overlay" id="repo-detail-modal">
+    <div class="modal-card" style="max-width: 680px; max-height: 85vh; overflow-y: auto;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+        <h3 id="repo-detail-modal-title" style="font-size: 14px; font-weight: 700; display: flex; align-items: center; gap: 6px;">
+          <i data-lucide="github" style="width: 16px; height: 16px; color: var(--pill-blue-text);"></i>
+          <span>Chi Tiết Repository</span>
+        </h3>
+        <button class="btn-zinc btn-icon" onclick="closeRepoDetailModal()"><i data-lucide="x" style="width: 14px; height: 14px;"></i></button>
+      </div>
+      <div id="repo-detail-modal-body"></div>
+    </div>
+  </div>
+
+  <!-- ==================== QUICK REPO INSPECTOR MODAL ==================== -->
   <div class="modal-overlay" id="inspector-modal">
     <div class="modal-card" style="max-width: 640px;">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
@@ -354,7 +376,6 @@
         <button class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text);" onclick="executeRepoInspect()">Tra Cứu</button>
       </div>
 
-      <!-- Result Container -->
       <div id="inspector-result-container">
         <div style="text-align: center; padding: 30px 10px; color: var(--text-muted); font-size: 12.5px;">
           <i data-lucide="search" style="width: 28px; height: 28px; margin-bottom: 8px; opacity: 0.4;"></i>
@@ -364,7 +385,7 @@
     </div>
   </div>
 
-  <!-- ==================== NEW: WEEKLY DIGEST MODAL ==================== -->
+  <!-- ==================== WEEKLY DIGEST MODAL ==================== -->
   <div class="modal-overlay" id="digest-modal">
     <div class="modal-card" style="max-width: 660px; max-height: 85vh; overflow-y: auto;">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
@@ -375,9 +396,7 @@
         <button class="btn-zinc btn-icon" onclick="closeDigestModal()"><i data-lucide="x" style="width: 14px; height: 14px;"></i></button>
       </div>
 
-      <div id="digest-modal-content">
-        <!-- Rendered by JS -->
-      </div>
+      <div id="digest-modal-content"></div>
     </div>
   </div>
 

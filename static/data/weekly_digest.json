@@ -1,0 +1,35 @@
+{
+  "week_label": "Tuần 35 / 2026 (25/08 - 31/08)",
+  "published_at": "2026-08-31T07:00:00Z",
+  "highlights": [
+    {
+      "badge": "🔥 Breakout Repo",
+      "badge_color": "var(--pill-amber-text)",
+      "title": "THU-MAIC/OpenMAIC (+907 stars hôm nay)",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "tldr": "Mô hình lớp học tương tác đa tác tử AI (Multi-Agent Classroom) gây bão cộng đồng với khả năng tự phân vai thảo luận đề tài học thuật."
+    },
+    {
+      "badge": "🧠 AI Research Paper",
+      "badge_color": "var(--pill-purple-text)",
+      "title": "Reasoning Models & Multi-Turn Verification (ICML / arXiv)",
+      "url": "https://arxiv.org/abs/2402.00001",
+      "tldr": "Đột phá mới trong chuỗi suy luận (Chain-of-Thought) tự động xác minh từng bước tính toán, giảm tỷ lệ ảo giác của LLM xuống dưới 2%."
+    },
+    {
+      "badge": "🛡️ High-Risk Security Advisory",
+      "badge_color": "var(--pill-red-text)",
+      "title": "CVE-2026-9041 — Remote Code Execution in Web CLI Parsers",
+      "url": "https://nvd.nist.gov",
+      "tldr": "Lỗ hổng nghiêm trọng cho phép thực thi mã từ xa thông qua xử lý chuỗi escape không an toàn trong các công cụ terminal trên web."
+    },
+    {
+      "badge": "⚡ Dev Tool of the Week",
+      "badge_color": "var(--pill-blue-text)",
+      "title": "Astral UV — Python Package Manager V2",
+      "url": "https://github.com/astral-sh/uv",
+      "tldr": "Cập nhật hỗ trợ quản lý multi-version Python runtime không cần pyenv, tốc độ giải quyết dependency nhanh hơn pip gấp 40 lần."
+    }
+  ],
+  "trending_summary": "Xu hướng tuần này ghi nhận sự bùng nổ của các giải pháp MCP (Model Context Protocol) và các thư viện hỗ trợ Agentic Browser Automation."
+}

@@ -1,0 +1,125 @@
+{
+  "tools": [
+    {
+      "id": "tool-1",
+      "name": "JSON Crack / Formatter",
+      "category": "Data & Formatting",
+      "description": "Trực quan hóa cấu trúc JSON thành sơ đồ cây tương tác (interactive tree graph).",
+      "url": "https://jsoncrack.com/editor",
+      "icon": "network",
+      "badge": "Free / Web",
+      "tags": ["JSON", "Visualization", "Dev Tool"]
+    },
+    {
+      "id": "tool-2",
+      "name": "Regex101",
+      "category": "Debugging & Testing",
+      "description": "Trình kiểm tra và giải thích chi tiết Regular Expression cho PCRE, Python, JS, Go.",
+      "url": "https://regex101.com",
+      "icon": "code-2",
+      "badge": "Standard",
+      "tags": ["Regex", "Tester", "Debugger"]
+    },
+    {
+      "id": "tool-3",
+      "name": "MCP Server Directory",
+      "category": "AI & Agentic Tools",
+      "description": "Kho tổng hợp Model Context Protocol (MCP) servers kết nối Claude/Cursor với database, GitHub, APIs.",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "icon": "bot",
+      "badge": "AI Trend",
+      "tags": ["MCP", "Claude", "Cursor", "AI"]
+    },
+    {
+      "id": "tool-4",
+      "name": "QuickRef.ME",
+      "category": "Cheat Sheets",
+      "description": "Tra cứu nhanh cú pháp, phím tắt và cheatsheets cho hơn 100+ ngôn ngữ và framework.",
+      "url": "https://quickref.me",
+      "icon": "book-open",
+      "badge": "Cheatsheet",
+      "tags": ["Cheatsheet", "Syntax", "Reference"]
+    },
+    {
+      "id": "tool-5",
+      "name": "JWT.io Token Debugger",
+      "category": "Security & Auth",
+      "description": "Decode, verify và sinh JSON Web Tokens an toàn trực tiếp trên trình duyệt.",
+      "url": "https://jwt.io",
+      "icon": "key-round",
+      "badge": "Security",
+      "tags": ["JWT", "Auth", "Security"]
+    },
+    {
+      "id": "tool-6",
+      "name": "SVGOMG - SVG Optimizer",
+      "category": "Frontend & Assets",
+      "description": "Tối ưu hóa và giảm dung lượng file SVG mà không làm suy giảm chất lượng hiển thị.",
+      "url": "https://jakearchibald.github.io/svgomg/",
+      "icon": "image",
+      "badge": "Optimizer",
+      "tags": ["SVG", "Frontend", "Optimization"]
+    },
+    {
+      "id": "tool-7",
+      "name": "HTTP Status Dogs / Cats",
+      "category": "Debugging & Testing",
+      "description": "Tra cứu ý nghĩa các mã HTTP status code (200, 404, 500, 418) trực quan và hài hước.",
+      "url": "https://httpstatusdogs.com",
+      "icon": "smile",
+      "badge": "Fun & Useful",
+      "tags": ["HTTP", "API", "Status Codes"]
+    },
+    {
+      "id": "tool-8",
+      "name": "Excalidraw",
+      "category": "Architecture & Design",
+      "description": "Bảng vẽ sơ đồ kiến trúc hệ thống dạng vẽ tay (hand-drawn feel) cực nhẹ và bảo mật.",
+      "url": "https://excalidraw.com",
+      "icon": "pen-tool",
+      "badge": "Open Source",
+      "tags": ["Whiteboard", "Diagram", "Architecture"]
+    }
+  ],
+  "launches": [
+    {
+      "id": "launch-1",
+      "title": "OpenMAIC — Multi-Agent Classroom",
+      "author": "THU-MAIC",
+      "author_avatar": "https://avatars.githubusercontent.com/u/18752201?s=40&v=4",
+      "description": "Lớp học tương tác đa tác tử thông minh chỉ với 1 click, hỗ trợ mô phỏng giảng dạy và thảo luận chuyên sâu.",
+      "github_url": "https://github.com/THU-MAIC/OpenMAIC",
+      "demo_url": "https://github.com/THU-MAIC/OpenMAIC",
+      "tech_stack": ["TypeScript", "Next.js", "Multi-Agent", "FastAPI"],
+      "stars": 23452,
+      "upvotes": 142,
+      "date": "2026-08-30"
+    },
+    {
+      "id": "launch-2",
+      "title": "Browser-Use — AI Agent điều khiển Web",
+      "author": "browser-use",
+      "author_avatar": "https://avatars.githubusercontent.com/u/161044738?s=40&v=4",
+      "description": "Cho phép AI tự mở trình duyệt, click, điền form, trích xuất dữ liệu và tương tác như một con người thực sự.",
+      "github_url": "https://github.com/browser-use/browser-use",
+      "demo_url": "https://browser-use.com",
+      "tech_stack": ["Python", "Playwright", "LangChain", "LLM"],
+      "stars": 28910,
+      "upvotes": 218,
+      "date": "2026-08-28"
+    },
+    {
+      "id": "launch-3",
+      "title": "Fast-Agent-CLI — Terminal Assistant",
+      "author": "dev-community",
+      "author_avatar": "https://avatars.githubusercontent.com/u/9919?s=40&v=4",
+      "description": "Trợ lý dòng lệnh siêu nhẹ viết bằng Rust, tích hợp MCP protocol để tự động sửa lỗi terminal theo thời gian thực.",
+      "github_url": "https://github.com/modelcontextprotocol/servers",
+      "demo_url": "https://github.com",
+      "tech_stack": ["Rust", "CLI", "MCP", "Terminal"],
+      "stars": 8450,
+      "upvotes": 95,
+      "date": "2026-08-25"
+    }
+  ]
+}
