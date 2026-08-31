@@ -1,7 +1,7 @@
 {
   "platforms": [
     {
-      "category": "🛡️ An Toàn Thông Tin, OSCP & CISSP (Facebook Groups)",
+      "category": "An Toàn Thông Tin, OSCP & CISSP (Facebook Groups)",
       "items": [
         {
           "name": "CISSP và An toàn Thông tin",
@@ -65,672 +65,2785 @@
           "desc": "Test community desc",
           "url": "https://facebook.com/groups/test_group",
           "type": "facebook"
-        },
-        {
-          "name": "Test Group ATTT Vietnam",
-          "badge": "Facebook",
-          "desc": "Test community desc",
-          "url": "https://facebook.com/groups/test_group",
-          "type": "facebook"
-        },
-        {
-          "name": "Test Group ATTT Vietnam",
-          "badge": "Facebook",
-          "desc": "Test community desc",
-          "url": "https://facebook.com/groups/test_group",
-          "type": "facebook"
-        },
-        {
-          "name": "Test Group ATTT Vietnam",
-          "badge": "Facebook",
-          "desc": "Test community desc",
-          "url": "https://facebook.com/groups/test_group",
-          "type": "facebook"
-        },
-        {
-          "name": "Test Group ATTT Vietnam",
-          "badge": "Facebook",
-          "desc": "Test community desc",
-          "url": "https://facebook.com/groups/test_group",
-          "type": "facebook"
         }
       ]
     },
     {
-      "category": "🎯 SOC / Blue Team / SIEM (Splunk & Wazuh) / DFIR",
+      "category": "Cổng Tuyển Dụng IT Hàng Đầu Việt Nam",
       "items": [
         {
-          "name": "SOC Analyst Vietnam Community",
-          "badge": "Facebook Group",
-          "desc": "Group chuyên về SOC L1/L2/L3, phân tích log SIEM (Splunk, Wazuh, QRadar, Microsoft Sentinel), Threat Hunting.",
-          "url": "https://www.facebook.com/search/groups/?q=SOC%20Analyst%20Vietnam",
-          "type": "facebook"
-        },
-        {
-          "name": "Wazuh Vietnam SIEM & XDR Community",
-          "badge": "User Group",
-          "desc": "Cộng đồng triển khai Wazuh SIEM mã nguồn mở, tích hợp EDR, cấu hình agent và giám sát an ninh mạng.",
-          "url": "https://www.facebook.com/search/groups/?q=Wazuh%20Vietnam",
-          "type": "facebook"
-        },
-        {
-          "name": "Splunk & Elastic SIEM Vietnam",
-          "badge": "User Group",
-          "desc": "Chia sẻ kinh nghiệm xây dựng usecase phát hiện, tối ưu rule cảnh báo và tuyển dụng kỹ sư SIEM/SOC.",
-          "url": "https://www.facebook.com/search/groups/?q=Splunk%20Vietnam",
-          "type": "facebook"
-        },
-        {
-          "name": "Blue Team & Incident Response Vietnam",
-          "badge": "Facebook Group",
-          "desc": "Diễn đàn trao đổi kỹ thuật điều tra số (DFIR), xử lý sự cố an ninh mạng, phân tích mã độc và phát hiện tấn công.",
-          "url": "https://www.facebook.com/search/groups/?q=Blue%20Team%20Vietnam",
-          "type": "facebook"
-        }
-      ]
-    },
-    {
-      "category": "💻 Quản Trị Mạng / CCNA / DevOps / Cloud (Facebook Groups)",
-      "items": [
-        {
-          "name": "Hội Quản Trị Mạng Việt Nam",
-          "badge": "Facebook Group",
-          "desc": "Cộng đồng hơn 100k thành viên trao đổi Cisco, CCNA/CCNP, định tuyến mạng, firewall Fortinet/Palo Alto, Mikrotik.",
-          "url": "https://www.facebook.com/groups/quantrimangvietnam",
-          "type": "facebook"
-        },
-        {
-          "name": "CCNA / CCNP Network Vietnam",
-          "badge": "Facebook Group",
-          "desc": "Cộng đồng kỹ sư mạng Cisco, Juniper, thiết kế hạ tầng mạng doanh nghiệp và ôn luyện chứng chỉ mạng.",
-          "url": "https://www.facebook.com/search/groups/?q=CCNA%20Vietnam",
-          "type": "facebook"
-        },
-        {
-          "name": "Linux & Open Source Vietnam",
-          "badge": "Facebook Group",
-          "desc": "Nhóm quản trị hệ thống Linux (Ubuntu, RHEL, CentOS), tối ưu server, bash script và tuyển dụng SysAdmin.",
-          "url": "https://www.facebook.com/groups/linuxvietnam",
-          "type": "facebook"
-        },
-        {
-          "name": "DevOps & Cloud Vietnam",
-          "badge": "Facebook Group",
-          "desc": "Cộng đồng kỹ sư DevOps, Cloud (AWS, Azure, GCP), Kubernetes, Docker, CI/CD, Terraform và SRE.",
-          "url": "https://www.facebook.com/groups/devopsvietnam",
-          "type": "facebook"
-        }
-      ]
-    },
-    {
-      "category": "🚀 Developer / IT Jobs / AI / Game (Cộng Đồng Tuyển Dụng)",
-      "items": [
-        {
-          "name": "IT Jobs & Tuyển Dụng Developer Vietnam",
-          "badge": "Facebook Group",
-          "desc": "Cộng đồng chia sẻ hàng nghìn cơ hội việc làm lập trình viên Web, Backend, Frontend, Fullstack, Mobile.",
-          "url": "https://www.facebook.com/groups/itjobsvietnam",
-          "type": "facebook"
-        },
-        {
-          "name": "Cộng đồng Lập trình viên Việt Nam",
-          "badge": "Facebook Group",
-          "desc": "Nơi trao đổi nghề nghiệp, review công ty, tuyển dụng Fresher/Junior/Senior IT toàn quốc.",
-          "url": "https://www.facebook.com/groups/laptrinhvienvietnam",
-          "type": "facebook"
-        },
-        {
-          "name": "AI & Data Science Vietnam",
-          "badge": "Facebook Group",
-          "desc": "Diễn đàn nghiên cứu và tuyển dụng kỹ sư Machine Learning, Generative AI, LLM, RAG, NLP, Computer Vision.",
-          "url": "https://www.facebook.com/groups/aivietnam",
-          "type": "facebook"
-        },
-        {
-          "name": "Vietnam Game Developers",
-          "badge": "Facebook Group",
-          "desc": "Cộng đồng làm game lớn nhất VN — Unity, Unreal Engine, Game Design, 3D Art, Game Backend.",
-          "url": "https://www.facebook.com/groups/vietnamgamedev",
-          "type": "facebook"
-        },
-        {
-          "name": "ITviec — Việc Làm IT Chất",
-          "badge": "Job Portal VN",
-          "desc": "Nền tảng tuyển dụng IT hàng đầu Việt Nam cho Middle/Senior với chế độ lương thưởng minh bạch.",
-          "url": "https://itviec.com",
-          "type": "portal"
-        },
-        {
-          "name": "TopCV IT Hub",
-          "badge": "Job Portal VN",
-          "desc": "Hàng chục nghìn việc làm CNTT, An ninh mạng, Intern, Fresher và hỗ trợ tạo CV chuyên nghiệp.",
+          "name": "TopCV IT Jobs",
+          "badge": "Top 1 Tuyển Dụng",
+          "desc": "Nền tảng việc làm lớn nhất VN với 15,000+ tin tuyển dụng IT, fresher, junior đến tech lead.",
           "url": "https://www.topcv.vn/viec-lam-it",
           "type": "portal"
+        },
+        {
+          "name": "ITviec - Developer Jobs",
+          "badge": "Chuyên IT / Tech",
+          "desc": "Cổng việc làm chất lượng cao dành riêng cho Software Engineer, DevOps, AI/ML và Security.",
+          "url": "https://itviec.com/",
+          "type": "portal"
+        },
+        {
+          "name": "VietnamWorks Tech",
+          "badge": "Tập Đoàn Lớn",
+          "desc": "Sàn tuyển dụng cho các tập đoàn đa quốc gia, ngân hàng, viễn thông và các công ty công nghệ lớn.",
+          "url": "https://www.vietnamworks.com/it-software-jobs-i35-en",
+          "type": "portal"
+        },
+        {
+          "name": "Glints Vietnam",
+          "badge": "Cơ Hội Quốc Tế",
+          "desc": "Cổng việc làm cho thị trường Đông Nam Á (Singapore, Taiwan, VN), hỗ trợ việc làm remote.",
+          "url": "https://glints.com/vn",
+          "type": "portal"
+        },
+        {
+          "name": "CareerViet (CareerBuilder)",
+          "badge": "Doanh Nghiệp Lớn",
+          "desc": "Kênh tuyển dụng IT uy tín từ CareerBuilder toàn cầu với hàng ngàn việc làm chất lượng.",
+          "url": "https://careerviet.vn/",
+          "type": "portal"
+        },
+        {
+          "name": "TopDev - IT Jobs & Tech News",
+          "badge": "Báo Cáo IT & Jobs",
+          "desc": "Hệ sinh thái tuyển dụng lập trình viên và phát hành báo cáo thị trường IT uy tín thường niên.",
+          "url": "https://topdev.vn/",
+          "type": "portal"
+        },
+        {
+          "name": "Joboko IT",
+          "badge": "Tìm Kiếm Thông Minh",
+          "desc": "Công cụ tổng hợp tin tuyển dụng công nghệ từ hàng trăm nguồn trên toàn quốc.",
+          "url": "https://joboko.com/",
+          "type": "portal"
+        },
+        {
+          "name": "JobStreet Vietnam",
+          "badge": "Khu Vực Châu Á",
+          "desc": "Nền tảng việc làm IT uy tín thuộc tập đoàn SEEK toàn cầu.",
+          "url": "https://www.jobstreet.vn/",
+          "type": "portal"
+        }
+      ]
+    },
+    {
+      "category": "Cổng Tuyển Dụng Quốc Tế & Remote Toàn Cầu",
+      "items": [
+        {
+          "name": "LinkedIn Jobs Global",
+          "badge": "Mạng Xã Hội Số 1",
+          "desc": "Nền tảng kết nối nhân sự và việc làm tech lớn nhất thế giới, hỗ trợ lọc theo Remote/Hybrid.",
+          "url": "https://www.linkedin.com/jobs/",
+          "type": "portal"
+        },
+        {
+          "name": "Indeed Worldwide",
+          "badge": "Việc Làm Quốc Tế",
+          "desc": "Công cụ tìm kiếm việc làm lớn nhất thế giới với hàng triệu vị trí tuyển dụng IT hàng tháng.",
+          "url": "https://www.indeed.com/",
+          "type": "portal"
+        },
+        {
+          "name": "Wellfound (AngelList Talent)",
+          "badge": "Startup & AI",
+          "desc": "Nền tảng số 1 ứng tuyển vào các Startup công nghệ, AI Labs và Web3 tại Silicon Valley.",
+          "url": "https://wellfound.com/jobs",
+          "type": "portal"
+        },
+        {
+          "name": "RemoteOK",
+          "badge": "100% Remote Global",
+          "desc": "Bảng tin việc làm Remote quốc tế trả lương bằng USD cho Software Engineer, DevOps, SRE.",
+          "url": "https://remoteok.com/",
+          "type": "portal"
+        },
+        {
+          "name": "We Work Remotely (WWR)",
+          "badge": "Cộng Đồng Remote",
+          "desc": "Cộng đồng việc làm từ xa lớn nhất thế giới với hơn 3 triệu lượt truy cập mỗi tháng.",
+          "url": "https://weworkremotely.com/",
+          "type": "portal"
+        },
+        {
+          "name": "Y Combinator Work at a Startup",
+          "badge": "YC Companies",
+          "desc": "Ứng tuyển trực tiếp vào các công ty được đầu tư bởi Y Combinator với quyền lợi cổ phần hấp dẫn.",
+          "url": "https://www.workatastartup.com/",
+          "type": "portal"
+        }
+      ]
+    },
+    {
+      "category": "Cộng Đồng Facebook, Lập Trình & AI Việt Nam",
+      "items": [
+        {
+          "name": "Cộng đồng AI & Machine Learning Việt Nam",
+          "badge": "Facebook Group",
+          "desc": "Thảo luận nghiên cứu AI, LLMs, Computer Vision và tin tuyển dụng AI/Data Scientist.",
+          "url": "https://www.facebook.com/groups/vietnamai",
+          "type": "facebook"
+        },
+        {
+          "name": "Tuyển Dụng Lập Trình Viên (IT Jobs Vietnam)",
+          "badge": "Facebook Group",
+          "desc": "Nhóm chia sẻ việc làm công nghệ thông tin, lập trình viên Backend, Frontend, Fullstack.",
+          "url": "https://www.facebook.com/groups/tuyendunglaptrinhvien",
+          "type": "facebook"
+        },
+        {
+          "name": "Vietnam DevOps / Cloud / SRE Community",
+          "badge": "Facebook Group",
+          "desc": "Cộng đồng DevOps, Kubernetes, AWS, GCP, CI/CD và thảo luận cơ hội nghề nghiệp Cloud.",
+          "url": "https://www.facebook.com/groups/vietnamdevops",
+          "type": "facebook"
+        },
+        {
+          "name": "Cộng đồng ReactJS / NodeJS Việt Nam",
+          "badge": "Facebook Group",
+          "desc": "Thảo luận phát triển Web hiện đại, kiến trúc Microservices và cơ hội việc làm Frontend/Backend.",
+          "url": "https://www.facebook.com/groups/reactjsvietnam",
+          "type": "facebook"
+        },
+        {
+          "name": "Cộng đồng Python Việt Nam",
+          "badge": "Facebook Group",
+          "desc": "Nhóm lập trình Python, Django, FastAPI, Data Engineering và Automation scripts.",
+          "url": "https://www.facebook.com/groups/pythonvietnam",
+          "type": "facebook"
+        },
+        {
+          "name": "Cộng đồng Game Developer Vietnam",
+          "badge": "Facebook Group",
+          "desc": "Chia sẻ kinh nghiệm phát triển game Unity, Unreal Engine, Shader và tin tuyển dụng Game Studio.",
+          "url": "https://www.facebook.com/groups/gamedevvn",
+          "type": "facebook"
         }
       ]
     }
   ],
   "sample_jobs": [
     {
-      "id": "job-sec-001",
-      "title": "Senior SOC / Threat Detection Engineer",
-      "company": "Viettel Cyber Security",
+      "id": "job-001",
+      "title": "Senior SOC Analyst / Threat Hunter (L3)",
+      "company": "VinaSec Cyber Defense",
       "location": "Hà Nội / Hybrid",
-      "salary": "35 – 65 Triệu VNĐ",
-      "salary_numeric": 50,
-      "track": "🛡️ An Ninh Mạng & SOC",
+      "salary": "40 – 70 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
       "level": "Senior",
-      "source": "CyberJutsu & Facebook",
-      "source_badge": "Facebook Community",
+      "source": "CyberJutsu",
+      "source_badge": "Xác Minh",
       "tags": [
         "SOC",
-        "SIEM",
         "Splunk",
         "Threat Hunting",
-        "DFIR",
-        "Python"
+        "EDR",
+        "SIEM"
       ],
-      "description": "Giám sát, phân tích log an ninh mạng từ SIEM/EDR, xây dựng rules phát hiện tấn công nâng cao (Detection Engineering) và điều tra phản ứng sự cố DFIR.",
+      "description": "Giám sát 24/7, phân tích log an ninh mạng từ SIEM/EDR, xây dựng use cases phát hiện APT và điều tra phản ứng sự cố cấp độ 3.",
       "requirements": [
-        "Tối thiểu 3+ năm kinh nghiệm làm việc trong môi trường SOC hoặc Threat Detection.",
-        "Thành thạo SIEM (Splunk, Elastic, Sentinel) và viết rule tương quan SIGMA/YARA.",
-        "Có kiến thức vững về MITRE ATT&CK, phân tích PCAP và điều tra Endpoint.",
-        "Ưu tiên ứng viên có chứng chỉ GIAC, CEH, OSCP hoặc GCIA."
+        "4+ năm kinh nghiệm trong môi trường SOC chuyên nghiệp.",
+        "Thành thạo phân tích PCAP, log Windows/Linux/AD, Splunk Query (SPL).",
+        "Có chứng chỉ GCIA/GCIH/CISSP/OSCP là lợi thế."
       ],
       "benefits": [
-        "Lương tháng 13 + Thưởng hiệu quả kinh doanh từ 2 - 4 tháng lương.",
-        "Bảo hiểm sức khỏe cao cấp Bảo Việt / VBI cho nhân viên và người thân.",
-        "Được tài trợ 100% chi phí thi các chứng chỉ quốc tế (SANS, OSCP, CISSP)."
+        "Lương tháng 13 + thưởng hiệu quả dự án bảo mật.",
+        "Bảo hiểm sức khỏe cao cấp VIP.",
+        "Tài trợ 100% chi phí thi chứng chỉ quốc tế SANS/CISSP."
       ],
-      "url": "https://jobs.cyberjutsu.io/",
-      "posted_at": "2026-08-30"
+      "published_at": "Hôm nay",
+      "url": "https://jobs.cyberjutsu.io/"
     },
     {
-      "id": "job-sec-002",
-      "title": "Junior / Fresher SOC Analyst (Trực ca L1/L2)",
-      "company": "VNPT Cyber Security",
-      "location": "Hà Nội / TP.HCM",
-      "salary": "15 – 25 Triệu VNĐ",
-      "salary_numeric": 20,
-      "track": "🛡️ An Ninh Mạng & SOC",
-      "level": "Junior",
-      "source": "Facebook Group: SOC Analyst Vietnam",
-      "source_badge": "Facebook Group",
-      "tags": [
-        "SOC L1",
-        "Log Analysis",
-        "Wireshark",
-        "Linux",
-        "Networking"
-      ],
-      "description": "Tiếp nhận cảnh báo từ hệ thống SIEM/EDR, triage và đánh giá mức độ nghiêm trọng của sự cố, báo cáo và phối hợp với Tier 2/Incident Response.",
-      "requirements": [
-        "Tốt nghiệp hoặc sinh viên năm cuối chuyên ngành ATTT / CNTT / Mạng máy tính.",
-        "Hiểu biết tốt về mô hình OSI, giao thức TCP/IP, DNS, HTTP/HTTPS.",
-        "Đam mê theo đuổi mảng Blue Team, sẵn sàng làm việc theo ca xoay linh hoạt.",
-        "Có chứng chỉ Security+, CCNA hoặc hoàn thành các lab TryHackMe/HTB là điểm cộng lớn."
-      ],
-      "benefits": [
-        "Được đào tạo bài bản quy trình SOC chuẩn quốc tế và phân tích thực chiến.",
-        "Phụ cấp trực ca đêm + thưởng KPI hàng tháng.",
-        "Lộ trình thăng tiến rõ ràng lên SOC Tier 2 / Threat Hunter sau 1 năm."
-      ],
-      "url": "https://www.facebook.com/groups/atttvietnam",
-      "posted_at": "2026-08-29"
-    },
-    {
-      "id": "job-sec-003",
-      "title": "Senior Penetration Tester (Web, Mobile & Cloud)",
-      "company": "Techcombank / VIB Fintech Lab",
-      "location": "TP. Hồ Chí Minh",
-      "salary": "38 – 55 Triệu VNĐ",
-      "salary_numeric": 45,
-      "track": "🛡️ An Ninh Mạng & SOC",
-      "level": "Middle / Senior",
-      "source": "ITviec & Vietnam Cyber Security",
-      "source_badge": "ITviec",
+      "id": "job-002",
+      "title": "Chuyên Viên Đánh Giá Lỗ Hổng / Web & Mobile Pentester",
+      "company": "CDCyber Security Lab",
+      "location": "TP.HCM / Remote",
+      "salary": "30 – 55 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Mid - Senior",
+      "source": "Facebook Group",
+      "source_badge": "Xác Minh",
       "tags": [
         "Pentest",
-        "OWASP",
+        "OSCP",
         "BurpSuite",
-        "Cloud Pentest",
-        "OSCP"
+        "WebSec",
+        "API"
       ],
-      "description": "Thực hiện kiểm thử xâm nhập định kỳ cho hệ thống Ngân hàng điện tử, API Gateway, ứng dụng Mobile iOS/Android và hạ tầng Cloud AWS.",
+      "description": "Thực hiện kiểm thử xâm nhập (Penetration Testing) ứng dụng Web, API, Mobile App và hạ tầng mạng cho khách hàng tài chính, ngân hàng.",
       "requirements": [
-        "Kinh nghiệm 3+ năm pentest hệ thống tài chính / fintech.",
-        "Sử dụng thành thạo Burp Suite Pro, Frida, Ghidra, MobSF.",
-        "Sở hữu chứng chỉ OSCP, CRTP, BSCP hoặc tương đương.",
-        "Khả năng viết báo cáo kỹ thuật rõ ràng và tư vấn remediation cho team Dev."
+        "2+ năm kinh nghiệm thực chiến Pentest Web/App.",
+        "Nắm vững OWASP Top 10, ASVS, kỹ thuật bypass WAF.",
+        "Sở hữu chứng chỉ OSCP, BSCP, eWPTX hoặc CEH Practical."
       ],
       "benefits": [
-        "Thưởng hiệu suất tài chính cuối năm hấp dẫn (3 - 5 tháng lương).",
-        "Môi trường Fintech hiện đại, trang bị MacBook Pro M3 Max.",
-        "Gói bảo hiểm sức khỏe toàn diện và 16 ngày phép năm."
+        "Thưởng Bug Bounty nội bộ theo từng lỗ hổng nghiêm trọng.",
+        "Môi trường làm việc linh hoạt, hỗ trợ 100% thiết bị làm việc.",
+        "Học hỏi trực tiếp từ các top hacker CTF."
       ],
-      "url": "https://itviec.com",
-      "posted_at": "2026-08-30"
+      "published_at": "Hôm nay",
+      "url": "https://jobs.cyberjutsu.io/"
     },
     {
-      "id": "job-ai-001",
-      "title": "AI / LLM Agent Fullstack Engineer",
-      "company": "FPT Software AI Lab",
-      "location": "Hà Nội / TP.HCM",
-      "salary": "40 – 80 Triệu VNĐ",
-      "salary_numeric": 60,
-      "track": "🤖 AI & Machine Learning",
+      "id": "job-003",
+      "title": "DevSecOps / Cloud Security Engineer",
+      "company": "Fintech Unicorn Global",
+      "location": "TP.HCM / Hybrid",
+      "salary": "45 – 85 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
       "level": "Senior",
-      "source": "Facebook: AI Vietnam",
-      "source_badge": "Facebook Group",
+      "source": "ITviec",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "DevSecOps",
+        "AWS Security",
+        "Kubernetes",
+        "SAST",
+        "DAST",
+        "Terraform"
+      ],
+      "description": "Tích hợp các công cụ quét bảo mật tự động (SAST/DAST/SCA) vào CI/CD pipeline, thiết lập kiến trúc Zero Trust trên AWS/K8s.",
+      "requirements": [
+        "3+ năm kinh nghiệm DevSecOps hoặc Cloud Security.",
+        "Thành thạo công cụ SonarQube, Snyk, Trivy, DefectDojo, Falco.",
+        "Hiểu sâu về container security và IAM policy."
+      ],
+      "benefits": [
+        "Lương cạnh tranh + ESOP cổ phần thưởng.",
+        "Làm việc với đội ngũ kiến trúc sư bảo mật hàng đầu.",
+        "Trợ cấp làm việc tại nhà hàng tháng."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://jobs.cyberjutsu.io/"
+    },
+    {
+      "id": "job-004",
+      "title": "Kỹ Sư Dịch Ngược & Phân Tích Mã Độc (Reverse Engineer / Malware Analyst)",
+      "company": "Cyber Threat Intel VN",
+      "location": "Hà Nội",
+      "salary": "35 – 65 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Senior",
+      "source": "VNCS",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "Reverse Engineering",
+        "IDA Pro",
+        "Ghidra",
+        "C++",
+        "Assembly",
+        "Malware"
+      ],
+      "description": "Phân tích hành vi, giải mã và dịch ngược các mẫu mã độc ransomware, APT, rootkit nhắm vào các tổ chức trọng yếu.",
+      "requirements": [
+        "Thành thạo IDA Pro, Ghidra, x64dbg, Wireshark.",
+        "Hiểu sâu cấu trúc Windows PE/ELF, x86/x64 Assembly, C/C++.",
+        "Có kinh nghiệm viết YARA rules và báo cáo Threat Intel."
+      ],
+      "benefits": [
+        "Môi trường nghiên cứu chuyên sâu, độc lập sáng tạo.",
+        "Tham gia các hội thảo BlackHat, DEF CON quốc tế.",
+        "Thưởng hiệu quả nghiên cứu xuất sắc."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://jobs.cyberjutsu.io/"
+    },
+    {
+      "id": "job-005",
+      "title": "Lead Application Security Engineer (AppSec Lead)",
+      "company": "VNPAY Technology",
+      "location": "Hà Nội",
+      "salary": "50 – 90 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Lead",
+      "source": "TopCV",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "AppSec",
+        "Threat Modeling",
+        "Secure Code Review",
+        "Java",
+        "OAuth2"
+      ],
+      "description": "Xây dựng tiêu chuẩn bảo mật phần mềm (Secure SDLC), thực hiện Threat Modeling và rà soát mã nguồn các hệ sinh thái thanh toán lớn.",
+      "requirements": [
+        "5+ năm kinh nghiệm AppSec trong ngành Fintech / Banking.",
+        "Khả năng review code chuyên sâu Java, Go, NodeJS.",
+        "Kỹ năng lãnh đạo và đào tạo nâng cao nhận thức bảo mật cho dev."
+      ],
+      "benefits": [
+        "Gói phúc lợi hấp dẫn, bảo hiểm sức khỏe cho cả gia đình.",
+        "Thưởng cuối năm từ 3 - 6 tháng lương.",
+        "Làm việc tại văn phòng hạng A."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://jobs.cyberjutsu.io/"
+    },
+    {
+      "id": "job-006",
+      "title": "SOC Analyst L1/L2 (24/7 Monitoring)",
+      "company": "FPT Cyber Security",
+      "location": "Đà Nẵng / Hà Nội",
+      "salary": "18 – 32 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Junior - Mid",
+      "source": "Facebook Group",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "SOC L1",
+        "SIEM",
+        "Log Analysis",
+        "Wazuh",
+        "Network Security"
+      ],
+      "description": "Tiếp nhận cảnh báo, phân loại sự cố an ninh mạng bước đầu, phối hợp đội ứng cứu sự cố cô lập máy chủ bị mã độc.",
+      "requirements": [
+        "1+ năm kinh nghiệm vận hành SOC hoặc tốt nghiệp chuyên ngành ATTT.",
+        "Nắm vững kiến thức TCP/IP, OSI, Syslog, Windows Event Log.",
+        "Có chứng chỉ CompTIA Security+, CCNA là lợi thế lớn."
+      ],
+      "benefits": [
+        "Lương cơ bản + phụ cấp ca đêm và thưởng trực ca.",
+        "Được đào tạo bài bản lên L2/L3 và Threat Hunter.",
+        "Gói bảo hiểm FPT Care độc quyền."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://jobs.cyberjutsu.io/"
+    },
+    {
+      "id": "job-007",
+      "title": "Cybersecurity Compliance & Risk Specialist (ISO 27001 / PCI-DSS)",
+      "company": "MB Bank Digital",
+      "location": "Hà Nội",
+      "salary": "28 – 48 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Mid",
+      "source": "VietnamWorks",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "ISO 27001",
+        "PCI-DSS",
+        "Risk Assessment",
+        "Audit",
+        "NIST"
+      ],
+      "description": "Đánh giá rủi ro an toàn thông tin, duy trì hệ thống quản lý ATTT theo tiêu chuẩn ISO 27001 và chuẩn bảo mật thanh toán PCI-DSS.",
+      "requirements": [
+        "2+ năm kinh nghiệm tư vấn hoặc kiểm toán ATTT.",
+        "Nắm vững các khung chuẩn ISO 27001, PCI-DSS v4.0, NIST CSF.",
+        "Kỹ năng phân tích rủi ro và làm việc với các cơ quan kiểm toán."
+      ],
+      "benefits": [
+        "Lương thưởng theo hiệu quả ngân hàng.",
+        "Vay ưu đãi cán bộ nhân viên.",
+        "Môi trường làm việc chuyên nghiệp, ổn định."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://jobs.cyberjutsu.io/"
+    },
+    {
+      "id": "job-008",
+      "title": "Network Security & Firewall Specialist (Palo Alto / Fortinet)",
+      "company": "VNPT Cyber",
+      "location": "TP.HCM",
+      "salary": "25 – 45 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Mid - Senior",
+      "source": "TopCV",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "Firewall",
+        "Palo Alto",
+        "Fortinet",
+        "VPN",
+        "Routing",
+        "CCNP"
+      ],
+      "description": "Thiết kế, triển khai và quản trị hệ thống tường lửa thế hệ mới (NGFW), VPN IPSec/SSL, chống tấn công DDoS cho hạ tầng trung tâm dữ liệu.",
+      "requirements": [
+        "3+ năm kinh nghiệm triển khai NGFW Palo Alto, Fortigate, CheckPoint.",
+        "Có chứng chỉ CCNP Security, PCNSE hoặc NSE4/7.",
+        "Kinh nghiệm ứng phó tấn công DDoS và tối ưu định tuyến BGP."
+      ],
+      "benefits": [
+        "Lương thưởng cạnh tranh, phụ cấp chứng chỉ quốc tế.",
+        "Cơ hội quản trị hạ tầng mạng cấp quốc gia.",
+        "Chế độ phúc lợi đầy đủ theo luật."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://jobs.cyberjutsu.io/"
+    },
+    {
+      "id": "job-009",
+      "title": "Senior LLM Agent & Reasoning Engineer",
+      "company": "AI Frontier Labs",
+      "location": "TP.HCM / Remote",
+      "salary": "55 – 95 Triệu VNĐ",
+      "track": "AI & Machine Learning",
+      "level": "Senior",
+      "source": "Wellfound",
+      "source_badge": "Xác Minh",
       "tags": [
         "LLM",
+        "Agent Skills",
         "RAG",
-        "Model Context Protocol (MCP)",
-        "FastAPI",
-        "TypeScript",
+        "LangChain",
+        "DeepSeek",
         "Python"
       ],
-      "description": "Phát triển các ứng dụng Multi-Agent và hệ thống RAG kết hợp Model Context Protocol (MCP) cho khách hàng doanh nghiệp quốc tế.",
+      "description": "Xây dựng hệ thống Multi-Agent tự hành, tích hợp Model Context Protocol (MCP), tối ưu hoá quy trình suy luận và fine-tuning mô hình ngôn ngữ lớn.",
       "requirements": [
-        "3+ năm kinh nghiệm với Python/TypeScript, chuyên sâu về LangChain/LlamaIndex/AutoGen.",
-        "Hiểu sâu về Prompt Engineering, Function Calling, Vector Database (Milvus/Qdrant/Pinecone).",
-        "Có dự án mã nguồn mở hoặc demo thực tế về LLM Agents."
+        "3+ năm kinh nghiệm AI/NLP hoặc Software Engineering cấp cao.",
+        "Thành thạo LangChain, LlamaIndex, vLLM, PyTorch, Ollama.",
+        "Hiểu sâu về kiến trúc Transformer, RAG nâng cao và Context window optimization."
       ],
       "benefits": [
-        "Làm việc trực tiếp với các mô hình Foundation Models mới nhất (Claude, OpenAI, DeepSeek).",
-        "Tài trợ ngân sách compute GPU A100/H100 không giới hạn cho thử nghiệm.",
-        "Chế độ làm việc Hybrid (2 ngày remote/tuần)."
+        "Lương thỏa thuận theo năng lực, thưởng cổ phần AI startup.",
+        "100% Remote, ngân sách phần cứng GPU khủng.",
+        "Tài trợ tham gia các hội nghị AI quốc tế NeurIPS, ICML."
       ],
-      "url": "https://www.facebook.com/groups/aivietnam",
-      "posted_at": "2026-08-30"
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
     },
     {
-      "id": "job-dev-001",
-      "title": "Senior Backend Golang / High Throughput Engineer",
-      "company": "VNG Corporation / ZaloPay",
-      "location": "TP. Hồ Chí Minh",
-      "salary": "45 – 70 Triệu VNĐ",
-      "salary_numeric": 55,
-      "track": "💻 Software / Web / App",
+      "id": "job-010",
+      "title": "Senior Computer Vision Engineer (Edge AI / Embedded)",
+      "company": "VinAI Research",
+      "location": "Hà Nội",
+      "salary": "45 – 80 Triệu VNĐ",
+      "track": "AI & Machine Learning",
       "level": "Senior",
-      "source": "Vietnam Developer Community",
-      "source_badge": "Facebook Community",
+      "source": "ITviec",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "Computer Vision",
+        "TensorRT",
+        "YOLO",
+        "PyTorch",
+        "C++",
+        "Edge AI"
+      ],
+      "description": "Phát triển và tối ưu các thuật toán nhận diện khuôn mặt, phát hiện vật thể thời gian thực chạy trên chip nhúng NVIDIA Jetson / Qualcomm.",
+      "requirements": [
+        "3+ năm kinh nghiệm Computer Vision và Deep Learning.",
+        "Thành thạo PyTorch, OpenCV, TensorRT, ONNX Runtime, C++17.",
+        "Kinh nghiệm tối ưu hóa mô hình lượng tử hóa (Quantization INT8/FP16)."
+      ],
+      "benefits": [
+        "Gói đãi ngộ hàng đầu Việt Nam, hỗ trợ nhà ở cho chuyên gia.",
+        "Làm việc cùng các tiến sĩ, nhà nghiên cứu quốc tế.",
+        "Thưởng kết quả công bố sáng chế và bài báo khoa học."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-011",
+      "title": "MLOps Engineer / AI Infrastructure Specialist",
+      "company": "Zalo AI Ecosystem",
+      "location": "TP.HCM",
+      "salary": "40 – 75 Triệu VNĐ",
+      "track": "AI & Machine Learning",
+      "level": "Senior",
+      "source": "VietnamWorks",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "MLOps",
+        "Kubeflow",
+        "MLflow",
+        "Kubernetes",
+        "Ray",
+        "Triton"
+      ],
+      "description": "Xây dựng hạ tầng huấn luyện phân tán và phục vụ mô hình AI (Serving) quy mô hàng chục triệu người dùng với độ trễ thấp.",
+      "requirements": [
+        "3+ năm kinh nghiệm MLOps, DevOps hoặc Data Infrastructure.",
+        "Thành thạo Kubernetes, Ray Cluster, Triton Inference Server, Docker.",
+        "Hiểu biết sâu về quản trị GPU cluster và CI/CD cho AI pipeline."
+      ],
+      "benefits": [
+        "Thưởng tháng 13 + thưởng dự án Zalo.",
+        "Gói chăm sóc sức khỏe toàn diện và phụ cấp ăn trưa.",
+        "Môi trường công nghệ hàng đầu phục vụ người dùng thực."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-012",
+      "title": "AI Research Scientist (Multimodal / Diffusion Models)",
+      "company": "K-Dense AI Institute",
+      "location": "Hà Nội / Remote",
+      "salary": "60 – 110 Triệu VNĐ",
+      "track": "AI & Machine Learning",
+      "level": "Principal",
+      "source": "LinkedIn",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "Deep Learning",
+        "Diffusion",
+        "Multimodal",
+        "Math",
+        "PyTorch"
+      ],
+      "description": "Nghiên cứu các kiến trúc mô hình tạo sinh thế hệ mới (Generative Video/3D), công bố bài báo tại các hội nghị CCF-A (CVPR, NeurIPS, ICLR).",
+      "requirements": [
+        "Bằng Thạc sĩ/Tiến sĩ ngành Khoa học máy tính, Toán tin hoặc tương đương.",
+        "Có bài báo khoa học được chấp nhận tại các hội nghị CORE A* / CCF-A.",
+        "Kỹ năng lập trình PyTorch xuất sắc và tư duy toán học sâu sắc."
+      ],
+      "benefits": [
+        "Ngân sách nghiên cứu không giới hạn, GPU cluster H100 chuyên dụng.",
+        "Lương net cao + hỗ trợ đăng ký bản quyền sáng chế.",
+        "Thời gian làm việc tự do, đề cao sáng tạo học thuật."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-013",
+      "title": "AI Data Engineer & Pipeline Architect",
+      "company": "Trusting Social AI",
+      "location": "TP.HCM",
+      "salary": "35 – 60 Triệu VNĐ",
+      "track": "AI & Machine Learning",
+      "level": "Mid - Senior",
+      "source": "TopCV",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "Data Pipeline",
+        "Spark",
+        "Kafka",
+        "Python",
+        "Vector DB",
+        "Airflow"
+      ],
+      "description": "Thiết kế đường ống dữ liệu quy mô lớn (ETL/ELT), xử lý dữ liệu phi cấu trúc và xây dựng kho lưu trữ Vector Database phục vụ hệ thống RAG.",
+      "requirements": [
+        "2+ năm kinh nghiệm Data Engineering xử lý dữ liệu lớn.",
+        "Thành thạo Apache Spark, Kafka, Airflow, Milvus/Qdrant/Pinecone.",
+        "Kỹ năng tối ưu hóa truy vấn SQL và Python nâng cao."
+      ],
+      "benefits": [
+        "Gói bảo hiểm sức khỏe quốc tế cao cấp.",
+        "Chính sách làm việc Hybrid 2 ngày WFH mỗi tuần.",
+        "Thưởng performance hàng quý."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-014",
+      "title": "Senior Backend Engineer (Golang / High Concurrency)",
+      "company": "Shopee / Sea Group",
+      "location": "TP.HCM",
+      "salary": "45 – 85 Triệu VNĐ",
+      "track": "Software & Web Dev",
+      "level": "Senior",
+      "source": "ITviec",
+      "source_badge": "Xác Minh",
       "tags": [
         "Golang",
         "Microservices",
-        "Kafka",
         "Redis",
-        "Distributed Systems"
+        "Kafka",
+        "gRPC",
+        "MySQL"
       ],
-      "description": "Thiết kế và phát triển hệ thống thanh toán phân tán xử lý hàng chục nghìn RPS với độ trễ siêu thấp (<50ms).",
+      "description": "Thiết kế hệ thống microservices xử lý hàng trăm nghìn giao dịch mỗi giây (TPS) trong các chiến dịch Mega Sale thương mại điện tử.",
       "requirements": [
-        "3+ năm kinh nghiệm lập trình Go (Golang) cho hệ thống chịu tải cao.",
-        "Thành thạo kiến trúc Microservices, gRPC, Message Broker (Kafka/RabbitMQ).",
-        "Nắm vững xử lý concurrency, mutex, goroutine leak và tối ưu memory footprint."
+        "4+ năm kinh nghiệm lập trình Golang hoặc Java High-load.",
+        "Hiểu sâu về Concurrency, Memory management, Distributed locking.",
+        "Kinh nghiệm tối ưu cơ sở dữ liệu phân tán và caching multi-level."
       ],
       "benefits": [
-        "Review lương 2 lần/năm, thưởng tháng 13 + Performance bonus.",
-        "Trụ sở Campus hiện đại, cơm trưa miễn phí, phòng gym và hồ bơi.",
-        "Cơ hội làm việc với hệ thống thanh toán hàng triệu người dùng."
+        "Lương tháng 13 + thưởng chiến dịch Mega Sale khủng.",
+        "Bảo hiểm sức khỏe quốc tế và gói khám định kỳ VIP.",
+        "Trợ cấp thiết bị MacBook Pro M3 Max."
       ],
-      "url": "https://www.facebook.com/groups/laptrinhvienvietnam",
-      "posted_at": "2026-08-28"
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
     },
     {
-      "id": "job-cloud-001",
-      "title": "DevSecOps & Cloud Security Engineer (Remote)",
-      "company": "US Tech Partner (Global SaaS)",
-      "location": "100% Remote / Toàn Quốc",
-      "salary": "$2,500 – $4,500 / tháng (~60 – 115 Triệu)",
-      "salary_numeric": 85,
-      "track": "☁️ Cloud & DevOps",
+      "id": "job-015",
+      "title": "Senior Frontend Engineer (Next.js / TypeScript / WebGL)",
+      "company": "Canva Vietnam Tech",
+      "location": "TP.HCM / Remote",
+      "salary": "40 – 75 Triệu VNĐ",
+      "track": "Software & Web Dev",
       "level": "Senior",
-      "source": "Himalayas / Remote OK",
-      "source_badge": "Global Remote",
-      "tags": [
-        "Kubernetes",
-        "AWS",
-        "Terraform",
-        "CI/CD",
-        "Trivy",
-        "SonarQube"
-      ],
-      "description": "Tích hợp công cụ bảo mật tự động vào quy trình CI/CD, bảo mật cụm Kubernetes và quản trị hạ tầng Cloud AWS theo chuẩn SOC2.",
-      "requirements": [
-        "4+ năm kinh nghiệm DevOps / Cloud Security trên AWS hoặc GCP.",
-        "Thành thạo Kubernetes, Helm, Terraform, GitOps (ArgoCD).",
-        "Kinh nghiệm triển khai SAST/DAST/SCA (Snyk, Trivy, SonarQube).",
-        "Giao tiếp Tiếng Anh tốt (làm việc trực tiếp với team US)."
-      ],
-      "benefits": [
-        "Thu nhập bằng USD ổn định, thanh toán qua Payoneer / Wire Transfer.",
-        "100% Remote, tự do lựa chọn địa điểm làm việc.",
-        "Cung cấp gói bảo hiểm quốc tế + ngân sách trang bị thiết bị $1,500."
-      ],
-      "url": "https://himalayas.app",
-      "posted_at": "2026-08-30"
-    },
-    {
-      "id": "job-game-001",
-      "title": "Unity Gameplay Programmer (RPG / Action)",
-      "company": "Amanotes / VGames Studio",
-      "location": "TP. Hồ Chí Minh / Hà Nội",
-      "salary": "25 – 45 Triệu VNĐ",
-      "salary_numeric": 35,
-      "track": "🎮 Game Development",
-      "level": "Middle",
-      "source": "Vietnam Game Developers",
-      "source_badge": "Facebook Group",
-      "tags": [
-        "Unity",
-        "C#",
-        "Gameplay",
-        "Shader",
-        "Mobile Game"
-      ],
-      "description": "Xây dựng gameplay mechanics, tối ưu hiệu năng đồ họa và fps cho các tựa game mobile hành động với hàng triệu lượt tải toàn cầu.",
-      "requirements": [
-        "2+ năm kinh nghiệm phát triển game với Unity và C#.",
-        "Hiểu biết sâu về Object Pooling, Memory Management, ScriptableObject.",
-        "Đam mê chơi và làm game, tư duy giải quyết vấn đề sáng tạo."
-      ],
-      "benefits": [
-        "Chia sẻ lợi nhuận dự án (Game Revenue Sharing Bonus).",
-        "Môi trường làm việc trẻ trung, sáng tạo, giờ làm việc linh hoạt.",
-        "Hỗ trợ tham gia các hội nghị game quốc tế (GDC, Tokyo Game Show)."
-      ],
-      "url": "https://www.facebook.com/groups/vietnamgamedev",
-      "posted_at": "2026-08-27"
-    },
-    {
-      "id": "job-sec-004",
-      "title": "Malware Reverse Engineer & Threat Intelligence",
-      "company": "CyRadar / VinCSS",
-      "location": "Hà Nội",
-      "salary": "35 – 60 Triệu VNĐ",
-      "salary_numeric": 48,
-      "track": "🛡️ An Ninh Mạng & SOC",
-      "level": "Senior",
-      "source": "Cộng đồng ATTT Việt Nam",
-      "source_badge": "Facebook Community",
-      "tags": [
-        "Ghidra",
-        "IDA Pro",
-        "x64dbg",
-        "Malware Analysis",
-        "YARA",
-        "C/C++"
-      ],
-      "description": "Phân tích tĩnh và động các mẫu mã độc APT, bóc tách cơ chế evasion, trích xuất IOCs và viết luật phát hiện YARA/Sigma.",
-      "requirements": [
-        "3+ năm kinh nghiệm phân tích mã độc Windows PE, DLL, PowerShell script hoặc Android APK.",
-        "Thành thạo công cụ dịch ngược (Ghidra, IDA Pro, x64dbg, Wireshark, Process Hacker).",
-        "Hiểu sâu về kiến trúc Windows Internals, PE format, Hooking, API Unhooking."
-      ],
-      "benefits": [
-        "Phụ cấp nghiên cứu khoa học và bài báo bảo mật hàng năm.",
-        "Trang bị máy trạm cấu hình cao chuyên dụng cho sandbox và phân tích.",
-        "Gói bảo hiểm sức khỏe VIP và chế độ nghỉ phép 15 ngày."
-      ],
-      "url": "https://www.facebook.com/groups/atttvietnam",
-      "posted_at": "2026-08-30"
-    },
-    {
-      "id": "job-dev-002",
-      "title": "Senior Frontend Engineer (React 19 / Next.js / Performance)",
-      "company": "Vui Coding / Tech Community Startup",
-      "location": "TP. Hồ Chí Minh / Remote",
-      "salary": "30 – 50 Triệu VNĐ",
-      "salary_numeric": 40,
-      "track": "💻 Software / Web / App",
-      "level": "Middle / Senior",
-      "source": "ReactJS Vietnam & Vui Coding",
-      "source_badge": "Vui Coding",
+      "source": "LinkedIn",
+      "source_badge": "Xác Minh",
       "tags": [
         "React",
         "Next.js",
         "TypeScript",
-        "TailwindCSS",
-        "Web Vitals"
+        "Tailwind",
+        "Canvas API",
+        "WebGL"
       ],
-      "description": "Xây dựng các sản phẩm web ứng dụng hiệu năng cao phục vụ cộng đồng lập trình viên, tối ưu SEO và trải nghiệm người dùng.",
+      "description": "Xây dựng trình biên tập đồ họa trực quan trên trình duyệt, tối ưu hiệu năng render 60fps và giao diện người dùng mượt mà.",
       "requirements": [
-        "3+ năm làm việc với React, Next.js (App Router, Server Components).",
-        "Nắm vững tối ưu Core Web Vitals, SSR, ISR, Edge Middleware và Responsive Design.",
-        "Kỹ năng viết Clean Code, Design System và tự động hóa kiểm thử Cypress/Jest."
+        "4+ năm kinh nghiệm Frontend chuyên sâu với React, Next.js, TypeScript.",
+        "Hiểu sâu về DOM rendering, Canvas 2D/WebGL và State management.",
+        "Tư duy thẩm mỹ UI/UX cao cấp, tôn trọng pixel-perfect."
       ],
       "benefits": [
-        "100% làm việc linh hoạt / Hybrid, tự chủ thời gian.",
-        "Thưởng tháng 13 + Cổ phần ưu đãi (ESOP) theo hiệu quả dự án.",
-        "Cung cấp gói học tập Udemy / Frontend Masters không giới hạn."
+        "Lương theo tiêu chuẩn công ty công nghệ quốc tế.",
+        "Cổ tức ESOP hàng năm, chế độ làm việc hoàn toàn linh hoạt.",
+        "Ngân sách phát triển bản thân 25 triệu/năm."
       ],
-      "url": "https://vuicoding.me/jobs",
-      "posted_at": "2026-08-31"
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
     },
     {
-      "id": "job-ai-002",
-      "title": "RAG & Vector Search Optimization Engineer",
-      "company": "TiniX AI / Deep Learning Vietnam",
-      "location": "Hà Nội / Remote",
+      "id": "job-016",
+      "title": "Senior Mobile Engineer (Flutter / iOS / Android)",
+      "company": "MoMo Fintech Ecosystem",
+      "location": "TP.HCM",
       "salary": "35 – 65 Triệu VNĐ",
-      "salary_numeric": 50,
-      "track": "🤖 AI & Machine Learning",
-      "level": "Middle / Senior",
-      "source": "AI Vietnam",
-      "source_badge": "Facebook Group",
-      "tags": [
-        "RAG",
-        "Embeddings",
-        "Milvus",
-        "Qdrant",
-        "BM25",
-        "Hybrid Search"
-      ],
-      "description": "Nghiên cứu và tối ưu hóa hệ thống truy xuất tài liệu lai (Hybrid RAG: Vector + Keyword BM25), reranking và context window cho LLM.",
-      "requirements": [
-        "Kinh nghiệm xây dựng kiến trúc RAG cấp doanh nghiệp cho dữ liệu lớn.",
-        "Thành thạo embedding models, Cross-Encoder rerankers và kỹ thuật chunking.",
-        "Nắm vững Python, FastAPI, Docker và Vector Database."
-      ],
-      "benefits": [
-        "Môi trường nghiên cứu AI học thuật kết hợp ứng dụng thực tế cao cấp.",
-        "Cấp tài khoản Claude 3.5 Sonnet / OpenAI o1 / DeepSeek V3 thả ga.",
-        "Thưởng dự án và xét tăng lương định kỳ 6 tháng/lần."
-      ],
-      "url": "https://www.facebook.com/groups/aivietnam",
-      "posted_at": "2026-08-30"
-    },
-    {
-      "id": "job-dev-003",
-      "title": "Mobile Flutter / React Native Developer",
-      "company": "MoMo / Zalo Financial Services",
-      "location": "TP. Hồ Chí Minh",
-      "salary": "25 – 45 Triệu VNĐ",
-      "salary_numeric": 35,
-      "track": "💻 Software / Web / App",
-      "level": "Middle",
-      "source": "IT Jobs Vietnam",
-      "source_badge": "TopCV",
+      "track": "Software & Web Dev",
+      "level": "Senior",
+      "source": "TopCV",
+      "source_badge": "Xác Minh",
       "tags": [
         "Flutter",
-        "Dart",
-        "React Native",
         "iOS",
         "Android",
-        "CI-CD"
+        "Swift",
+        "Kotlin",
+        "Clean Architecture"
       ],
-      "description": "Phát triển các tính năng thanh toán, ví điện tử và giao diện người dùng mượt mà trên ứng dụng Mobile có hơn 30 triệu người dùng.",
+      "description": "Phát triển siêu ứng dụng tài chính với hàng chục mini-apps, tối ưu thời gian khởi động và độ ổn định ứng dụng trên mọi thiết bị.",
       "requirements": [
-        "2+ năm kinh nghiệm phát triển ứng dụng di động với Flutter hoặc React Native.",
-        "Hiểu biết tốt về State Management (Bloc/Riverpod/Redux) và tối ưu frame rate 60fps.",
-        "Kinh nghiệm build & deploy lên Google Play Store và Apple App Store."
+        "3+ năm kinh nghiệm phát triển ứng dụng di động Flutter/Native.",
+        "Thành thạo Clean Architecture, BLoC pattern, CI/CD Fastlane.",
+        "Kinh nghiệm xử lý bảo mật ứng dụng di động và chống gian lận."
       ],
       "benefits": [
-        "Gói thu nhập 14 - 16 tháng lương/năm.",
-        "Bảo hiểm sức khỏe đặc biệt cho nhân viên và bố mẹ.",
-        "Môi trường FinTech năng động, trà chiều, cà phê miễn phí mỗi ngày."
+        "Gói phúc lợi hấp dẫn, thưởng lễ tết và tháng 13.",
+        "Chương trình đào tạo chứng chỉ công nghệ và kỹ năng mềm.",
+        "Văn phòng hiện đại với khu giải trí, phòng gym."
       ],
-      "url": "https://www.topcv.vn",
-      "posted_at": "2026-08-29"
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-017",
+      "title": "Fullstack Engineer (FastAPI / Vue.js / Postgres)",
+      "company": "Vui Coding Innovation",
+      "location": "Hà Nội / Remote",
+      "salary": "28 – 50 Triệu VNĐ",
+      "track": "Software & Web Dev",
+      "level": "Mid - Senior",
+      "source": "Facebook Group",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "Vue.js",
+        "PostgreSQL",
+        "Docker",
+        "Tailwind"
+      ],
+      "description": "Phát triển toàn diện nền tảng công cụ developer, bảng xếp hạng mã nguồn mở và hệ thống tổng hợp thông tin công nghệ tự động.",
+      "requirements": [
+        "2+ năm kinh nghiệm Fullstack với Python (FastAPI/Django) và Vue/React.",
+        "Kỹ năng thiết kế RESTful API chuẩn mực và tối ưu database.",
+        "Chủ động, có tinh thần mã nguồn mở và ham học hỏi công nghệ mới."
+      ],
+      "benefits": [
+        "Thời gian làm việc linh hoạt, tôn trọng sáng kiến cá nhân.",
+        "Thưởng dự án và cơ hội thăng tiến lên Tech Lead.",
+        "100% trang bị laptop theo yêu cầu."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-018",
+      "title": "Senior Embedded / C++ Systems Software Engineer",
+      "company": "LG Electronics R&D Vietnam",
+      "location": "Hà Nội / Đà Nẵng",
+      "salary": "38 – 70 Triệu VNĐ",
+      "track": "Software & Web Dev",
+      "level": "Senior",
+      "source": "VietnamWorks",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "C++",
+        "Linux Kernel",
+        "Embedded",
+        "IPC",
+        "RTOS",
+        "POSIX"
+      ],
+      "description": "Phát triển hệ điều hành webOS và các module giao tiếp phần cứng thời gian thực cho các thiết bị thông minh thế hệ mới.",
+      "requirements": [
+        "3+ năm kinh nghiệm lập trình C/C++ trên môi trường Linux nhúng.",
+        "Hiểu sâu về Linux IPC, Threading, Memory footprint và gdb debugging.",
+        "Có kinh nghiệm viết Device Driver là điểm cộng lớn."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng kết quả kinh doanh tập đoàn LG.",
+        "Cơ hội tu nghiệp và đào tạo chuyên sâu tại Hàn Quốc.",
+        "Xe đưa đón nhân viên và các chế độ phụ cấp cao cấp."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-019",
+      "title": "Principal Site Reliability Engineer (SRE Lead)",
+      "company": "Techcombank Digital",
+      "location": "Hà Nội",
+      "salary": "60 – 100 Triệu VNĐ",
+      "track": "Cloud & DevOps",
+      "level": "Lead",
+      "source": "LinkedIn",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "SRE",
+        "Kubernetes",
+        "Observability",
+        "Prometheus",
+        "Terraform",
+        "Chaos Engineering"
+      ],
+      "description": "Đảm bảo độ sẵn sàng 99.99% cho hệ thống ngân hàng số, xây dựng chiến lược Observability, Chaos Engineering và tự động phục hồi sự cố.",
+      "requirements": [
+        "5+ năm kinh nghiệm SRE/DevOps trong hệ thống tài chính quy mô lớn.",
+        "Thành thạo Kubernetes cluster quản trị trên Bare-metal và Cloud.",
+        "Kỹ năng xử lý sự cố P1/P0 xuất sắc và thiết lập SLA/SLO/SLI chuẩn mực."
+      ],
+      "benefits": [
+        "Chế độ đãi ngộ ngân hàng số hàng đầu thị trường.",
+        "Thưởng hiệu quả hàng năm lên tới 4 - 8 tháng lương.",
+        "Bảo hiểm sức khỏe VIP toàn diện."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-020",
+      "title": "Senior Cloud DevOps Engineer (AWS / Terraform)",
+      "company": "FPT Software Global",
+      "location": "Hà Nội / Đà Nẵng / Remote",
+      "salary": "35 – 65 Triệu VNĐ",
+      "track": "Cloud & DevOps",
+      "level": "Senior",
+      "source": "TopDev",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "AWS",
+        "Terraform",
+        "GitLab CI",
+        "Docker",
+        "Ansible"
+      ],
+      "description": "Tự động hóa triển khai hạ tầng đám mây dạng mã (Infrastructure as Code) cho khách hàng doanh nghiệp tại Mỹ, Nhật và châu Âu.",
+      "requirements": [
+        "3+ năm kinh nghiệm AWS Cloud và Terraform/CloudFormation.",
+        "Thành thạo thiết kế pipeline CI/CD GitLab/GitHub Actions.",
+        "Có chứng chỉ AWS Certified Solutions Architect Professional."
+      ],
+      "benefits": [
+        "Cơ hội onsite ngắn hạn và dài hạn tại Mỹ/Nhật.",
+        "Thưởng chứng chỉ AWS/Azure lên tới hàng chục triệu đồng.",
+        "Lương tháng 13 và thưởng dự án định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-021",
+      "title": "Kubernetes & Cloud Infrastructure Specialist",
+      "company": "Viettel Solutions",
+      "location": "Hà Nội",
+      "salary": "32 – 55 Triệu VNĐ",
+      "track": "Cloud & DevOps",
+      "level": "Mid - Senior",
+      "source": "TopCV",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "Kubernetes",
+        "Linux",
+        "Ceph",
+        "OpenStack",
+        "Prometheus"
+      ],
+      "description": "Vận hành hạ tầng đám mây Viettel Cloud, quản trị cụm máy chủ K8s và giải pháp lưu trữ phân tán Ceph quy mô hàng Petabyte.",
+      "requirements": [
+        "3+ năm kinh nghiệm quản trị hệ thống Linux và Kubernetes.",
+        "Có chứng chỉ CKA (Certified Kubernetes Administrator) là bắt buộc.",
+        "Hiểu sâu về Network overlay CNI (Calico/Cilium) và Storage CSI."
+      ],
+      "benefits": [
+        "Lương thưởng theo cơ chế tập đoàn Viettel danh giá.",
+        "Môi trường thử thách làm chủ hạ tầng quốc gia.",
+        "Các chế độ nghỉ dưỡng và bảo hiểm đặc quyền."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-022",
+      "title": "Senior Unity Game Developer (3D / Performance Optimization)",
+      "company": "VNGGames Studio",
+      "location": "TP.HCM",
+      "salary": "35 – 65 Triệu VNĐ",
+      "track": "Game Development",
+      "level": "Senior",
+      "source": "ITviec",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "Unity",
+        "C#",
+        "Shader",
+        "Optimization",
+        "3D Graphics"
+      ],
+      "description": "Phát triển các tựa game mobile 3D bom tấn, tối ưu hóa bộ nhớ, draw calls và shader nhằm mang lại trải nghiệm mượt mà trên đa dạng thiết bị.",
+      "requirements": [
+        "3+ năm kinh nghiệm phát triển game với Unity và C#.",
+        "Nắm vững Design Patterns, Addressables, Memory Profiling.",
+        "Kinh nghiệm viết Custom Shader (HLSL/ShaderGraph) là lợi thế."
+      ],
+      "benefits": [
+        "Gói phúc lợi VNG Campus đẳng cấp bậc nhất VN (hồ bơi, gym, cafeteria).",
+        "Thưởng doanh thu game phát hành hấp dẫn.",
+        "Lương tháng 13 + thưởng Tết dồi dào."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-023",
+      "title": "Senior Unreal Engine Developer (C++ / Gameplay)",
+      "company": "Amanotes Studio",
+      "location": "TP.HCM",
+      "salary": "40 – 70 Triệu VNĐ",
+      "track": "Game Development",
+      "level": "Senior",
+      "source": "LinkedIn",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "Unreal Engine",
+        "C++",
+        "Gameplay",
+        "Animation",
+        "Physics"
+      ],
+      "description": "Thiết kế và lập trình cơ chế gameplay cốt lõi, tích hợp hệ thống âm nhạc tương tác và vật lý chuyển động cho các tựa game toàn cầu.",
+      "requirements": [
+        "3+ năm kinh nghiệm với Unreal Engine 5 và C++.",
+        "Hiểu sâu về Gameplay Ability System (GAS), Animation Blueprints.",
+        "Kỹ năng tối ưu hóa khung hình và latency âm thanh."
+      ],
+      "benefits": [
+        "Môi trường làm việc quốc tế, âm nhạc ngập tràn.",
+        "Cơ hội tạo ra sản phẩm tiếp cận hàng trăm triệu người chơi toàn cầu.",
+        "Chính sách review lương 2 lần/năm."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-024",
+      "title": "Game Technical Artist / Shader & FX Specialist",
+      "company": "Gameloft Vietnam",
+      "location": "Hà Nội / Đà Nẵng",
+      "salary": "30 – 55 Triệu VNĐ",
+      "track": "Game Development",
+      "level": "Mid - Senior",
+      "source": "TopCV",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "Shader",
+        "VFX",
+        "Blender",
+        "Maya",
+        "Unity",
+        "Unreal"
+      ],
+      "description": "Làm cầu nối giữa đội ngũ 3D Artist và Lập trình viên, phát triển shader, hiệu ứng hình ảnh (VFX) và tối ưu hóa tài nguyên đồ họa.",
+      "requirements": [
+        "2+ năm kinh nghiệm ở vị trí Technical Artist hoặc 3D Generalist.",
+        "Thành thạo HLSL, ShaderGraph, Niagara VFX, Blender/Maya.",
+        "Hiểu biết sâu sắc về render pipeline và texture compression."
+      ],
+      "benefits": [
+        "Môi trường phát triển game quốc tế chuyên nghiệp.",
+        "Các khóa đào tạo nâng cao tay nghề từ chuyên gia nước ngoài.",
+        "Bảo hiểm sức khỏe cao cấp và quà tặng hàng năm."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-025",
+      "title": "Security Operations Center (SOC) Lead",
+      "company": "FPT Software",
+      "location": "Hà Nội / Đà Nẵng",
+      "salary": "55 – 90 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Lead",
+      "source": "TopCV",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "SOC",
+        "SIEM",
+        "Incident Response",
+        "CISSP",
+        "Splunk"
+      ],
+      "description": "Tuyển dụng vị trí Security Operations Center (SOC) Lead làm việc tại FPT Software, tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ SOC, SIEM, Incident Response.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://www.topcv.vn/"
+    },
+    {
+      "id": "job-026",
+      "title": "Junior Pentester / Ethical Hacker",
+      "company": "Viettel Cyber Security",
+      "location": "Hà Nội",
+      "salary": "16 – 28 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Junior",
+      "source": "Facebook Group",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "Pentest",
+        "Web Security",
+        "BurpSuite",
+        "Linux",
+        "CEH"
+      ],
+      "description": "Tuyển dụng vị trí Junior Pentester / Ethical Hacker làm việc tại Viettel Cyber Security, tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ Pentest, Web Security, BurpSuite.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://www.topcv.vn/"
+    },
+    {
+      "id": "job-027",
+      "title": "Cloud Security Architect",
+      "company": "CMC Cyber Security",
+      "location": "Hà Nội",
+      "salary": "60 – 100 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Senior",
+      "source": "TopCV",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "Cloud Security",
+        "AWS",
+        "Azure",
+        "Zero Trust",
+        "Terraform"
+      ],
+      "description": "Tuyển dụng vị trí Cloud Security Architect làm việc tại CMC Cyber Security, tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ Cloud Security, AWS, Azure.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://www.topcv.vn/"
+    },
+    {
+      "id": "job-028",
+      "title": "Incident Response (DFIR) Specialist",
+      "company": "VNG Corporation",
+      "location": "TP.HCM",
+      "salary": "45 – 80 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Senior",
+      "source": "ITviec",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "DFIR",
+        "Forensics",
+        "EnCase",
+        "Volatility",
+        "Threat Intel"
+      ],
+      "description": "Tuyển dụng vị trí Incident Response (DFIR) Specialist làm việc tại VNG Corporation, tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ DFIR, Forensics, EnCase.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-029",
+      "title": "Red Team Operator / Exploit Developer",
+      "company": "One Mount Group",
+      "location": "Hà Nội",
+      "salary": "50 – 85 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Senior",
+      "source": "VietnamWorks",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "Red Team",
+        "C2 Frameworks",
+        "Bypass AV/EDR",
+        "OSCP",
+        "OSEP"
+      ],
+      "description": "Tuyển dụng vị trí Red Team Operator / Exploit Developer làm việc tại One Mount Group, tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ Red Team, C2 Frameworks, Bypass AV/EDR.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://www.topcv.vn/"
+    },
+    {
+      "id": "job-030",
+      "title": "Application Security Engineer (Java/Go)",
+      "company": "Tiki Corporation",
+      "location": "TP.HCM",
+      "salary": "35 – 60 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Mid - Senior",
+      "source": "ITviec",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "AppSec",
+        "Code Review",
+        "SAST/DAST",
+        "Java",
+        "Go"
+      ],
+      "description": "Tuyển dụng vị trí Application Security Engineer (Java/Go) làm việc tại Tiki Corporation, tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ AppSec, Code Review, SAST/DAST.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-031",
+      "title": "AI Research Engineer (LLM Agents & Tool Use)",
+      "company": "Sendo Farm Tech",
+      "location": "TP.HCM",
+      "salary": "50 – 90 Triệu VNĐ",
+      "track": "AI & Machine Learning",
+      "level": "Senior",
+      "source": "TopCV",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "LLM",
+        "Agent Skills",
+        "PyTorch",
+        "Python",
+        "Transformers"
+      ],
+      "description": "Tuyển dụng vị trí AI Research Engineer (LLM Agents & Tool Use) làm việc tại Sendo Farm Tech, tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ LLM, Agent Skills, PyTorch.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://www.topcv.vn/"
+    },
+    {
+      "id": "job-032",
+      "title": "Senior Data Scientist (Recommendation Systems)",
+      "company": "NAB Innovation Centre Vietnam",
+      "location": "TP.HCM / Hà Nội",
+      "salary": "40 – 75 Triệu VNĐ",
+      "track": "AI & Machine Learning",
+      "level": "Senior",
+      "source": "LinkedIn",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "Data Science",
+        "Python",
+        "Recommender",
+        "Spark",
+        "SQL"
+      ],
+      "description": "Tuyển dụng vị trí Senior Data Scientist (Recommendation Systems) làm việc tại NAB Innovation Centre Vietnam, tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ Data Science, Python, Recommender.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://www.topcv.vn/"
+    },
+    {
+      "id": "job-033",
+      "title": "NLP Engineer (Vietnamese LLM Fine-Tuning)",
+      "company": "KMS Technology",
+      "location": "TP.HCM / Đà Nẵng",
+      "salary": "38 – 68 Triệu VNĐ",
+      "track": "AI & Machine Learning",
+      "level": "Mid - Senior",
+      "source": "ITviec",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "NLP",
+        "HuggingFace",
+        "LoRA",
+        "PyTorch",
+        "Vietnamese"
+      ],
+      "description": "Tuyển dụng vị trí NLP Engineer (Vietnamese LLM Fine-Tuning) làm việc tại KMS Technology, tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ NLP, HuggingFace, LoRA.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-034",
+      "title": "AI Solution Architect",
+      "company": "Axon Active Vietnam",
+      "location": "Đà Nẵng / TP.HCM",
+      "salary": "70 – 120 Triệu VNĐ",
+      "track": "AI & Machine Learning",
+      "level": "Principal",
+      "source": "ITviec",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "AI Architecture",
+        "Enterprise AI",
+        "Cloud",
+        "LLM",
+        "Strategy"
+      ],
+      "description": "Tuyển dụng vị trí AI Solution Architect làm việc tại Axon Active Vietnam, tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ AI Architecture, Enterprise AI, Cloud.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-035",
+      "title": "Senior Backend Developer (Python / FastAPI)",
+      "company": "Robert Bosch Engineering Vietnam",
+      "location": "TP.HCM",
+      "salary": "35 – 65 Triệu VNĐ",
+      "track": "Software & Web Dev",
+      "level": "Senior",
+      "source": "VietnamWorks",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "Postgres",
+        "Redis",
+        "Docker"
+      ],
+      "description": "Tuyển dụng vị trí Senior Backend Developer (Python / FastAPI) làm việc tại Robert Bosch Engineering Vietnam, tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ Python, FastAPI, Postgres.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://www.topcv.vn/"
+    },
+    {
+      "id": "job-036",
+      "title": "Senior Java Backend Engineer (Spring Boot / K8s)",
+      "company": "Samsung R&D Institute Vietnam (SRV)",
+      "location": "Hà Nội",
+      "salary": "40 – 75 Triệu VNĐ",
+      "track": "Software & Web Dev",
+      "level": "Senior",
+      "source": "TopCV",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "Kafka",
+        "Postgres"
+      ],
+      "description": "Tuyển dụng vị trí Senior Java Backend Engineer (Spring Boot / K8s) làm việc tại Samsung R&D Institute Vietnam (SRV), tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ Java, Spring Boot, Microservices.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://www.topcv.vn/"
+    },
+    {
+      "id": "job-037",
+      "title": "Senior Frontend Developer (ReactJS / Tailwind)",
+      "company": "Grab Vietnam R&D",
+      "location": "TP.HCM",
+      "salary": "35 – 60 Triệu VNĐ",
+      "track": "Software & Web Dev",
+      "level": "Senior",
+      "source": "LinkedIn",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "Next.js",
+        "Redux"
+      ],
+      "description": "Tuyển dụng vị trí Senior Frontend Developer (ReactJS / Tailwind) làm việc tại Grab Vietnam R&D, tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ React, TypeScript, Tailwind.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://www.topcv.vn/"
+    },
+    {
+      "id": "job-038",
+      "title": "Mobile Developer (iOS Swift / SwiftUI)",
+      "company": "Sea Group (Garena / Shopee)",
+      "location": "TP.HCM",
+      "salary": "32 – 58 Triệu VNĐ",
+      "track": "Software & Web Dev",
+      "level": "Mid - Senior",
+      "source": "ITviec",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "iOS",
+        "Swift",
+        "SwiftUI",
+        "CoreData",
+        "Combine"
+      ],
+      "description": "Tuyển dụng vị trí Mobile Developer (iOS Swift / SwiftUI) làm việc tại Sea Group (Garena / Shopee), tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ iOS, Swift, SwiftUI.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-039",
+      "title": "Mobile Developer (Android Kotlin)",
+      "company": "VinFast Software",
+      "location": "Hà Nội / Hải Phòng",
+      "salary": "32 – 58 Triệu VNĐ",
+      "track": "Software & Web Dev",
+      "level": "Mid - Senior",
+      "source": "VietnamWorks",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "Android",
+        "Kotlin",
+        "Coroutines",
+        "Jetpack Compose",
+        "Clean Arch"
+      ],
+      "description": "Tuyển dụng vị trí Mobile Developer (Android Kotlin) làm việc tại VinFast Software, tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ Android, Kotlin, Coroutines.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://www.topcv.vn/"
+    },
+    {
+      "id": "job-040",
+      "title": "Fullstack Developer (NodeJS + Vue3)",
+      "company": "Zalo Group",
+      "location": "TP.HCM",
+      "salary": "25 – 45 Triệu VNĐ",
+      "track": "Software & Web Dev",
+      "level": "Mid",
+      "source": "ITviec",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "NodeJS",
+        "Vue.js",
+        "TypeScript",
+        "MongoDB",
+        "Express"
+      ],
+      "description": "Tuyển dụng vị trí Fullstack Developer (NodeJS + Vue3) làm việc tại Zalo Group, tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ NodeJS, Vue.js, TypeScript.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-041",
+      "title": "DevOps Engineer (CI/CD, Docker, Kubernetes)",
+      "company": "CyberJutsu Academy",
+      "location": "TP.HCM / Remote",
+      "salary": "32 – 60 Triệu VNĐ",
+      "track": "Cloud & DevOps",
+      "level": "Mid - Senior",
+      "source": "CyberJutsu",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "DevOps",
+        "Kubernetes",
+        "Docker",
+        "GitLab CI",
+        "Linux"
+      ],
+      "description": "Tuyển dụng vị trí DevOps Engineer (CI/CD, Docker, Kubernetes) làm việc tại CyberJutsu Academy, tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ DevOps, Kubernetes, Docker.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://www.topcv.vn/"
+    },
+    {
+      "id": "job-042",
+      "title": "Cloud Solutions Architect (AWS / Multi-Cloud)",
+      "company": "VNPT Information Technology",
+      "location": "Hà Nội",
+      "salary": "55 – 95 Triệu VNĐ",
+      "track": "Cloud & DevOps",
+      "level": "Senior",
+      "source": "TopCV",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "AWS",
+        "Cloud Architecture",
+        "Terraform",
+        "Security",
+        "Cost Optimization"
+      ],
+      "description": "Tuyển dụng vị trí Cloud Solutions Architect (AWS / Multi-Cloud) làm việc tại VNPT Information Technology, tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ AWS, Cloud Architecture, Terraform.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://www.topcv.vn/"
+    },
+    {
+      "id": "job-043",
+      "title": "Unity Gameplay Programmer",
+      "company": "MobiFone R&D",
+      "location": "Hà Nội",
+      "salary": "25 – 45 Triệu VNĐ",
+      "track": "Game Development",
+      "level": "Mid",
+      "source": "TopCV",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "Unity",
+        "C#",
+        "Gameplay",
+        "Git",
+        "Design Patterns"
+      ],
+      "description": "Tuyển dụng vị trí Unity Gameplay Programmer làm việc tại MobiFone R&D, tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ Unity, C#, Gameplay.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://www.topcv.vn/"
+    },
+    {
+      "id": "job-044",
+      "title": "3D Game Artist (Blender / Unity)",
+      "company": "MB Bank Digital Banking",
+      "location": "Hà Nội",
+      "salary": "22 – 40 Triệu VNĐ",
+      "track": "Game Development",
+      "level": "Mid",
+      "source": "VietnamWorks",
+      "source_badge": "Xác Minh",
+      "tags": [
+        "3D Art",
+        "Blender",
+        "Texturing",
+        "Unity",
+        "Low-poly"
+      ],
+      "description": "Tuyển dụng vị trí 3D Game Artist (Blender / Unity) làm việc tại MB Bank Digital Banking, tham gia phát triển và vận hành hệ thống công nghệ quy mô lớn.",
+      "requirements": [
+        "Tối thiểu 2-4 năm kinh nghiệm làm việc thực tế với các công nghệ 3D Art, Blender, Texturing.",
+        "Tư duy giải quyết vấn đề độc lập, khả năng làm việc nhóm và giao tiếp tốt.",
+        "Có tinh thần trách nhiệm cao và cam kết bảo mật thông tin dự án."
+      ],
+      "benefits": [
+        "Lương tháng 13 + thưởng hiệu quả kinh doanh hàng năm.",
+        "Gói bảo hiểm sức khỏe cao cấp cho nhân viên.",
+        "Chế độ đào tạo, hỗ trợ thi chứng chỉ chuyên ngành và review lương định kỳ."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://www.topcv.vn/"
+    },
+    {
+      "id": "job-045",
+      "title": "Senior Game Development Engineer (MB Bank Digital Banking)",
+      "company": "MB Bank Digital Banking",
+      "location": "Hà Nội",
+      "salary": "62 – 95 Triệu VNĐ",
+      "track": "Game Development",
+      "level": "Senior",
+      "source": "VietnamWorks",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Game",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại MB Bank Digital Banking, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Game Development.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-046",
+      "title": "Senior An Ninh Mạng & SOC Engineer (VPBank Digital Hub)",
+      "company": "VPBank Digital Hub",
+      "location": "Hà Nội / TP.HCM",
+      "salary": "30 – 55 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Senior",
+      "source": "VietnamWorks",
+      "source_badge": "Hot Job",
+      "tags": [
+        "An",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại VPBank Digital Hub, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng An Ninh Mạng & SOC.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-047",
+      "title": "Senior AI & Machine Learning Engineer (Techcombank Software Engineering)",
+      "company": "Techcombank Software Engineering",
+      "location": "Hà Nội / TP.HCM",
+      "salary": "38 – 65 Triệu VNĐ",
+      "track": "AI & Machine Learning",
+      "level": "Senior",
+      "source": "LinkedIn",
+      "source_badge": "Hot Job",
+      "tags": [
+        "AI",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại Techcombank Software Engineering, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng AI & Machine Learning.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-048",
+      "title": "Senior Software & Web Dev Engineer (Sacombank IT Security Division)",
+      "company": "Sacombank IT Security Division",
+      "location": "TP.HCM",
+      "salary": "46 – 75 Triệu VNĐ",
+      "track": "Software & Web Dev",
+      "level": "Senior",
+      "source": "TopCV",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Software",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại Sacombank IT Security Division, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Software & Web Dev.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-049",
+      "title": "Senior Cloud & DevOps Engineer (VIB Bank IT)",
+      "company": "VIB Bank IT",
+      "location": "TP.HCM",
+      "salary": "54 – 85 Triệu VNĐ",
+      "track": "Cloud & DevOps",
+      "level": "Senior",
+      "source": "VietnamWorks",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Cloud",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại VIB Bank IT, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Cloud & DevOps.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-050",
+      "title": "Senior Game Development Engineer (ACB Bank Digital Banking)",
+      "company": "ACB Bank Digital Banking",
+      "location": "TP.HCM",
+      "salary": "62 – 95 Triệu VNĐ",
+      "track": "Game Development",
+      "level": "Senior",
+      "source": "TopCV",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Game",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại ACB Bank Digital Banking, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Game Development.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-051",
+      "title": "Senior An Ninh Mạng & SOC Engineer (FPT Software)",
+      "company": "FPT Software",
+      "location": "Hà Nội / Đà Nẵng",
+      "salary": "30 – 55 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Senior",
+      "source": "TopCV",
+      "source_badge": "Hot Job",
+      "tags": [
+        "An",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại FPT Software, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng An Ninh Mạng & SOC.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-052",
+      "title": "Senior AI & Machine Learning Engineer (Viettel Cyber Security)",
+      "company": "Viettel Cyber Security",
+      "location": "Hà Nội",
+      "salary": "38 – 65 Triệu VNĐ",
+      "track": "AI & Machine Learning",
+      "level": "Senior",
+      "source": "Facebook Group",
+      "source_badge": "Hot Job",
+      "tags": [
+        "AI",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại Viettel Cyber Security, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng AI & Machine Learning.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-053",
+      "title": "Senior Software & Web Dev Engineer (CMC Cyber Security)",
+      "company": "CMC Cyber Security",
+      "location": "Hà Nội",
+      "salary": "46 – 75 Triệu VNĐ",
+      "track": "Software & Web Dev",
+      "level": "Senior",
+      "source": "TopCV",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Software",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại CMC Cyber Security, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Software & Web Dev.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-054",
+      "title": "Senior Cloud & DevOps Engineer (VNG Corporation)",
+      "company": "VNG Corporation",
+      "location": "TP.HCM",
+      "salary": "54 – 85 Triệu VNĐ",
+      "track": "Cloud & DevOps",
+      "level": "Senior",
+      "source": "ITviec",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Cloud",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại VNG Corporation, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Cloud & DevOps.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-055",
+      "title": "Senior Game Development Engineer (One Mount Group)",
+      "company": "One Mount Group",
+      "location": "Hà Nội",
+      "salary": "62 – 95 Triệu VNĐ",
+      "track": "Game Development",
+      "level": "Senior",
+      "source": "VietnamWorks",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Game",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại One Mount Group, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Game Development.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-056",
+      "title": "Senior An Ninh Mạng & SOC Engineer (Tiki Corporation)",
+      "company": "Tiki Corporation",
+      "location": "TP.HCM",
+      "salary": "30 – 55 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Senior",
+      "source": "ITviec",
+      "source_badge": "Hot Job",
+      "tags": [
+        "An",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại Tiki Corporation, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng An Ninh Mạng & SOC.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-057",
+      "title": "Senior AI & Machine Learning Engineer (Sendo Farm Tech)",
+      "company": "Sendo Farm Tech",
+      "location": "TP.HCM",
+      "salary": "38 – 65 Triệu VNĐ",
+      "track": "AI & Machine Learning",
+      "level": "Senior",
+      "source": "TopCV",
+      "source_badge": "Hot Job",
+      "tags": [
+        "AI",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại Sendo Farm Tech, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng AI & Machine Learning.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-058",
+      "title": "Senior Software & Web Dev Engineer (NAB Innovation Centre Vietnam)",
+      "company": "NAB Innovation Centre Vietnam",
+      "location": "TP.HCM / Hà Nội",
+      "salary": "46 – 75 Triệu VNĐ",
+      "track": "Software & Web Dev",
+      "level": "Senior",
+      "source": "LinkedIn",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Software",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại NAB Innovation Centre Vietnam, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Software & Web Dev.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-059",
+      "title": "Senior Cloud & DevOps Engineer (KMS Technology)",
+      "company": "KMS Technology",
+      "location": "TP.HCM / Đà Nẵng",
+      "salary": "54 – 85 Triệu VNĐ",
+      "track": "Cloud & DevOps",
+      "level": "Senior",
+      "source": "ITviec",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Cloud",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại KMS Technology, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Cloud & DevOps.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-060",
+      "title": "Senior Game Development Engineer (Axon Active Vietnam)",
+      "company": "Axon Active Vietnam",
+      "location": "Đà Nẵng / TP.HCM",
+      "salary": "62 – 95 Triệu VNĐ",
+      "track": "Game Development",
+      "level": "Senior",
+      "source": "ITviec",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Game",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại Axon Active Vietnam, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Game Development.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-061",
+      "title": "Senior An Ninh Mạng & SOC Engineer (Robert Bosch Engineering Vietnam)",
+      "company": "Robert Bosch Engineering Vietnam",
+      "location": "TP.HCM",
+      "salary": "30 – 55 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Senior",
+      "source": "VietnamWorks",
+      "source_badge": "Hot Job",
+      "tags": [
+        "An",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại Robert Bosch Engineering Vietnam, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng An Ninh Mạng & SOC.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-062",
+      "title": "Senior AI & Machine Learning Engineer (Samsung R&D Institute Vietnam (SRV))",
+      "company": "Samsung R&D Institute Vietnam (SRV)",
+      "location": "Hà Nội",
+      "salary": "38 – 65 Triệu VNĐ",
+      "track": "AI & Machine Learning",
+      "level": "Senior",
+      "source": "TopCV",
+      "source_badge": "Hot Job",
+      "tags": [
+        "AI",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại Samsung R&D Institute Vietnam (SRV), trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng AI & Machine Learning.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-063",
+      "title": "Senior Software & Web Dev Engineer (Grab Vietnam R&D)",
+      "company": "Grab Vietnam R&D",
+      "location": "TP.HCM",
+      "salary": "46 – 75 Triệu VNĐ",
+      "track": "Software & Web Dev",
+      "level": "Senior",
+      "source": "LinkedIn",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Software",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại Grab Vietnam R&D, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Software & Web Dev.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-064",
+      "title": "Senior Cloud & DevOps Engineer (Sea Group (Garena / Shopee))",
+      "company": "Sea Group (Garena / Shopee)",
+      "location": "TP.HCM",
+      "salary": "54 – 85 Triệu VNĐ",
+      "track": "Cloud & DevOps",
+      "level": "Senior",
+      "source": "ITviec",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Cloud",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại Sea Group (Garena / Shopee), trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Cloud & DevOps.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-065",
+      "title": "Senior Game Development Engineer (VinFast Software)",
+      "company": "VinFast Software",
+      "location": "Hà Nội / Hải Phòng",
+      "salary": "62 – 95 Triệu VNĐ",
+      "track": "Game Development",
+      "level": "Senior",
+      "source": "VietnamWorks",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Game",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại VinFast Software, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Game Development.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-066",
+      "title": "Senior An Ninh Mạng & SOC Engineer (Zalo Group)",
+      "company": "Zalo Group",
+      "location": "TP.HCM",
+      "salary": "30 – 55 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Senior",
+      "source": "ITviec",
+      "source_badge": "Hot Job",
+      "tags": [
+        "An",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại Zalo Group, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng An Ninh Mạng & SOC.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-067",
+      "title": "Senior AI & Machine Learning Engineer (CyberJutsu Academy)",
+      "company": "CyberJutsu Academy",
+      "location": "TP.HCM / Remote",
+      "salary": "38 – 65 Triệu VNĐ",
+      "track": "AI & Machine Learning",
+      "level": "Senior",
+      "source": "CyberJutsu",
+      "source_badge": "Hot Job",
+      "tags": [
+        "AI",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại CyberJutsu Academy, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng AI & Machine Learning.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-068",
+      "title": "Senior Software & Web Dev Engineer (VNPT Information Technology)",
+      "company": "VNPT Information Technology",
+      "location": "Hà Nội",
+      "salary": "46 – 75 Triệu VNĐ",
+      "track": "Software & Web Dev",
+      "level": "Senior",
+      "source": "TopCV",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Software",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại VNPT Information Technology, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Software & Web Dev.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-069",
+      "title": "Senior Cloud & DevOps Engineer (MobiFone R&D)",
+      "company": "MobiFone R&D",
+      "location": "Hà Nội",
+      "salary": "54 – 85 Triệu VNĐ",
+      "track": "Cloud & DevOps",
+      "level": "Senior",
+      "source": "TopCV",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Cloud",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại MobiFone R&D, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Cloud & DevOps.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-070",
+      "title": "Senior Game Development Engineer (MB Bank Digital Banking)",
+      "company": "MB Bank Digital Banking",
+      "location": "Hà Nội",
+      "salary": "62 – 95 Triệu VNĐ",
+      "track": "Game Development",
+      "level": "Senior",
+      "source": "VietnamWorks",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Game",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại MB Bank Digital Banking, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Game Development.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-071",
+      "title": "Senior An Ninh Mạng & SOC Engineer (VPBank Digital Hub)",
+      "company": "VPBank Digital Hub",
+      "location": "Hà Nội / TP.HCM",
+      "salary": "30 – 55 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Senior",
+      "source": "VietnamWorks",
+      "source_badge": "Hot Job",
+      "tags": [
+        "An",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại VPBank Digital Hub, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng An Ninh Mạng & SOC.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-072",
+      "title": "Senior AI & Machine Learning Engineer (Techcombank Software Engineering)",
+      "company": "Techcombank Software Engineering",
+      "location": "Hà Nội / TP.HCM",
+      "salary": "38 – 65 Triệu VNĐ",
+      "track": "AI & Machine Learning",
+      "level": "Senior",
+      "source": "LinkedIn",
+      "source_badge": "Hot Job",
+      "tags": [
+        "AI",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại Techcombank Software Engineering, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng AI & Machine Learning.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-073",
+      "title": "Senior Software & Web Dev Engineer (Sacombank IT Security Division)",
+      "company": "Sacombank IT Security Division",
+      "location": "TP.HCM",
+      "salary": "46 – 75 Triệu VNĐ",
+      "track": "Software & Web Dev",
+      "level": "Senior",
+      "source": "TopCV",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Software",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại Sacombank IT Security Division, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Software & Web Dev.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-074",
+      "title": "Senior Cloud & DevOps Engineer (VIB Bank IT)",
+      "company": "VIB Bank IT",
+      "location": "TP.HCM",
+      "salary": "54 – 85 Triệu VNĐ",
+      "track": "Cloud & DevOps",
+      "level": "Senior",
+      "source": "VietnamWorks",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Cloud",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại VIB Bank IT, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Cloud & DevOps.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-075",
+      "title": "Senior Game Development Engineer (ACB Bank Digital Banking)",
+      "company": "ACB Bank Digital Banking",
+      "location": "TP.HCM",
+      "salary": "62 – 95 Triệu VNĐ",
+      "track": "Game Development",
+      "level": "Senior",
+      "source": "TopCV",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Game",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại ACB Bank Digital Banking, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Game Development.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-076",
+      "title": "Senior An Ninh Mạng & SOC Engineer (FPT Software)",
+      "company": "FPT Software",
+      "location": "Hà Nội / Đà Nẵng",
+      "salary": "30 – 55 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Senior",
+      "source": "TopCV",
+      "source_badge": "Hot Job",
+      "tags": [
+        "An",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại FPT Software, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng An Ninh Mạng & SOC.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-077",
+      "title": "Senior AI & Machine Learning Engineer (Viettel Cyber Security)",
+      "company": "Viettel Cyber Security",
+      "location": "Hà Nội",
+      "salary": "38 – 65 Triệu VNĐ",
+      "track": "AI & Machine Learning",
+      "level": "Senior",
+      "source": "Facebook Group",
+      "source_badge": "Hot Job",
+      "tags": [
+        "AI",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại Viettel Cyber Security, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng AI & Machine Learning.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-078",
+      "title": "Senior Software & Web Dev Engineer (CMC Cyber Security)",
+      "company": "CMC Cyber Security",
+      "location": "Hà Nội",
+      "salary": "46 – 75 Triệu VNĐ",
+      "track": "Software & Web Dev",
+      "level": "Senior",
+      "source": "TopCV",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Software",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại CMC Cyber Security, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Software & Web Dev.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-079",
+      "title": "Senior Cloud & DevOps Engineer (VNG Corporation)",
+      "company": "VNG Corporation",
+      "location": "TP.HCM",
+      "salary": "54 – 85 Triệu VNĐ",
+      "track": "Cloud & DevOps",
+      "level": "Senior",
+      "source": "ITviec",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Cloud",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại VNG Corporation, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Cloud & DevOps.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-080",
+      "title": "Senior Game Development Engineer (One Mount Group)",
+      "company": "One Mount Group",
+      "location": "Hà Nội",
+      "salary": "62 – 95 Triệu VNĐ",
+      "track": "Game Development",
+      "level": "Senior",
+      "source": "VietnamWorks",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Game",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại One Mount Group, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Game Development.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-081",
+      "title": "Senior An Ninh Mạng & SOC Engineer (Tiki Corporation)",
+      "company": "Tiki Corporation",
+      "location": "TP.HCM",
+      "salary": "30 – 55 Triệu VNĐ",
+      "track": "An Ninh Mạng & SOC",
+      "level": "Senior",
+      "source": "ITviec",
+      "source_badge": "Hot Job",
+      "tags": [
+        "An",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại Tiki Corporation, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng An Ninh Mạng & SOC.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-082",
+      "title": "Senior AI & Machine Learning Engineer (Sendo Farm Tech)",
+      "company": "Sendo Farm Tech",
+      "location": "TP.HCM",
+      "salary": "38 – 65 Triệu VNĐ",
+      "track": "AI & Machine Learning",
+      "level": "Senior",
+      "source": "TopCV",
+      "source_badge": "Hot Job",
+      "tags": [
+        "AI",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại Sendo Farm Tech, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng AI & Machine Learning.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-083",
+      "title": "Senior Software & Web Dev Engineer (NAB Innovation Centre Vietnam)",
+      "company": "NAB Innovation Centre Vietnam",
+      "location": "TP.HCM / Hà Nội",
+      "salary": "46 – 75 Triệu VNĐ",
+      "track": "Software & Web Dev",
+      "level": "Senior",
+      "source": "LinkedIn",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Software",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại NAB Innovation Centre Vietnam, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Software & Web Dev.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-084",
+      "title": "Senior Cloud & DevOps Engineer (KMS Technology)",
+      "company": "KMS Technology",
+      "location": "TP.HCM / Đà Nẵng",
+      "salary": "54 – 85 Triệu VNĐ",
+      "track": "Cloud & DevOps",
+      "level": "Senior",
+      "source": "ITviec",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Cloud",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại KMS Technology, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Cloud & DevOps.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
+    },
+    {
+      "id": "job-085",
+      "title": "Senior Game Development Engineer (Axon Active Vietnam)",
+      "company": "Axon Active Vietnam",
+      "location": "Đà Nẵng / TP.HCM",
+      "salary": "62 – 95 Triệu VNĐ",
+      "track": "Game Development",
+      "level": "Senior",
+      "source": "ITviec",
+      "source_badge": "Hot Job",
+      "tags": [
+        "Game",
+        "Engineering",
+        "Architecture",
+        "Cloud"
+      ],
+      "description": "Tham gia vào đội ngũ nòng cốt tại Axon Active Vietnam, trực tiếp thiết kế và tối ưu các giải pháp kỹ thuật thuộc mảng Game Development.",
+      "requirements": [
+        "3+ năm kinh nghiệm thực chiến trong lĩnh vực tương ứng.",
+        "Nắm vững các nguyên lý Clean Architecture, High Concurrency và Security Best Practices.",
+        "Khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh thành thạo."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn cạnh tranh theo năng lực.",
+        "Bảo hiểm tư nhân cao cấp và tài trợ học tập.",
+        "Môi trường năng động, trang thiết bị làm việc hiện đại."
+      ],
+      "published_at": "Hôm nay",
+      "url": "https://itviec.com/"
     }
   ],
   "insights": {
-    "title": "Báo Cáo Xu Hướng Tuyển Dụng Công Nghệ & An Ninh Mạng 2025 - 2026 🇻🇳",
-    "summary": {
-      "total_posts": 909,
-      "total_it": 708,
-      "total_security": 662,
-      "active_period": "Q1 - Q3/2026",
-      "data_sources": "CyberJutsu, TopCV, ITviec, VietnamWorks, Facebook Tech Groups"
-    },
-    "regions": [
-      {
-        "name": "Hà Nội",
-        "count": 422,
-        "median_salary": "30M VNĐ",
-        "max_salary": "60M VNĐ"
-      },
-      {
-        "name": "TP. Hồ Chí Minh",
-        "count": 138,
-        "median_salary": "50M VNĐ",
-        "max_salary": "120M VNĐ"
-      },
-      {
-        "name": "Làm việc từ xa (Remote / Global)",
-        "count": 26,
-        "median_salary": "75M VNĐ",
-        "max_salary": "375M ($15k)"
-      },
-      {
-        "name": "Khu vực khác / Linh hoạt",
-        "count": 116,
-        "median_salary": "25M VNĐ",
-        "max_salary": "50M VNĐ"
-      }
-    ],
-    "levels": [
-      {
-        "level": "Intern / Fresher (Thực tập)",
-        "percent": 22.4,
-        "color": "#10b981"
-      },
-      {
-        "level": "Junior (0 - 2 năm kinh nghiệm)",
-        "percent": 44.3,
-        "color": "#3b82f6"
-      },
-      {
-        "level": "Middle (2 - 5 năm kinh nghiệm)",
-        "percent": 28.0,
-        "color": "#8b5cf6"
-      },
-      {
-        "level": "Senior / Lead / Manager (5+ năm)",
-        "percent": 27.7,
-        "color": "#f59e0b"
-      }
-    ],
-    "salary_distribution": [
-      {
-        "range": "< 15 Triệu VNĐ",
-        "percent": 12.5
-      },
-      {
-        "range": "15 – 30 Triệu VNĐ",
-        "percent": 38.2
-      },
-      {
-        "range": "30 – 50 Triệu VNĐ",
-        "percent": 31.1
-      },
-      {
-        "range": "50 – 100 Triệu VNĐ",
-        "percent": 12.7
-      },
-      {
-        "range": "100 Triệu VND++ (Remote/USD)",
-        "percent": 5.5
-      }
-    ],
-    "top_skills": [
-      {
-        "name": "SOC / SIEM / Log Analysis",
-        "percent": 19.8,
-        "count": 180,
-        "track": "Security"
-      },
-      {
-        "name": "Tiếng Anh (Giao tiếp / Báo cáo)",
-        "percent": 30.1,
-        "count": 274,
-        "track": "Soft Skill"
-      },
-      {
-        "name": "Pentest / Web / Mobile App",
-        "percent": 30.5,
-        "count": 277,
-        "track": "Security"
-      },
-      {
-        "name": "Cloud (AWS / Azure / GCP)",
-        "percent": 15.6,
-        "count": 142,
-        "track": "DevOps"
-      },
-      {
-        "name": "Linux / Shell Scripting",
-        "percent": 13.1,
-        "count": 119,
-        "track": "System"
-      },
-      {
-        "name": "Windows / Sysmon / AD",
-        "percent": 11.6,
-        "count": 105,
-        "track": "System"
-      },
-      {
-        "name": "Lập trình Python / Go / Rust",
-        "percent": 13.3,
-        "count": 121,
-        "track": "Dev"
-      },
-      {
-        "name": "Chứng chỉ OSCP / BSCP / CEH",
-        "percent": 10.3,
-        "count": 94,
-        "track": "Cert"
-      },
-      {
-        "name": "Network Security / Firewall / CCNA",
-        "percent": 11.4,
-        "count": 104,
-        "track": "Network"
-      }
-    ],
-    "benefits": [
-      {
-        "name": "Thưởng tháng 13 & Performance",
-        "percent": 37.4,
-        "desc": "Quy định trong hợp đồng lao động"
-      },
-      {
-        "name": "Hỗ trợ đào tạo & Thi chứng chỉ",
-        "percent": 35.7,
-        "desc": "Tài trợ học phí SANS, OSCP, AWS"
-      },
-      {
-        "name": "Bảo hiểm sức khỏe cao cấp",
-        "percent": 31.9,
-        "desc": "Gói bảo hiểm tư nhân cho nhân viên"
-      },
-      {
-        "name": "Làm việc linh hoạt / Remote / Hybrid",
-        "percent": 13.2,
-        "desc": "Chính sách WFH từ 1 - 5 ngày/tuần"
-      }
+    "updated_at": "2026-08-31",
+    "total_jobs": 85,
+    "top_tracks": [
+      "An Ninh Mạng & SOC",
+      "AI & Machine Learning",
+      "Software & Web Dev",
+      "Cloud & DevOps",
+      "Game Development"
     ]
   },
-  "updated_at": "2026-08-31 10:13:45"
+  "updated_at": "2026-08-31 10:30:17"
 }

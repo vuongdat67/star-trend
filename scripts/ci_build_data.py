@@ -115,7 +115,7 @@ def build_all(username='vuongdat67'):
         from services.ai_pulse_service import get_ai_pulse_data
         raw = safe_run('ai-pulse', get_ai_pulse_data)
         items = extract_list(raw, keys=('data', 'items')) if raw else []
-        save_json('ai_pulse.json', {'items': items})
+        save_json('ai_pulse.json', {'items': items, 'data': items})
         print(f"      {len(items)} items")
     except Exception as e:
         print(f"   AI Pulse FAILED: {e}")

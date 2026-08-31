@@ -48,6 +48,8 @@ jobs:
           cp -f static/css/style.css docs/css/style.css
           cp -f static/js/app.js docs/js/app.js
           cp -f static/js/charts.js docs/js/charts.js
+          mkdir -p docs/img
+          cp -rf static/img/* docs/img/ 2>/dev/null || true
 
       - name: Commit data updates
         run: |
@@ -59,8 +61,8 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: 'docs'
 

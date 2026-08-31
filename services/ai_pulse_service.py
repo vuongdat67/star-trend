@@ -20,7 +20,7 @@ def get_flagship_conferences_and_platforms():
             "summary": "Hội nghị cờ đầu toàn cầu về Học máy & Deep Learning. Tổ chức bởi NeurIPS Foundation.",
             "url": "https://neurips.cc/",
             "source": "Top Conference",
-            "category": "🏛️ Hội Nghị Đỉnh Cao (CCF-A)",
+            "category": "Hội Nghị Đỉnh Cao (CCF-A)",
             "badge": "NeurIPS (AI/ML)",
             "published_at": "Hội nghị 2026",
             "tags": ["neurips", "machine-learning", "deep-learning", "ccf-a", "core-a*"]
@@ -30,7 +30,7 @@ def get_flagship_conferences_and_platforms():
             "summary": "Hội nghị hàng đầu thế giới về kiến trúc mạng neural, representation learning và foundational AI models.",
             "url": "https://iclr.cc/",
             "source": "Top Conference",
-            "category": "🏛️ Hội Nghị Đỉnh Cao (CCF-A)",
+            "category": "Hội Nghị Đỉnh Cao (CCF-A)",
             "badge": "ICLR (Deep Learning)",
             "published_at": "Hội nghị 2026",
             "tags": ["iclr", "representation-learning", "transformers", "core-a*"]
@@ -40,7 +40,7 @@ def get_flagship_conferences_and_platforms():
             "summary": "Hội nghị danh giá nhất thế giới về An toàn thông tin, mật mã học và bảo mật hệ thống.",
             "url": "https://sp2026.ieee-security.org/",
             "source": "Top Conference",
-            "category": "🏛️ Hội Nghị Đỉnh Cao (CCF-A)",
+            "category": "Hội Nghị Đỉnh Cao (CCF-A)",
             "badge": "IEEE S&P (Security)",
             "published_at": "Big-Four Security",
             "tags": ["ieee-sp", "oakland", "security", "cryptography", "ccf-a"]
@@ -50,7 +50,7 @@ def get_flagship_conferences_and_platforms():
             "summary": "Hội nghị đỉnh cao về bảo mật ứng dụng, reverse engineering, lỗ hổng zero-day và firmware security.",
             "url": "https://www.usenix.org/conference/usenixsecurity26",
             "source": "Top Conference",
-            "category": "🏛️ Hội Nghị Đỉnh Cao (CCF-A)",
+            "category": "Hội Nghị Đỉnh Cao (CCF-A)",
             "badge": "USENIX Sec",
             "published_at": "Big-Four Security",
             "tags": ["usenix-security", "vulnerability", "exploit", "ccf-a"]
@@ -60,7 +60,7 @@ def get_flagship_conferences_and_platforms():
             "summary": "Hội nghị an ninh mạng cờ đầu của ACM, diễn ra tại The Hague.",
             "url": "https://www.sigsac.org/ccs/CCS2026/",
             "source": "Top Conference",
-            "category": "🏛️ Hội Nghị Đỉnh Cao (CCF-A)",
+            "category": "Hội Nghị Đỉnh Cao (CCF-A)",
             "badge": "ACM CCS",
             "published_at": "Big-Four Security",
             "tags": ["acm-ccs", "security", "network-security", "ccf-a"]
@@ -70,7 +70,7 @@ def get_flagship_conferences_and_platforms():
             "summary": "Mảnh ghép thứ 4 trong Big-Four Security, chuyên sâu về mạng máy tính và hệ thống phân tán an toàn.",
             "url": "https://www.ndss-symposium.org/",
             "source": "Top Conference",
-            "category": "🏛️ Hội Nghị Đỉnh Cao (CCF-A)",
+            "category": "Hội Nghị Đỉnh Cao (CCF-A)",
             "badge": "NDSS",
             "published_at": "Big-Four Security",
             "tags": ["ndss", "distributed-security", "network", "ccf-a"]
@@ -80,7 +80,7 @@ def get_flagship_conferences_and_platforms():
             "summary": "Hội nghị số 1 thế giới về Thị giác máy tính, Multimodal và Diffusion Models.",
             "url": "https://cvpr.thecvf.com/",
             "source": "Top Conference",
-            "category": "🏛️ Hội Nghị Đỉnh Cao (CCF-A)",
+            "category": "Hội Nghị Đỉnh Cao (CCF-A)",
             "badge": "CVPR (Vision)",
             "published_at": "Hội nghị 2026",
             "tags": ["cvpr", "computer-vision", "multimodal", "ccf-a"]
@@ -90,7 +90,7 @@ def get_flagship_conferences_and_platforms():
             "summary": "Hội nghị hàng đầu thế giới về Xử lý ngôn ngữ tự nhiên (NLP) và Large Language Models.",
             "url": "https://www.aclweb.org/",
             "source": "Top Conference",
-            "category": "🏛️ Hội Nghị Đỉnh Cao (CCF-A)",
+            "category": "Hội Nghị Đỉnh Cao (CCF-A)",
             "badge": "ACL (NLP & LLM)",
             "published_at": "Hội nghị 2026",
             "tags": ["acl", "nlp", "llm", "linguistics", "ccf-a"]
@@ -100,7 +100,7 @@ def get_flagship_conferences_and_platforms():
             "summary": "Hai hội nghị danh giá nhất thế giới về Hệ điều hành, hạt nhân và hạ tầng tính toán quy mô lớn.",
             "url": "https://www.usenix.org/conference/osdi26",
             "source": "Top Conference",
-            "category": "🏛️ Hội Nghị Đỉnh Cao (CCF-A)",
+            "category": "Hội Nghị Đỉnh Cao (CCF-A)",
             "badge": "OSDI / SOSP (Systems)",
             "published_at": "Systems CCF-A",
             "tags": ["osdi", "sosp", "systems", "kernel", "os", "ccf-a"]
@@ -110,7 +110,7 @@ def get_flagship_conferences_and_platforms():
             "summary": "Nền tảng mở cho phép cộng đồng nghiên cứu thảo luận trực tiếp trên từng dòng của các bài báo arXiv.",
             "url": "https://alphaxiv.org/",
             "source": "Research Platform",
-            "category": "🏛️ Hội Nghị Đỉnh Cao (CCF-A)",
+            "category": "Hội Nghị Đỉnh Cao (CCF-A)",
             "badge": "Platform",
             "published_at": "Công cụ nghiên cứu",
             "tags": ["alphaxiv", "open-research", "arxiv", "collaboration"]
@@ -120,7 +120,7 @@ def get_flagship_conferences_and_platforms():
             "summary": "Kho lưu trữ mở toàn bộ bài báo NLP và công cụ trích dẫn khoa học chính xác được xác minh.",
             "url": "https://aclanthology.org/",
             "source": "Research Platform",
-            "category": "🏛️ Hội Nghị Đỉnh Cao (CCF-A)",
+            "category": "Hội Nghị Đỉnh Cao (CCF-A)",
             "badge": "Repository",
             "published_at": "Kho học thuật",
             "tags": ["acl-anthology", "semantic-scholar", "citations", "open-access"]
@@ -155,7 +155,7 @@ def fetch_arxiv_papers(category, max_results=8, category_label="cs.AI"):
                     "summary": summary[:220] + '...' if len(summary) > 220 else summary,
                     "url": link,
                     "source": f"arXiv ({category_label})",
-                    "category": "📄 arXiv Preprints",
+                    "category": "arXiv Preprints",
                     "badge": f"{category_label}",
                     "authors": ", ".join(authors),
                     "published_at": published,
@@ -193,7 +193,7 @@ def get_security_advisories_cve():
                 "summary": adv.get('description', summary)[:220] + '...' if len(adv.get('description', summary)) > 220 else adv.get('description', summary),
                 "url": gh_url,
                 "source": "CVE & Security Advisory",
-                "category": "🛡️ Lỗ Hổng CVE/CWE",
+                "category": "Lỗ Hổng CVE/CWE",
                 "badge": f"{severity}",
                 "published_at": published,
                 "tags": ["cve", "cwe", "security", "vulnerability"] + [c.lower() for c in cwes]
@@ -211,7 +211,7 @@ def get_x_tech_trending_topics():
             "summary": "Cộng đồng lập trình viên trên X chia sẻ các workflow tự động hóa với Claude Code, tích hợp Agent Skills và MCP custom tools.",
             "url": "https://x.com/search?q=%23ClaudeCode",
             "source": "X (Twitter) Tech",
-            "category": "🌐 X (Twitter) Trends",
+            "category": "X (Twitter) Trends",
             "badge": "Trending on X",
             "published_at": "Hôm nay",
             "tags": ["claudecode", "x-trending", "agents", "mcp"]
@@ -221,7 +221,7 @@ def get_x_tech_trending_topics():
             "summary": "Các kỹ sư AI phân tích kiến trúc Multi-Head Latent Attention và chiến lược tối ưu suy luận mã nguồn mở của DeepSeek.",
             "url": "https://x.com/search?q=%23DeepSeek",
             "source": "X (Twitter) Tech",
-            "category": "🌐 X (Twitter) Trends",
+            "category": "X (Twitter) Trends",
             "badge": "Trending on X",
             "published_at": "Hôm nay",
             "tags": ["deepseek", "r1", "reasoning", "open-weights"]
@@ -231,7 +231,7 @@ def get_x_tech_trending_topics():
             "summary": "Cập nhật các phân tích kỹ thuật về reverse engineering, lỗ hổng zero-day và kỹ thuật bypass bảo mật mới nhất.",
             "url": "https://x.com/search?q=%23CyberSecurity",
             "source": "X (Twitter) Tech",
-            "category": "🌐 X (Twitter) Trends",
+            "category": "X (Twitter) Trends",
             "badge": "Security Alert",
             "published_at": "Tuần này",
             "tags": ["zeroday", "security", "reverse-engineering", "cve"]
@@ -241,7 +241,7 @@ def get_x_tech_trending_topics():
             "summary": "Xu hướng viết lại các công cụ CLI, parsers và web servers bằng Rust để đạt hiệu năng tối đa và an toàn bộ nhớ.",
             "url": "https://x.com/search?q=%23RustLang",
             "source": "X (Twitter) Tech",
-            "category": "🌐 X (Twitter) Trends",
+            "category": "X (Twitter) Trends",
             "badge": "Dev Trends",
             "published_at": "Mới cập nhật",
             "tags": ["rust", "systems", "performance", "cli"]
@@ -273,7 +273,7 @@ def get_hacker_news_top_stories():
                             "summary": f"Hacker News ({s.get('score', 0)} pts, {s.get('descendants', 0)} comments) by @{s.get('by', 'anon')}",
                             "url": s.get('url'),
                             "source": "Hacker News",
-                            "category": "📰 Hacker News Tech",
+                            "category": "Hacker News Tech",
                             "badge": f"{s.get('score', 0)} pts",
                             "upvotes": s.get('score', 0),
                             "published_at": "Hôm nay",
@@ -309,7 +309,7 @@ def get_huggingface_daily_papers():
                 "summary": summary[:220] + '...' if len(summary) > 220 else summary,
                 "url": f"https://huggingface.co/papers/{paper_id}",
                 "source": "Hugging Face Daily Papers",
-                "category": "🧪 Hugging Face Papers",
+                "category": "Hugging Face Papers",
                 "badge": f"⭐ {upvotes}",
                 "upvotes": upvotes,
                 "authors": ", ".join(authors),
@@ -329,7 +329,7 @@ def get_ai_ecosystem_radar():
             "summary": "Agent coding CLI hoạt động trực tiếp trong terminal với khả năng hiểu ngữ cảnh toàn diện repository, tích hợp Agent Skills và MCP servers.",
             "url": "https://github.com/anthropics/claude-code",
             "source": "Anthropic / Claude",
-            "category": "🤖 AI Lab Releases",
+            "category": "AI Lab Releases",
             "badge": "Agent Skills",
             "published_at": "Mới cập nhật",
             "tags": ["claude", "claude-code", "agent-skills", "anthropic"]
@@ -339,7 +339,7 @@ def get_ai_ecosystem_radar():
             "summary": "DeepSeek Harness và mô hình suy luận R1 mở rộng kiến trúc Plugin mở, tối ưu chi phí suy luận và mã nguồn mở toàn diện.",
             "url": "https://github.com/deepseek-ai/deepseek-harness",
             "source": "DeepSeek AI",
-            "category": "🤖 AI Lab Releases",
+            "category": "AI Lab Releases",
             "badge": "Open Weights",
             "published_at": "Hôm nay",
             "tags": ["deepseek", "r1", "harness", "open-weights"]
@@ -349,7 +349,7 @@ def get_ai_ecosystem_radar():
             "summary": "Dòng mô hình đa phương thức tốc độ cao, hỗ trợ tool-use và reasoning thời gian thực từ Google DeepMind.",
             "url": "https://github.com/google-gemini",
             "source": "Google DeepMind",
-            "category": "🤖 AI Lab Releases",
+            "category": "AI Lab Releases",
             "badge": "Multimodal",
             "published_at": "Tuần này",
             "tags": ["gemini", "gemma", "google", "multimodal"]
@@ -359,7 +359,7 @@ def get_ai_ecosystem_radar():
             "summary": "Mô hình ngôn ngữ lớn thế hệ mới tối ưu hoá xử lý văn bản song ngữ, tool-calling và suy luận logic chuyên sâu.",
             "url": "https://github.com/THUDM/GLM-4",
             "source": "Zhipu AI / THUDM",
-            "category": "🤖 AI Lab Releases",
+            "category": "AI Lab Releases",
             "badge": "Foundation",
             "published_at": "Tháng này",
             "tags": ["glm", "glm-5", "zhipu", "thudm"]
@@ -369,7 +369,7 @@ def get_ai_ecosystem_radar():
             "summary": "Mô hình mã nguồn mở tối ưu cho việc tuân thủ lệnh phức tạp, function calling và tự động phát triển kỹ năng AI.",
             "url": "https://github.com/NousResearch/hermes-agent",
             "source": "NousResearch",
-            "category": "🤖 AI Lab Releases",
+            "category": "AI Lab Releases",
             "badge": "Swarm Agents",
             "published_at": "Mới cập nhật",
             "tags": ["hermes", "nousresearch", "agents", "reasoning"]
@@ -379,7 +379,7 @@ def get_ai_ecosystem_radar():
             "summary": "Chuẩn giao thức mở kết nối LLMs với các hệ thống dữ liệu, công cụ lập trình, databases và API bên ngoài.",
             "url": "https://github.com/modelcontextprotocol",
             "source": "MCP Ecosystem",
-            "category": "🤖 AI Lab Releases",
+            "category": "AI Lab Releases",
             "badge": "MCP Standard",
             "published_at": "Xu hướng",
             "tags": ["mcp", "protocol", "tools", "connectors"]
@@ -389,7 +389,7 @@ def get_ai_ecosystem_radar():
             "summary": "Alibaba công bố mô hình chuyên biệt cho lập trình và thị giác máy tính với khả năng hiểu ngữ cảnh lên tới 128k tokens.",
             "url": "https://github.com/QwenLM/Qwen2.5-Coder",
             "source": "Alibaba Qwen",
-            "category": "🤖 AI Lab Releases",
+            "category": "AI Lab Releases",
             "badge": "Coding LLM",
             "published_at": "Mới cập nhật",
             "tags": ["qwen", "qwen-coder", "alibaba"]

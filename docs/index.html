@@ -362,7 +362,7 @@
         <div class="sidebar-box" id="sidebar-quote-box">
           <div class="sidebar-heading" style="justify-content: space-between;">
             <span style="display: flex; align-items: center; gap: 5px;">
-              <i data-lucide="quote" style="width: 12px; height: 12px; color: var(--pill-amber-text);"></i>
+              <i data-lucide="quote" style="width: 12px; height: 12px; color: var(--accent-star);"></i>
               <span>Dev Quote Radar</span>
             </span>
             <button class="btn-zinc btn-icon" onclick="refreshDevQuote()" style="width: 20px; height: 20px;" title="Đổi câu châm ngôn">
@@ -373,6 +373,15 @@
             <div class="quote-text" id="dev-quote-text">"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."</div>
             <div class="quote-author" id="dev-quote-author">— Martin Fowler</div>
           </div>
+        </div>
+
+        <!-- Dev Vibes & Meme Animation Widget -->
+        <div class="sidebar-box" id="sidebar-vibes-box" style="padding: 10px; text-align: center; border-radius: var(--radius-md);">
+          <div style="font-size: 11px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px; display: flex; align-items: center; justify-content: space-between;">
+            <span>DEV VIBES</span>
+            <span style="font-size: 10px; font-family: var(--font-mono); color: var(--pill-green-text);">● LIVE</span>
+          </div>
+          <img src="img/giphy.gif" alt="Dev Vibes" style="width: 100%; border-radius: var(--radius-sm); border: 1px solid var(--border); display: block; object-fit: cover; max-height: 180px;" onerror="this.parentElement.style.display='none'">
         </div>
 
       </aside>

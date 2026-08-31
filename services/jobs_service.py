@@ -17,7 +17,7 @@ os.makedirs(DATA_DIR, exist_ok=True)
 # ── 35+ Curated Vietnamese Facebook Groups & Community Portals ─────────────
 COMMUNITY_GROUPS = [
     {
-        "category": "🛡️ An Toàn Thông Tin, OSCP & CISSP (Facebook Groups)",
+        "category": "An Toàn Thông Tin, OSCP & CISSP (Facebook Groups)",
         "items": [
             {
                 "name": "CISSP và An toàn Thông tin",
@@ -111,7 +111,7 @@ COMMUNITY_GROUPS = [
         ]
     },
     {
-        "category": "💻 Quản Trị Mạng / CCNA / DevOps / Cloud (Facebook Groups)",
+        "category": "Quản Trị Mạng / CCNA / DevOps / Cloud (Facebook Groups)",
         "items": [
             {
                 "name": "Hội Quản Trị Mạng Việt Nam",
@@ -201,7 +201,7 @@ SAMPLE_JOBS = [
         "location": "Hà Nội / Hybrid",
         "salary": "35 – 65 Triệu VNĐ",
         "salary_numeric": 50,
-        "track": "🛡️ An Ninh Mạng & SOC",
+        "track": "An Ninh Mạng & SOC",
         "level": "Senior",
         "source": "CyberJutsu & Facebook",
         "source_badge": "Facebook Community",
@@ -228,7 +228,7 @@ SAMPLE_JOBS = [
         "location": "Hà Nội / TP.HCM",
         "salary": "15 – 25 Triệu VNĐ",
         "salary_numeric": 20,
-        "track": "🛡️ An Ninh Mạng & SOC",
+        "track": "An Ninh Mạng & SOC",
         "level": "Junior",
         "source": "Facebook Group: SOC Analyst Vietnam",
         "source_badge": "Facebook Group",
@@ -255,7 +255,7 @@ SAMPLE_JOBS = [
         "location": "TP. Hồ Chí Minh",
         "salary": "38 – 55 Triệu VNĐ",
         "salary_numeric": 45,
-        "track": "🛡️ An Ninh Mạng & SOC",
+        "track": "An Ninh Mạng & SOC",
         "level": "Middle / Senior",
         "source": "ITviec & Vietnam Cyber Security",
         "source_badge": "ITviec",
@@ -282,7 +282,7 @@ SAMPLE_JOBS = [
         "location": "Hà Nội / TP.HCM",
         "salary": "40 – 80 Triệu VNĐ",
         "salary_numeric": 60,
-        "track": "🤖 AI & Machine Learning",
+        "track": "AI & Machine Learning",
         "level": "Senior",
         "source": "Facebook: AI Vietnam",
         "source_badge": "Facebook Group",
@@ -308,7 +308,7 @@ SAMPLE_JOBS = [
         "location": "TP. Hồ Chí Minh",
         "salary": "45 – 70 Triệu VNĐ",
         "salary_numeric": 55,
-        "track": "💻 Software / Web / App",
+        "track": "Software / Web / App",
         "level": "Senior",
         "source": "Vietnam Developer Community",
         "source_badge": "Facebook Community",
@@ -334,7 +334,7 @@ SAMPLE_JOBS = [
         "location": "100% Remote / Toàn Quốc",
         "salary": "$2,500 – $4,500 / tháng (~60 – 115 Triệu)",
         "salary_numeric": 85,
-        "track": "☁️ Cloud & DevOps",
+        "track": "Cloud & DevOps",
         "level": "Senior",
         "source": "Himalayas / Remote OK",
         "source_badge": "Global Remote",
@@ -361,7 +361,7 @@ SAMPLE_JOBS = [
         "location": "TP. Hồ Chí Minh / Hà Nội",
         "salary": "25 – 45 Triệu VNĐ",
         "salary_numeric": 35,
-        "track": "🎮 Game Development",
+        "track": "Game Development",
         "level": "Middle",
         "source": "Vietnam Game Developers",
         "source_badge": "Facebook Group",
@@ -387,7 +387,7 @@ SAMPLE_JOBS = [
         "location": "Hà Nội",
         "salary": "35 – 60 Triệu VNĐ",
         "salary_numeric": 48,
-        "track": "🛡️ An Ninh Mạng & SOC",
+        "track": "An Ninh Mạng & SOC",
         "level": "Senior",
         "source": "Cộng đồng ATTT Việt Nam",
         "source_badge": "Facebook Community",
@@ -413,7 +413,7 @@ SAMPLE_JOBS = [
         "location": "TP. Hồ Chí Minh / Remote",
         "salary": "30 – 50 Triệu VNĐ",
         "salary_numeric": 40,
-        "track": "💻 Software / Web / App",
+        "track": "Software / Web / App",
         "level": "Middle / Senior",
         "source": "ReactJS Vietnam & Vui Coding",
         "source_badge": "Vui Coding",
@@ -439,7 +439,7 @@ SAMPLE_JOBS = [
         "location": "Hà Nội / Remote",
         "salary": "35 – 65 Triệu VNĐ",
         "salary_numeric": 50,
-        "track": "🤖 AI & Machine Learning",
+        "track": "AI & Machine Learning",
         "level": "Middle / Senior",
         "source": "AI Vietnam",
         "source_badge": "Facebook Group",
@@ -465,7 +465,7 @@ SAMPLE_JOBS = [
         "location": "TP. Hồ Chí Minh",
         "salary": "25 – 45 Triệu VNĐ",
         "salary_numeric": 35,
-        "track": "💻 Software / Web / App",
+        "track": "Software / Web / App",
         "level": "Middle",
         "source": "IT Jobs Vietnam",
         "source_badge": "TopCV",
@@ -576,7 +576,7 @@ def save_jobs_data(data=None):
 def add_custom_platform(item):
     """Thêm 1 group hoặc trang tuyển dụng mới vào data/jobs.json."""
     data = get_all_jobs_data()
-    category_name = item.get('category', '🛡️ An Toàn Thông Tin, OSCP & CISSP (Facebook Groups)')
+    category_name = item.get('category', 'An Toàn Thông Tin, OSCP & CISSP (Facebook Groups)')
     
     # Tìm category đã có hoặc tạo mới
     target_cat = None

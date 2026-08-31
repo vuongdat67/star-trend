@@ -297,7 +297,7 @@ async function fetchHFTrending() {
 
 async function fetchAIPulse() {
   const data = await fetchWithFallback('/api/ai-pulse', 'data/ai_pulse.json');
-  if (data) state.aiPulse = data.items || [];
+  if (data) state.aiPulse = data.items || data.data || (Array.isArray(data) ? data : []);
 }
 
 async function fetchCollectionsData() {
@@ -1257,6 +1257,20 @@ function openFullPageRepoDetail(fullName, updateHash = true) {
               </div>
             </div>
           </div>
+
+          <!-- Notes Editor Box (Left Column for Optimal Balance) -->
+          <div class="fullpage-guide-card">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span style="font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; display: flex; align-items: center; gap: 4px;">
+                <i data-lucide="file-text" style="width: 13px; height: 13px; color: var(--text-muted);"></i>
+                Ghi Chú Cá Nhân
+              </span>
+              <button class="btn-zinc" style="font-size: 11px; padding: 2px 7px;" onclick="openNoteModal('${r.full_name}')">Sửa ghi chú</button>
+            </div>
+            <div style="font-size: 12.5px; color: var(--text-muted); font-style: ${note ? 'normal' : 'italic'};">
+              ${note || 'Chưa có ghi chú nào cho repo này.'}
+            </div>
+          </div>
         </div>
 
         <!-- Right: 30-Day Growth Chart & Metadata -->
@@ -1283,20 +1297,6 @@ function openFullPageRepoDetail(fullName, updateHash = true) {
               <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 5px;"><span style="color: var(--text-muted);">Ngôn ngữ chính</span><span style="color: var(--text-main); font-weight: 600;">${r.language || 'Plain Text'}</span></div>
               <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 5px;"><span style="color: var(--text-muted);">Giấy phép</span><strong style="color: var(--text-main);">${r.license?.name || 'MIT License'}</strong></div>
               <div style="display: flex; justify-content: space-between; padding-bottom: 2px;"><span style="color: var(--text-muted);">Cập nhật</span><span style="color: var(--text-muted); font-family: var(--font-mono);">${r.starred_at ? r.starred_at.slice(0, 10) : '2026-08-31'}</span></div>
-            </div>
-          </div>
-
-          <!-- Notes Editor Box -->
-          <div class="fullpage-guide-card">
-            <div style="display: flex; justify-content: space-between; align-items: center;">
-              <span style="font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; display: flex; align-items: center; gap: 4px;">
-                <i data-lucide="file-text" style="width: 13px; height: 13px; color: var(--text-muted);"></i>
-                Ghi Chú Cá Nhân
-              </span>
-              <button class="btn-zinc" style="font-size: 11px; padding: 2px 7px;" onclick="openNoteModal('${r.full_name}')">Sửa ghi chú</button>
-            </div>
-            <div style="font-size: 12.5px; color: var(--text-muted); font-style: ${note ? 'normal' : 'italic'};">
-              ${note || 'Chưa có ghi chú nào cho repo này.'}
             </div>
           </div>
         </div>
@@ -1418,12 +1418,18 @@ function openFullPageRadarDetail(radarId, updateHash = true) {
   const breadcrumb = document.getElementById('fullpage-breadcrumb');
   if (!fullContainer || !fullContent) return;
 
-  const item = state.aiPulse.find(p => (p.id && p.id === radarId) || p.title === radarId) || {
-    id: radarId,
-    title: radarId,
+  let decodedId = radarId || '';
+  try { decodedId = decodeURIComponent(radarId); } catch (e) {}
+
+  const item = state.aiPulse.find(p => 
+    (p.id && (p.id === radarId || p.id === decodedId)) || 
+    (p.title && (p.title === radarId || p.title === decodedId || encodeURIComponent(p.title) === radarId || p.title.toLowerCase() === decodedId.toLowerCase()))
+  ) || {
+    id: decodedId,
+    title: decodedId,
     source: 'AI Research & Security',
     badge: 'Trending Radar',
-    category: '🏛️ AI & Cyber Security Radar',
+    category: 'AI & Cyber Security Radar',
     published_at: '2026-08-31',
     summary: 'Phát hiện bứt phá mới trong nghiên cứu công nghệ hoặc lỗ hổng bảo mật cấp cao được cộng đồng quan tâm.',
     tags: ['cve', 'agent', 'rag', 'security'],
@@ -1964,40 +1970,50 @@ function renderDevTools() {
       launches = launches.filter(l => (l.tech_stack || []).includes(state.selectedTopic));
     }
 
-    launches.forEach(item => {
+    launches.forEach((item, idx) => {
       const upvoted = Boolean(state.launchUpvotes[item.id]);
       const currentVotes = (item.upvotes || 0) + (upvoted ? 1 : 0);
+      const rank = idx + 1;
 
       html += `
         <div class="project-card" onclick="openFullPageToolDetail('${item.id}')" style="cursor: pointer;">
           <div class="card-header-row">
             <div class="card-title-block">
-              <img src="${item.author_avatar}" class="card-avatar" alt="${item.author}">
-              <span class="badge-tag" style="color: var(--text-main); font-weight: 600;">Launch</span>
+              <img src="${item.author_avatar}" class="card-avatar" onerror="this.src='https://github.githubassets.com/favicons/favicon.png'" alt="${item.author}">
+              <span class="rank-tag">#${rank}</span>
               <div class="card-title-link">${item.title}</div>
             </div>
-            <button class="upvote-btn ${upvoted ? 'upvoted' : ''}" onclick="event.stopPropagation(); toggleLaunchUpvote('${item.id}')">
-              <i data-lucide="triangle" style="width: 12px; height: 12px; fill: currentColor;"></i>
-              <span>${currentVotes}</span>
+            <button class="card-action-btn ${upvoted ? 'active' : ''}" onclick="event.stopPropagation(); toggleLaunchUpvote('${item.id}'); renderDevTools();" title="Upvote sản phẩm này">
+              <i data-lucide="triangle" style="width: 13px; height: 13px; fill: ${upvoted ? 'currentColor' : 'none'};"></i>
             </button>
           </div>
 
           <div class="card-desc-text">${item.description}</div>
 
           <div class="card-footer-row">
-            <div style="display: flex; gap: 5px; flex-wrap: wrap;">
-              ${(item.tech_stack || []).map(t => `<span class="domain-chip">#${t}</span>`).join('')}
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <span style="display: inline-flex; align-items: center; gap: 4px; font-size: 12px;">
+                <span style="width: 8px; height: 8px; border-radius: 50%; background: #10b981;"></span>
+                Launch
+              </span>
+              <span style="color: var(--accent-star);">▲ ${currentVotes}</span>
+              <div class="domain-chips-list">
+                ${(item.tech_stack || []).slice(0, 2).map(t => `<span class="domain-chip">#${t}</span>`).join('')}
+              </div>
             </div>
-            <span style="color: var(--text-muted); font-size: 11.5px; font-weight: 600;">Xem chi tiết ↗</span>
+
+            <div style="display: flex; align-items: center; gap: 6px;">
+              <span style="font-size: 11.5px; color: var(--pill-blue-text); font-weight: 600;">Xem chi tiết ↗</span>
+            </div>
           </div>
         </div>
       `;
     });
   } else {
     let tools = state.devTools || [];
-    if (state.toolsSubfilter === 'ai') tools = tools.filter(t => t.category.includes('AI'));
-    if (state.toolsSubfilter === 'debug') tools = tools.filter(t => t.category.includes('Debug') || t.category.includes('Cheat'));
-    if (state.toolsSubfilter === 'sec') tools = tools.filter(t => t.category.includes('Security'));
+    if (state.toolsSubfilter === 'ai') tools = tools.filter(t => t.category.includes('AI') || t.badge.includes('AI'));
+    if (state.toolsSubfilter === 'debug') tools = tools.filter(t => t.category.includes('Debug') || t.category.includes('Cheat') || t.category.includes('Testing'));
+    if (state.toolsSubfilter === 'sec') tools = tools.filter(t => t.category.includes('Security') || t.category.includes('Auth'));
 
     if (state.selectedCategory) {
       tools = tools.filter(t => t.category === state.selectedCategory);
@@ -2010,24 +2026,40 @@ function renderDevTools() {
       tools = tools.filter(t => t.name.toLowerCase().includes(q) || t.description.toLowerCase().includes(q) || (t.tags || []).some(tag => tag.toLowerCase().includes(q)));
     }
 
-    tools.forEach(t => {
+    tools.forEach((t, idx) => {
+      const rank = idx + 1;
+      const toolLogo = t.logo || 'https://github.githubassets.com/favicons/favicon.png';
+
       html += `
         <div class="project-card" onclick="openFullPageToolDetail('${t.id}')" style="cursor: pointer;">
           <div class="card-header-row">
             <div class="card-title-block">
-              <span class="badge-tag" style="color: var(--text-main); font-weight: 600;">${t.badge}</span>
+              <img src="${toolLogo}" class="card-avatar" onerror="this.src='https://github.githubassets.com/favicons/favicon.png'" alt="${t.name}">
+              <span class="rank-tag">#${rank}</span>
               <div class="card-title-link">${t.name}</div>
             </div>
-            <span style="font-size: 11px; color: var(--text-muted); font-family: var(--font-mono);">${t.category}</span>
+            <button class="card-action-btn" onclick="event.stopPropagation(); window.open('${t.url}', '_blank');" title="Mở trang chủ công cụ">
+              <i data-lucide="external-link" style="width: 13px; height: 13px;"></i>
+            </button>
           </div>
 
           <div class="card-desc-text">${t.description}</div>
 
           <div class="card-footer-row">
-            <div style="display: flex; gap: 4px; flex-wrap: wrap;">
-              ${(t.tags || []).map(tag => `<span class="domain-chip">#${tag}</span>`).join('')}
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <span style="display: inline-flex; align-items: center; gap: 4px; font-size: 12px;">
+                <span style="width: 8px; height: 8px; border-radius: 50%; background: #3b82f6;"></span>
+                ${t.badge || 'DevTool'}
+              </span>
+              <span style="color: var(--accent-star);">⭐ ${t.stars || '1.5k'}</span>
+              <div class="domain-chips-list">
+                ${(t.tags || []).slice(0, 2).map(tag => `<span class="domain-chip">#${tag}</span>`).join('')}
+              </div>
             </div>
-            <span style="color: var(--text-muted); font-size: 11.5px; font-weight: 600;">Xem chi tiết ↗</span>
+
+            <div style="display: flex; align-items: center; gap: 6px;">
+              <span style="font-size: 11.5px; color: var(--pill-blue-text); font-weight: 600;">Xem chi tiết ↗</span>
+            </div>
           </div>
         </div>
       `;
