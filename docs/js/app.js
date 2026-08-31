@@ -18,18 +18,27 @@ const DATA_BASE = (() => {
   return p.endsWith('/') ? p : p.substring(0, p.lastIndexOf('/') + 1);
 })();
 
+// ── Restore persisted UI state from localStorage ─────────────────────────
+const _savedFeedMode = localStorage.getItem('feedMode') || 'trending';
+const _savedPlatform = localStorage.getItem('platform') || 'github';
+const _savedRadarSub = localStorage.getItem('radarSubfilter') || 'all';
+const _savedToolsSub = localStorage.getItem('toolsSubfilter') || 'all';
+const _savedJobsSub  = localStorage.getItem('jobsSubfilter')  || 'all';
+const _savedPeriod   = localStorage.getItem('period')         || 'daily';
+const _savedLang     = localStorage.getItem('selectedLang')   || '';
+
 const state = {
-  platform: 'github',            // 'github' | 'huggingface'
-  feedMode: 'trending',          // 'trending' | 'stars' | 'new' | 'pulse' | 'collections' | 'stats' | 'tools' | 'jobs'
-  radarSubfilter: 'all',         // 'all' | 'conf' | 'arxiv' | 'hf' | 'cve' | 'hn' | 'x' | 'labs'
-  toolsSubfilter: 'all',         // 'all' | 'launch' | 'ai' | 'debug' | 'sec'
-  jobsSubfilter: 'all',          // 'all' | 'sec' | 'ai' | 'dev' | 'game' | 'cloud' | 'platforms' | 'insights'
-  period: 'daily',               // 'daily' | 'weekly' | 'monthly'
-  snapshotDate: '2026-08-31',    // '2026-08-31'
+  platform: _savedPlatform,             // 'github' | 'huggingface'
+  feedMode: _savedFeedMode,             // 'trending' | 'stars' | 'new' | 'pulse' | 'collections' | 'stats' | 'tools' | 'jobs'
+  radarSubfilter: _savedRadarSub,       // 'all' | 'conf' | 'arxiv' | 'hf' | 'cve' | 'hn' | 'x' | 'labs'
+  toolsSubfilter: _savedToolsSub,       // 'all' | 'launch' | 'ai' | 'debug' | 'sec'
+  jobsSubfilter: _savedJobsSub,         // 'all' | 'sec' | 'ai' | 'dev' | 'game' | 'cloud' | 'platforms' | 'insights'
+  period: _savedPeriod,                 // 'daily' | 'weekly' | 'monthly'
+  snapshotDate: '',
   layout: localStorage.getItem('layout') || 'layout-grid-3',
   sidebarHidden: localStorage.getItem('sidebarHidden') === 'true',
   searchQuery: '',
-  selectedLang: '',
+  selectedLang: _savedLang,
   selectedJobLevel: '',
   selectedJobLocation: '',
   selectedCategory: '',
@@ -58,6 +67,11 @@ const state = {
   activeNoteTarget: null,
   growthChartInstance: null
 };
+
+// Helper: save UI state key to localStorage
+function saveUIState(key, value) {
+  try { localStorage.setItem(key, value); } catch (e) { /* ignore */ }
+}
 
 // Dev Quotes
 const DEV_QUOTES = [
@@ -162,7 +176,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   handleHashRouting();
   window.addEventListener('hashchange', handleHashRouting);
 
-  renderFeed();
+  // Restore last active feed mode — this re-applies all UI controls for the mode
+  // (Only restore if no hash is present — hash routing takes priority)
+  if (!window.location.hash) {
+    switchFeedMode(state.feedMode);
+  }
+
   renderSidebar();
   lucide.createIcons();
 });
@@ -340,6 +359,7 @@ function switchPlatformSource(platform) {
   state.selectedCategory = '';
   state.selectedTopic = '';
   state.searchQuery = '';
+  saveUIState('platform', platform);
   const searchInput = document.getElementById('search-input');
   if (searchInput) searchInput.value = '';
 
@@ -362,6 +382,7 @@ function switchFeedMode(mode) {
   state.selectedCategory = '';
   state.selectedTopic = '';
   state.searchQuery = '';
+  saveUIState('feedMode', mode);
   const searchInput = document.getElementById('search-input');
   if (searchInput) searchInput.value = '';
 
@@ -431,6 +452,7 @@ function switchFeedMode(mode) {
 
 function changePeriod(period) {
   state.period = period;
+  saveUIState('period', period);
   document.getElementById('period-daily').classList.toggle('active', period === 'daily');
   document.getElementById('period-weekly').classList.toggle('active', period === 'weekly');
   document.getElementById('period-monthly').classList.toggle('active', period === 'monthly');
@@ -449,6 +471,7 @@ function switchToolsSubfilter(sub) {
   state.toolsSubfilter = sub;
   state.selectedCategory = '';
   state.selectedTopic = '';
+  saveUIState('toolsSubfilter', sub);
   document.querySelectorAll('#tools-subfilters .pill-btn').forEach(b => b.classList.remove('active'));
   if (window.event && window.event.target) window.event.target.classList.add('active');
   renderSidebar();
@@ -459,10 +482,53 @@ function switchJobsSubfilter(sub) {
   state.jobsSubfilter = sub;
   state.selectedCategory = '';
   state.selectedTopic = '';
+  saveUIState('jobsSubfilter', sub);
   document.querySelectorAll('#jobs-subfilters .pill-btn').forEach(b => b.classList.remove('active'));
   if (window.event && window.event.target) window.event.target.classList.add('active');
   renderSidebar();
   renderFeed();
+}
+
+function matchesJobLocation(jobLocation, filterLocation) {
+  if (!filterLocation) return true;
+  const loc = (jobLocation || '').toLowerCase();
+  const f = filterLocation.toLowerCase();
+
+  // Smart matching for TP.HCM / HCM / Hồ Chí Minh
+  if (f.includes('hồ chí minh') || f.includes('hcm') || f.includes('tp.hcm') || f.includes('tp. hcm') || f.includes('sài gòn')) {
+    return loc.includes('hồ chí minh') || loc.includes('hcm') || loc.includes('tp.hcm') || loc.includes('tp. hcm') || loc.includes('sài gòn');
+  }
+
+  // Hà Nội
+  if (f.includes('hà nội') || f.includes('hn')) {
+    return loc.includes('hà nội') || loc.includes('hn');
+  }
+
+  // Đà Nẵng
+  if (f.includes('đà nẵng') || f.includes('đn')) {
+    return loc.includes('đà nẵng') || loc.includes('đn');
+  }
+
+  // Remote / Hybrid
+  if (f.includes('remote') || f.includes('toàn quốc') || f.includes('hybrid') || f.includes('wfh')) {
+    return loc.includes('remote') || loc.includes('toàn quốc') || loc.includes('hybrid') || loc.includes('wfh');
+  }
+
+  return loc.includes(f);
+}
+
+function matchesJobLevel(jobLevel, filterLevel) {
+  if (!filterLevel) return true;
+  const lvl = (jobLevel || '').toLowerCase();
+  const f = filterLevel.toLowerCase();
+
+  if (f.includes('intern')) return lvl.includes('intern') || lvl.includes('thực tập');
+  if (f.includes('junior')) return lvl.includes('junior') || lvl.includes('fresher');
+  if (f.includes('mid')) return lvl.includes('mid') || lvl.includes('middle');
+  if (f.includes('senior')) return lvl.includes('senior') || lvl.includes('lead') || lvl.includes('principal');
+  if (f.includes('lead')) return lvl.includes('lead') || lvl.includes('principal') || lvl.includes('architect') || lvl.includes('manager');
+
+  return lvl.includes(f);
 }
 
 function handleJobFilterChange() {
@@ -2276,11 +2342,11 @@ function renderJobs() {
   }
 
   if (state.selectedJobLevel) {
-    jobs = jobs.filter(j => j.level.toLowerCase().includes(state.selectedJobLevel.toLowerCase()));
+    jobs = jobs.filter(j => matchesJobLevel(j.level, state.selectedJobLevel));
   }
 
   if (state.selectedJobLocation) {
-    jobs = jobs.filter(j => j.location.toLowerCase().includes(state.selectedJobLocation.toLowerCase()));
+    jobs = jobs.filter(j => matchesJobLocation(j.location, state.selectedJobLocation));
   }
 
   if (state.searchQuery) {
