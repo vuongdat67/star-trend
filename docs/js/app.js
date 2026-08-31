@@ -1048,7 +1048,7 @@ function renderCardsBatch(batch) {
     card.innerHTML = `
       <div class="card-header-row">
         <div class="card-title-block">
-          <img class="card-avatar" src="${avatarUrl}" onerror="this.src='https://github.githubassets.com/favicons/favicon.png'" alt="${owner}">
+          <img class="card-avatar" src="${avatarUrl}" onerror="this.onerror=null; this.src='https://api.dicebear.com/7.x/identicon/svg?seed=${owner}'" alt="${owner}">
           ${state.feedMode === 'trending' ? `<span class="rank-tag">#${rank}</span>` : ''}
           <div class="card-title-link">${r.full_name || r.name}</div>
         </div>
@@ -1154,7 +1154,7 @@ function openFullPageRepoDetail(fullName, updateHash = true) {
       <div class="fullpage-repo-hero">
         <div class="fullpage-repo-header">
           <div class="fullpage-repo-title-wrap">
-            <img src="${avatarUrl}" class="fullpage-repo-icon" onerror="this.src='https://github.githubassets.com/favicons/favicon.png'" alt="${owner}">
+            <img src="${avatarUrl}" class="fullpage-repo-icon" onerror="this.onerror=null; this.src='https://api.dicebear.com/7.x/identicon/svg?seed=${owner}'" alt="${owner}">
             <div>
               <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 6px;">
                 <span class="badge-tag" style="color: var(--text-main); font-weight: 600;">Repository</span>
@@ -1598,7 +1598,7 @@ function openFullPageCollectionDetail(colId, updateHash = true) {
               <div class="project-card" style="cursor: pointer;" onclick="openFullPageRepoDetail('${r.full_name}')">
                 <div class="card-header-row">
                   <div class="card-title-block">
-                    <img class="card-avatar" src="${avatarUrl}" onerror="this.src='https://github.githubassets.com/favicons/favicon.png'" alt="${owner}">
+                    <img class="card-avatar" src="${avatarUrl}" onerror="this.onerror=null; this.src='https://api.dicebear.com/7.x/identicon/svg?seed=${owner}'" alt="${owner}">
                     <div class="card-title-link">${r.full_name}</div>
                   </div>
                 </div>
@@ -1658,13 +1658,18 @@ function openFullPageToolDetail(toolId, updateHash = true) {
       <!-- Hero Banner -->
       <div class="fullpage-repo-hero">
         <div class="fullpage-repo-header">
-          <div>
-            <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 6px;">
-              <span class="badge-tag" style="color: var(--text-main); font-weight: 600;">${tool.category || 'Developer Tool'}</span>
-              <span class="badge-tag" style="color: var(--text-muted); font-weight: 600;">${tool.badge || 'Launch'}</span>
+          <div class="fullpage-repo-title-wrap">
+            <div class="tool-avatar-badge" style="width: 42px; height: 42px; border-radius: 8px; background: rgba(59, 130, 246, 0.15); border: 1px solid rgba(59, 130, 246, 0.3); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #60a5fa;">
+              <i data-lucide="${tool.icon || 'wrench'}" style="width: 22px; height: 22px;"></i>
             </div>
-            <h1 style="font-size: 24px; font-weight: 800; color: var(--text-main);">${titleName}</h1>
-            <div style="font-size: 13.5px; color: var(--text-muted); margin-top: 6px; line-height: 1.5;">${tool.description}</div>
+            <div>
+              <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 6px;">
+                <span class="badge-tag" style="color: var(--text-main); font-weight: 600;">${tool.category || 'Developer Tool'}</span>
+                <span class="badge-tag" style="color: var(--text-muted); font-weight: 600;">${tool.badge || 'Launch'}</span>
+              </div>
+              <h1 style="font-size: 24px; font-weight: 800; color: var(--text-main);">${titleName}</h1>
+              <div style="font-size: 13.5px; color: var(--text-muted); margin-top: 6px; line-height: 1.5;">${tool.description}</div>
+            </div>
           </div>
           <div>
             <a href="${linkUrl}" target="_blank" class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text);">
@@ -1974,12 +1979,13 @@ function renderDevTools() {
       const upvoted = Boolean(state.launchUpvotes[item.id]);
       const currentVotes = (item.upvotes || 0) + (upvoted ? 1 : 0);
       const rank = idx + 1;
+      const avatarFallback = `https://api.dicebear.com/7.x/identicon/svg?seed=${encodeURIComponent(item.author || 'dev')}`;
 
       html += `
         <div class="project-card" onclick="openFullPageToolDetail('${item.id}')" style="cursor: pointer;">
           <div class="card-header-row">
             <div class="card-title-block">
-              <img src="${item.author_avatar}" class="card-avatar" onerror="this.src='https://github.githubassets.com/favicons/favicon.png'" alt="${item.author}">
+              <img src="${item.author_avatar}" class="card-avatar" onerror="this.onerror=null; this.src='${avatarFallback}'" alt="${item.author}">
               <span class="rank-tag">#${rank}</span>
               <div class="card-title-link">${item.title}</div>
             </div>
@@ -2028,13 +2034,15 @@ function renderDevTools() {
 
     tools.forEach((t, idx) => {
       const rank = idx + 1;
-      const toolLogo = t.logo || 'https://github.githubassets.com/favicons/favicon.png';
+      const iconName = t.icon || 'wrench';
 
       html += `
         <div class="project-card" onclick="openFullPageToolDetail('${t.id}')" style="cursor: pointer;">
           <div class="card-header-row">
             <div class="card-title-block">
-              <img src="${toolLogo}" class="card-avatar" onerror="this.src='https://github.githubassets.com/favicons/favicon.png'" alt="${t.name}">
+              <div class="tool-avatar-badge" style="width: 24px; height: 24px; border-radius: 6px; background: rgba(59, 130, 246, 0.12); border: 1px solid rgba(59, 130, 246, 0.25); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #60a5fa;">
+                <i data-lucide="${iconName}" style="width: 14px; height: 14px;"></i>
+              </div>
               <span class="rank-tag">#${rank}</span>
               <div class="card-title-link">${t.name}</div>
             </div>
