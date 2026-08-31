@@ -1,7 +1,7 @@
 # 📅 GitHub Starred Timeline - @vuongdat67
 
 > Lịch sử các repository đã star theo dòng thời gian.
-> 🕒 Cập nhật: `2026-08-31 02:52:10`
+> 🕒 Cập nhật: `2026-08-31 03:02:38`
 
 ---
 
@@ -19,7 +19,7 @@
 - `2026-08-30`: [**hieuphung97/dely**](https://github.com/hieuphung97/dely) (`Shell`) - ⭐ **26**
   - A cross-harness delivery workflow for coding agents.
 
-- `2026-08-30`: [**K-Dense-AI/scientific-agent-skills**](https://github.com/K-Dense-AI/scientific-agent-skills) (`Python`) - ⭐ **39.4k**
+- `2026-08-30`: [**K-Dense-AI/scientific-agent-skills**](https://github.com/K-Dense-AI/scientific-agent-skills) (`Python`) - ⭐ **39.5k**
   - Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
 
 - `2026-08-30`: [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) (`TypeScript`) - ⭐ **24.4k**
@@ -43,7 +43,7 @@
 - `2026-08-28`: [**Effect-TS/effect**](https://github.com/Effect-TS/effect) (`TypeScript`) - ⭐ **15.6k**
   - Build production-ready applications in TypeScript
 
-- `2026-08-28`: [**breslee1707/VI-Translate**](https://github.com/breslee1707/VI-Translate) (`Python`) - ⭐ **437**
+- `2026-08-28`: [**breslee1707/VI-Translate**](https://github.com/breslee1707/VI-Translate) (`Python`) - ⭐ **438**
 
 - `2026-08-28`: [**voocel/ainovel-cli**](https://github.com/voocel/ainovel-cli) (`Go`) - ⭐ **1.9k**
   - ✨多agent实现全自动AI小说生成
@@ -135,7 +135,7 @@
 - `2026-08-16`: [**showlab/Code2Video**](https://github.com/showlab/Code2Video) (`Python`) - ⭐ **2.0k**
   - [ICML 2026] Video generation via code
 
-- `2026-08-14`: [**deepseek-ai/deepseek-harness**](https://github.com/deepseek-ai/deepseek-harness) (`TypeScript`) - ⭐ **204.9k**
+- `2026-08-14`: [**deepseek-ai/deepseek-harness**](https://github.com/deepseek-ai/deepseek-harness) (`TypeScript`) - ⭐ **205.0k**
   - DeepSeek Harness: Everything is a Plugin.
 
 - `2026-08-14`: [**lightningpixel/modly**](https://github.com/lightningpixel/modly) (`TypeScript`) - ⭐ **7.3k**
@@ -490,7 +490,7 @@
 - `2026-07-16`: [**S3N4T0R-0X0/APT29-Adversary-Simulation**](https://github.com/S3N4T0R-0X0/APT29-Adversary-Simulation) (`Python`) - ⭐ **49**
   - This is a simulation of attack by the Cozy Bear group (APT-29) targeting diplomatic missions
 
-- `2026-07-16`: [**Encod3d-Sec/TORCH**](https://github.com/Encod3d-Sec/TORCH) (`Python`) - ⭐ **282**
+- `2026-07-16`: [**Encod3d-Sec/TORCH**](https://github.com/Encod3d-Sec/TORCH) (`Python`) - ⭐ **283**
   - Karpathy LLM based claude harness for PenetrationTesting / Bugbounty using obsidian
 
 - `2026-07-16`: [**ardennguyen/WinLic**](https://github.com/ardennguyen/WinLic) (`C#`) - ⭐ **126**
@@ -616,7 +616,7 @@
 - `2026-07-08`: [**OWASP/DockSec**](https://github.com/OWASP/DockSec) (`Python`) - ⭐ **476**
   - AI-powered Docker security scanner that explains vulnerabilities in plain English. An OWASP Lab Project.
 
-- `2026-07-08`: [**hesreallyhim/awesome-claude-code**](https://github.com/hesreallyhim/awesome-claude-code) (`Python`) - ⭐ **53.2k**
+- `2026-07-08`: [**hesreallyhim/awesome-claude-code**](https://github.com/hesreallyhim/awesome-claude-code) (`Python`) - ⭐ **53.3k**
   - A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins
 
 - `2026-07-08`: [**iOfficeAI/OfficeCLI**](https://github.com/iOfficeAI/OfficeCLI) (`C#`) - ⭐ **29.5k**
@@ -1806,7 +1806,7 @@
 - `2026-01-15`: [**anthropics/claude-code**](https://github.com/anthropics/claude-code) (`Python`) - ⭐ **143.5k**
   - Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
 
-- `2026-01-15`: [**openai/codex**](https://github.com/openai/codex) (`Rust`) - ⭐ **120.1k**
+- `2026-01-15`: [**openai/codex**](https://github.com/openai/codex) (`Rust`) - ⭐ **120.2k**
   - Lightweight coding agent that runs in your terminal
 
 - `2026-01-15`: [**HackUnderway/SearchPhone**](https://github.com/HackUnderway/SearchPhone) (`Python`) - ⭐ **1.9k**

@@ -105,7 +105,7 @@
             <!-- Mode Tabs (8 modes) -->
             <div class="tab-btn-group" style="flex-wrap: wrap;">
               <button class="tab-btn active" id="mode-btn-trending" onclick="switchFeedMode('trending')">
-                <i data-lucide="flame" style="width: 13px; height: 13px; color: var(--pill-amber-text);"></i>
+                <i data-lucide="flame" style="width: 13px; height: 13px;"></i>
                 <span>Thịnh hành</span>
               </button>
               <button class="tab-btn" id="mode-btn-stars" onclick="switchFeedMode('stars')">
@@ -113,27 +113,27 @@
                 <span>Kho Stars (<span id="stars-total-count">615</span>)</span>
               </button>
               <button class="tab-btn" id="mode-btn-new" onclick="switchFeedMode('new')">
-                <i data-lucide="sparkle" style="width: 13px; height: 13px; color: var(--pill-green-text);"></i>
+                <i data-lucide="sparkles" style="width: 13px; height: 13px;"></i>
                 <span>Dự án mới</span>
               </button>
               <button class="tab-btn" id="mode-btn-pulse" onclick="switchFeedMode('pulse')">
-                <i data-lucide="radio" style="width: 13px; height: 13px; color: var(--pill-purple-text);"></i>
+                <i data-lucide="radar" style="width: 13px; height: 13px;"></i>
                 <span>AI & Tech Radar</span>
               </button>
               <button class="tab-btn" id="mode-btn-collections" onclick="switchFeedMode('collections')">
-                <i data-lucide="folder-heart" style="width: 13px; height: 13px; color: var(--pill-red-text);"></i>
+                <i data-lucide="layers" style="width: 13px; height: 13px;"></i>
                 <span>Bộ Sưu Tập</span>
               </button>
               <button class="tab-btn" id="mode-btn-stats" onclick="switchFeedMode('stats')">
-                <i data-lucide="bar-chart-3" style="width: 13px; height: 13px; color: var(--pill-blue-text);"></i>
+                <i data-lucide="bar-chart-2" style="width: 13px; height: 13px;"></i>
                 <span>Thống Kê & Velocity</span>
               </button>
               <button class="tab-btn" id="mode-btn-tools" onclick="switchFeedMode('tools')">
-                <i data-lucide="wrench" style="width: 13px; height: 13px; color: var(--pill-cyan-text);"></i>
+                <i data-lucide="wrench" style="width: 13px; height: 13px;"></i>
                 <span>Dev Tools & Launch</span>
               </button>
               <button class="tab-btn" id="mode-btn-jobs" onclick="switchFeedMode('jobs')">
-                <i data-lucide="briefcase" style="width: 13px; height: 13px; color: var(--pill-amber-text);"></i>
+                <i data-lucide="briefcase" style="width: 13px; height: 13px;"></i>
                 <span>Kèo Dev & Việc Làm</span>
               </button>
             </div>
@@ -142,7 +142,7 @@
             <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
               <!-- Professional Date Picker Control -->
               <div class="date-picker-wrap" id="snapshot-date-wrap" title="Chọn ngày để xem lại dữ liệu lịch sử">
-                <i data-lucide="calendar" style="width: 13px; height: 13px; color: var(--pill-blue-text);"></i>
+                <i data-lucide="calendar" style="width: 13px; height: 13px; color: var(--text-muted);"></i>
                 <input type="date" id="snapshot-date-input" class="date-input-control" value="2026-08-31" max="2026-08-31" onchange="handleDateInputChange(this.value)">
               </div>
 
@@ -161,23 +161,23 @@
           <!-- Tools Sub-Category Pills -->
           <div id="tools-subfilters" class="radar-subfilter-bar" style="display: none;">
             <button class="pill-btn active" onclick="switchToolsSubfilter('all')">Tất Cả Công Cụ</button>
-            <button class="pill-btn" onclick="switchToolsSubfilter('launch')">🚀 Launch Board (Showcase)</button>
-            <button class="pill-btn" onclick="switchToolsSubfilter('ai')">🤖 AI & MCP Tools</button>
-            <button class="pill-btn" onclick="switchToolsSubfilter('debug')">🐛 Debug & Testing</button>
-            <button class="pill-btn" onclick="switchToolsSubfilter('sec')">🛡️ Security & Auth</button>
+            <button class="pill-btn" onclick="switchToolsSubfilter('launch')">Launch Board (Showcase)</button>
+            <button class="pill-btn" onclick="switchToolsSubfilter('ai')">AI & MCP Tools</button>
+            <button class="pill-btn" onclick="switchToolsSubfilter('debug')">Debug & Testing</button>
+            <button class="pill-btn" onclick="switchToolsSubfilter('sec')">Security & Auth</button>
           </div>
 
           <!-- Jobs Sub-Category Pills -->
           <div id="jobs-subfilters" class="radar-subfilter-bar" style="display: none;">
-            <button class="pill-btn active" onclick="switchJobsSubfilter('all')">📌 Tất Cả Kèo Dev</button>
-            <button class="pill-btn" onclick="switchJobsSubfilter('sec')">🛡️ An Ninh Mạng & SOC</button>
-            <button class="pill-btn" onclick="switchJobsSubfilter('ai')">🤖 AI & Machine Learning</button>
-            <button class="pill-btn" onclick="switchJobsSubfilter('dev')">💻 Software / Web / App</button>
-            <button class="pill-btn" onclick="switchJobsSubfilter('game')">🎮 Game Dev</button>
-            <button class="pill-btn" onclick="switchJobsSubfilter('cloud')">☁️ Cloud & DevOps</button>
-            <button class="pill-btn" onclick="switchJobsSubfilter('platforms')">🌐 35+ Group & Cổng Tuyển Dụng</button>
-            <button class="pill-btn" onclick="switchJobsSubfilter('insights')">📊 Báo Cáo Xu Hướng 2025</button>
-            <button class="pill-btn" onclick="openAddPlatformModal()" style="border-color: var(--pill-green-border); color: var(--pill-green-text); background: var(--pill-green-bg);">➕ Thêm Group / Cổng Mới</button>
+            <button class="pill-btn active" onclick="switchJobsSubfilter('all')">Tất Cả Kèo Dev</button>
+            <button class="pill-btn" onclick="switchJobsSubfilter('sec')">An Ninh Mạng & SOC</button>
+            <button class="pill-btn" onclick="switchJobsSubfilter('ai')">AI & Machine Learning</button>
+            <button class="pill-btn" onclick="switchJobsSubfilter('dev')">Software & Web Dev</button>
+            <button class="pill-btn" onclick="switchJobsSubfilter('game')">Game Development</button>
+            <button class="pill-btn" onclick="switchJobsSubfilter('cloud')">Cloud & DevOps</button>
+            <button class="pill-btn" onclick="switchJobsSubfilter('platforms')">35+ Group & Cổng Tuyển Dụng</button>
+            <button class="pill-btn" onclick="switchJobsSubfilter('insights')">Báo Cáo Xu Hướng 2025</button>
+            <button class="pill-btn" onclick="openAddPlatformModal()" style="border-color: var(--border-focus); color: var(--text-main);">+ Thêm Group / Cổng Mới</button>
           </div>
 
           <!-- General Search & Controls Row -->

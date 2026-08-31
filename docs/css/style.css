@@ -1541,54 +1541,22 @@ button {
   gap: 10px;
 }
 
-/* TiniX-Style Achievement Trophy */
-.tinix-trophy-box {
-  background: linear-gradient(135deg, rgba(251, 191, 36, 0.1) 0%, rgba(20, 22, 31, 1) 100%);
-  border: 1px solid rgba(251, 191, 36, 0.3);
-  border-radius: var(--radius-md);
-  padding: 14px 18px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-}
-
-.tinix-trophy-item {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.tinix-trophy-icon {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background: var(--pill-amber-bg);
-  color: var(--pill-amber-text);
-  border: 1px solid var(--pill-amber-border);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  flex-shrink: 0;
-}
-
-/* TiniX 30-Day Growth Chart Wrap */
-.tinix-growth-chart-wrap {
+/* 30-Day Velocity Growth Chart Wrap */
+.growth-chart-wrap {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  padding: 16px;
+  padding: 18px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 
-.tinix-growth-chart-header {
+.growth-chart-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 13px;
+  font-size: 13.5px;
   font-weight: 700;
   color: var(--text-main);
 }
@@ -1603,8 +1571,8 @@ button {
   justify-content: space-between;
   font-family: var(--font-mono);
   font-size: 12px;
-  color: var(--pill-cyan-text);
-  margin: 8px 0;
+  color: var(--text-main);
+  margin: 6px 0;
 }
 
 /* ==================== 6. QUICK HOVER PREVIEW POPOVER ==================== */

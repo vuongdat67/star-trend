@@ -6,9 +6,9 @@
       "owner": "Qwen",
       "name": "Qwen3.8-Flash-Next",
       "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
-      "description": "Pipeline: image-text-to-text | Downloads: 121,976 | Likes: 4,394",
+      "description": "Pipeline: image-text-to-text | Downloads: 121,976 | Likes: 4,395",
       "pipeline_tag": "image-text-to-text",
-      "likes": 4394,
+      "likes": 4395,
       "downloads": 121976,
       "tags": [
         "transformers",
@@ -26,9 +26,9 @@
       "owner": "zai-org",
       "name": "GLM-5.3-Flash",
       "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
-      "description": "Pipeline: text-generation | Downloads: 346,516 | Likes: 1,724",
+      "description": "Pipeline: text-generation | Downloads: 346,516 | Likes: 1,725",
       "pipeline_tag": "text-generation",
-      "likes": 1724,
+      "likes": 1725,
       "downloads": 346516,
       "tags": [
         "transformers",
@@ -166,9 +166,9 @@
       "owner": "unsloth",
       "name": "GLM-5.3-Flash-GGUF",
       "url": "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF",
-      "description": "Pipeline: text-generation | Downloads: 45,936 | Likes: 290",
+      "description": "Pipeline: text-generation | Downloads: 45,936 | Likes: 291",
       "pipeline_tag": "text-generation",
-      "likes": 290,
+      "likes": 291,
       "downloads": 45936,
       "tags": [
         "gguf",
@@ -266,9 +266,9 @@
       "owner": "HauhauCS",
       "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
       "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-      "description": "Pipeline: image-text-to-text | Downloads: 1,158,065 | Likes: 786",
+      "description": "Pipeline: image-text-to-text | Downloads: 1,158,065 | Likes: 787",
       "pipeline_tag": "image-text-to-text",
-      "likes": 786,
+      "likes": 787,
       "downloads": 1158065,
       "tags": [
         "gguf",
@@ -386,9 +386,9 @@
       "owner": "pipecat-ai",
       "name": "phonellm-alpha-1",
       "url": "https://huggingface.co/pipecat-ai/phonellm-alpha-1",
-      "description": "Pipeline: text-generation | Downloads: 3,982 | Likes: 150",
+      "description": "Pipeline: text-generation | Downloads: 3,982 | Likes: 151",
       "pipeline_tag": "text-generation",
-      "likes": 150,
+      "likes": 151,
       "downloads": 3982,
       "tags": [
         "transformers",
@@ -506,9 +506,9 @@
       "owner": "markov-ai",
       "name": "cad-1000-hours",
       "url": "https://huggingface.co/markov-ai/cad-1000-hours",
-      "description": "Pipeline: Model | Downloads: 76,013 | Likes: 239",
+      "description": "Pipeline: Model | Downloads: 76,013 | Likes: 240",
       "pipeline_tag": "Model",
-      "likes": 239,
+      "likes": 240,
       "downloads": 76013,
       "tags": [
         "modality:video",
@@ -762,6 +762,26 @@
     },
     {
       "rank": 14,
+      "full_name": "TeichAI/Ox-Alpha-10k",
+      "owner": "TeichAI",
+      "name": "Ox-Alpha-10k",
+      "url": "https://huggingface.co/TeichAI/Ox-Alpha-10k",
+      "description": "Pipeline: Model | Downloads: 242 | Likes: 20",
+      "pipeline_tag": "Model",
+      "likes": 20,
+      "downloads": 242,
+      "tags": [
+        "task_categories:text-generation",
+        "language:en",
+        "size_categories:1K<n<10K",
+        "format:json",
+        "modality:text"
+      ],
+      "source": "huggingface",
+      "type": "datasets"
+    },
+    {
+      "rank": 15,
       "full_name": "HuggingFaceFW/fineweb",
       "owner": "HuggingFaceFW",
       "name": "fineweb",
@@ -781,7 +801,7 @@
       "type": "datasets"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "full_name": "saidutta69/fable-5-premium",
       "owner": "saidutta69",
       "name": "fable-5-premium",
@@ -796,26 +816,6 @@
         "language:en",
         "license:mit",
         "size_categories:10K<n<100K"
-      ],
-      "source": "huggingface",
-      "type": "datasets"
-    },
-    {
-      "rank": 16,
-      "full_name": "TeichAI/Ox-Alpha-10k",
-      "owner": "TeichAI",
-      "name": "Ox-Alpha-10k",
-      "url": "https://huggingface.co/TeichAI/Ox-Alpha-10k",
-      "description": "Pipeline: Model | Downloads: 242 | Likes: 19",
-      "pipeline_tag": "Model",
-      "likes": 19,
-      "downloads": 242,
-      "tags": [
-        "task_categories:text-generation",
-        "language:en",
-        "size_categories:1K<n<10K",
-        "format:json",
-        "modality:text"
       ],
       "source": "huggingface",
       "type": "datasets"

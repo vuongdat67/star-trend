@@ -1,7 +1,7 @@
 # 🌟 GitHub Starred Repositories - @vuongdat67
 
 > Danh sách toàn bộ starred repositories của **[@vuongdat67](https://github.com/vuongdat67)**.
-> 🕒 Cập nhật: `2026-08-31 02:52:10` | 📦 Tổng số: **615** repositories
+> 🕒 Cập nhật: `2026-08-31 03:02:38` | 📦 Tổng số: **615** repositories
 
 ---
 
@@ -147,7 +147,7 @@
 - [**microsoft/VibeVoice**](https://github.com/microsoft/VibeVoice) - ⭐ **53.4k** | 🍴 6.0k | 📅 `2026-03-31`
   - Open-Source Frontier Voice AI
 
-- [**hesreallyhim/awesome-claude-code**](https://github.com/hesreallyhim/awesome-claude-code) - ⭐ **53.2k** | 🍴 4.6k | 📅 `2026-07-08`
+- [**hesreallyhim/awesome-claude-code**](https://github.com/hesreallyhim/awesome-claude-code) - ⭐ **53.3k** | 🍴 4.6k | 📅 `2026-07-08`
   - A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins
 
 - [**Alishahryar1/free-claude-code**](https://github.com/Alishahryar1/free-claude-code) - ⭐ **52.0k** | 🍴 8.4k | 📅 `2026-04-24`
@@ -171,7 +171,7 @@
 - [**luongnv89/claude-howto**](https://github.com/luongnv89/claude-howto) - ⭐ **41.3k** | 🍴 5.1k | 📅 `2026-04-02`
   - A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.
 
-- [**K-Dense-AI/scientific-agent-skills**](https://github.com/K-Dense-AI/scientific-agent-skills) - ⭐ **39.4k** | 🍴 3.7k | 📅 `2026-08-30`
+- [**K-Dense-AI/scientific-agent-skills**](https://github.com/K-Dense-AI/scientific-agent-skills) - ⭐ **39.5k** | 🍴 3.7k | 📅 `2026-08-30`
   - Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
 
 - [**MadsLorentzen/ai-job-search**](https://github.com/MadsLorentzen/ai-job-search) - ⭐ **38.6k** | 🍴 13.1k | 📅 `2026-07-06`
@@ -349,7 +349,7 @@
 - [**itsOwen/CyberScraper-2077**](https://github.com/itsOwen/CyberScraper-2077) - ⭐ **3.2k** | 🍴 356 | 📅 `2026-01-20`
   - A Powerful web scraper powered by LLM | OpenAI, Gemini & Ollama
 
-- [**geeklee/srt-whiteboard-animation**](https://github.com/geeklee/srt-whiteboard-animation) - ⭐ **2.6k** | 🍴 415 | 📅 `2026-08-19`
+- [**geeklee/srt-whiteboard-animation**](https://github.com/geeklee/srt-whiteboard-animation) - ⭐ **2.6k** | 🍴 416 | 📅 `2026-08-19`
   - 将 SRT 字幕做成暖米黄纸张底的流式笔迹白板手绘动画 skill：mask 分区遮罩编排 + stream 连续笔迹（ink→color）。
 
 - [**NVIDIA/NeMo-Agent-Toolkit**](https://github.com/NVIDIA/NeMo-Agent-Toolkit) - ⭐ **2.6k** | 🍴 748 | 📅 `2026-01-25`
@@ -424,7 +424,7 @@
 - [**OWASP/DockSec**](https://github.com/OWASP/DockSec) - ⭐ **476** | 🍴 93 | 📅 `2026-07-08`
   - AI-powered Docker security scanner that explains vulnerabilities in plain English. An OWASP Lab Project.
 
-- [**breslee1707/VI-Translate**](https://github.com/breslee1707/VI-Translate) - ⭐ **437** | 🍴 80 | 📅 `2026-08-28`
+- [**breslee1707/VI-Translate**](https://github.com/breslee1707/VI-Translate) - ⭐ **438** | 🍴 81 | 📅 `2026-08-28`
 
 - [**Nebulock-Inc/agentic-threat-hunting-framework**](https://github.com/Nebulock-Inc/agentic-threat-hunting-framework) - ⭐ **364** | 🍴 50 | 📅 `2026-04-05`
   - ATHF is a framework for agentic threat hunting - building systems that can remember, learn, and act with increasing autonomy.
@@ -438,7 +438,7 @@
 - [**Anning01/novelvids**](https://github.com/Anning01/novelvids) - ⭐ **285** | 🍴 78 | 📅 `2026-08-17`
   - 基于第三方视频生成 API，将小说自动转换为风格一致的视频内容。
 
-- [**Encod3d-Sec/TORCH**](https://github.com/Encod3d-Sec/TORCH) - ⭐ **282** | 🍴 42 | 📅 `2026-07-16`
+- [**Encod3d-Sec/TORCH**](https://github.com/Encod3d-Sec/TORCH) - ⭐ **283** | 🍴 42 | 📅 `2026-07-16`
   - Karpathy LLM based claude harness for PenetrationTesting / Bugbounty using obsidian
 
 - [**welchbj/ctf**](https://github.com/welchbj/ctf) - ⭐ **237** | 🍴 29 | 📅 `2026-04-07`
@@ -534,7 +534,7 @@
 - [**openclaw/openclaw**](https://github.com/openclaw/openclaw) - ⭐ **388.1k** | 🍴 81.5k | 📅 `2026-01-25`
   - Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
 
-- [**deepseek-ai/deepseek-harness**](https://github.com/deepseek-ai/deepseek-harness) - ⭐ **204.9k** | 🍴 23.7k | 📅 `2026-08-14`
+- [**deepseek-ai/deepseek-harness**](https://github.com/deepseek-ai/deepseek-harness) - ⭐ **205.0k** | 🍴 23.7k | 📅 `2026-08-14`
   - DeepSeek Harness: Everything is a Plugin.
 
 - [**n8n-io/n8n**](https://github.com/n8n-io/n8n) - ⭐ **202.9k** | 🍴 60.5k | 📅 `2026-05-10`
@@ -1171,7 +1171,7 @@
 - [**ultraworkers/claw-code**](https://github.com/ultraworkers/claw-code) - ⭐ **195.2k** | 🍴 108.8k | 📅 `2026-04-01`
   - An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.
 
-- [**openai/codex**](https://github.com/openai/codex) - ⭐ **120.1k** | 🍴 18.4k | 📅 `2026-01-15`
+- [**openai/codex**](https://github.com/openai/codex) - ⭐ **120.2k** | 🍴 18.4k | 📅 `2026-01-15`
   - Lightweight coding agent that runs in your terminal
 
 - [**oven-sh/bun**](https://github.com/oven-sh/bun) - ⭐ **95.8k** | 🍴 5.0k | 📅 `2026-05-17`
@@ -1326,7 +1326,7 @@
 - [**saadeghi/daisyui**](https://github.com/saadeghi/daisyui) - ⭐ **42.2k** | 🍴 1.7k | 📅 `2026-07-06`
   - 🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library
 
-- [**tt-a1i/archify**](https://github.com/tt-a1i/archify) - ⭐ **35.1k** | 🍴 2.2k | 📅 `2026-08-30`
+- [**tt-a1i/archify**](https://github.com/tt-a1i/archify) - ⭐ **35.1k** | 🍴 2.3k | 📅 `2026-08-30`
   - Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
 
 - [**JCodesMore/ai-website-cloner-template**](https://github.com/JCodesMore/ai-website-cloner-template) - ⭐ **33.5k** | 🍴 4.9k | 📅 `2026-06-23`

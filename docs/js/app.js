@@ -73,12 +73,12 @@ const DEV_QUOTES = [
 
 // General Category Rules for GitHub Repos
 const CATEGORY_RULES = [
-  { name: '🤖 AI & LLM Agents', keywords: ['ai', 'llm', 'claude', 'gpt', 'agent', 'mcp', 'openai', 'anthropic', 'prompt', 'rag', 'deepseek', 'langchain', 'llama', 'machine-learning'] },
-  { name: '🛠️ Dev Tools & CLI', keywords: ['cli', 'terminal', 'devtools', 'developer-tools', 'automation', 'productivity', 'tool', 'workflow', 'git', 'scraper', 'powershell', 'shell'] },
-  { name: '🛡️ Security & Reverse Eng', keywords: ['security', 'cybersecurity', 'malware', 'exploit', 'reverse-engineering', 'decompiler', 'disassembler', 'pentest', 'vulnerability', 'cve', 'hack', 'ghidra', 'ida', 'soc', 'splunk', 'oscp', 'cissp'] },
-  { name: '📚 Tutorials & Roadmap', keywords: ['awesome', 'tutorial', 'learning', 'interview', 'roadmap', 'book', 'courses', 'education', 'algorithms'] },
-  { name: '🌐 Web & Backend', keywords: ['react', 'vue', 'nextjs', 'tailwind', 'frontend', 'backend', 'web', 'fastapi', 'flask', 'django', 'express', 'nodejs'] },
-  { name: '⚙️ Systems & Cloud', keywords: ['rust', 'c++', 'kernel', 'driver', 'windows', 'linux', 'operating-system', 'embedded', 'compiler', 'database', 'wasm', 'docker', 'kubernetes', 'aws'] }
+  { name: 'AI & LLM Agents', keywords: ['ai', 'llm', 'claude', 'gpt', 'agent', 'mcp', 'openai', 'anthropic', 'prompt', 'rag', 'deepseek', 'langchain', 'llama', 'machine-learning'] },
+  { name: 'Dev Tools & CLI', keywords: ['cli', 'terminal', 'devtools', 'developer-tools', 'automation', 'productivity', 'tool', 'workflow', 'git', 'scraper', 'powershell', 'shell'] },
+  { name: 'Security & Reverse Engineering', keywords: ['security', 'cybersecurity', 'malware', 'exploit', 'reverse-engineering', 'decompiler', 'disassembler', 'pentest', 'vulnerability', 'cve', 'hack', 'ghidra', 'ida', 'soc', 'splunk', 'oscp', 'cissp'] },
+  { name: 'Tutorials & Roadmap', keywords: ['awesome', 'tutorial', 'learning', 'interview', 'roadmap', 'book', 'courses', 'education', 'algorithms'] },
+  { name: 'Web & Backend', keywords: ['react', 'vue', 'nextjs', 'tailwind', 'frontend', 'backend', 'web', 'fastapi', 'flask', 'django', 'express', 'nodejs'] },
+  { name: 'Systems & Cloud', keywords: ['rust', 'c++', 'kernel', 'driver', 'windows', 'linux', 'operating-system', 'embedded', 'compiler', 'database', 'wasm', 'docker', 'kubernetes', 'aws'] }
 ];
 
 function classifyItem(item) {
@@ -86,7 +86,7 @@ function classifyItem(item) {
   for (const cat of CATEGORY_RULES) {
     if (cat.keywords.some(k => text.includes(k))) return cat.name;
   }
-  return '📦 Miscellaneous';
+  return 'General & Others';
 }
 
 function formatNumber(num) {
@@ -526,14 +526,14 @@ function renderRadarSubfilters() {
   };
 
   bar.innerHTML = `
-    <button class="pill-btn ${state.radarSubfilter === 'all' ? 'active' : ''}" onclick="selectRadarSubfilter('all')">📌 Tất cả (${counts.all})</button>
-    <button class="pill-btn ${state.radarSubfilter === 'conf' ? 'active' : ''}" onclick="selectRadarSubfilter('conf')">🏛️ Hội Nghị (${counts.conf})</button>
-    <button class="pill-btn ${state.radarSubfilter === 'arxiv' ? 'active' : ''}" onclick="selectRadarSubfilter('arxiv')">📄 arXiv (${counts.arxiv})</button>
-    <button class="pill-btn ${state.radarSubfilter === 'hf' ? 'active' : ''}" onclick="selectRadarSubfilter('hf')">🧪 HF Papers (${counts.hf})</button>
-    <button class="pill-btn ${state.radarSubfilter === 'cve' ? 'active' : ''}" onclick="selectRadarSubfilter('cve')">🛡️ CVE/CWE (${counts.cve})</button>
-    <button class="pill-btn ${state.radarSubfilter === 'hn' ? 'active' : ''}" onclick="selectRadarSubfilter('hn')">📰 Hacker News (${counts.hn})</button>
-    <button class="pill-btn ${state.radarSubfilter === 'x' ? 'active' : ''}" onclick="selectRadarSubfilter('x')">🌐 X Trends (${counts.x})</button>
-    <button class="pill-btn ${state.radarSubfilter === 'labs' ? 'active' : ''}" onclick="selectRadarSubfilter('labs')">🤖 AI Labs (${counts.labs})</button>
+    <button class="pill-btn ${state.radarSubfilter === 'all' ? 'active' : ''}" onclick="selectRadarSubfilter('all')">Tất cả (${counts.all})</button>
+    <button class="pill-btn ${state.radarSubfilter === 'conf' ? 'active' : ''}" onclick="selectRadarSubfilter('conf')">Hội Nghị (${counts.conf})</button>
+    <button class="pill-btn ${state.radarSubfilter === 'arxiv' ? 'active' : ''}" onclick="selectRadarSubfilter('arxiv')">arXiv Papers (${counts.arxiv})</button>
+    <button class="pill-btn ${state.radarSubfilter === 'hf' ? 'active' : ''}" onclick="selectRadarSubfilter('hf')">HF Research (${counts.hf})</button>
+    <button class="pill-btn ${state.radarSubfilter === 'cve' ? 'active' : ''}" onclick="selectRadarSubfilter('cve')">CVE / Security (${counts.cve})</button>
+    <button class="pill-btn ${state.radarSubfilter === 'hn' ? 'active' : ''}" onclick="selectRadarSubfilter('hn')">Hacker News (${counts.hn})</button>
+    <button class="pill-btn ${state.radarSubfilter === 'x' ? 'active' : ''}" onclick="selectRadarSubfilter('x')">X Trends (${counts.x})</button>
+    <button class="pill-btn ${state.radarSubfilter === 'labs' ? 'active' : ''}" onclick="selectRadarSubfilter('labs')">AI Labs (${counts.labs})</button>
   `;
 }
 
@@ -613,7 +613,7 @@ function renderSidebar() {
       (t.tags || []).forEach(tag => { topicCounter[tag] = (topicCounter[tag] || 0) + 1; });
     });
     launches.forEach(l => {
-      catCounter['🚀 Launch Board'] = (catCounter['🚀 Launch Board'] || 0) + 1;
+      catCounter['Launch Board (Showcase)'] = (catCounter['Launch Board (Showcase)'] || 0) + 1;
       (l.tech_stack || []).forEach(tag => { topicCounter[tag] = (topicCounter[tag] || 0) + 1; });
     });
 
@@ -1157,11 +1157,11 @@ function openFullPageRepoDetail(fullName, updateHash = true) {
             <img src="${avatarUrl}" class="fullpage-repo-icon" onerror="this.src='https://github.githubassets.com/favicons/favicon.png'" alt="${owner}">
             <div>
               <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 6px;">
-                <span class="badge-tag" style="color: var(--pill-blue-text); font-weight: 700;">🏷️ Repository</span>
-                <span class="badge-tag" style="color: var(--pill-purple-text); font-weight: 700;">${r.language || 'Plain'}</span>
-                <span class="badge-tag" style="color: var(--pill-green-text); font-weight: 700;">🟢 Đang Hoạt Động</span>
+                <span class="badge-tag" style="color: var(--text-main); font-weight: 600;">Repository</span>
+                <span class="badge-tag" style="color: var(--text-muted); font-weight: 600;">${r.language || 'Plain'}</span>
+                <span class="badge-tag" style="color: var(--pill-green-text); font-weight: 600;">Active</span>
               </div>
-              <h1 style="font-size: 26px; font-weight: 800; color: var(--text-main); word-break: break-all;">${r.full_name}</h1>
+              <h1 style="font-size: 24px; font-weight: 800; color: var(--text-main); word-break: break-all;">${r.full_name}</h1>
             </div>
           </div>
           <div style="display: flex; gap: 8px;">
@@ -1169,7 +1169,7 @@ function openFullPageRepoDetail(fullName, updateHash = true) {
               <i data-lucide="bookmark" style="width: 14px; height: 14px;"></i>
               <span>${isBookmarked ? 'Đã Lưu' : 'Lưu Repo'}</span>
             </button>
-            <button class="btn-zinc" onclick="openShareRepoModal('${r.full_name}')" style="color: var(--pill-cyan-text);">
+            <button class="btn-zinc" onclick="openShareRepoModal('${r.full_name}')">
               <i data-lucide="share-2" style="width: 14px; height: 14px;"></i>
               <span>Share</span>
             </button>
@@ -1180,19 +1180,7 @@ function openFullPageRepoDetail(fullName, updateHash = true) {
           </div>
         </div>
 
-        <div style="font-size: 14px; color: var(--text-muted); line-height: 1.55; max-width: 1050px;">${r.description || 'Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.'}</div>
-      </div>
-
-      <!-- Achievement Trophy Box -->
-      <div class="tinix-trophy-box">
-        <div class="tinix-trophy-item">
-          <div class="tinix-trophy-icon">🏆</div>
-          <div>
-            <div style="font-size: 11px; font-weight: 700; color: var(--pill-amber-text); text-transform: uppercase;">🏆 BẢNG VÀNG THỊNH HÀNH</div>
-            <strong style="font-size: 14.5px; color: var(--text-main);">#1 Repository Của Ngày trong chủ đề ${classifyItem(r)}</strong>
-          </div>
-        </div>
-        <span class="badge-tag" style="font-family: var(--font-mono); font-size: 11px; color: var(--pill-green-text);">🏅 Top 1% Velocity</span>
+        <div style="font-size: 13.5px; color: var(--text-muted); line-height: 1.6; max-width: 1050px;">${r.description || 'Dự án mã nguồn mở được cộng đồng developer tin dùng.'}</div>
       </div>
 
       <!-- 5-Col Metrics Grid -->
@@ -1206,48 +1194,31 @@ function openFullPageRepoDetail(fullName, updateHash = true) {
           <div class="fullpage-metric-label">Forks</div>
         </div>
         <div class="fullpage-metric-card">
-          <div class="fullpage-metric-num" style="color: var(--pill-green-text);">${r.open_issues || r.open_issues_count || 18}</div>
+          <div class="fullpage-metric-num">${r.open_issues || r.open_issues_count || 18}</div>
           <div class="fullpage-metric-label">Open Issues</div>
         </div>
         <div class="fullpage-metric-card">
-          <div class="fullpage-metric-num" style="color: var(--pill-cyan-text);">🚀 ${formatNumber(r.stars_since ? parseInt(r.stars_since.replace(/\D/g, '')) || 2 : 2)}</div>
-          <div class="fullpage-metric-label">Tăng Trưởng</div>
+          <div class="fullpage-metric-num">${formatNumber(r.stars_since ? parseInt(r.stars_since.replace(/\D/g, '')) || 2 : 2)}</div>
+          <div class="fullpage-metric-label">Tăng Trưởng Gần Đây</div>
         </div>
         <div class="fullpage-metric-card">
-          <div class="fullpage-metric-num" style="color: var(--pill-blue-text); font-size: 15px;">${r.language || 'TypeScript'}</div>
+          <div class="fullpage-metric-num" style="font-size: 15px;">${r.language || 'Plain'}</div>
           <div class="fullpage-metric-label">Ngôn Ngữ Chính</div>
         </div>
       </div>
 
       <!-- Main 2-Column Content Grid -->
       <div class="fullpage-content-grid">
-        <!-- Left: AI Analysis & Highlights -->
+        <!-- Left: Overview & Installation -->
         <div style="display: flex; flex-direction: column; gap: 16px;">
           <div class="fullpage-guide-card">
-            <h3 style="font-size: 17px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 8px;">
-              <span>🤖</span>
-              <span>${r.name || r.full_name}: Tóm tắt & Điểm nổi bật</span>
+            <h3 style="font-size: 15px; font-weight: 700; color: var(--text-main); display: flex; align-items: center; gap: 8px;">
+              <i data-lucide="book-open" style="width: 16px; height: 16px; color: var(--text-muted);"></i>
+              <span>Tổng Quan Repository</span>
             </h3>
 
-            <div style="background: var(--bg-surface); padding: 12px 14px; border-radius: var(--radius-sm); border-left: 3px solid var(--pill-blue-text); font-size: 13px; color: var(--text-main); font-style: italic; line-height: 1.5;">
-              "${r.description || 'Kỹ năng AI giúp các lập trình viên tự động hóa việc xây dựng và thiết kế sơ đồ kiến trúc, tối ưu mã nguồn mở độc lập.'}"
-            </div>
-
-            <div style="font-size: 14px; font-weight: 700; color: var(--pill-amber-text); margin-top: 8px; display: flex; align-items: center; gap: 4px;">
-              <span>📌</span> Điểm nổi bật
-            </div>
-            <ul style="padding-left: 20px; font-size: 13px; color: var(--text-muted); line-height: 1.6;">
-              <li><strong>Không cần kỹ năng thiết kế:</strong> Mô tả kiến trúc bằng ngôn ngữ tự nhiên, AI tự động sinh sơ đồ ngay lập tức.</li>
-              <li><strong>Hỗ trợ nhiều loại sơ đồ:</strong> Workflow, sequence, data-flow, architecture diagrams, component state machine.</li>
-              <li><strong>Chuyển đổi giao diện thông minh:</strong> Một cú click chuyển đổi dark / light mode mượt mà, lưu cài đặt tự động.</li>
-              <li><strong>Xuất ảnh siêu sắc nét:</strong> Xuất PNG / JPEG / SVG với độ phân giải lên đến 4x vector thực sự.</li>
-            </ul>
-
-            <div style="font-size: 14px; font-weight: 700; color: var(--pill-green-text); margin-top: 10px; display: flex; align-items: center; gap: 4px;">
-              <span>💡</span> Vì sao đáng chú ý
-            </div>
             <p style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">
-              Dự án này giải quyết bài toán cốt lõi của các Software Architect và DevOps Engineer trong việc tài liệu hóa hệ thống. Thay vì tốn hàng giờ vẽ tay, bạn có thể biến prompt thành sơ đồ chuẩn chỉnh được nhúng thẳng vào file HTML độc lập.
+              ${r.description || 'Repository cung cấp các module và công cụ giải quyết bài toán cốt lõi trong quy trình phát triển phần mềm.'}
             </p>
 
             <div style="margin-top: 10px;">
@@ -1259,26 +1230,30 @@ function openFullPageRepoDetail(fullName, updateHash = true) {
                 </button>
               </div>
             </div>
+
+            <div style="margin-top: 10px; display: flex; gap: 6px; flex-wrap: wrap;">
+              ${(r.topics || []).map(t => `<span class="domain-chip">#${t}</span>`).join('')}
+            </div>
           </div>
 
           <!-- Installation & Usage Guide -->
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
             <div class="fullpage-guide-card">
               <div style="display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 13.5px; color: var(--text-main);">
-                <i data-lucide="download-cloud" style="width: 15px; height: 15px; color: var(--pill-cyan-text);"></i>
+                <i data-lucide="download-cloud" style="width: 15px; height: 15px; color: var(--text-muted);"></i>
                 Hướng dẫn cài đặt
               </div>
               <div style="font-size: 12.5px; color: var(--text-muted); line-height: 1.5;">
-                Clone repo về máy hoặc mở trực tiếp qua Codespaces. Chạy <code>npm install</code> hoặc <code>pip install -r requirements.txt</code> để nạp thư viện.
+                Clone repo về máy hoặc mở trực tiếp qua Codespaces. Cài đặt các gói phụ thuộc tương ứng theo tài liệu dự án.
               </div>
             </div>
             <div class="fullpage-guide-card">
               <div style="display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 13.5px; color: var(--text-main);">
-                <i data-lucide="play" style="width: 15px; height: 15px; color: var(--pill-green-text);"></i>
+                <i data-lucide="play" style="width: 15px; height: 15px; color: var(--text-muted);"></i>
                 Hướng dẫn sử dụng
               </div>
               <div style="font-size: 12.5px; color: var(--text-muted); line-height: 1.5;">
-                Nhập file template hoặc cấu hình qua API. Xem chi tiết cú pháp các module trong file README.md gốc.
+                Xem chi tiết các tham số dòng lệnh và hướng dẫn tích hợp trực tiếp trên file README.md tại GitHub.
               </div>
             </div>
           </div>
@@ -1287,32 +1262,16 @@ function openFullPageRepoDetail(fullName, updateHash = true) {
         <!-- Right: 30-Day Growth Chart & Metadata -->
         <div style="display: flex; flex-direction: column; gap: 16px;">
           <!-- 30-Day Velocity Line Chart -->
-          <div class="tinix-growth-chart-wrap">
-            <div class="tinix-growth-chart-header">
+          <div class="growth-chart-wrap">
+            <div class="growth-chart-header">
               <span style="display: flex; align-items: center; gap: 6px;">
                 <i data-lucide="line-chart" style="width: 15px; height: 15px; color: var(--accent-star);"></i>
                 <span>Lịch Sử Tăng Trưởng 30 Ngày</span>
               </span>
-              <span style="font-family: var(--font-mono); font-size: 11px; color: var(--pill-green-text);">+${formatNumber(r.stars_since ? parseInt(r.stars_since.replace(/\D/g, '')) * 30 || 1200 : 1200)} stars/tháng</span>
+              <span style="font-family: var(--font-mono); font-size: 11px; color: var(--text-muted);">+${formatNumber(r.stars_since ? parseInt(r.stars_since.replace(/\D/g, '')) * 30 || 1200 : 1200)} stars/tháng</span>
             </div>
             <div style="height: 180px; position: relative;">
               <canvas id="repo-growth-chart"></canvas>
-            </div>
-          </div>
-
-          <!-- Social & Community Discussions -->
-          <div class="fullpage-guide-card">
-            <div style="font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
-              <i data-lucide="messages-square" style="width: 14px; height: 14px; color: var(--pill-purple-text);"></i>
-              Mạng Xã Hội & Thảo Luận
-            </div>
-            <div style="font-size: 12.5px; color: var(--text-muted); line-height: 1.45;">
-              Dự án đang thu hút sự chú ý sôi nổi trên Reddit r/MachineLearning, Hacker News và các group công nghệ.
-            </div>
-            <div style="display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap;">
-              <a href="https://news.ycombinator.com" target="_blank" class="domain-chip">📰 Hacker News</a>
-              <a href="https://reddit.com" target="_blank" class="domain-chip">💬 Reddit Dev</a>
-              <a href="https://x.com/search?q=${r.name}" target="_blank" class="domain-chip">🌐 X Discussions</a>
             </div>
           </div>
 
@@ -1321,7 +1280,7 @@ function openFullPageRepoDetail(fullName, updateHash = true) {
             <div style="font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 6px;">Thông Tin Chi Tiết</div>
             <div style="display: flex; flex-direction: column; gap: 8px; font-size: 12.5px;">
               <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 5px;"><span style="color: var(--text-muted);">Chủ sở hữu</span><strong style="color: var(--text-main);">${owner}</strong></div>
-              <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 5px;"><span style="color: var(--text-muted);">Ngôn ngữ chính</span><span style="color: var(--pill-blue-text); font-weight: 600;">${r.language || 'Plain Text'}</span></div>
+              <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 5px;"><span style="color: var(--text-muted);">Ngôn ngữ chính</span><span style="color: var(--text-main); font-weight: 600;">${r.language || 'Plain Text'}</span></div>
               <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 5px;"><span style="color: var(--text-muted);">Giấy phép</span><strong style="color: var(--text-main);">${r.license?.name || 'MIT License'}</strong></div>
               <div style="display: flex; justify-content: space-between; padding-bottom: 2px;"><span style="color: var(--text-muted);">Cập nhật</span><span style="color: var(--text-muted); font-family: var(--font-mono);">${r.starred_at ? r.starred_at.slice(0, 10) : '2026-08-31'}</span></div>
             </div>
@@ -1331,7 +1290,7 @@ function openFullPageRepoDetail(fullName, updateHash = true) {
           <div class="fullpage-guide-card">
             <div style="display: flex; justify-content: space-between; align-items: center;">
               <span style="font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; display: flex; align-items: center; gap: 4px;">
-                <i data-lucide="file-text" style="width: 13px; height: 13px; color: var(--pill-blue-text);"></i>
+                <i data-lucide="file-text" style="width: 13px; height: 13px; color: var(--text-muted);"></i>
                 Ghi Chú Cá Nhân
               </span>
               <button class="btn-zinc" style="font-size: 11px; padding: 2px 7px;" onclick="openNoteModal('${r.full_name}')">Sửa ghi chú</button>
@@ -1355,9 +1314,9 @@ function openFullPageRepoDetail(fullName, updateHash = true) {
                   <strong style="font-size: 13.5px; color: var(--text-main); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${rel.name || rel.full_name.split('/')[1]}</strong>
                 </div>
                 <div style="font-size: 12px; color: var(--text-muted); margin-top: 6px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${rel.description || 'Dự án liên quan cùng chủ đề'}</div>
-                <div style="display: flex; justify-content: space-between; font-size: 11.5px; color: var(--pill-amber-text); margin-top: 10px;">
+                <div style="display: flex; justify-content: space-between; font-size: 11.5px; color: var(--text-muted); margin-top: 10px;">
                   <span>⭐ ${formatNumber(rel.stars)}</span>
-                  <span style="color: var(--pill-blue-text);">${rel.language || 'Code'}</span>
+                  <span style="color: var(--text-muted);">${rel.language || 'Code'}</span>
                 </div>
               </div>
             `).join('')}
@@ -1485,17 +1444,17 @@ function openFullPageRadarDetail(radarId, updateHash = true) {
         <div class="fullpage-repo-header">
           <div>
             <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 6px;">
-              <span class="badge-tag" style="color: var(--pill-blue-text); font-weight: 700;">${item.source}</span>
-              <span class="badge-tag ${severityBadge}" style="font-weight: 700;">${item.badge}</span>
-              <span class="badge-tag" style="color: var(--pill-purple-text); font-weight: 700;">${item.category}</span>
+              <span class="badge-tag" style="color: var(--text-main); font-weight: 600;">${item.source}</span>
+              <span class="badge-tag ${severityBadge}">${item.badge}</span>
+              <span class="badge-tag" style="color: var(--text-muted); font-weight: 600;">${item.category}</span>
             </div>
             <h1 style="font-size: 24px; font-weight: 800; color: var(--text-main);">${item.title}</h1>
             <div style="font-size: 12px; color: var(--text-muted); margin-top: 6px; font-family: var(--font-mono);">
-              📅 Xuất bản: ${item.published_at || '31/08/2026'}
+              Xuất bản: ${item.published_at || '31/08/2026'}
             </div>
           </div>
           <div>
-            <a href="${item.url}" target="_blank" class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text); font-weight: 700;">
+            <a href="${item.url}" target="_blank" class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text);">
               <span>Mở Bài Viết / Nguồn Gốc ↗</span>
             </a>
           </div>
@@ -1505,16 +1464,16 @@ function openFullPageRadarDetail(radarId, updateHash = true) {
       <!-- Main Content Grid -->
       <div class="fullpage-content-grid">
         <div class="fullpage-guide-card">
-          <h3 style="font-size: 16px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
-            <i data-lucide="file-text" style="width: 16px; height: 16px; color: var(--pill-blue-text);"></i>
+          <h3 style="font-size: 15px; font-weight: 700; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
+            <i data-lucide="file-text" style="width: 16px; height: 16px; color: var(--text-muted);"></i>
             Tóm Tắt Chi Tiết & Đánh Giá Tác Động
           </h3>
-          <div style="font-size: 13.5px; color: var(--text-main); line-height: 1.65; background: var(--bg-surface); padding: 14px; border-radius: var(--radius-sm); border-left: 3px solid var(--pill-blue-text);">
+          <div style="font-size: 13.5px; color: var(--text-main); line-height: 1.65; background: var(--bg-surface); padding: 14px; border-radius: var(--radius-sm); border-left: 3px solid var(--border-focus);">
             ${item.summary}
           </div>
 
-          <h3 style="font-size: 15px; font-weight: 800; color: var(--pill-green-text); margin-top: 14px; display: flex; align-items: center; gap: 6px;">
-            <i data-lucide="shield-alert" style="width: 16px; height: 16px;"></i>
+          <h3 style="font-size: 15px; font-weight: 700; color: var(--text-main); margin-top: 14px; display: flex; align-items: center; gap: 6px;">
+            <i data-lucide="shield-check" style="width: 16px; height: 16px; color: var(--pill-green-text);"></i>
             Khuyến Nghị Kỹ Thuật & Ứng Dụng Thực Chiến
           </h3>
           <ul style="padding-left: 20px; font-size: 13px; color: var(--text-muted); line-height: 1.6;">
@@ -1534,19 +1493,19 @@ function openFullPageRadarDetail(radarId, updateHash = true) {
             <div style="display: flex; flex-direction: column; gap: 8px; font-size: 12.5px;">
               <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 5px;"><span style="color: var(--text-muted);">Nguồn radar</span><strong style="color: var(--text-main);">${item.source}</strong></div>
               <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 5px;"><span style="color: var(--text-muted);">Độ nghiêm trọng</span><span class="badge-tag ${severityBadge}">${item.badge}</span></div>
-              <div style="display: flex; justify-content: space-between; padding-bottom: 2px;"><span style="color: var(--text-muted);">Trạng thái</span><span style="color: var(--pill-green-text); font-weight: 700;">🟢 Đang theo dõi</span></div>
+              <div style="display: flex; justify-content: space-between; padding-bottom: 2px;"><span style="color: var(--text-muted);">Trạng thái</span><span style="color: var(--pill-green-text); font-weight: 600;">Active / Monitoring</span></div>
             </div>
           </div>
 
           <div class="fullpage-guide-card">
-            <div style="font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 6px;">Thảo Luận & Nguồn Liên Quan</div>
+            <div style="font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 6px;">Nguồn Tham Khảo</div>
             <div style="display: flex; flex-direction: column; gap: 8px;">
               <a href="${item.url}" target="_blank" class="domain-chip" style="justify-content: space-between;">
-                <span>🌐 Link Nguồn Gốc</span>
+                <span>Tài liệu nguồn gốc</span>
                 <i data-lucide="external-link" style="width: 12px; height: 12px;"></i>
               </a>
               <a href="https://x.com/search?q=${encodeURIComponent(item.title)}" target="_blank" class="domain-chip" style="justify-content: space-between;">
-                <span>💬 Thảo Luận Trên X</span>
+                <span>Tìm kiếm thảo luận trên X</span>
                 <i data-lucide="external-link" style="width: 12px; height: 12px;"></i>
               </a>
             </div>
@@ -1606,14 +1565,14 @@ function openFullPageCollectionDetail(colId, updateHash = true) {
         <div class="fullpage-repo-header">
           <div>
             <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 6px;">
-              <span class="badge-tag" style="color: ${col.badge_color}; font-weight: 700;">${col.badge}</span>
-              <span class="badge-tag" style="color: var(--pill-green-text); font-weight: 700;">${col.repos.length} Repositories</span>
+              <span class="badge-tag" style="color: var(--text-main); font-weight: 600;">${col.badge}</span>
+              <span class="badge-tag" style="color: var(--pill-green-text); font-weight: 600;">${col.repos.length} Repositories</span>
             </div>
-            <h1 style="font-size: 26px; font-weight: 800; color: var(--text-main);">${col.title}</h1>
-            <div style="font-size: 14px; color: var(--text-muted); margin-top: 6px; line-height: 1.5;">${col.description}</div>
+            <h1 style="font-size: 24px; font-weight: 800; color: var(--text-main);">${col.title}</h1>
+            <div style="font-size: 13.5px; color: var(--text-muted); margin-top: 6px; line-height: 1.5;">${col.description}</div>
           </div>
           <div>
-            <button class="btn-zinc" onclick="copyCollectionLinks('${col.id}')" style="background: var(--primary-btn-bg); color: var(--primary-btn-text); font-weight: 700;">
+            <button class="btn-zinc" onclick="copyCollectionLinks('${col.id}')" style="background: var(--primary-btn-bg); color: var(--primary-btn-text);">
               <i data-lucide="copy" style="width: 14px; height: 14px;"></i>
               <span>Sao Chép Toàn Bộ Link (${col.repos.length})</span>
             </button>
@@ -1623,7 +1582,7 @@ function openFullPageCollectionDetail(colId, updateHash = true) {
 
       <!-- Repositories Grid in this Collection -->
       <div>
-        <div style="font-size: 15px; font-weight: 800; color: var(--text-main); margin-bottom: 14px;">Danh Sách Repositories Tuyển Chọn:</div>
+        <div style="font-size: 14px; font-weight: 700; color: var(--text-main); margin-bottom: 14px;">Danh Sách Repositories Tuyển Chọn:</div>
         <div class="cards-feed-grid layout-grid-3">
           ${repoObjects.map(r => {
             const owner = r.owner || r.full_name.split('/')[0];
@@ -1639,12 +1598,12 @@ function openFullPageCollectionDetail(colId, updateHash = true) {
                 </div>
                 <div class="card-desc-text">${r.description || 'Repository tuyển chọn'}</div>
                 <div class="card-footer-row">
-                  <span style="display: inline-flex; align-items: center; gap: 4px; font-size: 12px;">
+                  <span style="display: inline-flex; align-items: center; gap: 4px; font-size: 12px; color: var(--text-muted);">
                     <span style="width: 8px; height: 8px; border-radius: 50%; background: ${langColor};"></span>
                     ${r.language || 'Code'}
                   </span>
-                  <span style="color: var(--pill-amber-text); font-size: 12px; font-weight: 600;">⭐ ${formatNumber(r.stars)}</span>
-                  <span style="color: var(--pill-blue-text); font-size: 11.5px; font-weight: 600;">Xem chi tiết ↗</span>
+                  <span style="color: var(--accent-star); font-size: 12px; font-weight: 600;">⭐ ${formatNumber(r.stars)}</span>
+                  <span style="color: var(--text-muted); font-size: 11.5px; font-weight: 600;">Xem chi tiết ↗</span>
                 </div>
               </div>
             `;
@@ -1676,8 +1635,8 @@ function openFullPageToolDetail(toolId, updateHash = true) {
                (state.launches || []).find(l => l.id === toolId || l.title === toolId) || {
                  id: toolId,
                  name: toolId,
-                 category: '🤖 AI & Dev Tools',
-                 badge: 'Hot Tool',
+                 category: 'AI & Dev Tools',
+                 badge: 'Tool',
                  description: 'Công cụ lập trình và tiện ích năng suất cho lập trình viên.',
                  tags: ['ai', 'tools', 'productivity'],
                  url: 'https://github.com'
@@ -1695,14 +1654,14 @@ function openFullPageToolDetail(toolId, updateHash = true) {
         <div class="fullpage-repo-header">
           <div>
             <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 6px;">
-              <span class="badge-tag" style="color: var(--pill-blue-text); font-weight: 700;">${tool.category || 'Developer Tool'}</span>
-              <span class="badge-tag" style="color: var(--pill-purple-text); font-weight: 700;">${tool.badge || 'Launch'}</span>
+              <span class="badge-tag" style="color: var(--text-main); font-weight: 600;">${tool.category || 'Developer Tool'}</span>
+              <span class="badge-tag" style="color: var(--text-muted); font-weight: 600;">${tool.badge || 'Launch'}</span>
             </div>
-            <h1 style="font-size: 26px; font-weight: 800; color: var(--text-main);">${titleName}</h1>
-            <div style="font-size: 14px; color: var(--text-muted); margin-top: 6px; line-height: 1.5;">${tool.description}</div>
+            <h1 style="font-size: 24px; font-weight: 800; color: var(--text-main);">${titleName}</h1>
+            <div style="font-size: 13.5px; color: var(--text-muted); margin-top: 6px; line-height: 1.5;">${tool.description}</div>
           </div>
           <div>
-            <a href="${linkUrl}" target="_blank" class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text); font-weight: 700;">
+            <a href="${linkUrl}" target="_blank" class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text);">
               <span>Mở Website / GitHub ↗</span>
             </a>
           </div>
@@ -1712,23 +1671,23 @@ function openFullPageToolDetail(toolId, updateHash = true) {
       <!-- Main Content Grid -->
       <div class="fullpage-content-grid">
         <div class="fullpage-guide-card">
-          <h3 style="font-size: 16px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
-            <i data-lucide="wrench" style="width: 16px; height: 16px; color: var(--pill-blue-text);"></i>
+          <h3 style="font-size: 15px; font-weight: 700; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
+            <i data-lucide="wrench" style="width: 16px; height: 16px; color: var(--text-muted);"></i>
             Tính Năng Nổi Bật
           </h3>
-          <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.6;">${tool.description}</p>
+          <p style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">${tool.description}</p>
           <div style="margin-top: 10px; display: flex; gap: 6px; flex-wrap: wrap;">
             ${(tool.tags || tool.tech_stack || []).map(t => `<span class="badge-tag">#${t}</span>`).join('')}
           </div>
         </div>
 
         <div class="fullpage-guide-card">
-          <h3 style="font-size: 15px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
-            <i data-lucide="link" style="width: 16px; height: 16px; color: var(--pill-green-text);"></i>
+          <h3 style="font-size: 15px; font-weight: 700; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
+            <i data-lucide="link" style="width: 16px; height: 16px; color: var(--text-muted);"></i>
             Đường Dẫn Truy Cập
           </h3>
           <div style="font-size: 12.5px; color: var(--text-muted); word-break: break-all; margin-bottom: 12px;">${linkUrl}</div>
-          <a href="${linkUrl}" target="_blank" class="btn-zinc" style="justify-content: center; background: var(--primary-btn-bg); color: var(--primary-btn-text); font-weight: 700;">
+          <a href="${linkUrl}" target="_blank" class="btn-zinc" style="justify-content: center; background: var(--primary-btn-bg); color: var(--primary-btn-text);">
             Truy Cập Ngay
           </a>
         </div>
@@ -1779,9 +1738,9 @@ function openFullPageJobDetail(jobId, updateHash = true) {
         <div class="fullpage-repo-header">
           <div>
             <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 6px;">
-              <span class="badge-tag" style="color: var(--pill-blue-text); font-weight: 700;">${job.track}</span>
-              <span class="badge-tag" style="color: var(--pill-purple-text); font-weight: 700;">${job.level}</span>
-              <span class="badge-tag" style="color: var(--pill-green-text); font-weight: 700;">${job.source_badge || 'Cộng Đồng'}</span>
+              <span class="badge-tag" style="color: var(--text-main); font-weight: 600;">${job.track}</span>
+              <span class="badge-tag" style="color: var(--text-muted); font-weight: 600;">${job.level}</span>
+              <span class="badge-tag" style="color: var(--pill-green-text); font-weight: 600;">${job.source_badge || 'Cộng Đồng'}</span>
             </div>
             <h1 style="font-size: 24px; font-weight: 800; color: var(--text-main);">${job.title}</h1>
             <div style="display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--text-muted); margin-top: 6px;">
@@ -1791,7 +1750,7 @@ function openFullPageJobDetail(jobId, updateHash = true) {
             </div>
           </div>
           <div style="text-align: right;">
-            <div class="job-salary-badge" style="font-size: 14px; padding: 6px 12px;">${job.salary}</div>
+            <div class="job-salary-badge" style="font-size: 13px; padding: 6px 12px;">${job.salary}</div>
           </div>
         </div>
       </div>
@@ -1799,14 +1758,14 @@ function openFullPageJobDetail(jobId, updateHash = true) {
       <!-- Job Description & Requirements Grid -->
       <div class="fullpage-content-grid">
         <div class="fullpage-guide-card">
-          <h3 style="font-size: 16px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
-            <i data-lucide="briefcase" style="width: 16px; height: 16px; color: var(--pill-blue-text);"></i>
+          <h3 style="font-size: 15px; font-weight: 700; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
+            <i data-lucide="briefcase" style="width: 16px; height: 16px; color: var(--text-muted);"></i>
             Mô tả công việc (Job Description)
           </h3>
-          <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.6;">${job.description}</p>
+          <p style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">${job.description}</p>
 
-          <h3 style="font-size: 16px; font-weight: 800; color: var(--text-main); margin-top: 14px; display: flex; align-items: center; gap: 6px;">
-            <i data-lucide="check-circle" style="width: 16px; height: 16px; color: var(--pill-green-text);"></i>
+          <h3 style="font-size: 15px; font-weight: 700; color: var(--text-main); margin-top: 14px; display: flex; align-items: center; gap: 6px;">
+            <i data-lucide="check-circle-2" style="width: 16px; height: 16px; color: var(--pill-green-text);"></i>
             Yêu cầu kỹ năng (Requirements)
           </h3>
           <ul style="padding-left: 20px; font-size: 13px; color: var(--text-muted); line-height: 1.6;">
@@ -1819,8 +1778,8 @@ function openFullPageJobDetail(jobId, updateHash = true) {
         </div>
 
         <div class="fullpage-guide-card">
-          <h3 style="font-size: 15px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
-            <i data-lucide="gift" style="width: 16px; height: 16px; color: var(--pill-amber-text);"></i>
+          <h3 style="font-size: 15px; font-weight: 700; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
+            <i data-lucide="gift" style="width: 16px; height: 16px; color: var(--text-muted);"></i>
             Quyền lợi & Đãi ngộ
           </h3>
           <ul style="padding-left: 20px; font-size: 13px; color: var(--text-muted); line-height: 1.6;">
@@ -1829,7 +1788,7 @@ function openFullPageJobDetail(jobId, updateHash = true) {
 
           <div style="margin-top: 20px; border-top: 1px solid var(--border-subtle); padding-top: 14px;">
             <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 8px;">Nguồn tin: <strong>${job.source}</strong></div>
-            <a href="${job.url}" target="_blank" class="btn-zinc" style="width: 100%; justify-content: center; background: var(--primary-btn-bg); color: var(--primary-btn-text); font-weight: 700; padding: 10px;">
+            <a href="${job.url}" target="_blank" class="btn-zinc" style="width: 100%; justify-content: center; background: var(--primary-btn-bg); color: var(--primary-btn-text); padding: 9px 12px;">
               <span>Ứng Tuyển / Xem Bài Đăng Gốc ↗</span>
             </a>
           </div>
@@ -2014,7 +1973,7 @@ function renderDevTools() {
           <div class="card-header-row">
             <div class="card-title-block">
               <img src="${item.author_avatar}" class="card-avatar" alt="${item.author}">
-              <span class="badge-tag" style="color: var(--pill-cyan-text); font-weight: 700;">🚀 Launch</span>
+              <span class="badge-tag" style="color: var(--text-main); font-weight: 600;">Launch</span>
               <div class="card-title-link">${item.title}</div>
             </div>
             <button class="upvote-btn ${upvoted ? 'upvoted' : ''}" onclick="event.stopPropagation(); toggleLaunchUpvote('${item.id}')">
@@ -2029,7 +1988,7 @@ function renderDevTools() {
             <div style="display: flex; gap: 5px; flex-wrap: wrap;">
               ${(item.tech_stack || []).map(t => `<span class="domain-chip">#${t}</span>`).join('')}
             </div>
-            <span style="color: var(--pill-blue-text); font-size: 11.5px; font-weight: 600;">Xem chi tiết ↗</span>
+            <span style="color: var(--text-muted); font-size: 11.5px; font-weight: 600;">Xem chi tiết ↗</span>
           </div>
         </div>
       `;
@@ -2056,10 +2015,10 @@ function renderDevTools() {
         <div class="project-card" onclick="openFullPageToolDetail('${t.id}')" style="cursor: pointer;">
           <div class="card-header-row">
             <div class="card-title-block">
-              <span class="badge-tag" style="color: var(--pill-purple-text); font-weight: 700;">${t.badge}</span>
+              <span class="badge-tag" style="color: var(--text-main); font-weight: 600;">${t.badge}</span>
               <div class="card-title-link">${t.name}</div>
             </div>
-            <span style="font-size: 11px; color: var(--pill-blue-text); font-family: var(--font-mono);">${t.category}</span>
+            <span style="font-size: 11px; color: var(--text-muted); font-family: var(--font-mono);">${t.category}</span>
           </div>
 
           <div class="card-desc-text">${t.description}</div>
@@ -2068,7 +2027,7 @@ function renderDevTools() {
             <div style="display: flex; gap: 4px; flex-wrap: wrap;">
               ${(t.tags || []).map(tag => `<span class="domain-chip">#${tag}</span>`).join('')}
             </div>
-            <span style="color: var(--pill-blue-text); font-size: 11.5px; font-weight: 600;">Xem chi tiết ↗</span>
+            <span style="color: var(--text-muted); font-size: 11.5px; font-weight: 600;">Xem chi tiết ↗</span>
           </div>
         </div>
       `;

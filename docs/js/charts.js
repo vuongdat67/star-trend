@@ -262,7 +262,7 @@ function renderVelocityLeaderboard(trendingRepos) {
             <th>Repository</th>
             <th>Ngôn ngữ</th>
             <th style="text-align: right;">⭐ Tổng Stars</th>
-            <th style="text-align: right;">🚀 Tăng trưởng</th>
+            <th style="text-align: right;">Tăng trưởng</th>
           </tr>
         </thead>
         <tbody>

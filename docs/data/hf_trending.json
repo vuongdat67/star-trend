@@ -506,9 +506,9 @@
       "owner": "markov-ai",
       "name": "cad-1000-hours",
       "url": "https://huggingface.co/markov-ai/cad-1000-hours",
-      "description": "Pipeline: Model | Downloads: 76,013 | Likes: 239",
+      "description": "Pipeline: Model | Downloads: 76,013 | Likes: 240",
       "pipeline_tag": "Model",
-      "likes": 239,
+      "likes": 240,
       "downloads": 76013,
       "tags": [
         "modality:video",
@@ -762,6 +762,26 @@
     },
     {
       "rank": 14,
+      "full_name": "TeichAI/Ox-Alpha-10k",
+      "owner": "TeichAI",
+      "name": "Ox-Alpha-10k",
+      "url": "https://huggingface.co/TeichAI/Ox-Alpha-10k",
+      "description": "Pipeline: Model | Downloads: 242 | Likes: 20",
+      "pipeline_tag": "Model",
+      "likes": 20,
+      "downloads": 242,
+      "tags": [
+        "task_categories:text-generation",
+        "language:en",
+        "size_categories:1K<n<10K",
+        "format:json",
+        "modality:text"
+      ],
+      "source": "huggingface",
+      "type": "datasets"
+    },
+    {
+      "rank": 15,
       "full_name": "HuggingFaceFW/fineweb",
       "owner": "HuggingFaceFW",
       "name": "fineweb",
@@ -781,7 +801,7 @@
       "type": "datasets"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "full_name": "saidutta69/fable-5-premium",
       "owner": "saidutta69",
       "name": "fable-5-premium",
@@ -796,26 +816,6 @@
         "language:en",
         "license:mit",
         "size_categories:10K<n<100K"
-      ],
-      "source": "huggingface",
-      "type": "datasets"
-    },
-    {
-      "rank": 16,
-      "full_name": "TeichAI/Ox-Alpha-10k",
-      "owner": "TeichAI",
-      "name": "Ox-Alpha-10k",
-      "url": "https://huggingface.co/TeichAI/Ox-Alpha-10k",
-      "description": "Pipeline: Model | Downloads: 242 | Likes: 19",
-      "pipeline_tag": "Model",
-      "likes": 19,
-      "downloads": 242,
-      "tags": [
-        "task_categories:text-generation",
-        "language:en",
-        "size_categories:1K<n<10K",
-        "format:json",
-        "modality:text"
       ],
       "source": "huggingface",
       "type": "datasets"
