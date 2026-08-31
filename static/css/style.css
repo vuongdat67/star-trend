@@ -1,10 +1,10 @@
 /* ==========================================================================
-   Jet-Black Charcoal & Taste-Skill Editorial Dark Design System
+   Jet-Black Charcoal & High-End Visual Design System (VocabMaster / Linear Tier)
    Pure Deep Black (#0b0c10) | Zero Blue Haze | High Contrast Crisp Typography
    ========================================================================== */
 
 :root {
-  /* Dark Mode - Pure Deep Charcoal & Jet Black (VocabMaster / Splunk Style) */
+  /* Dark Mode - Pure Deep Charcoal & Jet Black */
   --bg-body: #0b0c10;
   --bg-surface: #12131a;
   --bg-card: #14161f;
@@ -23,7 +23,7 @@
   --text-faint: #64748b;
   --text-inverse: #0b0c10;
   
-  /* Precision Spot Pastels & Accents (No Glows, Clean Contrast) */
+  /* Precision Spot Accents */
   --pill-blue-bg: #172554;
   --pill-blue-text: #60a5fa;
   --pill-blue-border: #1e40af;
@@ -43,30 +43,35 @@
   --pill-red-bg: #450a0a;
   --pill-red-text: #f87171;
   --pill-red-border: #7f1d1d;
+
+  --pill-cyan-bg: #083344;
+  --pill-cyan-text: #38bdf8;
+  --pill-cyan-border: #0e7490;
   
   --primary-btn-bg: #2563eb;
   --primary-btn-text: #ffffff;
+  --accent-star: #fbbf24;
   
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
   
-  --radius-xs: 3px;
+  --radius-xs: 4px;
   --radius-sm: 6px;
-  --radius-md: 8px;
-  --radius-lg: 12px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
   --radius-full: 9999px;
   
-  --transition: all 0.12s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* Light Mode - Crisp Neutral Clean */
+/* Light Mode */
 [data-theme="light"] {
   --bg-body: #f8fafc;
   --bg-surface: #ffffff;
   --bg-card: #ffffff;
   --bg-card-hover: #f1f5f9;
   --bg-sidebar: #ffffff;
-  --bg-input: #ffffff;
+  --bg-input: #f8fafc;
   --bg-badge: #f1f5f9;
   --bg-badge-hover: #e2e8f0;
   
@@ -98,6 +103,10 @@
   --pill-red-bg: #fef2f2;
   --pill-red-text: #b91c1c;
   --pill-red-border: #fecaca;
+
+  --pill-cyan-bg: #ecfeff;
+  --pill-cyan-text: #0891b2;
+  --pill-cyan-border: #a5f3fc;
   
   --primary-btn-bg: #2563eb;
   --primary-btn-text: #ffffff;
@@ -124,6 +133,11 @@ a {
   text-decoration: none;
 }
 
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
 .container {
   max-width: 1560px;
   margin: 0 auto;
@@ -148,24 +162,23 @@ a {
 }
 
 .brand-logo {
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: -0.02em;
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 15px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
+  gap: 6px;
   color: var(--text-main);
 }
 
 .brand-badge {
   font-family: var(--font-mono);
   font-size: 11px;
-  font-weight: 700;
   padding: 2px 7px;
-  border-radius: var(--radius-sm);
-  background: var(--pill-blue-bg);
-  color: var(--pill-blue-text);
-  border: 1px solid var(--pill-blue-border);
+  border-radius: var(--radius-xs);
+  background: var(--bg-badge);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
 }
 
 .source-pill-group {
@@ -174,72 +187,74 @@ a {
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 2px;
-  gap: 2px;
+  margin-left: 8px;
 }
 
 .source-btn {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 4px 12px;
-  border-radius: var(--radius-sm);
+  gap: 5px;
+  padding: 4px 10px;
+  border-radius: var(--radius-xs);
   border: none;
   background: transparent;
   color: var(--text-muted);
-  font-size: 12.5px;
+  font-size: 11.5px;
   font-weight: 600;
   cursor: pointer;
   transition: var(--transition);
 }
 
+.source-btn:hover { color: var(--text-main); }
 .source-btn.active {
-  background: var(--primary-btn-bg);
-  color: var(--primary-btn-text);
+  background: var(--bg-card);
+  color: var(--text-main);
+  border: 1px solid var(--border);
 }
 
 .topbar-actions {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
 }
 
-/* ==================== MOMENTUM TICKER ==================== */
+/* ==================== LIVE TICKER ==================== */
 .ticker-strip {
-  background: var(--bg-surface);
+  background: var(--bg-body);
   border-bottom: 1px solid var(--border);
   height: 40px;
   display: flex;
   align-items: center;
   overflow: hidden;
-  font-size: 12.5px;
+  position: relative;
 }
 
 .ticker-lead {
   display: flex;
   align-items: center;
   gap: 6px;
-  padding: 0 14px;
-  height: 100%;
-  font-weight: 800;
-  font-size: 11px;
-  letter-spacing: 0.05em;
+  padding: 0 16px;
+  font-weight: 700;
+  font-size: 11.5px;
   text-transform: uppercase;
-  color: var(--text-main);
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
   background: var(--bg-surface);
+  height: 100%;
   border-right: 1px solid var(--border);
-  white-space: nowrap;
   z-index: 2;
+  flex-shrink: 0;
 }
 
 .ticker-marquee {
   display: flex;
   align-items: center;
-  gap: 0;
   white-space: nowrap;
   animation: marqueeLoop 60s linear infinite;
+  will-change: transform;
 }
 
-.ticker-strip:hover .ticker-marquee {
+.ticker-marquee:hover {
   animation-play-state: paused;
 }
 
@@ -320,7 +335,7 @@ a {
 }
 
 .app-layout-grid.sidebar-hidden .sidebar-column {
-  display: none;
+  display: none !important;
 }
 
 /* Controls Panel */
@@ -345,19 +360,19 @@ a {
 
 .tab-btn-group {
   display: flex;
-  gap: 2px;
+  gap: 3px;
   background: var(--bg-input);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  padding: 2px;
+  padding: 3px;
 }
 
 .tab-btn {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 6px 14px;
-  border-radius: var(--radius-sm);
+  padding: 6px 12px;
+  border-radius: var(--radius-xs);
   border: none;
   background: transparent;
   color: var(--text-muted);
@@ -384,7 +399,7 @@ a {
 
 .search-wrap {
   flex: 1;
-  min-width: 200px;
+  min-width: 220px;
   position: relative;
 }
 
@@ -403,10 +418,11 @@ a {
   background: var(--bg-input);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  padding: 6px 10px 6px 30px;
+  padding: 7px 10px 7px 32px;
   color: var(--text-main);
   font-size: 12.5px;
   outline: none;
+  transition: var(--transition);
 }
 
 .input-text:focus { border-color: var(--border-focus); }
@@ -421,6 +437,7 @@ a {
   font-weight: 500;
   outline: none;
   cursor: pointer;
+  transition: var(--transition);
 }
 
 .select-control:focus { border-color: var(--border-focus); }
@@ -435,12 +452,15 @@ a {
 }
 
 .layout-btn {
-  padding: 4px 7px;
-  border-radius: var(--radius-sm);
+  padding: 5px 8px;
+  border-radius: var(--radius-xs);
   border: none;
   background: transparent;
   color: var(--text-muted);
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .layout-btn.active {
@@ -449,37 +469,41 @@ a {
   border: 1px solid var(--border);
 }
 
-/* ==================== RADAR SUB-CATEGORY FILTER PILLS ==================== */
+/* ==================== SUB-CATEGORY FILTER PILLS (Radar / Tools / Jobs) ==================== */
 .radar-subfilter-bar {
   display: flex;
   align-items: center;
   gap: 6px;
   flex-wrap: wrap;
-  padding: 4px 0 6px;
+  padding: 2px 0 4px;
 }
 
-.radar-filter-pill {
+.pill-btn, .radar-filter-pill {
   font-size: 11.5px;
   font-weight: 600;
-  padding: 4px 11px;
+  padding: 5px 12px;
   border-radius: var(--radius-full);
   background: var(--bg-badge);
   border: 1px solid var(--border);
   color: var(--text-muted);
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   transition: var(--transition);
+  outline: none;
 }
 
-.radar-filter-pill:hover {
+.pill-btn:hover, .radar-filter-pill:hover {
   color: var(--text-main);
   background: var(--bg-badge-hover);
   border-color: var(--border-focus);
 }
 
-.radar-filter-pill.active {
-  background: var(--primary-btn-bg);
-  color: var(--primary-btn-text);
-  border-color: var(--primary-btn-bg);
+.pill-btn.active, .radar-filter-pill.active {
+  background: var(--pill-blue-bg);
+  color: var(--pill-blue-text);
+  border-color: var(--pill-blue-border);
   font-weight: 700;
 }
 
@@ -487,6 +511,7 @@ a {
 .cards-feed-grid {
   display: grid;
   gap: 12px;
+  width: 100%;
 }
 
 .cards-feed-grid.layout-grid-3 {
@@ -531,6 +556,7 @@ a {
   align-items: center;
   gap: 8px;
   flex-wrap: wrap;
+  flex: 1;
 }
 
 .card-avatar {
@@ -539,6 +565,7 @@ a {
   border-radius: 50%;
   border: 1px solid var(--border);
   object-fit: cover;
+  flex-shrink: 0;
 }
 
 .rank-tag {
@@ -557,6 +584,7 @@ a {
   font-weight: 700;
   color: var(--text-main);
   word-break: break-word;
+  cursor: pointer;
 }
 
 .card-title-link:hover {
@@ -572,6 +600,9 @@ a {
   background: var(--bg-badge);
   color: var(--text-muted);
   border: 1px solid var(--border);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .badge-tag.cve-critical { background: var(--pill-red-bg); color: var(--pill-red-text); border-color: var(--pill-red-border); font-weight: 800; }
@@ -616,6 +647,7 @@ a {
   color: var(--text-muted);
   border: 1px solid var(--border);
   cursor: pointer;
+  transition: var(--transition);
 }
 
 .domain-chip:hover {
@@ -624,10 +656,33 @@ a {
   border-color: var(--border-focus);
 }
 
-.metrics-row {
-  display: flex;
+/* Card Action Button (Bookmark / Note Icon buttons) */
+.card-action-btn {
+  display: inline-flex;
   align-items: center;
-  gap: 8px;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: var(--transition);
+  padding: 0;
+  outline: none;
+}
+
+.card-action-btn:hover {
+  background: var(--bg-card-hover);
+  color: var(--text-main);
+  border-color: var(--border-focus);
+}
+
+.card-action-btn.active {
+  background: var(--pill-amber-bg);
+  border-color: var(--pill-amber-border);
+  color: var(--pill-amber-text);
 }
 
 /* ==================== SIDEBAR ==================== */
@@ -642,14 +697,8 @@ a {
   padding-right: 2px;
 }
 
-.sidebar-column::-webkit-scrollbar {
-  width: 4px;
-}
-
-.sidebar-column::-webkit-scrollbar-thumb {
-  background: var(--border);
-  border-radius: 4px;
-}
+.sidebar-column::-webkit-scrollbar { width: 4px; }
+.sidebar-column::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 
 .sidebar-box {
   background: var(--bg-surface);
@@ -681,10 +730,11 @@ a {
   color: var(--text-muted);
   font-size: 12.5px;
   cursor: pointer;
+  transition: var(--transition);
 }
 
 .cat-row:hover { background: var(--bg-badge); color: var(--text-main); }
-.cat-row.active { background: var(--bg-badge); color: var(--pill-blue-text); font-weight: 700; }
+.cat-row.active { background: var(--bg-badge); color: var(--pill-blue-text); font-weight: 700; border-left: 2px solid var(--pill-blue-text); }
 
 .cat-num {
   font-family: var(--font-mono);
@@ -705,42 +755,41 @@ a {
   border-radius: var(--radius-sm);
 }
 
-.topic-cloud-wrap::-webkit-scrollbar {
-  width: 5px;
-}
-
-.topic-cloud-wrap::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.topic-cloud-wrap::-webkit-scrollbar-thumb {
-  background: var(--border);
-  border-radius: 4px;
-}
-
-.topic-cloud-wrap::-webkit-scrollbar-thumb:hover {
-  background: var(--text-faint);
-}
-
-.topic-pill {
+.topic-chip {
   font-family: var(--font-mono);
   font-size: 11px;
-  padding: 3px 7px;
-  border-radius: var(--radius-xs);
+  font-weight: 500;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
   background: var(--bg-badge);
   border: 1px solid var(--border);
   color: var(--text-muted);
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: var(--transition);
+  text-decoration: none;
 }
 
-.topic-pill:hover { color: var(--text-main); background: var(--bg-badge-hover); border-color: var(--border-focus); }
-.topic-pill.active { background: var(--primary-btn-bg); color: var(--primary-btn-text); font-weight: 700; border-color: var(--primary-btn-bg); }
+.topic-chip:hover {
+  background: var(--bg-badge-hover);
+  color: var(--text-main);
+  border-color: var(--border-focus);
+}
+
+.topic-chip.active {
+  background: var(--pill-blue-bg);
+  color: var(--pill-blue-text);
+  border-color: var(--pill-blue-border);
+  font-weight: 700;
+}
 
 /* Buttons */
 .btn-zinc {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
   padding: 6px 12px;
   border-radius: var(--radius-sm);
   border: 1px solid var(--border);
@@ -767,21 +816,25 @@ a {
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(4px);
   z-index: 1000;
   display: none;
   align-items: center;
   justify-content: center;
+  padding: 16px;
 }
+
 .modal-overlay.open { display: flex; }
 
 .modal-card {
   background: var(--bg-surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  width: 90%;
-  max-width: 560px;
+  width: 100%;
+  max-width: 600px;
   padding: 20px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
 }
 
 .file-export-row {
@@ -842,7 +895,6 @@ a {
 .collection-card:hover {
   background: var(--bg-card-hover);
   border-color: var(--border-focus);
-  transform: translateY(-1px);
 }
 
 .collection-header {
@@ -881,7 +933,7 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  padding: 3px 8px;
+  padding: 4px 9px;
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-xs);
@@ -889,6 +941,7 @@ a {
   font-size: 11.5px;
   color: var(--text-muted);
   text-decoration: none;
+  cursor: pointer;
   transition: var(--transition);
 }
 
@@ -911,7 +964,7 @@ a {
 .stats-dashboard-wrap {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
   width: 100%;
 }
 
@@ -1152,112 +1205,7 @@ a {
   color: var(--pill-amber-text);
 }
 
-/* ==================== 4. WEEKLY DIGEST ==================== */
-.digest-container {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  width: 100%;
-}
-
-.digest-banner {
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(168, 85, 247, 0.1) 100%);
-  border: 1px solid var(--pill-blue-border);
-  border-radius: var(--radius-md);
-  padding: 16px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.digest-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.digest-card:hover {
-  background: var(--bg-card-hover);
-  border-color: var(--border-focus);
-}
-
-/* ==================== 5. QUICK REPO INSPECTOR MODAL ==================== */
-.inspector-search-box {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 16px;
-}
-
-.inspector-preview-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: 18px;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.inspector-stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 8px;
-}
-
-.inspector-stat-pill {
-  background: var(--bg-surface);
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-sm);
-  padding: 8px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.inspector-stat-num {
-  font-family: var(--font-mono);
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--text-main);
-}
-
-.inspector-stat-label {
-  font-size: 10.5px;
-  color: var(--text-muted);
-  text-transform: uppercase;
-}
-
-/* ==================== 6. DEV QUOTE RADAR ==================== */
-.quote-card {
-  background: var(--bg-surface);
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-sm);
-  padding: 12px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  font-size: 12px;
-}
-
-.quote-text {
-  color: var(--text-main);
-  font-style: italic;
-  line-height: 1.45;
-}
-
-.quote-author {
-  color: var(--text-muted);
-  font-size: 11px;
-  text-align: right;
-  font-weight: 600;
-}
-
-/* ==================== 7. TECH & CYBERSECURITY JOB RADAR ==================== */
+/* ==================== 4. TECH & CYBERSECURITY JOB RADAR ==================== */
 .jobs-container {
   display: flex;
   flex-direction: column;
@@ -1331,16 +1279,6 @@ a {
   border-radius: var(--radius-xs);
 }
 
-.job-meta-row {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
-  font-size: 11.5px;
-  color: var(--text-muted);
-}
-
-/* Platforms Directory Box */
 .platform-category-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -1400,11 +1338,11 @@ a {
   line-height: 1.35;
 }
 
-/* Market Insights Visuals */
+/* Market Insights */
 .insights-wrap {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 16px;
 }
 
 .insights-kpi-row {
@@ -1456,18 +1394,79 @@ a {
   color: var(--text-muted);
 }
 
-/* ==================== 8. SINGLE REPO DEEP DIVE MODAL ==================== */
-.repo-detail-header {
+/* ==================== 5. SINGLE REPO DEEP DIVE MODAL (VUI CODING TIER) ==================== */
+.repo-hero-banner {
+  background: linear-gradient(135deg, rgba(23, 37, 84, 0.9) 0%, rgba(18, 20, 30, 0.95) 100%);
+  border: 1px solid var(--pill-blue-border);
+  border-radius: var(--radius-md);
+  padding: 20px;
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.repo-hero-header {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  gap: 14px;
-  padding-bottom: 14px;
-  border-bottom: 1px solid var(--border-subtle);
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.repo-hero-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.repo-hero-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--bg-surface);
+}
+
+.repo-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.repo-metric-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 10px;
+  text-align: center;
+}
+
+.repo-metric-num {
+  font-size: 16px;
+  font-weight: 800;
+  font-family: var(--font-mono);
+  color: var(--text-main);
+}
+
+.repo-metric-label {
+  font-size: 10.5px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.repo-guide-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .repo-clone-box {
-  background: var(--bg-surface);
+  background: var(--bg-body);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-sm);
   padding: 10px 12px;
@@ -1477,7 +1476,30 @@ a {
   font-family: var(--font-mono);
   font-size: 12px;
   color: var(--pill-cyan-text);
-  margin: 10px 0;
+  margin: 8px 0;
 }
 
+/* ==================== 6. DEV QUOTE RADAR ==================== */
+.quote-card {
+  background: var(--bg-input);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 12px;
+}
 
+.quote-text {
+  color: var(--text-main);
+  font-style: italic;
+  line-height: 1.45;
+}
+
+.quote-author {
+  color: var(--text-muted);
+  font-size: 11px;
+  text-align: right;
+  font-weight: 600;
+}

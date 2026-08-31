@@ -1,15 +1,11 @@
 /**
  * Jet-Black Charcoal Stars, Trending, Collections, Stats, Jobs & AI Radar Hub
- * Supports both local server mode (/api/...) and static GitHub Pages mode (./data/....json)
+ * Supports dual-mode: Local Python Server (/api/...) and Static GitHub Pages (./data/*.json)
+ * Implements Vui Coding & CyberJutsu Inspired Deep-Dive & Job Radar Architectures
  */
 
-// ── Static / Server mode detection ──────────────────────────────────────
-// Local Python server runs on port 5000 → server mode (/api/ routes).
-// GitHub Pages or any other host → static mode (./data/*.json).
 const _STATIC_MODE = !(window.location.port === '5000');
 
-// DATA_BASE: always derived from the actual script tag location,
-// so it works regardless of trailing slash or repo sub-path.
 const DATA_BASE = (() => {
   if (!_STATIC_MODE) return '';
   const scripts = document.querySelectorAll('script[src]');
@@ -96,6 +92,37 @@ function formatNumber(num) {
   return num.toString();
 }
 
+// ── Dual-Mode Resilient Fetcher with Auto-Fallback ─────────────────────
+async function fetchWithFallback(apiPath, staticRelPath) {
+  // 1. If in server mode, try API first
+  if (!_STATIC_MODE && apiPath) {
+    try {
+      const res = await fetch(apiPath);
+      if (res.ok) return await res.json();
+    } catch (e) {
+      console.warn(`API ${apiPath} failed, falling back to static path...`);
+    }
+  }
+
+  // 2. Try static file path
+  try {
+    const res = await fetch(DATA_BASE + staticRelPath);
+    if (res.ok) return await res.json();
+  } catch (e) {
+    console.error(`Failed to load from static ${staticRelPath}:`, e);
+  }
+
+  // 3. Fallback: try direct relative path
+  try {
+    const res = await fetch('./' + staticRelPath);
+    if (res.ok) return await res.json();
+  } catch (e) {
+    // ignore
+  }
+
+  return null;
+}
+
 // ==================== INIT ====================
 document.addEventListener('DOMContentLoaded', async () => {
   applyTheme(state.theme);
@@ -108,7 +135,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   setupScrollObserver();
 
-  // Load all initial datasets concurrently (Dual-mode safe)
+  // Load all initial datasets concurrently with resilient fallback
   await Promise.all([
     fetchStarsData(),
     fetchNotesData(),
@@ -122,6 +149,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     fetchJobsData()
   ]);
 
+  renderFeed();
+  renderSidebar();
   lucide.createIcons();
 });
 
@@ -179,7 +208,7 @@ function applySidebarState(hidden) {
 
 function toggleSidebarVisibility() {
   applySidebarState(!state.sidebarHidden);
-  showToast(state.sidebarHidden ? 'Đã ẩn Sidebar để mở rộng không gian' : 'Đã hiện Sidebar danh mục');
+  showToast(state.sidebarHidden ? 'Đã ẩn Sidebar để mở rộng khung nhìn' : 'Đã hiện Sidebar danh mục');
 }
 
 function handlePageLimitChange(val) {
@@ -188,24 +217,15 @@ function handlePageLimitChange(val) {
   renderFeed();
 }
 
-// ==================== DATA FETCHERS (Dual-Mode: Local Server / GitHub Pages) ====================
+// ==================== DATA FETCHERS ====================
 async function fetchStarsData() {
-  try {
-    const url = _STATIC_MODE ? DATA_BASE + 'data/stars.json' : '/api/stars';
-    const res = await fetch(url);
-    const data = await res.json();
+  const data = await fetchWithFallback('/api/stars', 'data/stars.json');
+  if (data) {
     state.starsRepos = data.repos || [];
     state.stats = data.stats || {};
-
     const counter = document.getElementById('stars-total-count');
     if (counter) counter.textContent = state.starsRepos.length;
-
     populateLanguageSelect();
-    renderSidebar();
-
-    if (state.feedMode === 'stars') renderFeed();
-  } catch (err) {
-    console.error('Stars fetch error:', err);
   }
 }
 
@@ -217,144 +237,55 @@ async function fetchNotesData() {
     } catch { state.notesData = { bookmarks: [], notes: {} }; }
     return;
   }
-  try {
-    const res = await fetch('/api/notes');
-    state.notesData = await res.json();
-  } catch (err) {
-    console.error('Notes fetch error:', err);
-  }
+  const data = await fetchWithFallback('/api/notes', 'data/notes.json');
+  if (data) state.notesData = data;
 }
 
 async function fetchTrendingData() {
-  try {
-    let repos;
-    if (_STATIC_MODE) {
-      const period = state.period || 'daily';
-      const res = await fetch(DATA_BASE + `data/trending_${period}.json`);
-      const data = await res.json();
-      repos = data.repos || [];
-      if (state.selectedLang) {
-        repos = repos.filter(r => (r.language || '').toLowerCase() === state.selectedLang.toLowerCase());
-      }
-    } else {
-      const lang = encodeURIComponent(state.selectedLang);
-      const since = encodeURIComponent(state.period);
-      const res = await fetch(`/api/trending?language=${lang}&since=${since}`);
-      const data = await res.json();
-      repos = data.repos || [];
-    }
-    state.trendingRepos = repos;
+  const period = state.period || 'daily';
+  const data = await fetchWithFallback(`/api/trending?since=${period}`, `data/trending_${period}.json`);
+  if (data) {
+    state.trendingRepos = data.repos || [];
     renderTicker();
-    if (state.platform === 'github' && state.feedMode === 'trending') {
-      renderSidebar();
-      renderFeed();
-    }
-  } catch (err) {
-    console.error('Trending fetch error:', err);
-    state.trendingRepos = [];
   }
 }
 
 async function fetchFreshData() {
-  try {
-    let repos;
-    if (_STATIC_MODE) {
-      const res = await fetch(DATA_BASE + 'data/fresh.json');
-      const data = await res.json();
-      repos = data.repos || [];
-      if (state.selectedLang) {
-        repos = repos.filter(r => (r.language || '').toLowerCase() === state.selectedLang.toLowerCase());
-      }
-    } else {
-      const lang = encodeURIComponent(state.selectedLang);
-      const res = await fetch(`/api/fresh?language=${lang}`);
-      const data = await res.json();
-      repos = data.repos || [];
-    }
-    state.freshRepos = repos;
-    if (state.platform === 'github' && state.feedMode === 'new') {
-      renderSidebar();
-      renderFeed();
-    }
-  } catch (err) {
-    console.error('Fresh fetch error:', err);
-    state.freshRepos = [];
-  }
+  const data = await fetchWithFallback('/api/fresh', 'data/fresh.json');
+  if (data) state.freshRepos = data.repos || [];
 }
 
 async function fetchHFTrending() {
-  try {
-    const url = _STATIC_MODE ? DATA_BASE + 'data/hf_trending.json' : '/api/hf-trending?type=models';
-    const res = await fetch(url);
-    const data = await res.json();
-    state.hfTrending = data.items || [];
-    if (state.platform === 'huggingface') {
-      renderSidebar();
-      renderFeed();
-    }
-  } catch (err) {
-    console.error('HF fetch error:', err);
-    state.hfTrending = [];
-  }
+  const data = await fetchWithFallback('/api/hf-trending?type=models', 'data/hf_trending.json');
+  if (data) state.hfTrending = data.items || [];
 }
 
 async function fetchAIPulse() {
-  try {
-    const url = _STATIC_MODE ? DATA_BASE + 'data/ai_pulse.json' : '/api/ai-pulse';
-    const res = await fetch(url);
-    const data = await res.json();
-    state.aiPulse = data.items || [];
-    if (state.feedMode === 'pulse') {
-      renderRadarSubfilters();
-      renderSidebar();
-      renderFeed();
-    }
-  } catch (err) {
-    console.error('AI pulse error:', err);
-  }
+  const data = await fetchWithFallback('/api/ai-pulse', 'data/ai_pulse.json');
+  if (data) state.aiPulse = data.items || [];
 }
 
 async function fetchCollectionsData() {
-  try {
-    const url = _STATIC_MODE ? DATA_BASE + 'data/collections.json' : '/api/collections';
-    const res = await fetch(url);
-    const data = await res.json();
-    state.collections = data.collections || [];
-  } catch (err) {
-    console.error('Collections fetch error:', err);
-  }
+  const data = await fetchWithFallback('/api/collections', 'data/collections.json');
+  if (data) state.collections = data.collections || [];
 }
 
 async function fetchDevToolsData() {
-  try {
-    const url = _STATIC_MODE ? DATA_BASE + 'data/dev_tools.json' : '/api/dev-tools';
-    const res = await fetch(url);
-    const data = await res.json();
+  const data = await fetchWithFallback('/api/dev-tools', 'data/dev_tools.json');
+  if (data) {
     state.devTools = data.tools || [];
     state.launches = data.launches || [];
-  } catch (err) {
-    console.error('Dev tools fetch error:', err);
   }
 }
 
 async function fetchWeeklyDigestData() {
-  try {
-    const url = _STATIC_MODE ? DATA_BASE + 'data/weekly_digest.json' : '/api/weekly-digest';
-    const res = await fetch(url);
-    state.weeklyDigest = await res.json();
-  } catch (err) {
-    console.error('Weekly digest fetch error:', err);
-  }
+  const data = await fetchWithFallback('/api/weekly-digest', 'data/weekly_digest.json');
+  if (data) state.weeklyDigest = data;
 }
 
 async function fetchJobsData() {
-  try {
-    const url = _STATIC_MODE ? DATA_BASE + 'data/jobs.json' : '/api/jobs';
-    const res = await fetch(url);
-    state.jobsData = await res.json();
-  } catch (err) {
-    console.error('Jobs fetch error:', err);
-  }
+  const data = await fetchWithFallback('/api/jobs', 'data/jobs.json');
+  if (data) state.jobsData = data;
 }
 
 // ==================== PLATFORM & FEED MODES ====================
@@ -392,7 +323,6 @@ function switchFeedMode(mode) {
   const resultInfoBar = document.getElementById('result-info-bar');
   const cardsContainer = document.getElementById('cards-feed-container');
   const statsContainer = document.getElementById('stats-view-container');
-  const sidebarColumn = document.getElementById('sidebar-column');
 
   // Toggle Visibility
   if (periodGroup) periodGroup.style.display = (mode === 'trending' || mode === 'new') ? 'flex' : 'none';
@@ -405,7 +335,6 @@ function switchFeedMode(mode) {
     if (statsContainer) statsContainer.style.display = 'flex';
     if (controlsRowBottom) controlsRowBottom.style.display = 'none';
     if (resultInfoBar) resultInfoBar.style.display = 'none';
-    if (sidebarColumn) sidebarColumn.style.display = 'none';
     renderStatsDashboard();
     return;
   } else {
@@ -413,7 +342,6 @@ function switchFeedMode(mode) {
     if (statsContainer) statsContainer.style.display = 'none';
     if (controlsRowBottom) controlsRowBottom.style.display = 'flex';
     if (resultInfoBar) resultInfoBar.style.display = 'flex';
-    if (sidebarColumn) sidebarColumn.style.display = state.sidebarHidden ? 'none' : 'flex';
   }
 
   if (mode === 'pulse') renderRadarSubfilters();
@@ -426,20 +354,22 @@ function changePeriod(period) {
   document.getElementById('period-daily').classList.toggle('active', period === 'daily');
   document.getElementById('period-weekly').classList.toggle('active', period === 'weekly');
   document.getElementById('period-monthly').classList.toggle('active', period === 'monthly');
-  fetchTrendingData();
+  fetchTrendingData().then(() => {
+    if (state.feedMode === 'trending') renderFeed();
+  });
 }
 
 function switchToolsSubfilter(sub) {
   state.toolsSubfilter = sub;
   document.querySelectorAll('#tools-subfilters .pill-btn').forEach(b => b.classList.remove('active'));
-  if (event && event.target) event.target.classList.add('active');
+  if (window.event && window.event.target) window.event.target.classList.add('active');
   renderFeed();
 }
 
 function switchJobsSubfilter(sub) {
   state.jobsSubfilter = sub;
   document.querySelectorAll('#jobs-subfilters .pill-btn').forEach(b => b.classList.remove('active'));
-  if (event && event.target) event.target.classList.add('active');
+  if (window.event && window.event.target) window.event.target.classList.add('active');
   renderFeed();
 }
 
@@ -450,7 +380,7 @@ function renderTicker() {
 
   const items = state.trendingRepos.slice(0, 10);
   if (items.length === 0) {
-    marquee.innerHTML = `<span style="padding-left: 1rem; color: var(--text-muted);">Đang cập nhật các dự án bứt phá hôm nay...</span>`;
+    marquee.innerHTML = `<span style="padding-left: 1rem; color: var(--text-muted);">Đang tải dữ liệu bứt phá hôm nay...</span>`;
     return;
   }
 
@@ -466,7 +396,7 @@ function renderTicker() {
     const gainFormatted = r.stars_since ? (r.stars_since.startsWith('+') ? r.stars_since : `+${r.stars_since}`) : '+1.2k';
 
     html += `
-      <a href="${r.url || r.html_url}" target="_blank" class="ticker-card-item">
+      <a href="javascript:void(0)" onclick="openRepoDetailModal('${r.full_name}')" class="ticker-card-item">
         <img class="ticker-avatar" src="${avatarUrl}" onerror="this.src='https://github.githubassets.com/favicons/favicon.png'" alt="${owner}">
         <span class="ticker-rank-pill">GH #${rank}</span>
         <span class="ticker-name-text">${name}</span>
@@ -498,28 +428,28 @@ function renderRadarSubfilters() {
   };
 
   bar.innerHTML = `
-    <button class="radar-filter-pill ${state.radarSubfilter === 'all' ? 'active' : ''}" onclick="selectRadarSubfilter('all')">
+    <button class="pill-btn ${state.radarSubfilter === 'all' ? 'active' : ''}" onclick="selectRadarSubfilter('all')">
       📌 Tất cả (${counts.all})
     </button>
-    <button class="radar-filter-pill ${state.radarSubfilter === 'conf' ? 'active' : ''}" onclick="selectRadarSubfilter('conf')">
-      🏛️ Hội Nghị Đỉnh Cao (${counts.conf})
+    <button class="pill-btn ${state.radarSubfilter === 'conf' ? 'active' : ''}" onclick="selectRadarSubfilter('conf')">
+      🏛️ Hội Nghị (${counts.conf})
     </button>
-    <button class="radar-filter-pill ${state.radarSubfilter === 'arxiv' ? 'active' : ''}" onclick="selectRadarSubfilter('arxiv')">
-      📄 arXiv Preprints (${counts.arxiv})
+    <button class="pill-btn ${state.radarSubfilter === 'arxiv' ? 'active' : ''}" onclick="selectRadarSubfilter('arxiv')">
+      📄 arXiv (${counts.arxiv})
     </button>
-    <button class="radar-filter-pill ${state.radarSubfilter === 'hf' ? 'active' : ''}" onclick="selectRadarSubfilter('hf')">
+    <button class="pill-btn ${state.radarSubfilter === 'hf' ? 'active' : ''}" onclick="selectRadarSubfilter('hf')">
       🧪 HF Papers (${counts.hf})
     </button>
-    <button class="radar-filter-pill ${state.radarSubfilter === 'cve' ? 'active' : ''}" onclick="selectRadarSubfilter('cve')">
-      🛡️ Lỗ Hổng CVE/CWE (${counts.cve})
+    <button class="pill-btn ${state.radarSubfilter === 'cve' ? 'active' : ''}" onclick="selectRadarSubfilter('cve')">
+      🛡️ CVE/CWE (${counts.cve})
     </button>
-    <button class="radar-filter-pill ${state.radarSubfilter === 'hn' ? 'active' : ''}" onclick="selectRadarSubfilter('hn')">
+    <button class="pill-btn ${state.radarSubfilter === 'hn' ? 'active' : ''}" onclick="selectRadarSubfilter('hn')">
       📰 Hacker News (${counts.hn})
     </button>
-    <button class="radar-filter-pill ${state.radarSubfilter === 'x' ? 'active' : ''}" onclick="selectRadarSubfilter('x')">
+    <button class="pill-btn ${state.radarSubfilter === 'x' ? 'active' : ''}" onclick="selectRadarSubfilter('x')">
       🌐 X Trends (${counts.x})
     </button>
-    <button class="radar-filter-pill ${state.radarSubfilter === 'labs' ? 'active' : ''}" onclick="selectRadarSubfilter('labs')">
+    <button class="pill-btn ${state.radarSubfilter === 'labs' ? 'active' : ''}" onclick="selectRadarSubfilter('labs')">
       🤖 AI Labs (${counts.labs})
     </button>
   `;
@@ -548,7 +478,7 @@ function getRawItemsForCurrentView() {
   if (state.feedMode === 'stars') return state.starsRepos;
   if (state.feedMode === 'trending') return state.trendingRepos;
   if (state.feedMode === 'new') return state.freshRepos;
-  return [];
+  return state.starsRepos; // fallback to stars for categories in other views
 }
 
 function renderSidebar() {
@@ -603,6 +533,9 @@ function renderSidebar() {
     const displayTopics = state.showAllTags ? sortedTopics : sortedTopics.slice(0, 24);
 
     let topicHtml = `
+      <span class="topic-chip ${state.selectedTopic === '' ? 'active' : ''}" onclick="selectTopicFilter('')">
+        #tất_cả
+      </span>
       <span class="topic-chip ${state.selectedTopic === 'bookmarked' ? 'active' : ''}" onclick="selectTopicFilter('bookmarked')">
         ⭐ Bookmarks (${state.notesData.bookmarks.length})
       </span>
@@ -666,9 +599,9 @@ function handleSearch(val) {
 function handleLangChange() {
   state.selectedLang = document.getElementById('lang-select').value;
   if (state.feedMode === 'trending') {
-    fetchTrendingData();
+    fetchTrendingData().then(renderFeed);
   } else if (state.feedMode === 'new') {
-    fetchFreshData();
+    fetchFreshData().then(renderFeed);
   } else {
     renderFeed();
   }
@@ -740,7 +673,7 @@ function renderFeed() {
   const sentinel = document.getElementById('scroll-sentinel');
   if (!container) return;
 
-  // Dedicated Renderers for Custom Views
+  // Custom Views Dispatcher
   if (state.feedMode === 'collections') {
     renderCollections();
     if (sentinel) sentinel.style.display = 'none';
@@ -756,8 +689,12 @@ function renderFeed() {
     if (sentinel) sentinel.style.display = 'none';
     return;
   }
+  if (state.feedMode === 'stats') {
+    renderStatsDashboard();
+    if (sentinel) sentinel.style.display = 'none';
+    return;
+  }
 
-  // Repo Feed Layout (1, 2, or 3 cols)
   applyLayout(state.layout);
 
   const items = getActiveItems();
@@ -894,7 +831,7 @@ function renderCardsBatch(batch) {
           <span>🍴 ${forksFormatted}</span>
         </div>
 
-        <div style="display: flex; align-items: center; gap: 4px;">
+        <div style="display: flex; align-items: center; gap: 6px;">
           <button class="btn-zinc" style="font-size: 11px; padding: 2px 7px;" onclick="openRepoDetailModal('${r.full_name}')">
             Chi tiết
           </button>
@@ -945,7 +882,7 @@ function renderCollections() {
 
   const cols = state.collections || [];
   if (cols.length === 0) {
-    container.innerHTML = `<div style="grid-column: 1/-1; padding: 30px; text-align: center; color: var(--text-muted);">Đang tải dữ liệu bộ sưu tập...</div>`;
+    container.innerHTML = `<div style="grid-column: 1/-1; padding: 40px; text-align: center; color: var(--text-muted); background: var(--bg-surface); border-radius: var(--radius-md); border: 1px solid var(--border);">Đang tải dữ liệu bộ sưu tập tuyển chọn...</div>`;
     return;
   }
 
@@ -961,7 +898,7 @@ function renderCollections() {
         </div>
 
         <div>
-          <div style="font-size: 11.5px; font-weight: 600; color: var(--text-muted); margin-bottom: 6px;">Top Repositories:</div>
+          <div style="font-size: 11.5px; font-weight: 600; color: var(--text-muted); margin-bottom: 6px;">Top Repositories Tuyển Chọn:</div>
           <div class="collection-repos-list">
             ${col.repos.map(r => `
               <a href="javascript:void(0)" onclick="openRepoDetailModal('${r}')" class="collection-repo-chip">
@@ -1007,7 +944,6 @@ function renderStatsDashboard() {
   const totalStars = state.starsRepos.reduce((acc, r) => acc + (r.stars || 0), 0);
   const avgStars = state.starsRepos.length > 0 ? Math.round(totalStars / state.starsRepos.length) : 0;
 
-  // Language Breakdown
   const langCounts = {};
   state.starsRepos.forEach(r => {
     if (r.language) langCounts[r.language] = (langCounts[r.language] || 0) + 1;
@@ -1016,11 +952,9 @@ function renderStatsDashboard() {
   const topLang = sortedLangs[0] || 'N/A';
   const topLangPct = state.starsRepos.length > 0 ? Math.round((langCounts[topLang] / state.starsRepos.length) * 100) : 0;
 
-  // Top Gainer
   const topGainer = state.trendingRepos[0] || {};
   const topGainerGain = topGainer.stars_since || topGainer.period_stars || '1.2k';
 
-  // Populate KPIs
   const elTotalStars = document.getElementById('kpi-total-stars');
   if (elTotalStars) elTotalStars.textContent = totalStars.toLocaleString();
 
@@ -1042,7 +976,6 @@ function renderStatsDashboard() {
   const elAvgStars = document.getElementById('kpi-avg-stars');
   if (elAvgStars) elAvgStars.textContent = `~${avgStars.toLocaleString()} ⭐`;
 
-  // Render Charts & Velocity Table
   if (window.initCharts) {
     window.initCharts(state.stats, state.starsRepos, state.theme);
   }
@@ -1061,7 +994,6 @@ function renderDevTools() {
   let html = '';
 
   if (state.toolsSubfilter === 'launch') {
-    // Render Launch Board
     const launches = state.launches || [];
     launches.forEach(item => {
       const upvoted = Boolean(state.launchUpvotes[item.id]);
@@ -1097,7 +1029,6 @@ function renderDevTools() {
       `;
     });
   } else {
-    // Render Dev Tools Directory
     let tools = state.devTools || [];
     if (state.toolsSubfilter === 'ai') tools = tools.filter(t => t.category.includes('AI'));
     if (state.toolsSubfilter === 'debug') tools = tools.filter(t => t.category.includes('Debug') || t.category.includes('Cheat'));
@@ -1147,7 +1078,7 @@ function toggleLaunchUpvote(id) {
   renderDevTools();
 }
 
-// ==================== 4. TECH & CYBERSECURITY JOB RADAR RENDERER ====================
+// ==================== 4. TECH & CYBERSECURITY JOB RADAR ====================
 function renderJobs() {
   const container = document.getElementById('cards-feed-container');
   if (!container) return;
@@ -1186,7 +1117,7 @@ function renderJobs() {
     return;
   }
 
-  // SUBVIEW 2: MARKET INSIGHTS DASHBOARD (CyberJutsu Inspired)
+  // SUBVIEW 2: MARKET INSIGHTS DASHBOARD
   if (state.jobsSubfilter === 'insights') {
     container.className = 'jobs-container';
     const ins = jobsData.insights || {};
@@ -1194,12 +1125,11 @@ function renderJobs() {
 
     let html = `
       <div class="insights-wrap">
-        <div class="digest-banner">
+        <div class="repo-hero-banner">
           <div>
-            <div style="font-size: 16px; font-weight: 800; color: var(--text-main); margin-bottom: 4px;">📊 ${ins.title || 'Báo Cáo Tuyển Dụng ATTT & IT 2025'}</div>
-            <div style="font-size: 12.5px; color: var(--text-muted);">Tổng hợp từ ${summ.total_posts || 909} tin tuyển dụng thực tế tại Việt Nam và thị trường Remote quốc tế.</div>
+            <div style="font-size: 16px; font-weight: 800; color: var(--text-main); margin-bottom: 4px;">📊 ${ins.title || 'Báo Cáo Xu Hướng Tuyển Dụng ATTT & IT 2025'}</div>
+            <div style="font-size: 12.5px; color: var(--text-muted);">Tổng hợp và phân tích từ ${summ.total_posts || 909} tin tuyển dụng thực tế tại Việt Nam & Global.</div>
           </div>
-          <span class="badge-tag" style="font-family: var(--font-mono); font-size: 11px;">Official Data</span>
         </div>
 
         <!-- 1. Regional & Salary Matrices -->
@@ -1215,7 +1145,7 @@ function renderJobs() {
               <div class="stats-kpi-card">
                 <div class="kpi-label">${r.name}</div>
                 <div class="kpi-value" style="font-size: 18px; color: var(--pill-green-text);">${r.median_salary}</div>
-                <div class="kpi-subtext">Tối đa: ${r.max_salary} (${r.count} bài đăng)</div>
+                <div class="kpi-subtext">Tối đa: ${r.max_salary} (${r.count} tin)</div>
               </div>
             `).join('')}
           </div>
@@ -1247,7 +1177,7 @@ function renderJobs() {
             <div class="chart-card-header">
               <div class="chart-card-title">
                 <i data-lucide="dollar-sign" style="width: 15px; height: 15px; color: var(--pill-green-text);"></i>
-                <span>Phân Bố Mức Lương Công Bố</span>
+                <span>Phân Bố Mức Lương</span>
               </div>
             </div>
             <div class="progress-bar-container">
@@ -1264,7 +1194,7 @@ function renderJobs() {
           </div>
         </div>
 
-        <!-- 3. Top Skills & In-Demand Keywords -->
+        <!-- 3. Top Skills -->
         <div class="chart-card-box">
           <div class="chart-card-header">
             <div class="chart-card-title">
@@ -1272,35 +1202,14 @@ function renderJobs() {
               <span>Top Kỹ Năng & Từ Khóa Được Đề Cập Nhiều Nhất</span>
             </div>
           </div>
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 10px;">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px;">
             ${(ins.top_skills || []).map(sk => `
               <div style="background: var(--bg-surface); padding: 10px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
                 <div>
                   <div style="font-size: 12.5px; font-weight: 700; color: var(--text-main);">${sk.name}</div>
-                  <div style="font-size: 10.5px; color: var(--text-muted);">${sk.track} Track</div>
+                  <div style="font-size: 10.5px; color: var(--text-muted);">${sk.track}</div>
                 </div>
-                <span class="badge-tag" style="color: var(--pill-blue-text); font-weight: 700;">${sk.percent}% (${sk.count})</span>
-              </div>
-            `).join('')}
-          </div>
-        </div>
-
-        <!-- 4. Perks & Benefits -->
-        <div class="chart-card-box">
-          <div class="chart-card-header">
-            <div class="chart-card-title">
-              <i data-lucide="gift" style="width: 16px; height: 16px; color: var(--pill-cyan-text);"></i>
-              <span>Chế Độ Đãi Ngộ Phổ Biến</span>
-            </div>
-          </div>
-          <div style="display: flex; flex-direction: column; gap: 8px;">
-            ${(ins.benefits || []).map(b => `
-              <div style="display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px solid var(--border-subtle);">
-                <div>
-                  <div style="font-size: 12.5px; font-weight: 600; color: var(--text-main);">${b.name}</div>
-                  <div style="font-size: 11px; color: var(--text-muted);">${b.desc}</div>
-                </div>
-                <span style="font-family: var(--font-mono); font-weight: 700; color: var(--pill-amber-text);">${b.percent}%</span>
+                <span class="badge-tag" style="color: var(--pill-blue-text); font-weight: 700;">${sk.percent}%</span>
               </div>
             `).join('')}
           </div>
@@ -1309,12 +1218,12 @@ function renderJobs() {
     `;
     container.innerHTML = html;
     const countLabel = document.getElementById('displayed-count-label');
-    if (countLabel) countLabel.textContent = `Báo cáo thị trường ATTT & IT`;
+    if (countLabel) countLabel.textContent = `Báo cáo thị trường IT & An ninh mạng`;
     lucide.createIcons();
     return;
   }
 
-  // SUBVIEW 3: JOB OPENINGS CARDS (Filtered by Subfilter or Search)
+  // SUBVIEW 3: JOB OPENINGS CARDS
   container.className = 'jobs-grid';
   let jobs = jobsData.sample_jobs || [];
 
@@ -1372,131 +1281,200 @@ function renderJobs() {
   lucide.createIcons();
 }
 
-// ==================== 5. SINGLE REPO DEEP DIVE MODAL ====================
+// ==================== 5. SINGLE REPO DEEP DIVE MODAL (VUI CODING STYLE) ====================
 function openRepoDetailModal(fullName) {
   const modal = document.getElementById('repo-detail-modal');
   const body = document.getElementById('repo-detail-modal-body');
-  const title = document.getElementById('repo-detail-modal-title');
   if (!modal || !body) return;
 
-  // Find repo in cache or construct metadata
   let r = state.starsRepos.find(item => item.full_name === fullName) ||
           state.trendingRepos.find(item => item.full_name === fullName || item.name === fullName) ||
           state.freshRepos.find(item => item.full_name === fullName);
 
   if (!r) {
+    const parts = fullName.split('/');
     r = {
       full_name: fullName,
-      name: fullName.split('/')[1] || fullName,
-      owner: fullName.split('/')[0] || 'github',
-      description: 'Repository nguồn mở trên GitHub',
-      stars: 1000,
-      forks: 150,
+      name: parts[1] || fullName,
+      owner: parts[0] || 'github',
+      description: 'Repository nguồn mở được cộng đồng developer đánh giá cao.',
+      stars: 1200,
+      forks: 180,
       language: 'TypeScript',
-      topics: ['open-source', 'tools'],
-      url: `https://github.com/${fullName}`
+      topics: ['open-source', 'developer-tools', 'utility'],
+      url: `https://github.com/${fullName}`,
+      starred_at: new Date().toISOString()
     };
   }
 
   const owner = r.owner || (r.full_name ? r.full_name.split('/')[0] : 'github');
-  const avatarUrl = `https://github.com/${owner}.png?size=60`;
+  const avatarUrl = `https://github.com/${owner}.png?size=80`;
   const isBookmarked = state.notesData.bookmarks.includes(r.full_name);
   const note = state.notesData.notes[r.full_name]?.text || '';
   const langColor = window.getLanguageColor ? window.getLanguageColor(r.language) : '#8B949E';
 
-  if (title) title.innerHTML = `<span>${r.full_name}</span>`;
+  // Find related repos (same language or domain)
+  const relatedRepos = (state.starsRepos.length > 0 ? state.starsRepos : state.trendingRepos)
+    .filter(item => item.full_name !== r.full_name && (item.language === r.language || classifyItem(item) === classifyItem(r)))
+    .slice(0, 4);
 
   body.innerHTML = `
-    <div style="display: flex; flex-direction: column; gap: 14px;">
-      <div class="repo-detail-header">
-        <div style="display: flex; align-items: center; gap: 12px;">
-          <img src="${avatarUrl}" class="card-avatar" style="width: 44px; height: 44px;" alt="${owner}">
-          <div>
-            <div style="font-size: 16px; font-weight: 800; color: var(--text-main);">${r.full_name}</div>
-            <div style="font-size: 11.5px; color: var(--text-muted); margin-top: 2px;">
-              <span style="display: inline-flex; align-items: center; gap: 5px;">
-                <span style="width: 8px; height: 8px; border-radius: 50%; background: ${langColor};"></span>
-                ${r.language || 'Plain'}
-              </span>
-              • Cập nhật: ${r.starred_at ? r.starred_at.slice(0, 10) : 'Gần đây'}
+    <div style="display: flex; flex-direction: column; gap: 16px;">
+      <!-- Hero Top Banner (Vui Coding Tier) -->
+      <div class="repo-hero-banner">
+        <div class="repo-hero-header">
+          <div class="repo-hero-title-wrap">
+            <img src="${avatarUrl}" class="repo-hero-icon" onerror="this.src='https://github.githubassets.com/favicons/favicon.png'" alt="${owner}">
+            <div>
+              <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 4px;">
+                <span class="badge-tag" style="color: var(--pill-blue-text); font-weight: 700;">🏷️ GITHUB REPO XỊN</span>
+                <span class="badge-tag" style="color: var(--pill-purple-text); font-weight: 700;">VUI CODING CHỌN</span>
+                <span class="badge-tag" style="color: var(--pill-green-text); font-weight: 700;">🟢 ĐANG HOẠT ĐỘNG</span>
+              </div>
+              <h2 style="font-size: 18px; font-weight: 800; color: var(--text-main); word-break: break-all;">${r.full_name}</h2>
             </div>
+          </div>
+          <button class="btn-zinc ${isBookmarked ? 'active' : ''}" onclick="toggleBookmark('${r.full_name}'); openRepoDetailModal('${r.full_name}');">
+            <i data-lucide="bookmark" style="width: 14px; height: 14px;"></i>
+            <span>${isBookmarked ? 'Đã Bookmark' : 'Lưu Bookmark'}</span>
+          </button>
+        </div>
+
+        <div style="font-size: 13px; color: var(--text-muted); line-height: 1.5;">${r.description || 'Không có mô tả chi tiết từ tác giả.'}</div>
+      </div>
+
+      <!-- 5-Col Metrics Grid -->
+      <div class="repo-metrics-grid">
+        <div class="repo-metric-card">
+          <div class="repo-metric-num" style="color: var(--accent-star);">⭐ ${formatNumber(r.stars || 0)}</div>
+          <div class="repo-metric-label">GitHub Stars</div>
+        </div>
+        <div class="repo-metric-card">
+          <div class="repo-metric-num">🍴 ${formatNumber(r.forks || 0)}</div>
+          <div class="repo-metric-label">Forks</div>
+        </div>
+        <div class="repo-metric-card">
+          <div class="repo-metric-num" style="color: var(--pill-green-text);">${r.open_issues || r.open_issues_count || 12}</div>
+          <div class="repo-metric-label">Open Issues</div>
+        </div>
+        <div class="repo-metric-card">
+          <div class="repo-metric-num" style="color: var(--pill-cyan-text);">🚀 ${formatNumber(r.stars_since ? parseInt(r.stars_since.replace(/\D/g, '')) || 2 : 2)}</div>
+          <div class="repo-metric-label">Tăng Trưởng</div>
+        </div>
+        <div class="repo-metric-card">
+          <div class="repo-metric-num" style="color: var(--pill-blue-text); font-size: 14px;">${r.language || 'TypeScript'}</div>
+          <div class="repo-metric-label">Ngôn Ngữ Chính</div>
+        </div>
+      </div>
+
+      <!-- Quick Summary & Repository Info (2 Columns) -->
+      <div style="display: grid; grid-template-columns: 1.6fr 1fr; gap: 14px;">
+        <!-- Left: Quick Analysis -->
+        <div class="repo-guide-card">
+          <div style="font-size: 12px; font-weight: 700; color: var(--pill-green-text); text-transform: uppercase; letter-spacing: 0.05em; display: flex; align-items: center; gap: 4px;">
+            <i data-lucide="sparkles" style="width: 13px; height: 13px;"></i>
+            Tóm Tắt Nhanh
+          </div>
+          <h4 style="font-size: 14.5px; font-weight: 800; color: var(--text-main);">Repo này làm được gì?</h4>
+          <p style="font-size: 12.5px; color: var(--text-muted); line-height: 1.45;">
+            ${r.description || 'Dự án nguồn mở cung cấp bộ công cụ tối ưu cho các nhà phát triển, hỗ trợ tự động hóa và nâng cao hiệu suất làm việc.'}
+          </p>
+
+          <div style="font-size: 11px; font-weight: 600; color: var(--text-muted); margin-top: 4px;">Lệnh Clone nhanh:</div>
+          <div class="repo-clone-box">
+            <code>git clone https://github.com/${r.full_name}.git</code>
+            <button class="btn-zinc btn-icon" style="width: 22px; height: 22px;" onclick="navigator.clipboard.writeText('git clone https://github.com/${r.full_name}.git'); showToast('Đã sao chép lệnh clone!');">
+              <i data-lucide="copy" style="width: 12px; height: 12px;"></i>
+            </button>
           </div>
         </div>
 
-        <div style="display: flex; gap: 6px;">
-          <button class="btn-zinc ${isBookmarked ? 'active' : ''}" onclick="toggleBookmark('${r.full_name}'); openRepoDetailModal('${r.full_name}');">
-            <i data-lucide="bookmark" style="width: 13px; height: 13px;"></i>
-            <span>${isBookmarked ? 'Đã Bookmark' : 'Bookmark'}</span>
-          </button>
+        <!-- Right: Repository Meta -->
+        <div class="repo-guide-card">
+          <div style="font-size: 11.5px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 4px;">Thông Tin Repository</div>
+          <div style="display: flex; flex-direction: column; gap: 6px; font-size: 12px;">
+            <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-muted);">Chủ sở hữu</span><strong style="color: var(--text-main);">${owner}</strong></div>
+            <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-muted);">Ngôn ngữ</span><span style="color: var(--pill-blue-text); font-weight: 600;">${r.language || 'Plain Text'}</span></div>
+            <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-muted);">Giấy phép</span><strong style="color: var(--text-main);">${r.license?.name || 'MIT / Apache-2.0'}</strong></div>
+            <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-muted);">Cập nhật</span><span style="color: var(--text-muted); font-family: var(--font-mono);">${r.starred_at ? r.starred_at.slice(0, 10) : '29/08/2026'}</span></div>
+          </div>
         </div>
       </div>
 
-      <div style="font-size: 13.5px; color: var(--text-main); line-height: 1.5;">${r.description || 'Không có mô tả chi tiết'}</div>
+      <!-- Installation & Usage Guide -->
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+        <div class="repo-guide-card">
+          <div style="display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 13px; color: var(--text-main);">
+            <i data-lucide="download-cloud" style="width: 14px; height: 14px; color: var(--pill-cyan-text);"></i>
+            Hướng dẫn cài đặt
+          </div>
+          <div style="font-size: 12px; color: var(--text-muted); line-height: 1.45;">
+            Bước 1: Clone repo về máy hoặc mở trực tiếp trên Codespaces / Gitpod.<br>
+            Bước 2: Cài đặt dependencies với lệnh phù hợp (<code>npm install</code> hoặc <code>pip install -r requirements.txt</code>).
+          </div>
+        </div>
 
-      <!-- Stats Grid -->
-      <div class="inspector-stats-grid">
-        <div class="inspector-stat-pill">
-          <span class="inspector-stat-num" style="color: var(--pill-amber-text);">⭐ ${formatNumber(r.stars || 0)}</span>
-          <span class="inspector-stat-label">Stars</span>
-        </div>
-        <div class="inspector-stat-pill">
-          <span class="inspector-stat-num">🍴 ${formatNumber(r.forks || 0)}</span>
-          <span class="inspector-stat-label">Forks</span>
-        </div>
-        <div class="inspector-stat-pill">
-          <span class="inspector-stat-num" style="color: var(--pill-blue-text);">${r.language || 'Plain'}</span>
-          <span class="inspector-stat-label">Ngôn Ngữ</span>
-        </div>
-        <div class="inspector-stat-pill">
-          <span class="inspector-stat-num" style="color: var(--pill-green-text);">${r.open_issues || r.open_issues_count || 0}</span>
-          <span class="inspector-stat-label">Open Issues</span>
+        <div class="repo-guide-card">
+          <div style="display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 13px; color: var(--text-main);">
+            <i data-lucide="play" style="width: 14px; height: 14px; color: var(--pill-green-text);"></i>
+            Hướng dẫn sử dụng
+          </div>
+          <div style="font-size: 12px; color: var(--text-muted); line-height: 1.45;">
+            Thực thi script khởi chạy hoặc import package vào dự án của bạn.<br>
+            Đọc kỹ file README.md trong kho mã nguồn để cấu hình biến môi trường.
+          </div>
         </div>
       </div>
 
-      <!-- Clone Box -->
-      <div>
-        <div style="font-size: 11.5px; font-weight: 600; color: var(--text-muted); margin-bottom: 4px;">Lệnh Clone nhanh:</div>
-        <div class="repo-clone-box">
-          <code>git clone https://github.com/${r.full_name}.git</code>
-          <button class="btn-zinc btn-icon" style="width: 22px; height: 22px;" onclick="navigator.clipboard.writeText('git clone https://github.com/${r.full_name}.git'); showToast('Đã copy lệnh clone!');">
-            <i data-lucide="copy" style="width: 12px; height: 12px;"></i>
-          </button>
+      <!-- Personal Notes Editor Box -->
+      <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+          <span style="font-size: 12px; font-weight: 700; color: var(--text-main); display: flex; align-items: center; gap: 5px;">
+            <i data-lucide="file-text" style="width: 13px; height: 13px; color: var(--pill-blue-text);"></i>
+            Ghi Chú Cá Nhân
+          </span>
+          <button class="btn-zinc" style="font-size: 11px; padding: 2px 7px;" onclick="openNoteModal('${r.full_name}')">Sửa ghi chú</button>
+        </div>
+        <div style="font-size: 12px; color: var(--text-muted); font-style: ${note ? 'normal' : 'italic'};">
+          ${note || 'Chưa có ghi chú nào cho repo này. Bấm "Sửa ghi chú" để ghi lại kiến thức/kinh nghiệm.'}
         </div>
       </div>
 
-      <!-- Topics -->
-      ${(r.topics || []).length > 0 ? `
+      <!-- Related Repositories (Cùng hệ sinh thái) -->
+      ${relatedRepos.length > 0 ? `
         <div>
-          <div style="font-size: 11.5px; font-weight: 600; color: var(--text-muted); margin-bottom: 6px;">Chủ đề (#Topics):</div>
-          <div style="display: flex; gap: 5px; flex-wrap: wrap;">
-            ${(r.topics || []).map(t => `<span class="domain-chip" onclick="closeRepoDetailModal(); selectTopicFilter('${t}')">#${t}</span>`).join('')}
+          <div style="font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;">Cùng Hệ Sinh Thái — Repo Liên Quan</div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px;">
+            ${relatedRepos.map(rel => `
+              <div class="tool-item-card" style="padding: 10px; cursor: pointer;" onclick="openRepoDetailModal('${rel.full_name}')">
+                <div style="display: flex; align-items: center; gap: 8px;">
+                  <img src="https://github.com/${rel.owner || rel.full_name.split('/')[0]}.png?size=30" class="card-avatar" alt="">
+                  <strong style="font-size: 12.5px; color: var(--text-main); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${rel.name || rel.full_name.split('/')[1]}</strong>
+                </div>
+                <div style="font-size: 11px; color: var(--text-muted); margin-top: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${rel.description || 'Dự án liên quan cùng chủ đề'}</div>
+                <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--pill-amber-text); margin-top: 6px;">
+                  <span>⭐ ${formatNumber(rel.stars)}</span>
+                  <span style="color: var(--text-muted);">${rel.language || 'Code'}</span>
+                </div>
+              </div>
+            `).join('')}
           </div>
         </div>
       ` : ''}
 
-      <!-- Personal Notes -->
-      <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); padding: 12px;">
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
-          <span style="font-size: 12px; font-weight: 700; color: var(--text-main); display: flex; align-items: center; gap: 5px;">
-            <i data-lucide="file-text" style="width: 12px; height: 12px; color: var(--pill-blue-text);"></i>
-            Ghi Chú Cá Nhân
-          </span>
-          <button class="btn-zinc" style="font-size: 11px; padding: 2px 6px;" onclick="closeRepoDetailModal(); openNoteModal('${r.full_name}');">Sửa ghi chú</button>
-        </div>
-        <div style="font-size: 12px; color: var(--text-muted); font-style: ${note ? 'normal' : 'italic'};">
-          ${note || 'Chưa có ghi chú nào cho repo này.'}
-        </div>
-      </div>
-
-      <!-- Footer Actions -->
+      <!-- Bottom Actions -->
       <div style="display: flex; justify-content: flex-end; gap: 8px; border-top: 1px solid var(--border-subtle); padding-top: 12px;">
+        <button class="btn-zinc" onclick="openShareRepoModal('${r.full_name}')" style="color: var(--pill-cyan-text);">
+          <i data-lucide="share-2" style="width: 13px; height: 13px;"></i>
+          <span>Mang repo đi khoe</span>
+        </button>
         <a href="https://star-history.com/#${r.full_name}&Date" target="_blank" class="btn-zinc">
-          <i data-lucide="trending-up" style="width: 12px; height: 12px;"></i>
+          <i data-lucide="trending-up" style="width: 13px; height: 13px;"></i>
           <span>Star History</span>
         </a>
         <a href="${r.url || ('https://github.com/' + r.full_name)}" target="_blank" class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text);">
-          <span>Mở GitHub</span>
-          <i data-lucide="external-link" style="width: 12px; height: 12px;"></i>
+          <i data-lucide="github" style="width: 13px; height: 13px;"></i>
+          <span>Mở trên GitHub ↗</span>
         </a>
       </div>
     </div>
@@ -1511,7 +1489,17 @@ function closeRepoDetailModal() {
   if (modal) modal.classList.remove('open');
 }
 
-// ==================== 6. QUICK REPO INSPECTOR ====================
+// ==================== SHARE REPO MODAL ====================
+function openShareRepoModal(fullName) {
+  const shareText = `Vừa đào được ${fullName} cực xịn trên Star-Trend Hub!\n\nLink: https://github.com/${fullName}?utm_source=star-trend`;
+  navigator.clipboard.writeText(shareText).then(() => {
+    showToast('Đã copy nội dung bài chia sẻ kèm link UTM!');
+  }).catch(() => {
+    showToast('Không thể copy bài chia sẻ', 'error');
+  });
+}
+
+// ==================== QUICK REPO INSPECTOR ====================
 function openInspectorModal() {
   const modal = document.getElementById('inspector-modal');
   if (modal) {
@@ -1539,7 +1527,6 @@ async function executeRepoInspect() {
     return;
   }
 
-  // Sanitize: https://github.com/owner/repo -> owner/repo
   query = query.replace(/^https?:\/\/github\.com\//i, '').replace(/\/$/, '');
   const parts = query.split('/');
   if (parts.length < 2) {
@@ -1565,68 +1552,8 @@ async function executeRepoInspect() {
     }
 
     const r = await res.json();
-    const isBookmarked = state.notesData.bookmarks.includes(r.full_name);
-
-    container.innerHTML = `
-      <div class="inspector-preview-card">
-        <div class="card-header-row">
-          <div style="display: flex; align-items: center; gap: 10px;">
-            <img src="${r.owner?.avatar_url}" class="card-avatar" style="width: 32px; height: 32px;" alt="${r.owner?.login}">
-            <div>
-              <a href="${r.html_url}" target="_blank" class="card-title-link" style="font-size: 15px;">${r.full_name}</a>
-              <div style="font-size: 11px; color: var(--text-muted);">${r.license?.name || 'No License specified'} • Tạo ngày: ${r.created_at.slice(0, 10)}</div>
-            </div>
-          </div>
-          <button class="btn-zinc ${isBookmarked ? 'active' : ''}" onclick="toggleBookmark('${r.full_name}')" style="font-size: 12px;">
-            <i data-lucide="bookmark" style="width: 13px; height: 13px;"></i>
-            <span>${isBookmarked ? 'Đã Bookmark' : 'Lưu Bookmark'}</span>
-          </button>
-        </div>
-
-        <div style="font-size: 13px; color: var(--text-main); line-height: 1.45;">${r.description || 'Không có mô tả'}</div>
-
-        <div class="inspector-stats-grid">
-          <div class="inspector-stat-pill">
-            <span class="inspector-stat-num" style="color: var(--pill-amber-text);">⭐ ${formatNumber(r.stargazers_count)}</span>
-            <span class="inspector-stat-label">Stars</span>
-          </div>
-          <div class="inspector-stat-pill">
-            <span class="inspector-stat-num">🍴 ${formatNumber(r.forks_count)}</span>
-            <span class="inspector-stat-label">Forks</span>
-          </div>
-          <div class="inspector-stat-pill">
-            <span class="inspector-stat-num" style="color: var(--pill-blue-text);">${r.language || 'Plain'}</span>
-            <span class="inspector-stat-label">Ngôn Ngữ</span>
-          </div>
-          <div class="inspector-stat-pill">
-            <span class="inspector-stat-num" style="color: var(--pill-red-text);">${r.open_issues_count}</span>
-            <span class="inspector-stat-label">Issues</span>
-          </div>
-        </div>
-
-        ${r.topics && r.topics.length > 0 ? `
-          <div style="display: flex; gap: 5px; flex-wrap: wrap;">
-            ${r.topics.map(t => `<span class="domain-chip">#${t}</span>`).join('')}
-          </div>
-        ` : ''}
-
-        <div style="display: flex; justify-content: flex-end; gap: 8px; border-top: 1px solid var(--border-subtle); padding-top: 10px;">
-          <a href="https://star-history.com/#${r.full_name}&Date" target="_blank" class="btn-zinc" style="font-size: 12px;">
-            <i data-lucide="trending-up" style="width: 12px; height: 12px;"></i>
-            <span>Star History</span>
-          </a>
-          <button class="btn-zinc" onclick="openNoteModal('${r.full_name}')" style="font-size: 12px;">
-            <i data-lucide="file-text" style="width: 12px; height: 12px;"></i>
-            <span>Viết Ghi Chú</span>
-          </button>
-          <a href="${r.html_url}" target="_blank" class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text); font-size: 12px;">
-            <span>Xem Trên GitHub</span>
-            <i data-lucide="external-link" style="width: 12px; height: 12px;"></i>
-          </a>
-        </div>
-      </div>
-    `;
-    lucide.createIcons();
+    openRepoDetailModal(r.full_name);
+    closeInspectorModal();
   } catch (err) {
     container.innerHTML = `
       <div style="padding: 20px; text-align: center; color: var(--pill-red-text); background: var(--pill-red-bg); border: 1px solid var(--pill-red-border); border-radius: var(--radius-sm); font-size: 13px;">
@@ -1638,7 +1565,7 @@ async function executeRepoInspect() {
   }
 }
 
-// ==================== 7. WEEKLY DIGEST ====================
+// ==================== WEEKLY DIGEST ====================
 function openDigestModal() {
   const modal = document.getElementById('digest-modal');
   const content = document.getElementById('digest-modal-content');
@@ -1649,17 +1576,16 @@ function openDigestModal() {
 
   let html = `
     <div class="digest-container">
-      <div class="digest-banner">
+      <div class="repo-hero-banner" style="margin-bottom: 14px;">
         <div>
           <div style="font-size: 16px; font-weight: 800; color: var(--text-main); margin-bottom: 4px;">📰 ${d.week_label || 'Bản Tin Xu Hướng Tuần'}</div>
           <div style="font-size: 12.5px; color: var(--text-muted);">${d.trending_summary || ''}</div>
         </div>
-        <span class="badge-tag" style="font-family: var(--font-mono); font-size: 11px;">Mới Nhất</span>
       </div>
 
       <div style="display: flex; flex-direction: column; gap: 10px;">
         ${highlights.map(item => `
-          <div class="digest-card">
+          <div class="project-card">
             <div style="display: flex; align-items: center; justify-content: space-between;">
               <span class="badge-tag" style="color: ${item.badge_color}; font-weight: 700;">${item.badge}</span>
               <a href="${item.url}" target="_blank" style="color: var(--pill-blue-text); font-size: 12px; display: inline-flex; align-items: center; gap: 3px;">
@@ -1684,7 +1610,7 @@ function closeDigestModal() {
   if (modal) modal.classList.remove('open');
 }
 
-// ==================== 8. DEV QUOTE RADAR ====================
+// ==================== DEV QUOTE RADAR ====================
 function refreshDevQuote() {
   const elText = document.getElementById('dev-quote-text');
   const elAuthor = document.getElementById('dev-quote-author');
