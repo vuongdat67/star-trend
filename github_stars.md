@@ -1,7 +1,7 @@
 # 🌟 GitHub Starred Repositories - @vuongdat67
 
 > Danh sách toàn bộ starred repositories của **[@vuongdat67](https://github.com/vuongdat67)**.
-> 🕒 Cập nhật: `2026-08-31 01:55:53` | 📦 Tổng số: **615** repositories
+> 🕒 Cập nhật: `2026-08-31 02:38:12` | 📦 Tổng số: **615** repositories
 
 ---
 
@@ -72,7 +72,7 @@
 - [**nextlevelbuilder/ui-ux-pro-max-skill**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - ⭐ **123.2k** | 🍴 13.2k | 📅 `2026-01-12`
   - An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
 
-- [**harry0703/MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) - ⭐ **118.8k** | 🍴 18.2k | 📅 `2026-05-29`
+- [**harry0703/MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) - ⭐ **118.9k** | 🍴 18.2k | 📅 `2026-05-29`
   - 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
 
 - [**Graphify-Labs/graphify**](https://github.com/Graphify-Labs/graphify) - ⭐ **112.7k** | 🍴 11.0k | 📅 `2026-04-10`
@@ -259,7 +259,7 @@
 - [**datalab-to/chandra**](https://github.com/datalab-to/chandra) - ⭐ **12.2k** | 🍴 1.2k | 📅 `2026-04-04`
   - OCR model that handles complex tables, forms, handwriting with full layout.
 
-- [**debpalash/VoiceStudio**](https://github.com/debpalash/VoiceStudio) - ⭐ **12.1k** | 🍴 1.9k | 📅 `2026-08-22`
+- [**debpalash/VoiceStudio**](https://github.com/debpalash/VoiceStudio) - ⭐ **12.2k** | 🍴 1.9k | 📅 `2026-08-22`
   - VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
 
 - [**LMCache/LMCache**](https://github.com/LMCache/LMCache) - ⭐ **11.6k** | 🍴 1.8k | 📅 `2026-08-05`
@@ -379,7 +379,7 @@
 - [**tsale/EDR-Telemetry**](https://github.com/tsale/EDR-Telemetry) - ⭐ **2.0k** | 🍴 200 | 📅 `2026-08-02`
   - This project aims to compare and evaluate the telemetry of various EDR products.
 
-- [**HackUnderway/SearchPhone**](https://github.com/HackUnderway/SearchPhone) - ⭐ **1.8k** | 🍴 248 | 📅 `2026-01-15`
+- [**HackUnderway/SearchPhone**](https://github.com/HackUnderway/SearchPhone) - ⭐ **1.9k** | 🍴 248 | 📅 `2026-01-15`
   - Phone number OSINT toolkit with multi-API search (Google, GitHub, Numverify, Reddit, DuckDuckGo), Hudson Rock infostealer intelligence, and automatic report generation.
 
 - [**pixeltable/pixeltable**](https://github.com/pixeltable/pixeltable) - ⭐ **1.6k** | 🍴 219 | 📅 `2026-06-13`
@@ -391,7 +391,7 @@
 - [**OpenOSINT/OpenOSINT**](https://github.com/OpenOSINT/OpenOSINT) - ⭐ **1.5k** | 🍴 239 | 📅 `2026-05-31`
   - AI-powered OSINT agent with interactive REPL, MCP server, and CLI. 19 tools. Works with Claude, GPT-4, or local models. For authorized security research only.
 
-- [**mukul975/cve-mcp-server**](https://github.com/mukul975/cve-mcp-server) - ⭐ **1.3k** | 🍴 227 | 📅 `2026-04-29`
+- [**mukul975/cve-mcp-server**](https://github.com/mukul975/cve-mcp-server) - ⭐ **1.3k** | 🍴 228 | 📅 `2026-04-29`
   - Production-grade MCP server giving Claude 27 security intelligence tools across 21 APIs — CVE lookup, EPSS scoring, CISA KEV, MITRE ATT&CK, Shodan, VirusTotal, and more.
 
 - [**nduckmink/arkon**](https://github.com/nduckmink/arkon) - ⭐ **1.3k** | 🍴 269 | 📅 `2026-05-10`
@@ -534,7 +534,7 @@
 - [**openclaw/openclaw**](https://github.com/openclaw/openclaw) - ⭐ **388.1k** | 🍴 81.5k | 📅 `2026-01-25`
   - Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
 
-- [**deepseek-ai/deepseek-harness**](https://github.com/deepseek-ai/deepseek-harness) - ⭐ **204.8k** | 🍴 23.7k | 📅 `2026-08-14`
+- [**deepseek-ai/deepseek-harness**](https://github.com/deepseek-ai/deepseek-harness) - ⭐ **204.9k** | 🍴 23.7k | 📅 `2026-08-14`
   - DeepSeek Harness: Everything is a Plugin.
 
 - [**n8n-io/n8n**](https://github.com/n8n-io/n8n) - ⭐ **202.9k** | 🍴 60.5k | 📅 `2026-05-10`
@@ -561,7 +561,7 @@
 - [**google-gemini/gemini-cli**](https://github.com/google-gemini/gemini-cli) - ⭐ **106.8k** | 🍴 14.5k | 📅 `2026-05-17`
   - An open-source AI agent that brings the power of Gemini directly into your terminal.
 
-- [**earendil-works/pi**](https://github.com/earendil-works/pi) - ⭐ **99.4k** | 🍴 12.3k | 📅 `2026-07-21`
+- [**earendil-works/pi**](https://github.com/earendil-works/pi) - ⭐ **99.5k** | 🍴 12.3k | 📅 `2026-07-21`
   - AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
 
 - [**modelcontextprotocol/servers**](https://github.com/modelcontextprotocol/servers) - ⭐ **90.0k** | 🍴 11.5k | 📅 `2026-01-25`
@@ -633,7 +633,7 @@
 - [**garrytan/gbrain**](https://github.com/garrytan/gbrain) - ⭐ **29.3k** | 🍴 4.4k | 📅 `2026-04-13`
   - Garry's Opinionated OpenClaw/Hermes Agent Brain
 
-- [**can1357/oh-my-pi**](https://github.com/can1357/oh-my-pi) - ⭐ **28.5k** | 🍴 2.8k | 📅 `2026-08-08`
+- [**can1357/oh-my-pi**](https://github.com/can1357/oh-my-pi) - ⭐ **28.5k** | 🍴 2.9k | 📅 `2026-08-08`
   - ⌥ Coding agent with the IDE wired in
 
 - [**srbhr/Resume-Matcher**](https://github.com/srbhr/Resume-Matcher) - ⭐ **28.3k** | 🍴 5.0k | 📅 `2026-04-10`
@@ -654,7 +654,7 @@
 - [**TencentCloud/TencentDB-Agent-Memory**](https://github.com/TencentCloud/TencentDB-Agent-Memory) - ⭐ **25.3k** | 🍴 2.4k | 📅 `2026-07-11`
   - TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.
 
-- [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) - ⭐ **24.2k** | 🍴 4.5k | 📅 `2026-08-30`
+- [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) - ⭐ **24.3k** | 🍴 4.5k | 📅 `2026-08-30`
   - Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
 
 - [**coleam00/Archon**](https://github.com/coleam00/Archon) - ⭐ **23.3k** | 🍴 3.5k | 📅 `2026-04-10`
@@ -674,7 +674,7 @@
 - [**refactoringhq/tolaria**](https://github.com/refactoringhq/tolaria) - ⭐ **19.6k** | 🍴 1.4k | 📅 `2026-04-24`
   - Desktop app to manage markdown knowledge bases
 
-- [**scalar/scalar**](https://github.com/scalar/scalar) - ⭐ **16.0k** | 🍴 924 | 📅 `2026-07-26`
+- [**scalar/scalar**](https://github.com/scalar/scalar) - ⭐ **16.0k** | 🍴 925 | 📅 `2026-07-26`
   - Scalar is an open-source API platform:　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　🌐 Modern REST API Client　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　📖 Beautiful API References　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　✨ 1st-Class OpenAPI/Swagger Support
 
 - [**langchain-ai/openwiki**](https://github.com/langchain-ai/openwiki) - ⭐ **15.9k** | 🍴 1.1k | 📅 `2026-07-06`
@@ -683,16 +683,16 @@
 - [**Effect-TS/effect**](https://github.com/Effect-TS/effect) - ⭐ **15.6k** | 🍴 706 | 📅 `2026-08-28`
   - Build production-ready applications in TypeScript
 
-- [**getpaseo/paseo**](https://github.com/getpaseo/paseo) - ⭐ **15.5k** | 🍴 1.7k | 📅 `2026-08-27`
+- [**getpaseo/paseo**](https://github.com/getpaseo/paseo) - ⭐ **15.6k** | 🍴 1.7k | 📅 `2026-08-27`
   - Orchestrate multiple coding agents from desktop and mobile
 
-- [**YishenTu/claudian**](https://github.com/YishenTu/claudian) - ⭐ **15.1k** | 🍴 984 | 📅 `2026-04-16`
+- [**YishenTu/claudian**](https://github.com/YishenTu/claudian) - ⭐ **15.1k** | 🍴 985 | 📅 `2026-04-16`
   - An Obsidian plugin that embeds Claude Code/Codex as an AI collaborator in your vault
 
 - [**yc-software/qm**](https://github.com/yc-software/qm) - ⭐ **14.4k** | 🍴 1.7k | 📅 `2026-08-02`
   - Multiplayer agent harness for work.
 
-- [**NanmiCoder/cc-haha**](https://github.com/NanmiCoder/cc-haha) - ⭐ **14.2k** | 🍴 8.5k | 📅 `2026-04-02`
+- [**NanmiCoder/cc-haha**](https://github.com/NanmiCoder/cc-haha) - ⭐ **14.3k** | 🍴 8.5k | 📅 `2026-04-02`
   - Local-first cross-platform desktop workspace for Claude Code / agents: multi-agent, Git worktrees, code diffs, skill marketplace, multi-model, Computer Use, task-aware desktop pets, with WeChat, Feishu, DingTalk, Telegram, WhatsApp and H5 access.
 
 - [**fathah/hermes-desktop**](https://github.com/fathah/hermes-desktop) - ⭐ **14.1k** | 🍴 1.6k | 📅 `2026-05-11`
@@ -742,7 +742,7 @@
 
 - [**vudovn/ag-kit**](https://github.com/vudovn/ag-kit) - ⭐ **8.2k** | 🍴 1.5k | 📅 `2026-01-16`
 
-- [**ibelick/ui-skills**](https://github.com/ibelick/ui-skills) - ⭐ **7.8k** | 🍴 350 | 📅 `2026-07-16`
+- [**ibelick/ui-skills**](https://github.com/ibelick/ui-skills) - ⭐ **7.8k** | 🍴 351 | 📅 `2026-07-16`
   - Skills for Design Engineers
 
 - [**lightningpixel/modly**](https://github.com/lightningpixel/modly) - ⭐ **7.3k** | 🍴 691 | 📅 `2026-08-14`
@@ -813,7 +813,7 @@
 - [**zuplo/zudoku**](https://github.com/zuplo/zudoku) - ⭐ **585** | 🍴 89 | 📅 `2026-07-21`
   - Framework for building high quality, interactive API documentation.
 
-- [**Agions/splicr**](https://github.com/Agions/splicr) - ⭐ **418** | 🍴 99 | 📅 `2026-08-12`
+- [**Agions/splicr**](https://github.com/Agions/splicr) - ⭐ **419** | 🍴 99 | 📅 `2026-08-12`
   - Vynaro (叙影 AI) - 下一代 7 步全自动 AI 影视解说与第一人称视频创作工具 (Tauri 2 + Rust + React 19)
 
 - [**AprilNEA/claude-code-source**](https://github.com/AprilNEA/claude-code-source) - ⭐ **392** | 🍴 608 | 📅 `2026-08-30`
@@ -1019,10 +1019,10 @@
 - [**VoltAgent/awesome-design-md**](https://github.com/VoltAgent/awesome-design-md) - ⭐ **111.7k** | 🍴 12.7k | 📅 `2026-04-05`
   - A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.
 
-- [**punkpeye/awesome-mcp-servers**](https://github.com/punkpeye/awesome-mcp-servers) - ⭐ **93.3k** | 🍴 15.3k | 📅 `2026-05-23`
+- [**punkpeye/awesome-mcp-servers**](https://github.com/punkpeye/awesome-mcp-servers) - ⭐ **93.4k** | 🍴 15.3k | 📅 `2026-05-23`
   - A collection of MCP servers.
 
-- [**nexu-io/open-design**](https://github.com/nexu-io/open-design) - ⭐ **92.8k** | 🍴 10.7k | 📅 `2026-05-01`
+- [**nexu-io/open-design**](https://github.com/nexu-io/open-design) - ⭐ **92.9k** | 🍴 10.7k | 📅 `2026-05-01`
   - 🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.
 
 - [**Developer-Y/cs-video-courses**](https://github.com/Developer-Y/cs-video-courses) - ⭐ **83.3k** | 🍴 11.5k | 📅 `2026-04-04`
@@ -1293,13 +1293,13 @@
 - [**nodejs/node**](https://github.com/nodejs/node) - ⭐ **120.0k** | 🍴 36.6k | 📅 `2026-05-22`
   - Node.js JavaScript runtime ✨🐢🚀✨
 
-- [**DietrichGebert/ponytail**](https://github.com/DietrichGebert/ponytail) - ⭐ **117.2k** | 🍴 6.4k | 📅 `2026-06-17`
+- [**DietrichGebert/ponytail**](https://github.com/DietrichGebert/ponytail) - ⭐ **117.3k** | 🍴 6.4k | 📅 `2026-06-17`
   - Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
 
 - [**thedotmack/claude-mem**](https://github.com/thedotmack/claude-mem) - ⭐ **92.7k** | 🍴 8.2k | 📅 `2025-12-10`
   - Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
 
-- [**addyosmani/agent-skills**](https://github.com/addyosmani/agent-skills) - ⭐ **90.9k** | 🍴 9.7k | 📅 `2026-04-07`
+- [**addyosmani/agent-skills**](https://github.com/addyosmani/agent-skills) - ⭐ **91.0k** | 🍴 9.7k | 📅 `2026-04-07`
   - Production-grade engineering skills for AI coding agents.
 
 - [**Leonxlnx/taste-skill**](https://github.com/Leonxlnx/taste-skill) - ⭐ **82.5k** | 🍴 5.7k | 📅 `2026-07-14`
@@ -1308,7 +1308,7 @@
 - [**pbakaus/impeccable**](https://github.com/pbakaus/impeccable) - ⭐ **64.1k** | 🍴 3.9k | 📅 `2026-07-24`
   - The design language that makes your AI harness better at design.
 
-- [**asgeirtj/system_prompts_leaks**](https://github.com/asgeirtj/system_prompts_leaks) - ⭐ **63.8k** | 🍴 10.5k | 📅 `2026-01-29`
+- [**asgeirtj/system_prompts_leaks**](https://github.com/asgeirtj/system_prompts_leaks) - ⭐ **63.9k** | 🍴 10.5k | 📅 `2026-01-29`
   - Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.
 
 - [**jgraph/drawio-desktop**](https://github.com/jgraph/drawio-desktop) - ⭐ **62.9k** | 🍴 5.8k | 📅 `2026-07-17`
@@ -1326,10 +1326,10 @@
 - [**saadeghi/daisyui**](https://github.com/saadeghi/daisyui) - ⭐ **42.2k** | 🍴 1.7k | 📅 `2026-07-06`
   - 🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library
 
-- [**tt-a1i/archify**](https://github.com/tt-a1i/archify) - ⭐ **34.8k** | 🍴 2.2k | 📅 `2026-08-30`
+- [**tt-a1i/archify**](https://github.com/tt-a1i/archify) - ⭐ **35.0k** | 🍴 2.2k | 📅 `2026-08-30`
   - Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
 
-- [**JCodesMore/ai-website-cloner-template**](https://github.com/JCodesMore/ai-website-cloner-template) - ⭐ **33.4k** | 🍴 4.9k | 📅 `2026-06-23`
+- [**JCodesMore/ai-website-cloner-template**](https://github.com/JCodesMore/ai-website-cloner-template) - ⭐ **33.5k** | 🍴 4.9k | 📅 `2026-06-23`
   - Clone any website with one command using AI coding agents
 
 - [**docsifyjs/docsify**](https://github.com/docsifyjs/docsify) - ⭐ **31.5k** | 🍴 5.8k | 📅 `2026-07-26`
@@ -1359,7 +1359,7 @@
 - [**kimchi-project/kimchi**](https://github.com/kimchi-project/kimchi) - ⭐ **3.2k** | 🍴 362 | 📅 `2026-08-11`
   - An HTML5 management interface for KVM guests
 
-- [**darkzOGx/youtube-automation-agent**](https://github.com/darkzOGx/youtube-automation-agent) - ⭐ **2.9k** | 🍴 815 | 📅 `2026-08-18`
+- [**darkzOGx/youtube-automation-agent**](https://github.com/darkzOGx/youtube-automation-agent) - ⭐ **2.9k** | 🍴 816 | 📅 `2026-08-18`
   - 🎬 Fully automated YouTube channel management with AI agents. Creates, optimizes & publishes videos 24/7. Works with FREE Gemini API or OpenAI. No coding required!
 
 - [**QwenAudio/qwen-audio-agent**](https://github.com/QwenAudio/qwen-audio-agent) - ⭐ **2.3k** | 🍴 198 | 📅 `2026-08-01`
@@ -1371,7 +1371,7 @@
 - [**pesoszpesosz/antigravity-auto-accept**](https://github.com/pesoszpesosz/antigravity-auto-accept) - ⭐ **144** | 🍴 45 | 📅 `2026-08-13`
   - Automatically accepts Antigravity agent steps without limits. True hands-free automation for your Antigravity Agent.
 
-- [**lacvietanh/aki-mcp-sv**](https://github.com/lacvietanh/aki-mcp-sv) - ⭐ **125** | 🍴 34 | 📅 `2026-08-09`
+- [**lacvietanh/aki-mcp-sv**](https://github.com/lacvietanh/aki-mcp-sv) - ⭐ **125** | 🍴 35 | 📅 `2026-08-09`
   - Custom MCP [Connector] for AI chat web [Claude|ChatGPT|Grok...] use Files/Shell on your computer directly
 
 - [**fdhhhdjd/class-prometheus-grafana-telegram-alerts**](https://github.com/fdhhhdjd/class-prometheus-grafana-telegram-alerts) - ⭐ **60** | 🍴 34 | 📅 `2026-04-12`
@@ -1559,7 +1559,7 @@
 - [**infiniflow/ragflow**](https://github.com/infiniflow/ragflow) - ⭐ **89.7k** | 🍴 10.6k | 📅 `2026-08-14`
   - RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
 
-- [**usememos/memos**](https://github.com/usememos/memos) - ⭐ **62.6k** | 🍴 4.7k | 📅 `2026-01-06`
+- [**usememos/memos**](https://github.com/usememos/memos) - ⭐ **62.7k** | 🍴 4.7k | 📅 `2026-01-06`
   - Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.
 
 - [**hashicorp/terraform**](https://github.com/hashicorp/terraform) - ⭐ **49.6k** | 🍴 10.6k | 📅 `2026-07-11`
@@ -1729,7 +1729,7 @@
 - [**taovietducofficial/CI-CD-Beginner**](https://github.com/taovietducofficial/CI-CD-Beginner) - ⭐ **134** | 🍴 21 | 📅 `2026-08-12`
   - Production CI/CD pipeline template with quality gates, container security, SLSA provenance, cosign signing, and automated release management.
 
-- [**hieuphung97/dely**](https://github.com/hieuphung97/dely) - ⭐ **24** | 🍴 6 | 📅 `2026-08-30`
+- [**hieuphung97/dely**](https://github.com/hieuphung97/dely) - ⭐ **26** | 🍴 7 | 📅 `2026-08-30`
   - A cross-harness delivery workflow for coding agents.
 
 
