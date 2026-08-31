@@ -29,7 +29,7 @@
       "html_url": "https://github.com/tt-a1i/archify",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
-      "stars": 35296,
+      "stars": 35300,
       "forks": 2258,
       "open_issues": 76,
       "topics": [
@@ -125,7 +125,7 @@
       "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "language": "Python",
-      "stars": 39530,
+      "stars": 39531,
       "forks": 3677,
       "open_issues": 22,
       "topics": [
@@ -167,7 +167,7 @@
       "html_url": "https://github.com/THU-MAIC/OpenMAIC",
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
-      "stars": 24535,
+      "stars": 24537,
       "forks": 4521,
       "open_issues": 219,
       "topics": [],
@@ -1060,7 +1060,7 @@
       "html_url": "https://github.com/h4ckf0r0day/obscura",
       "description": "The headless browser for AI agents and web scraping",
       "language": "Rust",
-      "stars": 22506,
+      "stars": 22507,
       "forks": 1679,
       "open_issues": 102,
       "topics": [
@@ -1266,8 +1266,8 @@
       "html_url": "https://github.com/deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "language": "TypeScript",
-      "stars": 205042,
-      "forks": 23750,
+      "stars": 205043,
+      "forks": 23751,
       "open_issues": 0,
       "topics": [
         "ai-agents",
