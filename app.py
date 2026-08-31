@@ -88,21 +88,10 @@ class AppRequestHandler(SimpleHTTPRequestHandler):
             self.handle_api_sync()
         elif path == '/api/export':
             self.handle_api_export()
-        elif path in ('/api/custom-sources', '/api/add-source'):
-            self.handle_api_add_custom_source()
+        elif path == '/api/jobs/add-platform':
+            self.handle_api_add_job_platform()
         else:
             self.send_error(404, "Endpoint Not Found")
-
-    def handle_api_add_custom_source(self):
-        try:
-            length = int(self.headers.get('Content-Length', 0))
-            post_data = self.rfile.read(length).decode('utf-8')
-            req_json = json.loads(post_data)
-            from services.jobs_service import add_custom_community_source
-            data = add_custom_community_source(req_json)
-            self.send_json_response({'success': True, 'message': 'Đã thêm nguồn tuyển dụng mới thành công!', 'data': data})
-        except Exception as e:
-            self.send_json_response({'success': False, 'error': str(e)}, status=400)
 
     def serve_index(self):
         index_file = os.path.join(STATIC_DIR, 'index.html')
@@ -258,6 +247,25 @@ class AppRequestHandler(SimpleHTTPRequestHandler):
             })
         except Exception as e:
             print(f"[!] Export error: {e}")
+            self.send_json_response({'success': False, 'error': str(e)}, status=500)
+
+    def handle_api_add_job_platform(self):
+        try:
+            length = int(self.headers.get('Content-Length', 0))
+            if length > 0:
+                body = self.rfile.read(length).decode('utf-8')
+                req_json = json.loads(body)
+                from services.jobs_service import add_custom_platform
+                saved_item = add_custom_platform(req_json)
+                self.send_json_response({
+                    'success': True,
+                    'item': saved_item,
+                    'message': f"Đã lưu thành công group/cổng tuyển dụng: {saved_item['name']}"
+                })
+            else:
+                self.send_json_response({'success': False, 'error': 'Dữ liệu rỗng'}, status=400)
+        except Exception as e:
+            print(f"[!] Add platform error: {e}")
             self.send_json_response({'success': False, 'error': str(e)}, status=500)
 
     def handle_api_json_file(self, filename):

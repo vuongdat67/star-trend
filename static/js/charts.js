@@ -274,12 +274,12 @@ function renderVelocityLeaderboard(trendingRepos) {
     const gain = r.stars_since || r.period_stars || Math.floor((r.stars || 100) * 0.05);
 
     html += `
-      <tr>
+      <tr style="cursor: pointer;" onclick="openFullPageRepoDetail('${r.full_name}')">
         <td style="font-family: var(--font-mono); font-weight: 700; color: var(--text-muted);">${idx + 1}</td>
         <td>
-          <a href="${r.url || ('https://github.com/' + r.full_name)}" target="_blank" class="velocity-repo-link">
+          <span class="velocity-repo-link" style="color: var(--text-main); font-weight: 700;">
             ${r.full_name || r.name}
-          </a>
+          </span>
           <div class="velocity-repo-desc">${r.description || 'Không có mô tả'}</div>
         </td>
         <td>

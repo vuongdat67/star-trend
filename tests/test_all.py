@@ -87,6 +87,18 @@ class TestJobsService(unittest.TestCase):
             self.assertIsInstance(job['requirements'], list)
             self.assertIsInstance(job['benefits'], list)
 
+    def test_add_custom_platform(self):
+        """Kiểm tra thêm group tuyển dụng mới vào database."""
+        from services.jobs_service import add_custom_platform
+        new_item = {
+            "name": "Test Group ATTT Vietnam",
+            "url": "https://facebook.com/groups/test_group",
+            "badge": "Facebook",
+            "desc": "Test community desc"
+        }
+        res = add_custom_platform(new_item)
+        self.assertEqual(res['name'], "Test Group ATTT Vietnam")
+
 
 class TestDataFilesIntegrity(unittest.TestCase):
     def test_json_files_syntax(self):

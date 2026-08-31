@@ -138,11 +138,23 @@
               </button>
             </div>
 
-            <!-- Time Period & Historical Archive Selector -->
-            <div class="tab-btn-group" id="period-switch-group">
-              <button class="tab-btn active" id="period-daily" onclick="changePeriod('daily')">Hôm nay</button>
-              <button class="tab-btn" id="period-weekly" onclick="changePeriod('weekly')">Tuần này</button>
-              <button class="tab-btn" id="period-monthly" onclick="changePeriod('monthly')">Tháng này</button>
+            <!-- Time Period & History Group -->
+            <div style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap;">
+              <!-- Historical Snapshot Selector -->
+              <select id="snapshot-date-select" class="select-control" onchange="handleSnapshotDateChange(this.value)" title="Xem lại dữ liệu lịch sử các ngày trước">
+                <option value="current">📅 Snapshot: Hôm nay (31/08/2026)</option>
+                <option value="2026-08-30">📅 Hôm qua (30/08/2026)</option>
+                <option value="2026-08-29">📅 29/08/2026</option>
+                <option value="2026-08-28">📅 28/08/2026</option>
+                <option value="2026-08-25">📅 Tuần trước (25/08)</option>
+              </select>
+
+              <!-- Period Switcher -->
+              <div class="tab-btn-group" id="period-switch-group">
+                <button class="tab-btn active" id="period-daily" onclick="changePeriod('daily')">Ngày</button>
+                <button class="tab-btn" id="period-weekly" onclick="changePeriod('weekly')">Tuần</button>
+                <button class="tab-btn" id="period-monthly" onclick="changePeriod('monthly')">Tháng</button>
+              </div>
             </div>
           </div>
 
@@ -166,9 +178,9 @@
             <button class="pill-btn" onclick="switchJobsSubfilter('dev')">💻 Software / Web / App</button>
             <button class="pill-btn" onclick="switchJobsSubfilter('game')">🎮 Game Dev</button>
             <button class="pill-btn" onclick="switchJobsSubfilter('cloud')">☁️ Cloud & DevOps</button>
-            <button class="pill-btn" onclick="switchJobsSubfilter('platforms')">🌐 45+ Group & Cổng Tuyển Dụng</button>
+            <button class="pill-btn" onclick="switchJobsSubfilter('platforms')">🌐 35+ Group & Cổng Tuyển Dụng</button>
             <button class="pill-btn" onclick="switchJobsSubfilter('insights')">📊 Báo Cáo Xu Hướng 2025</button>
-            <button class="pill-btn" onclick="openAddSourceModal()" style="color: var(--pill-green-text); font-weight: 700;">➕ Thêm Group / Nguồn Mới</button>
+            <button class="pill-btn" onclick="openAddPlatformModal()" style="border-color: var(--pill-green-border); color: var(--pill-green-text); background: var(--pill-green-bg);">➕ Thêm Group / Cổng Mới</button>
           </div>
 
           <!-- General Search & Controls Row -->
@@ -176,7 +188,7 @@
             <!-- Search -->
             <div class="search-wrap">
               <i data-lucide="search"></i>
-              <input type="text" id="search-input" class="input-text" placeholder="Tìm theo tên repo, mô tả, CVE-ID..." oninput="handleSearch(this.value)">
+              <input type="text" id="search-input" class="input-text" placeholder="Tìm theo tên repo, mô tả, CVE-ID, vị trí tuyển dụng, kỹ năng..." oninput="handleSearch(this.value)">
             </div>
 
             <!-- Language select (Repos) -->
@@ -273,7 +285,7 @@
                 <i data-lucide="trending-up" style="width: 16px; height: 16px; color: var(--pill-green-text);"></i>
                 <span>Bảng Xếp Hạng Tốc Độ Tăng Trưởng (Star Velocity Leaderboard)</span>
               </div>
-              <span style="font-size: 11px; color: var(--text-muted); font-family: var(--font-mono);">Cập nhật liên tục</span>
+              <span style="font-size: 11px; color: var(--text-muted); font-family: var(--font-mono);">Bấm vào dòng để xem chi tiết repo</span>
             </div>
             <div id="velocity-leaderboard-container"></div>
           </div>
@@ -327,7 +339,7 @@
 
       </main>
 
-      <!-- RIGHT SIDEBAR -->
+      <!-- RIGHT SIDEBAR (Dynamically Computed Per Tab) -->
       <aside class="sidebar-column" id="sidebar-column">
 
         <!-- Domains / Categories -->
@@ -341,7 +353,7 @@
         <!-- Hot Topics Cloud -->
         <div class="sidebar-box" id="sidebar-topics-box">
           <div class="sidebar-heading">
-            <span id="sidebar-topics-heading-title">Chủ Đề Hot (#Topics)</span>
+            <span id="sidebar-topic-heading-title">Chủ Đề Hot (#Topics)</span>
           </div>
           <div class="topic-cloud-wrap" id="sidebar-topics-cloud"></div>
           <button class="btn-zinc" id="toggle-more-tags-btn" onclick="toggleMoreTags()" style="width: 100%; margin-top: 8px; justify-content: center;">
@@ -371,82 +383,51 @@
     </div>
   </div>
 
-  <!-- ==================== FLOATING ANIMATED MASCOT COMPANION WIDGET (Bottom Right) ==================== -->
-  <div id="floating-mascot-widget" class="floating-mascot-container">
-    <div id="mascot-speech-bubble" class="mascot-speech-bubble">
-      <span>💡 Tip: Giám sát log SIEM bằng SIGMA rules giúp phát hiện 90% kỹ thuật APT sớm!</span>
-    </div>
-    <div class="mascot-avatar-wrapper" onclick="toggleMascotMenu()" title="Dev Companion Mascot">
-      <img id="mascot-current-img" class="mascot-avatar-img" src="./img/giphy.gif" alt="Dev Mascot">
-      <span class="mascot-pulse-dot"></span>
-    </div>
-
-    <!-- Mini Mascot Action Menu -->
-    <div id="mascot-action-menu" class="mascot-action-menu">
-      <div style="font-size: 11px; font-weight: 700; color: var(--text-muted); margin-bottom: 6px; text-transform: uppercase;">Mascot Companion</div>
-      <button class="btn-zinc" style="width: 100%; font-size: 11.5px; padding: 4px 8px; justify-content: flex-start;" onclick="randomizeMascotArt()">
-        <i data-lucide="shuffle" style="width: 12px; height: 12px;"></i>
-        <span>Đổi Anime / GIF ngẫu nhiên</span>
-      </button>
-      <button class="btn-zinc" style="width: 100%; font-size: 11.5px; padding: 4px 8px; justify-content: flex-start;" onclick="showNextMascotTip()">
-        <i data-lucide="message-square" style="width: 12px; height: 12px;"></i>
-        <span>Tips An Ninh Mạng / Dev</span>
-      </button>
-      <button class="btn-zinc" style="width: 100%; font-size: 11.5px; padding: 4px 8px; justify-content: flex-start;" onclick="chooseCustomMascotImage()">
-        <i data-lucide="image" style="width: 12px; height: 12px;"></i>
-        <span>Chọn ảnh khác...</span>
-      </button>
-    </div>
-  </div>
-
-  <!-- ==================== MODAL: THÊM NGUỒN / GROUP MỚI ==================== -->
-  <div class="modal-overlay" id="add-source-modal">
-    <div class="modal-card" style="max-width: 520px;">
+  <!-- ==================== MODAL: THÊM GROUP / CỔNG TUYỂN DỤNG ==================== -->
+  <div class="modal-overlay" id="add-platform-modal">
+    <div class="modal-card" style="max-width: 540px;">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
         <h3 style="font-size: 14px; font-weight: 700; display: flex; align-items: center; gap: 6px;">
           <i data-lucide="plus-circle" style="width: 16px; height: 16px; color: var(--pill-green-text);"></i>
-          <span>Thêm Group Facebook / Cổng Tuyển Dụng Mới</span>
+          <span>Thêm Group / Cổng Tuyển Dụng Mới</span>
         </h3>
-        <button class="btn-zinc btn-icon" onclick="closeAddSourceModal()"><i data-lucide="x" style="width: 14px; height: 14px;"></i></button>
+        <button class="btn-zinc btn-icon" onclick="closeAddPlatformModal()"><i data-lucide="x" style="width: 14px; height: 14px;"></i></button>
       </div>
 
-      <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 14px;">
+      <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px;">
         <div>
-          <label style="font-size: 12px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 4px;">Tên Group / Cổng thông tin (*):</label>
-          <input type="text" id="new-source-name" class="input-text" placeholder="Ví dụ: Hội SOC & Splunk Thực Chiến VN">
+          <label style="font-size: 11.5px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 3px;">Tên Group / Kênh Tuyển Dụng *</label>
+          <input type="text" id="new-platform-name" class="input-text" placeholder="Ví dụ: CISSP và An toàn Thông tin, OSCP Vietnam...">
         </div>
-
         <div>
-          <label style="font-size: 12px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 4px;">Đường dẫn Link URL (*):</label>
-          <input type="text" id="new-source-url" class="input-text" placeholder="https://facebook.com/groups/...">
+          <label style="font-size: 11.5px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 3px;">Đường Dẫn Link Facebook / Website *</label>
+          <input type="url" id="new-platform-url" class="input-text" placeholder="https://www.facebook.com/groups/...">
         </div>
-
         <div>
-          <label style="font-size: 12px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 4px;">Danh mục phân loại:</label>
-          <select id="new-source-cat" class="select-control" style="width: 100%;">
-            <option value="🛡️ An Toàn Thông Tin & Cybersecurity (Facebook Groups)">🛡️ An Toàn Thông Tin & Cybersecurity</option>
-            <option value="🎯 SOC / Blue Team / SIEM / DFIR (Facebook & Communities)">🎯 SOC / Blue Team / SIEM / DFIR</option>
-            <option value="💻 Quản Trị Mạng / System / DevOps / Cloud (Facebook Groups)">💻 Quản Trị Mạng / System / DevOps / Cloud</option>
-            <option value="🚀 Developer / IT Jobs / AI / Game (Cộng Đồng Tuyển Dụng)">🚀 Developer / IT Jobs / AI / Game</option>
-            <option value="⭐ Nguồn Tùy Chỉnh Của Bạn">⭐ Nguồn Tùy Chỉnh Của Bạn</option>
+          <label style="font-size: 11.5px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 3px;">Danh Mục Phân Loại</label>
+          <select id="new-platform-category" class="select-control" style="width: 100%;">
+            <option value="🛡️ An Toàn Thông Tin, OSCP & CISSP (Facebook Groups)">🛡️ An Toàn Thông Tin, OSCP & CISSP (Facebook Groups)</option>
+            <option value="🎯 SOC / Blue Team / SIEM (Splunk & Wazuh) / DFIR">🎯 SOC / Blue Team / SIEM (Splunk & Wazuh) / DFIR</option>
+            <option value="💻 Quản Trị Mạng / CCNA / DevOps / Cloud (Facebook Groups)">💻 Quản Trị Mạng / CCNA / DevOps / Cloud (Facebook Groups)</option>
+            <option value="🚀 Developer / IT Jobs / AI / Game (Cộng Đồng Tuyển Dụng)">🚀 Developer / IT Jobs / AI / Game (Cộng Đồng Tuyển Dụng)</option>
           </select>
         </div>
-
         <div>
-          <label style="font-size: 12px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 4px;">Mô tả ngắn gọn & Badge:</label>
-          <input type="text" id="new-source-desc" class="input-text" placeholder="Mô tả tóm tắt nội dung và chất lượng tin đăng...">
+          <label style="font-size: 11.5px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 3px;">Badge Nhãn Dán</label>
+          <input type="text" id="new-platform-badge" class="input-text" placeholder="Facebook Group, Telegram, Diễn đàn...">
+        </div>
+        <div>
+          <label style="font-size: 11.5px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 3px;">Mô Tả Ngắn</label>
+          <input type="text" id="new-platform-desc" class="input-text" placeholder="Mô tả cộng đồng, mảng chuyên môn hoặc kinh nghiệm...">
         </div>
       </div>
 
       <div style="display: flex; justify-content: flex-end; gap: 8px;">
-        <button class="btn-zinc" onclick="closeAddSourceModal()">Hủy</button>
-        <button class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text);" onclick="submitNewSource()">Lưu Nguồn Này</button>
+        <button class="btn-zinc" onclick="closeAddPlatformModal()">Hủy</button>
+        <button class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text);" onclick="saveCustomPlatform()">Lưu Vào Hệ Thống</button>
       </div>
     </div>
   </div>
-
-  <!-- ==================== HOVER / ANCHOR QUICK PREVIEW POPOVER ==================== -->
-  <div id="quick-preview-popover" class="quick-preview-popover"></div>
 
   <!-- ==================== QUICK REPO INSPECTOR MODAL ==================== -->
   <div class="modal-overlay" id="inspector-modal">

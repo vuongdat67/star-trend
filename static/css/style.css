@@ -1246,7 +1246,7 @@ button {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 10px;
+  gap: 8px;
 }
 
 .job-title {
@@ -1266,21 +1266,21 @@ button {
   margin-top: 4px;
 }
 
-/* Sleek, refined salary pill */
 .job-salary-badge {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 4px;
   font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: 11.5px;
   font-weight: 700;
   color: var(--pill-green-text);
-  background: rgba(6, 78, 59, 0.4);
+  background: var(--pill-green-bg);
   border: 1px solid var(--pill-green-border);
   padding: 3px 8px;
   border-radius: var(--radius-xs);
   flex-shrink: 0;
-  white-space: nowrap;
+  text-align: right;
+  line-height: 1.2;
 }
 
 .platform-category-card {
@@ -1422,7 +1422,7 @@ button {
   color: var(--text-muted);
 }
 
-/* ==================== 5. FULL-PAGE DEEP DIVE VIEW (TiniX & VUI CODING TIER) ==================== */
+/* ==================== 5. FULL-PAGE DEEP DIVE VIEW (TiniX & Vui Coding Tier) ==================== */
 .fullpage-repo-hero {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -1508,6 +1508,58 @@ button {
   gap: 10px;
 }
 
+/* TiniX-Style Achievement Trophy */
+.tinix-trophy-box {
+  background: linear-gradient(135deg, rgba(251, 191, 36, 0.1) 0%, rgba(20, 22, 31, 1) 100%);
+  border: 1px solid rgba(251, 191, 36, 0.3);
+  border-radius: var(--radius-md);
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.tinix-trophy-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tinix-trophy-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--pill-amber-bg);
+  color: var(--pill-amber-text);
+  border: 1px solid var(--pill-amber-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+/* TiniX 30-Day Growth Chart Wrap */
+.tinix-growth-chart-wrap {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tinix-growth-chart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
 .repo-clone-box {
   background: var(--bg-input);
   border: 1px solid var(--border-subtle);
@@ -1522,118 +1574,7 @@ button {
   margin: 8px 0;
 }
 
-/* Sparkline Chart Container */
-.sparkline-box {
-  background: var(--bg-input);
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-sm);
-  padding: 12px;
-  height: 140px;
-  position: relative;
-  width: 100%;
-}
-
-/* ==================== 6. FLOATING MASCOT COMPANION WIDGET ==================== */
-.floating-mascot-container {
-  position: fixed;
-  bottom: 24px;
-  right: 24px;
-  z-index: 999;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 8px;
-  pointer-events: auto;
-}
-
-.mascot-avatar-wrapper {
-  width: 64px;
-  height: 64px;
-  border-radius: var(--radius-full);
-  background: var(--bg-card);
-  border: 2px solid var(--border-focus);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  position: relative;
-  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-  animation: mascotFloat 3s ease-in-out infinite alternate;
-}
-
-.mascot-avatar-wrapper:hover {
-  transform: scale(1.1) rotate(5deg);
-}
-
-.mascot-avatar-img {
-  width: 100%;
-  height: 100%;
-  border-radius: var(--radius-full);
-  object-fit: cover;
-}
-
-.mascot-pulse-dot {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 12px;
-  height: 12px;
-  background: var(--pill-green-text);
-  border: 2px solid var(--bg-card);
-  border-radius: 50%;
-  animation: pulseGlow 1.5s infinite;
-}
-
-.mascot-speech-bubble {
-  background: var(--bg-surface);
-  border: 1px solid var(--border-focus);
-  border-radius: var(--radius-md);
-  padding: 8px 12px;
-  font-size: 11.5px;
-  color: var(--text-main);
-  max-width: 250px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
-  opacity: 0;
-  transform: translateY(10px);
-  transition: all 0.25s ease;
-  pointer-events: none;
-}
-
-.mascot-speech-bubble.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.mascot-action-menu {
-  display: none;
-  flex-direction: column;
-  gap: 6px;
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: 10px;
-  width: 210px;
-  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.8);
-  margin-bottom: 4px;
-}
-
-.mascot-action-menu.open {
-  display: flex;
-}
-
-@keyframes mascotFloat {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-8px); }
-}
-
-@keyframes pulseGlow {
-  0% { transform: scale(0.95); opacity: 0.8; }
-  50% { transform: scale(1.15); opacity: 1; }
-  100% { transform: scale(0.95); opacity: 0.8; }
-}
-
-/* ==================== 7. QUICK HOVER PREVIEW POPOVER ==================== */
+/* ==================== 6. QUICK HOVER PREVIEW POPOVER ==================== */
 .quick-preview-popover {
   position: fixed;
   z-index: 1500;
@@ -1648,7 +1589,7 @@ button {
   font-size: 12px;
 }
 
-/* ==================== 8. DEV QUOTE RADAR ==================== */
+/* ==================== 7. DEV QUOTE RADAR ==================== */
 .quote-card {
   background: var(--bg-input);
   border: 1px solid var(--border-subtle);

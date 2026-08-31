@@ -1,7 +1,7 @@
 """
 Tech & Cybersecurity Job Radar Service & Community Aggregator
-Provides community directories (45+ Facebook Groups, Telegram Channels, Portals),
-user custom source persistence, rich job postings with detailed JDs, and CyberJutsu-style Market & Salary Analytics.
+Provides community directories (35+ Facebook Groups, Telegram Channels, Portals),
+rich job postings with detailed JDs, and CyberJutsu-style Market & Salary Analytics.
 """
 
 import os
@@ -11,41 +11,40 @@ from datetime import datetime
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 JOBS_FILE = os.path.join(DATA_DIR, 'jobs.json')
-CUSTOM_SOURCES_FILE = os.path.join(DATA_DIR, 'custom_sources.json')
 
 os.makedirs(DATA_DIR, exist_ok=True)
 
-# ── 45+ Curated Vietnamese Facebook Groups & Community Portals ─────────────
+# ── 35+ Curated Vietnamese Facebook Groups & Community Portals ─────────────
 COMMUNITY_GROUPS = [
     {
-        "category": "🛡️ An Toàn Thông Tin & Cybersecurity (Facebook Groups)",
+        "category": "🛡️ An Toàn Thông Tin, OSCP & CISSP (Facebook Groups)",
         "items": [
             {
-                "name": "Cộng đồng An toàn thông tin Việt Nam",
-                "badge": "Facebook Group",
-                "desc": "Cộng đồng trao đổi kỹ thuật, sự kiện ATTT, chia sẻ tin tuyển dụng chuyên gia bảo mật và kiến thức an ninh mạng.",
-                "url": "https://www.facebook.com/groups/atttvietnam",
-                "type": "facebook"
-            },
-            {
                 "name": "CISSP và An toàn Thông tin",
-                "badge": "Chứng Chỉ ATTT",
-                "desc": "Cộng đồng ôn thi và chia sẻ kinh nghiệm chứng chỉ CISSP, CISM, quản trị bảo mật thông tin doanh nghiệp.",
+                "badge": "Facebook Group",
+                "desc": "Cộng đồng chuyên gia luyện thi chứng chỉ CISSP, quản trị rủi ro ATTT và chia sẻ cơ hội việc làm CISO/Security Manager.",
                 "url": "https://www.facebook.com/groups/CISSP.ATTT",
                 "type": "facebook"
             },
             {
                 "name": "An ninh mạng, OSCP, ATTT, Pentest CDCyber",
-                "badge": "Pentest / OSCP",
-                "desc": "Nhóm thảo luận thực chiến bảo mật, lộ trình thi OSCP, Bug Bounty, reverse malware và tuyển dụng Pentester.",
+                "badge": "Facebook Group",
+                "desc": "Cộng đồng thực chiến Pentest, luyện thi OSCP/CRTP, chia sẻ tài liệu bảo mật mạng và tuyển dụng kỹ sư an ninh mạng.",
                 "url": "https://www.facebook.com/groups/4108353736093667/",
                 "type": "facebook"
             },
             {
                 "name": "AN NINH VÀ AN TOÀN THÔNG TIN",
-                "badge": "Cộng Đồng Lớn",
-                "desc": "Diễn đàn trao đổi cảnh báo bảo mật, tin tức lỗ hổng 0-day, phân tích mã độc và việc làm An ninh mạng.",
+                "badge": "Facebook Group",
+                "desc": "Diễn đàn cập nhật tin tức cảnh báo an ninh thông tin, thảo luận kỹ thuật phòng chống mã độc và việc làm ATTT.",
                 "url": "https://www.facebook.com/groups/673251519470940/",
+                "type": "facebook"
+            },
+            {
+                "name": "Cộng đồng An toàn thông tin Việt Nam",
+                "badge": "Facebook Group",
+                "desc": "Cộng đồng trao đổi kỹ thuật, sự kiện ATTT, chia sẻ tin tuyển dụng chuyên gia bảo mật và kiến thức an ninh mạng.",
+                "url": "https://www.facebook.com/groups/atttvietnam",
                 "type": "facebook"
             },
             {
@@ -75,18 +74,11 @@ COMMUNITY_GROUPS = [
                 "desc": "Cổng tuyển dụng chuyên biệt 900+ tin An toàn thông tin, SOC, Pentest, SIEM, DevSecOps tại Việt Nam.",
                 "url": "https://jobs.cyberjutsu.io/",
                 "type": "portal"
-            },
-            {
-                "name": "SecurityDaily Community",
-                "badge": "Forum & Group",
-                "desc": "Cổng thông tin an ninh mạng hàng đầu, cập nhật tin tức cảnh báo sớm và tuyển dụng nhân sự ATTT.",
-                "url": "https://securitydaily.net",
-                "type": "portal"
             }
         ]
     },
     {
-        "category": "🎯 SOC / Blue Team / SIEM / DFIR (Facebook & Communities)",
+        "category": "🎯 SOC / Blue Team / SIEM (Splunk & Wazuh) / DFIR",
         "items": [
             {
                 "name": "SOC Analyst Vietnam Community",
@@ -96,17 +88,17 @@ COMMUNITY_GROUPS = [
                 "type": "facebook"
             },
             {
+                "name": "Wazuh Vietnam SIEM & XDR Community",
+                "badge": "User Group",
+                "desc": "Cộng đồng triển khai Wazuh SIEM mã nguồn mở, tích hợp EDR, cấu hình agent và giám sát an ninh mạng.",
+                "url": "https://www.facebook.com/search/groups/?q=Wazuh%20Vietnam",
+                "type": "facebook"
+            },
+            {
                 "name": "Splunk & Elastic SIEM Vietnam",
                 "badge": "User Group",
                 "desc": "Chia sẻ kinh nghiệm xây dựng usecase phát hiện, tối ưu rule cảnh báo và tuyển dụng kỹ sư SIEM/SOC.",
                 "url": "https://www.facebook.com/search/groups/?q=Splunk%20Vietnam",
-                "type": "facebook"
-            },
-            {
-                "name": "Wazuh SIEM / XDR Vietnam",
-                "badge": "Open-Source SIEM",
-                "desc": "Cộng đồng triển khai giải pháp giám sát an ninh mã nguồn mở Wazuh, tích hợp EDR và cảnh báo tự động.",
-                "url": "https://www.facebook.com/search/groups/?q=Wazuh%20Vietnam",
                 "type": "facebook"
             },
             {
@@ -119,7 +111,7 @@ COMMUNITY_GROUPS = [
         ]
     },
     {
-        "category": "💻 Quản Trị Mạng / System / DevOps / Cloud (Facebook Groups)",
+        "category": "💻 Quản Trị Mạng / CCNA / DevOps / Cloud (Facebook Groups)",
         "items": [
             {
                 "name": "Hội Quản Trị Mạng Việt Nam",
@@ -129,9 +121,9 @@ COMMUNITY_GROUPS = [
                 "type": "facebook"
             },
             {
-                "name": "CCNA & Network Engineer Vietnam",
-                "badge": "Network Group",
-                "desc": "Nhóm trao đổi kiến thức mạng doanh nghiệp, routing & switching, firewall, VPN và luyện thi CCNA/CCNP.",
+                "name": "CCNA / CCNP Network Vietnam",
+                "badge": "Facebook Group",
+                "desc": "Cộng đồng kỹ sư mạng Cisco, Juniper, thiết kế hạ tầng mạng doanh nghiệp và ôn luyện chứng chỉ mạng.",
                 "url": "https://www.facebook.com/search/groups/?q=CCNA%20Vietnam",
                 "type": "facebook"
             },
@@ -208,7 +200,6 @@ SAMPLE_JOBS = [
         "company": "Viettel Cyber Security",
         "location": "Hà Nội / Hybrid",
         "salary": "35 – 65 Triệu VNĐ",
-        "salary_short": "35 – 65 Triệu",
         "salary_numeric": 50,
         "track": "🛡️ An Ninh Mạng & SOC",
         "level": "Senior",
@@ -236,11 +227,10 @@ SAMPLE_JOBS = [
         "company": "VNPT Cyber Security",
         "location": "Hà Nội / TP.HCM",
         "salary": "15 – 25 Triệu VNĐ",
-        "salary_short": "15 – 25 Triệu",
         "salary_numeric": 20,
         "track": "🛡️ An Ninh Mạng & SOC",
         "level": "Junior",
-        "source": "Facebook: SOC Analyst Vietnam",
+        "source": "Facebook Group: SOC Analyst Vietnam",
         "source_badge": "Facebook Group",
         "tags": ["SOC L1", "Log Analysis", "Wireshark", "Linux", "Networking"],
         "description": "Tiếp nhận cảnh báo từ hệ thống SIEM/EDR, triage và đánh giá mức độ nghiêm trọng của sự cố, báo cáo và phối hợp với Tier 2/Incident Response.",
@@ -264,7 +254,6 @@ SAMPLE_JOBS = [
         "company": "Techcombank / VIB Fintech Lab",
         "location": "TP. Hồ Chí Minh",
         "salary": "38 – 55 Triệu VNĐ",
-        "salary_short": "38 – 55 Triệu",
         "salary_numeric": 45,
         "track": "🛡️ An Ninh Mạng & SOC",
         "level": "Middle / Senior",
@@ -287,39 +276,11 @@ SAMPLE_JOBS = [
         "posted_at": "2026-08-30"
     },
     {
-        "id": "job-sec-004",
-        "title": "Malware Reverse Engineer & Threat Intelligence",
-        "company": "CyRadar / VinCSS",
-        "location": "Hà Nội",
-        "salary": "35 – 60 Triệu VNĐ",
-        "salary_short": "35 – 60 Triệu",
-        "salary_numeric": 48,
-        "track": "🛡️ An Ninh Mạng & SOC",
-        "level": "Senior",
-        "source": "Cộng đồng ATTT Việt Nam",
-        "source_badge": "Facebook Community",
-        "tags": ["Ghidra", "IDA Pro", "x64dbg", "Malware Analysis", "YARA", "C/C++"],
-        "description": "Phân tích tĩnh và động các mẫu mã độc APT, bóc tách cơ chế evasion, trích xuất IOCs và viết luật phát hiện YARA/Sigma.",
-        "requirements": [
-            "3+ năm kinh nghiệm phân tích mã độc Windows PE, DLL, PowerShell script hoặc Android APK.",
-            "Thành thạo công cụ dịch ngược (Ghidra, IDA Pro, x64dbg, Wireshark, Process Hacker).",
-            "Hiểu sâu về kiến trúc Windows Internals, PE format, Hooking, API Unhooking."
-        ],
-        "benefits": [
-            "Phụ cấp nghiên cứu khoa học và bài báo bảo mật hàng năm.",
-            "Trang bị máy trạm cấu hình cao chuyên dụng cho sandbox và phân tích.",
-            "Gói bảo hiểm sức khỏe VIP và chế độ nghỉ phép 15 ngày."
-        ],
-        "url": "https://www.facebook.com/groups/atttvietnam",
-        "posted_at": "2026-08-30"
-    },
-    {
         "id": "job-ai-001",
         "title": "AI / LLM Agent Fullstack Engineer",
         "company": "FPT Software AI Lab",
         "location": "Hà Nội / TP.HCM",
         "salary": "40 – 80 Triệu VNĐ",
-        "salary_short": "40 – 80 Triệu",
         "salary_numeric": 60,
         "track": "🤖 AI & Machine Learning",
         "level": "Senior",
@@ -341,39 +302,11 @@ SAMPLE_JOBS = [
         "posted_at": "2026-08-30"
     },
     {
-        "id": "job-ai-002",
-        "title": "RAG & Vector Search Optimization Engineer",
-        "company": "TiniX AI / Deep Learning Vietnam",
-        "location": "Hà Nội / Remote",
-        "salary": "35 – 65 Triệu VNĐ",
-        "salary_short": "35 – 65 Triệu",
-        "salary_numeric": 50,
-        "track": "🤖 AI & Machine Learning",
-        "level": "Middle / Senior",
-        "source": "AI Vietnam",
-        "source_badge": "Facebook Group",
-        "tags": ["RAG", "Embeddings", "Milvus", "Qdrant", "BM25", "Hybrid Search"],
-        "description": "Nghiên cứu và tối ưu hóa hệ thống truy xuất tài liệu lai (Hybrid RAG: Vector + Keyword BM25), reranking và context window cho LLM.",
-        "requirements": [
-            "Kinh nghiệm xây dựng kiến trúc RAG cấp doanh nghiệp cho dữ liệu lớn.",
-            "Thành thạo embedding models, Cross-Encoder rerankers và kỹ thuật chunking.",
-            "Nắm vững Python, FastAPI, Docker và Vector Database."
-        ],
-        "benefits": [
-            "Môi trường nghiên cứu AI học thuật kết hợp ứng dụng thực tế cao cấp.",
-            "Cấp tài khoản Claude 3.5 Sonnet / OpenAI o1 / DeepSeek V3 thả ga.",
-            "Thưởng dự án và xét tăng lương định kỳ 6 tháng/lần."
-        ],
-        "url": "https://www.facebook.com/groups/aivietnam",
-        "posted_at": "2026-08-30"
-    },
-    {
         "id": "job-dev-001",
         "title": "Senior Backend Golang / High Throughput Engineer",
         "company": "VNG Corporation / ZaloPay",
         "location": "TP. Hồ Chí Minh",
         "salary": "45 – 70 Triệu VNĐ",
-        "salary_short": "45 – 70 Triệu",
         "salary_numeric": 55,
         "track": "💻 Software / Web / App",
         "level": "Senior",
@@ -395,66 +328,11 @@ SAMPLE_JOBS = [
         "posted_at": "2026-08-28"
     },
     {
-        "id": "job-dev-002",
-        "title": "Senior Frontend Engineer (React 19 / Next.js / Performance)",
-        "company": "Vui Coding / Tech Community Startup",
-        "location": "TP. Hồ Chí Minh / Remote",
-        "salary": "30 – 50 Triệu VNĐ",
-        "salary_short": "30 – 50 Triệu",
-        "salary_numeric": 40,
-        "track": "💻 Software / Web / App",
-        "level": "Middle / Senior",
-        "source": "ReactJS Vietnam & Vui Coding",
-        "source_badge": "Vui Coding",
-        "tags": ["React", "Next.js", "TypeScript", "TailwindCSS", "Web Vitals"],
-        "description": "Xây dựng các sản phẩm web ứng dụng hiệu năng cao phục vụ cộng đồng lập trình viên, tối ưu SEO và trải nghiệm người dùng.",
-        "requirements": [
-            "3+ năm làm việc với React, Next.js (App Router, Server Components).",
-            "Nắm vững tối ưu Core Web Vitals, SSR, ISR, Edge Middleware và Responsive Design.",
-            "Kỹ năng viết Clean Code, Design System và tự động hóa kiểm thử Cypress/Jest."
-        ],
-        "benefits": [
-            "100% làm việc linh hoạt / Hybrid, tự chủ thời gian.",
-            "Thưởng tháng 13 + Cổ phần ưu đãi (ESOP) theo hiệu quả dự án.",
-            "Cung cấp gói học tập Udemy / Frontend Masters không giới hạn."
-        ],
-        "url": "https://vuicoding.me/jobs",
-        "posted_at": "2026-08-31"
-    },
-    {
-        "id": "job-dev-003",
-        "title": "Mobile Flutter / React Native Developer",
-        "company": "MoMo / Zalo Financial Services",
-        "location": "TP. Hồ Chí Minh",
-        "salary": "25 – 45 Triệu VNĐ",
-        "salary_short": "25 – 45 Triệu",
-        "salary_numeric": 35,
-        "track": "💻 Software / Web / App",
-        "level": "Middle",
-        "source": "IT Jobs Vietnam",
-        "source_badge": "TopCV",
-        "tags": ["Flutter", "Dart", "React Native", "iOS", "Android", "CI-CD"],
-        "description": "Phát triển các tính năng thanh toán, ví điện tử và giao diện người dùng mượt mà trên ứng dụng Mobile có hơn 30 triệu người dùng.",
-        "requirements": [
-            "2+ năm kinh nghiệm phát triển ứng dụng di động với Flutter hoặc React Native.",
-            "Hiểu biết tốt về State Management (Bloc/Riverpod/Redux) và tối ưu frame rate 60fps.",
-            "Kinh nghiệm build & deploy lên Google Play Store và Apple App Store."
-        ],
-        "benefits": [
-            "Gói thu nhập 14 - 16 tháng lương/năm.",
-            "Bảo hiểm sức khỏe đặc biệt cho nhân viên và bố mẹ.",
-            "Môi trường FinTech năng động, trà chiều, cà phê miễn phí mỗi ngày."
-        ],
-        "url": "https://www.topcv.vn",
-        "posted_at": "2026-08-29"
-    },
-    {
         "id": "job-cloud-001",
         "title": "DevSecOps & Cloud Security Engineer (Remote)",
         "company": "US Tech Partner (Global SaaS)",
         "location": "100% Remote / Toàn Quốc",
         "salary": "$2,500 – $4,500 / tháng (~60 – 115 Triệu)",
-        "salary_short": "$2,500 – $4,500 / mo",
         "salary_numeric": 85,
         "track": "☁️ Cloud & DevOps",
         "level": "Senior",
@@ -482,7 +360,6 @@ SAMPLE_JOBS = [
         "company": "Amanotes / VGames Studio",
         "location": "TP. Hồ Chí Minh / Hà Nội",
         "salary": "25 – 45 Triệu VNĐ",
-        "salary_short": "25 – 45 Triệu",
         "salary_numeric": 35,
         "track": "🎮 Game Development",
         "level": "Middle",
@@ -502,6 +379,110 @@ SAMPLE_JOBS = [
         ],
         "url": "https://www.facebook.com/groups/vietnamgamedev",
         "posted_at": "2026-08-27"
+    },
+    {
+        "id": "job-sec-004",
+        "title": "Malware Reverse Engineer & Threat Intelligence",
+        "company": "CyRadar / VinCSS",
+        "location": "Hà Nội",
+        "salary": "35 – 60 Triệu VNĐ",
+        "salary_numeric": 48,
+        "track": "🛡️ An Ninh Mạng & SOC",
+        "level": "Senior",
+        "source": "Cộng đồng ATTT Việt Nam",
+        "source_badge": "Facebook Community",
+        "tags": ["Ghidra", "IDA Pro", "x64dbg", "Malware Analysis", "YARA", "C/C++"],
+        "description": "Phân tích tĩnh và động các mẫu mã độc APT, bóc tách cơ chế evasion, trích xuất IOCs và viết luật phát hiện YARA/Sigma.",
+        "requirements": [
+            "3+ năm kinh nghiệm phân tích mã độc Windows PE, DLL, PowerShell script hoặc Android APK.",
+            "Thành thạo công cụ dịch ngược (Ghidra, IDA Pro, x64dbg, Wireshark, Process Hacker).",
+            "Hiểu sâu về kiến trúc Windows Internals, PE format, Hooking, API Unhooking."
+        ],
+        "benefits": [
+            "Phụ cấp nghiên cứu khoa học và bài báo bảo mật hàng năm.",
+            "Trang bị máy trạm cấu hình cao chuyên dụng cho sandbox và phân tích.",
+            "Gói bảo hiểm sức khỏe VIP và chế độ nghỉ phép 15 ngày."
+        ],
+        "url": "https://www.facebook.com/groups/atttvietnam",
+        "posted_at": "2026-08-30"
+    },
+    {
+        "id": "job-dev-002",
+        "title": "Senior Frontend Engineer (React 19 / Next.js / Performance)",
+        "company": "Vui Coding / Tech Community Startup",
+        "location": "TP. Hồ Chí Minh / Remote",
+        "salary": "30 – 50 Triệu VNĐ",
+        "salary_numeric": 40,
+        "track": "💻 Software / Web / App",
+        "level": "Middle / Senior",
+        "source": "ReactJS Vietnam & Vui Coding",
+        "source_badge": "Vui Coding",
+        "tags": ["React", "Next.js", "TypeScript", "TailwindCSS", "Web Vitals"],
+        "description": "Xây dựng các sản phẩm web ứng dụng hiệu năng cao phục vụ cộng đồng lập trình viên, tối ưu SEO và trải nghiệm người dùng.",
+        "requirements": [
+            "3+ năm làm việc với React, Next.js (App Router, Server Components).",
+            "Nắm vững tối ưu Core Web Vitals, SSR, ISR, Edge Middleware và Responsive Design.",
+            "Kỹ năng viết Clean Code, Design System và tự động hóa kiểm thử Cypress/Jest."
+        ],
+        "benefits": [
+            "100% làm việc linh hoạt / Hybrid, tự chủ thời gian.",
+            "Thưởng tháng 13 + Cổ phần ưu đãi (ESOP) theo hiệu quả dự án.",
+            "Cung cấp gói học tập Udemy / Frontend Masters không giới hạn."
+        ],
+        "url": "https://vuicoding.me/jobs",
+        "posted_at": "2026-08-31"
+    },
+    {
+        "id": "job-ai-002",
+        "title": "RAG & Vector Search Optimization Engineer",
+        "company": "TiniX AI / Deep Learning Vietnam",
+        "location": "Hà Nội / Remote",
+        "salary": "35 – 65 Triệu VNĐ",
+        "salary_numeric": 50,
+        "track": "🤖 AI & Machine Learning",
+        "level": "Middle / Senior",
+        "source": "AI Vietnam",
+        "source_badge": "Facebook Group",
+        "tags": ["RAG", "Embeddings", "Milvus", "Qdrant", "BM25", "Hybrid Search"],
+        "description": "Nghiên cứu và tối ưu hóa hệ thống truy xuất tài liệu lai (Hybrid RAG: Vector + Keyword BM25), reranking và context window cho LLM.",
+        "requirements": [
+            "Kinh nghiệm xây dựng kiến trúc RAG cấp doanh nghiệp cho dữ liệu lớn.",
+            "Thành thạo embedding models, Cross-Encoder rerankers và kỹ thuật chunking.",
+            "Nắm vững Python, FastAPI, Docker và Vector Database."
+        ],
+        "benefits": [
+            "Môi trường nghiên cứu AI học thuật kết hợp ứng dụng thực tế cao cấp.",
+            "Cấp tài khoản Claude 3.5 Sonnet / OpenAI o1 / DeepSeek V3 thả ga.",
+            "Thưởng dự án và xét tăng lương định kỳ 6 tháng/lần."
+        ],
+        "url": "https://www.facebook.com/groups/aivietnam",
+        "posted_at": "2026-08-30"
+    },
+    {
+        "id": "job-dev-003",
+        "title": "Mobile Flutter / React Native Developer",
+        "company": "MoMo / Zalo Financial Services",
+        "location": "TP. Hồ Chí Minh",
+        "salary": "25 – 45 Triệu VNĐ",
+        "salary_numeric": 35,
+        "track": "💻 Software / Web / App",
+        "level": "Middle",
+        "source": "IT Jobs Vietnam",
+        "source_badge": "TopCV",
+        "tags": ["Flutter", "Dart", "React Native", "iOS", "Android", "CI-CD"],
+        "description": "Phát triển các tính năng thanh toán, ví điện tử và giao diện người dùng mượt mà trên ứng dụng Mobile có hơn 30 triệu người dùng.",
+        "requirements": [
+            "2+ năm kinh nghiệm phát triển ứng dụng di động với Flutter hoặc React Native.",
+            "Hiểu biết tốt về State Management (Bloc/Riverpod/Redux) và tối ưu frame rate 60fps.",
+            "Kinh nghiệm build & deploy lên Google Play Store và Apple App Store."
+        ],
+        "benefits": [
+            "Gói thu nhập 14 - 16 tháng lương/năm.",
+            "Bảo hiểm sức khỏe đặc biệt cho nhân viên và bố mẹ.",
+            "Môi trường FinTech năng động, trà chiều, cà phê miễn phí mỗi ngày."
+        ],
+        "url": "https://www.topcv.vn",
+        "posted_at": "2026-08-29"
     }
 ]
 
@@ -553,66 +534,73 @@ MARKET_INSIGHTS = {
     ]
 }
 
-def load_custom_sources():
-    """Tải danh sách group / nguồn do người dùng tự thêm."""
-    if os.path.exists(CUSTOM_SOURCES_FILE):
+def get_all_jobs_data():
+    """Returns the complete jobs, platforms, and insights dataset."""
+    if os.path.exists(JOBS_FILE):
         try:
-            with open(CUSTOM_SOURCES_FILE, 'r', encoding='utf-8') as f:
-                return json.load(f)
+            with open(JOBS_FILE, 'r', encoding='utf-8') as f:
+                saved = json.load(f)
+                if isinstance(saved, dict) and 'platforms' in saved:
+                    return saved
         except Exception:
             pass
-    return []
-
-def save_custom_sources(sources):
-    """Lưu danh sách group / nguồn tùy chỉnh."""
-    with open(CUSTOM_SOURCES_FILE, 'w', encoding='utf-8') as f:
-        json.dump(sources, f, ensure_ascii=False, indent=2)
-
-def add_custom_community_source(source_data):
-    """Thêm một nguồn hoặc group tuyển dụng mới."""
-    sources = load_custom_sources()
-    sources.append({
-        "id": f"custom-src-{int(datetime.now().timestamp())}",
-        "name": source_data.get("name", "Nguồn cộng đồng mới"),
-        "badge": source_data.get("badge", "Tự thêm"),
-        "desc": source_data.get("desc", ""),
-        "url": source_data.get("url", "https://facebook.com"),
-        "category": source_data.get("category", "🛡️ An Toàn Thông Tin & Cybersecurity (Facebook Groups)"),
-        "type": source_data.get("type", "facebook"),
-        "created_at": datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    })
-    save_custom_sources(sources)
-    return save_jobs_data()
-
-def get_all_jobs_data():
-    """Returns the complete jobs, platforms, and insights dataset merged with user custom sources."""
-    custom_sources = load_custom_sources()
-    
-    # Merge custom sources into platforms
-    platforms_map = {cat["category"]: list(cat["items"]) for cat in COMMUNITY_GROUPS}
-    
-    for src in custom_sources:
-        cat_name = src.get("category", "⭐ Nguồn Tùy Chỉnh Của Bạn")
-        if cat_name not in platforms_map:
-            platforms_map[cat_name] = []
-        platforms_map[cat_name].append(src)
-        
-    merged_platforms = [{"category": k, "items": v} for k, v in platforms_map.items()]
 
     return {
-        "platforms": merged_platforms,
+        "platforms": COMMUNITY_GROUPS,
         "sample_jobs": SAMPLE_JOBS,
         "insights": MARKET_INSIGHTS,
-        "custom_sources": custom_sources,
         "updated_at": datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     }
 
-def save_jobs_data():
-    """Saves the merged data structure into data/jobs.json."""
-    data = get_all_jobs_data()
+def save_jobs_data(data=None):
+    """Saves the data structure into data/jobs.json, static/data and docs/data."""
+    import shutil
+    if data is None:
+        data = {
+            "platforms": COMMUNITY_GROUPS,
+            "sample_jobs": SAMPLE_JOBS,
+            "insights": MARKET_INSIGHTS,
+            "updated_at": datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        }
     with open(JOBS_FILE, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+    # Sync to static and docs
+    for sub in ['static', 'docs']:
+        dst_dir = os.path.join(BASE_DIR, sub, 'data')
+        os.makedirs(dst_dir, exist_ok=True)
+        shutil.copyfile(JOBS_FILE, os.path.join(dst_dir, 'jobs.json'))
+
     return data
+
+def add_custom_platform(item):
+    """Thêm 1 group hoặc trang tuyển dụng mới vào data/jobs.json."""
+    data = get_all_jobs_data()
+    category_name = item.get('category', '🛡️ An Toàn Thông Tin, OSCP & CISSP (Facebook Groups)')
+    
+    # Tìm category đã có hoặc tạo mới
+    target_cat = None
+    for cat in data['platforms']:
+        if cat['category'] == category_name or category_name in cat['category']:
+            target_cat = cat
+            break
+    
+    if not target_cat:
+        target_cat = {"category": category_name, "items": []}
+        data['platforms'].insert(0, target_cat)
+    
+    # Thêm item
+    new_entry = {
+        "name": item.get('name', 'Community Group'),
+        "badge": item.get('badge', 'Facebook Group'),
+        "desc": item.get('desc', 'Cộng đồng trao đổi kỹ thuật và chia sẻ tin tuyển dụng.'),
+        "url": item.get('url', 'https://www.facebook.com'),
+        "type": item.get('type', 'facebook')
+    }
+    target_cat['items'].append(new_entry)
+    data['updated_at'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    save_jobs_data(data)
+    return new_entry
 
 if __name__ == '__main__':
     saved = save_jobs_data()
