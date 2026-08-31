@@ -443,6 +443,39 @@ button {
 
 .select-control:focus { border-color: var(--border-focus); }
 
+/* Professional Date Picker Control */
+.date-picker-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 4px 10px;
+  transition: var(--transition);
+}
+
+.date-picker-wrap:hover, .date-picker-wrap:focus-within {
+  border-color: var(--border-focus);
+  background: var(--bg-surface);
+}
+
+.date-input-control {
+  background: transparent;
+  border: none;
+  color: var(--text-main);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  color-scheme: dark;
+}
+
+[data-theme="light"] .date-input-control {
+  color-scheme: light;
+}
+
 /* Layout Grid Switcher */
 .layout-toggle-group {
   display: flex;

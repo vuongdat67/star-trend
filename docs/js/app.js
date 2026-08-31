@@ -1,7 +1,7 @@
 /**
  * Jet-Black Charcoal Stars, Trending, Collections, Stats, Jobs & AI Radar Hub
  * Supports dual-mode: Local Python Server (/api/...) and Static GitHub Pages (./data/*.json)
- * Full-Page Deep-Dive (TiniX & Vui Coding Tier) with 30-Day Growth Line Charts & Community Radar
+ * Full-Page Deep-Dive Views with 30-Day Growth Line Charts & Community Radar
  */
 
 const _STATIC_MODE = !(window.location.port === '5000');
@@ -25,7 +25,7 @@ const state = {
   toolsSubfilter: 'all',         // 'all' | 'launch' | 'ai' | 'debug' | 'sec'
   jobsSubfilter: 'all',          // 'all' | 'sec' | 'ai' | 'dev' | 'game' | 'cloud' | 'platforms' | 'insights'
   period: 'daily',               // 'daily' | 'weekly' | 'monthly'
-  snapshotDate: 'current',       // 'current' | '2026-08-30' | ...
+  snapshotDate: '2026-08-31',    // '2026-08-31'
   layout: localStorage.getItem('layout') || 'layout-grid-3',
   sidebarHidden: localStorage.getItem('sidebarHidden') === 'true',
   searchQuery: '',
@@ -134,6 +134,14 @@ document.addEventListener('DOMContentLoaded', async () => {
   const pageLimitSelect = document.getElementById('page-limit-select');
   if (pageLimitSelect) pageLimitSelect.value = state.pageSize.toString();
 
+  const dateInput = document.getElementById('snapshot-date-input');
+  if (dateInput) {
+    const today = new Date().toISOString().slice(0, 10);
+    dateInput.value = today;
+    dateInput.max = today;
+    state.snapshotDate = today;
+  }
+
   setupScrollObserver();
 
   // Load all datasets concurrently
@@ -150,7 +158,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     fetchJobsData()
   ]);
 
-  // Handle URL hash routing (e.g. #repo/cline/cline or #job/job-sec-001)
+  // Handle URL hash routing
   handleHashRouting();
   window.addEventListener('hashchange', handleHashRouting);
 
@@ -167,6 +175,15 @@ function handleHashRouting() {
   } else if (hash.startsWith('job/')) {
     const jobId = hash.replace('job/', '');
     openFullPageJobDetail(jobId, false);
+  } else if (hash.startsWith('radar/')) {
+    const radarId = hash.replace('radar/', '');
+    openFullPageRadarDetail(radarId, false);
+  } else if (hash.startsWith('collection/')) {
+    const colId = hash.replace('collection/', '');
+    openFullPageCollectionDetail(colId, false);
+  } else if (hash.startsWith('tool/')) {
+    const toolId = hash.replace('tool/', '');
+    openFullPageToolDetail(toolId, false);
   } else if (!hash) {
     closeFullPageDetail(false);
   }
@@ -197,7 +214,7 @@ function applyLayout(layoutClass) {
   state.layout = layoutClass;
   localStorage.setItem('layout', layoutClass);
   const container = document.getElementById('cards-feed-container');
-  if (container && ['trending', 'stars', 'new', 'pulse'].includes(state.feedMode)) {
+  if (container && ['trending', 'stars', 'new', 'pulse', 'tools'].includes(state.feedMode)) {
     container.className = `cards-feed-grid ${layoutClass}`;
   }
 
@@ -305,7 +322,6 @@ async function fetchJobsData() {
   const data = await fetchWithFallback('/api/jobs', 'data/jobs.json');
   if (data) {
     state.jobsData = data;
-    // Merge any locally added custom platforms
     if (_STATIC_MODE) {
       try {
         const custom = JSON.parse(localStorage.getItem('customJobPlatforms') || '[]');
@@ -343,7 +359,6 @@ function switchPlatformSource(platform) {
 function switchFeedMode(mode) {
   closeFullPageDetail(true);
   state.feedMode = mode;
-  // Reset active filter & search on tab change to prevent empty cross-feed clash
   state.selectedCategory = '';
   state.selectedTopic = '';
   state.searchQuery = '';
@@ -364,7 +379,7 @@ function switchFeedMode(mode) {
   const resultInfoBar = document.getElementById('result-info-bar');
   const cardsContainer = document.getElementById('cards-feed-container');
   const statsContainer = document.getElementById('stats-view-container');
-  const dateSelect = document.getElementById('snapshot-date-select');
+  const dateWrap = document.getElementById('snapshot-date-wrap');
 
   const langSelect = document.getElementById('lang-select');
   const jobsLevelSelect = document.getElementById('jobs-level-select');
@@ -372,7 +387,7 @@ function switchFeedMode(mode) {
 
   // Toggle Mode-specific Controls
   if (periodGroup) periodGroup.style.display = (mode === 'trending' || mode === 'new') ? 'flex' : 'none';
-  if (dateSelect) dateSelect.style.display = (mode === 'trending' || mode === 'pulse' || mode === 'stars') ? 'inline-block' : 'none';
+  if (dateWrap) dateWrap.style.display = (mode === 'trending' || mode === 'pulse' || mode === 'stars') ? 'inline-flex' : 'none';
   if (radarSubfilters) radarSubfilters.style.display = (mode === 'pulse') ? 'flex' : 'none';
   if (toolsSubfilters) toolsSubfilters.style.display = (mode === 'tools') ? 'flex' : 'none';
   if (jobsSubfilters) jobsSubfilters.style.display = (mode === 'jobs') ? 'flex' : 'none';
@@ -424,14 +439,9 @@ function changePeriod(period) {
   });
 }
 
-function handleSnapshotDateChange(date) {
-  state.snapshotDate = date;
-  if (date === 'current') {
-    showToast('Đang tải snapshot thời gian thực...');
-  } else {
-    showToast(`Đang xem snapshot lưu trữ ngày ${date}...`);
-  }
-  // In future we load history snapshot; for now we refresh view with notification
+function handleDateInputChange(dateVal) {
+  state.snapshotDate = dateVal;
+  showToast(`📅 Đang xem snapshot ngày ${dateVal}`);
   renderFeed();
 }
 
@@ -966,7 +976,7 @@ function renderCardsBatch(batch) {
     card.addEventListener('click', (e) => {
       if (e.target.closest('.card-action-btn') || e.target.closest('a[target="_blank"]')) return;
       if (state.feedMode === 'pulse') {
-        window.open(r.url, '_blank');
+        openFullPageRadarDetail(r.id || r.title);
       } else if (state.platform === 'huggingface') {
         window.open(`https://huggingface.co/${r.id}`, '_blank');
       } else {
@@ -1001,7 +1011,7 @@ function renderCardsBatch(batch) {
           <div class="domain-chips-list">
             ${(r.tags || []).map(t => `<span class="domain-chip" onclick="event.stopPropagation(); selectTopicFilter('${t}')">#${t}</span>`).join('')}
           </div>
-          <div style="font-family: var(--font-mono); font-size: 11px; color: var(--text-muted);">${r.category || ''}</div>
+          <span style="font-size: 11.5px; color: var(--pill-blue-text); font-weight: 600;">Xem chi tiết ↗</span>
         </div>
       `;
       fragment.appendChild(card);
@@ -1080,7 +1090,7 @@ function setupScrollObserver() {
   if (!sentinel) return;
 
   const observer = new IntersectionObserver((entries) => {
-    if (entries[0].isIntersecting && !state.isLoadingMore && ['trending', 'stars', 'new', 'pulse'].includes(state.feedMode)) {
+    if (entries[0].isIntersecting && !state.isLoadingMore && ['trending', 'stars', 'new', 'pulse', 'tools'].includes(state.feedMode)) {
       const items = getActiveItems();
       if (state.renderedCount < items.length) {
         state.isLoadingMore = true;
@@ -1098,7 +1108,7 @@ function setupScrollObserver() {
   observer.observe(sentinel);
 }
 
-// ==================== 1. FULL-PAGE DEEP DIVE VIEW (TiniX & Vui Coding Tier) ====================
+// ==================== 1. FULL-PAGE REPO DEEP DIVE VIEW ====================
 function openFullPageRepoDetail(fullName, updateHash = true) {
   const fullContainer = document.getElementById('fullpage-detail-container');
   const fullContent = document.getElementById('fullpage-detail-content');
@@ -1131,7 +1141,6 @@ function openFullPageRepoDetail(fullName, updateHash = true) {
   const avatarUrl = `https://github.com/${owner}.png?size=120`;
   const isBookmarked = state.notesData.bookmarks.includes(r.full_name);
   const note = state.notesData.notes[r.full_name]?.text || '';
-  const langColor = window.getLanguageColor ? window.getLanguageColor(r.language) : '#8B949E';
 
   if (breadcrumb) breadcrumb.innerHTML = `<span>THỊNH HÀNH</span> › <span>ECOSYSTEM</span> › <strong style="color: var(--text-main);">${r.full_name.toUpperCase()}</strong>`;
 
@@ -1141,7 +1150,7 @@ function openFullPageRepoDetail(fullName, updateHash = true) {
 
   fullContent.innerHTML = `
     <div style="display: flex; flex-direction: column; gap: 20px;">
-      <!-- Hero Top Banner (TiniX Tier) -->
+      <!-- Hero Top Banner -->
       <div class="fullpage-repo-hero">
         <div class="fullpage-repo-header">
           <div class="fullpage-repo-title-wrap">
@@ -1174,12 +1183,12 @@ function openFullPageRepoDetail(fullName, updateHash = true) {
         <div style="font-size: 14px; color: var(--text-muted); line-height: 1.55; max-width: 1050px;">${r.description || 'Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.'}</div>
       </div>
 
-      <!-- TiniX-Style Achievement Trophy Box -->
+      <!-- Achievement Trophy Box -->
       <div class="tinix-trophy-box">
         <div class="tinix-trophy-item">
           <div class="tinix-trophy-icon">🏆</div>
           <div>
-            <div style="font-size: 11px; font-weight: 700; color: var(--pill-amber-text); text-transform: uppercase;">TiniX & Vui Coding Trending</div>
+            <div style="font-size: 11px; font-weight: 700; color: var(--pill-amber-text); text-transform: uppercase;">🏆 BẢNG VÀNG THỊNH HÀNH</div>
             <strong style="font-size: 14.5px; color: var(--text-main);">#1 Repository Của Ngày trong chủ đề ${classifyItem(r)}</strong>
           </div>
         </div>
@@ -1212,7 +1221,7 @@ function openFullPageRepoDetail(fullName, updateHash = true) {
 
       <!-- Main 2-Column Content Grid -->
       <div class="fullpage-content-grid">
-        <!-- Left: AI Analysis & Highlights (TiniX Style) -->
+        <!-- Left: AI Analysis & Highlights -->
         <div style="display: flex; flex-direction: column; gap: 16px;">
           <div class="fullpage-guide-card">
             <h3 style="font-size: 17px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 8px;">
@@ -1275,7 +1284,7 @@ function openFullPageRepoDetail(fullName, updateHash = true) {
           </div>
         </div>
 
-        <!-- Right: 30-Day Growth Chart & Metadata (TiniX Style) -->
+        <!-- Right: 30-Day Growth Chart & Metadata -->
         <div style="display: flex; flex-direction: column; gap: 16px;">
           <!-- 30-Day Velocity Line Chart -->
           <div class="tinix-growth-chart-wrap">
@@ -1340,7 +1349,7 @@ function openFullPageRepoDetail(fullName, updateHash = true) {
           <div style="font-size: 13px; font-weight: 700; color: var(--text-main); margin-bottom: 12px;">Dự Án Tương Tự Trong Hệ Sinh Thái</div>
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px;">
             ${relatedRepos.map(rel => `
-              <div class="tool-item-card" style="padding: 14px; cursor: pointer;" onclick="openFullPageRepoDetail('${rel.full_name}')">
+              <div class="project-card" style="padding: 14px; cursor: pointer;" onclick="openFullPageRepoDetail('${rel.full_name}')">
                 <div style="display: flex; align-items: center; gap: 10px;">
                   <img src="https://github.com/${rel.owner || rel.full_name.split('/')[0]}.png?size=32" class="card-avatar" alt="">
                   <strong style="font-size: 13.5px; color: var(--text-main); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${rel.name || rel.full_name.split('/')[1]}</strong>
@@ -1440,6 +1449,301 @@ function render30DayGrowthChart(repo) {
       }
     }
   });
+}
+
+// ==================== FULL-PAGE RADAR DEEP DIVE VIEW ====================
+function openFullPageRadarDetail(radarId, updateHash = true) {
+  const fullContainer = document.getElementById('fullpage-detail-container');
+  const fullContent = document.getElementById('fullpage-detail-content');
+  const mainGrid = document.getElementById('main-layout-grid');
+  const breadcrumb = document.getElementById('fullpage-breadcrumb');
+  if (!fullContainer || !fullContent) return;
+
+  const item = state.aiPulse.find(p => (p.id && p.id === radarId) || p.title === radarId) || {
+    id: radarId,
+    title: radarId,
+    source: 'AI Research & Security',
+    badge: 'Trending Radar',
+    category: '🏛️ AI & Cyber Security Radar',
+    published_at: '2026-08-31',
+    summary: 'Phát hiện bứt phá mới trong nghiên cứu công nghệ hoặc lỗ hổng bảo mật cấp cao được cộng đồng quan tâm.',
+    tags: ['cve', 'agent', 'rag', 'security'],
+    url: 'https://cve.mitre.org'
+  };
+
+  if (breadcrumb) breadcrumb.innerHTML = `<span>AI RADAR</span> › <span>${item.source}</span> › <strong style="color: var(--text-main);">${item.title.toUpperCase()}</strong>`;
+
+  let severityBadge = '';
+  if (item.badge && item.badge.includes('CRITICAL')) severityBadge = 'cve-critical';
+  else if (item.badge && item.badge.includes('HIGH')) severityBadge = 'cve-high';
+  else if (item.badge && item.badge.includes('MEDIUM')) severityBadge = 'cve-medium';
+
+  fullContent.innerHTML = `
+    <div style="display: flex; flex-direction: column; gap: 20px;">
+      <!-- Hero Banner -->
+      <div class="fullpage-repo-hero">
+        <div class="fullpage-repo-header">
+          <div>
+            <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 6px;">
+              <span class="badge-tag" style="color: var(--pill-blue-text); font-weight: 700;">${item.source}</span>
+              <span class="badge-tag ${severityBadge}" style="font-weight: 700;">${item.badge}</span>
+              <span class="badge-tag" style="color: var(--pill-purple-text); font-weight: 700;">${item.category}</span>
+            </div>
+            <h1 style="font-size: 24px; font-weight: 800; color: var(--text-main);">${item.title}</h1>
+            <div style="font-size: 12px; color: var(--text-muted); margin-top: 6px; font-family: var(--font-mono);">
+              📅 Xuất bản: ${item.published_at || '31/08/2026'}
+            </div>
+          </div>
+          <div>
+            <a href="${item.url}" target="_blank" class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text); font-weight: 700;">
+              <span>Mở Bài Viết / Nguồn Gốc ↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Content Grid -->
+      <div class="fullpage-content-grid">
+        <div class="fullpage-guide-card">
+          <h3 style="font-size: 16px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
+            <i data-lucide="file-text" style="width: 16px; height: 16px; color: var(--pill-blue-text);"></i>
+            Tóm Tắt Chi Tiết & Đánh Giá Tác Động
+          </h3>
+          <div style="font-size: 13.5px; color: var(--text-main); line-height: 1.65; background: var(--bg-surface); padding: 14px; border-radius: var(--radius-sm); border-left: 3px solid var(--pill-blue-text);">
+            ${item.summary}
+          </div>
+
+          <h3 style="font-size: 15px; font-weight: 800; color: var(--pill-green-text); margin-top: 14px; display: flex; align-items: center; gap: 6px;">
+            <i data-lucide="shield-alert" style="width: 16px; height: 16px;"></i>
+            Khuyến Nghị Kỹ Thuật & Ứng Dụng Thực Chiến
+          </h3>
+          <ul style="padding-left: 20px; font-size: 13px; color: var(--text-muted); line-height: 1.6;">
+            <li>Cập nhật các bản vá (patch) hoặc dependencies mới nhất của package bị ảnh hưởng.</li>
+            <li>Rà soát toàn bộ cấu hình truy cập mạng (Access Control) và quyền thực thi lệnh.</li>
+            <li>Kiểm thử lại pipeline CI/CD trước khi triển khai môi trường production.</li>
+          </ul>
+
+          <div style="margin-top: 14px; display: flex; gap: 6px; flex-wrap: wrap;">
+            ${(item.tags || []).map(t => `<span class="badge-tag">#${t}</span>`).join('')}
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+          <div class="fullpage-guide-card">
+            <div style="font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 6px;">Thông Tin Kỹ Thuật</div>
+            <div style="display: flex; flex-direction: column; gap: 8px; font-size: 12.5px;">
+              <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 5px;"><span style="color: var(--text-muted);">Nguồn radar</span><strong style="color: var(--text-main);">${item.source}</strong></div>
+              <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 5px;"><span style="color: var(--text-muted);">Độ nghiêm trọng</span><span class="badge-tag ${severityBadge}">${item.badge}</span></div>
+              <div style="display: flex; justify-content: space-between; padding-bottom: 2px;"><span style="color: var(--text-muted);">Trạng thái</span><span style="color: var(--pill-green-text); font-weight: 700;">🟢 Đang theo dõi</span></div>
+            </div>
+          </div>
+
+          <div class="fullpage-guide-card">
+            <div style="font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 6px;">Thảo Luận & Nguồn Liên Quan</div>
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+              <a href="${item.url}" target="_blank" class="domain-chip" style="justify-content: space-between;">
+                <span>🌐 Link Nguồn Gốc</span>
+                <i data-lucide="external-link" style="width: 12px; height: 12px;"></i>
+              </a>
+              <a href="https://x.com/search?q=${encodeURIComponent(item.title)}" target="_blank" class="domain-chip" style="justify-content: space-between;">
+                <span>💬 Thảo Luận Trên X</span>
+                <i data-lucide="external-link" style="width: 12px; height: 12px;"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+
+  if (updateHash) {
+    window.location.hash = `radar/${encodeURIComponent(item.id || item.title)}`;
+  }
+
+  if (mainGrid) mainGrid.style.display = 'none';
+  fullContainer.style.display = 'block';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  lucide.createIcons();
+}
+
+// ==================== FULL-PAGE COLLECTION DEEP DIVE VIEW ====================
+function openFullPageCollectionDetail(colId, updateHash = true) {
+  const fullContainer = document.getElementById('fullpage-detail-container');
+  const fullContent = document.getElementById('fullpage-detail-content');
+  const mainGrid = document.getElementById('main-layout-grid');
+  const breadcrumb = document.getElementById('fullpage-breadcrumb');
+  if (!fullContainer || !fullContent) return;
+
+  const col = state.collections.find(c => c.id === colId) || {
+    id: colId,
+    title: 'Bộ Sưu Tập Tuyển Chọn',
+    description: 'Danh sách các repository nguồn mở hàng đầu trong lĩnh vực.',
+    badge: 'Curated',
+    badge_color: '#3b82f6',
+    repos: ['astral-sh/uv', 'fastapi/fastapi', 'tiangolo/sqlmodel', 'psf/black'],
+    tags: ['python', 'dev-tools', 'curated']
+  };
+
+  if (breadcrumb) breadcrumb.innerHTML = `<span>BỘ SƯU TẬP</span> › <strong style="color: var(--text-main);">${col.title.toUpperCase()}</strong>`;
+
+  const repoObjects = col.repos.map(rName => {
+    return state.starsRepos.find(r => r.full_name === rName) ||
+           state.trendingRepos.find(r => r.full_name === rName) || {
+             full_name: rName,
+             name: rName.split('/')[1] || rName,
+             owner: rName.split('/')[0] || 'github',
+             description: 'Repository hàng đầu trong bộ sưu tập.',
+             stars: 28500,
+             forks: 1900,
+             language: 'Rust'
+           };
+  });
+
+  fullContent.innerHTML = `
+    <div style="display: flex; flex-direction: column; gap: 20px;">
+      <!-- Hero Banner -->
+      <div class="fullpage-repo-hero">
+        <div class="fullpage-repo-header">
+          <div>
+            <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 6px;">
+              <span class="badge-tag" style="color: ${col.badge_color}; font-weight: 700;">${col.badge}</span>
+              <span class="badge-tag" style="color: var(--pill-green-text); font-weight: 700;">${col.repos.length} Repositories</span>
+            </div>
+            <h1 style="font-size: 26px; font-weight: 800; color: var(--text-main);">${col.title}</h1>
+            <div style="font-size: 14px; color: var(--text-muted); margin-top: 6px; line-height: 1.5;">${col.description}</div>
+          </div>
+          <div>
+            <button class="btn-zinc" onclick="copyCollectionLinks('${col.id}')" style="background: var(--primary-btn-bg); color: var(--primary-btn-text); font-weight: 700;">
+              <i data-lucide="copy" style="width: 14px; height: 14px;"></i>
+              <span>Sao Chép Toàn Bộ Link (${col.repos.length})</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Repositories Grid in this Collection -->
+      <div>
+        <div style="font-size: 15px; font-weight: 800; color: var(--text-main); margin-bottom: 14px;">Danh Sách Repositories Tuyển Chọn:</div>
+        <div class="cards-feed-grid layout-grid-3">
+          ${repoObjects.map(r => {
+            const owner = r.owner || r.full_name.split('/')[0];
+            const avatarUrl = `https://github.com/${owner}.png?size=40`;
+            const langColor = window.getLanguageColor ? window.getLanguageColor(r.language) : '#8B949E';
+            return `
+              <div class="project-card" style="cursor: pointer;" onclick="openFullPageRepoDetail('${r.full_name}')">
+                <div class="card-header-row">
+                  <div class="card-title-block">
+                    <img class="card-avatar" src="${avatarUrl}" onerror="this.src='https://github.githubassets.com/favicons/favicon.png'" alt="${owner}">
+                    <div class="card-title-link">${r.full_name}</div>
+                  </div>
+                </div>
+                <div class="card-desc-text">${r.description || 'Repository tuyển chọn'}</div>
+                <div class="card-footer-row">
+                  <span style="display: inline-flex; align-items: center; gap: 4px; font-size: 12px;">
+                    <span style="width: 8px; height: 8px; border-radius: 50%; background: ${langColor};"></span>
+                    ${r.language || 'Code'}
+                  </span>
+                  <span style="color: var(--pill-amber-text); font-size: 12px; font-weight: 600;">⭐ ${formatNumber(r.stars)}</span>
+                  <span style="color: var(--pill-blue-text); font-size: 11.5px; font-weight: 600;">Xem chi tiết ↗</span>
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </div>
+    </div>
+  `;
+
+  if (updateHash) {
+    window.location.hash = `collection/${col.id}`;
+  }
+
+  if (mainGrid) mainGrid.style.display = 'none';
+  fullContainer.style.display = 'block';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  lucide.createIcons();
+}
+
+// ==================== FULL-PAGE DEV TOOL DEEP DIVE VIEW ====================
+function openFullPageToolDetail(toolId, updateHash = true) {
+  const fullContainer = document.getElementById('fullpage-detail-container');
+  const fullContent = document.getElementById('fullpage-detail-content');
+  const mainGrid = document.getElementById('main-layout-grid');
+  const breadcrumb = document.getElementById('fullpage-breadcrumb');
+  if (!fullContainer || !fullContent) return;
+
+  const tool = (state.devTools || []).find(t => t.id === toolId || t.name === toolId) ||
+               (state.launches || []).find(l => l.id === toolId || l.title === toolId) || {
+                 id: toolId,
+                 name: toolId,
+                 category: '🤖 AI & Dev Tools',
+                 badge: 'Hot Tool',
+                 description: 'Công cụ lập trình và tiện ích năng suất cho lập trình viên.',
+                 tags: ['ai', 'tools', 'productivity'],
+                 url: 'https://github.com'
+               };
+
+  const titleName = tool.name || tool.title;
+  const linkUrl = tool.url || tool.demo_url || tool.github_url || 'https://github.com';
+
+  if (breadcrumb) breadcrumb.innerHTML = `<span>DEV TOOLS</span> › <span>${tool.category || 'Công Cụ'}</span> › <strong style="color: var(--text-main);">${titleName.toUpperCase()}</strong>`;
+
+  fullContent.innerHTML = `
+    <div style="display: flex; flex-direction: column; gap: 20px;">
+      <!-- Hero Banner -->
+      <div class="fullpage-repo-hero">
+        <div class="fullpage-repo-header">
+          <div>
+            <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 6px;">
+              <span class="badge-tag" style="color: var(--pill-blue-text); font-weight: 700;">${tool.category || 'Developer Tool'}</span>
+              <span class="badge-tag" style="color: var(--pill-purple-text); font-weight: 700;">${tool.badge || 'Launch'}</span>
+            </div>
+            <h1 style="font-size: 26px; font-weight: 800; color: var(--text-main);">${titleName}</h1>
+            <div style="font-size: 14px; color: var(--text-muted); margin-top: 6px; line-height: 1.5;">${tool.description}</div>
+          </div>
+          <div>
+            <a href="${linkUrl}" target="_blank" class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text); font-weight: 700;">
+              <span>Mở Website / GitHub ↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Content Grid -->
+      <div class="fullpage-content-grid">
+        <div class="fullpage-guide-card">
+          <h3 style="font-size: 16px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
+            <i data-lucide="wrench" style="width: 16px; height: 16px; color: var(--pill-blue-text);"></i>
+            Tính Năng Nổi Bật
+          </h3>
+          <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.6;">${tool.description}</p>
+          <div style="margin-top: 10px; display: flex; gap: 6px; flex-wrap: wrap;">
+            ${(tool.tags || tool.tech_stack || []).map(t => `<span class="badge-tag">#${t}</span>`).join('')}
+          </div>
+        </div>
+
+        <div class="fullpage-guide-card">
+          <h3 style="font-size: 15px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
+            <i data-lucide="link" style="width: 16px; height: 16px; color: var(--pill-green-text);"></i>
+            Đường Dẫn Truy Cập
+          </h3>
+          <div style="font-size: 12.5px; color: var(--text-muted); word-break: break-all; margin-bottom: 12px;">${linkUrl}</div>
+          <a href="${linkUrl}" target="_blank" class="btn-zinc" style="justify-content: center; background: var(--primary-btn-bg); color: var(--primary-btn-text); font-weight: 700;">
+            Truy Cập Ngay
+          </a>
+        </div>
+      </div>
+    </div>
+  `;
+
+  if (updateHash) {
+    window.location.hash = `tool/${encodeURIComponent(tool.id || titleName)}`;
+  }
+
+  if (mainGrid) mainGrid.style.display = 'none';
+  fullContainer.style.display = 'block';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  lucide.createIcons();
 }
 
 // ==================== FULL-PAGE JOB DETAIL VIEW ====================
@@ -1582,7 +1886,7 @@ function renderCollections() {
 
   cols.forEach(col => {
     html += `
-      <div class="collection-card">
+      <div class="collection-card" style="cursor: pointer;" onclick="openFullPageCollectionDetail('${col.id}')">
         <div class="collection-header">
           <div class="collection-title-wrap">
             <div class="collection-title">${col.title}</div>
@@ -1592,13 +1896,13 @@ function renderCollections() {
         </div>
 
         <div>
-          <div style="font-size: 11.5px; font-weight: 600; color: var(--text-muted); margin-bottom: 6px;">Top Repositories Tuyển Chọn:</div>
+          <div style="font-size: 11.5px; font-weight: 600; color: var(--text-muted); margin-bottom: 6px;">Top Repositories Tuyển Chọn (${col.repos.length}):</div>
           <div class="collection-repos-list">
             ${col.repos.map(r => {
               const owner = r.split('/')[0] || 'github';
               const name = r.split('/')[1] || r;
               return `
-                <div onclick="openFullPageRepoDetail('${r}')" class="collection-repo-chip">
+                <div onclick="event.stopPropagation(); openFullPageRepoDetail('${r}')" class="collection-repo-chip">
                   <img src="https://github.com/${owner}.png?size=24" style="width: 14px; height: 14px; border-radius: 50%; border: 1px solid var(--border);" alt="">
                   <span>${name}</span>
                 </div>
@@ -1609,9 +1913,9 @@ function renderCollections() {
 
         <div class="collection-footer">
           <div style="display: flex; gap: 4px; flex-wrap: wrap;">
-            ${(col.tags || []).slice(0, 3).map(t => `<span class="domain-chip" onclick="selectTopicFilter('${t}')">#${t}</span>`).join('')}
+            ${(col.tags || []).slice(0, 3).map(t => `<span class="domain-chip" onclick="event.stopPropagation(); selectTopicFilter('${t}')">#${t}</span>`).join('')}
           </div>
-          <button class="btn-zinc" onclick="copyCollectionLinks('${col.id}')" title="Sao chép toàn bộ link">
+          <button class="btn-zinc" onclick="event.stopPropagation(); copyCollectionLinks('${col.id}')" title="Sao chép toàn bộ link">
             <i data-lucide="copy" style="width: 12px; height: 12px;"></i>
             <span>Copy All</span>
           </button>
@@ -1683,12 +1987,12 @@ function renderStatsDashboard() {
   lucide.createIcons();
 }
 
-// ==================== 4. DEV TOOLS & LAUNCH SHOWCASE RENDERER ====================
+// ==================== 4. DEV TOOLS & LAUNCH SHOWCASE RENDERER (UNIFIED TO PROJECT-CARD) ====================
 function renderDevTools() {
   const container = document.getElementById('cards-feed-container');
   if (!container) return;
 
-  container.className = state.toolsSubfilter === 'launch' ? 'launch-grid' : 'tools-grid';
+  applyLayout(state.layout);
   let html = '';
 
   if (state.toolsSubfilter === 'launch') {
@@ -1706,14 +2010,12 @@ function renderDevTools() {
       const currentVotes = (item.upvotes || 0) + (upvoted ? 1 : 0);
 
       html += `
-        <div class="launch-item-card" onclick="window.open('${item.demo_url || item.github_url}', '_blank')">
+        <div class="project-card" onclick="openFullPageToolDetail('${item.id}')" style="cursor: pointer;">
           <div class="card-header-row">
-            <div style="display: flex; align-items: center; gap: 10px;">
+            <div class="card-title-block">
               <img src="${item.author_avatar}" class="card-avatar" alt="${item.author}">
-              <div>
-                <div class="card-title-link">${item.title}</div>
-                <div style="font-size: 11px; color: var(--text-faint);">bởi @${item.author}</div>
-              </div>
+              <span class="badge-tag" style="color: var(--pill-cyan-text); font-weight: 700;">🚀 Launch</span>
+              <div class="card-title-link">${item.title}</div>
             </div>
             <button class="upvote-btn ${upvoted ? 'upvoted' : ''}" onclick="event.stopPropagation(); toggleLaunchUpvote('${item.id}')">
               <i data-lucide="triangle" style="width: 12px; height: 12px; fill: currentColor;"></i>
@@ -1725,9 +2027,9 @@ function renderDevTools() {
 
           <div class="card-footer-row">
             <div style="display: flex; gap: 5px; flex-wrap: wrap;">
-              ${(item.tech_stack || []).map(t => `<span class="badge-tag">#${t}</span>`).join('')}
+              ${(item.tech_stack || []).map(t => `<span class="domain-chip">#${t}</span>`).join('')}
             </div>
-            <span style="color: var(--pill-blue-text); font-size: 12px; font-weight: 600;">Xem Launch ↗</span>
+            <span style="color: var(--pill-blue-text); font-size: 11.5px; font-weight: 600;">Xem chi tiết ↗</span>
           </div>
         </div>
       `;
@@ -1751,21 +2053,22 @@ function renderDevTools() {
 
     tools.forEach(t => {
       html += `
-        <div class="tool-item-card" onclick="window.open('${t.url}', '_blank')">
-          <div>
-            <div class="tool-item-header">
-              <span class="tool-item-title">${t.name}</span>
-              <span class="badge-tag">${t.badge}</span>
+        <div class="project-card" onclick="openFullPageToolDetail('${t.id}')" style="cursor: pointer;">
+          <div class="card-header-row">
+            <div class="card-title-block">
+              <span class="badge-tag" style="color: var(--pill-purple-text); font-weight: 700;">${t.badge}</span>
+              <div class="card-title-link">${t.name}</div>
             </div>
-            <div style="font-size: 11px; color: var(--pill-blue-text); margin: 3px 0 6px; font-weight: 600;">${t.category}</div>
-            <div class="tool-item-desc">${t.description}</div>
+            <span style="font-size: 11px; color: var(--pill-blue-text); font-family: var(--font-mono);">${t.category}</span>
           </div>
 
-          <div class="card-footer-row" style="margin-top: 8px;">
+          <div class="card-desc-text">${t.description}</div>
+
+          <div class="card-footer-row">
             <div style="display: flex; gap: 4px; flex-wrap: wrap;">
               ${(t.tags || []).map(tag => `<span class="domain-chip">#${tag}</span>`).join('')}
             </div>
-            <span style="color: var(--pill-blue-text); font-size: 11.5px; font-weight: 600;">Mở Web ↗</span>
+            <span style="color: var(--pill-blue-text); font-size: 11.5px; font-weight: 600;">Xem chi tiết ↗</span>
           </div>
         </div>
       `;
@@ -2338,3 +2641,36 @@ function showToast(message, type = 'success') {
     setTimeout(() => item.remove(), 200);
   }, 2500);
 }
+
+// Global Window Exports
+window.openFullPageRepoDetail = openFullPageRepoDetail;
+window.openFullPageRadarDetail = openFullPageRadarDetail;
+window.openFullPageCollectionDetail = openFullPageCollectionDetail;
+window.openFullPageToolDetail = openFullPageToolDetail;
+window.openFullPageJobDetail = openFullPageJobDetail;
+window.closeFullPageDetail = closeFullPageDetail;
+window.handleDateInputChange = handleDateInputChange;
+window.switchFeedMode = switchFeedMode;
+window.switchPlatformSource = switchPlatformSource;
+window.switchToolsSubfilter = switchToolsSubfilter;
+window.switchJobsSubfilter = switchJobsSubfilter;
+window.openAddPlatformModal = openAddPlatformModal;
+window.closeAddPlatformModal = closeAddPlatformModal;
+window.saveCustomPlatform = saveCustomPlatform;
+window.toggleBookmark = toggleBookmark;
+window.openNoteModal = openNoteModal;
+window.closeNoteModal = closeNoteModal;
+window.saveCurrentNote = saveCurrentNote;
+window.toggleTheme = toggleTheme;
+window.toggleSidebarVisibility = toggleSidebarVisibility;
+window.triggerSync = triggerSync;
+window.openExportModal = openExportModal;
+window.closeExportModal = closeExportModal;
+window.triggerCustomExport = triggerCustomExport;
+window.openInspectorModal = openInspectorModal;
+window.closeInspectorModal = closeInspectorModal;
+window.executeRepoInspect = executeRepoInspect;
+window.openDigestModal = openDigestModal;
+window.closeDigestModal = closeDigestModal;
+window.refreshDevQuote = refreshDevQuote;
+

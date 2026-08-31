@@ -6,9 +6,9 @@
       "owner": "Qwen",
       "name": "Qwen3.8-Flash-Next",
       "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
-      "description": "Pipeline: image-text-to-text | Downloads: 121,976 | Likes: 4,391",
+      "description": "Pipeline: image-text-to-text | Downloads: 121,976 | Likes: 4,394",
       "pipeline_tag": "image-text-to-text",
-      "likes": 4391,
+      "likes": 4394,
       "downloads": 121976,
       "tags": [
         "transformers",
@@ -26,9 +26,9 @@
       "owner": "zai-org",
       "name": "GLM-5.3-Flash",
       "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
-      "description": "Pipeline: text-generation | Downloads: 346,516 | Likes: 1,717",
+      "description": "Pipeline: text-generation | Downloads: 346,516 | Likes: 1,724",
       "pipeline_tag": "text-generation",
-      "likes": 1717,
+      "likes": 1724,
       "downloads": 346516,
       "tags": [
         "transformers",
@@ -46,9 +46,9 @@
       "owner": "zai-org",
       "name": "GLM-5.3",
       "url": "https://huggingface.co/zai-org/GLM-5.3",
-      "description": "Pipeline: text-generation | Downloads: 50,116 | Likes: 1,349",
+      "description": "Pipeline: text-generation | Downloads: 50,116 | Likes: 1,350",
       "pipeline_tag": "text-generation",
-      "likes": 1349,
+      "likes": 1350,
       "downloads": 50116,
       "tags": [
         "transformers",
@@ -66,9 +66,9 @@
       "owner": "Qwen",
       "name": "Qwen3.8-27B",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "description": "Pipeline: image-text-to-text | Downloads: 4,511,348 | Likes: 13,353",
+      "description": "Pipeline: image-text-to-text | Downloads: 4,511,348 | Likes: 13,354",
       "pipeline_tag": "image-text-to-text",
-      "likes": 13353,
+      "likes": 13354,
       "downloads": 4511348,
       "tags": [
         "transformers",
@@ -106,9 +106,9 @@
       "owner": "unsloth",
       "name": "Qwen3.8-27B-GGUF",
       "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-      "description": "Pipeline: Model | Downloads: 8,839,153 | Likes: 3,244",
+      "description": "Pipeline: Model | Downloads: 8,839,153 | Likes: 3,246",
       "pipeline_tag": "Model",
-      "likes": 3244,
+      "likes": 3246,
       "downloads": 8839153,
       "tags": [
         "gguf",
@@ -166,9 +166,9 @@
       "owner": "unsloth",
       "name": "GLM-5.3-Flash-GGUF",
       "url": "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF",
-      "description": "Pipeline: text-generation | Downloads: 45,936 | Likes: 289",
+      "description": "Pipeline: text-generation | Downloads: 45,936 | Likes: 290",
       "pipeline_tag": "text-generation",
-      "likes": 289,
+      "likes": 290,
       "downloads": 45936,
       "tags": [
         "gguf",
@@ -186,9 +186,9 @@
       "owner": "OBLITERATUS",
       "name": "Qwen3.8-27B-OBLITERATED",
       "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-      "description": "Pipeline: text-generation | Downloads: 725,757 | Likes: 948",
+      "description": "Pipeline: text-generation | Downloads: 725,757 | Likes: 949",
       "pipeline_tag": "text-generation",
-      "likes": 948,
+      "likes": 949,
       "downloads": 725757,
       "tags": [
         "mlx",
@@ -242,6 +242,26 @@
     },
     {
       "rank": 13,
+      "full_name": "BreezeBlue/Breeze-TTS-2",
+      "owner": "BreezeBlue",
+      "name": "Breeze-TTS-2",
+      "url": "https://huggingface.co/BreezeBlue/Breeze-TTS-2",
+      "description": "Pipeline: text-to-speech | Downloads: 1,838 | Likes: 214",
+      "pipeline_tag": "text-to-speech",
+      "likes": 214,
+      "downloads": 1838,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "breeze",
+        "text-generation",
+        "text-to-speech"
+      ],
+      "source": "huggingface",
+      "type": "models"
+    },
+    {
+      "rank": 14,
       "full_name": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
       "owner": "HauhauCS",
       "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
@@ -261,34 +281,14 @@
       "type": "models"
     },
     {
-      "rank": 14,
-      "full_name": "BreezeBlue/Breeze-TTS-2",
-      "owner": "BreezeBlue",
-      "name": "Breeze-TTS-2",
-      "url": "https://huggingface.co/BreezeBlue/Breeze-TTS-2",
-      "description": "Pipeline: text-to-speech | Downloads: 1,838 | Likes: 212",
-      "pipeline_tag": "text-to-speech",
-      "likes": 212,
-      "downloads": 1838,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "breeze",
-        "text-generation",
-        "text-to-speech"
-      ],
-      "source": "huggingface",
-      "type": "models"
-    },
-    {
       "rank": 15,
       "full_name": "FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree",
       "owner": "FastVideo",
       "name": "FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree",
       "url": "https://huggingface.co/FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree",
-      "description": "Pipeline: text-to-video | Downloads: 0 | Likes: 194",
+      "description": "Pipeline: text-to-video | Downloads: 0 | Likes: 195",
       "pipeline_tag": "text-to-video",
-      "likes": 194,
+      "likes": 195,
       "downloads": 0,
       "tags": [
         "fastvideo",
@@ -346,9 +346,9 @@
       "owner": "Qwen",
       "name": "Qwen3.8-Flash-Next-FP8",
       "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next-FP8",
-      "description": "Pipeline: image-text-to-text | Downloads: 76,935 | Likes: 160",
+      "description": "Pipeline: image-text-to-text | Downloads: 76,935 | Likes: 161",
       "pipeline_tag": "image-text-to-text",
-      "likes": 160,
+      "likes": 161,
       "downloads": 76935,
       "tags": [
         "transformers",
@@ -446,9 +446,9 @@
       "owner": "orcarouter",
       "name": "Qwen3.8-27B-Uncensored-GGUF",
       "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF",
-      "description": "Pipeline: image-text-to-text | Downloads: 238,397 | Likes: 579",
+      "description": "Pipeline: image-text-to-text | Downloads: 238,397 | Likes: 582",
       "pipeline_tag": "image-text-to-text",
-      "likes": 579,
+      "likes": 582,
       "downloads": 238397,
       "tags": [
         "gguf",
@@ -466,9 +466,9 @@
       "owner": "peculiar-ragdoll",
       "name": "Tiel-Coder-35B-A3B-GGUF",
       "url": "https://huggingface.co/peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF",
-      "description": "Pipeline: image-text-to-text | Downloads: 87,848 | Likes: 141",
+      "description": "Pipeline: image-text-to-text | Downloads: 87,848 | Likes: 144",
       "pipeline_tag": "image-text-to-text",
-      "likes": 141,
+      "likes": 144,
       "downloads": 87848,
       "tags": [
         "gguf",
@@ -486,9 +486,9 @@
       "owner": "ornith-ai",
       "name": "Ornith-1.5-35B-A3B",
       "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B",
-      "description": "Pipeline: text-generation | Downloads: 147,038 | Likes: 506",
+      "description": "Pipeline: text-generation | Downloads: 147,038 | Likes: 507",
       "pipeline_tag": "text-generation",
-      "likes": 506,
+      "likes": 507,
       "downloads": 147038,
       "tags": [
         "transformers",
@@ -506,9 +506,9 @@
       "owner": "markov-ai",
       "name": "cad-1000-hours",
       "url": "https://huggingface.co/markov-ai/cad-1000-hours",
-      "description": "Pipeline: Model | Downloads: 76,013 | Likes: 238",
+      "description": "Pipeline: Model | Downloads: 76,013 | Likes: 239",
       "pipeline_tag": "Model",
-      "likes": 238,
+      "likes": 239,
       "downloads": 76013,
       "tags": [
         "modality:video",
@@ -566,9 +566,9 @@
       "owner": "rajpurkar",
       "name": "squad",
       "url": "https://huggingface.co/rajpurkar/squad",
-      "description": "Pipeline: Model | Downloads: 214,128 | Likes: 514",
+      "description": "Pipeline: Model | Downloads: 214,128 | Likes: 516",
       "pipeline_tag": "Model",
-      "likes": 514,
+      "likes": 516,
       "downloads": 214128,
       "tags": [
         "task_categories:question-answering",
@@ -666,9 +666,9 @@
       "owner": "nyu-mll",
       "name": "glue",
       "url": "https://huggingface.co/nyu-mll/glue",
-      "description": "Pipeline: Model | Downloads: 531,981 | Likes: 561",
+      "description": "Pipeline: Model | Downloads: 531,981 | Likes: 562",
       "pipeline_tag": "Model",
-      "likes": 561,
+      "likes": 562,
       "downloads": 531981,
       "tags": [
         "task_categories:text-classification",
@@ -686,9 +686,9 @@
       "owner": "inclusionAI",
       "name": "ConceptEdit-12M",
       "url": "https://huggingface.co/inclusionAI/ConceptEdit-12M",
-      "description": "Pipeline: Model | Downloads: 14,388 | Likes: 37",
+      "description": "Pipeline: Model | Downloads: 14,388 | Likes: 38",
       "pipeline_tag": "Model",
-      "likes": 37,
+      "likes": 38,
       "downloads": 14388,
       "tags": [
         "task_categories:image-to-image",
@@ -702,6 +702,26 @@
     },
     {
       "rank": 11,
+      "full_name": "LightwheelAI/EgoStandard",
+      "owner": "LightwheelAI",
+      "name": "EgoStandard",
+      "url": "https://huggingface.co/LightwheelAI/EgoStandard",
+      "description": "Pipeline: Model | Downloads: 5,104 | Likes: 53",
+      "pipeline_tag": "Model",
+      "likes": 53,
+      "downloads": 5104,
+      "tags": [
+        "task_categories:video-classification",
+        "language:en",
+        "license:other",
+        "size_categories:10K<n<100K",
+        "modality:video"
+      ],
+      "source": "huggingface",
+      "type": "datasets"
+    },
+    {
+      "rank": 12,
       "full_name": "r0b0tlab/qwen3.8-max-glm5.2-kimi-k3-distillation",
       "owner": "r0b0tlab",
       "name": "qwen3.8-max-glm5.2-kimi-k3-distillation",
@@ -721,34 +741,14 @@
       "type": "datasets"
     },
     {
-      "rank": 12,
-      "full_name": "LightwheelAI/EgoStandard",
-      "owner": "LightwheelAI",
-      "name": "EgoStandard",
-      "url": "https://huggingface.co/LightwheelAI/EgoStandard",
-      "description": "Pipeline: Model | Downloads: 5,104 | Likes: 51",
-      "pipeline_tag": "Model",
-      "likes": 51,
-      "downloads": 5104,
-      "tags": [
-        "task_categories:video-classification",
-        "language:en",
-        "license:other",
-        "size_categories:10K<n<100K",
-        "modality:video"
-      ],
-      "source": "huggingface",
-      "type": "datasets"
-    },
-    {
       "rank": 13,
       "full_name": "malcolmrey/various",
       "owner": "malcolmrey",
       "name": "various",
       "url": "https://huggingface.co/malcolmrey/various",
-      "description": "Pipeline: Model | Downloads: 40,304 | Likes: 131",
+      "description": "Pipeline: Model | Downloads: 40,304 | Likes: 132",
       "pipeline_tag": "Model",
-      "likes": 131,
+      "likes": 132,
       "downloads": 40304,
       "tags": [
         "license:wtfpl",
@@ -762,6 +762,26 @@
     },
     {
       "rank": 14,
+      "full_name": "HuggingFaceFW/fineweb",
+      "owner": "HuggingFaceFW",
+      "name": "fineweb",
+      "url": "https://huggingface.co/HuggingFaceFW/fineweb",
+      "description": "Pipeline: Model | Downloads: 419,342 | Likes: 3,271",
+      "pipeline_tag": "Model",
+      "likes": 3271,
+      "downloads": 419342,
+      "tags": [
+        "task_categories:text-generation",
+        "language:en",
+        "license:odc-by",
+        "size_categories:10B<n<100B",
+        "modality:tabular"
+      ],
+      "source": "huggingface",
+      "type": "datasets"
+    },
+    {
+      "rank": 15,
       "full_name": "saidutta69/fable-5-premium",
       "owner": "saidutta69",
       "name": "fable-5-premium",
@@ -781,7 +801,7 @@
       "type": "datasets"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "full_name": "TeichAI/Ox-Alpha-10k",
       "owner": "TeichAI",
       "name": "Ox-Alpha-10k",
@@ -801,34 +821,14 @@
       "type": "datasets"
     },
     {
-      "rank": 16,
-      "full_name": "HuggingFaceFW/fineweb",
-      "owner": "HuggingFaceFW",
-      "name": "fineweb",
-      "url": "https://huggingface.co/HuggingFaceFW/fineweb",
-      "description": "Pipeline: Model | Downloads: 419,342 | Likes: 3,270",
-      "pipeline_tag": "Model",
-      "likes": 3270,
-      "downloads": 419342,
-      "tags": [
-        "task_categories:text-generation",
-        "language:en",
-        "license:odc-by",
-        "size_categories:10B<n<100B",
-        "modality:tabular"
-      ],
-      "source": "huggingface",
-      "type": "datasets"
-    },
-    {
       "rank": 17,
       "full_name": "snapwre/amharic-speech",
       "owner": "snapwre",
       "name": "amharic-speech",
       "url": "https://huggingface.co/snapwre/amharic-speech",
-      "description": "Pipeline: Model | Downloads: 224 | Likes: 18",
+      "description": "Pipeline: Model | Downloads: 224 | Likes: 19",
       "pipeline_tag": "Model",
-      "likes": 18,
+      "likes": 19,
       "downloads": 224,
       "tags": [
         "task_categories:automatic-speech-recognition",
@@ -866,9 +866,9 @@
       "owner": "Specific-Labs",
       "name": "Scaffold-CoT",
       "url": "https://huggingface.co/Specific-Labs/Scaffold-CoT",
-      "description": "Pipeline: Model | Downloads: 456 | Likes: 16",
+      "description": "Pipeline: Model | Downloads: 456 | Likes: 17",
       "pipeline_tag": "Model",
-      "likes": 16,
+      "likes": 17,
       "downloads": 456,
       "tags": [
         "task_categories:text-generation",
@@ -882,6 +882,26 @@
     },
     {
       "rank": 20,
+      "full_name": "LightwheelAI/EgoDemo",
+      "owner": "LightwheelAI",
+      "name": "EgoDemo",
+      "url": "https://huggingface.co/LightwheelAI/EgoDemo",
+      "description": "Pipeline: Model | Downloads: 46,191 | Likes: 30",
+      "pipeline_tag": "Model",
+      "likes": 30,
+      "downloads": 46191,
+      "tags": [
+        "task_categories:video-classification",
+        "language:en",
+        "license:other",
+        "size_categories:1K<n<10K",
+        "modality:video"
+      ],
+      "source": "huggingface",
+      "type": "datasets"
+    },
+    {
+      "rank": 21,
       "full_name": "faunix/Qwen3.8-27B-Distillation-40K",
       "owner": "faunix",
       "name": "Qwen3.8-27B-Distillation-40K",
@@ -896,26 +916,6 @@
         "license:apache-2.0",
         "size_categories:10K<n<100K",
         "format:parquet"
-      ],
-      "source": "huggingface",
-      "type": "datasets"
-    },
-    {
-      "rank": 21,
-      "full_name": "LightwheelAI/EgoDemo",
-      "owner": "LightwheelAI",
-      "name": "EgoDemo",
-      "url": "https://huggingface.co/LightwheelAI/EgoDemo",
-      "description": "Pipeline: Model | Downloads: 46,191 | Likes: 29",
-      "pipeline_tag": "Model",
-      "likes": 29,
-      "downloads": 46191,
-      "tags": [
-        "task_categories:video-classification",
-        "language:en",
-        "license:other",
-        "size_categories:1K<n<10K",
-        "modality:video"
       ],
       "source": "huggingface",
       "type": "datasets"
@@ -942,6 +942,24 @@
     },
     {
       "rank": 23,
+      "full_name": "laion/BVD-V-55M",
+      "owner": "laion",
+      "name": "BVD-V-55M",
+      "url": "https://huggingface.co/laion/BVD-V-55M",
+      "description": "Pipeline: Model | Downloads: 47 | Likes: 14",
+      "pipeline_tag": "Model",
+      "likes": 14,
+      "downloads": 47,
+      "tags": [
+        "size_categories:10M<n<100M",
+        "arxiv:2608.24845",
+        "region:us"
+      ],
+      "source": "huggingface",
+      "type": "datasets"
+    },
+    {
+      "rank": 24,
       "full_name": "TeichAI/Fable-5-Cursor-Traces",
       "owner": "TeichAI",
       "name": "Fable-5-Cursor-Traces",
@@ -961,39 +979,21 @@
       "type": "datasets"
     },
     {
-      "rank": 24,
-      "full_name": "laion/BVD-V-55M",
-      "owner": "laion",
-      "name": "BVD-V-55M",
-      "url": "https://huggingface.co/laion/BVD-V-55M",
-      "description": "Pipeline: Model | Downloads: 47 | Likes: 13",
-      "pipeline_tag": "Model",
-      "likes": 13,
-      "downloads": 47,
-      "tags": [
-        "size_categories:10M<n<100M",
-        "arxiv:2608.24845",
-        "region:us"
-      ],
-      "source": "huggingface",
-      "type": "datasets"
-    },
-    {
       "rank": 25,
-      "full_name": "DISLab/Q-CARE",
-      "owner": "DISLab",
-      "name": "Q-CARE",
-      "url": "https://huggingface.co/DISLab/Q-CARE",
-      "description": "Pipeline: Model | Downloads: 129 | Likes: 12",
+      "full_name": "NousResearch/hermes-function-calling-v1",
+      "owner": "NousResearch",
+      "name": "hermes-function-calling-v1",
+      "url": "https://huggingface.co/NousResearch/hermes-function-calling-v1",
+      "description": "Pipeline: Model | Downloads: 61,486 | Likes: 461",
       "pipeline_tag": "Model",
-      "likes": 12,
-      "downloads": 129,
+      "likes": 461,
+      "downloads": 61486,
       "tags": [
+        "task_categories:text-generation",
         "task_categories:question-answering",
-        "task_categories:text-retrieval",
+        "task_categories:feature-extraction",
         "language:en",
-        "license:cc-by-sa-4.0",
-        "size_categories:n<1K"
+        "license:apache-2.0"
       ],
       "source": "huggingface",
       "type": "datasets"
