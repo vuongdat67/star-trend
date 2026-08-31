@@ -14,7 +14,13 @@ def load_stars_data():
     if os.path.exists(STARS_FILE):
         try:
             with open(STARS_FILE, 'r', encoding='utf-8') as f:
-                repos = json.load(f)
+                data = json.load(f)
+                if isinstance(data, dict):
+                    repos = data.get('repos', [])
+                elif isinstance(data, list):
+                    repos = data
+                else:
+                    repos = []
                 mod_time = datetime.fromtimestamp(os.path.getmtime(STARS_FILE)).strftime('%Y-%m-%d %H:%M:%S')
                 return {'repos': repos, 'updated_at': mod_time}
         except Exception as e:

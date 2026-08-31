@@ -23,6 +23,7 @@ if sys.platform == "win32":
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 def fetch_all_stars(username, token=None):
+    token = token or os.environ.get('GITHUB_TOKEN') or os.environ.get('GH_TOKEN')
     headers = {
         'Accept': 'application/vnd.github.v3.star+json',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) StarExporter/1.0'
@@ -58,13 +59,16 @@ def fetch_all_stars(username, token=None):
                 page += 1
         except urllib.error.HTTPError as e:
             if e.code == 403:
-                print(f"\n[!] Lỗi 403 Forbidden / Rate Limit Exceeded. Hãy cung cấp GitHub Personal Access Token qua `--token YOUR_TOKEN` hoặc set biến môi trường GITHUB_TOKEN.")
+                msg = "Lỗi 403 Rate Limit Exceeded từ GitHub Public API. Hãy thử lại sau 30-60 phút hoặc cung cấp GITHUB_TOKEN."
+                print(f"\n[!] {msg}")
+                raise RuntimeError(msg)
             else:
-                print(f"\n[!] Lỗi HTTP {e.code}: {e.reason}")
-            sys.exit(1)
+                msg = f"Lỗi HTTP {e.code}: {e.reason}"
+                print(f"\n[!] {msg}")
+                raise RuntimeError(msg)
         except Exception as e:
             print(f"\n[!] Lỗi kết nối: {e}")
-            sys.exit(1)
+            raise RuntimeError(f"Lỗi kết nối GitHub API: {e}")
             
     print(f"[✓] Đã tải thành công toàn bộ {len(starred_items)} repositories!\n")
     return starred_items

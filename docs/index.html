@@ -19,7 +19,7 @@
   <header class="site-topbar">
     <div class="container topbar-inner">
       <div style="display: flex; align-items: center; gap: 12px;">
-        <div class="brand-logo">
+        <div class="brand-logo" onclick="closeFullPageDetail(); switchFeedMode('trending');" style="cursor: pointer;">
           <span>Stars <span style="color: var(--pill-blue-text);">&</span> Trends</span>
         </div>
         <span class="brand-badge">@vuongdat67</span>
@@ -55,7 +55,7 @@
         <button class="btn-zinc btn-icon" id="theme-btn" onclick="toggleTheme()" title="Chuyển Dark / Light">
           <i data-lucide="sun" id="theme-icon" style="width: 14px; height: 14px;"></i>
         </button>
-        <button class="btn-zinc" id="sync-btn" onclick="triggerSync()" title="Đồng bộ lại từ GitHub (Tự động loại bỏ repo đã unstar)">
+        <button class="btn-zinc" id="sync-btn" onclick="triggerSync()" title="Đồng bộ lại từ GitHub">
           <i data-lucide="refresh-cw" style="width: 12px; height: 12px;"></i>
           <span>Đồng Bộ</span>
         </button>
@@ -80,6 +80,20 @@
 
   <!-- ==================== MAIN WORKSPACE ==================== -->
   <div class="container">
+
+    <!-- FULL-PAGE DEEP DIVE VIEW (Vui Coding Style) -->
+    <div id="fullpage-detail-container" style="display: none; padding: 20px 0 50px;">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
+        <button class="btn-zinc" onclick="closeFullPageDetail()" style="font-weight: 700;">
+          <i data-lucide="arrow-left" style="width: 14px; height: 14px;"></i>
+          <span>Quay lại danh sách</span>
+        </button>
+        <div id="fullpage-breadcrumb" style="font-family: var(--font-mono); font-size: 12px; color: var(--text-muted);"></div>
+      </div>
+      <div id="fullpage-detail-content"></div>
+    </div>
+
+    <!-- MAIN FEED & SIDEBAR GRID -->
     <div class="app-layout-grid" id="main-layout-grid">
 
       <!-- MAIN FEED AREA -->
@@ -96,7 +110,7 @@
               </button>
               <button class="tab-btn" id="mode-btn-stars" onclick="switchFeedMode('stars')">
                 <i data-lucide="bookmark" style="width: 13px; height: 13px;"></i>
-                <span>Kho Stars (<span id="stars-total-count">614</span>)</span>
+                <span>Kho Stars (<span id="stars-total-count">615</span>)</span>
               </button>
               <button class="tab-btn" id="mode-btn-new" onclick="switchFeedMode('new')">
                 <i data-lucide="sparkle" style="width: 13px; height: 13px; color: var(--pill-green-text);"></i>
@@ -118,7 +132,6 @@
                 <i data-lucide="wrench" style="width: 13px; height: 13px; color: var(--pill-cyan-text);"></i>
                 <span>Dev Tools & Launch</span>
               </button>
-              <!-- NEW: Jobs Radar Tab -->
               <button class="tab-btn" id="mode-btn-jobs" onclick="switchFeedMode('jobs')">
                 <i data-lucide="briefcase" style="width: 13px; height: 13px; color: var(--pill-amber-text);"></i>
                 <span>Kèo Dev & Việc Làm</span>
@@ -134,9 +147,7 @@
           </div>
 
           <!-- Radar Sub-Category Pills -->
-          <div id="radar-subfilters" class="radar-subfilter-bar" style="display: none;">
-            <!-- Rendered dynamically by JS -->
-          </div>
+          <div id="radar-subfilters" class="radar-subfilter-bar" style="display: none;"></div>
 
           <!-- Tools Sub-Category Pills -->
           <div id="tools-subfilters" class="radar-subfilter-bar" style="display: none;">
@@ -155,10 +166,11 @@
             <button class="pill-btn" onclick="switchJobsSubfilter('dev')">💻 Software / Web / App</button>
             <button class="pill-btn" onclick="switchJobsSubfilter('game')">🎮 Game Dev</button>
             <button class="pill-btn" onclick="switchJobsSubfilter('cloud')">☁️ Cloud & DevOps</button>
-            <button class="pill-btn" onclick="switchJobsSubfilter('platforms')">🌐 30+ Cổng Tuyển Dụng</button>
+            <button class="pill-btn" onclick="switchJobsSubfilter('platforms')">🌐 35+ Group & Cổng Tuyển Dụng</button>
             <button class="pill-btn" onclick="switchJobsSubfilter('insights')">📊 Báo Cáo Xu Hướng 2025</button>
           </div>
 
+          <!-- General Search & Controls Row -->
           <div class="controls-row-bottom" id="controls-row-bottom">
             <!-- Search -->
             <div class="search-wrap">
@@ -166,9 +178,27 @@
               <input type="text" id="search-input" class="input-text" placeholder="Tìm theo tên repo, mô tả, CVE-ID, vị trí tuyển dụng, kỹ năng..." oninput="handleSearch(this.value)">
             </div>
 
-            <!-- Language select -->
+            <!-- Language select (Repos) -->
             <select id="lang-select" class="select-control" onchange="handleLangChange()">
               <option value="">Tất cả ngôn ngữ</option>
+            </select>
+
+            <!-- Jobs Level select (Active in Jobs tab) -->
+            <select id="jobs-level-select" class="select-control" style="display: none;" onchange="handleJobFilterChange()">
+              <option value="">Tất cả cấp độ</option>
+              <option value="Intern">Intern / Thực tập sinh</option>
+              <option value="Junior">Junior (0 - 2 năm)</option>
+              <option value="Middle">Middle (2 - 5 năm)</option>
+              <option value="Senior">Senior / Lead (5+ năm)</option>
+            </select>
+
+            <!-- Jobs Location select (Active in Jobs tab) -->
+            <select id="jobs-location-select" class="select-control" style="display: none;" onchange="handleJobFilterChange()">
+              <option value="">Tất cả địa điểm</option>
+              <option value="Hà Nội">Hà Nội</option>
+              <option value="Hồ Chí Minh">TP. Hồ Chí Minh</option>
+              <option value="Đà Nẵng">Đà Nẵng</option>
+              <option value="Remote">100% Remote / Toàn quốc</option>
             </select>
 
             <!-- Page Limit select -->
@@ -182,7 +212,7 @@
             <!-- Sort select -->
             <select id="sort-select" class="select-control" onchange="handleSortChange()">
               <option value="default">Thứ tự mặc định</option>
-              <option value="stars-desc">Nhiều Star / Điểm nhất</option>
+              <option value="stars-desc">Nhiều Star / Lương cao nhất</option>
               <option value="date-desc">Mới cập nhật</option>
               <option value="name-asc">Tên A-Z</option>
             </select>
@@ -209,9 +239,7 @@
         </div>
 
         <!-- Cards Feed Grid -->
-        <div class="cards-feed-grid layout-grid-3" id="cards-feed-container">
-          <!-- Rendered by JS -->
-        </div>
+        <div class="cards-feed-grid layout-grid-3" id="cards-feed-container"></div>
 
         <!-- STATS & VELOCITY DASHBOARD VIEW CONTAINER -->
         <div id="stats-view-container" class="stats-dashboard-wrap" style="display: none;">
@@ -306,9 +334,7 @@
           <div class="sidebar-heading">
             <span id="sidebar-cat-heading-title">Danh Mục Phân Loại</span>
           </div>
-          <div id="sidebar-categories-list" style="display: flex; flex-direction: column; gap: 2px;">
-            <!-- Rendered dynamically according to active tab by JS -->
-          </div>
+          <div id="sidebar-categories-list" style="display: flex; flex-direction: column; gap: 2px;"></div>
         </div>
 
         <!-- Hot Topics Cloud -->
@@ -316,9 +342,7 @@
           <div class="sidebar-heading">
             <span>Chủ Đề Hot (#Topics)</span>
           </div>
-          <div class="topic-cloud-wrap" id="sidebar-topics-cloud">
-            <!-- Rendered dynamically according to active tab by JS -->
-          </div>
+          <div class="topic-cloud-wrap" id="sidebar-topics-cloud"></div>
           <button class="btn-zinc" id="toggle-more-tags-btn" onclick="toggleMoreTags()" style="width: 100%; margin-top: 8px; justify-content: center;">
             + Xem thêm topics
           </button>
@@ -346,15 +370,8 @@
     </div>
   </div>
 
-  <!-- ==================== SINGLE REPO DEEP DIVE MODAL ==================== -->
-  <div class="modal-overlay" id="repo-detail-modal">
-    <div class="modal-card" style="max-width: 820px; max-height: 90vh; overflow-y: auto; padding: 20px; position: relative;">
-      <button class="btn-zinc btn-icon" onclick="closeRepoDetailModal()" style="position: absolute; top: 16px; right: 16px; z-index: 10;" title="Đóng modal">
-        <i data-lucide="x" style="width: 14px; height: 14px;"></i>
-      </button>
-      <div id="repo-detail-modal-body"></div>
-    </div>
-  </div>
+  <!-- ==================== HOVER / ANCHOR QUICK PREVIEW POPOVER ==================== -->
+  <div id="quick-preview-popover" class="quick-preview-popover"></div>
 
   <!-- ==================== QUICK REPO INSPECTOR MODAL ==================== -->
   <div class="modal-overlay" id="inspector-modal">

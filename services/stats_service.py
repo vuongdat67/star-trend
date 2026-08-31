@@ -27,12 +27,19 @@ def categorize_repo(repo):
     return matched_categories
 
 def compute_stars_stats(repos):
+    if isinstance(repos, dict):
+        repos = repos.get('repos', [])
+    if not isinstance(repos, list):
+        return {}
+
     lang_counter = Counter()
     topic_counter = Counter()
     year_counter = Counter()
     category_counter = Counter()
 
     for r in repos:
+        if not isinstance(r, dict):
+            continue
         lang = r.get('language') or 'Others'
         lang_counter[lang] += 1
 
@@ -42,9 +49,10 @@ def compute_stars_stats(repos):
 
         raw_topics = r.get('topics') or []
         for t in raw_topics:
-            t_clean = t.strip().lower()
-            if t_clean:
-                topic_counter[t_clean] += 1
+            if isinstance(t, str):
+                t_clean = t.strip().lower()
+                if t_clean:
+                    topic_counter[t_clean] += 1
 
         cats = categorize_repo(r)
         r['categories'] = cats

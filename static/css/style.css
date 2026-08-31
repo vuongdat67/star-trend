@@ -266,6 +266,7 @@ button {
   height: 40px;
   border-right: 1px solid var(--border);
   transition: background 0.1s;
+  cursor: pointer;
 }
 
 .ticker-card-item:hover {
@@ -331,7 +332,7 @@ button {
 }
 
 .app-layout-grid.sidebar-hidden {
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr !important;
 }
 
 .app-layout-grid.sidebar-hidden .sidebar-column {
@@ -469,7 +470,7 @@ button {
   border: 1px solid var(--border);
 }
 
-/* ==================== SUB-CATEGORY FILTER PILLS (Radar / Tools / Jobs) ==================== */
+/* ==================== SUB-CATEGORY FILTER PILLS ==================== */
 .radar-subfilter-bar {
   display: flex;
   align-items: center;
@@ -526,7 +527,7 @@ button {
   grid-template-columns: 1fr;
 }
 
-/* Project Card */
+/* Project Card - Fully Clickable Shape */
 .project-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -537,11 +538,14 @@ button {
   justify-content: space-between;
   gap: 10px;
   transition: var(--transition);
+  cursor: pointer;
+  position: relative;
 }
 
 .project-card:hover {
   background: var(--bg-card-hover);
   border-color: var(--border-focus);
+  transform: translateY(-1px);
 }
 
 .card-header-row {
@@ -584,7 +588,6 @@ button {
   font-weight: 700;
   color: var(--text-main);
   word-break: break-word;
-  cursor: pointer;
 }
 
 .card-title-link:hover {
@@ -671,6 +674,7 @@ button {
   transition: var(--transition);
   padding: 0;
   outline: none;
+  z-index: 2;
 }
 
 .card-action-btn:hover {
@@ -799,6 +803,7 @@ button {
   font-weight: 600;
   cursor: pointer;
   transition: var(--transition);
+  text-decoration: none;
 }
 
 .btn-zinc:hover { background: var(--bg-card-hover); border-color: var(--text-muted); }
@@ -1153,7 +1158,6 @@ button {
   line-height: 1.4;
 }
 
-/* Launch Card */
 .launch-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
@@ -1229,11 +1233,13 @@ button {
   justify-content: space-between;
   gap: 12px;
   transition: var(--transition);
+  cursor: pointer;
 }
 
 .job-card:hover {
   background: var(--bg-card-hover);
   border-color: var(--border-focus);
+  transform: translateY(-1px);
 }
 
 .job-header-row {
@@ -1244,16 +1250,11 @@ button {
 }
 
 .job-title {
-  font-size: 14.5px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--text-main);
   text-decoration: none;
   line-height: 1.35;
-}
-
-.job-title:hover {
-  color: var(--pill-blue-text);
-  text-decoration: underline;
 }
 
 .job-company-row {
@@ -1262,7 +1263,7 @@ button {
   gap: 8px;
   font-size: 12px;
   color: var(--text-muted);
-  margin-top: 3px;
+  margin-top: 4px;
 }
 
 .job-salary-badge {
@@ -1270,13 +1271,14 @@ button {
   align-items: center;
   gap: 4px;
   font-family: var(--font-mono);
-  font-size: 11.5px;
+  font-size: 12px;
   font-weight: 700;
   color: var(--pill-green-text);
   background: var(--pill-green-bg);
   border: 1px solid var(--pill-green-border);
-  padding: 2px 8px;
+  padding: 3px 9px;
   border-radius: var(--radius-xs);
+  flex-shrink: 0;
 }
 
 .platform-category-card {
@@ -1288,7 +1290,7 @@ button {
 }
 
 .platform-category-title {
-  font-size: 13.5px;
+  font-size: 14px;
   font-weight: 700;
   color: var(--text-main);
   margin-bottom: 12px;
@@ -1299,7 +1301,7 @@ button {
 
 .platforms-chips-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 10px;
 }
 
@@ -1307,10 +1309,10 @@ button {
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-sm);
-  padding: 10px 12px;
+  padding: 12px 14px;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 6px;
   text-decoration: none;
   transition: var(--transition);
 }
@@ -1327,15 +1329,15 @@ button {
 }
 
 .platform-name {
-  font-size: 13px;
+  font-size: 13.5px;
   font-weight: 700;
   color: var(--text-main);
 }
 
 .platform-desc {
-  font-size: 11.5px;
+  font-size: 12px;
   color: var(--text-muted);
-  line-height: 1.35;
+  line-height: 1.4;
 }
 
 /* Market Insights */
@@ -1345,9 +1347,33 @@ button {
   gap: 16px;
 }
 
+.insights-banner {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--pill-blue-text);
+  border-radius: var(--radius-md);
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.insights-banner-title {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 4px;
+}
+
+.insights-banner-sub {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
 .insights-kpi-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 12px;
 }
 
@@ -1394,79 +1420,94 @@ button {
   color: var(--text-muted);
 }
 
-/* ==================== 5. SINGLE REPO DEEP DIVE MODAL (VUI CODING TIER) ==================== */
-.repo-hero-banner {
-  background: linear-gradient(135deg, rgba(23, 37, 84, 0.9) 0%, rgba(18, 20, 30, 0.95) 100%);
-  border: 1px solid var(--pill-blue-border);
-  border-radius: var(--radius-md);
-  padding: 20px;
+/* ==================== 5. FULL-PAGE DEEP DIVE VIEW (VUI CODING TIER) ==================== */
+.fullpage-repo-hero {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
-.repo-hero-header {
+.fullpage-repo-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 16px;
   flex-wrap: wrap;
 }
 
-.repo-hero-title-wrap {
+.fullpage-repo-title-wrap {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 16px;
 }
 
-.repo-hero-icon {
-  width: 48px;
-  height: 48px;
+.fullpage-repo-icon {
+  width: 56px;
+  height: 56px;
   border-radius: var(--radius-md);
   border: 1px solid var(--border);
   background: var(--bg-surface);
 }
 
-.repo-metrics-grid {
+.fullpage-metrics-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
-  gap: 8px;
-  margin: 10px 0;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+  margin: 12px 0;
 }
 
-.repo-metric-card {
+.fullpage-metric-card {
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-sm);
-  padding: 10px;
+  padding: 12px;
   text-align: center;
 }
 
-.repo-metric-num {
-  font-size: 16px;
+.fullpage-metric-num {
+  font-size: 18px;
   font-weight: 800;
   font-family: var(--font-mono);
   color: var(--text-main);
 }
 
-.repo-metric-label {
-  font-size: 10.5px;
+.fullpage-metric-label {
+  font-size: 11px;
   text-transform: uppercase;
   color: var(--text-muted);
+  margin-top: 2px;
 }
 
-.repo-guide-card {
-  background: var(--bg-surface);
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-sm);
-  padding: 14px;
+.fullpage-content-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 900px) {
+  .fullpage-content-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.fullpage-guide-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
 .repo-clone-box {
-  background: var(--bg-body);
+  background: var(--bg-input);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-sm);
   padding: 10px 12px;
@@ -1479,7 +1520,22 @@ button {
   margin: 8px 0;
 }
 
-/* ==================== 6. DEV QUOTE RADAR ==================== */
+/* ==================== 6. QUICK HOVER PREVIEW POPOVER ==================== */
+.quick-preview-popover {
+  position: fixed;
+  z-index: 1500;
+  display: none;
+  width: 320px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-focus);
+  border-radius: var(--radius-md);
+  padding: 14px;
+  box-shadow: 0 14px 40px rgba(0,0,0,0.8);
+  pointer-events: none;
+  font-size: 12px;
+}
+
+/* ==================== 7. DEV QUOTE RADAR ==================== */
 .quote-card {
   background: var(--bg-input);
   border: 1px solid var(--border-subtle);

@@ -1,7 +1,7 @@
 /**
  * Jet-Black Charcoal Stars, Trending, Collections, Stats, Jobs & AI Radar Hub
  * Supports dual-mode: Local Python Server (/api/...) and Static GitHub Pages (./data/*.json)
- * Implements Vui Coding & CyberJutsu Inspired Deep-Dive & Job Radar Architectures
+ * Full-Page Deep-Dive & Job Radar View System with Browser History Back Navigation
  */
 
 const _STATIC_MODE = !(window.location.port === '5000');
@@ -29,6 +29,8 @@ const state = {
   sidebarHidden: localStorage.getItem('sidebarHidden') === 'true',
   searchQuery: '',
   selectedLang: '',
+  selectedJobLevel: '',
+  selectedJobLocation: '',
   selectedCategory: '',
   selectedTopic: '',
   selectedSort: 'default',
@@ -94,7 +96,6 @@ function formatNumber(num) {
 
 // ── Dual-Mode Resilient Fetcher with Auto-Fallback ─────────────────────
 async function fetchWithFallback(apiPath, staticRelPath) {
-  // 1. If in server mode, try API first
   if (!_STATIC_MODE && apiPath) {
     try {
       const res = await fetch(apiPath);
@@ -104,15 +105,13 @@ async function fetchWithFallback(apiPath, staticRelPath) {
     }
   }
 
-  // 2. Try static file path
   try {
     const res = await fetch(DATA_BASE + staticRelPath);
     if (res.ok) return await res.json();
   } catch (e) {
-    console.error(`Failed to load from static ${staticRelPath}:`, e);
+    console.error(`Failed to load static ${staticRelPath}:`, e);
   }
 
-  // 3. Fallback: try direct relative path
   try {
     const res = await fetch('./' + staticRelPath);
     if (res.ok) return await res.json();
@@ -123,7 +122,7 @@ async function fetchWithFallback(apiPath, staticRelPath) {
   return null;
 }
 
-// ==================== INIT ====================
+// ==================== INIT & ROUTER ====================
 document.addEventListener('DOMContentLoaded', async () => {
   applyTheme(state.theme);
   applyLayout(state.layout);
@@ -135,7 +134,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   setupScrollObserver();
 
-  // Load all initial datasets concurrently with resilient fallback
+  // Load all datasets concurrently
   await Promise.all([
     fetchStarsData(),
     fetchNotesData(),
@@ -149,10 +148,27 @@ document.addEventListener('DOMContentLoaded', async () => {
     fetchJobsData()
   ]);
 
+  // Handle URL hash routing (e.g. #repo/cline/cline or #job/job-sec-001)
+  handleHashRouting();
+  window.addEventListener('hashchange', handleHashRouting);
+
   renderFeed();
   renderSidebar();
   lucide.createIcons();
 });
+
+function handleHashRouting() {
+  const hash = window.location.hash.slice(1);
+  if (hash.startsWith('repo/')) {
+    const fullName = hash.replace('repo/', '');
+    openFullPageRepoDetail(fullName, false);
+  } else if (hash.startsWith('job/')) {
+    const jobId = hash.replace('job/', '');
+    openFullPageJobDetail(jobId, false);
+  } else if (!hash) {
+    closeFullPageDetail(false);
+  }
+}
 
 // ==================== THEME & LAYOUT ====================
 function applyTheme(theme) {
@@ -290,6 +306,7 @@ async function fetchJobsData() {
 
 // ==================== PLATFORM & FEED MODES ====================
 function switchPlatformSource(platform) {
+  closeFullPageDetail(true);
   state.platform = platform;
   document.getElementById('source-btn-github').classList.toggle('active', platform === 'github');
   document.getElementById('source-btn-hf').classList.toggle('active', platform === 'huggingface');
@@ -305,6 +322,7 @@ function switchPlatformSource(platform) {
 }
 
 function switchFeedMode(mode) {
+  closeFullPageDetail(true);
   state.feedMode = mode;
   state.selectedCategory = '';
   state.selectedTopic = '';
@@ -324,11 +342,29 @@ function switchFeedMode(mode) {
   const cardsContainer = document.getElementById('cards-feed-container');
   const statsContainer = document.getElementById('stats-view-container');
 
-  // Toggle Visibility
+  const langSelect = document.getElementById('lang-select');
+  const jobsLevelSelect = document.getElementById('jobs-level-select');
+  const jobsLocationSelect = document.getElementById('jobs-location-select');
+  const searchInput = document.getElementById('search-input');
+
+  // Toggle Mode-specific Controls
   if (periodGroup) periodGroup.style.display = (mode === 'trending' || mode === 'new') ? 'flex' : 'none';
   if (radarSubfilters) radarSubfilters.style.display = (mode === 'pulse') ? 'flex' : 'none';
   if (toolsSubfilters) toolsSubfilters.style.display = (mode === 'tools') ? 'flex' : 'none';
   if (jobsSubfilters) jobsSubfilters.style.display = (mode === 'jobs') ? 'flex' : 'none';
+
+  // Toggle Filters in Row Bottom
+  if (mode === 'jobs') {
+    if (langSelect) langSelect.style.display = 'none';
+    if (jobsLevelSelect) jobsLevelSelect.style.display = 'inline-block';
+    if (jobsLocationSelect) jobsLocationSelect.style.display = 'inline-block';
+    if (searchInput) searchInput.placeholder = "Tìm vị trí, công ty, kỹ năng (SOC, SIEM, Splunk, Python, React, Golang, AWS)...";
+  } else {
+    if (langSelect) langSelect.style.display = 'inline-block';
+    if (jobsLevelSelect) jobsLevelSelect.style.display = 'none';
+    if (jobsLocationSelect) jobsLocationSelect.style.display = 'none';
+    if (searchInput) searchInput.placeholder = "Tìm theo tên repo, mô tả, CVE-ID, tags...";
+  }
 
   if (mode === 'stats') {
     if (cardsContainer) cardsContainer.style.display = 'none';
@@ -373,6 +409,12 @@ function switchJobsSubfilter(sub) {
   renderFeed();
 }
 
+function handleJobFilterChange() {
+  state.selectedJobLevel = document.getElementById('jobs-level-select')?.value || '';
+  state.selectedJobLocation = document.getElementById('jobs-location-select')?.value || '';
+  renderFeed();
+}
+
 // ==================== LIVE TICKER ====================
 function renderTicker() {
   const marquee = document.getElementById('ticker-marquee');
@@ -396,13 +438,13 @@ function renderTicker() {
     const gainFormatted = r.stars_since ? (r.stars_since.startsWith('+') ? r.stars_since : `+${r.stars_since}`) : '+1.2k';
 
     html += `
-      <a href="javascript:void(0)" onclick="openRepoDetailModal('${r.full_name}')" class="ticker-card-item">
+      <div onclick="openFullPageRepoDetail('${r.full_name}')" class="ticker-card-item">
         <img class="ticker-avatar" src="${avatarUrl}" onerror="this.src='https://github.githubassets.com/favicons/favicon.png'" alt="${owner}">
         <span class="ticker-rank-pill">GH #${rank}</span>
         <span class="ticker-name-text">${name}</span>
         <span class="ticker-stars-text">★ ${starsFormatted}</span>
         <span class="ticker-momentum-pill">↗ ${gainFormatted}</span>
-      </a>
+      </div>
     `;
   });
 
@@ -428,30 +470,14 @@ function renderRadarSubfilters() {
   };
 
   bar.innerHTML = `
-    <button class="pill-btn ${state.radarSubfilter === 'all' ? 'active' : ''}" onclick="selectRadarSubfilter('all')">
-      📌 Tất cả (${counts.all})
-    </button>
-    <button class="pill-btn ${state.radarSubfilter === 'conf' ? 'active' : ''}" onclick="selectRadarSubfilter('conf')">
-      🏛️ Hội Nghị (${counts.conf})
-    </button>
-    <button class="pill-btn ${state.radarSubfilter === 'arxiv' ? 'active' : ''}" onclick="selectRadarSubfilter('arxiv')">
-      📄 arXiv (${counts.arxiv})
-    </button>
-    <button class="pill-btn ${state.radarSubfilter === 'hf' ? 'active' : ''}" onclick="selectRadarSubfilter('hf')">
-      🧪 HF Papers (${counts.hf})
-    </button>
-    <button class="pill-btn ${state.radarSubfilter === 'cve' ? 'active' : ''}" onclick="selectRadarSubfilter('cve')">
-      🛡️ CVE/CWE (${counts.cve})
-    </button>
-    <button class="pill-btn ${state.radarSubfilter === 'hn' ? 'active' : ''}" onclick="selectRadarSubfilter('hn')">
-      📰 Hacker News (${counts.hn})
-    </button>
-    <button class="pill-btn ${state.radarSubfilter === 'x' ? 'active' : ''}" onclick="selectRadarSubfilter('x')">
-      🌐 X Trends (${counts.x})
-    </button>
-    <button class="pill-btn ${state.radarSubfilter === 'labs' ? 'active' : ''}" onclick="selectRadarSubfilter('labs')">
-      🤖 AI Labs (${counts.labs})
-    </button>
+    <button class="pill-btn ${state.radarSubfilter === 'all' ? 'active' : ''}" onclick="selectRadarSubfilter('all')">📌 Tất cả (${counts.all})</button>
+    <button class="pill-btn ${state.radarSubfilter === 'conf' ? 'active' : ''}" onclick="selectRadarSubfilter('conf')">🏛️ Hội Nghị (${counts.conf})</button>
+    <button class="pill-btn ${state.radarSubfilter === 'arxiv' ? 'active' : ''}" onclick="selectRadarSubfilter('arxiv')">📄 arXiv (${counts.arxiv})</button>
+    <button class="pill-btn ${state.radarSubfilter === 'hf' ? 'active' : ''}" onclick="selectRadarSubfilter('hf')">🧪 HF Papers (${counts.hf})</button>
+    <button class="pill-btn ${state.radarSubfilter === 'cve' ? 'active' : ''}" onclick="selectRadarSubfilter('cve')">🛡️ CVE/CWE (${counts.cve})</button>
+    <button class="pill-btn ${state.radarSubfilter === 'hn' ? 'active' : ''}" onclick="selectRadarSubfilter('hn')">📰 Hacker News (${counts.hn})</button>
+    <button class="pill-btn ${state.radarSubfilter === 'x' ? 'active' : ''}" onclick="selectRadarSubfilter('x')">🌐 X Trends (${counts.x})</button>
+    <button class="pill-btn ${state.radarSubfilter === 'labs' ? 'active' : ''}" onclick="selectRadarSubfilter('labs')">🤖 AI Labs (${counts.labs})</button>
   `;
 }
 
@@ -478,7 +504,7 @@ function getRawItemsForCurrentView() {
   if (state.feedMode === 'stars') return state.starsRepos;
   if (state.feedMode === 'trending') return state.trendingRepos;
   if (state.feedMode === 'new') return state.freshRepos;
-  return state.starsRepos; // fallback to stars for categories in other views
+  return state.starsRepos;
 }
 
 function renderSidebar() {
@@ -504,7 +530,6 @@ function renderSidebar() {
     });
   });
 
-  // Render Categories List
   const catContainer = document.getElementById('sidebar-categories-list');
   if (catContainer) {
     let catHtml = `
@@ -526,19 +551,14 @@ function renderSidebar() {
     catContainer.innerHTML = catHtml;
   }
 
-  // Render Topics Cloud
   const topicsContainer = document.getElementById('sidebar-topics-cloud');
   if (topicsContainer) {
     const sortedTopics = Object.keys(topicCounter).sort((a, b) => topicCounter[b] - topicCounter[a]);
     const displayTopics = state.showAllTags ? sortedTopics : sortedTopics.slice(0, 24);
 
     let topicHtml = `
-      <span class="topic-chip ${state.selectedTopic === '' ? 'active' : ''}" onclick="selectTopicFilter('')">
-        #tất_cả
-      </span>
-      <span class="topic-chip ${state.selectedTopic === 'bookmarked' ? 'active' : ''}" onclick="selectTopicFilter('bookmarked')">
-        ⭐ Bookmarks (${state.notesData.bookmarks.length})
-      </span>
+      <span class="topic-chip ${state.selectedTopic === '' ? 'active' : ''}" onclick="selectTopicFilter('')">#tất_cả</span>
+      <span class="topic-chip ${state.selectedTopic === 'bookmarked' ? 'active' : ''}" onclick="selectTopicFilter('bookmarked')">⭐ Bookmarks (${state.notesData.bookmarks.length})</span>
     `;
 
     displayTopics.forEach(t => {
@@ -616,7 +636,6 @@ function handleSortChange() {
 function getActiveItems() {
   let list = getRawItemsForCurrentView();
 
-  // 1. Text Search
   if (state.searchQuery) {
     const q = state.searchQuery;
     list = list.filter(r => {
@@ -629,25 +648,18 @@ function getActiveItems() {
     });
   }
 
-  // 2. Language Filter
   if (state.selectedLang && state.platform === 'github') {
     list = list.filter(r => (r.language || '').toLowerCase() === state.selectedLang.toLowerCase());
   }
 
-  // 3. Category Filter
   if (state.selectedCategory) {
     list = list.filter(r => {
-      if (state.platform === 'huggingface') {
-        return `🎯 ${r.pipeline_tag}` === state.selectedCategory || state.selectedCategory.includes(r.pipeline_tag || '');
-      }
-      if (state.feedMode === 'pulse') {
-        return r.category === state.selectedCategory || (r.category && state.selectedCategory.includes(r.category));
-      }
+      if (state.platform === 'huggingface') return `🎯 ${r.pipeline_tag}` === state.selectedCategory || state.selectedCategory.includes(r.pipeline_tag || '');
+      if (state.feedMode === 'pulse') return r.category === state.selectedCategory || (r.category && state.selectedCategory.includes(r.category));
       return classifyItem(r) === state.selectedCategory || (r.categories || []).includes(state.selectedCategory);
     });
   }
 
-  // 4. Topic Filter
   if (state.selectedTopic) {
     if (state.selectedTopic === 'bookmarked') {
       list = list.filter(r => state.notesData.bookmarks.includes(r.full_name));
@@ -656,7 +668,6 @@ function getActiveItems() {
     }
   }
 
-  // 5. Sorting
   if (state.selectedSort === 'stars-desc') {
     list.sort((a, b) => (b.stars || b.likes || b.upvotes || 0) - (a.stars || a.likes || a.upvotes || 0));
   } else if (state.selectedSort === 'date-desc') {
@@ -673,7 +684,6 @@ function renderFeed() {
   const sentinel = document.getElementById('scroll-sentinel');
   if (!container) return;
 
-  // Custom Views Dispatcher
   if (state.feedMode === 'collections') {
     renderCollections();
     if (sentinel) sentinel.style.display = 'none';
@@ -738,7 +748,20 @@ function renderCardsBatch(batch) {
     const card = document.createElement('div');
     card.className = 'project-card';
 
-    // RENDER AI PULSE / CONFERENCES / ARXIV / CVE / X / HN
+    // Entire Card Click Event -> Open Full-Page Deep Dive View!
+    card.addEventListener('click', (e) => {
+      // Don't trigger if clicked directly on bookmark or note buttons
+      if (e.target.closest('.card-action-btn') || e.target.closest('a[target="_blank"]')) return;
+      if (state.feedMode === 'pulse') {
+        window.open(r.url, '_blank');
+      } else if (state.platform === 'huggingface') {
+        window.open(`https://huggingface.co/${r.id}`, '_blank');
+      } else {
+        openFullPageRepoDetail(r.full_name);
+      }
+    });
+
+    // RENDER AI PULSE
     if (state.feedMode === 'pulse') {
       let severityBadge = '';
       if (r.badge && r.badge.includes('CRITICAL')) severityBadge = 'cve-critical';
@@ -754,40 +777,34 @@ function renderCardsBatch(batch) {
           <span style="font-family: var(--font-mono); font-size: 11px; color: var(--text-faint);">${r.published_at || ''}</span>
         </div>
 
-        <a href="${r.url}" target="_blank" class="card-title-link" style="font-size: 14px;">
+        <div class="card-title-link" style="font-size: 14.5px;">
           ${r.title}
-          <i data-lucide="arrow-up-right" style="width: 13px; height: 13px; opacity: 0.7; margin-left: 2px;"></i>
-        </a>
+          <i data-lucide="arrow-up-right" style="width: 13px; height: 13px; opacity: 0.7; margin-left: 2px; display: inline;"></i>
+        </div>
 
         <div class="card-desc-text">${r.summary || ''}</div>
 
         <div class="card-footer-row">
           <div class="domain-chips-list">
-            ${(r.tags || []).map(t => `<span class="domain-chip" onclick="selectTopicFilter('${t}')">#${t}</span>`).join('')}
+            ${(r.tags || []).map(t => `<span class="domain-chip" onclick="event.stopPropagation(); selectTopicFilter('${t}')">#${t}</span>`).join('')}
           </div>
-          <div style="font-family: var(--font-mono); font-size: 11px; color: var(--text-muted);">
-            ${r.category || ''}
-          </div>
+          <div style="font-family: var(--font-mono); font-size: 11px; color: var(--text-muted);">${r.category || ''}</div>
         </div>
       `;
       fragment.appendChild(card);
       return;
     }
 
-    // RENDER HUGGING FACE MODELS / DATASETS
+    // RENDER HUGGING FACE
     if (state.platform === 'huggingface') {
       card.innerHTML = `
         <div class="card-header-row">
           <div class="card-title-block">
             <span class="rank-tag">#${rank}</span>
-            <a href="https://huggingface.co/${r.id}" target="_blank" class="card-title-link">
-              ${r.id}
-            </a>
+            <div class="card-title-link">${r.id}</div>
           </div>
         </div>
-
         <div class="card-desc-text">${r.pipeline_tag ? `Task: ${r.pipeline_tag}` : 'Hugging Face Open Weights Model'}</div>
-
         <div class="card-footer-row">
           <span style="color: var(--pill-amber-text);">❤️ ${formatNumber(r.likes || 0)}</span>
           <span>⬇️ ${formatNumber(r.downloads || 0)}</span>
@@ -798,7 +815,7 @@ function renderCardsBatch(batch) {
       return;
     }
 
-    // RENDER GITHUB REPOSITORIES (Trending / Stars / New)
+    // RENDER GITHUB REPOSITORIES
     const owner = r.owner || (r.full_name ? r.full_name.split('/')[0] : 'github');
     const avatarUrl = `https://github.com/${owner}.png?size=40`;
     const starsFormatted = formatNumber(r.stars);
@@ -810,11 +827,9 @@ function renderCardsBatch(batch) {
         <div class="card-title-block">
           <img class="card-avatar" src="${avatarUrl}" onerror="this.src='https://github.githubassets.com/favicons/favicon.png'" alt="${owner}">
           ${state.feedMode === 'trending' ? `<span class="rank-tag">#${rank}</span>` : ''}
-          <a href="javascript:void(0)" onclick="openRepoDetailModal('${r.full_name}')" class="card-title-link" title="Xem chi tiết repo">
-            ${r.full_name || r.name}
-          </a>
+          <div class="card-title-link">${r.full_name || r.name}</div>
         </div>
-        <button class="card-action-btn ${isBookmarked ? 'active' : ''}" onclick="toggleBookmark('${r.full_name}')" title="Bookmark repo này">
+        <button class="card-action-btn ${isBookmarked ? 'active' : ''}" onclick="event.stopPropagation(); toggleBookmark('${r.full_name}')" title="Bookmark repo này">
           <i data-lucide="bookmark" style="width: 14px; height: 14px;"></i>
         </button>
       </div>
@@ -832,10 +847,8 @@ function renderCardsBatch(batch) {
         </div>
 
         <div style="display: flex; align-items: center; gap: 6px;">
-          <button class="btn-zinc" style="font-size: 11px; padding: 2px 7px;" onclick="openRepoDetailModal('${r.full_name}')">
-            Chi tiết
-          </button>
-          <button class="card-action-btn ${hasNote ? 'active' : ''}" onclick="openNoteModal('${r.full_name}')" title="Ghi chú cá nhân">
+          <span style="font-size: 11.5px; color: var(--pill-blue-text); font-weight: 600;">Xem chi tiết ↗</span>
+          <button class="card-action-btn ${hasNote ? 'active' : ''}" onclick="event.stopPropagation(); openNoteModal('${r.full_name}')" title="Ghi chú cá nhân">
             <i data-lucide="file-text" style="width: 13px; height: 13px;"></i>
           </button>
         </div>
@@ -872,7 +885,334 @@ function setupScrollObserver() {
   observer.observe(sentinel);
 }
 
-// ==================== 1. CURATED COLLECTIONS RENDERER ====================
+// ==================== 1. FULL-PAGE DEEP DIVE VIEW (Vui Coding Style) ====================
+function openFullPageRepoDetail(fullName, updateHash = true) {
+  const fullContainer = document.getElementById('fullpage-detail-container');
+  const fullContent = document.getElementById('fullpage-detail-content');
+  const mainGrid = document.getElementById('main-layout-grid');
+  const breadcrumb = document.getElementById('fullpage-breadcrumb');
+  if (!fullContainer || !fullContent) return;
+
+  let r = state.starsRepos.find(item => item.full_name === fullName) ||
+          state.trendingRepos.find(item => item.full_name === fullName || item.name === fullName) ||
+          state.freshRepos.find(item => item.full_name === fullName);
+
+  if (!r) {
+    const parts = fullName.split('/');
+    r = {
+      full_name: fullName,
+      name: parts[1] || fullName,
+      owner: parts[0] || 'github',
+      description: 'Repository nguồn mở được cộng đồng developer đánh giá cao.',
+      stars: 1200,
+      forks: 180,
+      language: 'TypeScript',
+      topics: ['open-source', 'developer-tools', 'utility'],
+      url: `https://github.com/${fullName}`,
+      starred_at: new Date().toISOString()
+    };
+  }
+
+  const owner = r.owner || (r.full_name ? r.full_name.split('/')[0] : 'github');
+  const avatarUrl = `https://github.com/${owner}.png?size=100`;
+  const isBookmarked = state.notesData.bookmarks.includes(r.full_name);
+  const note = state.notesData.notes[r.full_name]?.text || '';
+  const langColor = window.getLanguageColor ? window.getLanguageColor(r.language) : '#8B949E';
+
+  if (breadcrumb) breadcrumb.innerHTML = `<span>Stars & Trends</span> › <span>Chi tiết</span> › <strong style="color: var(--text-main);">${r.full_name}</strong>`;
+
+  const relatedRepos = (state.starsRepos.length > 0 ? state.starsRepos : state.trendingRepos)
+    .filter(item => item.full_name !== r.full_name && (item.language === r.language || classifyItem(item) === classifyItem(r)))
+    .slice(0, 4);
+
+  fullContent.innerHTML = `
+    <div style="display: flex; flex-direction: column; gap: 20px;">
+      <!-- Hero Top Banner (Vui Coding Tier) -->
+      <div class="fullpage-repo-hero">
+        <div class="fullpage-repo-header">
+          <div class="fullpage-repo-title-wrap">
+            <img src="${avatarUrl}" class="fullpage-repo-icon" onerror="this.src='https://github.githubassets.com/favicons/favicon.png'" alt="${owner}">
+            <div>
+              <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 6px;">
+                <span class="badge-tag" style="color: var(--pill-blue-text); font-weight: 700;">🏷️ GITHUB REPO XỊN</span>
+                <span class="badge-tag" style="color: var(--pill-purple-text); font-weight: 700;">VUI CODING CHỌN</span>
+                <span class="badge-tag" style="color: var(--pill-green-text); font-weight: 700;">🟢 ĐANG HOẠT ĐỘNG</span>
+              </div>
+              <h1 style="font-size: 24px; font-weight: 800; color: var(--text-main); word-break: break-all;">${r.full_name}</h1>
+            </div>
+          </div>
+          <div style="display: flex; gap: 8px;">
+            <button class="btn-zinc ${isBookmarked ? 'active' : ''}" onclick="toggleBookmark('${r.full_name}'); openFullPageRepoDetail('${r.full_name}', false);">
+              <i data-lucide="bookmark" style="width: 14px; height: 14px;"></i>
+              <span>${isBookmarked ? 'Đã Bookmark' : 'Lưu Bookmark'}</span>
+            </button>
+            <button class="btn-zinc" onclick="openShareRepoModal('${r.full_name}')" style="color: var(--pill-cyan-text);">
+              <i data-lucide="share-2" style="width: 14px; height: 14px;"></i>
+              <span>Mang repo đi khoe</span>
+            </button>
+          </div>
+        </div>
+
+        <div style="font-size: 14px; color: var(--text-muted); line-height: 1.55; max-width: 1000px;">${r.description || 'Không có mô tả chi tiết từ tác giả.'}</div>
+      </div>
+
+      <!-- 5-Col Metrics Grid -->
+      <div class="fullpage-metrics-grid">
+        <div class="fullpage-metric-card">
+          <div class="fullpage-metric-num" style="color: var(--accent-star);">⭐ ${formatNumber(r.stars || 0)}</div>
+          <div class="fullpage-metric-label">GitHub Stars</div>
+        </div>
+        <div class="fullpage-metric-card">
+          <div class="fullpage-metric-num">🍴 ${formatNumber(r.forks || 0)}</div>
+          <div class="fullpage-metric-label">Forks</div>
+        </div>
+        <div class="fullpage-metric-card">
+          <div class="fullpage-metric-num" style="color: var(--pill-green-text);">${r.open_issues || r.open_issues_count || 12}</div>
+          <div class="fullpage-metric-label">Open Issues</div>
+        </div>
+        <div class="fullpage-metric-card">
+          <div class="fullpage-metric-num" style="color: var(--pill-cyan-text);">🚀 ${formatNumber(r.stars_since ? parseInt(r.stars_since.replace(/\D/g, '')) || 2 : 2)}</div>
+          <div class="fullpage-metric-label">Tăng Trưởng</div>
+        </div>
+        <div class="fullpage-metric-card">
+          <div class="fullpage-metric-num" style="color: var(--pill-blue-text); font-size: 15px;">${r.language || 'TypeScript'}</div>
+          <div class="fullpage-metric-label">Ngôn Ngữ Chính</div>
+        </div>
+      </div>
+
+      <!-- Quick Summary & Repository Info (2 Columns) -->
+      <div class="fullpage-content-grid">
+        <!-- Left: Quick Analysis -->
+        <div class="fullpage-guide-card">
+          <div style="font-size: 12px; font-weight: 700; color: var(--pill-green-text); text-transform: uppercase; letter-spacing: 0.05em; display: flex; align-items: center; gap: 4px;">
+            <i data-lucide="sparkles" style="width: 14px; height: 14px;"></i>
+            Tóm Tắt Nhanh
+          </div>
+          <h3 style="font-size: 17px; font-weight: 800; color: var(--text-main);">Repo này làm được gì?</h3>
+          <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.6;">
+            ${r.description || 'Dự án nguồn mở cung cấp bộ công cụ tối ưu cho các nhà phát triển, hỗ trợ tự động hóa và nâng cao hiệu suất làm việc.'}
+          </p>
+
+          <div style="font-size: 12px; font-weight: 600; color: var(--text-muted); margin-top: 8px;">Lệnh Clone nhanh:</div>
+          <div class="repo-clone-box">
+            <code>git clone https://github.com/${r.full_name}.git</code>
+            <button class="btn-zinc btn-icon" style="width: 24px; height: 24px;" onclick="navigator.clipboard.writeText('git clone https://github.com/${r.full_name}.git'); showToast('Đã sao chép lệnh clone!');">
+              <i data-lucide="copy" style="width: 13px; height: 13px;"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Right: Repository Meta -->
+        <div class="fullpage-guide-card">
+          <div style="font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 6px;">Thông Tin Repository</div>
+          <div style="display: flex; flex-direction: column; gap: 8px; font-size: 13px;">
+            <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 6px;"><span style="color: var(--text-muted);">Chủ sở hữu</span><strong style="color: var(--text-main);">${owner}</strong></div>
+            <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 6px;"><span style="color: var(--text-muted);">Ngôn ngữ</span><span style="color: var(--pill-blue-text); font-weight: 600;">${r.language || 'Plain Text'}</span></div>
+            <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 6px;"><span style="color: var(--text-muted);">Giấy phép</span><strong style="color: var(--text-main);">${r.license?.name || 'MIT / Apache-2.0'}</strong></div>
+            <div style="display: flex; justify-content: space-between; padding-bottom: 2px;"><span style="color: var(--text-muted);">Cập nhật</span><span style="color: var(--text-muted); font-family: var(--font-mono);">${r.starred_at ? r.starred_at.slice(0, 10) : '2026-08-31'}</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Installation & Usage Guide -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px;">
+        <div class="fullpage-guide-card">
+          <div style="display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 14px; color: var(--text-main);">
+            <i data-lucide="download-cloud" style="width: 15px; height: 15px; color: var(--pill-cyan-text);"></i>
+            Hướng dẫn cài đặt
+          </div>
+          <div style="font-size: 13px; color: var(--text-muted); line-height: 1.5;">
+            Bước 1: Clone repo về máy hoặc mở trực tiếp trên GitHub Codespaces.<br>
+            Bước 2: Cài đặt dependencies với lệnh phù hợp (<code>npm install</code> hoặc <code>pip install -r requirements.txt</code>).
+          </div>
+        </div>
+
+        <div class="fullpage-guide-card">
+          <div style="display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 14px; color: var(--text-main);">
+            <i data-lucide="play" style="width: 15px; height: 15px; color: var(--pill-green-text);"></i>
+            Hướng dẫn sử dụng
+          </div>
+          <div style="font-size: 13px; color: var(--text-muted); line-height: 1.5;">
+            Khởi chạy server dev hoặc import package vào dự án của bạn.<br>
+            Tham khảo chi tiết các tham số cấu hình trong file README.md gốc.
+          </div>
+        </div>
+      </div>
+
+      <!-- Personal Notes Editor Box -->
+      <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 16px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+          <span style="font-size: 13px; font-weight: 700; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
+            <i data-lucide="file-text" style="width: 14px; height: 14px; color: var(--pill-blue-text);"></i>
+            Ghi Chú Cá Nhân
+          </span>
+          <button class="btn-zinc" style="font-size: 11.5px; padding: 3px 8px;" onclick="openNoteModal('${r.full_name}')">Sửa ghi chú</button>
+        </div>
+        <div style="font-size: 13px; color: var(--text-muted); font-style: ${note ? 'normal' : 'italic'};">
+          ${note || 'Chưa có ghi chú nào cho repo này. Bấm "Sửa ghi chú" để ghi lại kinh nghiệm và lệnh thường dùng.'}
+        </div>
+      </div>
+
+      <!-- Related Repositories (Cùng hệ sinh thái) -->
+      ${relatedRepos.length > 0 ? `
+        <div>
+          <div style="font-size: 13px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 10px;">Cùng Hệ Sinh Thái — Repo Liên Quan</div>
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px;">
+            ${relatedRepos.map(rel => `
+              <div class="tool-item-card" style="padding: 12px; cursor: pointer;" onclick="openFullPageRepoDetail('${rel.full_name}')">
+                <div style="display: flex; align-items: center; gap: 8px;">
+                  <img src="https://github.com/${rel.owner || rel.full_name.split('/')[0]}.png?size=32" class="card-avatar" alt="">
+                  <strong style="font-size: 13px; color: var(--text-main); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${rel.name || rel.full_name.split('/')[1]}</strong>
+                </div>
+                <div style="font-size: 12px; color: var(--text-muted); margin-top: 6px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${rel.description || 'Dự án liên quan cùng chủ đề'}</div>
+                <div style="display: flex; justify-content: space-between; font-size: 11.5px; color: var(--pill-amber-text); margin-top: 8px;">
+                  <span>⭐ ${formatNumber(rel.stars)}</span>
+                  <span style="color: var(--text-muted);">${rel.language || 'Code'}</span>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      ` : ''}
+
+      <!-- Bottom Actions -->
+      <div style="display: flex; justify-content: flex-end; gap: 10px; border-top: 1px solid var(--border-subtle); padding-top: 16px;">
+        <a href="https://star-history.com/#${r.full_name}&Date" target="_blank" class="btn-zinc">
+          <i data-lucide="trending-up" style="width: 14px; height: 14px;"></i>
+          <span>Star History</span>
+        </a>
+        <a href="${r.url || ('https://github.com/' + r.full_name)}" target="_blank" class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text);">
+          <i data-lucide="github" style="width: 14px; height: 14px;"></i>
+          <span>Mở trên GitHub ↗</span>
+        </a>
+      </div>
+    </div>
+  `;
+
+  if (updateHash) {
+    window.location.hash = `repo/${r.full_name}`;
+  }
+
+  if (mainGrid) mainGrid.style.display = 'none';
+  fullContainer.style.display = 'block';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  lucide.createIcons();
+}
+
+// ==================== FULL-PAGE JOB DETAIL VIEW ====================
+function openFullPageJobDetail(jobId, updateHash = true) {
+  const fullContainer = document.getElementById('fullpage-detail-container');
+  const fullContent = document.getElementById('fullpage-detail-content');
+  const mainGrid = document.getElementById('main-layout-grid');
+  const breadcrumb = document.getElementById('fullpage-breadcrumb');
+  if (!fullContainer || !fullContent) return;
+
+  const job = (state.jobsData.sample_jobs || []).find(j => j.id === jobId) || {
+    id: jobId,
+    title: 'Senior Cyber Security / SOC Engineer',
+    company: 'Tech Partner Vietnam',
+    location: 'Hà Nội / TP.HCM / Remote',
+    salary: '35 – 65 Triệu VNĐ',
+    track: '🛡️ An Ninh Mạng & SOC',
+    level: 'Senior',
+    source: 'CyberJutsu & Facebook',
+    tags: ['SOC', 'SIEM', 'Splunk', 'Threat Hunting'],
+    description: 'Giám sát, phân tích log an ninh mạng từ SIEM/EDR, xây dựng rules phát hiện tấn công và điều tra phản ứng sự cố.',
+    requirements: ['3+ năm kinh nghiệm SOC.', 'Thành thạo Splunk, Elastic, Sentinel.', 'Có chứng chỉ OSCP/CEH/SANS.'],
+    benefits: ['Lương tháng 13 + thưởng hiệu quả kinh doanh.', 'Bảo hiểm sức khỏe cao cấp.', 'Tài trợ 100% chi phí thi chứng chỉ quốc tế.'],
+    url: 'https://jobs.cyberjutsu.io/'
+  };
+
+  if (breadcrumb) breadcrumb.innerHTML = `<span>Kèo Dev & Việc Làm</span> › <span>Tin tuyển dụng</span> › <strong style="color: var(--text-main);">${job.title}</strong>`;
+
+  fullContent.innerHTML = `
+    <div style="display: flex; flex-direction: column; gap: 20px;">
+      <!-- Job Hero Banner -->
+      <div class="fullpage-repo-hero">
+        <div class="fullpage-repo-header">
+          <div>
+            <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 6px;">
+              <span class="badge-tag" style="color: var(--pill-blue-text); font-weight: 700;">${job.track}</span>
+              <span class="badge-tag" style="color: var(--pill-purple-text); font-weight: 700;">${job.level}</span>
+              <span class="badge-tag" style="color: var(--pill-green-text); font-weight: 700;">${job.source_badge || 'Cộng Đồng'}</span>
+            </div>
+            <h1 style="font-size: 24px; font-weight: 800; color: var(--text-main);">${job.title}</h1>
+            <div style="display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--text-muted); margin-top: 6px;">
+              <strong style="color: var(--text-main);">${job.company}</strong>
+              <span>•</span>
+              <span>📍 ${job.location}</span>
+            </div>
+          </div>
+          <div style="text-align: right;">
+            <div class="job-salary-badge" style="font-size: 15px; padding: 6px 14px;">${job.salary}</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Job Description & Requirements Grid -->
+      <div class="fullpage-content-grid">
+        <div class="fullpage-guide-card">
+          <h3 style="font-size: 16px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
+            <i data-lucide="briefcase" style="width: 16px; height: 16px; color: var(--pill-blue-text);"></i>
+            Mô tả công việc (Job Description)
+          </h3>
+          <p style="font-size: 13.5px; color: var(--text-muted); line-height: 1.6;">${job.description}</p>
+
+          <h3 style="font-size: 16px; font-weight: 800; color: var(--text-main); margin-top: 14px; display: flex; align-items: center; gap: 6px;">
+            <i data-lucide="check-circle" style="width: 16px; height: 16px; color: var(--pill-green-text);"></i>
+            Yêu cầu kỹ năng (Requirements)
+          </h3>
+          <ul style="padding-left: 20px; font-size: 13px; color: var(--text-muted); line-height: 1.6;">
+            ${(job.requirements || []).map(r => `<li>${r}</li>`).join('')}
+          </ul>
+
+          <div style="margin-top: 10px; display: flex; gap: 6px; flex-wrap: wrap;">
+            ${(job.tags || []).map(t => `<span class="badge-tag">#${t}</span>`).join('')}
+          </div>
+        </div>
+
+        <div class="fullpage-guide-card">
+          <h3 style="font-size: 15px; font-weight: 800; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
+            <i data-lucide="gift" style="width: 16px; height: 16px; color: var(--pill-amber-text);"></i>
+            Quyền lợi & Đãi ngộ
+          </h3>
+          <ul style="padding-left: 20px; font-size: 13px; color: var(--text-muted); line-height: 1.6;">
+            ${(job.benefits || []).map(b => `<li>${b}</li>`).join('')}
+          </ul>
+
+          <div style="margin-top: 20px; border-top: 1px solid var(--border-subtle); padding-top: 14px;">
+            <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 8px;">Nguồn tin: <strong>${job.source}</strong></div>
+            <a href="${job.url}" target="_blank" class="btn-zinc" style="width: 100%; justify-content: center; background: var(--primary-btn-bg); color: var(--primary-btn-text); font-weight: 700; padding: 10px;">
+              <span>Ứng Tuyển / Xem Bài Đăng Gốc ↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+
+  if (updateHash) {
+    window.location.hash = `job/${job.id}`;
+  }
+
+  if (mainGrid) mainGrid.style.display = 'none';
+  fullContainer.style.display = 'block';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  lucide.createIcons();
+}
+
+function closeFullPageDetail(clearHash = true) {
+  const fullContainer = document.getElementById('fullpage-detail-container');
+  const mainGrid = document.getElementById('main-layout-grid');
+  if (fullContainer) fullContainer.style.display = 'none';
+  if (mainGrid) mainGrid.style.display = 'grid';
+
+  if (clearHash && window.location.hash) {
+    history.pushState("", document.title, window.location.pathname + window.location.search);
+  }
+}
+
+// ==================== 2. CURATED COLLECTIONS RENDERER ====================
 function renderCollections() {
   const container = document.getElementById('cards-feed-container');
   if (!container) return;
@@ -901,10 +1241,10 @@ function renderCollections() {
           <div style="font-size: 11.5px; font-weight: 600; color: var(--text-muted); margin-bottom: 6px;">Top Repositories Tuyển Chọn:</div>
           <div class="collection-repos-list">
             ${col.repos.map(r => `
-              <a href="javascript:void(0)" onclick="openRepoDetailModal('${r}')" class="collection-repo-chip">
+              <div onclick="openFullPageRepoDetail('${r}')" class="collection-repo-chip">
                 <i data-lucide="github" style="width: 11px; height: 11px;"></i>
                 ${r.split('/')[1] || r}
-              </a>
+              </div>
             `).join('')}
           </div>
         </div>
@@ -939,7 +1279,7 @@ function copyCollectionLinks(colId) {
   });
 }
 
-// ==================== 2. STATS & VELOCITY DASHBOARD RENDERER ====================
+// ==================== 3. STATS & VELOCITY DASHBOARD RENDERER ====================
 function renderStatsDashboard() {
   const totalStars = state.starsRepos.reduce((acc, r) => acc + (r.stars || 0), 0);
   const avgStars = state.starsRepos.length > 0 ? Math.round(totalStars / state.starsRepos.length) : 0;
@@ -985,7 +1325,7 @@ function renderStatsDashboard() {
   lucide.createIcons();
 }
 
-// ==================== 3. DEV TOOLS & LAUNCH SHOWCASE RENDERER ====================
+// ==================== 4. DEV TOOLS & LAUNCH SHOWCASE RENDERER ====================
 function renderDevTools() {
   const container = document.getElementById('cards-feed-container');
   if (!container) return;
@@ -1078,14 +1418,14 @@ function toggleLaunchUpvote(id) {
   renderDevTools();
 }
 
-// ==================== 4. TECH & CYBERSECURITY JOB RADAR ====================
+// ==================== 5. TECH & CYBERSECURITY JOB RADAR RENDERER ====================
 function renderJobs() {
   const container = document.getElementById('cards-feed-container');
   if (!container) return;
 
   const jobsData = state.jobsData || {};
 
-  // SUBVIEW 1: 30+ PLATFORMS DIRECTORY
+  // SUBVIEW 1: 35+ PLATFORMS & FACEBOOK GROUPS DIRECTORY
   if (state.jobsSubfilter === 'platforms') {
     container.className = 'jobs-container';
     let html = '';
@@ -1093,7 +1433,7 @@ function renderJobs() {
       html += `
         <div class="platform-category-card">
           <div class="platform-category-title">
-            <i data-lucide="layers" style="width: 15px; height: 15px; color: var(--pill-blue-text);"></i>
+            <i data-lucide="layers" style="width: 16px; height: 16px; color: var(--pill-blue-text);"></i>
             <span>${cat.category}</span>
           </div>
           <div class="platforms-chips-grid">
@@ -1112,7 +1452,7 @@ function renderJobs() {
     });
     container.innerHTML = html;
     const countLabel = document.getElementById('displayed-count-label');
-    if (countLabel) countLabel.textContent = `30+ Cổng tuyển dụng IT / An ninh mạng`;
+    if (countLabel) countLabel.textContent = `35+ Group & Cổng tuyển dụng IT / An ninh mạng`;
     lucide.createIcons();
     return;
   }
@@ -1125,14 +1465,15 @@ function renderJobs() {
 
     let html = `
       <div class="insights-wrap">
-        <div class="repo-hero-banner">
+        <div class="insights-banner">
           <div>
-            <div style="font-size: 16px; font-weight: 800; color: var(--text-main); margin-bottom: 4px;">📊 ${ins.title || 'Báo Cáo Xu Hướng Tuyển Dụng ATTT & IT 2025'}</div>
-            <div style="font-size: 12.5px; color: var(--text-muted);">Tổng hợp và phân tích từ ${summ.total_posts || 909} tin tuyển dụng thực tế tại Việt Nam & Global.</div>
+            <div class="insights-banner-title">📊 ${ins.title || 'Báo Cáo Xu Hướng Tuyển Dụng Công Nghệ & An Ninh Mạng 2025 - 2026 🇻🇳'}</div>
+            <div class="insights-banner-sub">Tổng hợp và phân tích từ ${summ.total_posts || 909} tin tuyển dụng thực tế tại Việt Nam & Global.</div>
           </div>
+          <span class="badge-tag" style="font-family: var(--font-mono); font-size: 11px;">Official Data</span>
         </div>
 
-        <!-- 1. Regional & Salary Matrices -->
+        <!-- Regional Matrices -->
         <div class="chart-card-box">
           <div class="chart-card-header">
             <div class="chart-card-title">
@@ -1151,7 +1492,7 @@ function renderJobs() {
           </div>
         </div>
 
-        <!-- 2. Experience Level & Salary Distribution -->
+        <!-- Experience Level & Salary Distribution -->
         <div class="charts-grid-2col">
           <div class="chart-card-box">
             <div class="chart-card-header">
@@ -1194,7 +1535,7 @@ function renderJobs() {
           </div>
         </div>
 
-        <!-- 3. Top Skills -->
+        <!-- Top Skills -->
         <div class="chart-card-box">
           <div class="chart-card-header">
             <div class="chart-card-title">
@@ -1223,15 +1564,23 @@ function renderJobs() {
     return;
   }
 
-  // SUBVIEW 3: JOB OPENINGS CARDS
+  // SUBVIEW 3: JOB OPENINGS CARDS (Filtered)
   container.className = 'jobs-grid';
   let jobs = jobsData.sample_jobs || [];
 
-  if (state.jobsSubfilter === 'sec') jobs = jobs.filter(j => j.track.includes('Cybersecurity') || j.tags.some(t => ['SOC', 'SIEM', 'Pentest'].includes(t)));
-  if (state.jobsSubfilter === 'ai') jobs = jobs.filter(j => j.track.includes('AI') || j.tags.some(t => ['Python', 'LangChain', 'RAG'].includes(t)));
+  if (state.jobsSubfilter === 'sec') jobs = jobs.filter(j => j.track.includes('An Ninh') || j.tags.some(t => ['SOC', 'SIEM', 'Pentest'].includes(t)));
+  if (state.jobsSubfilter === 'ai') jobs = jobs.filter(j => j.track.includes('AI') || j.tags.some(t => ['LLM', 'RAG', 'Python'].includes(t)));
   if (state.jobsSubfilter === 'dev') jobs = jobs.filter(j => j.track.includes('Software') || j.tags.some(t => ['React', 'Next.js', 'Golang'].includes(t)));
   if (state.jobsSubfilter === 'game') jobs = jobs.filter(j => j.track.includes('Game'));
-  if (state.jobsSubfilter === 'cloud') jobs = jobs.filter(j => j.track.includes('Cloud') || j.tags.some(t => ['AWS', 'Kubernetes', 'CI-CD'].includes(t)));
+  if (state.jobsSubfilter === 'cloud') jobs = jobs.filter(j => j.track.includes('Cloud') || j.tags.some(t => ['AWS', 'Kubernetes', 'CI/CD'].includes(t)));
+
+  if (state.selectedJobLevel) {
+    jobs = jobs.filter(j => j.level.toLowerCase().includes(state.selectedJobLevel.toLowerCase()));
+  }
+
+  if (state.selectedJobLocation) {
+    jobs = jobs.filter(j => j.location.toLowerCase().includes(state.selectedJobLocation.toLowerCase()));
+  }
 
   if (state.searchQuery) {
     const q = state.searchQuery;
@@ -1243,11 +1592,11 @@ function renderJobs() {
   let html = '';
   jobs.forEach(job => {
     html += `
-      <div class="job-card">
+      <div class="job-card" onclick="openFullPageJobDetail('${job.id}')">
         <div>
           <div class="job-header-row">
             <div>
-              <a href="${job.url}" target="_blank" class="job-title">${job.title}</a>
+              <div class="job-title">${job.title}</div>
               <div class="job-company-row">
                 <i data-lucide="building" style="width: 12px; height: 12px;"></i>
                 <span style="font-weight: 600; color: var(--text-main);">${job.company}</span>
@@ -1258,18 +1607,16 @@ function renderJobs() {
             <span class="job-salary-badge">${job.salary}</span>
           </div>
 
-          <div style="font-size: 12px; color: var(--text-muted); line-height: 1.45; margin: 10px 0;">${job.description}</div>
+          <div style="font-size: 12.5px; color: var(--text-muted); line-height: 1.45; margin: 10px 0;">${job.description}</div>
         </div>
 
         <div class="card-footer-row">
           <div style="display: flex; gap: 4px; flex-wrap: wrap;">
             <span class="badge-tag" style="color: var(--pill-blue-text); font-weight: 700;">${job.level}</span>
-            ${(job.tags || []).slice(0, 4).map(t => `<span class="domain-chip">#${t}</span>`).join('')}
+            <span class="badge-tag" style="color: var(--pill-purple-text);">${job.source_badge || 'Cộng Đồng'}</span>
+            ${(job.tags || []).slice(0, 3).map(t => `<span class="domain-chip">#${t}</span>`).join('')}
           </div>
-          <a href="${job.url}" target="_blank" class="btn-zinc" style="font-size: 11.5px;">
-            <span>Ứng tuyển</span>
-            <i data-lucide="external-link" style="width: 11px; height: 11px;"></i>
-          </a>
+          <span style="font-size: 11.5px; color: var(--pill-blue-text); font-weight: 600;">Xem chi tiết JD ↗</span>
         </div>
       </div>
     `;
@@ -1281,219 +1628,11 @@ function renderJobs() {
   lucide.createIcons();
 }
 
-// ==================== 5. SINGLE REPO DEEP DIVE MODAL (VUI CODING STYLE) ====================
-function openRepoDetailModal(fullName) {
-  const modal = document.getElementById('repo-detail-modal');
-  const body = document.getElementById('repo-detail-modal-body');
-  if (!modal || !body) return;
-
-  let r = state.starsRepos.find(item => item.full_name === fullName) ||
-          state.trendingRepos.find(item => item.full_name === fullName || item.name === fullName) ||
-          state.freshRepos.find(item => item.full_name === fullName);
-
-  if (!r) {
-    const parts = fullName.split('/');
-    r = {
-      full_name: fullName,
-      name: parts[1] || fullName,
-      owner: parts[0] || 'github',
-      description: 'Repository nguồn mở được cộng đồng developer đánh giá cao.',
-      stars: 1200,
-      forks: 180,
-      language: 'TypeScript',
-      topics: ['open-source', 'developer-tools', 'utility'],
-      url: `https://github.com/${fullName}`,
-      starred_at: new Date().toISOString()
-    };
-  }
-
-  const owner = r.owner || (r.full_name ? r.full_name.split('/')[0] : 'github');
-  const avatarUrl = `https://github.com/${owner}.png?size=80`;
-  const isBookmarked = state.notesData.bookmarks.includes(r.full_name);
-  const note = state.notesData.notes[r.full_name]?.text || '';
-  const langColor = window.getLanguageColor ? window.getLanguageColor(r.language) : '#8B949E';
-
-  // Find related repos (same language or domain)
-  const relatedRepos = (state.starsRepos.length > 0 ? state.starsRepos : state.trendingRepos)
-    .filter(item => item.full_name !== r.full_name && (item.language === r.language || classifyItem(item) === classifyItem(r)))
-    .slice(0, 4);
-
-  body.innerHTML = `
-    <div style="display: flex; flex-direction: column; gap: 16px;">
-      <!-- Hero Top Banner (Vui Coding Tier) -->
-      <div class="repo-hero-banner">
-        <div class="repo-hero-header">
-          <div class="repo-hero-title-wrap">
-            <img src="${avatarUrl}" class="repo-hero-icon" onerror="this.src='https://github.githubassets.com/favicons/favicon.png'" alt="${owner}">
-            <div>
-              <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 4px;">
-                <span class="badge-tag" style="color: var(--pill-blue-text); font-weight: 700;">🏷️ GITHUB REPO XỊN</span>
-                <span class="badge-tag" style="color: var(--pill-purple-text); font-weight: 700;">VUI CODING CHỌN</span>
-                <span class="badge-tag" style="color: var(--pill-green-text); font-weight: 700;">🟢 ĐANG HOẠT ĐỘNG</span>
-              </div>
-              <h2 style="font-size: 18px; font-weight: 800; color: var(--text-main); word-break: break-all;">${r.full_name}</h2>
-            </div>
-          </div>
-          <button class="btn-zinc ${isBookmarked ? 'active' : ''}" onclick="toggleBookmark('${r.full_name}'); openRepoDetailModal('${r.full_name}');">
-            <i data-lucide="bookmark" style="width: 14px; height: 14px;"></i>
-            <span>${isBookmarked ? 'Đã Bookmark' : 'Lưu Bookmark'}</span>
-          </button>
-        </div>
-
-        <div style="font-size: 13px; color: var(--text-muted); line-height: 1.5;">${r.description || 'Không có mô tả chi tiết từ tác giả.'}</div>
-      </div>
-
-      <!-- 5-Col Metrics Grid -->
-      <div class="repo-metrics-grid">
-        <div class="repo-metric-card">
-          <div class="repo-metric-num" style="color: var(--accent-star);">⭐ ${formatNumber(r.stars || 0)}</div>
-          <div class="repo-metric-label">GitHub Stars</div>
-        </div>
-        <div class="repo-metric-card">
-          <div class="repo-metric-num">🍴 ${formatNumber(r.forks || 0)}</div>
-          <div class="repo-metric-label">Forks</div>
-        </div>
-        <div class="repo-metric-card">
-          <div class="repo-metric-num" style="color: var(--pill-green-text);">${r.open_issues || r.open_issues_count || 12}</div>
-          <div class="repo-metric-label">Open Issues</div>
-        </div>
-        <div class="repo-metric-card">
-          <div class="repo-metric-num" style="color: var(--pill-cyan-text);">🚀 ${formatNumber(r.stars_since ? parseInt(r.stars_since.replace(/\D/g, '')) || 2 : 2)}</div>
-          <div class="repo-metric-label">Tăng Trưởng</div>
-        </div>
-        <div class="repo-metric-card">
-          <div class="repo-metric-num" style="color: var(--pill-blue-text); font-size: 14px;">${r.language || 'TypeScript'}</div>
-          <div class="repo-metric-label">Ngôn Ngữ Chính</div>
-        </div>
-      </div>
-
-      <!-- Quick Summary & Repository Info (2 Columns) -->
-      <div style="display: grid; grid-template-columns: 1.6fr 1fr; gap: 14px;">
-        <!-- Left: Quick Analysis -->
-        <div class="repo-guide-card">
-          <div style="font-size: 12px; font-weight: 700; color: var(--pill-green-text); text-transform: uppercase; letter-spacing: 0.05em; display: flex; align-items: center; gap: 4px;">
-            <i data-lucide="sparkles" style="width: 13px; height: 13px;"></i>
-            Tóm Tắt Nhanh
-          </div>
-          <h4 style="font-size: 14.5px; font-weight: 800; color: var(--text-main);">Repo này làm được gì?</h4>
-          <p style="font-size: 12.5px; color: var(--text-muted); line-height: 1.45;">
-            ${r.description || 'Dự án nguồn mở cung cấp bộ công cụ tối ưu cho các nhà phát triển, hỗ trợ tự động hóa và nâng cao hiệu suất làm việc.'}
-          </p>
-
-          <div style="font-size: 11px; font-weight: 600; color: var(--text-muted); margin-top: 4px;">Lệnh Clone nhanh:</div>
-          <div class="repo-clone-box">
-            <code>git clone https://github.com/${r.full_name}.git</code>
-            <button class="btn-zinc btn-icon" style="width: 22px; height: 22px;" onclick="navigator.clipboard.writeText('git clone https://github.com/${r.full_name}.git'); showToast('Đã sao chép lệnh clone!');">
-              <i data-lucide="copy" style="width: 12px; height: 12px;"></i>
-            </button>
-          </div>
-        </div>
-
-        <!-- Right: Repository Meta -->
-        <div class="repo-guide-card">
-          <div style="font-size: 11.5px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 4px;">Thông Tin Repository</div>
-          <div style="display: flex; flex-direction: column; gap: 6px; font-size: 12px;">
-            <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-muted);">Chủ sở hữu</span><strong style="color: var(--text-main);">${owner}</strong></div>
-            <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-muted);">Ngôn ngữ</span><span style="color: var(--pill-blue-text); font-weight: 600;">${r.language || 'Plain Text'}</span></div>
-            <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-muted);">Giấy phép</span><strong style="color: var(--text-main);">${r.license?.name || 'MIT / Apache-2.0'}</strong></div>
-            <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-muted);">Cập nhật</span><span style="color: var(--text-muted); font-family: var(--font-mono);">${r.starred_at ? r.starred_at.slice(0, 10) : '29/08/2026'}</span></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Installation & Usage Guide -->
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-        <div class="repo-guide-card">
-          <div style="display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 13px; color: var(--text-main);">
-            <i data-lucide="download-cloud" style="width: 14px; height: 14px; color: var(--pill-cyan-text);"></i>
-            Hướng dẫn cài đặt
-          </div>
-          <div style="font-size: 12px; color: var(--text-muted); line-height: 1.45;">
-            Bước 1: Clone repo về máy hoặc mở trực tiếp trên Codespaces / Gitpod.<br>
-            Bước 2: Cài đặt dependencies với lệnh phù hợp (<code>npm install</code> hoặc <code>pip install -r requirements.txt</code>).
-          </div>
-        </div>
-
-        <div class="repo-guide-card">
-          <div style="display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 13px; color: var(--text-main);">
-            <i data-lucide="play" style="width: 14px; height: 14px; color: var(--pill-green-text);"></i>
-            Hướng dẫn sử dụng
-          </div>
-          <div style="font-size: 12px; color: var(--text-muted); line-height: 1.45;">
-            Thực thi script khởi chạy hoặc import package vào dự án của bạn.<br>
-            Đọc kỹ file README.md trong kho mã nguồn để cấu hình biến môi trường.
-          </div>
-        </div>
-      </div>
-
-      <!-- Personal Notes Editor Box -->
-      <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 12px;">
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
-          <span style="font-size: 12px; font-weight: 700; color: var(--text-main); display: flex; align-items: center; gap: 5px;">
-            <i data-lucide="file-text" style="width: 13px; height: 13px; color: var(--pill-blue-text);"></i>
-            Ghi Chú Cá Nhân
-          </span>
-          <button class="btn-zinc" style="font-size: 11px; padding: 2px 7px;" onclick="openNoteModal('${r.full_name}')">Sửa ghi chú</button>
-        </div>
-        <div style="font-size: 12px; color: var(--text-muted); font-style: ${note ? 'normal' : 'italic'};">
-          ${note || 'Chưa có ghi chú nào cho repo này. Bấm "Sửa ghi chú" để ghi lại kiến thức/kinh nghiệm.'}
-        </div>
-      </div>
-
-      <!-- Related Repositories (Cùng hệ sinh thái) -->
-      ${relatedRepos.length > 0 ? `
-        <div>
-          <div style="font-size: 12px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px;">Cùng Hệ Sinh Thái — Repo Liên Quan</div>
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px;">
-            ${relatedRepos.map(rel => `
-              <div class="tool-item-card" style="padding: 10px; cursor: pointer;" onclick="openRepoDetailModal('${rel.full_name}')">
-                <div style="display: flex; align-items: center; gap: 8px;">
-                  <img src="https://github.com/${rel.owner || rel.full_name.split('/')[0]}.png?size=30" class="card-avatar" alt="">
-                  <strong style="font-size: 12.5px; color: var(--text-main); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${rel.name || rel.full_name.split('/')[1]}</strong>
-                </div>
-                <div style="font-size: 11px; color: var(--text-muted); margin-top: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${rel.description || 'Dự án liên quan cùng chủ đề'}</div>
-                <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--pill-amber-text); margin-top: 6px;">
-                  <span>⭐ ${formatNumber(rel.stars)}</span>
-                  <span style="color: var(--text-muted);">${rel.language || 'Code'}</span>
-                </div>
-              </div>
-            `).join('')}
-          </div>
-        </div>
-      ` : ''}
-
-      <!-- Bottom Actions -->
-      <div style="display: flex; justify-content: flex-end; gap: 8px; border-top: 1px solid var(--border-subtle); padding-top: 12px;">
-        <button class="btn-zinc" onclick="openShareRepoModal('${r.full_name}')" style="color: var(--pill-cyan-text);">
-          <i data-lucide="share-2" style="width: 13px; height: 13px;"></i>
-          <span>Mang repo đi khoe</span>
-        </button>
-        <a href="https://star-history.com/#${r.full_name}&Date" target="_blank" class="btn-zinc">
-          <i data-lucide="trending-up" style="width: 13px; height: 13px;"></i>
-          <span>Star History</span>
-        </a>
-        <a href="${r.url || ('https://github.com/' + r.full_name)}" target="_blank" class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text);">
-          <i data-lucide="github" style="width: 13px; height: 13px;"></i>
-          <span>Mở trên GitHub ↗</span>
-        </a>
-      </div>
-    </div>
-  `;
-
-  modal.classList.add('open');
-  lucide.createIcons();
-}
-
-function closeRepoDetailModal() {
-  const modal = document.getElementById('repo-detail-modal');
-  if (modal) modal.classList.remove('open');
-}
-
 // ==================== SHARE REPO MODAL ====================
 function openShareRepoModal(fullName) {
-  const shareText = `Vừa đào được ${fullName} cực xịn trên Star-Trend Hub!\n\nLink: https://github.com/${fullName}?utm_source=star-trend`;
+  const shareText = `Vừa đào được repo ${fullName} cực xịn trên Star-Trend Hub!\n\nXem ngay: https://vuongdat67.github.io/star-trend/#repo/${fullName}`;
   navigator.clipboard.writeText(shareText).then(() => {
-    showToast('Đã copy nội dung bài chia sẻ kèm link UTM!');
+    showToast('Đã copy bài chia sẻ kèm link UTM!');
   }).catch(() => {
     showToast('Không thể copy bài chia sẻ', 'error');
   });
@@ -1535,34 +1674,8 @@ async function executeRepoInspect() {
   }
   const fullName = `${parts[0]}/${parts[1]}`;
 
-  container.innerHTML = `
-    <div style="text-align: center; padding: 30px; color: var(--text-muted);">
-      <i data-lucide="loader-2" class="spinning" style="width: 24px; height: 24px; margin-bottom: 8px;"></i>
-      <div>Đang truy vấn dữ liệu từ GitHub API cho <strong>${fullName}</strong>...</div>
-    </div>
-  `;
-  lucide.createIcons();
-
-  try {
-    const res = await fetch(`https://api.github.com/repos/${fullName}`);
-    if (!res.ok) {
-      if (res.status === 404) throw new Error('Không tìm thấy repository này trên GitHub');
-      if (res.status === 403) throw new Error('Đã đạt giới hạn rate limit của GitHub Public API. Vui lòng thử lại sau');
-      throw new Error(`Lỗi kết nối GitHub API (${res.status})`);
-    }
-
-    const r = await res.json();
-    openRepoDetailModal(r.full_name);
-    closeInspectorModal();
-  } catch (err) {
-    container.innerHTML = `
-      <div style="padding: 20px; text-align: center; color: var(--pill-red-text); background: var(--pill-red-bg); border: 1px solid var(--pill-red-border); border-radius: var(--radius-sm); font-size: 13px;">
-        <i data-lucide="alert-circle" style="width: 20px; height: 20px; margin-bottom: 6px;"></i>
-        <div>${err.message}</div>
-      </div>
-    `;
-    lucide.createIcons();
-  }
+  closeInspectorModal();
+  openFullPageRepoDetail(fullName);
 }
 
 // ==================== WEEKLY DIGEST ====================
@@ -1576,7 +1689,7 @@ function openDigestModal() {
 
   let html = `
     <div class="digest-container">
-      <div class="repo-hero-banner" style="margin-bottom: 14px;">
+      <div class="insights-banner" style="margin-bottom: 14px;">
         <div>
           <div style="font-size: 16px; font-weight: 800; color: var(--text-main); margin-bottom: 4px;">📰 ${d.week_label || 'Bản Tin Xu Hướng Tuần'}</div>
           <div style="font-size: 12.5px; color: var(--text-muted);">${d.trending_summary || ''}</div>
