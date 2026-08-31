@@ -6,9 +6,9 @@
       "owner": "Qwen",
       "name": "Qwen3.8-Flash-Next",
       "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
-      "description": "Pipeline: image-text-to-text | Downloads: 121,976 | Likes: 4,397",
+      "description": "Pipeline: image-text-to-text | Downloads: 121,976 | Likes: 4,398",
       "pipeline_tag": "image-text-to-text",
-      "likes": 4397,
+      "likes": 4398,
       "downloads": 121976,
       "tags": [
         "transformers",
@@ -26,9 +26,9 @@
       "owner": "zai-org",
       "name": "GLM-5.3-Flash",
       "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
-      "description": "Pipeline: text-generation | Downloads: 346,516 | Likes: 1,727",
+      "description": "Pipeline: text-generation | Downloads: 346,516 | Likes: 1,728",
       "pipeline_tag": "text-generation",
-      "likes": 1727,
+      "likes": 1728,
       "downloads": 346516,
       "tags": [
         "transformers",
@@ -46,9 +46,9 @@
       "owner": "zai-org",
       "name": "GLM-5.3",
       "url": "https://huggingface.co/zai-org/GLM-5.3",
-      "description": "Pipeline: text-generation | Downloads: 50,116 | Likes: 1,354",
+      "description": "Pipeline: text-generation | Downloads: 50,116 | Likes: 1,355",
       "pipeline_tag": "text-generation",
-      "likes": 1354,
+      "likes": 1355,
       "downloads": 50116,
       "tags": [
         "transformers",
@@ -66,9 +66,9 @@
       "owner": "Qwen",
       "name": "Qwen3.8-27B",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-      "description": "Pipeline: image-text-to-text | Downloads: 4,511,348 | Likes: 13,358",
+      "description": "Pipeline: image-text-to-text | Downloads: 4,511,348 | Likes: 13,360",
       "pipeline_tag": "image-text-to-text",
-      "likes": 13358,
+      "likes": 13360,
       "downloads": 4511348,
       "tags": [
         "transformers",
@@ -106,9 +106,9 @@
       "owner": "unsloth",
       "name": "Qwen3.8-27B-GGUF",
       "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-      "description": "Pipeline: Model | Downloads: 8,839,153 | Likes: 3,248",
+      "description": "Pipeline: Model | Downloads: 8,839,153 | Likes: 3,249",
       "pipeline_tag": "Model",
-      "likes": 3248,
+      "likes": 3249,
       "downloads": 8839153,
       "tags": [
         "gguf",
@@ -126,9 +126,9 @@
       "owner": "Lightricks",
       "name": "LTX-2.5",
       "url": "https://huggingface.co/Lightricks/LTX-2.5",
-      "description": "Pipeline: image-to-video | Downloads: 1,137,181 | Likes: 2,271",
+      "description": "Pipeline: image-to-video | Downloads: 1,137,181 | Likes: 2,272",
       "pipeline_tag": "image-to-video",
-      "likes": 2271,
+      "likes": 2272,
       "downloads": 1137181,
       "tags": [
         "diffusion-single-file",
@@ -222,20 +222,20 @@
     },
     {
       "rank": 12,
-      "full_name": "MiniMaxAI/MiniMax-H3",
-      "owner": "MiniMaxAI",
-      "name": "MiniMax-H3",
-      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
-      "description": "Pipeline: image-text-to-video | Downloads: 5,263,381 | Likes: 4,662",
-      "pipeline_tag": "image-text-to-video",
-      "likes": 4662,
-      "downloads": 5263381,
+      "full_name": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+      "owner": "HauhauCS",
+      "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+      "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+      "description": "Pipeline: image-text-to-text | Downloads: 1,158,065 | Likes: 790",
+      "pipeline_tag": "image-text-to-text",
+      "likes": 790,
+      "downloads": 1158065,
       "tags": [
-        "minimax-h3",
-        "diffusers",
-        "safetensors",
-        "text-to-video",
-        "image-to-video"
+        "gguf",
+        "uncensored",
+        "qwen3.8",
+        "multimodal",
+        "vision"
       ],
       "source": "huggingface",
       "type": "models"
@@ -262,20 +262,20 @@
     },
     {
       "rank": 14,
-      "full_name": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-      "owner": "HauhauCS",
-      "name": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-      "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-      "description": "Pipeline: image-text-to-text | Downloads: 1,158,065 | Likes: 788",
-      "pipeline_tag": "image-text-to-text",
-      "likes": 788,
-      "downloads": 1158065,
+      "full_name": "MiniMaxAI/MiniMax-H3",
+      "owner": "MiniMaxAI",
+      "name": "MiniMax-H3",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "description": "Pipeline: image-text-to-video | Downloads: 5,263,381 | Likes: 4,662",
+      "pipeline_tag": "image-text-to-video",
+      "likes": 4662,
+      "downloads": 5263381,
       "tags": [
-        "gguf",
-        "uncensored",
-        "qwen3.8",
-        "multimodal",
-        "vision"
+        "minimax-h3",
+        "diffusers",
+        "safetensors",
+        "text-to-video",
+        "image-to-video"
       ],
       "source": "huggingface",
       "type": "models"
@@ -286,9 +286,9 @@
       "owner": "FastVideo",
       "name": "FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree",
       "url": "https://huggingface.co/FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree",
-      "description": "Pipeline: text-to-video | Downloads: 0 | Likes: 195",
+      "description": "Pipeline: text-to-video | Downloads: 0 | Likes: 196",
       "pipeline_tag": "text-to-video",
-      "likes": 195,
+      "likes": 196,
       "downloads": 0,
       "tags": [
         "fastvideo",
@@ -406,9 +406,9 @@
       "owner": "alibaba-pai",
       "name": "MiniMax-H3-Acc-LoRAs",
       "url": "https://huggingface.co/alibaba-pai/MiniMax-H3-Acc-LoRAs",
-      "description": "Pipeline: text-to-video | Downloads: 23,734 | Likes: 152",
+      "description": "Pipeline: text-to-video | Downloads: 23,734 | Likes: 153",
       "pipeline_tag": "text-to-video",
-      "likes": 152,
+      "likes": 153,
       "downloads": 23734,
       "tags": [
         "videox_fun",
@@ -442,6 +442,26 @@
     },
     {
       "rank": 23,
+      "full_name": "orcarouter/Qwen3.8-27B-Uncensored-GGUF",
+      "owner": "orcarouter",
+      "name": "Qwen3.8-27B-Uncensored-GGUF",
+      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF",
+      "description": "Pipeline: image-text-to-text | Downloads: 238,397 | Likes: 584",
+      "pipeline_tag": "image-text-to-text",
+      "likes": 584,
+      "downloads": 238397,
+      "tags": [
+        "gguf",
+        "abliterated",
+        "qwen",
+        "qwen3",
+        "qwen3.8"
+      ],
+      "source": "huggingface",
+      "type": "models"
+    },
+    {
+      "rank": 24,
       "full_name": "peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF",
       "owner": "peculiar-ragdoll",
       "name": "Tiel-Coder-35B-A3B-GGUF",
@@ -456,26 +476,6 @@
         "qwen35moe",
         "moe",
         "imatrix"
-      ],
-      "source": "huggingface",
-      "type": "models"
-    },
-    {
-      "rank": 24,
-      "full_name": "orcarouter/Qwen3.8-27B-Uncensored-GGUF",
-      "owner": "orcarouter",
-      "name": "Qwen3.8-27B-Uncensored-GGUF",
-      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF",
-      "description": "Pipeline: image-text-to-text | Downloads: 238,397 | Likes: 583",
-      "pipeline_tag": "image-text-to-text",
-      "likes": 583,
-      "downloads": 238397,
-      "tags": [
-        "gguf",
-        "abliterated",
-        "qwen",
-        "qwen3",
-        "qwen3.8"
       ],
       "source": "huggingface",
       "type": "models"
@@ -646,9 +646,9 @@
       "owner": "SageBio",
       "name": "mva-hackathon-2026-data",
       "url": "https://huggingface.co/SageBio/mva-hackathon-2026-data",
-      "description": "Pipeline: Model | Downloads: 944 | Likes: 85",
+      "description": "Pipeline: Model | Downloads: 944 | Likes: 86",
       "pipeline_tag": "Model",
-      "likes": 85,
+      "likes": 86,
       "downloads": 944,
       "tags": [
         "license:cc-by-4.0",
@@ -742,26 +742,6 @@
     },
     {
       "rank": 13,
-      "full_name": "malcolmrey/various",
-      "owner": "malcolmrey",
-      "name": "various",
-      "url": "https://huggingface.co/malcolmrey/various",
-      "description": "Pipeline: Model | Downloads: 40,304 | Likes: 132",
-      "pipeline_tag": "Model",
-      "likes": 132,
-      "downloads": 40304,
-      "tags": [
-        "license:wtfpl",
-        "size_categories:n<1K",
-        "format:imagefolder",
-        "modality:image",
-        "modality:video"
-      ],
-      "source": "huggingface",
-      "type": "datasets"
-    },
-    {
-      "rank": 14,
       "full_name": "TeichAI/Ox-Alpha-10k",
       "owner": "TeichAI",
       "name": "Ox-Alpha-10k",
@@ -781,7 +761,7 @@
       "type": "datasets"
     },
     {
-      "rank": 15,
+      "rank": 14,
       "full_name": "HuggingFaceFW/fineweb",
       "owner": "HuggingFaceFW",
       "name": "fineweb",
@@ -796,6 +776,26 @@
         "license:odc-by",
         "size_categories:10B<n<100B",
         "modality:tabular"
+      ],
+      "source": "huggingface",
+      "type": "datasets"
+    },
+    {
+      "rank": 15,
+      "full_name": "malcolmrey/various",
+      "owner": "malcolmrey",
+      "name": "various",
+      "url": "https://huggingface.co/malcolmrey/various",
+      "description": "Pipeline: Model | Downloads: 40,304 | Likes: 132",
+      "pipeline_tag": "Model",
+      "likes": 132,
+      "downloads": 40304,
+      "tags": [
+        "license:wtfpl",
+        "size_categories:n<1K",
+        "format:imagefolder",
+        "modality:image",
+        "modality:video"
       ],
       "source": "huggingface",
       "type": "datasets"
