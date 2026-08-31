@@ -1,14 +1,36 @@
 {
   "repos": [
     {
+      "name": "cline",
+      "full_name": "cline/cline",
+      "owner": "cline",
+      "html_url": "https://github.com/cline/cline",
+      "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+      "language": "TypeScript",
+      "stars": 67189,
+      "forks": 7253,
+      "open_issues": 1153,
+      "topics": [],
+      "starred_at": "2026-08-31T01:10:55Z",
+      "starred_date": "2026-08-31",
+      "starred_year": "2026",
+      "archived": false,
+      "license": "Apache-2.0",
+      "homepage": "https://cline.bot",
+      "categories": [
+        "🤖 AI, LLMs & Agents",
+        "🛠️ Developer Tools & CLI"
+      ]
+    },
+    {
       "name": "archify",
       "full_name": "tt-a1i/archify",
       "owner": "tt-a1i",
       "html_url": "https://github.com/tt-a1i/archify",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
-      "stars": 34602,
-      "forks": 2200,
+      "stars": 34648,
+      "forks": 2203,
       "open_issues": 72,
       "topics": [
         "agent-skills",
@@ -103,7 +125,7 @@
       "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "language": "Python",
-      "stars": 39248,
+      "stars": 39275,
       "forks": 3659,
       "open_issues": 22,
       "topics": [
@@ -145,8 +167,8 @@
       "html_url": "https://github.com/THU-MAIC/OpenMAIC",
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
-      "stars": 24022,
-      "forks": 4485,
+      "stars": 24061,
+      "forks": 4486,
       "open_issues": 218,
       "topics": [],
       "starred_at": "2026-08-30T13:44:07Z",
@@ -242,9 +264,9 @@
       "html_url": "https://github.com/langgenius/dify",
       "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
       "language": "TypeScript",
-      "stars": 153918,
+      "stars": 153920,
       "forks": 24315,
-      "open_issues": 1002,
+      "open_issues": 1000,
       "topics": [
         "agent",
         "agentic-ai",
@@ -441,8 +463,8 @@
       "html_url": "https://github.com/img2threejs/img2threejs",
       "description": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
       "language": "Python",
-      "stars": 14580,
-      "forks": 1175,
+      "stars": 14582,
+      "forks": 1176,
       "open_issues": 73,
       "topics": [
         "3d",
@@ -703,7 +725,7 @@
       "html_url": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "stars": 12121,
+      "stars": 12124,
       "forks": 1905,
       "open_issues": 22,
       "topics": [
@@ -870,7 +892,7 @@
       "html_url": "https://github.com/darkzOGx/youtube-automation-agent",
       "description": "🎬 Fully automated YouTube channel management with AI agents. Creates, optimizes & publishes videos 24/7. Works with FREE Gemini API or OpenAI. No coding required!",
       "language": "JavaScript",
-      "stars": 2899,
+      "stars": 2900,
       "forks": 813,
       "open_issues": 8,
       "topics": [
@@ -983,7 +1005,7 @@
       "html_url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars": 43185,
+      "stars": 43186,
       "forks": 4158,
       "open_issues": 241,
       "topics": [
@@ -1038,8 +1060,8 @@
       "html_url": "https://github.com/h4ckf0r0day/obscura",
       "description": "The headless browser for AI agents and web scraping",
       "language": "Rust",
-      "stars": 22476,
-      "forks": 1675,
+      "stars": 22478,
+      "forks": 1676,
       "open_issues": 100,
       "topics": [
         "antidetect",
@@ -1244,8 +1266,8 @@
       "html_url": "https://github.com/deepseek-ai/deepseek-harness",
       "description": "DeepSeek Harness: Everything is a Plugin.",
       "language": "TypeScript",
-      "stars": 204729,
-      "forks": 23697,
+      "stars": 204752,
+      "forks": 23700,
       "open_issues": 0,
       "topics": [
         "ai-agents",
@@ -1300,9 +1322,9 @@
       "html_url": "https://github.com/infiniflow/ragflow",
       "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
       "language": "Go",
-      "stars": 89668,
-      "forks": 10572,
-      "open_issues": 1746,
+      "stars": 89671,
+      "forks": 10573,
+      "open_issues": 1747,
       "topics": [
         "agent-harness",
         "agentic-ai",
@@ -1483,7 +1505,7 @@
       "html_url": "https://github.com/jlcodes99/cockpit-tools",
       "description": "🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
       "language": "Rust",
-      "stars": 16779,
+      "stars": 16780,
       "forks": 1466,
       "open_issues": 528,
       "topics": [
@@ -1675,7 +1697,7 @@
       "html_url": "https://github.com/guillaumemeyer/watermarks-remover",
       "description": "A privacy-first app that strips AI watermarks from content you own.",
       "language": "Python",
-      "stars": 19477,
+      "stars": 19481,
       "forks": 2266,
       "open_issues": 13,
       "topics": [
@@ -1734,8 +1756,8 @@
       "html_url": "https://github.com/cathrynlavery/diagram-design",
       "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "stars": 28801,
-      "forks": 1834,
+      "stars": 28807,
+      "forks": 1835,
       "open_issues": 30,
       "topics": [
         "agent-skills",
@@ -1756,39 +1778,6 @@
       "categories": [
         "🤖 AI, LLMs & Agents",
         "🌐 Web & Fullstack"
-      ]
-    },
-    {
-      "name": "CI-CD-Beginner",
-      "full_name": "taovietducofficial/CI-CD-Beginner",
-      "owner": "taovietducofficial",
-      "html_url": "https://github.com/taovietducofficial/CI-CD-Beginner",
-      "description": "Production CI/CD pipeline template with quality gates, container security, SLSA provenance, cosign signing, and automated release management.",
-      "language": "Shell",
-      "stars": 134,
-      "forks": 21,
-      "open_issues": 8,
-      "topics": [
-        "ci-cd",
-        "devops",
-        "docker",
-        "github-actions",
-        "kubernetes",
-        "release-management",
-        "security",
-        "shell",
-        "typescript"
-      ],
-      "starred_at": "2026-08-12T02:19:22Z",
-      "starred_date": "2026-08-12",
-      "starred_year": "2026",
-      "archived": false,
-      "license": "Apache-2.0",
-      "homepage": "https://www.facebook.com/CODE4LIFEOFFICIAL",
-      "categories": [
-        "🤖 AI, LLMs & Agents",
-        "🛠️ Developer Tools & CLI",
-        "🛡️ Security & Reverse Eng"
       ]
     }
   ]

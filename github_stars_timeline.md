@@ -1,11 +1,14 @@
 # 📅 GitHub Starred Timeline - @vuongdat67
 
 > Lịch sử các repository đã star theo dòng thời gian.
-> 🕒 Cập nhật: `2026-08-31 00:59:21`
+> 🕒 Cập nhật: `2026-08-31 01:14:03`
 
 ---
 
-## 🗓️ Tháng 2026-08 `(109 repos)`
+## 🗓️ Tháng 2026-08 `(110 repos)`
+
+- `2026-08-31`: [**cline/cline**](https://github.com/cline/cline) (`TypeScript`) - ⭐ **67.2k**
+  - Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
 
 - `2026-08-30`: [**tt-a1i/archify**](https://github.com/tt-a1i/archify) (`JavaScript`) - ⭐ **34.6k**
   - Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
@@ -16,10 +19,10 @@
 - `2026-08-30`: [**hieuphung97/dely**](https://github.com/hieuphung97/dely) (`Shell`) - ⭐ **24**
   - A cross-harness delivery workflow for coding agents.
 
-- `2026-08-30`: [**K-Dense-AI/scientific-agent-skills**](https://github.com/K-Dense-AI/scientific-agent-skills) (`Python`) - ⭐ **39.2k**
+- `2026-08-30`: [**K-Dense-AI/scientific-agent-skills**](https://github.com/K-Dense-AI/scientific-agent-skills) (`Python`) - ⭐ **39.3k**
   - Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
 
-- `2026-08-30`: [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) (`TypeScript`) - ⭐ **24.0k**
+- `2026-08-30`: [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) (`TypeScript`) - ⭐ **24.1k**
   - Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
 
 - `2026-08-30`: [**AprilNEA/claude-code-source**](https://github.com/AprilNEA/claude-code-source) (`TypeScript`) - ⭐ **392**
@@ -132,7 +135,7 @@
 - `2026-08-16`: [**showlab/Code2Video**](https://github.com/showlab/Code2Video) (`Python`) - ⭐ **2.0k**
   - [ICML 2026] Video generation via code
 
-- `2026-08-14`: [**deepseek-ai/deepseek-harness**](https://github.com/deepseek-ai/deepseek-harness) (`TypeScript`) - ⭐ **204.7k**
+- `2026-08-14`: [**deepseek-ai/deepseek-harness**](https://github.com/deepseek-ai/deepseek-harness) (`TypeScript`) - ⭐ **204.8k**
   - DeepSeek Harness: Everything is a Plugin.
 
 - `2026-08-14`: [**lightningpixel/modly**](https://github.com/lightningpixel/modly) (`TypeScript`) - ⭐ **7.3k**
@@ -212,7 +215,7 @@
 - `2026-08-10`: [**MoonshotAI/kimi-cli**](https://github.com/MoonshotAI/kimi-cli) (`Python`) - ⭐ **11.3k**
   - Kimi Code CLI is your next CLI agent.
 
-- `2026-08-10`: [**router-for-me/CLIProxyAPI**](https://github.com/router-for-me/CLIProxyAPI) (`Go`) - ⭐ **49.4k**
+- `2026-08-10`: [**router-for-me/CLIProxyAPI**](https://github.com/router-for-me/CLIProxyAPI) (`Go`) - ⭐ **49.5k**
   - Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.6 Series, Grok 4.5, Claude model through API
 
 - `2026-08-10`: [**Rylaispirit/rylai-codex-hermes-skills**](https://github.com/Rylaispirit/rylai-codex-hermes-skills) (`Python`) - ⭐ **53**
@@ -221,7 +224,7 @@
 - `2026-08-10`: [**NaiboWang/EasySpider**](https://github.com/NaiboWang/EasySpider) (`JavaScript`) - ⭐ **44.5k**
   - A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/网页爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智能化服务封装系统。
 
-- `2026-08-09`: [**lacvietanh/aki-mcp-sv**](https://github.com/lacvietanh/aki-mcp-sv) (`JavaScript`) - ⭐ **124**
+- `2026-08-09`: [**lacvietanh/aki-mcp-sv**](https://github.com/lacvietanh/aki-mcp-sv) (`JavaScript`) - ⭐ **125**
   - Custom MCP [Connector] for AI chat web [Claude|ChatGPT|Grok...] use Files/Shell on your computer directly
 
 - `2026-08-09`: [**TerzicScript/shorts-flow**](https://github.com/TerzicScript/shorts-flow) (`Python`) - ⭐ **2**
@@ -435,7 +438,7 @@
 - `2026-07-20`: [**guptaharshnavin/Parkinson-Disease-Detection**](https://github.com/guptaharshnavin/Parkinson-Disease-Detection) (`Jupyter Notebook`) - ⭐ **39**
   - Parkinson Disease Detection using Machine Learning
 
-- `2026-07-18`: [**rtk-ai/rtk**](https://github.com/rtk-ai/rtk) (`Rust`) - ⭐ **77.9k**
+- `2026-07-18`: [**rtk-ai/rtk**](https://github.com/rtk-ai/rtk) (`Rust`) - ⭐ **78.0k**
   - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
 
 - `2026-07-18`: [**entbappy/ML-Based-Book-Recommender-System**](https://github.com/entbappy/ML-Based-Book-Recommender-System) (`Jupyter Notebook`) - ⭐ **22**
@@ -449,7 +452,7 @@
 - `2026-07-18`: [**Nneji123/Credit-Card-Fraud-Detection**](https://github.com/Nneji123/Credit-Card-Fraud-Detection) (`Jupyter Notebook`) - ⭐ **60**
   - Credit Card Fraud Detection App built with Streamlit, FastAPI and Docker.
 
-- `2026-07-18`: [**bojieli/ai-agent-book**](https://github.com/bojieli/ai-agent-book) (`Python`) - ⭐ **43.6k**
+- `2026-07-18`: [**bojieli/ai-agent-book**](https://github.com/bojieli/ai-agent-book) (`Python`) - ⭐ **43.7k**
   - 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码
 
 - `2026-07-18`: [**xai-org/grok-build**](https://github.com/xai-org/grok-build) (`Rust`) - ⭐ **26.3k**
@@ -1509,7 +1512,7 @@
 - `2026-04-03`: [**emdash-cms/emdash**](https://github.com/emdash-cms/emdash) (`TypeScript`) - ⭐ **12.1k**
   - EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress
 
-- `2026-04-03`: [**anthropics/skills**](https://github.com/anthropics/skills) (`Python`) - ⭐ **172.6k**
+- `2026-04-03`: [**anthropics/skills**](https://github.com/anthropics/skills) (`Python`) - ⭐ **172.7k**
   - Public repository for Agent Skills
 
 - `2026-04-03`: [**Messi-Q/GNNSCVulDetector**](https://github.com/Messi-Q/GNNSCVulDetector) (`Solidity`) - ⭐ **153**

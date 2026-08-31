@@ -680,8 +680,8 @@
       "url": "https://huggingface.co/papers/2608.27345",
       "source": "Hugging Face Daily Papers",
       "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 129",
-      "upvotes": 129,
+      "badge": "⭐ 130",
+      "upvotes": 130,
       "authors": "Yuandong Pu, Le Zhuo, Sayak Paul",
       "published_at": "2026-08-26",
       "tags": [
@@ -696,8 +696,8 @@
       "url": "https://huggingface.co/papers/2608.27456",
       "source": "Hugging Face Daily Papers",
       "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 100",
-      "upvotes": 100,
+      "badge": "⭐ 101",
+      "upvotes": 101,
       "authors": "Tianjie Ju, Zheng Wu, Yueqing Sun",
       "published_at": "2026-08-26",
       "tags": [
@@ -1002,12 +1002,12 @@
     },
     {
       "title": "“I just chose words carefully”",
-      "summary": "Hacker News (203 pts, 48 comments) by @zdw",
+      "summary": "Hacker News (228 pts, 58 comments) by @zdw",
       "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "203 pts",
-      "upvotes": 203,
+      "badge": "228 pts",
+      "upvotes": 228,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1017,12 +1017,12 @@
     },
     {
       "title": "Creepy Crawlies",
-      "summary": "Hacker News (902 pts, 418 comments) by @zdw",
+      "summary": "Hacker News (912 pts, 420 comments) by @zdw",
       "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "902 pts",
-      "upvotes": 902,
+      "badge": "912 pts",
+      "upvotes": 912,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1032,12 +1032,12 @@
     },
     {
       "title": "Haiku R1/beta6 has been released",
-      "summary": "Hacker News (245 pts, 75 comments) by @metrofun",
+      "summary": "Hacker News (248 pts, 75 comments) by @metrofun",
       "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "245 pts",
-      "upvotes": 245,
+      "badge": "248 pts",
+      "upvotes": 248,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1047,12 +1047,12 @@
     },
     {
       "title": "Cores in space: The core memory module from a 1980 Spacelab computer",
-      "summary": "Hacker News (68 pts, 11 comments) by @pwg",
+      "summary": "Hacker News (71 pts, 12 comments) by @pwg",
       "url": "https://www.righto.com/2026/08/spacelab-core-memory.html",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "68 pts",
-      "upvotes": 68,
+      "badge": "71 pts",
+      "upvotes": 71,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1062,12 +1062,12 @@
     },
     {
       "title": "Show HN: NFC Energy-Harvesting PCB Business Card with an MCU",
-      "summary": "Hacker News (89 pts, 9 comments) by @WilsonHarper",
+      "summary": "Hacker News (90 pts, 9 comments) by @WilsonHarper",
       "url": "https://wilsonharper.net/projects/businesscard/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "89 pts",
-      "upvotes": 89,
+      "badge": "90 pts",
+      "upvotes": 90,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1077,12 +1077,12 @@
     },
     {
       "title": "Sort branches by last commit date",
-      "summary": "Hacker News (82 pts, 24 comments) by @speckx",
+      "summary": "Hacker News (85 pts, 27 comments) by @speckx",
       "url": "https://ryangreenberg.com/til/git-branches-by-commit-date/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "82 pts",
-      "upvotes": 82,
+      "badge": "85 pts",
+      "upvotes": 85,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1092,27 +1092,12 @@
     },
     {
       "title": "Continuous Diffusion Language Models (CDLM's)",
-      "summary": "Hacker News (48 pts, 13 comments) by @peter_d_sherman",
+      "summary": "Hacker News (52 pts, 15 comments) by @peter_d_sherman",
       "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "48 pts",
-      "upvotes": 48,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver",
-      "summary": "Hacker News (63 pts, 33 comments) by @SillyUsername",
-      "url": "https://github.com/KodeMunkie/sm750hdmifb",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "63 pts",
-      "upvotes": 63,
+      "badge": "52 pts",
+      "upvotes": 52,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1122,12 +1107,12 @@
     },
     {
       "title": "Relm4 makes developing beautiful cross-platform applications idiomatic",
-      "summary": "Hacker News (9 pts, 0 comments) by @Bluestein",
+      "summary": "Hacker News (11 pts, 4 comments) by @Bluestein",
       "url": "https://relm4.org/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "9 pts",
-      "upvotes": 9,
+      "badge": "11 pts",
+      "upvotes": 11,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1136,28 +1121,13 @@
       ]
     },
     {
-      "title": "Coordination Headwind: How Organizations Are Like Slime Molds",
-      "summary": "Hacker News (123 pts, 42 comments) by @rzk",
-      "url": "https://komoroske.com/slime-mold/",
+      "title": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver",
+      "summary": "Hacker News (65 pts, 33 comments) by @SillyUsername",
+      "url": "https://github.com/KodeMunkie/sm750hdmifb",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "123 pts",
-      "upvotes": 123,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Hacking IKEA Furniture",
-      "summary": "Hacker News (262 pts, 174 comments) by @greenlightning",
-      "url": "https://greenlightning.eu/diy/hacking-ikea-furniture/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "262 pts",
-      "upvotes": 262,
+      "badge": "65 pts",
+      "upvotes": 65,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1167,12 +1137,42 @@
     },
     {
       "title": "Commercially Available Bike Generators Are Not Sustainable (2011)",
-      "summary": "Hacker News (19 pts, 11 comments) by @baud147258",
+      "summary": "Hacker News (21 pts, 13 comments) by @baud147258",
       "url": "https://solar.lowtechmagazine.com/2011/05/bike-powered-electricity-generators-are-not-sustainable/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "19 pts",
-      "upvotes": 19,
+      "badge": "21 pts",
+      "upvotes": 21,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Coordination Headwind: How Organizations Are Like Slime Molds",
+      "summary": "Hacker News (126 pts, 43 comments) by @rzk",
+      "url": "https://komoroske.com/slime-mold/",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "126 pts",
+      "upvotes": 126,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Hacking IKEA Furniture",
+      "summary": "Hacker News (264 pts, 177 comments) by @greenlightning",
+      "url": "https://greenlightning.eu/diy/hacking-ikea-furniture/",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "264 pts",
+      "upvotes": 264,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1182,8 +1182,23 @@
     },
     {
       "title": "How would you know whether an ancient culture had zero?",
-      "summary": "Hacker News (13 pts, 1 comments) by @ibobev",
+      "summary": "Hacker News (16 pts, 2 comments) by @ibobev",
       "url": "https://www.johndcook.com/blog/2026/08/21/ancient-number-system/",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "16 pts",
+      "upvotes": 16,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Yen weakens past ¥160 per dollar, eroding intervention gains",
+      "summary": "Hacker News (13 pts, 2 comments) by @rguiscard",
+      "url": "https://www.japantimes.co.jp/business/2026/08/29/markets/yen-160-dollar-intervention/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
       "badge": "13 pts",
@@ -1197,27 +1212,12 @@
     },
     {
       "title": "Zig: Pointer Stability for ArrayLists",
-      "summary": "Hacker News (83 pts, 53 comments) by @tosh",
+      "summary": "Hacker News (83 pts, 55 comments) by @tosh",
       "url": "https://ziglang.org/devlog/2026/#2026-08-27",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
       "badge": "83 pts",
       "upvotes": 83,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Startup Anti-Patterns",
-      "summary": "Hacker News (72 pts, 32 comments) by @rzk",
-      "url": "https://www.itamarnovick.com/intro-to-startup-anti-pattern-series/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "72 pts",
-      "upvotes": 72,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
