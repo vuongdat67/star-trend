@@ -1,7 +1,7 @@
 # 📅 GitHub Starred Timeline - @vuongdat67
 
 > Lịch sử các repository đã star theo dòng thời gian.
-> 🕒 Cập nhật: `2026-08-31 03:14:20`
+> 🕒 Cập nhật: `2026-08-31 03:34:45`
 
 ---
 
@@ -10,13 +10,13 @@
 - `2026-08-31`: [**cline/cline**](https://github.com/cline/cline) (`TypeScript`) - ⭐ **67.2k**
   - Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
 
-- `2026-08-30`: [**tt-a1i/archify**](https://github.com/tt-a1i/archify) (`JavaScript`) - ⭐ **35.2k**
+- `2026-08-30`: [**tt-a1i/archify**](https://github.com/tt-a1i/archify) (`JavaScript`) - ⭐ **35.3k**
   - Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
 
 - `2026-08-30`: [**open-free-llm-api/awesome-freellm-apis**](https://github.com/open-free-llm-api/awesome-freellm-apis) (`Others`) - ⭐ **2.6k**
   - 134+ free LLM APIs & AI API keys from 40+ providers. Google Gemini, NVIDIA NIM, Groq, OpenRouter & more. One-click setup for Claude Code, Cursor and Codex.
 
-- `2026-08-30`: [**hieuphung97/dely**](https://github.com/hieuphung97/dely) (`Shell`) - ⭐ **26**
+- `2026-08-30`: [**hieuphung97/dely**](https://github.com/hieuphung97/dely) (`Shell`) - ⭐ **27**
   - A cross-harness delivery workflow for coding agents.
 
 - `2026-08-30`: [**K-Dense-AI/scientific-agent-skills**](https://github.com/K-Dense-AI/scientific-agent-skills) (`Python`) - ⭐ **39.5k**
@@ -183,7 +183,7 @@
 - `2026-08-12`: [**FoundationAgents/OpenManus**](https://github.com/FoundationAgents/OpenManus) (`Python`) - ⭐ **58.1k**
   - No fortress, purely open ground.  OpenManus is Coming.
 
-- `2026-08-12`: [**cathrynlavery/diagram-design**](https://github.com/cathrynlavery/diagram-design) (`HTML`) - ⭐ **28.8k**
+- `2026-08-12`: [**cathrynlavery/diagram-design**](https://github.com/cathrynlavery/diagram-design) (`HTML`) - ⭐ **28.9k**
   - 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.
 
 - `2026-08-12`: [**taovietducofficial/CI-CD-Beginner**](https://github.com/taovietducofficial/CI-CD-Beginner) (`Shell`) - ⭐ **134**
@@ -279,7 +279,7 @@
 - `2026-08-03`: [**LaurieWired/GhidraMCP**](https://github.com/LaurieWired/GhidraMCP) (`Java`) - ⭐ **9.9k**
   - MCP Server for Ghidra
 
-- `2026-08-03`: [**NationalSecurityAgency/ghidra**](https://github.com/NationalSecurityAgency/ghidra) (`Java`) - ⭐ **73.9k**
+- `2026-08-03`: [**NationalSecurityAgency/ghidra**](https://github.com/NationalSecurityAgency/ghidra) (`Java`) - ⭐ **74.0k**
   - Ghidra is a software reverse engineering (SRE) framework
 
 - `2026-08-03`: [**safe-graph/graph-fraud-detection-papers**](https://github.com/safe-graph/graph-fraud-detection-papers) (`Others`) - ⭐ **1.9k**
@@ -458,7 +458,7 @@
 - `2026-07-18`: [**xai-org/grok-build**](https://github.com/xai-org/grok-build) (`Rust`) - ⭐ **26.3k**
   - SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.
 
-- `2026-07-18`: [**stablyai/orca**](https://github.com/stablyai/orca) (`TypeScript`) - ⭐ **57.5k**
+- `2026-07-18`: [**stablyai/orca**](https://github.com/stablyai/orca) (`TypeScript`) - ⭐ **57.6k**
   - Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.
 
 - `2026-07-18`: [**cobusgreyling/loop-engineering**](https://github.com/cobusgreyling/loop-engineering) (`TypeScript`) - ⭐ **10.8k**
@@ -522,7 +522,7 @@
 - `2026-07-14`: [**JustVugg/colibri**](https://github.com/JustVugg/colibri) (`C`) - ⭐ **26.5k**
   - Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦
 
-- `2026-07-14`: [**Leonxlnx/taste-skill**](https://github.com/Leonxlnx/taste-skill) (`JavaScript`) - ⭐ **82.5k**
+- `2026-07-14`: [**Leonxlnx/taste-skill**](https://github.com/Leonxlnx/taste-skill) (`JavaScript`) - ⭐ **82.6k**
   - Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop
 
 - `2026-07-13`: [**unclecode/crawl4ai**](https://github.com/unclecode/crawl4ai) (`Python`) - ⭐ **80.3k**
@@ -718,7 +718,7 @@
 - `2026-06-28`: [**ripienaar/free-for-dev**](https://github.com/ripienaar/free-for-dev) (`HTML`) - ⭐ **136.0k**
   - A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
 
-- `2026-06-28`: [**kepano/obsidian-skills**](https://github.com/kepano/obsidian-skills) (`Others`) - ⭐ **47.5k**
+- `2026-06-28`: [**kepano/obsidian-skills**](https://github.com/kepano/obsidian-skills) (`Others`) - ⭐ **47.6k**
   - Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.
 
 - `2026-06-27`: [**Majestic9169/USC-CTF-Fall-2024**](https://github.com/Majestic9169/USC-CTF-Fall-2024) (`C`) - ⭐ **1**
@@ -806,7 +806,7 @@
 - `2026-06-17`: [**Armur-Ai/Pentest-Swarm-AI**](https://github.com/Armur-Ai/Pentest-Swarm-AI) (`Go`) - ⭐ **2.4k**
   - Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go, Claude API, and 7+ native security tools.
 
-- `2026-06-17`: [**DietrichGebert/ponytail**](https://github.com/DietrichGebert/ponytail) (`JavaScript`) - ⭐ **117.3k**
+- `2026-06-17`: [**DietrichGebert/ponytail**](https://github.com/DietrichGebert/ponytail) (`JavaScript`) - ⭐ **117.4k**
   - Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
 
 - `2026-06-17`: [**omnigent-ai/omnigent**](https://github.com/omnigent-ai/omnigent) (`Python`) - ⭐ **9.5k**
@@ -1472,7 +1472,7 @@
 - `2026-04-05`: [**Vonng/vonng.com**](https://github.com/Vonng/vonng.com) (`HTML`) - ⭐ **13**
   - Vonng's Blog, about database, postgres, and cloud-exit
 
-- `2026-04-05`: [**NousResearch/hermes-agent**](https://github.com/NousResearch/hermes-agent) (`Python`) - ⭐ **238.5k**
+- `2026-04-05`: [**NousResearch/hermes-agent**](https://github.com/NousResearch/hermes-agent) (`Python`) - ⭐ **238.6k**
   - The agent that grows with you
 
 - `2026-04-05`: [**zstmfhy/Claude-code**](https://github.com/zstmfhy/Claude-code) (`TypeScript`) - ⭐ **190**
@@ -1818,7 +1818,7 @@
 - `2026-01-12`: [**xberg-io/xberg**](https://github.com/xberg-io/xberg) (`Rust`) - ⭐ **9.2k**
   - Polyglot document intelligence with a Rust core: extract text, metadata, images, tables, and structured data from 106 formats across 140 file extensions, plus code intelligence for 371 languages. Fifteen bindings, with CLI, REST API, and MCP server.
 
-- `2026-01-12`: [**nextlevelbuilder/ui-ux-pro-max-skill**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) (`Python`) - ⭐ **123.2k**
+- `2026-01-12`: [**nextlevelbuilder/ui-ux-pro-max-skill**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) (`Python`) - ⭐ **123.3k**
   - An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
 
 - `2026-01-06`: [**sharmaroshan/Twitter-Sentiment-Analysis**](https://github.com/sharmaroshan/Twitter-Sentiment-Analysis) (`Jupyter Notebook`) - ⭐ **266**

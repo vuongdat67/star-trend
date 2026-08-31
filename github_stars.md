@@ -1,7 +1,7 @@
 # 🌟 GitHub Starred Repositories - @vuongdat67
 
 > Danh sách toàn bộ starred repositories của **[@vuongdat67](https://github.com/vuongdat67)**.
-> 🕒 Cập nhật: `2026-08-31 03:14:20` | 📦 Tổng số: **615** repositories
+> 🕒 Cập nhật: `2026-08-31 03:34:45` | 📦 Tổng số: **615** repositories
 
 ---
 
@@ -39,7 +39,7 @@
 - [**practical-tutorials/project-based-learning**](https://github.com/practical-tutorials/project-based-learning) - ⭐ **281.4k** | 🍴 36.1k | 📅 `2026-02-06`
   - Curated list of project-based tutorials
 
-- [**NousResearch/hermes-agent**](https://github.com/NousResearch/hermes-agent) - ⭐ **238.5k** | 🍴 48.6k | 📅 `2026-04-05`
+- [**NousResearch/hermes-agent**](https://github.com/NousResearch/hermes-agent) - ⭐ **238.6k** | 🍴 48.6k | 📅 `2026-04-05`
   - The agent that grows with you
 
 - [**TheAlgorithms/Python**](https://github.com/TheAlgorithms/Python) - ⭐ **224.1k** | 🍴 51.0k | 📅 `2026-02-05`
@@ -69,7 +69,7 @@
 - [**Comfy-Org/ComfyUI**](https://github.com/Comfy-Org/ComfyUI) - ⭐ **130.8k** | 🍴 15.4k | 📅 `2026-05-01`
   - The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
 
-- [**nextlevelbuilder/ui-ux-pro-max-skill**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - ⭐ **123.2k** | 🍴 13.2k | 📅 `2026-01-12`
+- [**nextlevelbuilder/ui-ux-pro-max-skill**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - ⭐ **123.3k** | 🍴 13.2k | 📅 `2026-01-12`
   - An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
 
 - [**harry0703/MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) - ⭐ **118.9k** | 🍴 18.2k | 📅 `2026-05-29`
@@ -331,7 +331,7 @@
 - [**theori-io/copy-fail-CVE-2026-31431**](https://github.com/theori-io/copy-fail-CVE-2026-31431) - ⭐ **4.1k** | 🍴 910 | 📅 `2026-05-01`
   - Copy Fail (CVE-2026-31431): 9-year-old Linux kernel LPE found by Theori's Xint Code
 
-- [**elementalsouls/Claude-BugHunter**](https://github.com/elementalsouls/Claude-BugHunter) - ⭐ **3.9k** | 🍴 605 | 📅 `2026-05-19`
+- [**elementalsouls/Claude-BugHunter**](https://github.com/elementalsouls/Claude-BugHunter) - ⭐ **3.9k** | 🍴 606 | 📅 `2026-05-19`
   - A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
 
 - [**sanyuan0704/sanyuan-skills**](https://github.com/sanyuan0704/sanyuan-skills) - ⭐ **3.9k** | 🍴 340 | 📅 `2026-02-11`
@@ -591,7 +591,7 @@
 - [**diegosouzapw/OmniRoute**](https://github.com/diegosouzapw/OmniRoute) - ⭐ **58.7k** | 🍴 8.1k | 📅 `2026-07-21`
   - Never stop coding. Free MIT AI gateway: one endpoint, 350 providers (90+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 450+ contributors
 
-- [**stablyai/orca**](https://github.com/stablyai/orca) - ⭐ **57.5k** | 🍴 3.9k | 📅 `2026-07-18`
+- [**stablyai/orca**](https://github.com/stablyai/orca) - ⭐ **57.6k** | 🍴 3.9k | 📅 `2026-07-18`
   - Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.
 
 - [**ChromeDevTools/chrome-devtools-mcp**](https://github.com/ChromeDevTools/chrome-devtools-mcp) - ⭐ **50.2k** | 🍴 3.5k | 📅 `2026-05-02`
@@ -1037,7 +1037,7 @@
 - [**ngosang/trackerslist**](https://github.com/ngosang/trackerslist) - ⭐ **55.0k** | 🍴 6.6k | 📅 `2026-07-16`
   - Updated list of public BitTorrent trackers
 
-- [**kepano/obsidian-skills**](https://github.com/kepano/obsidian-skills) - ⭐ **47.5k** | 🍴 3.4k | 📅 `2026-06-28`
+- [**kepano/obsidian-skills**](https://github.com/kepano/obsidian-skills) - ⭐ **47.6k** | 🍴 3.4k | 📅 `2026-06-28`
   - Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.
 
 - [**elder-plinius/CL4R1T4S**](https://github.com/elder-plinius/CL4R1T4S) - ⭐ **47.2k** | 🍴 9.6k | 📅 `2026-04-22`
@@ -1293,7 +1293,7 @@
 - [**nodejs/node**](https://github.com/nodejs/node) - ⭐ **120.0k** | 🍴 36.6k | 📅 `2026-05-22`
   - Node.js JavaScript runtime ✨🐢🚀✨
 
-- [**DietrichGebert/ponytail**](https://github.com/DietrichGebert/ponytail) - ⭐ **117.3k** | 🍴 6.4k | 📅 `2026-06-17`
+- [**DietrichGebert/ponytail**](https://github.com/DietrichGebert/ponytail) - ⭐ **117.4k** | 🍴 6.4k | 📅 `2026-06-17`
   - Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
 
 - [**thedotmack/claude-mem**](https://github.com/thedotmack/claude-mem) - ⭐ **92.7k** | 🍴 8.2k | 📅 `2025-12-10`
@@ -1302,7 +1302,7 @@
 - [**addyosmani/agent-skills**](https://github.com/addyosmani/agent-skills) - ⭐ **91.0k** | 🍴 9.7k | 📅 `2026-04-07`
   - Production-grade engineering skills for AI coding agents.
 
-- [**Leonxlnx/taste-skill**](https://github.com/Leonxlnx/taste-skill) - ⭐ **82.5k** | 🍴 5.7k | 📅 `2026-07-14`
+- [**Leonxlnx/taste-skill**](https://github.com/Leonxlnx/taste-skill) - ⭐ **82.6k** | 🍴 5.7k | 📅 `2026-07-14`
   - Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop
 
 - [**pbakaus/impeccable**](https://github.com/pbakaus/impeccable) - ⭐ **64.1k** | 🍴 3.9k | 📅 `2026-07-24`
@@ -1326,7 +1326,7 @@
 - [**saadeghi/daisyui**](https://github.com/saadeghi/daisyui) - ⭐ **42.2k** | 🍴 1.7k | 📅 `2026-07-06`
   - 🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library
 
-- [**tt-a1i/archify**](https://github.com/tt-a1i/archify) - ⭐ **35.2k** | 🍴 2.3k | 📅 `2026-08-30`
+- [**tt-a1i/archify**](https://github.com/tt-a1i/archify) - ⭐ **35.3k** | 🍴 2.3k | 📅 `2026-08-30`
   - Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
 
 - [**JCodesMore/ai-website-cloner-template**](https://github.com/JCodesMore/ai-website-cloner-template) - ⭐ **33.5k** | 🍴 4.9k | 📅 `2026-06-23`
@@ -1389,7 +1389,7 @@
 - [**shanraisshan/claude-code-best-practice**](https://github.com/shanraisshan/claude-code-best-practice) - ⭐ **65.4k** | 🍴 6.5k | 📅 `2026-04-10`
   - from vibe coding to agentic engineering - practice makes claude perfect
 
-- [**cathrynlavery/diagram-design**](https://github.com/cathrynlavery/diagram-design) - ⭐ **28.8k** | 🍴 1.8k | 📅 `2026-08-12`
+- [**cathrynlavery/diagram-design**](https://github.com/cathrynlavery/diagram-design) - ⭐ **28.9k** | 🍴 1.8k | 📅 `2026-08-12`
   - 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.
 
 - [**hasaneyldrm/exercises-dataset**](https://github.com/hasaneyldrm/exercises-dataset) - ⭐ **21.1k** | 🍴 2.7k | 📅 `2026-06-30`
@@ -1574,7 +1574,7 @@
 - [**gofiber/fiber**](https://github.com/gofiber/fiber) - ⭐ **40.1k** | 🍴 2.0k | 📅 `2026-08-05`
   - ⚡️ Express inspired web framework written in Go
 
-- [**aquasecurity/trivy**](https://github.com/aquasecurity/trivy) - ⭐ **37.7k** | 🍴 640 | 📅 `2026-04-22`
+- [**aquasecurity/trivy**](https://github.com/aquasecurity/trivy) - ⭐ **37.7k** | 🍴 641 | 📅 `2026-04-22`
   - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
 
 - [**tailscale/tailscale**](https://github.com/tailscale/tailscale) - ⭐ **35.8k** | 🍴 3.1k | 📅 `2026-07-11`
@@ -1583,7 +1583,7 @@
 - [**esengine/DeepSeek-Reasonix**](https://github.com/esengine/DeepSeek-Reasonix) - ⭐ **35.3k** | 🍴 2.4k | 📅 `2026-08-01`
   - DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.
 
-- [**dolthub/dolt**](https://github.com/dolthub/dolt) - ⭐ **24.3k** | 🍴 868 | 📅 `2026-05-04`
+- [**dolthub/dolt**](https://github.com/dolthub/dolt) - ⭐ **24.3k** | 🍴 869 | 📅 `2026-05-04`
   - Dolt – Git for Data
 
 - [**alibaba/open-code-review**](https://github.com/alibaba/open-code-review) - ⭐ **21.7k** | 🍴 1.6k | 📅 `2026-06-06`
@@ -1622,7 +1622,7 @@
 - [**versenilvis/IRIS**](https://github.com/versenilvis/IRIS) - ⭐ **1.3k** | 🍴 48 | 📅 `2026-08-02`
   - A shell auto-completion tool for your terminal
 
-- [**kentjuno/ainovel-cli**](https://github.com/kentjuno/ainovel-cli) - ⭐ **485** | 🍴 233 | 📅 `2026-08-27`
+- [**kentjuno/ainovel-cli**](https://github.com/kentjuno/ainovel-cli) - ⭐ **485** | 🍴 232 | 📅 `2026-08-27`
   - CLI sáng tác tiểu thuyết AI đa agent — Bản tiếng Việt của voocel/ainovel-cli
 
 
@@ -1729,7 +1729,7 @@
 - [**taovietducofficial/CI-CD-Beginner**](https://github.com/taovietducofficial/CI-CD-Beginner) - ⭐ **134** | 🍴 21 | 📅 `2026-08-12`
   - Production CI/CD pipeline template with quality gates, container security, SLSA provenance, cosign signing, and automated release management.
 
-- [**hieuphung97/dely**](https://github.com/hieuphung97/dely) - ⭐ **26** | 🍴 7 | 📅 `2026-08-30`
+- [**hieuphung97/dely**](https://github.com/hieuphung97/dely) - ⭐ **27** | 🍴 8 | 📅 `2026-08-30`
   - A cross-harness delivery workflow for coding agents.
 
 
@@ -1784,13 +1784,13 @@
 - [**altic-dev/FluidVoice**](https://github.com/altic-dev/FluidVoice) - ⭐ **11.1k** | 🍴 769 | 📅 `2026-08-14`
   - Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. Windows pre-build available! A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp
 
-- [**TableProApp/TablePro**](https://github.com/TableProApp/TablePro) - ⭐ **5.6k** | 🍴 373 | 📅 `2026-05-17`
+- [**TableProApp/TablePro**](https://github.com/TableProApp/TablePro) - ⭐ **5.6k** | 🍴 374 | 📅 `2026-05-17`
   - Free and open source database client built natively for developers
 
 
 ### Java `(3)`
 
-- [**NationalSecurityAgency/ghidra**](https://github.com/NationalSecurityAgency/ghidra) - ⭐ **73.9k** | 🍴 8.1k | 📅 `2026-08-03`
+- [**NationalSecurityAgency/ghidra**](https://github.com/NationalSecurityAgency/ghidra) - ⭐ **74.0k** | 🍴 8.1k | 📅 `2026-08-03`
   - Ghidra is a software reverse engineering (SRE) framework
 
 - [**opendataloader-project/opendataloader-pdf**](https://github.com/opendataloader-project/opendataloader-pdf) - ⭐ **28.9k** | 🍴 2.8k | 📅 `2026-04-10`
