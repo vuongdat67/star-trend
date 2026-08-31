@@ -79,6 +79,13 @@
           "desc": "Test community desc",
           "url": "https://facebook.com/groups/test_group",
           "type": "facebook"
+        },
+        {
+          "name": "Test Group ATTT Vietnam",
+          "badge": "Facebook",
+          "desc": "Test community desc",
+          "url": "https://facebook.com/groups/test_group",
+          "type": "facebook"
         }
       ]
     },
@@ -718,5 +725,5 @@
       }
     ]
   },
-  "updated_at": "2026-08-31 10:02:02"
+  "updated_at": "2026-08-31 10:02:23"
 }
