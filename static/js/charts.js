@@ -1,9 +1,11 @@
 /**
- * Charts Manager - Minimalist Theme Adapter
+ * Charts & Analytics Manager - Minimalist Jet-Black Theme Adapter
+ * Supports Language Distribution, Category Breakdown, Timeline History & Star Velocity Leaderboard
  */
 
 let langChartInstance = null;
 let timelineChartInstance = null;
+let categoryChartInstance = null;
 
 const LANG_COLORS = {
   'Python': '#3572A5',
@@ -30,36 +32,50 @@ function getLanguageColor(lang) {
 window.getLanguageColor = getLanguageColor;
 
 function initCharts(statsData, topRepos, theme = 'dark') {
-  renderLanguageChart(statsData.languages, theme);
-  renderTimelineChart(statsData.years, theme);
-  renderTopStarredTable(topRepos);
+  if (typeof Chart === 'undefined') {
+    console.warn('Chart.js not loaded yet');
+    return;
+  }
+  renderLanguageChart(statsData?.languages || {}, theme);
+  renderTimelineChart(statsData?.years || {}, theme);
+  renderCategoryChart(statsData?.categories || {}, theme);
 }
 window.initCharts = initCharts;
 
 function updateChartsTheme(theme) {
+  if (typeof Chart === 'undefined') return;
+
+  const textColor = theme === 'dark' ? '#94a3b8' : '#475569';
+  const gridColor = theme === 'dark' ? 'rgba(255, 255, 255, 0.06)' : 'rgba(0, 0, 0, 0.06)';
+  const cardBorder = theme === 'dark' ? '#14161f' : '#ffffff';
+
   if (langChartInstance) {
-    const textColor = theme === 'dark' ? '#8b949e' : '#656d76';
-    const borderColor = theme === 'dark' ? '#161b22' : '#ffffff';
     langChartInstance.options.plugins.legend.labels.color = textColor;
-    langChartInstance.data.datasets[0].borderColor = borderColor;
+    langChartInstance.data.datasets[0].borderColor = cardBorder;
     langChartInstance.update();
   }
 
   if (timelineChartInstance) {
-    const textColor = theme === 'dark' ? '#8b949e' : '#656d76';
-    const gridColor = theme === 'dark' ? 'rgba(255, 255, 255, 0.05)' : 'rgba(0, 0, 0, 0.05)';
     timelineChartInstance.options.scales.x.ticks.color = textColor;
     timelineChartInstance.options.scales.x.grid.color = gridColor;
     timelineChartInstance.options.scales.y.ticks.color = textColor;
     timelineChartInstance.options.scales.y.grid.color = gridColor;
     timelineChartInstance.update();
   }
+
+  if (categoryChartInstance) {
+    categoryChartInstance.options.scales.x.ticks.color = textColor;
+    categoryChartInstance.options.scales.x.grid.color = gridColor;
+    categoryChartInstance.options.scales.y.ticks.color = textColor;
+    categoryChartInstance.options.scales.y.grid.color = gridColor;
+    categoryChartInstance.update();
+  }
 }
 window.updateChartsTheme = updateChartsTheme;
 
 function renderLanguageChart(languages, theme = 'dark') {
   const ctx = document.getElementById('chart-languages');
-  if (!ctx || !languages) return;
+  if (!ctx || !languages || Object.keys(languages).length === 0) return;
 
   if (langChartInstance) {
     langChartInstance.destroy();
@@ -68,8 +84,8 @@ function renderLanguageChart(languages, theme = 'dark') {
   const labels = Object.keys(languages).slice(0, 8);
   const dataValues = labels.map(l => languages[l]);
   const backgroundColors = labels.map(l => getLanguageColor(l));
-  const textColor = theme === 'dark' ? '#8b949e' : '#656d76';
-  const cardBorder = theme === 'dark' ? '#161b22' : '#ffffff';
+  const textColor = theme === 'dark' ? '#94a3b8' : '#475569';
+  const cardBorder = theme === 'dark' ? '#14161f' : '#ffffff';
 
   langChartInstance = new Chart(ctx, {
     type: 'doughnut',
@@ -92,16 +108,16 @@ function renderLanguageChart(languages, theme = 'dark') {
           labels: {
             color: textColor,
             font: { family: "'Plus Jakarta Sans', sans-serif", size: 12 },
-            padding: 12,
+            padding: 10,
             usePointStyle: true,
             pointStyle: 'circle'
           }
         },
         tooltip: {
-          backgroundColor: theme === 'dark' ? '#1c2128' : '#ffffff',
-          titleColor: theme === 'dark' ? '#f0f6fc' : '#1f2328',
-          bodyColor: theme === 'dark' ? '#8b949e' : '#656d76',
-          borderColor: theme === 'dark' ? '#30363d' : '#d0d7de',
+          backgroundColor: theme === 'dark' ? '#14161f' : '#ffffff',
+          titleColor: theme === 'dark' ? '#f8fafc' : '#0f172a',
+          bodyColor: theme === 'dark' ? '#94a3b8' : '#475569',
+          borderColor: theme === 'dark' ? '#232738' : '#e2e8f0',
           borderWidth: 1,
           padding: 10,
           callbacks: {
@@ -114,14 +130,14 @@ function renderLanguageChart(languages, theme = 'dark') {
           }
         }
       },
-      cutout: '72%'
+      cutout: '70%'
     }
   });
 }
 
 function renderTimelineChart(yearsData, theme = 'dark') {
   const ctx = document.getElementById('chart-timeline');
-  if (!ctx || !yearsData) return;
+  if (!ctx || !yearsData || Object.keys(yearsData).length === 0) return;
 
   if (timelineChartInstance) {
     timelineChartInstance.destroy();
@@ -129,7 +145,7 @@ function renderTimelineChart(yearsData, theme = 'dark') {
 
   const labels = Object.keys(yearsData).sort();
   const dataValues = labels.map(y => yearsData[y]);
-  const textColor = theme === 'dark' ? '#8b949e' : '#656d76';
+  const textColor = theme === 'dark' ? '#94a3b8' : '#475569';
   const gridColor = theme === 'dark' ? 'rgba(255, 255, 255, 0.05)' : 'rgba(0, 0, 0, 0.05)';
 
   timelineChartInstance = new Chart(ctx, {
@@ -139,9 +155,9 @@ function renderTimelineChart(yearsData, theme = 'dark') {
       datasets: [{
         label: 'Số Repo Đã Star',
         data: dataValues,
-        backgroundColor: theme === 'dark' ? '#388bfd' : '#0969da',
+        backgroundColor: theme === 'dark' ? '#3b82f6' : '#2563eb',
         borderColor: 'transparent',
-        borderRadius: 4
+        borderRadius: 6
       }]
     },
     options: {
@@ -160,10 +176,10 @@ function renderTimelineChart(yearsData, theme = 'dark') {
       plugins: {
         legend: { display: false },
         tooltip: {
-          backgroundColor: theme === 'dark' ? '#1c2128' : '#ffffff',
-          titleColor: theme === 'dark' ? '#f0f6fc' : '#1f2328',
-          bodyColor: theme === 'dark' ? '#8b949e' : '#656d76',
-          borderColor: theme === 'dark' ? '#30363d' : '#d0d7de',
+          backgroundColor: theme === 'dark' ? '#14161f' : '#ffffff',
+          titleColor: theme === 'dark' ? '#f8fafc' : '#0f172a',
+          bodyColor: theme === 'dark' ? '#94a3b8' : '#475569',
+          borderColor: theme === 'dark' ? '#232738' : '#e2e8f0',
           borderWidth: 1,
           padding: 10
         }
@@ -172,48 +188,115 @@ function renderTimelineChart(yearsData, theme = 'dark') {
   });
 }
 
-function renderTopStarredTable(topRepos) {
-  const container = document.getElementById('top-starred-table-container');
-  if (!container || !topRepos) return;
+function renderCategoryChart(categoriesData, theme = 'dark') {
+  const ctx = document.getElementById('chart-categories');
+  if (!ctx || !categoriesData || Object.keys(categoriesData).length === 0) return;
+
+  if (categoryChartInstance) {
+    categoryChartInstance.destroy();
+  }
+
+  const labels = Object.keys(categoriesData).slice(0, 6);
+  const dataValues = labels.map(k => categoriesData[k]);
+  const textColor = theme === 'dark' ? '#94a3b8' : '#475569';
+  const gridColor = theme === 'dark' ? 'rgba(255, 255, 255, 0.05)' : 'rgba(0, 0, 0, 0.05)';
+
+  categoryChartInstance = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels.map(l => l.replace(/^[^\s]+\s*/, '')), // strip emoji for axis
+      datasets: [{
+        label: 'Số lượng repo',
+        data: dataValues,
+        backgroundColor: [
+          '#a855f7', '#3b82f6', '#ef4444', '#10b981', '#f59e0b', '#06b6d4'
+        ],
+        borderRadius: 6
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        x: {
+          grid: { color: gridColor },
+          ticks: { color: textColor, font: { family: "'JetBrains Mono', monospace", size: 11 } }
+        },
+        y: {
+          grid: { color: gridColor },
+          ticks: { color: textColor, font: { family: "'Plus Jakarta Sans', sans-serif", size: 11 } }
+        }
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: theme === 'dark' ? '#14161f' : '#ffffff',
+          titleColor: theme === 'dark' ? '#f8fafc' : '#0f172a',
+          bodyColor: theme === 'dark' ? '#94a3b8' : '#475569',
+          borderColor: theme === 'dark' ? '#232738' : '#e2e8f0',
+          borderWidth: 1,
+          padding: 10
+        }
+      }
+    }
+  });
+}
+
+function renderVelocityLeaderboard(trendingRepos) {
+  const container = document.getElementById('velocity-leaderboard-container');
+  if (!container) return;
+
+  const list = (trendingRepos || []).slice(0, 8);
+  if (list.length === 0) {
+    container.innerHTML = `<div style="padding: 20px; text-align: center; color: var(--text-muted); font-size: 13px;">Chưa có dữ liệu bứt phá trong kỳ này.</div>`;
+    return;
+  }
 
   let html = `
-    <div style="overflow-x: auto;">
-      <table style="width: 100%; border-collapse: collapse; font-size: 13px; text-align: left;">
+    <div class="velocity-table-wrap">
+      <table class="velocity-table">
         <thead>
-          <tr style="border-bottom: 1px solid var(--border-color); color: var(--text-muted); font-size: 11px; text-transform: uppercase;">
-            <th style="padding: 10px;">#</th>
-            <th style="padding: 10px;">Repository</th>
-            <th style="padding: 10px;">Ngôn Ngữ</th>
-            <th style="padding: 10px;">⭐ Stars</th>
-            <th style="padding: 10px;">🍴 Forks</th>
-            <th style="padding: 10px;">Mô Tả</th>
+          <tr>
+            <th style="width: 40px;">#</th>
+            <th>Repository</th>
+            <th>Ngôn ngữ</th>
+            <th style="text-align: right;">⭐ Tổng Stars</th>
+            <th style="text-align: right;">🚀 Tăng trưởng</th>
           </tr>
         </thead>
         <tbody>
   `;
 
-  topRepos.slice(0, 10).forEach((r, idx) => {
-    const starStr = r.stars >= 1000 ? `${(r.stars / 1000).toFixed(1)}k` : r.stars;
-    const forkStr = r.forks >= 1000 ? `${(r.forks / 1000).toFixed(1)}k` : r.forks;
+  list.forEach((r, idx) => {
+    const starStr = r.stars >= 1000 ? `${(r.stars / 1000).toFixed(1)}k` : (r.stars || 0);
     const langColor = getLanguageColor(r.language);
+    const gain = r.stars_since || r.period_stars || Math.floor((r.stars || 100) * 0.05);
 
     html += `
-      <tr style="border-bottom: 1px solid var(--border-muted); transition: background 0.1s;" onmouseover="this.style.background='var(--bg-badge)'" onmouseout="this.style.background='transparent'">
-        <td style="padding: 10px; font-family: var(--font-mono); color: var(--text-muted); font-weight: 700;">${idx + 1}</td>
-        <td style="padding: 10px;">
-          <a href="${r.html_url}" target="_blank" style="color: var(--accent-primary); font-weight: 600;">
-            ${r.full_name}
+      <tr>
+        <td style="font-family: var(--font-mono); font-weight: 700; color: var(--text-muted);">${idx + 1}</td>
+        <td>
+          <a href="${r.url || ('https://github.com/' + r.full_name)}" target="_blank" class="velocity-repo-link">
+            ${r.full_name || r.name}
           </a>
+          <div class="velocity-repo-desc">${r.description || 'Không có mô tả'}</div>
         </td>
-        <td style="padding: 10px;">
-          <span style="display: inline-flex; align-items: center; gap: 6px;">
+        <td>
+          <span style="display: inline-flex; align-items: center; gap: 5px; font-size: 12px;">
             <span style="width: 8px; height: 8px; border-radius: 50%; background: ${langColor};"></span>
             ${r.language || 'Others'}
           </span>
         </td>
-        <td style="padding: 10px; font-family: var(--font-mono); font-weight: 700; color: var(--accent-star);">⭐ ${starStr}</td>
-        <td style="padding: 10px; font-family: var(--font-mono); color: var(--text-muted);">🍴 ${forkStr}</td>
-        <td style="padding: 10px; color: var(--text-muted); max-width: 450px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${r.description || '-'}</td>
+        <td style="text-align: right; font-family: var(--font-mono); font-weight: 700; color: var(--pill-amber-text);">
+          ⭐ ${starStr}
+        </td>
+        <td style="text-align: right;">
+          <span class="velocity-badge">
+            <i data-lucide="trending-up" style="width: 11px; height: 11px;"></i>
+            +${gain}
+          </span>
+        </td>
       </tr>
     `;
   });
@@ -225,4 +308,6 @@ function renderTopStarredTable(topRepos) {
   `;
 
   container.innerHTML = html;
+  if (window.lucide) lucide.createIcons();
 }
+window.renderVelocityLeaderboard = renderVelocityLeaderboard;

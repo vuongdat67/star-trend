@@ -120,6 +120,19 @@ def build_all(username='vuongdat67'):
     except Exception as e:
         print(f"   AI Pulse FAILED: {e}")
 
+    # ── 5. Static Assets Data (Collections, Dev Tools, Weekly Digest) ─────
+    print("\n[5/5] Syncing Collections, Dev Tools & Weekly Digest...")
+    import shutil
+    for extra_file in ['collections.json', 'dev_tools.json', 'weekly_digest.json']:
+        src_path = os.path.join(DATA_DIR, extra_file)
+        dst_path = os.path.join(DOCS_DATA_DIR, extra_file)
+        if os.path.exists(src_path):
+            shutil.copyfile(src_path, dst_path)
+            print(f"   -> docs/data/{extra_file} synced")
+        elif os.path.exists(dst_path):
+            shutil.copyfile(dst_path, src_path)
+            print(f"   -> data/{extra_file} synced from docs")
+
     print("\n[DONE] CI build complete!")
 
 

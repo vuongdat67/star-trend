@@ -1,5 +1,5 @@
 /**
- * Jet-Black Charcoal Stars, Trending, Academic Conferences, arXiv & CVE Hub
+ * Jet-Black Charcoal Stars, Trending, Collections, Stats & AI Radar Hub
  * Supports both local server mode (/api/...) and static GitHub Pages mode (./data/....json)
  */
 
@@ -12,24 +12,21 @@ const _STATIC_MODE = !(window.location.port === '5000');
 // so it works regardless of trailing slash or repo sub-path.
 const DATA_BASE = (() => {
   if (!_STATIC_MODE) return '';
-  // Find this script's src to get the correct base directory
   const scripts = document.querySelectorAll('script[src]');
   for (const s of scripts) {
     if (s.src && s.src.includes('app.js')) {
-      // s.src is absolute: https://host/path/js/app.js → strip /js/app.js
       return s.src.replace(/js\/app\.js.*$/, '');
     }
   }
-  // Fallback: use pathname but ensure trailing slash
   const p = window.location.pathname;
-  const dir = p.endsWith('/') ? p : p.substring(0, p.lastIndexOf('/') + 1);
-  return dir;
+  return p.endsWith('/') ? p : p.substring(0, p.lastIndexOf('/') + 1);
 })();
 
 const state = {
   platform: 'github',            // 'github' | 'huggingface'
-  feedMode: 'trending',          // 'trending' | 'stars' | 'new' | 'pulse'
+  feedMode: 'trending',          // 'trending' | 'stars' | 'new' | 'pulse' | 'collections' | 'stats' | 'tools'
   radarSubfilter: 'all',         // 'all' | 'conf' | 'arxiv' | 'hf' | 'cve' | 'hn' | 'x' | 'labs'
+  toolsSubfilter: 'all',         // 'all' | 'launch' | 'ai' | 'debug' | 'sec'
   period: 'daily',               // 'daily' | 'weekly' | 'monthly'
   layout: localStorage.getItem('layout') || 'layout-grid-3',
   sidebarHidden: localStorage.getItem('sidebarHidden') === 'true',
@@ -51,9 +48,26 @@ const state = {
   freshRepos: [],
   hfTrending: [],
   aiPulse: [],
+  collections: [],
+  devTools: [],
+  launches: [],
+  weeklyDigest: {},
+  launchUpvotes: JSON.parse(localStorage.getItem('launchUpvotes') || '{}'),
   notesData: { bookmarks: [], notes: {} },
   activeNoteTarget: null
 };
+
+// Dev Quotes
+const DEV_QUOTES = [
+  { text: "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.", author: "Martin Fowler" },
+  { text: "First, solve the problem. Then, write the code.", author: "John Johnson" },
+  { text: "Simplicity is prerequisite for reliability.", author: "Edsger W. Dijkstra" },
+  { text: "Talk is cheap. Show me the code.", author: "Linus Torvalds" },
+  { text: "Make it work, make it right, make it fast.", author: "Kent Beck" },
+  { text: "The best error message is the one that never shows up.", author: "Thomas Fuchs" },
+  { text: "Walking on water and developing software from a specification are easy if both are frozen.", author: "Edward V. Berard" },
+  { text: "Measuring programming progress by lines of code is like measuring aircraft building progress by weight.", author: "Bill Gates" }
+];
 
 // General Category Rules
 const CATEGORY_RULES = [
@@ -85,6 +99,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   applyTheme(state.theme);
   applyLayout(state.layout);
   applySidebarState(state.sidebarHidden);
+  refreshDevQuote();
 
   const pageLimitSelect = document.getElementById('page-limit-select');
   if (pageLimitSelect) pageLimitSelect.value = state.pageSize.toString();
@@ -98,7 +113,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     fetchTrendingData(),
     fetchFreshData(),
     fetchHFTrending(),
-    fetchAIPulse()
+    fetchAIPulse(),
+    fetchCollectionsData(),
+    fetchDevToolsData(),
+    fetchWeeklyDigestData()
   ]);
 
   lucide.createIcons();
@@ -114,6 +132,10 @@ function applyTheme(theme) {
   if (icon) {
     icon.setAttribute('data-lucide', theme === 'dark' ? 'sun' : 'moon');
     lucide.createIcons();
+  }
+
+  if (window.updateChartsTheme) {
+    window.updateChartsTheme(theme);
   }
 }
 
@@ -163,7 +185,7 @@ function handlePageLimitChange(val) {
   renderFeed();
 }
 
-// ==================== DATA FETCHERS (server + static mode) ====================
+// ==================== DATA FETCHERS ====================
 async function fetchStarsData() {
   try {
     const url = _STATIC_MODE ? DATA_BASE + 'data/stars.json' : '/api/stars';
@@ -289,13 +311,123 @@ async function fetchAIPulse() {
   }
 }
 
-// ==================== EXACT USER MOMENTUM TICKER ====================
+async function fetchCollectionsData() {
+  try {
+    const res = await fetch(DATA_BASE + 'data/collections.json');
+    const data = await res.json();
+    state.collections = data.collections || [];
+  } catch (err) {
+    console.error('Collections fetch error:', err);
+  }
+}
+
+async function fetchDevToolsData() {
+  try {
+    const res = await fetch(DATA_BASE + 'data/dev_tools.json');
+    const data = await res.json();
+    state.devTools = data.tools || [];
+    state.launches = data.launches || [];
+  } catch (err) {
+    console.error('Dev tools fetch error:', err);
+  }
+}
+
+async function fetchWeeklyDigestData() {
+  try {
+    const res = await fetch(DATA_BASE + 'data/weekly_digest.json');
+    state.weeklyDigest = await res.json();
+  } catch (err) {
+    console.error('Weekly digest fetch error:', err);
+  }
+}
+
+// ==================== PLATFORM & FEED MODES ====================
+function switchPlatformSource(platform) {
+  state.platform = platform;
+  document.getElementById('source-btn-github').classList.toggle('active', platform === 'github');
+  document.getElementById('source-btn-hf').classList.toggle('active', platform === 'huggingface');
+
+  if (platform === 'huggingface') {
+    document.getElementById('period-switch-group').style.display = 'none';
+  } else {
+    document.getElementById('period-switch-group').style.display = ['trending', 'stars', 'new'].includes(state.feedMode) ? 'flex' : 'none';
+  }
+
+  renderSidebar();
+  renderFeed();
+}
+
+function switchFeedMode(mode) {
+  state.feedMode = mode;
+  state.selectedCategory = '';
+  state.selectedTopic = '';
+
+  document.querySelectorAll('.tab-btn-group .tab-btn').forEach(btn => {
+    btn.classList.remove('active');
+  });
+  const activeBtn = document.getElementById(`mode-btn-${mode}`);
+  if (activeBtn) activeBtn.classList.add('active');
+
+  const periodGroup = document.getElementById('period-switch-group');
+  const radarSubfilters = document.getElementById('radar-subfilters');
+  const toolsSubfilters = document.getElementById('tools-subfilters');
+  const controlsRowBottom = document.getElementById('controls-row-bottom');
+  const resultInfoBar = document.getElementById('result-info-bar');
+  const cardsContainer = document.getElementById('cards-feed-container');
+  const statsContainer = document.getElementById('stats-view-container');
+  const sidebarColumn = document.getElementById('sidebar-column');
+
+  // Toggle Visibility
+  if (periodGroup) periodGroup.style.display = (mode === 'trending' || mode === 'new') ? 'flex' : 'none';
+  if (radarSubfilters) radarSubfilters.style.display = (mode === 'pulse') ? 'flex' : 'none';
+  if (toolsSubfilters) toolsSubfilters.style.display = (mode === 'tools') ? 'flex' : 'none';
+
+  if (mode === 'stats') {
+    if (cardsContainer) cardsContainer.style.display = 'none';
+    if (statsContainer) statsContainer.style.display = 'flex';
+    if (controlsRowBottom) controlsRowBottom.style.display = 'none';
+    if (resultInfoBar) resultInfoBar.style.display = 'none';
+    if (sidebarColumn) sidebarColumn.style.display = 'none';
+    renderStatsDashboard();
+    return;
+  } else {
+    if (cardsContainer) cardsContainer.style.display = 'grid';
+    if (statsContainer) statsContainer.style.display = 'none';
+    if (controlsRowBottom) controlsRowBottom.style.display = 'flex';
+    if (resultInfoBar) resultInfoBar.style.display = 'flex';
+    if (sidebarColumn) sidebarColumn.style.display = state.sidebarHidden ? 'none' : 'flex';
+  }
+
+  if (mode === 'pulse') renderRadarSubfilters();
+  renderSidebar();
+  renderFeed();
+}
+
+function changePeriod(period) {
+  state.period = period;
+  document.getElementById('period-daily').classList.toggle('active', period === 'daily');
+  document.getElementById('period-weekly').classList.toggle('active', period === 'weekly');
+  document.getElementById('period-monthly').classList.toggle('active', period === 'monthly');
+  fetchTrendingData();
+}
+
+function switchToolsSubfilter(sub) {
+  state.toolsSubfilter = sub;
+  document.querySelectorAll('#tools-subfilters .pill-btn').forEach(b => b.classList.remove('active'));
+  if (event && event.target) event.target.classList.add('active');
+  renderFeed();
+}
+
+// ==================== LIVE TICKER ====================
 function renderTicker() {
   const marquee = document.getElementById('ticker-marquee');
   if (!marquee) return;
 
-  const items = state.trendingRepos.length > 0 ? state.trendingRepos : state.starsRepos.slice(0, 15);
-  if (items.length === 0) return;
+  const items = state.trendingRepos.slice(0, 10);
+  if (items.length === 0) {
+    marquee.innerHTML = `<span style="padding-left: 1rem; color: var(--text-muted);">Đang cập nhật các dự án bứt phá hôm nay...</span>`;
+    return;
+  }
 
   const doubleList = [...items, ...items];
   let html = '';
@@ -325,12 +457,7 @@ function renderTicker() {
 // ==================== RADAR SUB-FILTERS ====================
 function renderRadarSubfilters() {
   const bar = document.getElementById('radar-subfilters');
-  if (!bar) return;
-
-  if (state.feedMode !== 'pulse') {
-    bar.style.display = 'none';
-    return;
-  }
+  if (!bar || state.feedMode !== 'pulse') return;
 
   bar.style.display = 'flex';
 
@@ -380,7 +507,7 @@ function selectRadarSubfilter(sub) {
   renderFeed();
 }
 
-// ==================== DYNAMIC SIDEBAR (AUTO-ADAPTS TO CURRENT VIEW) ====================
+// ==================== SIDEBAR RENDERING ====================
 function getRawItemsForCurrentView() {
   if (state.feedMode === 'pulse') {
     if (state.radarSubfilter === 'conf') return state.aiPulse.filter(i => i.category && i.category.includes('Hội Nghị'));
@@ -401,7 +528,6 @@ function getRawItemsForCurrentView() {
 
 function renderSidebar() {
   const items = getRawItemsForCurrentView();
-
   const catCounter = {};
   const topicCounter = {};
 
@@ -449,35 +575,41 @@ function renderSidebar() {
   const topicsContainer = document.getElementById('sidebar-topics-cloud');
   if (topicsContainer) {
     const sortedTopics = Object.keys(topicCounter).sort((a, b) => topicCounter[b] - topicCounter[a]);
-    const limit = state.showAllTags ? 60 : 18;
-    const sliceTopics = sortedTopics.slice(0, limit);
+    const displayTopics = state.showAllTags ? sortedTopics : sortedTopics.slice(0, 24);
 
     let topicHtml = `
-      <span class="topic-pill ${state.selectedTopic === '' ? 'active' : ''}" onclick="selectTopicFilter('')">
-        #tất_cả
-      </span>
-      <span class="topic-pill ${state.selectedTopic === 'bookmarked' ? 'active' : ''}" onclick="selectTopicFilter('bookmarked')">
-        ⭐ #bookmark (${state.notesData.bookmarks.length})
+      <span class="topic-chip ${state.selectedTopic === 'bookmarked' ? 'active' : ''}" onclick="selectTopicFilter('bookmarked')">
+        ⭐ Bookmarks (${state.notesData.bookmarks.length})
       </span>
     `;
 
-    sliceTopics.forEach(t => {
+    displayTopics.forEach(t => {
       topicHtml += `
-        <span class="topic-pill ${state.selectedTopic === t.name || state.selectedTopic === t ? 'active' : ''}" onclick="selectTopicFilter('${t}')">
-          #${t} <span style="opacity: 0.6; font-size: 0.85em;">${topicCounter[t]}</span>
+        <span class="topic-chip ${state.selectedTopic === t ? 'active' : ''}" onclick="selectTopicFilter('${t}')">
+          #${t} <span style="opacity: 0.6; font-size: 10px;">${topicCounter[t]}</span>
         </span>
       `;
     });
 
     topicsContainer.innerHTML = topicHtml;
-
     const toggleBtn = document.getElementById('toggle-more-tags-btn');
     if (toggleBtn) {
-      toggleBtn.textContent = state.showAllTags ? 'Thu gọn bớt topics' : `+ Xem thêm (${Math.max(0, sortedTopics.length - 18)} topics)`;
+      toggleBtn.style.display = sortedTopics.length > 24 ? 'flex' : 'none';
+      toggleBtn.textContent = state.showAllTags ? 'Thu gọn bớt topics' : `+ Xem thêm (${sortedTopics.length - 24} topics)`;
     }
   }
+}
 
-  lucide.createIcons();
+function selectCategoryFilter(cat) {
+  state.selectedCategory = state.selectedCategory === cat ? '' : cat;
+  renderSidebar();
+  renderFeed();
+}
+
+function selectTopicFilter(topic) {
+  state.selectedTopic = state.selectedTopic === topic ? '' : topic;
+  renderSidebar();
+  renderFeed();
 }
 
 function toggleMoreTags() {
@@ -485,68 +617,20 @@ function toggleMoreTags() {
   renderSidebar();
 }
 
-function selectCategoryFilter(cat) {
-  state.selectedCategory = cat;
-  renderSidebar();
-  renderFeed();
-}
+function populateLanguageSelect() {
+  const select = document.getElementById('lang-select');
+  if (!select) return;
 
-function selectTopicFilter(topic) {
-  state.selectedTopic = topic;
-  renderSidebar();
-  renderFeed();
-}
+  const currentVal = select.value;
+  const langs = new Set();
+  state.starsRepos.forEach(r => { if (r.language) langs.add(r.language); });
 
-// ==================== PLATFORM & MODE SWITCHING ====================
-function switchPlatformSource(platform) {
-  state.platform = platform;
-  state.selectedCategory = '';
-  state.selectedTopic = '';
-
-  document.querySelectorAll('.source-btn').forEach(btn => btn.classList.remove('active'));
-  const activeBtn = document.getElementById(`source-btn-${platform === 'github' ? 'github' : 'hf'}`);
-  if (activeBtn) activeBtn.classList.add('active');
-
-  const periodGroup = document.getElementById('period-switch-group');
-  if (periodGroup) {
-    periodGroup.style.display = platform === 'github' ? 'flex' : 'none';
-  }
-
-  if (platform === 'huggingface') {
-    state.selectedLang = '';
-    const langSelect = document.getElementById('lang-select');
-    if (langSelect) langSelect.value = '';
-  }
-
-  renderRadarSubfilters();
-  renderSidebar();
-  renderFeed();
-}
-
-function switchFeedMode(mode) {
-  state.feedMode = mode;
-  state.selectedCategory = '';
-  state.selectedTopic = '';
-
-  document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-  const activeBtn = document.getElementById(`mode-btn-${mode}`);
-  if (activeBtn) activeBtn.classList.add('active');
-
-  if (mode === 'new' && state.freshRepos.length === 0) {
-    fetchFreshData();
-  }
-
-  renderRadarSubfilters();
-  renderSidebar();
-  renderFeed();
-}
-
-function changePeriod(period) {
-  state.period = period;
-  document.querySelectorAll('#period-switch-group .tab-btn').forEach(btn => btn.classList.remove('active'));
-  const activeBtn = document.getElementById(`period-${period}`);
-  if (activeBtn) activeBtn.classList.add('active');
-  fetchTrendingData();
+  let html = '<option value="">Tất cả ngôn ngữ</option>';
+  Array.from(langs).sort().forEach(l => {
+    html += `<option value="${l}">${l}</option>`;
+  });
+  select.innerHTML = html;
+  select.value = currentVal;
 }
 
 function handleSearch(val) {
@@ -570,7 +654,7 @@ function handleSortChange() {
   renderFeed();
 }
 
-// ==================== DATA FILTERING & FEED ====================
+// ==================== DATA FILTERING & FEED DISPATCHER ====================
 function getActiveItems() {
   let list = getRawItemsForCurrentView();
 
@@ -631,10 +715,23 @@ function renderFeed() {
   const sentinel = document.getElementById('scroll-sentinel');
   if (!container) return;
 
+  // Dedicated Renderers for Non-Repo Feeds
+  if (state.feedMode === 'collections') {
+    renderCollections();
+    if (sentinel) sentinel.style.display = 'none';
+    return;
+  }
+  if (state.feedMode === 'tools') {
+    renderDevTools();
+    if (sentinel) sentinel.style.display = 'none';
+    return;
+  }
+
   const items = getActiveItems();
   state.renderedCount = Math.min(state.pageSize, items.length);
 
-  document.getElementById('displayed-count-label').textContent = items.length.toLocaleString();
+  const countLabel = document.getElementById('displayed-count-label');
+  if (countLabel) countLabel.textContent = items.length.toLocaleString();
 
   if (items.length === 0) {
     container.innerHTML = `
@@ -698,66 +795,76 @@ function renderCardsBatch(batch) {
           <div class="domain-chips-list">
             ${(r.tags || []).map(t => `<span class="domain-chip" onclick="selectTopicFilter('${t}')">#${t}</span>`).join('')}
           </div>
-          ${r.upvotes ? `<span style="color: var(--pill-amber-text); font-family: var(--font-mono);">★ ${r.upvotes}</span>` : (r.authors ? `<span style="color: var(--text-muted);">${r.authors}</span>` : '')}
+          <div style="font-family: var(--font-mono); font-size: 11px; color: var(--text-muted);">
+            ${r.category || ''}
+          </div>
         </div>
       `;
       fragment.appendChild(card);
       return;
     }
 
-    // RENDER REPO / HF MODEL CARD
+    // RENDER HUGGING FACE MODELS / DATASETS
+    if (state.platform === 'huggingface') {
+      card.innerHTML = `
+        <div class="card-header-row">
+          <div class="card-title-block">
+            <span class="rank-tag">#${rank}</span>
+            <a href="https://huggingface.co/${r.id}" target="_blank" class="card-title-link">
+              ${r.id}
+            </a>
+          </div>
+        </div>
+
+        <div class="card-desc-text">${r.pipeline_tag ? `Task: ${r.pipeline_tag}` : 'Hugging Face Open Weights Model'}</div>
+
+        <div class="card-footer-row">
+          <span style="color: var(--pill-amber-text);">❤️ ${formatNumber(r.likes || 0)}</span>
+          <span>⬇️ ${formatNumber(r.downloads || 0)}</span>
+          <span class="badge-tag">${r.pipeline_tag || 'model'}</span>
+        </div>
+      `;
+      fragment.appendChild(card);
+      return;
+    }
+
+    // RENDER GITHUB REPOSITORIES (Trending / Stars / New)
     const owner = r.owner || (r.full_name ? r.full_name.split('/')[0] : 'github');
     const avatarUrl = `https://github.com/${owner}.png?size=40`;
-    let badgesHtml = '';
-    if (rank <= 3 && state.feedMode === 'trending') badgesHtml += `<span class="badge-tag">Top ${rank}</span>`;
-    if (r.type === 'models') badgesHtml += `<span class="badge-tag">🤗 Model</span>`;
-    if (r.type === 'datasets') badgesHtml += `<span class="badge-tag">📊 Dataset</span>`;
-
-    const starsStr = formatNumber(r.stars || r.likes || 0);
-    const forksStr = formatNumber(r.forks || r.downloads || 0);
-    const tags = (r.topics || r.tags || (r.language ? [r.language] : [])).slice(0, 3);
-    const tagsHtml = tags.map(t => `<span class="domain-chip" onclick="selectTopicFilter('${t}')">${t}</span>`).join('');
+    const starsFormatted = formatNumber(r.stars);
+    const forksFormatted = formatNumber(r.forks);
+    const langColor = window.getLanguageColor ? window.getLanguageColor(r.language) : '#8B949E';
 
     card.innerHTML = `
       <div class="card-header-row">
         <div class="card-title-block">
           <img class="card-avatar" src="${avatarUrl}" onerror="this.src='https://github.githubassets.com/favicons/favicon.png'" alt="${owner}">
-          <span class="rank-tag">#${rank}</span>
-          <a href="${r.url || r.html_url}" target="_blank" class="card-title-link">
-            ${r.full_name}
+          ${state.feedMode === 'trending' ? `<span class="rank-tag">#${rank}</span>` : ''}
+          <a href="${r.url || r.html_url || ('https://github.com/' + r.full_name)}" target="_blank" class="card-title-link">
+            ${r.full_name || r.name}
           </a>
-          ${badgesHtml}
         </div>
-
-        <div style="display: flex; gap: 4px;">
-          <button class="btn-zinc btn-icon" onclick="toggleBookmark('${r.full_name}')" title="${isBookmarked ? 'Bỏ Bookmark' : 'Bookmark'}">
-            <i data-lucide="bookmark" style="width: 13px; height: 13px; ${isBookmarked ? 'color: var(--pill-amber-text); fill: var(--pill-amber-text);' : ''}"></i>
-          </button>
-          <button class="btn-zinc btn-icon" onclick="openNoteModal('${r.full_name}')" title="Ghi chú">
-            <i data-lucide="file-text" style="width: 13px; height: 13px; ${hasNote ? 'color: var(--pill-blue-text);' : ''}"></i>
-          </button>
-        </div>
+        <button class="card-action-btn ${isBookmarked ? 'active' : ''}" onclick="toggleBookmark('${r.full_name}')" title="Bookmark repo này">
+          <i data-lucide="bookmark" style="width: 14px; height: 14px;"></i>
+        </button>
       </div>
 
-      <div class="card-desc-text">
-        ${r.description || 'Không có mô tả.'}
-      </div>
+      <div class="card-desc-text">${r.description || 'Không có mô tả chi tiết'}</div>
 
       <div class="card-footer-row">
-        <div class="domain-chips-list">
-          ${tagsHtml || `<span class="domain-chip">${r.language || r.pipeline_tag || 'Code'}</span>`}
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <span style="display: inline-flex; align-items: center; gap: 4px;">
+            <span style="width: 8px; height: 8px; border-radius: 50%; background: ${langColor};"></span>
+            ${r.language || 'Plain'}
+          </span>
+          <span style="color: var(--pill-amber-text);">⭐ ${starsFormatted}</span>
+          <span>🍴 ${forksFormatted}</span>
         </div>
 
-        <div class="metrics-row">
-          <span title="Stars / Likes">
-            <i data-lucide="star" style="width: 12px; height: 12px; color: var(--pill-amber-text);"></i>
-            <span>${starsStr}</span>
-          </span>
-          <span title="Forks / Downloads">
-            <i data-lucide="git-fork" style="width: 12px; height: 12px;"></i>
-            <span>${forksStr}</span>
-          </span>
-          ${r.stars_since ? `<span style="font-weight: 700; color: var(--pill-green-text);">+${r.stars_since}</span>` : ''}
+        <div style="display: flex; align-items: center; gap: 4px;">
+          <button class="card-action-btn ${hasNote ? 'active' : ''}" onclick="openNoteModal('${r.full_name}')" title="Ghi chú cá nhân">
+            <i data-lucide="file-text" style="width: 13px; height: 13px;"></i>
+          </button>
         </div>
       </div>
     `;
@@ -769,13 +876,12 @@ function renderCardsBatch(batch) {
   lucide.createIcons();
 }
 
-// ==================== INFINITE SCROLL ====================
 function setupScrollObserver() {
   const sentinel = document.getElementById('scroll-sentinel');
   if (!sentinel) return;
 
   const observer = new IntersectionObserver((entries) => {
-    if (entries[0].isIntersecting && !state.isLoadingMore) {
+    if (entries[0].isIntersecting && !state.isLoadingMore && ['trending', 'stars', 'new', 'pulse'].includes(state.feedMode)) {
       const items = getActiveItems();
       if (state.renderedCount < items.length) {
         state.isLoadingMore = true;
@@ -783,25 +889,403 @@ function setupScrollObserver() {
         state.renderedCount += nextBatch.length;
         renderCardsBatch(nextBatch);
         state.isLoadingMore = false;
-        sentinel.style.display = state.renderedCount < items.length ? 'block' : 'none';
+        if (state.renderedCount >= items.length) {
+          sentinel.style.display = 'none';
+        }
       }
     }
-  }, { rootMargin: '250px' });
+  }, { rootMargin: '200px' });
 
   observer.observe(sentinel);
 }
 
-// ==================== LANGUAGE SELECT ====================
-function populateLanguageSelect() {
-  const select = document.getElementById('lang-select');
-  if (!select) return;
+// ==================== 1. CURATED COLLECTIONS RENDERER ====================
+function renderCollections() {
+  const container = document.getElementById('cards-feed-container');
+  if (!container) return;
 
-  const langs = state.stats.all_languages || {};
-  let opt = '<option value="">Tất cả ngôn ngữ</option>';
-  Object.keys(langs).sort().forEach(l => {
-    opt += `<option value="${l}">${l} (${langs[l]})</option>`;
+  container.className = 'collections-grid';
+  let html = '';
+
+  state.collections.forEach(col => {
+    html += `
+      <div class="collection-card">
+        <div class="collection-header">
+          <div class="collection-title-wrap">
+            <div class="collection-title">${col.title}</div>
+            <div class="collection-desc">${col.description}</div>
+          </div>
+          <span class="badge-tag" style="color: ${col.badge_color}; font-weight: 700;">${col.badge}</span>
+        </div>
+
+        <div>
+          <div style="font-size: 11.5px; font-weight: 600; color: var(--text-muted); margin-bottom: 6px;">Top Repositories:</div>
+          <div class="collection-repos-list">
+            ${col.repos.map(r => `
+              <a href="https://github.com/${r}" target="_blank" class="collection-repo-chip">
+                <i data-lucide="github" style="width: 11px; height: 11px;"></i>
+                ${r.split('/')[1] || r}
+              </a>
+            `).join('')}
+          </div>
+        </div>
+
+        <div class="collection-footer">
+          <div style="display: flex; gap: 4px; flex-wrap: wrap;">
+            ${(col.tags || []).slice(0, 3).map(t => `<span class="domain-chip">#${t}</span>`).join('')}
+          </div>
+          <button class="btn-zinc" onclick="copyCollectionLinks('${col.id}')" title="Sao chép toàn bộ link">
+            <i data-lucide="copy" style="width: 12px; height: 12px;"></i>
+            <span>Copy All</span>
+          </button>
+        </div>
+      </div>
+    `;
   });
-  select.innerHTML = opt;
+
+  container.innerHTML = html;
+  const countLabel = document.getElementById('displayed-count-label');
+  if (countLabel) countLabel.textContent = `${state.collections.length} bộ sưu tập`;
+  lucide.createIcons();
+}
+
+function copyCollectionLinks(colId) {
+  const col = state.collections.find(c => c.id === colId);
+  if (!col) return;
+  const links = col.repos.map(r => `https://github.com/${r}`).join('\n');
+  navigator.clipboard.writeText(links).then(() => {
+    showToast(`Đã sao chép ${col.repos.length} liên kết repo!`);
+  }).catch(() => {
+    showToast('Lỗi khi sao chép liên kết!', 'error');
+  });
+}
+
+// ==================== 2. STATS & VELOCITY DASHBOARD RENDERER ====================
+function renderStatsDashboard() {
+  const totalStars = state.starsRepos.reduce((acc, r) => acc + (r.stars || 0), 0);
+  const avgStars = state.starsRepos.length > 0 ? Math.round(totalStars / state.starsRepos.length) : 0;
+
+  // Language Breakdown
+  const langCounts = {};
+  state.starsRepos.forEach(r => {
+    if (r.language) langCounts[r.language] = (langCounts[r.language] || 0) + 1;
+  });
+  const sortedLangs = Object.keys(langCounts).sort((a, b) => langCounts[b] - langCounts[a]);
+  const topLang = sortedLangs[0] || 'N/A';
+  const topLangPct = state.starsRepos.length > 0 ? Math.round((langCounts[topLang] / state.starsRepos.length) * 100) : 0;
+
+  // Top Gainer
+  const topGainer = state.trendingRepos[0] || {};
+  const topGainerGain = topGainer.stars_since || topGainer.period_stars || '1.2k';
+
+  // Populate KPIs
+  const elTotalStars = document.getElementById('kpi-total-stars');
+  if (elTotalStars) elTotalStars.textContent = totalStars.toLocaleString();
+
+  const elTotalSub = document.getElementById('kpi-total-repos-sub');
+  if (elTotalSub) elTotalSub.textContent = `Từ ${state.starsRepos.length} repositories`;
+
+  const elTopGainer = document.getElementById('kpi-top-gainer');
+  if (elTopGainer) elTopGainer.textContent = topGainer.full_name || topGainer.name || 'OpenMAIC';
+
+  const elTopGainSub = document.getElementById('kpi-top-gain-sub');
+  if (elTopGainSub) elTopGainSub.textContent = `+${topGainerGain} stars hôm nay`;
+
+  const elTopLang = document.getElementById('kpi-top-lang');
+  if (elTopLang) elTopLang.textContent = topLang;
+
+  const elTopLangSub = document.getElementById('kpi-top-lang-sub');
+  if (elTopLangSub) elTopLangSub.textContent = `${topLangPct}% thị phần kho star`;
+
+  const elAvgStars = document.getElementById('kpi-avg-stars');
+  if (elAvgStars) elAvgStars.textContent = `~${avgStars.toLocaleString()} ⭐`;
+
+  // Render Charts & Velocity Table
+  if (window.initCharts) {
+    window.initCharts(state.stats, state.starsRepos, state.theme);
+  }
+  if (window.renderVelocityLeaderboard) {
+    window.renderVelocityLeaderboard(state.trendingRepos);
+  }
+  lucide.createIcons();
+}
+
+// ==================== 3. DEV TOOLS & LAUNCH SHOWCASE RENDERER ====================
+function renderDevTools() {
+  const container = document.getElementById('cards-feed-container');
+  if (!container) return;
+
+  container.className = state.toolsSubfilter === 'launch' ? 'launch-grid' : 'tools-grid';
+  let html = '';
+
+  if (state.toolsSubfilter === 'launch') {
+    // Render Launch Board
+    state.launches.forEach(item => {
+      const upvoted = Boolean(state.launchUpvotes[item.id]);
+      const currentVotes = (item.upvotes || 0) + (upvoted ? 1 : 0);
+
+      html += `
+        <div class="launch-item-card">
+          <div class="card-header-row">
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <img src="${item.author_avatar}" class="card-avatar" alt="${item.author}">
+              <div>
+                <a href="${item.demo_url || item.github_url}" target="_blank" class="card-title-link">${item.title}</a>
+                <div style="font-size: 11px; color: var(--text-faint);">bởi @${item.author}</div>
+              </div>
+            </div>
+            <button class="upvote-btn ${upvoted ? 'upvoted' : ''}" onclick="toggleLaunchUpvote('${item.id}')">
+              <i data-lucide="triangle" style="width: 12px; height: 12px; fill: currentColor;"></i>
+              <span>${currentVotes}</span>
+            </button>
+          </div>
+
+          <div class="card-desc-text">${item.description}</div>
+
+          <div class="card-footer-row">
+            <div style="display: flex; gap: 5px; flex-wrap: wrap;">
+              ${(item.tech_stack || []).map(t => `<span class="badge-tag">${t}</span>`).join('')}
+            </div>
+            <a href="${item.github_url}" target="_blank" class="btn-zinc btn-icon" title="Xem GitHub">
+              <i data-lucide="github" style="width: 13px; height: 13px;"></i>
+            </a>
+          </div>
+        </div>
+      `;
+    });
+  } else {
+    // Render Dev Tools Directory
+    let tools = state.devTools;
+    if (state.toolsSubfilter === 'ai') tools = tools.filter(t => t.category.includes('AI'));
+    if (state.toolsSubfilter === 'debug') tools = tools.filter(t => t.category.includes('Debug') || t.category.includes('Cheat'));
+    if (state.toolsSubfilter === 'sec') tools = tools.filter(t => t.category.includes('Security'));
+
+    tools.forEach(t => {
+      html += `
+        <div class="tool-item-card">
+          <div>
+            <div class="tool-item-header">
+              <span class="tool-item-title">${t.name}</span>
+              <span class="badge-tag">${t.badge}</span>
+            </div>
+            <div style="font-size: 11px; color: var(--pill-blue-text); margin: 3px 0 6px; font-weight: 600;">${t.category}</div>
+            <div class="tool-item-desc">${t.description}</div>
+          </div>
+
+          <div class="card-footer-row" style="margin-top: 8px;">
+            <div style="display: flex; gap: 4px; flex-wrap: wrap;">
+              ${(t.tags || []).map(tag => `<span class="domain-chip">#${tag}</span>`).join('')}
+            </div>
+            <a href="${t.url}" target="_blank" class="btn-zinc" style="font-size: 11.5px;">
+              <span>Mở Web</span>
+              <i data-lucide="arrow-up-right" style="width: 11px; height: 11px;"></i>
+            </a>
+          </div>
+        </div>
+      `;
+    });
+  }
+
+  container.innerHTML = html;
+  const countLabel = document.getElementById('displayed-count-label');
+  if (countLabel) countLabel.textContent = `${state.toolsSubfilter === 'launch' ? state.launches.length : state.devTools.length} công cụ & sản phẩm`;
+  lucide.createIcons();
+}
+
+function toggleLaunchUpvote(id) {
+  if (state.launchUpvotes[id]) {
+    delete state.launchUpvotes[id];
+    showToast('Đã hủy upvote sản phẩm');
+  } else {
+    state.launchUpvotes[id] = true;
+    showToast('Đã upvote sản phẩm! 🚀');
+  }
+  localStorage.setItem('launchUpvotes', JSON.stringify(state.launchUpvotes));
+  renderDevTools();
+}
+
+// ==================== 4. QUICK REPO INSPECTOR ====================
+function openInspectorModal() {
+  const modal = document.getElementById('inspector-modal');
+  if (modal) {
+    modal.classList.add('open');
+    setTimeout(() => {
+      const input = document.getElementById('inspector-input');
+      if (input) input.focus();
+    }, 100);
+  }
+}
+
+function closeInspectorModal() {
+  const modal = document.getElementById('inspector-modal');
+  if (modal) modal.classList.remove('open');
+}
+
+async function executeRepoInspect() {
+  const input = document.getElementById('inspector-input');
+  const container = document.getElementById('inspector-result-container');
+  if (!input || !container) return;
+
+  let query = input.value.trim();
+  if (!query) {
+    showToast('Vui lòng nhập tên repo hoặc link GitHub', 'error');
+    return;
+  }
+
+  // Sanitize: https://github.com/owner/repo -> owner/repo
+  query = query.replace(/^https?:\/\/github\.com\//i, '').replace(/\/$/, '');
+  const parts = query.split('/');
+  if (parts.length < 2) {
+    showToast('Định dạng phải là: owner/repo (ví dụ: astral-sh/uv)', 'error');
+    return;
+  }
+  const fullName = `${parts[0]}/${parts[1]}`;
+
+  container.innerHTML = `
+    <div style="text-align: center; padding: 30px; color: var(--text-muted);">
+      <i data-lucide="loader-2" class="spinning" style="width: 24px; height: 24px; margin-bottom: 8px;"></i>
+      <div>Đang truy vấn dữ liệu từ GitHub API cho <strong>${fullName}</strong>...</div>
+    </div>
+  `;
+  lucide.createIcons();
+
+  try {
+    const res = await fetch(`https://api.github.com/repos/${fullName}`);
+    if (!res.ok) {
+      if (res.status === 404) throw new Error('Không tìm thấy repository này trên GitHub');
+      if (res.status === 403) throw new Error('Đã đạt giới hạn rate limit của GitHub Public API. Vui lòng thử lại sau');
+      throw new Error(`Lỗi kết nối GitHub API (${res.status})`);
+    }
+
+    const r = await res.json();
+    const isBookmarked = state.notesData.bookmarks.includes(r.full_name);
+
+    container.innerHTML = `
+      <div class="inspector-preview-card">
+        <div class="card-header-row">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <img src="${r.owner?.avatar_url}" class="card-avatar" style="width: 32px; height: 32px;" alt="${r.owner?.login}">
+            <div>
+              <a href="${r.html_url}" target="_blank" class="card-title-link" style="font-size: 15px;">${r.full_name}</a>
+              <div style="font-size: 11px; color: var(--text-muted);">${r.license?.name || 'No License specified'} • Tạo ngày: ${r.created_at.slice(0, 10)}</div>
+            </div>
+          </div>
+          <button class="btn-zinc ${isBookmarked ? 'active' : ''}" onclick="toggleBookmark('${r.full_name}')" style="font-size: 12px;">
+            <i data-lucide="bookmark" style="width: 13px; height: 13px;"></i>
+            <span>${isBookmarked ? 'Đã Bookmark' : 'Lưu Bookmark'}</span>
+          </button>
+        </div>
+
+        <div style="font-size: 13px; color: var(--text-main); line-height: 1.45;">${r.description || 'Không có mô tả'}</div>
+
+        <div class="inspector-stats-grid">
+          <div class="inspector-stat-pill">
+            <span class="inspector-stat-num" style="color: var(--pill-amber-text);">⭐ ${formatNumber(r.stargazers_count)}</span>
+            <span class="inspector-stat-label">Stars</span>
+          </div>
+          <div class="inspector-stat-pill">
+            <span class="inspector-stat-num">🍴 ${formatNumber(r.forks_count)}</span>
+            <span class="inspector-stat-label">Forks</span>
+          </div>
+          <div class="inspector-stat-pill">
+            <span class="inspector-stat-num" style="color: var(--pill-blue-text);">${r.language || 'Plain'}</span>
+            <span class="inspector-stat-label">Ngôn Ngữ</span>
+          </div>
+          <div class="inspector-stat-pill">
+            <span class="inspector-stat-num" style="color: var(--pill-red-text);">${r.open_issues_count}</span>
+            <span class="inspector-stat-label">Issues</span>
+          </div>
+        </div>
+
+        ${r.topics && r.topics.length > 0 ? `
+          <div style="display: flex; gap: 5px; flex-wrap: wrap;">
+            ${r.topics.map(t => `<span class="domain-chip">#${t}</span>`).join('')}
+          </div>
+        ` : ''}
+
+        <div style="display: flex; justify-content: flex-end; gap: 8px; border-top: 1px solid var(--border-subtle); padding-top: 10px;">
+          <a href="https://star-history.com/#${r.full_name}&Date" target="_blank" class="btn-zinc" style="font-size: 12px;">
+            <i data-lucide="trending-up" style="width: 12px; height: 12px;"></i>
+            <span>Star History</span>
+          </a>
+          <button class="btn-zinc" onclick="openNoteModal('${r.full_name}')" style="font-size: 12px;">
+            <i data-lucide="file-text" style="width: 12px; height: 12px;"></i>
+            <span>Viết Ghi Chú</span>
+          </button>
+          <a href="${r.html_url}" target="_blank" class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text); font-size: 12px;">
+            <span>Xem Trên GitHub</span>
+            <i data-lucide="external-link" style="width: 12px; height: 12px;"></i>
+          </a>
+        </div>
+      </div>
+    `;
+    lucide.createIcons();
+  } catch (err) {
+    container.innerHTML = `
+      <div style="padding: 20px; text-align: center; color: var(--pill-red-text); background: var(--pill-red-bg); border: 1px solid var(--pill-red-border); border-radius: var(--radius-sm); font-size: 13px;">
+        <i data-lucide="alert-circle" style="width: 20px; height: 20px; margin-bottom: 6px;"></i>
+        <div>${err.message}</div>
+      </div>
+    `;
+    lucide.createIcons();
+  }
+}
+
+// ==================== 5. WEEKLY DIGEST ====================
+function openDigestModal() {
+  const modal = document.getElementById('digest-modal');
+  const content = document.getElementById('digest-modal-content');
+  if (!modal || !content) return;
+
+  const d = state.weeklyDigest || {};
+  const highlights = d.highlights || [];
+
+  let html = `
+    <div class="digest-container">
+      <div class="digest-banner">
+        <div>
+          <div style="font-size: 16px; font-weight: 800; color: var(--text-main); margin-bottom: 4px;">📰 ${d.week_label || 'Bản Tin Xu Hướng Tuần'}</div>
+          <div style="font-size: 12.5px; color: var(--text-muted);">${d.trending_summary || ''}</div>
+        </div>
+        <span class="badge-tag" style="font-family: var(--font-mono); font-size: 11px;">Mới Nhất</span>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        ${highlights.map(item => `
+          <div class="digest-card">
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+              <span class="badge-tag" style="color: ${item.badge_color}; font-weight: 700;">${item.badge}</span>
+              <a href="${item.url}" target="_blank" style="color: var(--pill-blue-text); font-size: 12px; display: inline-flex; align-items: center; gap: 3px;">
+                Xem chi tiết <i data-lucide="arrow-up-right" style="width: 12px; height: 12px;"></i>
+              </a>
+            </div>
+            <a href="${item.url}" target="_blank" style="font-size: 14px; font-weight: 700; color: var(--text-main); text-decoration: none;">${item.title}</a>
+            <div style="font-size: 12.5px; color: var(--text-muted); line-height: 1.45;">${item.tldr}</div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+
+  content.innerHTML = html;
+  modal.classList.add('open');
+  lucide.createIcons();
+}
+
+function closeDigestModal() {
+  const modal = document.getElementById('digest-modal');
+  if (modal) modal.classList.remove('open');
+}
+
+// ==================== 6. DEV QUOTE RADAR ====================
+function refreshDevQuote() {
+  const elText = document.getElementById('dev-quote-text');
+  const elAuthor = document.getElementById('dev-quote-author');
+  if (!elText || !elAuthor) return;
+
+  const rand = DEV_QUOTES[Math.floor(Math.random() * DEV_QUOTES.length)];
+  elText.textContent = `"${rand.text}"`;
+  elAuthor.textContent = `— ${rand.author}`;
 }
 
 // ==================== BOOKMARKS & NOTES ====================
@@ -831,14 +1315,19 @@ async function toggleBookmark(fullName) {
   }
 }
 
-function openNoteModal(targetName) {
-  state.activeNoteTarget = targetName;
-  document.getElementById('modal-repo-title').textContent = `Ghi chú cho ${targetName}`;
-  const existing = state.notesData.notes[targetName] || {};
-  document.getElementById('note-textarea').value = existing.text || '';
-  document.getElementById('note-tags-input').value = (existing.tags || []).join(', ');
+function openNoteModal(fullName) {
+  state.activeNoteTarget = fullName;
+  const title = document.getElementById('modal-repo-title');
+  const textarea = document.getElementById('note-textarea');
+  const tagsInput = document.getElementById('note-tags-input');
+
+  title.textContent = `Ghi chú cho: ${fullName}`;
+  const existing = state.notesData.notes[fullName] || {};
+  textarea.value = existing.text || '';
+  tagsInput.value = (existing.tags || []).join(', ');
+
   document.getElementById('note-modal').classList.add('open');
-  document.getElementById('note-textarea').focus();
+  textarea.focus();
 }
 
 function closeNoteModal() {
@@ -886,7 +1375,6 @@ function closeExportModal() {
 
 async function triggerCustomExport() {
   if (_STATIC_MODE) {
-    // Static mode: download as JSON blob
     showToast('Đang tải xuống dữ liệu...');
     try {
       const blob = new Blob([JSON.stringify({ repos: state.starsRepos, trending: state.trendingRepos, stats: state.stats }, null, 2)], { type: 'application/json' });

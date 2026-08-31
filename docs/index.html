@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub & Hugging Face Stars, Trending & AI Radar | @vuongdat67</title>
-  <meta name="description" content="Workspace theo dõi dự án nguồn mở thịnh hành, quản lý kho stars và radar tin tức AI.">
+  <title>GitHub & Hugging Face Stars, Trending, Collections & AI Radar | @vuongdat67</title>
+  <meta name="description" content="Workspace theo dõi dự án nguồn mở thịnh hành, quản lý kho stars, bộ sưu tập công nghệ và radar tin tức AI.">
 
-  <!-- Lucide Icons -->
+  <!-- Lucide Icons & Chart.js -->
   <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
   <!-- Jet-Black Zinc Stylesheet -->
   <link rel="stylesheet" href="./css/style.css">
@@ -36,6 +37,18 @@
       </div>
 
       <div class="topbar-actions">
+        <!-- New Feature: Quick Repo Inspector -->
+        <button class="btn-zinc" onclick="openInspectorModal()" title="Tra cứu nhanh bất kỳ repo GitHub nào">
+          <i data-lucide="scan-search" style="width: 13px; height: 13px; color: var(--pill-blue-text);"></i>
+          <span>Tra Cứu Repo</span>
+        </button>
+
+        <!-- New Feature: Weekly Digest -->
+        <button class="btn-zinc" onclick="openDigestModal()" title="Bản tin tóm tắt xu hướng công nghệ tuần">
+          <i data-lucide="newspaper" style="width: 13px; height: 13px; color: var(--pill-purple-text);"></i>
+          <span>Bản Tin Tuần</span>
+        </button>
+
         <button class="btn-zinc btn-icon" id="toggle-sidebar-top-btn" onclick="toggleSidebarVisibility()" title="Ẩn/Hiện Sidebar Danh Mục">
           <i data-lucide="sidebar" style="width: 14px; height: 14px;"></i>
         </button>
@@ -54,7 +67,7 @@
     </div>
   </header>
 
-  <!-- ==================== LIVE MOMENTUM TICKER (EXACT USER SPEC) ==================== -->
+  <!-- ==================== LIVE MOMENTUM TICKER ==================== -->
   <div class="ticker-strip">
     <div class="ticker-lead">
       <i data-lucide="activity" style="width: 12px; height: 12px; color: var(--pill-blue-text);"></i>
@@ -75,8 +88,8 @@
         <!-- Controls Box -->
         <div class="controls-panel">
           <div class="controls-row-top">
-            <!-- Mode Tabs -->
-            <div class="tab-btn-group">
+            <!-- Mode Tabs (Expanded to 7 modes) -->
+            <div class="tab-btn-group" style="flex-wrap: wrap;">
               <button class="tab-btn active" id="mode-btn-trending" onclick="switchFeedMode('trending')">
                 <i data-lucide="flame" style="width: 13px; height: 13px; color: var(--pill-amber-text);"></i>
                 <span>Thịnh hành</span>
@@ -93,6 +106,21 @@
                 <i data-lucide="radio" style="width: 13px; height: 13px; color: var(--pill-purple-text);"></i>
                 <span>AI & Tech Radar</span>
               </button>
+              <!-- NEW: Curated Collections Tab -->
+              <button class="tab-btn" id="mode-btn-collections" onclick="switchFeedMode('collections')">
+                <i data-lucide="folder-heart" style="width: 13px; height: 13px; color: var(--pill-red-text);"></i>
+                <span>Bộ Sưu Tập</span>
+              </button>
+              <!-- NEW: Stats Dashboard Tab -->
+              <button class="tab-btn" id="mode-btn-stats" onclick="switchFeedMode('stats')">
+                <i data-lucide="bar-chart-3" style="width: 13px; height: 13px; color: var(--pill-blue-text);"></i>
+                <span>Thống Kê & Velocity</span>
+              </button>
+              <!-- NEW: Dev Tools & Launch Tab -->
+              <button class="tab-btn" id="mode-btn-tools" onclick="switchFeedMode('tools')">
+                <i data-lucide="wrench" style="width: 13px; height: 13px; color: var(--pill-cyan-text);"></i>
+                <span>Dev Tools & Launch</span>
+              </button>
             </div>
 
             <!-- Time Period Group -->
@@ -108,7 +136,16 @@
             <!-- Rendered dynamically by JS -->
           </div>
 
-          <div class="controls-row-bottom">
+          <!-- Tools Sub-Category Pills (Tools vs Launch Showcase) -->
+          <div id="tools-subfilters" class="radar-subfilter-bar" style="display: none;">
+            <button class="pill-btn active" onclick="switchToolsSubfilter('all')">Tất Cả Công Cụ</button>
+            <button class="pill-btn" onclick="switchToolsSubfilter('launch')">🚀 Launch Board (Showcase)</button>
+            <button class="pill-btn" onclick="switchToolsSubfilter('ai')">🤖 AI & MCP Tools</button>
+            <button class="pill-btn" onclick="switchToolsSubfilter('debug')">🐛 Debug & Testing</button>
+            <button class="pill-btn" onclick="switchToolsSubfilter('sec')">🛡️ Security & Auth</button>
+          </div>
+
+          <div class="controls-row-bottom" id="controls-row-bottom">
             <!-- Search -->
             <div class="search-wrap">
               <i data-lucide="search"></i>
@@ -137,7 +174,7 @@
             </select>
 
             <!-- Layout switcher (3 cols, 2 cols, 1 col) -->
-            <div class="layout-toggle-group">
+            <div class="layout-toggle-group" id="layout-toggle-group">
               <button class="layout-btn active" id="layout-btn-3" onclick="switchLayout('layout-grid-3')" title="Lưới 3 cột (Tối ưu không gian)">
                 <i data-lucide="layout-grid" style="width: 14px; height: 14px;"></i>
               </button>
@@ -152,14 +189,95 @@
         </div>
 
         <!-- Result Info Bar -->
-        <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 2px 8px; font-size: 12px; color: var(--text-muted);">
+        <div id="result-info-bar" style="display: flex; justify-content: space-between; align-items: center; padding: 0 2px 8px; font-size: 12px; color: var(--text-muted);">
           <div>Hiển thị <strong id="displayed-count-label" style="color: var(--text-main);">0</strong> mục</div>
           <div id="active-filter-badge" style="font-family: var(--font-mono); font-size: 11px; color: var(--pill-blue-text);"></div>
         </div>
 
-        <!-- Cards Feed Grid -->
+        <!-- Cards Feed Grid (Dynamic) -->
         <div class="cards-feed-grid layout-grid-3" id="cards-feed-container">
           <!-- Rendered by JS -->
+        </div>
+
+        <!-- STATS & VELOCITY DASHBOARD VIEW CONTAINER (Hidden by default, shown in 'stats' mode) -->
+        <div id="stats-view-container" class="stats-dashboard-wrap" style="display: none;">
+          <!-- 1. KPI Cards -->
+          <div class="stats-kpi-grid">
+            <div class="stats-kpi-card">
+              <div class="kpi-label"><i data-lucide="star" style="width: 13px; height: 13px; color: var(--accent-star);"></i> Tổng Sao Đã Tích Lũy</div>
+              <div class="kpi-value" id="kpi-total-stars">0</div>
+              <div class="kpi-subtext" id="kpi-total-repos-sub">Từ 0 repositories</div>
+            </div>
+            <div class="stats-kpi-card">
+              <div class="kpi-label"><i data-lucide="flame" style="width: 13px; height: 13px; color: var(--pill-amber-text);"></i> Quán Quân Bứt Phá Hôm Nay</div>
+              <div class="kpi-value" style="font-size: 16px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" id="kpi-top-gainer">-</div>
+              <div class="kpi-subtext" id="kpi-top-gain-sub">+0 stars</div>
+            </div>
+            <div class="stats-kpi-card">
+              <div class="kpi-label"><i data-lucide="code" style="width: 13px; height: 13px; color: var(--pill-blue-text);"></i> Ngôn Ngữ Chủ Đạo</div>
+              <div class="kpi-value" id="kpi-top-lang">-</div>
+              <div class="kpi-subtext" id="kpi-top-lang-sub">0% thị phần kho star</div>
+            </div>
+            <div class="stats-kpi-card">
+              <div class="kpi-label"><i data-lucide="sparkles" style="width: 13px; height: 13px; color: var(--pill-purple-text);"></i> Trung Bình Sao / Repo</div>
+              <div class="kpi-value" id="kpi-avg-stars">0</div>
+              <div class="kpi-subtext">Độ uy tín trung bình</div>
+            </div>
+          </div>
+
+          <!-- 2. Star Velocity Leaderboard -->
+          <div class="chart-card-box">
+            <div class="chart-card-header">
+              <div class="chart-card-title">
+                <i data-lucide="trending-up" style="width: 16px; height: 16px; color: var(--pill-green-text);"></i>
+                <span>Bảng Xếp Hạng Tốc Độ Tăng Trưởng (Star Velocity Leaderboard)</span>
+              </div>
+              <span style="font-size: 11px; color: var(--text-muted); font-family: var(--font-mono);">Cập nhật liên tục</span>
+            </div>
+            <div id="velocity-leaderboard-container"></div>
+          </div>
+
+          <!-- 3. Charts 2-Column Grid -->
+          <div class="charts-grid-2col">
+            <!-- Language Doughnut -->
+            <div class="chart-card-box">
+              <div class="chart-card-header">
+                <div class="chart-card-title">
+                  <i data-lucide="pie-chart" style="width: 15px; height: 15px; color: var(--pill-blue-text);"></i>
+                  <span>Phân Bố Ngôn Ngữ Lập Trình</span>
+                </div>
+              </div>
+              <div class="chart-canvas-container">
+                <canvas id="chart-languages"></canvas>
+              </div>
+            </div>
+
+            <!-- Categories Bar -->
+            <div class="chart-card-box">
+              <div class="chart-card-header">
+                <div class="chart-card-title">
+                  <i data-lucide="layers" style="width: 15px; height: 15px; color: var(--pill-purple-text);"></i>
+                  <span>Phân Loại Lĩnh Vực Công Nghệ</span>
+                </div>
+              </div>
+              <div class="chart-canvas-container">
+                <canvas id="chart-categories"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Timeline Bar -->
+          <div class="chart-card-box">
+            <div class="chart-card-header">
+              <div class="chart-card-title">
+                <i data-lucide="calendar" style="width: 15px; height: 15px; color: var(--pill-amber-text);"></i>
+                <span>Dòng Thời Gian Tích Lũy Stars (Theo Năm)</span>
+              </div>
+            </div>
+            <div class="chart-canvas-container" style="height: 200px;">
+              <canvas id="chart-timeline"></canvas>
+            </div>
+          </div>
         </div>
 
         <!-- Infinite Scroll Sentinel -->
@@ -172,11 +290,11 @@
 
       </main>
 
-      <!-- RIGHT SIDEBAR (DYNAMIC FIELDS ACCORDING TO ACTIVE VIEW) -->
+      <!-- RIGHT SIDEBAR -->
       <aside class="sidebar-column" id="sidebar-column">
 
         <!-- Domains / Categories -->
-        <div class="sidebar-box">
+        <div class="sidebar-box" id="sidebar-categories-box">
           <div class="sidebar-heading">
             <span id="sidebar-cat-heading-title">Danh Mục Phân Loại</span>
           </div>
@@ -186,7 +304,7 @@
         </div>
 
         <!-- Hot Topics Cloud -->
-        <div class="sidebar-box">
+        <div class="sidebar-box" id="sidebar-topics-box">
           <div class="sidebar-heading">
             <span>Chủ Đề Hot (#Topics)</span>
           </div>
@@ -198,8 +316,68 @@
           </button>
         </div>
 
+        <!-- NEW: Dev Quote & Fun Radar Widget -->
+        <div class="sidebar-box" id="sidebar-quote-box">
+          <div class="sidebar-heading" style="justify-content: space-between;">
+            <span style="display: flex; align-items: center; gap: 5px;">
+              <i data-lucide="quote" style="width: 12px; height: 12px; color: var(--pill-amber-text);"></i>
+              <span>Dev Quote Radar</span>
+            </span>
+            <button class="btn-zinc btn-icon" onclick="refreshDevQuote()" style="width: 20px; height: 20px;" title="Đổi câu châm ngôn">
+              <i data-lucide="rotate-cw" style="width: 11px; height: 11px;"></i>
+            </button>
+          </div>
+          <div class="quote-card">
+            <div class="quote-text" id="dev-quote-text">"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."</div>
+            <div class="quote-author" id="dev-quote-author">— Martin Fowler</div>
+          </div>
+        </div>
+
       </aside>
 
+    </div>
+  </div>
+
+  <!-- ==================== NEW: QUICK REPO INSPECTOR MODAL ==================== -->
+  <div class="modal-overlay" id="inspector-modal">
+    <div class="modal-card" style="max-width: 640px;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+        <h3 style="font-size: 14px; font-weight: 700; display: flex; align-items: center; gap: 6px;">
+          <i data-lucide="scan-search" style="width: 16px; height: 16px; color: var(--pill-blue-text);"></i>
+          <span>Quick Repo Inspector (Tra cứu repo bất kỳ)</span>
+        </h3>
+        <button class="btn-zinc btn-icon" onclick="closeInspectorModal()"><i data-lucide="x" style="width: 14px; height: 14px;"></i></button>
+      </div>
+
+      <div class="inspector-search-box">
+        <input type="text" id="inspector-input" class="input-text" placeholder="Nhập owner/repo hoặc link GitHub (ví dụ: astral-sh/uv, facebook/react)..." style="flex: 1;" onkeydown="if(event.key==='Enter') executeRepoInspect()">
+        <button class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text);" onclick="executeRepoInspect()">Tra Cứu</button>
+      </div>
+
+      <!-- Result Container -->
+      <div id="inspector-result-container">
+        <div style="text-align: center; padding: 30px 10px; color: var(--text-muted); font-size: 12.5px;">
+          <i data-lucide="search" style="width: 28px; height: 28px; margin-bottom: 8px; opacity: 0.4;"></i>
+          <div>Nhập tên repository hoặc dán đường dẫn GitHub để tra cứu metadata và thống kê trực tiếp.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== NEW: WEEKLY DIGEST MODAL ==================== -->
+  <div class="modal-overlay" id="digest-modal">
+    <div class="modal-card" style="max-width: 660px; max-height: 85vh; overflow-y: auto;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+        <h3 style="font-size: 14px; font-weight: 700; display: flex; align-items: center; gap: 6px;">
+          <i data-lucide="newspaper" style="width: 16px; height: 16px; color: var(--pill-purple-text);"></i>
+          <span>Bản Tin Tóm Tắt Xu Hướng Tuần (Weekly AI Digest)</span>
+        </h3>
+        <button class="btn-zinc btn-icon" onclick="closeDigestModal()"><i data-lucide="x" style="width: 14px; height: 14px;"></i></button>
+      </div>
+
+      <div id="digest-modal-content">
+        <!-- Rendered by JS -->
+      </div>
     </div>
   </div>
 
@@ -284,7 +462,8 @@
   <!-- Toast Box -->
   <div class="toast-container" id="toast-box"></div>
 
-  <!-- Coordinator Script -->
+  <!-- Scripts -->
+  <script src="./js/charts.js"></script>
   <script src="./js/app.js"></script>
 </body>
 </html>

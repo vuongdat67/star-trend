@@ -1,0 +1,118 @@
+{
+  "collections": [
+    {
+      "id": "ai-coding-agents",
+      "title": "🤖 AI Coding Agents & MCP Frameworks",
+      "icon": "bot",
+      "badge": "Hot 2026",
+      "badge_color": "var(--pill-purple-text)",
+      "description": "Các framework và công cụ trợ lý lập trình thế hệ mới, MCP servers, autonomous agents và LLM execution environments.",
+      "repos": [
+        "anthropics/anthropic-quickstarts",
+        "modelcontextprotocol/servers",
+        "cline/cline",
+        "continuedev/continue",
+        "browser-use/browser-use",
+        "All-Hands-AI/OpenHands",
+        "Aider-AI/aider",
+        "Significant-Gravitas/AutoGPT"
+      ],
+      "tags": ["AI Agents", "MCP", "LLM", "Coding Assistant", "Claude", "OpenAI"]
+    },
+    {
+      "id": "security-re-tools",
+      "title": "🛡️ Cybersecurity, Reverse Engineering & Exploits",
+      "icon": "shield-alert",
+      "badge": "Security",
+      "badge_color": "var(--pill-red-text)",
+      "description": "Kho vũ khí phân tích mã độc, dịch ngược binary, pentest, web scanning và tự động hóa bảo mật.",
+      "repos": [
+        "NationalSecurityAgency/ghidra",
+        "radareorg/radare2",
+        "frida/frida",
+        "projectdiscovery/nuclei",
+        "sqlmapproject/sqlmap",
+        "hugsy/gef",
+        "pwndbg/pwndbg",
+        "threating/CVE-2024"
+      ],
+      "tags": ["Security", "Reverse Engineering", "Ghidra", "Pentest", "CVE", "Exploit"]
+    },
+    {
+      "id": "rust-go-cli",
+      "title": "⚡ Ultra-Fast CLI Utilities (Rust & Go)",
+      "icon": "terminal",
+      "badge": "Performance",
+      "badge_color": "var(--pill-amber-text)",
+      "description": "Công cụ dòng lệnh hiệu năng cực cao thay thế các lệnh Unix truyền thống, tăng tốc 10x workflow hàng ngày.",
+      "repos": [
+        "BurntSushi/ripgrep",
+        "sharkdp/fd",
+        "sharkdp/bat",
+        "starship/starship",
+        "junegunn/fzf",
+        "dandavison/delta",
+        "eza-community/eza",
+        "ajeetdsouza/zoxide"
+      ],
+      "tags": ["CLI", "Rust", "Go", "Developer Tools", "Productivity", "Terminal"]
+    },
+    {
+      "id": "self-hosted-cloud",
+      "title": "🏠 Self-Hosted Cloud & Open-Source Alternatives",
+      "icon": "server",
+      "badge": "Privacy",
+      "badge_color": "var(--pill-green-text)",
+      "description": "Dự án nguồn mở tự lưu trữ (Self-hosted) thay thế hoàn hảo cho Firebase, Notion, Supabase, Google Photos và AWS.",
+      "repos": [
+        "supabase/supabase",
+        "appwrite/appwrite",
+        "immich-app/immich",
+        "coollabsio/coolify",
+        "outline/outline",
+        "directus/directus",
+        "pocketbase/pocketbase",
+        "n8n-io/n8n"
+      ],
+      "tags": ["Self-Hosted", "Database", "Backend", "Privacy", "Cloud", "Automation"]
+    },
+    {
+      "id": "modern-frontend-ui",
+      "title": "🎨 Modern Frontend & Component Systems",
+      "icon": "palette",
+      "badge": "Design",
+      "badge_color": "var(--pill-blue-text)",
+      "description": "Hệ thống UI Component, animation library, motion engine và icon sets tiêu chuẩn cho web application hiện đại.",
+      "repos": [
+        "shadcn-ui/ui",
+        "tailwindlabs/tailwindcss",
+        "framer/motion",
+        "lucide-icons/lucide",
+        "excalidraw/excalidraw",
+        "tldraw/tldraw",
+        "unovue/radix-vue",
+        "pmndrs/three-fiber"
+      ],
+      "tags": ["Frontend", "UI/UX", "Tailwind", "React", "Vue", "Animation"]
+    },
+    {
+      "id": "data-local-llm",
+      "title": "📊 Local LLM & High-Performance Data Engines",
+      "icon": "cpu",
+      "badge": "AI Infra",
+      "badge_color": "var(--pill-cyan-text)",
+      "description": "Nền tảng chạy mô hình AI cục bộ (Local inference), vector database và công cụ xử lý dữ liệu hàng triệu dòng siêu tốc.",
+      "repos": [
+        "ollama/ollama",
+        "vllm-project/vllm",
+        "ggerganov/llama.cpp",
+        "pola-rs/polars",
+        "duckdb/duckdb",
+        "qdrant/qdrant",
+        "chroma-core/chroma",
+        "huggingface/transformers"
+      ],
+      "tags": ["Local LLM", "Inference", "Data", "Ollama", "DuckDB", "Polars"]
+    }
+  ]
+}
