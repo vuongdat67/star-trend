@@ -1649,9 +1649,20 @@ function openFullPageToolDetail(toolId, updateHash = true) {
                };
 
   const titleName = tool.name || tool.title;
-  const linkUrl = tool.url || tool.demo_url || tool.github_url || 'https://github.com';
+  const githubUrl = tool.github_url || tool.url || 'https://github.com';
+  const demoUrl = tool.demo_url || tool.url || githubUrl;
+  const isLaunch = Boolean(tool.author || tool.author_avatar);
+  const avatarFallback = `https://api.dicebear.com/7.x/identicon/svg?seed=${encodeURIComponent(tool.author || 'dev')}`;
 
-  if (breadcrumb) breadcrumb.innerHTML = `<span>DEV TOOLS</span> › <span>${tool.category || 'Công Cụ'}</span> › <strong style="color: var(--text-main);">${titleName.toUpperCase()}</strong>`;
+  if (breadcrumb) breadcrumb.innerHTML = `<span>DEV TOOLS</span> › <span>${tool.category || (isLaunch ? 'Launch Board' : 'Công Cụ')}</span> › <strong style="color: var(--text-main);">${titleName.toUpperCase()}</strong>`;
+
+  const iconBadgeHtml = isLaunch ? `
+    <img src="${tool.author_avatar}" class="fullpage-repo-icon" onerror="this.onerror=null; this.src='${avatarFallback}'" alt="${tool.author}">
+  ` : `
+    <div class="tool-avatar-badge" style="width: 42px; height: 42px; border-radius: 8px; background: rgba(59, 130, 246, 0.15); border: 1px solid rgba(59, 130, 246, 0.3); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #60a5fa;">
+      <i data-lucide="${tool.icon || 'wrench'}" style="width: 22px; height: 22px;"></i>
+    </div>
+  `;
 
   fullContent.innerHTML = `
     <div style="display: flex; flex-direction: column; gap: 20px;">
@@ -1659,21 +1670,27 @@ function openFullPageToolDetail(toolId, updateHash = true) {
       <div class="fullpage-repo-hero">
         <div class="fullpage-repo-header">
           <div class="fullpage-repo-title-wrap">
-            <div class="tool-avatar-badge" style="width: 42px; height: 42px; border-radius: 8px; background: rgba(59, 130, 246, 0.15); border: 1px solid rgba(59, 130, 246, 0.3); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #60a5fa;">
-              <i data-lucide="${tool.icon || 'wrench'}" style="width: 22px; height: 22px;"></i>
-            </div>
+            ${iconBadgeHtml}
             <div>
               <div style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin-bottom: 6px;">
                 <span class="badge-tag" style="color: var(--text-main); font-weight: 600;">${tool.category || 'Developer Tool'}</span>
-                <span class="badge-tag" style="color: var(--text-muted); font-weight: 600;">${tool.badge || 'Launch'}</span>
+                <span class="badge-tag" style="color: var(--text-muted); font-weight: 600;">${tool.badge || (isLaunch ? 'Launch Showcase' : 'Tool')}</span>
+                ${isLaunch ? `<span class="badge-tag" style="color: var(--pill-green-text); font-weight: 600;">by @${tool.author}</span>` : ''}
               </div>
               <h1 style="font-size: 24px; font-weight: 800; color: var(--text-main);">${titleName}</h1>
               <div style="font-size: 13.5px; color: var(--text-muted); margin-top: 6px; line-height: 1.5;">${tool.description}</div>
             </div>
           </div>
-          <div>
-            <a href="${linkUrl}" target="_blank" class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text);">
-              <span>Mở Website / GitHub ↗</span>
+          <div style="display: flex; gap: 8px;">
+            ${tool.github_url ? `
+              <a href="${tool.github_url}" target="_blank" class="btn-zinc">
+                <i data-lucide="github" style="width: 14px; height: 14px;"></i>
+                <span>GitHub ↗</span>
+              </a>
+            ` : ''}
+            <a href="${demoUrl}" target="_blank" class="btn-zinc" style="background: var(--primary-btn-bg); color: var(--primary-btn-text);">
+              <i data-lucide="external-link" style="width: 14px; height: 14px;"></i>
+              <span>Mở Trang Chủ / Demo ↗</span>
             </a>
           </div>
         </div>
@@ -1684,23 +1701,25 @@ function openFullPageToolDetail(toolId, updateHash = true) {
         <div class="fullpage-guide-card">
           <h3 style="font-size: 15px; font-weight: 700; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
             <i data-lucide="wrench" style="width: 16px; height: 16px; color: var(--text-muted);"></i>
-            Tính Năng Nổi Bật
+            Tính Năng Nổi Bật & Mô Tả
           </h3>
           <p style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">${tool.description}</p>
           <div style="margin-top: 10px; display: flex; gap: 6px; flex-wrap: wrap;">
-            ${(tool.tags || tool.tech_stack || []).map(t => `<span class="badge-tag">#${t}</span>`).join('')}
+            ${(tool.tags || tool.tech_stack || []).map(t => `<span class="domain-chip">#${t}</span>`).join('')}
           </div>
         </div>
 
         <div class="fullpage-guide-card">
           <h3 style="font-size: 15px; font-weight: 700; color: var(--text-main); display: flex; align-items: center; gap: 6px;">
-            <i data-lucide="link" style="width: 16px; height: 16px; color: var(--text-muted);"></i>
-            Đường Dẫn Truy Cập
+            <i data-lucide="info" style="width: 16px; height: 16px; color: var(--text-muted);"></i>
+            Thông Tin Chi Tiết
           </h3>
-          <div style="font-size: 12.5px; color: var(--text-muted); word-break: break-all; margin-bottom: 12px;">${linkUrl}</div>
-          <a href="${linkUrl}" target="_blank" class="btn-zinc" style="justify-content: center; background: var(--primary-btn-bg); color: var(--primary-btn-text);">
-            Truy Cập Ngay
-          </a>
+          <div style="display: flex; flex-direction: column; gap: 8px; font-size: 12.5px; margin-top: 8px;">
+            ${tool.stars ? `<div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 5px;"><span style="color: var(--text-muted);">GitHub Stars</span><strong style="color: var(--accent-star);">⭐ ${typeof tool.stars === 'number' ? formatNumber(tool.stars) : tool.stars}</strong></div>` : ''}
+            ${tool.upvotes ? `<div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 5px;"><span style="color: var(--text-muted);">Community Upvotes</span><strong style="color: var(--pill-green-text);">▲ ${tool.upvotes}</strong></div>` : ''}
+            ${tool.date ? `<div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 5px;"><span style="color: var(--text-muted);">Ngày ra mắt</span><span style="font-family: var(--font-mono); color: var(--text-muted);">${tool.date}</span></div>` : ''}
+            <div style="display: flex; justify-content: space-between; padding-bottom: 2px;"><span style="color: var(--text-muted);">Trạng thái</span><span style="color: var(--pill-green-text); font-weight: 600;">Active & Verified</span></div>
+          </div>
         </div>
       </div>
     </div>
