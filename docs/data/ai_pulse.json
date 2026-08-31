@@ -1,9 +1,8 @@
 {
   "items": [
     {
-      "id": "neurips-2026",
       "title": "NeurIPS 2026 – Neural Information Processing Systems (CCF-A / CORE A*)",
-      "summary": "Hội nghị cờ đầu toàn cầu về Học máy & Deep Learning. Tổ chức bởi NeurIPS Foundation tập trung vào các đột phá trong mô hình nền tảng, học tăng cường và lý thuyết học máy.",
+      "summary": "Hội nghị cờ đầu toàn cầu về Học máy & Deep Learning. Tổ chức bởi NeurIPS Foundation.",
       "url": "https://neurips.cc/",
       "source": "Top Conference",
       "category": "Hội Nghị Đỉnh Cao (CCF-A)",
@@ -18,9 +17,8 @@
       ]
     },
     {
-      "id": "iclr-2026",
       "title": "ICLR 2026 – International Conference on Learning Representations (CORE A*)",
-      "summary": "Hội nghị hàng đầu thế giới về kiến trúc mạng neural, representation learning, transformers và foundational AI models.",
+      "summary": "Hội nghị hàng đầu thế giới về kiến trúc mạng neural, representation learning và foundational AI models.",
       "url": "https://iclr.cc/",
       "source": "Top Conference",
       "category": "Hội Nghị Đỉnh Cao (CCF-A)",
@@ -34,9 +32,8 @@
       ]
     },
     {
-      "id": "ieee-sp-2026",
       "title": "IEEE S&P 2026 – Symposium on Security and Privacy (Oakland) (CCF-A / CORE A*)",
-      "summary": "Hội nghị danh giá bậc nhất thế giới về An toàn thông tin, mật mã học, phân tích mã độc và kiến trúc bảo mật hệ thống.",
+      "summary": "Hội nghị danh giá nhất thế giới về An toàn thông tin, mật mã học và bảo mật hệ thống.",
       "url": "https://sp2026.ieee-security.org/",
       "source": "Top Conference",
       "category": "Hội Nghị Đỉnh Cao (CCF-A)",
@@ -51,9 +48,8 @@
       ]
     },
     {
-      "id": "usenix-sec-2026",
       "title": "USENIX Security 2026 – USENIX Security Symposium (CCF-A / CORE A*)",
-      "summary": "Hội nghị đỉnh cao về bảo mật ứng dụng thực chiến, reverse engineering, lỗ hổng zero-day, sandbox evasion và firmware security.",
+      "summary": "Hội nghị đỉnh cao về bảo mật ứng dụng, reverse engineering, lỗ hổng zero-day và firmware security.",
       "url": "https://www.usenix.org/conference/usenixsecurity26",
       "source": "Top Conference",
       "category": "Hội Nghị Đỉnh Cao (CCF-A)",
@@ -67,9 +63,8 @@
       ]
     },
     {
-      "id": "acm-ccs-2026",
       "title": "ACM CCS 2026 – Conference on Computer and Communications Security (CCF-A / CORE A*)",
-      "summary": "Hội nghị an ninh mạng cờ đầu của ACM, diễn ra tại The Hague với các công trình nghiên cứu bảo mật mạng và quyền riêng tư.",
+      "summary": "Hội nghị an ninh mạng cờ đầu của ACM, diễn ra tại The Hague.",
       "url": "https://www.sigsac.org/ccs/CCS2026/",
       "source": "Top Conference",
       "category": "Hội Nghị Đỉnh Cao (CCF-A)",
@@ -83,9 +78,8 @@
       ]
     },
     {
-      "id": "ndss-2026",
       "title": "NDSS 2026 – Network and Distributed System Security Symposium (CCF-A / CORE A*)",
-      "summary": "Mảnh ghép thứ 4 trong Big-Four Security, chuyên sâu về mạng máy tính, giao thức phân tán an toàn và bảo mật hạ tầng viễn thông.",
+      "summary": "Mảnh ghép thứ 4 trong Big-Four Security, chuyên sâu về mạng máy tính và hệ thống phân tán an toàn.",
       "url": "https://www.ndss-symposium.org/",
       "source": "Top Conference",
       "category": "Hội Nghị Đỉnh Cao (CCF-A)",
@@ -99,9 +93,8 @@
       ]
     },
     {
-      "id": "cvpr-2026",
       "title": "CVPR 2026 – IEEE / CVF Computer Vision & Pattern Recognition (CCF-A / CORE A*)",
-      "summary": "Hội nghị số 1 thế giới về Thị giác máy tính, Multimodal, 3D Reconstruction và Diffusion Generative Models.",
+      "summary": "Hội nghị số 1 thế giới về Thị giác máy tính, Multimodal và Diffusion Models.",
       "url": "https://cvpr.thecvf.com/",
       "source": "Top Conference",
       "category": "Hội Nghị Đỉnh Cao (CCF-A)",
@@ -115,9 +108,8 @@
       ]
     },
     {
-      "id": "acl-2026",
       "title": "ACL 2026 – Meeting of the Association for Computational Linguistics (CCF-A / CORE A*)",
-      "summary": "Hội nghị hàng đầu thế giới về Xử lý ngôn ngữ tự nhiên (NLP), Large Language Models và đánh giá năng lực suy luận ngữ nghĩa.",
+      "summary": "Hội nghị hàng đầu thế giới về Xử lý ngôn ngữ tự nhiên (NLP) và Large Language Models.",
       "url": "https://www.aclweb.org/",
       "source": "Top Conference",
       "category": "Hội Nghị Đỉnh Cao (CCF-A)",
@@ -132,9 +124,8 @@
       ]
     },
     {
-      "id": "osdi-sosp-2026",
       "title": "OSDI / SOSP 2026 – Operating Systems Design and Implementation (CCF-A / CORE A*)",
-      "summary": "Hai hội nghị danh giá nhất thế giới về Hệ điều hành, hạt nhân Linux/Unix, hạ tầng tính toán đám mây và hệ thống lưu trữ phân tán.",
+      "summary": "Hai hội nghị danh giá nhất thế giới về Hệ điều hành, hạt nhân và hạ tầng tính toán quy mô lớn.",
       "url": "https://www.usenix.org/conference/osdi26",
       "source": "Top Conference",
       "category": "Hội Nghị Đỉnh Cao (CCF-A)",
@@ -147,54 +138,6 @@
         "kernel",
         "os",
         "ccf-a"
-      ]
-    },
-    {
-      "id": "icml-2026",
-      "title": "ICML 2026 – International Conference on Machine Learning (CCF-A / CORE A*)",
-      "summary": "Hội nghị khoa học uy tín về thuật toán học máy, lý thuyết tối ưu hóa toán học và các phương pháp học biểu diễn dữ liệu hiện đại.",
-      "url": "https://icml.cc/",
-      "source": "Top Conference",
-      "category": "Hội Nghị Đỉnh Cao (CCF-A)",
-      "badge": "ICML (Machine Learning)",
-      "published_at": "Hội nghị 2026",
-      "tags": [
-        "icml",
-        "machine-learning",
-        "algorithms",
-        "ccf-a"
-      ]
-    },
-    {
-      "id": "sigcomm-2026",
-      "title": "ACM SIGCOMM 2026 – Applications, Technologies, Architectures, and Protocols for Computer Communication",
-      "summary": "Hội nghị thường niên hàng đầu thế giới về mạng máy tính, giao thức định tuyến BGP, SDN và kiến trúc mạng trung tâm dữ liệu.",
-      "url": "https://www.sigcomm.org/",
-      "source": "Top Conference",
-      "category": "Hội Nghị Đỉnh Cao (CCF-A)",
-      "badge": "SIGCOMM (Networking)",
-      "published_at": "Networks CCF-A",
-      "tags": [
-        "sigcomm",
-        "networking",
-        "protocols",
-        "ccf-a"
-      ]
-    },
-    {
-      "id": "eurocrypt-2026",
-      "title": "EUROCRYPT 2026 – Annual International Conference on the Theory and Applications of Cryptographic Techniques",
-      "summary": "Hội nghị đỉnh cao về mật mã lý thuyết, Zero-Knowledge Proofs, mật mã lượng tử (Post-Quantum Cryptography) và bảo mật blockchain.",
-      "url": "https://eurocrypt.iacr.org/",
-      "source": "Top Conference",
-      "category": "Hội Nghị Đỉnh Cao (CCF-A)",
-      "badge": "EUROCRYPT (Crypto)",
-      "published_at": "Crypto Top",
-      "tags": [
-        "crypto",
-        "cryptography",
-        "zkp",
-        "post-quantum"
       ]
     },
     {
@@ -228,14 +171,14 @@
       ]
     },
     {
-      "title": "[cs.AI] WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
-      "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressi...",
-      "url": "http://arxiv.org/abs/2608.27454v1",
+      "title": "[cs.AI] Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning",
+      "summary": "Tendon-driven hands are anthropomorphic, and moving the actuators off the joints is what makes a hand of this capability affordable to build. Two effects produce that saving. Routing force through a cable removes the req...",
+      "url": "http://arxiv.org/abs/2608.28578v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Liyan Tang, Cyrus Rashtchian, Chun-Sung Ferng",
-      "published_at": "2026-08-27",
+      "authors": "Nan Wang, Mohit Yadav, Jonathan Wulff",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -244,14 +187,14 @@
       ]
     },
     {
-      "title": "[cs.AI] SWE-Prime: Fewer Trajectories, Better Performance",
-      "summary": "To improve large language models' ability to resolve real-world software issues, prior work has focused on constructing large-scale agent trajectory datasets and performing supervised fine-tuning (SFT) on successful traj...",
-      "url": "http://arxiv.org/abs/2608.27449v1",
+      "title": "[cs.AI] Learning a Size-Weight Frontier for Synthetic-Augmented Inference",
+      "summary": "Synthetic data can improve statistical inference when real data are scarce, but naively treating synthetic samples as real data can introduce bias and lead to unreliable inference. We develop a general framework for synt...",
+      "url": "http://arxiv.org/abs/2608.28576v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Dewu Zheng, Ruizhe Ye, Yanlin Wang",
-      "published_at": "2026-08-27",
+      "authors": "Chengpiao Huang, Kaizheng Wang",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -260,14 +203,14 @@
       ]
     },
     {
-      "title": "[cs.AI] From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
-      "summary": "In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve software quality, making the process costly and time-consuming. Although recent work e...",
-      "url": "http://arxiv.org/abs/2608.27442v1",
+      "title": "[cs.AI] Blog: Survey of Optimizers",
+      "summary": "Neural-network optimization in 2025-2026 is no longer well described as a succession of new Adam variants. The design space has expanded from coordinates to matrices and layers, from fixed training horizons to policies o...",
+      "url": "http://arxiv.org/abs/2608.28557v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Dewu Zheng, Yanlin Wang, Xiwen Wang",
-      "published_at": "2026-08-27",
+      "authors": "Ruoran Xu",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -276,14 +219,14 @@
       ]
     },
     {
-      "title": "[cs.AI] RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
-      "summary": "LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent state changes, creating greater risks than unsafe text generation alone. Exist...",
-      "url": "http://arxiv.org/abs/2608.27439v1",
+      "title": "[cs.AI] Logos: An Agent Harness on a Cross-Process Bus",
+      "summary": "Modern agent systems assemble capabilities at runtime, and this dynamic composition has recently received a complete formal treat ment in the spatiotemporal-composability calculus, in which a capability is a component ca...",
+      "url": "http://arxiv.org/abs/2608.28553v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Junjie Zhang, Hui Liu, Kecheng Chen",
-      "published_at": "2026-08-27",
+      "authors": "Hanzhang Jia, Liheng Zeng, Hao Cheng",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -292,14 +235,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation",
-      "summary": "Chemical reactions are fundamentally transformations in electron space, yet most machine learning approaches model them either through \\textit{de novo} generation of product molecules or through heuristic graph edits tha...",
-      "url": "http://arxiv.org/abs/2608.27429v1",
+      "title": "[cs.AI] Video Generative Models as Geometry Learner",
+      "summary": "Recent generative approaches to geometry estimation adapt pretrained image diffusion models and treat the task as image-conditioned generation. Leveraging off-the-shelf image diffusion models, they either (i) train task-...",
+      "url": "http://arxiv.org/abs/2608.28549v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Nguyen Xuan-Vu, Octavian Susanu, Daniel Armstrong",
-      "published_at": "2026-08-27",
+      "authors": "Haosen Yang, Jifei Song, Zhensong Zhang",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -308,14 +251,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
-      "summary": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while keeping execution (stateful, audited work) traceable. A single trust domain do...",
-      "url": "http://arxiv.org/abs/2608.27427v1",
+      "title": "[cs.AI] An Enclosed Mode Is a Gauge Choice: Topology Relative to Reach in Certified Code World Models",
+      "summary": "A code world model accepted by a sampling gate can be exactly right on everything the gate can see and arbitrarily wrong beyond it. We characterize what a certified model can know, and what its errors can cost, when the ...",
+      "url": "http://arxiv.org/abs/2608.28541v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Yisen Xi",
-      "published_at": "2026-08-27",
+      "authors": "Javier Aguilar Martín",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -324,14 +267,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Beyond F1: Evaluating Coverage and Failure Recovery in AI Model Security Scanners",
-      "summary": "Static scanners are increasingly used to identify executable or otherwise unsafe content in machine- learning artifacts, yet conventional evaluation metrics characterize only cases where a scanner yields a usable securit...",
-      "url": "http://arxiv.org/abs/2608.27424v1",
+      "title": "[cs.AI] InstructMesh: Selective Refinement of Generative 3D Models for Fabrication",
+      "summary": "Recent advances in generative AI allow users to create 3D models from text or images. However, these models prioritize visual plausibility over geometric accuracy, often generating results with flaws that compromise thei...",
+      "url": "http://arxiv.org/abs/2608.28534v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Qianlong Lan, Vinothini Pandurangan, Anuj Kaul",
-      "published_at": "2026-08-27",
+      "authors": "Faraz Faruqi, Ahmed Katary, Demircan Tas",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -340,14 +283,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Learning a Continuous Sepsis Severity Score Without Hour-by-Hour Supervision: A Two-Site Retrospective Study",
-      "summary": "Currently used sepsis severity indices rely on fixed variables and weights established decades ago, which are coarsely discretized and calibrated to a cohort that no longer reflects contemporary critical care. No alterna...",
-      "url": "http://arxiv.org/abs/2608.27421v1",
+      "title": "[cs.AI] Texture Image Classification Using DWT AlexNet Feature Fusion and Deep Neural Networks",
+      "summary": "Texture image classification plays a significant role in computer vision applications, including industrial inspection, medical image analysis, remote sensing, and object recognition. Handcrafted features can capture loc...",
+      "url": "http://arxiv.org/abs/2608.28524v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Kevin Zhu, Ryan Zhang, Baraa Abed",
-      "published_at": "2026-08-27",
+      "authors": "Arun D. Kulkarni",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -356,14 +299,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Do User-Authored Permission Policies Improve Protection Against AI Agent Overreach?",
-      "summary": "AI agents are poised to become a primary interface to digital products, acting across email, files, payments, and personal data. People without professional software backgrounds need understandable, reusable ways to cont...",
-      "url": "http://arxiv.org/abs/2608.27443v1",
+      "title": "[cs.CR Security] Offline-Verifiable Accountability for Cross-Organization Agent Messaging: A Preserved Evidence-Bundle Approach",
+      "summary": "Cross-organization agent workflows require preserved evidence that remains independently verifiable during later audit or dispute review. They may involve multiple organizations, delegated actions, policy-relevant events...",
+      "url": "http://arxiv.org/abs/2608.28542v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Ting Yan",
-      "published_at": "2026-08-27",
+      "authors": "Adil Alshammari, Hayretdin Bahsi",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -373,14 +316,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
-      "summary": "LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent state changes, creating greater risks than unsafe text generation alone. Exist...",
-      "url": "http://arxiv.org/abs/2608.27439v1",
+      "title": "[cs.CR Security] Relaxed Sender Anonymity for CBDC Interbank Settlement: A Zero-Knowledge Approach on Permissioned EVM",
+      "summary": "Central Bank Digital Currency (CBDC) interbank settlement systems operating on Distributed Ledger Technology (DLT) face a fundamental trade-off: blockchain transparency enables trustless verification but exposes commerci...",
+      "url": "http://arxiv.org/abs/2608.28529v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Junjie Zhang, Hui Liu, Kecheng Chen",
-      "published_at": "2026-08-27",
+      "authors": "Pietro Tiberi, Gabriele Marcelli, Vitangelo Lasorella",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -390,14 +333,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Beyond F1: Evaluating Coverage and Failure Recovery in AI Model Security Scanners",
-      "summary": "Static scanners are increasingly used to identify executable or otherwise unsafe content in machine- learning artifacts, yet conventional evaluation metrics characterize only cases where a scanner yields a usable securit...",
-      "url": "http://arxiv.org/abs/2608.27424v1",
+      "title": "[cs.CR Security] Recognition Without Enforcement: Configuration-Dependent Failures in LLM Agent Instruction Arbitration and External Control",
+      "summary": "LLM agents arbitrate among instructions from system prompts, users, memory, and tools, but this arbitration cannot be assumed to enforce trust boundaries. We identify a recognition-enforcement gap: source-format features...",
+      "url": "http://arxiv.org/abs/2608.28502v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Qianlong Lan, Vinothini Pandurangan, Anuj Kaul",
-      "published_at": "2026-08-27",
+      "authors": "Jun Wen Leong",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -407,14 +350,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] When Context Gets Root: Privilege Escalation in LLM Harnesses",
-      "summary": "Instruction hierarchy is a model-side defense that assigns instructions different levels of privilege according to their sources. These levels constrain which content may direct model behavior. During agent execution, ho...",
-      "url": "http://arxiv.org/abs/2608.27299v1",
+      "title": "[cs.CR Security] REPLICANT: Learning Policies for Evading and Hardening Malware Detectors",
+      "summary": "To determine the real-world effectiveness of machine learning based malware detection, it is vital to evaluate its robustness against highly capable adversaries. However, state-of-the-art attacks do not effectively model...",
+      "url": "http://arxiv.org/abs/2608.28499v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Xingbang He, Yuanwei Chen, Yi Qian",
-      "published_at": "2026-08-27",
+      "authors": "Shae McFadden, Ilias Tsingenopoulos, Mario D'Onghia",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -424,14 +367,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Low-ASR Backdoors: Exploiting Attack Success Rate Reduction and Attacker-Defender Asymmetry",
-      "summary": "Backdoor attacks are among the most effective and stealthy attacks in deep learning. Existing attacks and defenses are largely designed and evaluated under the assumption that successful backdoors exhibit high Attack Suc...",
-      "url": "http://arxiv.org/abs/2608.27288v1",
+      "title": "[cs.CR Security] LLM-Based Agents for Software and Systems Security: Approaches, Applications, and Assessment",
+      "summary": "Software and systems security workflows are typically procedural: analysts inspect heterogeneous artifacts, form hypotheses, invoke tools, interpret outputs, and revise plans. Large language model (LLM)-based agents, whi...",
+      "url": "http://arxiv.org/abs/2608.28490v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Arham Riaz, Ting Yu",
-      "published_at": "2026-08-27",
+      "authors": "Jingjing Nie, Jiawei Guo, Krishna Meda",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -441,14 +384,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] SPA: Securing Persistent LLM Agents Across Queries with Plan-First Information-Flow Control",
-      "summary": "Large language model (LLM) agents increasingly operate over untrusted webpages, documents, tools, and persistent states while exercising authority over security-sensitive resources. Existing defenses typically protect ei...",
-      "url": "http://arxiv.org/abs/2608.27234v1",
+      "title": "[cs.CR Security] Quantum-Based Solutions for Security Enhancement in Open Radio Access Networks",
+      "summary": "Open Radio Access Networks (O-RAN) introduce unprecedented flexibility, interoperability, and intelligence into next-generation wireless systems, but their disaggregated and software-defined architecture also expands the...",
+      "url": "http://arxiv.org/abs/2608.28480v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Dylan Girrens, Guangjing Wang",
-      "published_at": "2026-08-27",
+      "authors": "Dzung Quoc Ngo, Tharmikka Raveendranathan, Tuan Anh Le",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -458,14 +401,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] From Security Events to Conflict States: A Three-layer Cyber Defense Scenario Model for Enhanced Cyber Situational Awareness",
-      "summary": "Cyber defense in mission-critical environments requires integrated approaches capable of representing adversarial progression, defender-side uncertainty, mission impact, and defensive decision support within a unified fr...",
-      "url": "http://arxiv.org/abs/2608.27215v1",
+      "title": "[cs.CR Security] Exploiting Per-Core Leakage: Electromagnetic Side-Channel Monitoring of Multicore Architectures",
+      "summary": "Multicore processors are increasingly adopted in embedded systems to meet growing performance demands. However, physical side-channel analysis of multicore architectures remains underexplored, as obtaining usable leakage...",
+      "url": "http://arxiv.org/abs/2608.28412v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Miguel Requena Micó, Mario Fernandez-Tarraga, Daniel Díaz-López",
-      "published_at": "2026-08-27",
+      "authors": "Daehyeon Bae, Sujin Park, Insup Lee",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -475,20 +418,36 @@
       ]
     },
     {
-      "title": "[cs.CR Security] X-WAD: eXplainable Web Anomaly Detection",
-      "summary": "The rapid growth of web-based services, particularly API-driven architectures, reflects an increasing reliance on distributed systems, exposing sensitive data to security risks and making the adoption of automated defens...",
-      "url": "http://arxiv.org/abs/2608.27172v1",
+      "title": "[cs.CR Security] LongPIBench: A Long-Context Benchmark for Prompt Injection",
+      "summary": "Prompt injection attacks pose a serious security risk to large language models in real-world applications. However, existing prompt injection benchmarks primarily focus on short-context inputs, leaving the attacks and de...",
+      "url": "http://arxiv.org/abs/2608.28411v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Matteo Bitussi, Roberto Doriguzzi-Corin",
-      "published_at": "2026-08-27",
+      "authors": "Yupei Liu, Yuqi Jia, Neil Zhenqiang Gong",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
         "cs.cr",
         "cs.cr",
         "security"
+      ]
+    },
+    {
+      "title": "J-Zero: Unified Challenger--Solver--Judge Co-Evolution from Zero Data",
+      "summary": "Self-evolving language models have recently emerged as a promising path toward superintelligence, with the advantage of reducing the cost of human supervision. While considerable progress has been made in verifiable doma...",
+      "url": "https://huggingface.co/papers/2608.26582",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 10",
+      "upvotes": 10,
+      "authors": "Gyouk Chu, Myeongho Jeon, Eunho Yang",
+      "published_at": "2026-08-26",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
       ]
     },
     {
@@ -497,8 +456,8 @@
       "url": "https://huggingface.co/papers/2608.27529",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Jiarong Han, Jincheng Xiong, Yuzhou Liu",
       "published_at": "2026-08-26",
       "tags": [
@@ -513,8 +472,8 @@
       "url": "https://huggingface.co/papers/2608.24777",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Zhijie Zheng, Yu Li, Chen Qian",
       "published_at": "2026-08-24",
       "tags": [
@@ -529,8 +488,8 @@
       "url": "https://huggingface.co/papers/2608.27906",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 2",
+      "upvotes": 2,
       "authors": "Rui Jin, Jikai Chen, Yihan Chen",
       "published_at": "2026-08-27",
       "tags": [
@@ -625,8 +584,8 @@
       "url": "https://huggingface.co/papers/2608.27549",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 15",
-      "upvotes": 15,
+      "badge": "⭐ 17",
+      "upvotes": 17,
       "authors": "Hanyang Wang, Yimo Cai, Weiliang Chen",
       "published_at": "2026-08-26",
       "tags": [
@@ -641,8 +600,8 @@
       "url": "https://huggingface.co/papers/2608.28478",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 8",
-      "upvotes": 8,
+      "badge": "⭐ 9",
+      "upvotes": 9,
       "authors": "Zhuoshi Pan, Junru Lu, Yan Qian",
       "published_at": "2026-08-27",
       "tags": [
@@ -657,8 +616,8 @@
       "url": "https://huggingface.co/papers/2608.28476",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 10",
-      "upvotes": 10,
+      "badge": "⭐ 13",
+      "upvotes": 13,
       "authors": "Zhuoshi Pan, Qizhi Pei, Junru Lu",
       "published_at": "2026-08-27",
       "tags": [
@@ -789,22 +748,6 @@
       "upvotes": 12,
       "authors": "Youtian Lin, Yikang Yang, Zhanpeng Hu",
       "published_at": "2026-08-25",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Thinking on Shots: Consistent Multi-Shot Video Editing with Agentic Reasoning",
-      "summary": "While generative AI has significantly advanced video editing, existing methods primarily focus on single-shot or short video clips. Editing long videos with multiple instructions remains a formidable challenge. Naive chu...",
-      "url": "https://huggingface.co/papers/2608.26809",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
-      "authors": "Chenyang Wu, Fuchen Long, Binyuan Huang",
-      "published_at": "2026-08-26",
       "tags": [
         "paper",
         "arxiv",
@@ -1059,27 +1002,12 @@
     },
     {
       "title": "“I just chose words carefully”",
-      "summary": "Hacker News (366 pts, 95 comments) by @zdw",
+      "summary": "Hacker News (387 pts, 97 comments) by @zdw",
       "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "366 pts",
-      "upvotes": 366,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Creepy Crawlies",
-      "summary": "Hacker News (959 pts, 466 comments) by @zdw",
-      "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "959 pts",
-      "upvotes": 959,
+      "badge": "387 pts",
+      "upvotes": 387,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1089,12 +1017,27 @@
     },
     {
       "title": "Understanding ChatGPT Work",
-      "summary": "Hacker News (58 pts, 22 comments) by @gmays",
+      "summary": "Hacker News (70 pts, 25 comments) by @gmays",
       "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "58 pts",
-      "upvotes": 58,
+      "badge": "70 pts",
+      "upvotes": 70,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Creepy Crawlies",
+      "summary": "Hacker News (967 pts, 475 comments) by @zdw",
+      "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "967 pts",
+      "upvotes": 967,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1104,12 +1047,12 @@
     },
     {
       "title": "Matrox: Graphics for Professionals",
-      "summary": "Hacker News (39 pts, 7 comments) by @BirAdam",
+      "summary": "Hacker News (43 pts, 9 comments) by @BirAdam",
       "url": "https://www.abortretry.fail/p/matrox",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "39 pts",
-      "upvotes": 39,
+      "badge": "43 pts",
+      "upvotes": 43,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1119,72 +1062,12 @@
     },
     {
       "title": "Haiku R1/beta6 has been released",
-      "summary": "Hacker News (265 pts, 82 comments) by @metrofun",
+      "summary": "Hacker News (268 pts, 83 comments) by @metrofun",
       "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "265 pts",
-      "upvotes": 265,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "CobaltC – The Successor to C?",
-      "summary": "Hacker News (4 pts, 2 comments) by @SilentLambda",
-      "url": "https://strawberry9.github.io/the-wrong-memory/Appendix_06.html",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "4 pts",
-      "upvotes": 4,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Cores in space: The core memory module from a 1980 Spacelab computer",
-      "summary": "Hacker News (85 pts, 13 comments) by @pwg",
-      "url": "https://www.righto.com/2026/08/spacelab-core-memory.html",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "85 pts",
-      "upvotes": 85,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Show HN: NFC Energy-Harvesting PCB Business Card with an MCU",
-      "summary": "Hacker News (121 pts, 13 comments) by @WilsonHarper",
-      "url": "https://wilsonharper.net/projects/businesscard/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "121 pts",
-      "upvotes": 121,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "How to build a diffusion language model",
-      "summary": "Hacker News (20 pts, 2 comments) by @volodia",
-      "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "20 pts",
-      "upvotes": 20,
+      "badge": "268 pts",
+      "upvotes": 268,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1194,12 +1077,57 @@
     },
     {
       "title": "It takes 5 cloud services to hear my doorbell",
-      "summary": "Hacker News (18 pts, 4 comments) by @vghaisas",
+      "summary": "Hacker News (27 pts, 12 comments) by @vghaisas",
       "url": "https://blog.vghaisas.com/rube-goldberg-doorbell/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "18 pts",
-      "upvotes": 18,
+      "badge": "27 pts",
+      "upvotes": 27,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "CobaltC – The Successor to C?",
+      "summary": "Hacker News (7 pts, 7 comments) by @SilentLambda",
+      "url": "https://strawberry9.github.io/the-wrong-memory/Appendix_06.html",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "7 pts",
+      "upvotes": 7,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Cores in space: The core memory module from a 1980 Spacelab computer",
+      "summary": "Hacker News (87 pts, 13 comments) by @pwg",
+      "url": "https://www.righto.com/2026/08/spacelab-core-memory.html",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "87 pts",
+      "upvotes": 87,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Show HN: NFC Energy-Harvesting PCB Business Card with an MCU",
+      "summary": "Hacker News (123 pts, 13 comments) by @WilsonHarper",
+      "url": "https://wilsonharper.net/projects/businesscard/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "123 pts",
+      "upvotes": 123,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1209,12 +1137,27 @@
     },
     {
       "title": "Sort branches by last commit date",
-      "summary": "Hacker News (95 pts, 34 comments) by @speckx",
+      "summary": "Hacker News (96 pts, 35 comments) by @speckx",
       "url": "https://ryangreenberg.com/til/git-branches-by-commit-date/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "95 pts",
-      "upvotes": 95,
+      "badge": "96 pts",
+      "upvotes": 96,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "How to build a diffusion language model",
+      "summary": "Hacker News (21 pts, 2 comments) by @volodia",
+      "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "21 pts",
+      "upvotes": 21,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1224,27 +1167,12 @@
     },
     {
       "title": "Continuous Diffusion Language Models (CDLM's)",
-      "summary": "Hacker News (66 pts, 26 comments) by @peter_d_sherman",
+      "summary": "Hacker News (68 pts, 27 comments) by @peter_d_sherman",
       "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "66 pts",
-      "upvotes": 66,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Commercially Available Bike Generators Are Not Sustainable (2011)",
-      "summary": "Hacker News (36 pts, 26 comments) by @baud147258",
-      "url": "https://solar.lowtechmagazine.com/2011/05/bike-powered-electricity-generators-are-not-sustainable/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "36 pts",
-      "upvotes": 36,
+      "badge": "68 pts",
+      "upvotes": 68,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1254,12 +1182,27 @@
     },
     {
       "title": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver",
-      "summary": "Hacker News (79 pts, 34 comments) by @SillyUsername",
+      "summary": "Hacker News (82 pts, 34 comments) by @SillyUsername",
       "url": "https://github.com/KodeMunkie/sm750hdmifb",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "79 pts",
-      "upvotes": 79,
+      "badge": "82 pts",
+      "upvotes": 82,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Hacking IKEA Furniture",
+      "summary": "Hacker News (274 pts, 187 comments) by @greenlightning",
+      "url": "https://greenlightning.eu/diy/hacking-ikea-furniture/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "274 pts",
+      "upvotes": 274,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1434,9 +1377,8 @@
   ],
   "data": [
     {
-      "id": "neurips-2026",
       "title": "NeurIPS 2026 – Neural Information Processing Systems (CCF-A / CORE A*)",
-      "summary": "Hội nghị cờ đầu toàn cầu về Học máy & Deep Learning. Tổ chức bởi NeurIPS Foundation tập trung vào các đột phá trong mô hình nền tảng, học tăng cường và lý thuyết học máy.",
+      "summary": "Hội nghị cờ đầu toàn cầu về Học máy & Deep Learning. Tổ chức bởi NeurIPS Foundation.",
       "url": "https://neurips.cc/",
       "source": "Top Conference",
       "category": "Hội Nghị Đỉnh Cao (CCF-A)",
@@ -1451,9 +1393,8 @@
       ]
     },
     {
-      "id": "iclr-2026",
       "title": "ICLR 2026 – International Conference on Learning Representations (CORE A*)",
-      "summary": "Hội nghị hàng đầu thế giới về kiến trúc mạng neural, representation learning, transformers và foundational AI models.",
+      "summary": "Hội nghị hàng đầu thế giới về kiến trúc mạng neural, representation learning và foundational AI models.",
       "url": "https://iclr.cc/",
       "source": "Top Conference",
       "category": "Hội Nghị Đỉnh Cao (CCF-A)",
@@ -1467,9 +1408,8 @@
       ]
     },
     {
-      "id": "ieee-sp-2026",
       "title": "IEEE S&P 2026 – Symposium on Security and Privacy (Oakland) (CCF-A / CORE A*)",
-      "summary": "Hội nghị danh giá bậc nhất thế giới về An toàn thông tin, mật mã học, phân tích mã độc và kiến trúc bảo mật hệ thống.",
+      "summary": "Hội nghị danh giá nhất thế giới về An toàn thông tin, mật mã học và bảo mật hệ thống.",
       "url": "https://sp2026.ieee-security.org/",
       "source": "Top Conference",
       "category": "Hội Nghị Đỉnh Cao (CCF-A)",
@@ -1484,9 +1424,8 @@
       ]
     },
     {
-      "id": "usenix-sec-2026",
       "title": "USENIX Security 2026 – USENIX Security Symposium (CCF-A / CORE A*)",
-      "summary": "Hội nghị đỉnh cao về bảo mật ứng dụng thực chiến, reverse engineering, lỗ hổng zero-day, sandbox evasion và firmware security.",
+      "summary": "Hội nghị đỉnh cao về bảo mật ứng dụng, reverse engineering, lỗ hổng zero-day và firmware security.",
       "url": "https://www.usenix.org/conference/usenixsecurity26",
       "source": "Top Conference",
       "category": "Hội Nghị Đỉnh Cao (CCF-A)",
@@ -1500,9 +1439,8 @@
       ]
     },
     {
-      "id": "acm-ccs-2026",
       "title": "ACM CCS 2026 – Conference on Computer and Communications Security (CCF-A / CORE A*)",
-      "summary": "Hội nghị an ninh mạng cờ đầu của ACM, diễn ra tại The Hague với các công trình nghiên cứu bảo mật mạng và quyền riêng tư.",
+      "summary": "Hội nghị an ninh mạng cờ đầu của ACM, diễn ra tại The Hague.",
       "url": "https://www.sigsac.org/ccs/CCS2026/",
       "source": "Top Conference",
       "category": "Hội Nghị Đỉnh Cao (CCF-A)",
@@ -1516,9 +1454,8 @@
       ]
     },
     {
-      "id": "ndss-2026",
       "title": "NDSS 2026 – Network and Distributed System Security Symposium (CCF-A / CORE A*)",
-      "summary": "Mảnh ghép thứ 4 trong Big-Four Security, chuyên sâu về mạng máy tính, giao thức phân tán an toàn và bảo mật hạ tầng viễn thông.",
+      "summary": "Mảnh ghép thứ 4 trong Big-Four Security, chuyên sâu về mạng máy tính và hệ thống phân tán an toàn.",
       "url": "https://www.ndss-symposium.org/",
       "source": "Top Conference",
       "category": "Hội Nghị Đỉnh Cao (CCF-A)",
@@ -1532,9 +1469,8 @@
       ]
     },
     {
-      "id": "cvpr-2026",
       "title": "CVPR 2026 – IEEE / CVF Computer Vision & Pattern Recognition (CCF-A / CORE A*)",
-      "summary": "Hội nghị số 1 thế giới về Thị giác máy tính, Multimodal, 3D Reconstruction và Diffusion Generative Models.",
+      "summary": "Hội nghị số 1 thế giới về Thị giác máy tính, Multimodal và Diffusion Models.",
       "url": "https://cvpr.thecvf.com/",
       "source": "Top Conference",
       "category": "Hội Nghị Đỉnh Cao (CCF-A)",
@@ -1548,9 +1484,8 @@
       ]
     },
     {
-      "id": "acl-2026",
       "title": "ACL 2026 – Meeting of the Association for Computational Linguistics (CCF-A / CORE A*)",
-      "summary": "Hội nghị hàng đầu thế giới về Xử lý ngôn ngữ tự nhiên (NLP), Large Language Models và đánh giá năng lực suy luận ngữ nghĩa.",
+      "summary": "Hội nghị hàng đầu thế giới về Xử lý ngôn ngữ tự nhiên (NLP) và Large Language Models.",
       "url": "https://www.aclweb.org/",
       "source": "Top Conference",
       "category": "Hội Nghị Đỉnh Cao (CCF-A)",
@@ -1565,9 +1500,8 @@
       ]
     },
     {
-      "id": "osdi-sosp-2026",
       "title": "OSDI / SOSP 2026 – Operating Systems Design and Implementation (CCF-A / CORE A*)",
-      "summary": "Hai hội nghị danh giá nhất thế giới về Hệ điều hành, hạt nhân Linux/Unix, hạ tầng tính toán đám mây và hệ thống lưu trữ phân tán.",
+      "summary": "Hai hội nghị danh giá nhất thế giới về Hệ điều hành, hạt nhân và hạ tầng tính toán quy mô lớn.",
       "url": "https://www.usenix.org/conference/osdi26",
       "source": "Top Conference",
       "category": "Hội Nghị Đỉnh Cao (CCF-A)",
@@ -1580,54 +1514,6 @@
         "kernel",
         "os",
         "ccf-a"
-      ]
-    },
-    {
-      "id": "icml-2026",
-      "title": "ICML 2026 – International Conference on Machine Learning (CCF-A / CORE A*)",
-      "summary": "Hội nghị khoa học uy tín về thuật toán học máy, lý thuyết tối ưu hóa toán học và các phương pháp học biểu diễn dữ liệu hiện đại.",
-      "url": "https://icml.cc/",
-      "source": "Top Conference",
-      "category": "Hội Nghị Đỉnh Cao (CCF-A)",
-      "badge": "ICML (Machine Learning)",
-      "published_at": "Hội nghị 2026",
-      "tags": [
-        "icml",
-        "machine-learning",
-        "algorithms",
-        "ccf-a"
-      ]
-    },
-    {
-      "id": "sigcomm-2026",
-      "title": "ACM SIGCOMM 2026 – Applications, Technologies, Architectures, and Protocols for Computer Communication",
-      "summary": "Hội nghị thường niên hàng đầu thế giới về mạng máy tính, giao thức định tuyến BGP, SDN và kiến trúc mạng trung tâm dữ liệu.",
-      "url": "https://www.sigcomm.org/",
-      "source": "Top Conference",
-      "category": "Hội Nghị Đỉnh Cao (CCF-A)",
-      "badge": "SIGCOMM (Networking)",
-      "published_at": "Networks CCF-A",
-      "tags": [
-        "sigcomm",
-        "networking",
-        "protocols",
-        "ccf-a"
-      ]
-    },
-    {
-      "id": "eurocrypt-2026",
-      "title": "EUROCRYPT 2026 – Annual International Conference on the Theory and Applications of Cryptographic Techniques",
-      "summary": "Hội nghị đỉnh cao về mật mã lý thuyết, Zero-Knowledge Proofs, mật mã lượng tử (Post-Quantum Cryptography) và bảo mật blockchain.",
-      "url": "https://eurocrypt.iacr.org/",
-      "source": "Top Conference",
-      "category": "Hội Nghị Đỉnh Cao (CCF-A)",
-      "badge": "EUROCRYPT (Crypto)",
-      "published_at": "Crypto Top",
-      "tags": [
-        "crypto",
-        "cryptography",
-        "zkp",
-        "post-quantum"
       ]
     },
     {
@@ -1661,14 +1547,14 @@
       ]
     },
     {
-      "title": "[cs.AI] WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
-      "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressi...",
-      "url": "http://arxiv.org/abs/2608.27454v1",
+      "title": "[cs.AI] Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning",
+      "summary": "Tendon-driven hands are anthropomorphic, and moving the actuators off the joints is what makes a hand of this capability affordable to build. Two effects produce that saving. Routing force through a cable removes the req...",
+      "url": "http://arxiv.org/abs/2608.28578v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Liyan Tang, Cyrus Rashtchian, Chun-Sung Ferng",
-      "published_at": "2026-08-27",
+      "authors": "Nan Wang, Mohit Yadav, Jonathan Wulff",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -1677,14 +1563,14 @@
       ]
     },
     {
-      "title": "[cs.AI] SWE-Prime: Fewer Trajectories, Better Performance",
-      "summary": "To improve large language models' ability to resolve real-world software issues, prior work has focused on constructing large-scale agent trajectory datasets and performing supervised fine-tuning (SFT) on successful traj...",
-      "url": "http://arxiv.org/abs/2608.27449v1",
+      "title": "[cs.AI] Learning a Size-Weight Frontier for Synthetic-Augmented Inference",
+      "summary": "Synthetic data can improve statistical inference when real data are scarce, but naively treating synthetic samples as real data can introduce bias and lead to unreliable inference. We develop a general framework for synt...",
+      "url": "http://arxiv.org/abs/2608.28576v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Dewu Zheng, Ruizhe Ye, Yanlin Wang",
-      "published_at": "2026-08-27",
+      "authors": "Chengpiao Huang, Kaizheng Wang",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -1693,14 +1579,14 @@
       ]
     },
     {
-      "title": "[cs.AI] From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
-      "summary": "In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve software quality, making the process costly and time-consuming. Although recent work e...",
-      "url": "http://arxiv.org/abs/2608.27442v1",
+      "title": "[cs.AI] Blog: Survey of Optimizers",
+      "summary": "Neural-network optimization in 2025-2026 is no longer well described as a succession of new Adam variants. The design space has expanded from coordinates to matrices and layers, from fixed training horizons to policies o...",
+      "url": "http://arxiv.org/abs/2608.28557v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Dewu Zheng, Yanlin Wang, Xiwen Wang",
-      "published_at": "2026-08-27",
+      "authors": "Ruoran Xu",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -1709,14 +1595,14 @@
       ]
     },
     {
-      "title": "[cs.AI] RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
-      "summary": "LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent state changes, creating greater risks than unsafe text generation alone. Exist...",
-      "url": "http://arxiv.org/abs/2608.27439v1",
+      "title": "[cs.AI] Logos: An Agent Harness on a Cross-Process Bus",
+      "summary": "Modern agent systems assemble capabilities at runtime, and this dynamic composition has recently received a complete formal treat ment in the spatiotemporal-composability calculus, in which a capability is a component ca...",
+      "url": "http://arxiv.org/abs/2608.28553v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Junjie Zhang, Hui Liu, Kecheng Chen",
-      "published_at": "2026-08-27",
+      "authors": "Hanzhang Jia, Liheng Zeng, Hao Cheng",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -1725,14 +1611,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation",
-      "summary": "Chemical reactions are fundamentally transformations in electron space, yet most machine learning approaches model them either through \\textit{de novo} generation of product molecules or through heuristic graph edits tha...",
-      "url": "http://arxiv.org/abs/2608.27429v1",
+      "title": "[cs.AI] Video Generative Models as Geometry Learner",
+      "summary": "Recent generative approaches to geometry estimation adapt pretrained image diffusion models and treat the task as image-conditioned generation. Leveraging off-the-shelf image diffusion models, they either (i) train task-...",
+      "url": "http://arxiv.org/abs/2608.28549v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Nguyen Xuan-Vu, Octavian Susanu, Daniel Armstrong",
-      "published_at": "2026-08-27",
+      "authors": "Haosen Yang, Jifei Song, Zhensong Zhang",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -1741,14 +1627,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
-      "summary": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while keeping execution (stateful, audited work) traceable. A single trust domain do...",
-      "url": "http://arxiv.org/abs/2608.27427v1",
+      "title": "[cs.AI] An Enclosed Mode Is a Gauge Choice: Topology Relative to Reach in Certified Code World Models",
+      "summary": "A code world model accepted by a sampling gate can be exactly right on everything the gate can see and arbitrarily wrong beyond it. We characterize what a certified model can know, and what its errors can cost, when the ...",
+      "url": "http://arxiv.org/abs/2608.28541v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Yisen Xi",
-      "published_at": "2026-08-27",
+      "authors": "Javier Aguilar Martín",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -1757,14 +1643,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Beyond F1: Evaluating Coverage and Failure Recovery in AI Model Security Scanners",
-      "summary": "Static scanners are increasingly used to identify executable or otherwise unsafe content in machine- learning artifacts, yet conventional evaluation metrics characterize only cases where a scanner yields a usable securit...",
-      "url": "http://arxiv.org/abs/2608.27424v1",
+      "title": "[cs.AI] InstructMesh: Selective Refinement of Generative 3D Models for Fabrication",
+      "summary": "Recent advances in generative AI allow users to create 3D models from text or images. However, these models prioritize visual plausibility over geometric accuracy, often generating results with flaws that compromise thei...",
+      "url": "http://arxiv.org/abs/2608.28534v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Qianlong Lan, Vinothini Pandurangan, Anuj Kaul",
-      "published_at": "2026-08-27",
+      "authors": "Faraz Faruqi, Ahmed Katary, Demircan Tas",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -1773,14 +1659,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Learning a Continuous Sepsis Severity Score Without Hour-by-Hour Supervision: A Two-Site Retrospective Study",
-      "summary": "Currently used sepsis severity indices rely on fixed variables and weights established decades ago, which are coarsely discretized and calibrated to a cohort that no longer reflects contemporary critical care. No alterna...",
-      "url": "http://arxiv.org/abs/2608.27421v1",
+      "title": "[cs.AI] Texture Image Classification Using DWT AlexNet Feature Fusion and Deep Neural Networks",
+      "summary": "Texture image classification plays a significant role in computer vision applications, including industrial inspection, medical image analysis, remote sensing, and object recognition. Handcrafted features can capture loc...",
+      "url": "http://arxiv.org/abs/2608.28524v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Kevin Zhu, Ryan Zhang, Baraa Abed",
-      "published_at": "2026-08-27",
+      "authors": "Arun D. Kulkarni",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -1789,14 +1675,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Do User-Authored Permission Policies Improve Protection Against AI Agent Overreach?",
-      "summary": "AI agents are poised to become a primary interface to digital products, acting across email, files, payments, and personal data. People without professional software backgrounds need understandable, reusable ways to cont...",
-      "url": "http://arxiv.org/abs/2608.27443v1",
+      "title": "[cs.CR Security] Offline-Verifiable Accountability for Cross-Organization Agent Messaging: A Preserved Evidence-Bundle Approach",
+      "summary": "Cross-organization agent workflows require preserved evidence that remains independently verifiable during later audit or dispute review. They may involve multiple organizations, delegated actions, policy-relevant events...",
+      "url": "http://arxiv.org/abs/2608.28542v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Ting Yan",
-      "published_at": "2026-08-27",
+      "authors": "Adil Alshammari, Hayretdin Bahsi",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -1806,14 +1692,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
-      "summary": "LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent state changes, creating greater risks than unsafe text generation alone. Exist...",
-      "url": "http://arxiv.org/abs/2608.27439v1",
+      "title": "[cs.CR Security] Relaxed Sender Anonymity for CBDC Interbank Settlement: A Zero-Knowledge Approach on Permissioned EVM",
+      "summary": "Central Bank Digital Currency (CBDC) interbank settlement systems operating on Distributed Ledger Technology (DLT) face a fundamental trade-off: blockchain transparency enables trustless verification but exposes commerci...",
+      "url": "http://arxiv.org/abs/2608.28529v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Junjie Zhang, Hui Liu, Kecheng Chen",
-      "published_at": "2026-08-27",
+      "authors": "Pietro Tiberi, Gabriele Marcelli, Vitangelo Lasorella",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -1823,14 +1709,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Beyond F1: Evaluating Coverage and Failure Recovery in AI Model Security Scanners",
-      "summary": "Static scanners are increasingly used to identify executable or otherwise unsafe content in machine- learning artifacts, yet conventional evaluation metrics characterize only cases where a scanner yields a usable securit...",
-      "url": "http://arxiv.org/abs/2608.27424v1",
+      "title": "[cs.CR Security] Recognition Without Enforcement: Configuration-Dependent Failures in LLM Agent Instruction Arbitration and External Control",
+      "summary": "LLM agents arbitrate among instructions from system prompts, users, memory, and tools, but this arbitration cannot be assumed to enforce trust boundaries. We identify a recognition-enforcement gap: source-format features...",
+      "url": "http://arxiv.org/abs/2608.28502v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Qianlong Lan, Vinothini Pandurangan, Anuj Kaul",
-      "published_at": "2026-08-27",
+      "authors": "Jun Wen Leong",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -1840,14 +1726,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] When Context Gets Root: Privilege Escalation in LLM Harnesses",
-      "summary": "Instruction hierarchy is a model-side defense that assigns instructions different levels of privilege according to their sources. These levels constrain which content may direct model behavior. During agent execution, ho...",
-      "url": "http://arxiv.org/abs/2608.27299v1",
+      "title": "[cs.CR Security] REPLICANT: Learning Policies for Evading and Hardening Malware Detectors",
+      "summary": "To determine the real-world effectiveness of machine learning based malware detection, it is vital to evaluate its robustness against highly capable adversaries. However, state-of-the-art attacks do not effectively model...",
+      "url": "http://arxiv.org/abs/2608.28499v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Xingbang He, Yuanwei Chen, Yi Qian",
-      "published_at": "2026-08-27",
+      "authors": "Shae McFadden, Ilias Tsingenopoulos, Mario D'Onghia",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -1857,14 +1743,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Low-ASR Backdoors: Exploiting Attack Success Rate Reduction and Attacker-Defender Asymmetry",
-      "summary": "Backdoor attacks are among the most effective and stealthy attacks in deep learning. Existing attacks and defenses are largely designed and evaluated under the assumption that successful backdoors exhibit high Attack Suc...",
-      "url": "http://arxiv.org/abs/2608.27288v1",
+      "title": "[cs.CR Security] LLM-Based Agents for Software and Systems Security: Approaches, Applications, and Assessment",
+      "summary": "Software and systems security workflows are typically procedural: analysts inspect heterogeneous artifacts, form hypotheses, invoke tools, interpret outputs, and revise plans. Large language model (LLM)-based agents, whi...",
+      "url": "http://arxiv.org/abs/2608.28490v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Arham Riaz, Ting Yu",
-      "published_at": "2026-08-27",
+      "authors": "Jingjing Nie, Jiawei Guo, Krishna Meda",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -1874,14 +1760,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] SPA: Securing Persistent LLM Agents Across Queries with Plan-First Information-Flow Control",
-      "summary": "Large language model (LLM) agents increasingly operate over untrusted webpages, documents, tools, and persistent states while exercising authority over security-sensitive resources. Existing defenses typically protect ei...",
-      "url": "http://arxiv.org/abs/2608.27234v1",
+      "title": "[cs.CR Security] Quantum-Based Solutions for Security Enhancement in Open Radio Access Networks",
+      "summary": "Open Radio Access Networks (O-RAN) introduce unprecedented flexibility, interoperability, and intelligence into next-generation wireless systems, but their disaggregated and software-defined architecture also expands the...",
+      "url": "http://arxiv.org/abs/2608.28480v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Dylan Girrens, Guangjing Wang",
-      "published_at": "2026-08-27",
+      "authors": "Dzung Quoc Ngo, Tharmikka Raveendranathan, Tuan Anh Le",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -1891,14 +1777,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] From Security Events to Conflict States: A Three-layer Cyber Defense Scenario Model for Enhanced Cyber Situational Awareness",
-      "summary": "Cyber defense in mission-critical environments requires integrated approaches capable of representing adversarial progression, defender-side uncertainty, mission impact, and defensive decision support within a unified fr...",
-      "url": "http://arxiv.org/abs/2608.27215v1",
+      "title": "[cs.CR Security] Exploiting Per-Core Leakage: Electromagnetic Side-Channel Monitoring of Multicore Architectures",
+      "summary": "Multicore processors are increasingly adopted in embedded systems to meet growing performance demands. However, physical side-channel analysis of multicore architectures remains underexplored, as obtaining usable leakage...",
+      "url": "http://arxiv.org/abs/2608.28412v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Miguel Requena Micó, Mario Fernandez-Tarraga, Daniel Díaz-López",
-      "published_at": "2026-08-27",
+      "authors": "Daehyeon Bae, Sujin Park, Insup Lee",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
@@ -1908,20 +1794,36 @@
       ]
     },
     {
-      "title": "[cs.CR Security] X-WAD: eXplainable Web Anomaly Detection",
-      "summary": "The rapid growth of web-based services, particularly API-driven architectures, reflects an increasing reliance on distributed systems, exposing sensitive data to security risks and making the adoption of automated defens...",
-      "url": "http://arxiv.org/abs/2608.27172v1",
+      "title": "[cs.CR Security] LongPIBench: A Long-Context Benchmark for Prompt Injection",
+      "summary": "Prompt injection attacks pose a serious security risk to large language models in real-world applications. However, existing prompt injection benchmarks primarily focus on short-context inputs, leaving the attacks and de...",
+      "url": "http://arxiv.org/abs/2608.28411v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Matteo Bitussi, Roberto Doriguzzi-Corin",
-      "published_at": "2026-08-27",
+      "authors": "Yupei Liu, Yuqi Jia, Neil Zhenqiang Gong",
+      "published_at": "2026-08-28",
       "tags": [
         "arxiv",
         "paper",
         "cs.cr",
         "cs.cr",
         "security"
+      ]
+    },
+    {
+      "title": "J-Zero: Unified Challenger--Solver--Judge Co-Evolution from Zero Data",
+      "summary": "Self-evolving language models have recently emerged as a promising path toward superintelligence, with the advantage of reducing the cost of human supervision. While considerable progress has been made in verifiable doma...",
+      "url": "https://huggingface.co/papers/2608.26582",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 10",
+      "upvotes": 10,
+      "authors": "Gyouk Chu, Myeongho Jeon, Eunho Yang",
+      "published_at": "2026-08-26",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
       ]
     },
     {
@@ -1930,8 +1832,8 @@
       "url": "https://huggingface.co/papers/2608.27529",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Jiarong Han, Jincheng Xiong, Yuzhou Liu",
       "published_at": "2026-08-26",
       "tags": [
@@ -1946,8 +1848,8 @@
       "url": "https://huggingface.co/papers/2608.24777",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Zhijie Zheng, Yu Li, Chen Qian",
       "published_at": "2026-08-24",
       "tags": [
@@ -1962,8 +1864,8 @@
       "url": "https://huggingface.co/papers/2608.27906",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 2",
+      "upvotes": 2,
       "authors": "Rui Jin, Jikai Chen, Yihan Chen",
       "published_at": "2026-08-27",
       "tags": [
@@ -2058,8 +1960,8 @@
       "url": "https://huggingface.co/papers/2608.27549",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 15",
-      "upvotes": 15,
+      "badge": "⭐ 17",
+      "upvotes": 17,
       "authors": "Hanyang Wang, Yimo Cai, Weiliang Chen",
       "published_at": "2026-08-26",
       "tags": [
@@ -2074,8 +1976,8 @@
       "url": "https://huggingface.co/papers/2608.28478",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 8",
-      "upvotes": 8,
+      "badge": "⭐ 9",
+      "upvotes": 9,
       "authors": "Zhuoshi Pan, Junru Lu, Yan Qian",
       "published_at": "2026-08-27",
       "tags": [
@@ -2090,8 +1992,8 @@
       "url": "https://huggingface.co/papers/2608.28476",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 10",
-      "upvotes": 10,
+      "badge": "⭐ 13",
+      "upvotes": 13,
       "authors": "Zhuoshi Pan, Qizhi Pei, Junru Lu",
       "published_at": "2026-08-27",
       "tags": [
@@ -2222,22 +2124,6 @@
       "upvotes": 12,
       "authors": "Youtian Lin, Yikang Yang, Zhanpeng Hu",
       "published_at": "2026-08-25",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Thinking on Shots: Consistent Multi-Shot Video Editing with Agentic Reasoning",
-      "summary": "While generative AI has significantly advanced video editing, existing methods primarily focus on single-shot or short video clips. Editing long videos with multiple instructions remains a formidable challenge. Naive chu...",
-      "url": "https://huggingface.co/papers/2608.26809",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
-      "authors": "Chenyang Wu, Fuchen Long, Binyuan Huang",
-      "published_at": "2026-08-26",
       "tags": [
         "paper",
         "arxiv",
@@ -2492,27 +2378,12 @@
     },
     {
       "title": "“I just chose words carefully”",
-      "summary": "Hacker News (366 pts, 95 comments) by @zdw",
+      "summary": "Hacker News (387 pts, 97 comments) by @zdw",
       "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "366 pts",
-      "upvotes": 366,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Creepy Crawlies",
-      "summary": "Hacker News (959 pts, 466 comments) by @zdw",
-      "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "959 pts",
-      "upvotes": 959,
+      "badge": "387 pts",
+      "upvotes": 387,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2522,12 +2393,27 @@
     },
     {
       "title": "Understanding ChatGPT Work",
-      "summary": "Hacker News (58 pts, 22 comments) by @gmays",
+      "summary": "Hacker News (70 pts, 25 comments) by @gmays",
       "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "58 pts",
-      "upvotes": 58,
+      "badge": "70 pts",
+      "upvotes": 70,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Creepy Crawlies",
+      "summary": "Hacker News (967 pts, 475 comments) by @zdw",
+      "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "967 pts",
+      "upvotes": 967,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2537,12 +2423,12 @@
     },
     {
       "title": "Matrox: Graphics for Professionals",
-      "summary": "Hacker News (39 pts, 7 comments) by @BirAdam",
+      "summary": "Hacker News (43 pts, 9 comments) by @BirAdam",
       "url": "https://www.abortretry.fail/p/matrox",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "39 pts",
-      "upvotes": 39,
+      "badge": "43 pts",
+      "upvotes": 43,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2552,72 +2438,12 @@
     },
     {
       "title": "Haiku R1/beta6 has been released",
-      "summary": "Hacker News (265 pts, 82 comments) by @metrofun",
+      "summary": "Hacker News (268 pts, 83 comments) by @metrofun",
       "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "265 pts",
-      "upvotes": 265,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "CobaltC – The Successor to C?",
-      "summary": "Hacker News (4 pts, 2 comments) by @SilentLambda",
-      "url": "https://strawberry9.github.io/the-wrong-memory/Appendix_06.html",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "4 pts",
-      "upvotes": 4,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Cores in space: The core memory module from a 1980 Spacelab computer",
-      "summary": "Hacker News (85 pts, 13 comments) by @pwg",
-      "url": "https://www.righto.com/2026/08/spacelab-core-memory.html",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "85 pts",
-      "upvotes": 85,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Show HN: NFC Energy-Harvesting PCB Business Card with an MCU",
-      "summary": "Hacker News (121 pts, 13 comments) by @WilsonHarper",
-      "url": "https://wilsonharper.net/projects/businesscard/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "121 pts",
-      "upvotes": 121,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "How to build a diffusion language model",
-      "summary": "Hacker News (20 pts, 2 comments) by @volodia",
-      "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "20 pts",
-      "upvotes": 20,
+      "badge": "268 pts",
+      "upvotes": 268,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2627,12 +2453,57 @@
     },
     {
       "title": "It takes 5 cloud services to hear my doorbell",
-      "summary": "Hacker News (18 pts, 4 comments) by @vghaisas",
+      "summary": "Hacker News (27 pts, 12 comments) by @vghaisas",
       "url": "https://blog.vghaisas.com/rube-goldberg-doorbell/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "18 pts",
-      "upvotes": 18,
+      "badge": "27 pts",
+      "upvotes": 27,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "CobaltC – The Successor to C?",
+      "summary": "Hacker News (7 pts, 7 comments) by @SilentLambda",
+      "url": "https://strawberry9.github.io/the-wrong-memory/Appendix_06.html",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "7 pts",
+      "upvotes": 7,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Cores in space: The core memory module from a 1980 Spacelab computer",
+      "summary": "Hacker News (87 pts, 13 comments) by @pwg",
+      "url": "https://www.righto.com/2026/08/spacelab-core-memory.html",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "87 pts",
+      "upvotes": 87,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Show HN: NFC Energy-Harvesting PCB Business Card with an MCU",
+      "summary": "Hacker News (123 pts, 13 comments) by @WilsonHarper",
+      "url": "https://wilsonharper.net/projects/businesscard/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "123 pts",
+      "upvotes": 123,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2642,12 +2513,27 @@
     },
     {
       "title": "Sort branches by last commit date",
-      "summary": "Hacker News (95 pts, 34 comments) by @speckx",
+      "summary": "Hacker News (96 pts, 35 comments) by @speckx",
       "url": "https://ryangreenberg.com/til/git-branches-by-commit-date/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "95 pts",
-      "upvotes": 95,
+      "badge": "96 pts",
+      "upvotes": 96,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "How to build a diffusion language model",
+      "summary": "Hacker News (21 pts, 2 comments) by @volodia",
+      "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "21 pts",
+      "upvotes": 21,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2657,27 +2543,12 @@
     },
     {
       "title": "Continuous Diffusion Language Models (CDLM's)",
-      "summary": "Hacker News (66 pts, 26 comments) by @peter_d_sherman",
+      "summary": "Hacker News (68 pts, 27 comments) by @peter_d_sherman",
       "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "66 pts",
-      "upvotes": 66,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Commercially Available Bike Generators Are Not Sustainable (2011)",
-      "summary": "Hacker News (36 pts, 26 comments) by @baud147258",
-      "url": "https://solar.lowtechmagazine.com/2011/05/bike-powered-electricity-generators-are-not-sustainable/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "36 pts",
-      "upvotes": 36,
+      "badge": "68 pts",
+      "upvotes": 68,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2687,12 +2558,27 @@
     },
     {
       "title": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver",
-      "summary": "Hacker News (79 pts, 34 comments) by @SillyUsername",
+      "summary": "Hacker News (82 pts, 34 comments) by @SillyUsername",
       "url": "https://github.com/KodeMunkie/sm750hdmifb",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "79 pts",
-      "upvotes": 79,
+      "badge": "82 pts",
+      "upvotes": 82,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Hacking IKEA Furniture",
+      "summary": "Hacker News (274 pts, 187 comments) by @greenlightning",
+      "url": "https://greenlightning.eu/diy/hacking-ikea-furniture/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "274 pts",
+      "upvotes": 274,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
