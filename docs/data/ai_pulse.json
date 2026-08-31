@@ -171,131 +171,19 @@
       ]
     },
     {
-      "title": "[cs.AI] WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
-      "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressi...",
-      "url": "http://arxiv.org/abs/2608.27454v1",
-      "source": "arXiv (cs.AI)",
-      "category": "📄 arXiv Preprints",
-      "badge": "cs.AI",
-      "authors": "Liyan Tang, Cyrus Rashtchian, Chun-Sung Ferng",
-      "published_at": "2026-08-27",
+      "title": "Revisiting Local Context for Long-Horizon Streaming 3D Reconstruction",
+      "summary": "Streaming 3D reconstruction from extremely long videos requires estimating camera motion and scene geometry online under bounded memory and computation. Early streaming models achieve causal, bounded-cost inference using...",
+      "url": "https://huggingface.co/papers/2608.27529",
+      "source": "Hugging Face Daily Papers",
+      "category": "🧪 Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Jiarong Han, Jincheng Xiong, Yuzhou Liu",
+      "published_at": "2026-08-26",
       "tags": [
-        "arxiv",
         "paper",
-        "cs.ai",
-        "cs.ai"
-      ]
-    },
-    {
-      "title": "[cs.AI] SWE-Prime: Fewer Trajectories, Better Performance",
-      "summary": "To improve large language models' ability to resolve real-world software issues, prior work has focused on constructing large-scale agent trajectory datasets and performing supervised fine-tuning (SFT) on successful traj...",
-      "url": "http://arxiv.org/abs/2608.27449v1",
-      "source": "arXiv (cs.AI)",
-      "category": "📄 arXiv Preprints",
-      "badge": "cs.AI",
-      "authors": "Dewu Zheng, Ruizhe Ye, Yanlin Wang",
-      "published_at": "2026-08-27",
-      "tags": [
         "arxiv",
-        "paper",
-        "cs.ai",
-        "cs.ai"
-      ]
-    },
-    {
-      "title": "[cs.AI] From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
-      "summary": "In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve software quality, making the process costly and time-consuming. Although recent work e...",
-      "url": "http://arxiv.org/abs/2608.27442v1",
-      "source": "arXiv (cs.AI)",
-      "category": "📄 arXiv Preprints",
-      "badge": "cs.AI",
-      "authors": "Dewu Zheng, Yanlin Wang, Xiwen Wang",
-      "published_at": "2026-08-27",
-      "tags": [
-        "arxiv",
-        "paper",
-        "cs.ai",
-        "cs.ai"
-      ]
-    },
-    {
-      "title": "[cs.AI] RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
-      "summary": "LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent state changes, creating greater risks than unsafe text generation alone. Exist...",
-      "url": "http://arxiv.org/abs/2608.27439v1",
-      "source": "arXiv (cs.AI)",
-      "category": "📄 arXiv Preprints",
-      "badge": "cs.AI",
-      "authors": "Junjie Zhang, Hui Liu, Kecheng Chen",
-      "published_at": "2026-08-27",
-      "tags": [
-        "arxiv",
-        "paper",
-        "cs.ai",
-        "cs.ai"
-      ]
-    },
-    {
-      "title": "[cs.AI] Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation",
-      "summary": "Chemical reactions are fundamentally transformations in electron space, yet most machine learning approaches model them either through \\textit{de novo} generation of product molecules or through heuristic graph edits tha...",
-      "url": "http://arxiv.org/abs/2608.27429v1",
-      "source": "arXiv (cs.AI)",
-      "category": "📄 arXiv Preprints",
-      "badge": "cs.AI",
-      "authors": "Nguyen Xuan-Vu, Octavian Susanu, Daniel Armstrong",
-      "published_at": "2026-08-27",
-      "tags": [
-        "arxiv",
-        "paper",
-        "cs.ai",
-        "cs.ai"
-      ]
-    },
-    {
-      "title": "[cs.AI] Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
-      "summary": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while keeping execution (stateful, audited work) traceable. A single trust domain do...",
-      "url": "http://arxiv.org/abs/2608.27427v1",
-      "source": "arXiv (cs.AI)",
-      "category": "📄 arXiv Preprints",
-      "badge": "cs.AI",
-      "authors": "Yisen Xi",
-      "published_at": "2026-08-27",
-      "tags": [
-        "arxiv",
-        "paper",
-        "cs.ai",
-        "cs.ai"
-      ]
-    },
-    {
-      "title": "[cs.AI] Beyond F1: Evaluating Coverage and Failure Recovery in AI Model Security Scanners",
-      "summary": "Static scanners are increasingly used to identify executable or otherwise unsafe content in machine- learning artifacts, yet conventional evaluation metrics characterize only cases where a scanner yields a usable securit...",
-      "url": "http://arxiv.org/abs/2608.27424v1",
-      "source": "arXiv (cs.AI)",
-      "category": "📄 arXiv Preprints",
-      "badge": "cs.AI",
-      "authors": "Qianlong Lan, Vinothini Pandurangan, Anuj Kaul",
-      "published_at": "2026-08-27",
-      "tags": [
-        "arxiv",
-        "paper",
-        "cs.ai",
-        "cs.ai"
-      ]
-    },
-    {
-      "title": "[cs.AI] Learning a Continuous Sepsis Severity Score Without Hour-by-Hour Supervision: A Two-Site Retrospective Study",
-      "summary": "Currently used sepsis severity indices rely on fixed variables and weights established decades ago, which are coarsely discretized and calibrated to a cohort that no longer reflects contemporary critical care. No alterna...",
-      "url": "http://arxiv.org/abs/2608.27421v1",
-      "source": "arXiv (cs.AI)",
-      "category": "📄 arXiv Preprints",
-      "badge": "cs.AI",
-      "authors": "Kevin Zhu, Ryan Zhang, Baraa Abed",
-      "published_at": "2026-08-27",
-      "tags": [
-        "arxiv",
-        "paper",
-        "cs.ai",
-        "cs.ai"
+        "ai-research"
       ]
     },
     {
@@ -416,8 +304,8 @@
       "url": "https://huggingface.co/papers/2608.27549",
       "source": "Hugging Face Daily Papers",
       "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
+      "badge": "⭐ 14",
+      "upvotes": 14,
       "authors": "Hanyang Wang, Yimo Cai, Weiliang Chen",
       "published_at": "2026-08-26",
       "tags": [
@@ -432,8 +320,8 @@
       "url": "https://huggingface.co/papers/2608.28478",
       "source": "Hugging Face Daily Papers",
       "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Zhuoshi Pan, Junru Lu, Yan Qian",
       "published_at": "2026-08-27",
       "tags": [
@@ -448,8 +336,8 @@
       "url": "https://huggingface.co/papers/2608.28476",
       "source": "Hugging Face Daily Papers",
       "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Zhuoshi Pan, Qizhi Pei, Junru Lu",
       "published_at": "2026-08-27",
       "tags": [
@@ -596,22 +484,6 @@
       "upvotes": 4,
       "authors": "Chenyang Wu, Fuchen Long, Binyuan Huang",
       "published_at": "2026-08-26",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "GameWAM: A World Action Model for Video Games",
-      "summary": "Modern video games combine first-person perception, rapid visual changes, persistent world state, and heterogeneous native controls. Existing game agents map visual and task context directly to actions but lack explicit ...",
-      "url": "https://huggingface.co/papers/2608.26200",
-      "source": "Hugging Face Daily Papers",
-      "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 44",
-      "upvotes": 44,
-      "authors": "Yuncheng Guo, Zhanqiu Zhang, Yiwen Guo",
-      "published_at": "2026-08-24",
       "tags": [
         "paper",
         "arxiv",
@@ -866,12 +738,12 @@
     },
     {
       "title": "“I just chose words carefully”",
-      "summary": "Hacker News (326 pts, 84 comments) by @zdw",
+      "summary": "Hacker News (351 pts, 90 comments) by @zdw",
       "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "326 pts",
-      "upvotes": 326,
+      "badge": "351 pts",
+      "upvotes": 351,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -881,12 +753,12 @@
     },
     {
       "title": "Creepy Crawlies",
-      "summary": "Hacker News (944 pts, 453 comments) by @zdw",
+      "summary": "Hacker News (952 pts, 458 comments) by @zdw",
       "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "944 pts",
-      "upvotes": 944,
+      "badge": "952 pts",
+      "upvotes": 952,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -896,8 +768,128 @@
     },
     {
       "title": "Understanding ChatGPT Work",
-      "summary": "Hacker News (33 pts, 12 comments) by @gmays",
+      "summary": "Hacker News (46 pts, 19 comments) by @gmays",
       "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "46 pts",
+      "upvotes": 46,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Matrox: Graphics for Professionals",
+      "summary": "Hacker News (36 pts, 3 comments) by @BirAdam",
+      "url": "https://www.abortretry.fail/p/matrox",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "36 pts",
+      "upvotes": 36,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Haiku R1/beta6 has been released",
+      "summary": "Hacker News (263 pts, 81 comments) by @metrofun",
+      "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "263 pts",
+      "upvotes": 263,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Cores in space: The core memory module from a 1980 Spacelab computer",
+      "summary": "Hacker News (83 pts, 13 comments) by @pwg",
+      "url": "https://www.righto.com/2026/08/spacelab-core-memory.html",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "83 pts",
+      "upvotes": 83,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Show HN: NFC Energy-Harvesting PCB Business Card with an MCU",
+      "summary": "Hacker News (117 pts, 12 comments) by @WilsonHarper",
+      "url": "https://wilsonharper.net/projects/businesscard/",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "117 pts",
+      "upvotes": 117,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Sort branches by last commit date",
+      "summary": "Hacker News (92 pts, 34 comments) by @speckx",
+      "url": "https://ryangreenberg.com/til/git-branches-by-commit-date/",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "92 pts",
+      "upvotes": 92,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Continuous Diffusion Language Models (CDLM's)",
+      "summary": "Hacker News (63 pts, 24 comments) by @peter_d_sherman",
+      "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "63 pts",
+      "upvotes": 63,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver",
+      "summary": "Hacker News (76 pts, 34 comments) by @SillyUsername",
+      "url": "https://github.com/KodeMunkie/sm750hdmifb",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "76 pts",
+      "upvotes": 76,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Commercially Available Bike Generators Are Not Sustainable (2011)",
+      "summary": "Hacker News (33 pts, 26 comments) by @baud147258",
+      "url": "https://solar.lowtechmagazine.com/2011/05/bike-powered-electricity-generators-are-not-sustainable/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
       "badge": "33 pts",
@@ -910,129 +902,9 @@
       ]
     },
     {
-      "title": "Matrox: Graphics for Professionals",
-      "summary": "Hacker News (31 pts, 2 comments) by @BirAdam",
-      "url": "https://www.abortretry.fail/p/matrox",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "31 pts",
-      "upvotes": 31,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Haiku R1/beta6 has been released",
-      "summary": "Hacker News (261 pts, 78 comments) by @metrofun",
-      "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "261 pts",
-      "upvotes": 261,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Cores in space: The core memory module from a 1980 Spacelab computer",
-      "summary": "Hacker News (81 pts, 13 comments) by @pwg",
-      "url": "https://www.righto.com/2026/08/spacelab-core-memory.html",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "81 pts",
-      "upvotes": 81,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Show HN: NFC Energy-Harvesting PCB Business Card with an MCU",
-      "summary": "Hacker News (111 pts, 12 comments) by @WilsonHarper",
-      "url": "https://wilsonharper.net/projects/businesscard/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "111 pts",
-      "upvotes": 111,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Sort branches by last commit date",
-      "summary": "Hacker News (90 pts, 34 comments) by @speckx",
-      "url": "https://ryangreenberg.com/til/git-branches-by-commit-date/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "90 pts",
-      "upvotes": 90,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Continuous Diffusion Language Models (CDLM's)",
-      "summary": "Hacker News (60 pts, 24 comments) by @peter_d_sherman",
-      "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "60 pts",
-      "upvotes": 60,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver",
-      "summary": "Hacker News (74 pts, 34 comments) by @SillyUsername",
-      "url": "https://github.com/KodeMunkie/sm750hdmifb",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "74 pts",
-      "upvotes": 74,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Commercially Available Bike Generators Are Not Sustainable (2011)",
-      "summary": "Hacker News (31 pts, 24 comments) by @baud147258",
-      "url": "https://solar.lowtechmagazine.com/2011/05/bike-powered-electricity-generators-are-not-sustainable/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "31 pts",
-      "upvotes": 31,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Relm4 makes developing beautiful cross-platform applications idiomatic",
-      "summary": "Hacker News (14 pts, 7 comments) by @Bluestein",
-      "url": "https://relm4.org/",
+      "title": "How to build a diffusion language model",
+      "summary": "Hacker News (14 pts, 0 comments) by @volodia",
+      "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
       "badge": "14 pts",
@@ -1046,12 +918,27 @@
     },
     {
       "title": "Hacking IKEA Furniture",
-      "summary": "Hacker News (272 pts, 186 comments) by @greenlightning",
+      "summary": "Hacker News (273 pts, 186 comments) by @greenlightning",
       "url": "https://greenlightning.eu/diy/hacking-ikea-furniture/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "272 pts",
-      "upvotes": 272,
+      "badge": "273 pts",
+      "upvotes": 273,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Relm4 makes developing beautiful cross-platform applications idiomatic",
+      "summary": "Hacker News (16 pts, 7 comments) by @Bluestein",
+      "url": "https://relm4.org/",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "16 pts",
+      "upvotes": 16,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1061,27 +948,12 @@
     },
     {
       "title": "Coordination Headwind: How Organizations Are Like Slime Molds",
-      "summary": "Hacker News (133 pts, 45 comments) by @rzk",
+      "summary": "Hacker News (134 pts, 45 comments) by @rzk",
       "url": "https://komoroske.com/slime-mold/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "133 pts",
-      "upvotes": 133,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "How to build a diffusion language model",
-      "summary": "Hacker News (9 pts, 0 comments) by @volodia",
-      "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model/",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "9 pts",
-      "upvotes": 9,
+      "badge": "134 pts",
+      "upvotes": 134,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",

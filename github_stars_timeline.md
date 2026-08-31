@@ -1,7 +1,7 @@
 # 📅 GitHub Starred Timeline - @vuongdat67
 
 > Lịch sử các repository đã star theo dòng thời gian.
-> 🕒 Cập nhật: `2026-08-31 02:38:12`
+> 🕒 Cập nhật: `2026-08-31 02:52:10`
 
 ---
 
@@ -10,7 +10,7 @@
 - `2026-08-31`: [**cline/cline**](https://github.com/cline/cline) (`TypeScript`) - ⭐ **67.2k**
   - Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
 
-- `2026-08-30`: [**tt-a1i/archify**](https://github.com/tt-a1i/archify) (`JavaScript`) - ⭐ **35.0k**
+- `2026-08-30`: [**tt-a1i/archify**](https://github.com/tt-a1i/archify) (`JavaScript`) - ⭐ **35.1k**
   - Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
 
 - `2026-08-30`: [**open-free-llm-api/awesome-freellm-apis**](https://github.com/open-free-llm-api/awesome-freellm-apis) (`Others`) - ⭐ **2.6k**
@@ -22,7 +22,7 @@
 - `2026-08-30`: [**K-Dense-AI/scientific-agent-skills**](https://github.com/K-Dense-AI/scientific-agent-skills) (`Python`) - ⭐ **39.4k**
   - Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
 
-- `2026-08-30`: [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) (`TypeScript`) - ⭐ **24.3k**
+- `2026-08-30`: [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) (`TypeScript`) - ⭐ **24.4k**
   - Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
 
 - `2026-08-30`: [**AprilNEA/claude-code-source**](https://github.com/AprilNEA/claude-code-source) (`TypeScript`) - ⭐ **392**
@@ -111,7 +111,7 @@
 - `2026-08-17`: [**heygen-com/hyperframes**](https://github.com/heygen-com/hyperframes) (`TypeScript`) - ⭐ **43.2k**
   - Write HTML. Render video. Built for agents.
 
-- `2026-08-17`: [**Anning01/novelvids**](https://github.com/Anning01/novelvids) (`Python`) - ⭐ **284**
+- `2026-08-17`: [**Anning01/novelvids**](https://github.com/Anning01/novelvids) (`Python`) - ⭐ **285**
   - 基于第三方视频生成 API，将小说自动转换为风格一致的视频内容。
 
 - `2026-08-17`: [**h4ckf0r0day/obscura**](https://github.com/h4ckf0r0day/obscura) (`Rust`) - ⭐ **22.5k**
@@ -1595,7 +1595,7 @@
 - `2026-03-20`: [**abhigyanpatwari/GitNexus**](https://github.com/abhigyanpatwari/GitNexus) (`TypeScript`) - ⭐ **46.6k**
   - GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration
 
-- `2026-03-20`: [**mattpocock/skills**](https://github.com/mattpocock/skills) (`Shell`) - ⭐ **241.9k**
+- `2026-03-20`: [**mattpocock/skills**](https://github.com/mattpocock/skills) (`Shell`) - ⭐ **242.0k**
   - Skills for Real Engineers. Straight from my .agents directory.
 
 - `2026-03-17`: [**eugenekolo/sec-tools**](https://github.com/eugenekolo/sec-tools) (`HTML`) - ⭐ **685**
@@ -1765,7 +1765,7 @@
 - `2026-01-20`: [**different-ai/openwork**](https://github.com/different-ai/openwork) (`TypeScript`) - ⭐ **23.2k**
   - The open-source alternative to Claude Cowork (powered by opencode)
 
-- `2026-01-20`: [**affaan-m/ECC**](https://github.com/affaan-m/ECC) (`JavaScript`) - ⭐ **244.7k**
+- `2026-01-20`: [**affaan-m/ECC**](https://github.com/affaan-m/ECC) (`JavaScript`) - ⭐ **244.8k**
   - The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
 - `2026-01-20`: [**itsOwen/CyberScraper-2077**](https://github.com/itsOwen/CyberScraper-2077) (`Python`) - ⭐ **3.2k**

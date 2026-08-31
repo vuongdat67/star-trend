@@ -1,7 +1,7 @@
 # 🏷️ GitHub Starred Repositories Theo Chủ Đề - @vuongdat67
 
 > Phân loại thông minh 615 repositories theo lĩnh vực ứng dụng.
-> 🕒 Cập nhật: `2026-08-31 02:38:12`
+> 🕒 Cập nhật: `2026-08-31 02:52:10`
 
 ---
 
@@ -13,10 +13,10 @@
 - [**obra/superpowers**](https://github.com/obra/superpowers) - `Shell` | ⭐ **279.7k** | 🍴 25.1k
   - An agentic skills framework & software development methodology that works.
 
-- [**affaan-m/ECC**](https://github.com/affaan-m/ECC) - `JavaScript` | ⭐ **244.7k** | 🍴 37.0k
+- [**affaan-m/ECC**](https://github.com/affaan-m/ECC) - `JavaScript` | ⭐ **244.8k** | 🍴 37.0k
   - The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
-- [**mattpocock/skills**](https://github.com/mattpocock/skills) - `Shell` | ⭐ **241.9k** | 🍴 20.6k
+- [**mattpocock/skills**](https://github.com/mattpocock/skills) - `Shell` | ⭐ **242.0k** | 🍴 20.6k
   - Skills for Real Engineers. Straight from my .agents directory.
 
 - [**NousResearch/hermes-agent**](https://github.com/NousResearch/hermes-agent) - `Python` | ⭐ **238.5k** | 🍴 48.6k
@@ -319,7 +319,7 @@
 - [**HKUDS/DeepTutor**](https://github.com/HKUDS/DeepTutor) - `Python` | ⭐ **37.9k** | 🍴 4.8k
   - DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
 
-- [**aquasecurity/trivy**](https://github.com/aquasecurity/trivy) - `Go` | ⭐ **37.7k** | 🍴 639
+- [**aquasecurity/trivy**](https://github.com/aquasecurity/trivy) - `Go` | ⭐ **37.7k** | 🍴 640
   - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
 
 - [**patchy631/ai-engineering-hub**](https://github.com/patchy631/ai-engineering-hub) - `Jupyter Notebook` | ⭐ **37.2k** | 🍴 6.1k
@@ -340,7 +340,7 @@
 - [**esengine/DeepSeek-Reasonix**](https://github.com/esengine/DeepSeek-Reasonix) - `Go` | ⭐ **35.3k** | 🍴 2.4k
   - DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.
 
-- [**tt-a1i/archify**](https://github.com/tt-a1i/archify) - `JavaScript` | ⭐ **35.0k** | 🍴 2.2k
+- [**tt-a1i/archify**](https://github.com/tt-a1i/archify) - `JavaScript` | ⭐ **35.1k** | 🍴 2.2k
   - Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
 
 - [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) - `Python` | ⭐ **34.5k** | 🍴 2.6k
@@ -448,7 +448,7 @@
 - [**SYSTRAN/faster-whisper**](https://github.com/SYSTRAN/faster-whisper) - `Python` | ⭐ **25.1k** | 🍴 2.0k
   - Faster Whisper transcription with CTranslate2
 
-- [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) - `TypeScript` | ⭐ **24.3k** | 🍴 4.5k
+- [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) - `TypeScript` | ⭐ **24.4k** | 🍴 4.5k
   - Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
 
 - [**dolthub/dolt**](https://github.com/dolthub/dolt) - `Go` | ⭐ **24.3k** | 🍴 868
@@ -664,7 +664,7 @@
 - [**steipete/agent-scripts**](https://github.com/steipete/agent-scripts) - `Shell` | ⭐ **6.6k** | 🍴 546
   - Scripts for agents, shared between my repositories.
 
-- [**Ed1s0nZ/CyberStrikeAI**](https://github.com/Ed1s0nZ/CyberStrikeAI) - `Go` | ⭐ **6.1k** | 🍴 976
+- [**Ed1s0nZ/CyberStrikeAI**](https://github.com/Ed1s0nZ/CyberStrikeAI) - `Go` | ⭐ **6.1k** | 🍴 977
   - The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.
 
 - [**jacob-bd/gemini-notebook-mcp-cli**](https://github.com/jacob-bd/gemini-notebook-mcp-cli) - `Python` | ⭐ **6.0k** | 🍴 921
@@ -813,7 +813,7 @@
 - [**OpenOSINT/OpenOSINT**](https://github.com/OpenOSINT/OpenOSINT) - `Python` | ⭐ **1.5k** | 🍴 239
   - AI-powered OSINT agent with interactive REPL, MCP server, and CLI. 19 tools. Works with Claude, GPT-4, or local models. For authorized security research only.
 
-- [**AtomicBot-ai/Atomic-Chat**](https://github.com/AtomicBot-ai/Atomic-Chat) - `TypeScript` | ⭐ **1.4k** | 🍴 160
+- [**AtomicBot-ai/Atomic-Chat**](https://github.com/AtomicBot-ai/Atomic-Chat) - `TypeScript` | ⭐ **1.4k** | 🍴 161
   - Local AI app and inference engine for agents. Run open-weight LLMs locally — private, 100% offline on your computer. Join our Discord: https://discord.com/invite/8wGSsvmg4V
 
 - [**sourcey/sourcey**](https://github.com/sourcey/sourcey) - `TypeScript` | ⭐ **1.4k** | 🍴 331
@@ -1121,7 +1121,7 @@
 
 ## 🛠️ Developer Tools & CLI `(210)`
 
-- [**affaan-m/ECC**](https://github.com/affaan-m/ECC) - `JavaScript` | ⭐ **244.7k** | 🍴 37.0k
+- [**affaan-m/ECC**](https://github.com/affaan-m/ECC) - `JavaScript` | ⭐ **244.8k** | 🍴 37.0k
   - The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
 - [**n8n-io/n8n**](https://github.com/n8n-io/n8n) - `TypeScript` | ⭐ **202.9k** | 🍴 60.5k
@@ -1307,7 +1307,7 @@
 - [**HKUDS/DeepTutor**](https://github.com/HKUDS/DeepTutor) - `Python` | ⭐ **37.9k** | 🍴 4.8k
   - DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
 
-- [**aquasecurity/trivy**](https://github.com/aquasecurity/trivy) - `Go` | ⭐ **37.7k** | 🍴 639
+- [**aquasecurity/trivy**](https://github.com/aquasecurity/trivy) - `Go` | ⭐ **37.7k** | 🍴 640
   - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
 
 - [**medusajs/medusa**](https://github.com/medusajs/medusa) - `TypeScript` | ⭐ **36.1k** | 🍴 5.2k
@@ -1316,7 +1316,7 @@
 - [**esengine/DeepSeek-Reasonix**](https://github.com/esengine/DeepSeek-Reasonix) - `Go` | ⭐ **35.3k** | 🍴 2.4k
   - DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.
 
-- [**tt-a1i/archify**](https://github.com/tt-a1i/archify) - `JavaScript` | ⭐ **35.0k** | 🍴 2.2k
+- [**tt-a1i/archify**](https://github.com/tt-a1i/archify) - `JavaScript` | ⭐ **35.1k** | 🍴 2.2k
   - Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
 
 - [**lightpanda-io/browser**](https://github.com/lightpanda-io/browser) - `Zig` | ⭐ **34.3k** | 🍴 1.6k
@@ -1370,7 +1370,7 @@
 - [**ayghri/i-have-adhd**](https://github.com/ayghri/i-have-adhd) - `Python` | ⭐ **25.8k** | 🍴 1.6k
   - A skill to stop your coding agent from burying the answer. ADHD-friendly output.
 
-- [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) - `TypeScript` | ⭐ **24.3k** | 🍴 4.5k
+- [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) - `TypeScript` | ⭐ **24.4k** | 🍴 4.5k
   - Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
 
 - [**dolthub/dolt**](https://github.com/dolthub/dolt) - `Go` | ⭐ **24.3k** | 🍴 868
@@ -1508,7 +1508,7 @@
 - [**devanshbatham/Awesome-Bugbounty-Writeups**](https://github.com/devanshbatham/Awesome-Bugbounty-Writeups) - `Python` | ⭐ **6.1k** | 🍴 1.2k
   - A curated list of bugbounty writeups (Bug type wise) , inspired from https://github.com/ngalongc/bug-bounty-reference
 
-- [**Ed1s0nZ/CyberStrikeAI**](https://github.com/Ed1s0nZ/CyberStrikeAI) - `Go` | ⭐ **6.1k** | 🍴 976
+- [**Ed1s0nZ/CyberStrikeAI**](https://github.com/Ed1s0nZ/CyberStrikeAI) - `Go` | ⭐ **6.1k** | 🍴 977
   - The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.
 
 - [**jacob-bd/gemini-notebook-mcp-cli**](https://github.com/jacob-bd/gemini-notebook-mcp-cli) - `Python` | ⭐ **6.0k** | 🍴 921
@@ -1610,7 +1610,7 @@
 - [**OpenOSINT/OpenOSINT**](https://github.com/OpenOSINT/OpenOSINT) - `Python` | ⭐ **1.5k** | 🍴 239
   - AI-powered OSINT agent with interactive REPL, MCP server, and CLI. 19 tools. Works with Claude, GPT-4, or local models. For authorized security research only.
 
-- [**AtomicBot-ai/Atomic-Chat**](https://github.com/AtomicBot-ai/Atomic-Chat) - `TypeScript` | ⭐ **1.4k** | 🍴 160
+- [**AtomicBot-ai/Atomic-Chat**](https://github.com/AtomicBot-ai/Atomic-Chat) - `TypeScript` | ⭐ **1.4k** | 🍴 161
   - Local AI app and inference engine for agents. Run open-weight LLMs locally — private, 100% offline on your computer. Join our Discord: https://discord.com/invite/8wGSsvmg4V
 
 - [**sourcey/sourcey**](https://github.com/sourcey/sourcey) - `TypeScript` | ⭐ **1.4k** | 🍴 331
@@ -1865,7 +1865,7 @@
 - [**SYSTRAN/faster-whisper**](https://github.com/SYSTRAN/faster-whisper) - `Python` | ⭐ **25.1k** | 🍴 2.0k
   - Faster Whisper transcription with CTranslate2
 
-- [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) - `TypeScript` | ⭐ **24.3k** | 🍴 4.5k
+- [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) - `TypeScript` | ⭐ **24.4k** | 🍴 4.5k
   - Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
 
 - [**rust-lang/mdBook**](https://github.com/rust-lang/mdBook) - `Rust` | ⭐ **22.1k** | 🍴 1.9k
@@ -2163,7 +2163,7 @@
 
 ## 🛡️ Security & Reverse Eng `(119)`
 
-- [**affaan-m/ECC**](https://github.com/affaan-m/ECC) - `JavaScript` | ⭐ **244.7k** | 🍴 37.0k
+- [**affaan-m/ECC**](https://github.com/affaan-m/ECC) - `JavaScript` | ⭐ **244.8k** | 🍴 37.0k
   - The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
 - [**TheAlgorithms/Python**](https://github.com/TheAlgorithms/Python) - `Python` | ⭐ **224.1k** | 🍴 51.0k
@@ -2217,7 +2217,7 @@
 - [**rapid7/metasploit-framework**](https://github.com/rapid7/metasploit-framework) - `Ruby` | ⭐ **38.9k** | 🍴 15.0k
   - Metasploit Framework
 
-- [**aquasecurity/trivy**](https://github.com/aquasecurity/trivy) - `Go` | ⭐ **37.7k** | 🍴 639
+- [**aquasecurity/trivy**](https://github.com/aquasecurity/trivy) - `Go` | ⭐ **37.7k** | 🍴 640
   - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
 
 - [**JCodesMore/ai-website-cloner-template**](https://github.com/JCodesMore/ai-website-cloner-template) - `JavaScript` | ⭐ **33.5k** | 🍴 4.9k
@@ -2304,7 +2304,7 @@
 - [**devanshbatham/Awesome-Bugbounty-Writeups**](https://github.com/devanshbatham/Awesome-Bugbounty-Writeups) - `Python` | ⭐ **6.1k** | 🍴 1.2k
   - A curated list of bugbounty writeups (Bug type wise) , inspired from https://github.com/ngalongc/bug-bounty-reference
 
-- [**Ed1s0nZ/CyberStrikeAI**](https://github.com/Ed1s0nZ/CyberStrikeAI) - `Go` | ⭐ **6.1k** | 🍴 976
+- [**Ed1s0nZ/CyberStrikeAI**](https://github.com/Ed1s0nZ/CyberStrikeAI) - `Go` | ⭐ **6.1k** | 🍴 977
   - The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.
 
 - [**FlorianBruniaux/claude-code-ultimate-guide**](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) - `Python` | ⭐ **5.9k** | 🍴 767
@@ -2322,11 +2322,11 @@
 - [**theori-io/copy-fail-CVE-2026-31431**](https://github.com/theori-io/copy-fail-CVE-2026-31431) - `Python` | ⭐ **4.1k** | 🍴 910
   - Copy Fail (CVE-2026-31431): 9-year-old Linux kernel LPE found by Theori's Xint Code
 
-- [**sanyuan0704/sanyuan-skills**](https://github.com/sanyuan0704/sanyuan-skills) - `Python` | ⭐ **3.9k** | 🍴 340
-  - Expert code review skill: SOLID, security, performance, error handling, boundary conditions
-
 - [**elementalsouls/Claude-BugHunter**](https://github.com/elementalsouls/Claude-BugHunter) - `Python` | ⭐ **3.9k** | 🍴 605
   - A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
+
+- [**sanyuan0704/sanyuan-skills**](https://github.com/sanyuan0704/sanyuan-skills) - `Python` | ⭐ **3.9k** | 🍴 340
+  - Expert code review skill: SOLID, security, performance, error handling, boundary conditions
 
 - [**arxhr007/Aliens_eye**](https://github.com/arxhr007/Aliens_eye) - `Python` | ⭐ **3.7k** | 🍴 427
   - Hunt down 840+ social media accounts using AI
@@ -2607,7 +2607,7 @@
 - [**medusajs/medusa**](https://github.com/medusajs/medusa) - `TypeScript` | ⭐ **36.1k** | 🍴 5.2k
   - The world's most flexible commerce platform for agents and developers
 
-- [**tt-a1i/archify**](https://github.com/tt-a1i/archify) - `JavaScript` | ⭐ **35.0k** | 🍴 2.2k
+- [**tt-a1i/archify**](https://github.com/tt-a1i/archify) - `JavaScript` | ⭐ **35.1k** | 🍴 2.2k
   - Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
 
 - [**JCodesMore/ai-website-cloner-template**](https://github.com/JCodesMore/ai-website-cloner-template) - `JavaScript` | ⭐ **33.5k** | 🍴 4.9k
@@ -2990,7 +2990,7 @@
 
 - [**krishnaik06/Car-Price-Prediction**](https://github.com/krishnaik06/Car-Price-Prediction) - `Jupyter Notebook` | ⭐ **293** | 🍴 525
 
-- [**Anning01/novelvids**](https://github.com/Anning01/novelvids) - `Python` | ⭐ **284** | 🍴 78
+- [**Anning01/novelvids**](https://github.com/Anning01/novelvids) - `Python` | ⭐ **285** | 🍴 78
   - 基于第三方视频生成 API，将小说自动转换为风格一致的视频内容。
 
 - [**saberzero1/quartz-themes**](https://github.com/saberzero1/quartz-themes) - `SCSS` | ⭐ **267** | 🍴 9

@@ -1,7 +1,7 @@
 # 🌟 GitHub Starred Repositories - @vuongdat67
 
 > Danh sách toàn bộ starred repositories của **[@vuongdat67](https://github.com/vuongdat67)**.
-> 🕒 Cập nhật: `2026-08-31 02:38:12` | 📦 Tổng số: **615** repositories
+> 🕒 Cập nhật: `2026-08-31 02:52:10` | 📦 Tổng số: **615** repositories
 
 ---
 
@@ -331,11 +331,11 @@
 - [**theori-io/copy-fail-CVE-2026-31431**](https://github.com/theori-io/copy-fail-CVE-2026-31431) - ⭐ **4.1k** | 🍴 910 | 📅 `2026-05-01`
   - Copy Fail (CVE-2026-31431): 9-year-old Linux kernel LPE found by Theori's Xint Code
 
-- [**sanyuan0704/sanyuan-skills**](https://github.com/sanyuan0704/sanyuan-skills) - ⭐ **3.9k** | 🍴 340 | 📅 `2026-02-11`
-  - Expert code review skill: SOLID, security, performance, error handling, boundary conditions
-
 - [**elementalsouls/Claude-BugHunter**](https://github.com/elementalsouls/Claude-BugHunter) - ⭐ **3.9k** | 🍴 605 | 📅 `2026-05-19`
   - A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
+
+- [**sanyuan0704/sanyuan-skills**](https://github.com/sanyuan0704/sanyuan-skills) - ⭐ **3.9k** | 🍴 340 | 📅 `2026-02-11`
+  - Expert code review skill: SOLID, security, performance, error handling, boundary conditions
 
 - [**arxhr007/Aliens_eye**](https://github.com/arxhr007/Aliens_eye) - ⭐ **3.7k** | 🍴 427 | 📅 `2026-07-16`
   - Hunt down 840+ social media accounts using AI
@@ -435,7 +435,7 @@
 - [**notepower2k1/CapCap**](https://github.com/notepower2k1/CapCap) - ⭐ **307** | 🍴 231 | 📅 `2026-08-17`
   - CapCap is a Windows desktop app for short-form video localization and dubbing. It brings transcription, translation, subtitle styling, voice generation, timeline editing, preview, and export into a single project workflow for Vietnamese-focused content production.
 
-- [**Anning01/novelvids**](https://github.com/Anning01/novelvids) - ⭐ **284** | 🍴 78 | 📅 `2026-08-17`
+- [**Anning01/novelvids**](https://github.com/Anning01/novelvids) - ⭐ **285** | 🍴 78 | 📅 `2026-08-17`
   - 基于第三方视频生成 API，将小说自动转换为风格一致的视频内容。
 
 - [**Encod3d-Sec/TORCH**](https://github.com/Encod3d-Sec/TORCH) - ⭐ **282** | 🍴 42 | 📅 `2026-07-16`
@@ -654,7 +654,7 @@
 - [**TencentCloud/TencentDB-Agent-Memory**](https://github.com/TencentCloud/TencentDB-Agent-Memory) - ⭐ **25.3k** | 🍴 2.4k | 📅 `2026-07-11`
   - TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.
 
-- [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) - ⭐ **24.3k** | 🍴 4.5k | 📅 `2026-08-30`
+- [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) - ⭐ **24.4k** | 🍴 4.5k | 📅 `2026-08-30`
   - Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
 
 - [**coleam00/Archon**](https://github.com/coleam00/Archon) - ⭐ **23.3k** | 🍴 3.5k | 📅 `2026-04-10`
@@ -795,7 +795,7 @@
 - [**vriteio/vrite**](https://github.com/vriteio/vrite) - ⭐ **2.0k** | 🍴 84 | 📅 `2026-07-26`
   - Open-source developer content platform
 
-- [**AtomicBot-ai/Atomic-Chat**](https://github.com/AtomicBot-ai/Atomic-Chat) - ⭐ **1.4k** | 🍴 160 | 📅 `2026-04-02`
+- [**AtomicBot-ai/Atomic-Chat**](https://github.com/AtomicBot-ai/Atomic-Chat) - ⭐ **1.4k** | 🍴 161 | 📅 `2026-04-02`
   - Local AI app and inference engine for agents. Run open-weight LLMs locally — private, 100% offline on your computer. Join our Discord: https://discord.com/invite/8wGSsvmg4V
 
 - [**sourcey/sourcey**](https://github.com/sourcey/sourcey) - ⭐ **1.4k** | 🍴 331 | 📅 `2026-07-26`
@@ -1284,7 +1284,7 @@
 
 ### JavaScript `(32)`
 
-- [**affaan-m/ECC**](https://github.com/affaan-m/ECC) - ⭐ **244.7k** | 🍴 37.0k | 📅 `2026-01-20`
+- [**affaan-m/ECC**](https://github.com/affaan-m/ECC) - ⭐ **244.8k** | 🍴 37.0k | 📅 `2026-01-20`
   - The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
 - [**vercel/next.js**](https://github.com/vercel/next.js) - ⭐ **142.0k** | 🍴 31.8k | 📅 `2026-07-11`
@@ -1326,7 +1326,7 @@
 - [**saadeghi/daisyui**](https://github.com/saadeghi/daisyui) - ⭐ **42.2k** | 🍴 1.7k | 📅 `2026-07-06`
   - 🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library
 
-- [**tt-a1i/archify**](https://github.com/tt-a1i/archify) - ⭐ **35.0k** | 🍴 2.2k | 📅 `2026-08-30`
+- [**tt-a1i/archify**](https://github.com/tt-a1i/archify) - ⭐ **35.1k** | 🍴 2.2k | 📅 `2026-08-30`
   - Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
 
 - [**JCodesMore/ai-website-cloner-template**](https://github.com/JCodesMore/ai-website-cloner-template) - ⭐ **33.5k** | 🍴 4.9k | 📅 `2026-06-23`
@@ -1574,7 +1574,7 @@
 - [**gofiber/fiber**](https://github.com/gofiber/fiber) - ⭐ **40.1k** | 🍴 2.0k | 📅 `2026-08-05`
   - ⚡️ Express inspired web framework written in Go
 
-- [**aquasecurity/trivy**](https://github.com/aquasecurity/trivy) - ⭐ **37.7k** | 🍴 639 | 📅 `2026-04-22`
+- [**aquasecurity/trivy**](https://github.com/aquasecurity/trivy) - ⭐ **37.7k** | 🍴 640 | 📅 `2026-04-22`
   - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
 
 - [**tailscale/tailscale**](https://github.com/tailscale/tailscale) - ⭐ **35.8k** | 🍴 3.1k | 📅 `2026-07-11`
@@ -1607,7 +1607,7 @@
 - [**btcsuite/btcd**](https://github.com/btcsuite/btcd) - ⭐ **6.7k** | 🍴 2.5k | 📅 `2026-04-02`
   - An alternative full node bitcoin implementation written in Go (golang)
 
-- [**Ed1s0nZ/CyberStrikeAI**](https://github.com/Ed1s0nZ/CyberStrikeAI) - ⭐ **6.1k** | 🍴 976 | 📅 `2026-08-19`
+- [**Ed1s0nZ/CyberStrikeAI**](https://github.com/Ed1s0nZ/CyberStrikeAI) - ⭐ **6.1k** | 🍴 977 | 📅 `2026-08-19`
   - The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.
 
 - [**nextlevelbuilder/goclaw**](https://github.com/nextlevelbuilder/goclaw) - ⭐ **3.6k** | 🍴 1.0k | 📅 `2026-04-08`
@@ -1691,7 +1691,7 @@
 - [**obra/superpowers**](https://github.com/obra/superpowers) - ⭐ **279.7k** | 🍴 25.1k | 📅 `2026-05-12`
   - An agentic skills framework & software development methodology that works.
 
-- [**mattpocock/skills**](https://github.com/mattpocock/skills) - ⭐ **241.9k** | 🍴 20.6k | 📅 `2026-03-20`
+- [**mattpocock/skills**](https://github.com/mattpocock/skills) - ⭐ **242.0k** | 🍴 20.6k | 📅 `2026-03-20`
   - Skills for Real Engineers. Straight from my .agents directory.
 
 - [**msitarzewski/agency-agents**](https://github.com/msitarzewski/agency-agents) - ⭐ **149.1k** | 🍴 24.0k | 📅 `2026-04-06`
