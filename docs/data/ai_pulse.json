@@ -435,6 +435,54 @@
       ]
     },
     {
+      "title": "Code as Worlds: Agentic Discovery of Executable World Representations for Physical Reasoning",
+      "summary": "Physical understanding and reasoning depend on forming compact and generalizable representations of the world. While modern vision-language models can recognize and explain diverse physical events, they often lack explic...",
+      "url": "https://huggingface.co/papers/2608.27549",
+      "source": "Hugging Face Daily Papers",
+      "category": "🧪 Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Hanyang Wang, Yimo Cai, Weiliang Chen",
+      "published_at": "2026-08-26",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge",
+      "summary": "Factual question answering (QA) typically assumes a single canonical answer, obscuring whether large language models (LLMs) retain divergent accounts of long-tail facts. To address this gap, we introduce ElephantBench, a...",
+      "url": "https://huggingface.co/papers/2608.28478",
+      "source": "Hugging Face Daily Papers",
+      "category": "🧪 Hugging Face Papers",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Zhuoshi Pan, Junru Lu, Yan Qian",
+      "published_at": "2026-08-27",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL",
+      "summary": "Long-horizon agentic tasks require large language models (LLMs) to iteratively retrieve, integrate, and maintain dispersed information across multi-turn interactions, but preserving all interaction histories leads to a c...",
+      "url": "https://huggingface.co/papers/2608.28476",
+      "source": "Hugging Face Daily Papers",
+      "category": "🧪 Hugging Face Papers",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Zhuoshi Pan, Qizhi Pei, Junru Lu",
+      "published_at": "2026-08-27",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
       "title": "Luce: Relightable Gaussians for 3D Asset Generation",
       "summary": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and integration into standard rendering pipelines, the representation should include phy...",
       "url": "https://huggingface.co/papers/2608.23943",
@@ -536,8 +584,8 @@
       "url": "https://huggingface.co/papers/2608.25518",
       "source": "Hugging Face Daily Papers",
       "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 181",
-      "upvotes": 181,
+      "badge": "⭐ 182",
+      "upvotes": 182,
       "authors": "Pengfei Zhou, Hexin Wang, Zhengfeiyang Zhang",
       "published_at": "2026-08-25",
       "tags": [
@@ -584,8 +632,8 @@
       "url": "https://huggingface.co/papers/2608.26200",
       "source": "Hugging Face Daily Papers",
       "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 43",
-      "upvotes": 43,
+      "badge": "⭐ 44",
+      "upvotes": 44,
       "authors": "Yuncheng Guo, Zhanqiu Zhang, Yiwen Guo",
       "published_at": "2026-08-24",
       "tags": [
@@ -680,8 +728,8 @@
       "url": "https://huggingface.co/papers/2608.27345",
       "source": "Hugging Face Daily Papers",
       "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 132",
-      "upvotes": 132,
+      "badge": "⭐ 136",
+      "upvotes": 136,
       "authors": "Yuandong Pu, Le Zhuo, Sayak Paul",
       "published_at": "2026-08-26",
       "tags": [
@@ -696,57 +744,9 @@
       "url": "https://huggingface.co/papers/2608.27456",
       "source": "Hugging Face Daily Papers",
       "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 101",
-      "upvotes": 101,
+      "badge": "⭐ 104",
+      "upvotes": 104,
       "authors": "Tianjie Ju, Zheng Wu, Yueqing Sun",
-      "published_at": "2026-08-26",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
-      "summary": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simpl...",
-      "url": "https://huggingface.co/papers/2608.26103",
-      "source": "Hugging Face Daily Papers",
-      "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 19",
-      "upvotes": 19,
-      "authors": "Jiaming Zhou, Qihang Zhang, Gangwei Xu",
-      "published_at": "2026-08-25",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
-      "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressi...",
-      "url": "https://huggingface.co/papers/2608.27454",
-      "source": "Hugging Face Daily Papers",
-      "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 18",
-      "upvotes": 18,
-      "authors": "Liyan Tang, Cyrus Rashtchian, Chun-Sung Ferng",
-      "published_at": "2026-08-26",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Self-OPD: On-Policy Distillation for Flow Matching Models without Teacher",
-      "summary": "On-policy distillation (OPD), which leverages a pre-trained, specialized teacher model to provide dense supervisory signals, has achieved significant success in Large Language Models (LLMs) and has recently been adapted ...",
-      "url": "https://huggingface.co/papers/2608.26872",
-      "source": "Hugging Face Daily Papers",
-      "category": "🧪 Hugging Face Papers",
-      "badge": "⭐ 71",
-      "upvotes": 71,
-      "authors": "Shiyi Zhang, Mushui Liu, Yunze Tong",
       "published_at": "2026-08-26",
       "tags": [
         "paper",
@@ -1002,12 +1002,12 @@
     },
     {
       "title": "“I just chose words carefully”",
-      "summary": "Hacker News (241 pts, 64 comments) by @zdw",
+      "summary": "Hacker News (284 pts, 76 comments) by @zdw",
       "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "241 pts",
-      "upvotes": 241,
+      "badge": "284 pts",
+      "upvotes": 284,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1017,12 +1017,12 @@
     },
     {
       "title": "Creepy Crawlies",
-      "summary": "Hacker News (917 pts, 425 comments) by @zdw",
+      "summary": "Hacker News (933 pts, 434 comments) by @zdw",
       "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "917 pts",
-      "upvotes": 917,
+      "badge": "933 pts",
+      "upvotes": 933,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1032,12 +1032,12 @@
     },
     {
       "title": "Haiku R1/beta6 has been released",
-      "summary": "Hacker News (252 pts, 76 comments) by @metrofun",
+      "summary": "Hacker News (258 pts, 76 comments) by @metrofun",
       "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "252 pts",
-      "upvotes": 252,
+      "badge": "258 pts",
+      "upvotes": 258,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1047,12 +1047,12 @@
     },
     {
       "title": "Cores in space: The core memory module from a 1980 Spacelab computer",
-      "summary": "Hacker News (74 pts, 12 comments) by @pwg",
+      "summary": "Hacker News (79 pts, 13 comments) by @pwg",
       "url": "https://www.righto.com/2026/08/spacelab-core-memory.html",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "74 pts",
-      "upvotes": 74,
+      "badge": "79 pts",
+      "upvotes": 79,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1062,12 +1062,12 @@
     },
     {
       "title": "Show HN: NFC Energy-Harvesting PCB Business Card with an MCU",
-      "summary": "Hacker News (95 pts, 9 comments) by @WilsonHarper",
+      "summary": "Hacker News (104 pts, 10 comments) by @WilsonHarper",
       "url": "https://wilsonharper.net/projects/businesscard/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "95 pts",
-      "upvotes": 95,
+      "badge": "104 pts",
+      "upvotes": 104,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1077,7 +1077,7 @@
     },
     {
       "title": "Sort branches by last commit date",
-      "summary": "Hacker News (87 pts, 30 comments) by @speckx",
+      "summary": "Hacker News (87 pts, 34 comments) by @speckx",
       "url": "https://ryangreenberg.com/til/git-branches-by-commit-date/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
@@ -1091,13 +1091,28 @@
       ]
     },
     {
+      "title": "Matrox: Graphics for Professionals",
+      "summary": "Hacker News (13 pts, 0 comments) by @BirAdam",
+      "url": "https://www.abortretry.fail/p/matrox",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "13 pts",
+      "upvotes": 13,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
       "title": "Continuous Diffusion Language Models (CDLM's)",
-      "summary": "Hacker News (52 pts, 15 comments) by @peter_d_sherman",
+      "summary": "Hacker News (57 pts, 19 comments) by @peter_d_sherman",
       "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "52 pts",
-      "upvotes": 52,
+      "badge": "57 pts",
+      "upvotes": 57,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1107,27 +1122,12 @@
     },
     {
       "title": "Commercially Available Bike Generators Are Not Sustainable (2011)",
-      "summary": "Hacker News (25 pts, 15 comments) by @baud147258",
+      "summary": "Hacker News (28 pts, 19 comments) by @baud147258",
       "url": "https://solar.lowtechmagazine.com/2011/05/bike-powered-electricity-generators-are-not-sustainable/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "25 pts",
-      "upvotes": 25,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver",
-      "summary": "Hacker News (66 pts, 33 comments) by @SillyUsername",
-      "url": "https://github.com/KodeMunkie/sm750hdmifb",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "66 pts",
-      "upvotes": 66,
+      "badge": "28 pts",
+      "upvotes": 28,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1137,12 +1137,12 @@
     },
     {
       "title": "Relm4 makes developing beautiful cross-platform applications idiomatic",
-      "summary": "Hacker News (11 pts, 7 comments) by @Bluestein",
+      "summary": "Hacker News (13 pts, 7 comments) by @Bluestein",
       "url": "https://relm4.org/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "11 pts",
-      "upvotes": 11,
+      "badge": "13 pts",
+      "upvotes": 13,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1151,13 +1151,13 @@
       ]
     },
     {
-      "title": "Coordination Headwind: How Organizations Are Like Slime Molds",
-      "summary": "Hacker News (126 pts, 43 comments) by @rzk",
-      "url": "https://komoroske.com/slime-mold/",
+      "title": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver",
+      "summary": "Hacker News (69 pts, 34 comments) by @SillyUsername",
+      "url": "https://github.com/KodeMunkie/sm750hdmifb",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "126 pts",
-      "upvotes": 126,
+      "badge": "69 pts",
+      "upvotes": 69,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1167,12 +1167,27 @@
     },
     {
       "title": "Hacking IKEA Furniture",
-      "summary": "Hacker News (265 pts, 181 comments) by @greenlightning",
+      "summary": "Hacker News (269 pts, 184 comments) by @greenlightning",
       "url": "https://greenlightning.eu/diy/hacking-ikea-furniture/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "265 pts",
-      "upvotes": 265,
+      "badge": "269 pts",
+      "upvotes": 269,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Coordination Headwind: How Organizations Are Like Slime Molds",
+      "summary": "Hacker News (130 pts, 43 comments) by @rzk",
+      "url": "https://komoroske.com/slime-mold/",
+      "source": "Hacker News",
+      "category": "📰 Hacker News Tech",
+      "badge": "130 pts",
+      "upvotes": 130,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1182,27 +1197,12 @@
     },
     {
       "title": "Yen weakens past ¥160 per dollar, eroding intervention gains",
-      "summary": "Hacker News (23 pts, 7 comments) by @rguiscard",
+      "summary": "Hacker News (36 pts, 32 comments) by @rguiscard",
       "url": "https://www.japantimes.co.jp/business/2026/08/29/markets/yen-160-dollar-intervention/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "23 pts",
-      "upvotes": 23,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Zig: Pointer Stability for ArrayLists",
-      "summary": "Hacker News (83 pts, 56 comments) by @tosh",
-      "url": "https://ziglang.org/devlog/2026/#2026-08-27",
-      "source": "Hacker News",
-      "category": "📰 Hacker News Tech",
-      "badge": "83 pts",
-      "upvotes": 83,
+      "badge": "36 pts",
+      "upvotes": 36,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1212,12 +1212,12 @@
     },
     {
       "title": "Startup Anti-Patterns",
-      "summary": "Hacker News (77 pts, 35 comments) by @rzk",
+      "summary": "Hacker News (78 pts, 39 comments) by @rzk",
       "url": "https://www.itamarnovick.com/intro-to-startup-anti-pattern-series/",
       "source": "Hacker News",
       "category": "📰 Hacker News Tech",
-      "badge": "77 pts",
-      "upvotes": 77,
+      "badge": "78 pts",
+      "upvotes": 78,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
