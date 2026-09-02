@@ -2,6 +2,82 @@
   "repos": [
     {
       "rank": 1,
+      "full_name": "Gitlawb/openclaude",
+      "owner": "Gitlawb",
+      "name": "openclaude",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "description": "runs anywhere. uses anything",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 31482,
+      "forks": 8961,
+      "stars_since": "80",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/268502447?s=40&v=4",
+          "username": "kevincodex1"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/59725767?s=40&v=4",
+          "username": "chioarub"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/12479882?s=40&v=4",
+          "username": "jatmn"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/50949929?s=40&v=4",
+          "username": "0xfandom"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 2,
+      "full_name": "Imbad0202/academic-research-skills",
+      "owner": "Imbad0202",
+      "name": "academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 45080,
+      "forks": 3557,
+      "stars_since": "193",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/132531341?s=40&v=4",
+          "username": "Imbad0202"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/126993554?s=40&v=4",
+          "username": "2023Anita"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/115035770?s=40&v=4",
+          "username": "madtriceps"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/254419203?s=40&v=4",
+          "username": "ktao732084-arch"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 3,
       "full_name": "THU-MAIC/OpenMAIC",
       "owner": "THU-MAIC",
       "name": "OpenMAIC",
@@ -9,9 +85,9 @@
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 27846,
-      "forks": 4832,
-      "stars_since": "2,824",
+      "stars": 29771,
+      "forks": 5001,
+      "stars_since": "3,128",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -39,151 +115,45 @@
       "source": "github"
     },
     {
-      "rank": 2,
-      "full_name": "tt-a1i/archify",
-      "owner": "tt-a1i",
-      "name": "archify",
-      "url": "https://github.com/tt-a1i/archify",
-      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 39668,
-      "forks": 2524,
-      "stars_since": "3,991",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/53142663?s=40&v=4",
-          "username": "tt-a1i"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/55621390?s=40&v=4",
-          "username": "sunsunsun-java"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/44204222?s=40&v=4",
-          "username": "YunyueLi"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 3,
-      "full_name": "K-Dense-AI/scientific-agent-skills",
-      "owner": "K-Dense-AI",
-      "name": "scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 40955,
-      "forks": 3784,
-      "stars_since": "1,980",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9168908?s=40&v=4",
-          "username": "TKassis"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/206480607?s=40&v=4",
-          "username": "borealBytes"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 4,
-      "full_name": "k1tbyte/Wand-Enhancer",
-      "owner": "k1tbyte",
-      "name": "Wand-Enhancer",
-      "url": "https://github.com/k1tbyte/Wand-Enhancer",
-      "description": "Advanced UX and interoperability extension for Wand (WeMod) app",
-      "language": "C#",
-      "language_color": "#7355dd",
-      "stars": 23466,
-      "forks": 59699,
-      "stars_since": "582",
+      "full_name": "iv-org/invidious",
+      "owner": "iv-org",
+      "name": "invidious",
+      "url": "https://github.com/iv-org/invidious",
+      "description": "Invidious is an alternative front-end to YouTube",
+      "language": "Crystal",
+      "language_color": "#000100",
+      "stars": 23834,
+      "forks": 2676,
+      "stars_since": "577",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/96521396?s=40&v=4",
-          "username": "k1tbyte"
+          "avatar": "https://avatars.githubusercontent.com/u/14208607?s=40&v=4",
+          "username": "omarroth"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
+          "avatar": "https://avatars.githubusercontent.com/u/52980486?s=40&v=4",
+          "username": "SamantazFox"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/12871391?s=40&v=4",
-          "username": "divya0795"
+          "avatar": "https://avatars.githubusercontent.com/u/1607653?s=40&v=4",
+          "username": "weblate"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/26019675?s=40&v=4",
-          "username": "SunsetMkt"
+          "avatar": "https://avatars.githubusercontent.com/u/70992037?s=40&v=4",
+          "username": "syeopite"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/62252171?s=40&v=4",
-          "username": "YifePlayte"
+          "avatar": "https://avatars.githubusercontent.com/u/47571719?s=40&v=4",
+          "username": "TheFrenchGhosty"
         }
       ],
       "source": "github"
     },
     {
       "rank": 5,
-      "full_name": "majd/ipatool",
-      "owner": "majd",
-      "name": "ipatool",
-      "url": "https://github.com/majd/ipatool",
-      "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
-      "language": "Go",
-      "language_color": "#00ADD8",
-      "stars": 10618,
-      "forks": 898,
-      "stars_since": "373",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1644696?s=40&v=4",
-          "username": "majd"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2650170?s=40&v=4",
-          "username": "ViRb3"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1824153?s=40&v=4",
-          "username": "tux-mind"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/8717479?s=40&v=4",
-          "username": "testwill"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 6,
       "full_name": "jingyaogong/minimind",
       "owner": "jingyaogong",
       "name": "minimind",
@@ -191,9 +161,9 @@
       "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 56400,
-      "forks": 7349,
-      "stars_since": "495",
+      "stars": 57280,
+      "forks": 7445,
+      "stars_since": "1,005",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -221,287 +191,45 @@
       "source": "github"
     },
     {
+      "rank": 6,
+      "full_name": "3b1b/manim",
+      "owner": "3b1b",
+      "name": "manim",
+      "url": "https://github.com/3b1b/manim",
+      "description": "Animation engine for explanatory math videos",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 92655,
+      "forks": 7625,
+      "stars_since": "86",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/11601040?s=40&v=4",
+          "username": "3b1b"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/44120331?s=40&v=4",
+          "username": "TonyCrane"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/13440601?s=40&v=4",
+          "username": "bhbr"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/50232075?s=40&v=4",
+          "username": "YishiMichael"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/43117506?s=40&v=4",
+          "username": "eulertour"
+        }
+      ],
+      "source": "github"
+    },
+    {
       "rank": 7,
-      "full_name": "Osmantic/ODS",
-      "owner": "Osmantic",
-      "name": "ODS",
-      "url": "https://github.com/Osmantic/ODS",
-      "description": "Turn your PC, Mac, or Linux box into an AI server. LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 5623,
-      "forks": 786,
-      "stars_since": "77",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/259460275?s=40&v=4",
-          "username": "Lightheartdevs"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/40251887?s=40&v=4",
-          "username": "yasinBursali"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/50086597?s=40&v=4",
-          "username": "gabsprogrammer"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/136192596?s=40&v=4",
-          "username": "SSignall"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 8,
-      "full_name": "checkstyle/checkstyle",
-      "owner": "checkstyle",
-      "name": "checkstyle",
-      "url": "https://github.com/checkstyle/checkstyle",
-      "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.",
-      "language": "Java",
-      "language_color": "#b07219",
-      "stars": 9454,
-      "forks": 4209,
-      "stars_since": "198",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/812984?s=40&v=4",
-          "username": "romani"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5170945?s=40&v=4",
-          "username": "oburn"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5427943?s=40&v=4",
-          "username": "rnveach"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5467276?s=40&v=4",
-          "username": "mkordas"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 9,
-      "full_name": "zhaoxuya520/reverse-skill",
-      "owner": "zhaoxuya520",
-      "name": "reverse-skill",
-      "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-      "language": "PowerShell",
-      "language_color": "#012456",
-      "stars": 33369,
-      "forks": 4523,
-      "stars_since": "1,401",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/147215175?s=40&v=4",
-          "username": "zhaoxuya520"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/94750419?s=40&v=4",
-          "username": "dhicoc"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/77732008?s=40&v=4",
-          "username": "jhuang-tw"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/30251656?s=40&v=4",
-          "username": "doublecurry"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/140924318?s=40&v=4",
-          "username": "sakukir"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 10,
-      "full_name": "affaan-m/ECC",
-      "owner": "affaan-m",
-      "name": "ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 245366,
-      "forks": 37060,
-      "stars_since": "512",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/124439313?s=40&v=4",
-          "username": "affaan-m"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/49814733?s=40&v=4",
-          "username": "haelyra"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/73515951?s=40&v=4",
-          "username": "pangerlkr"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 11,
-      "full_name": "kaifcodec/user-scanner",
-      "owner": "kaifcodec",
-      "name": "user-scanner",
-      "url": "https://github.com/kaifcodec/user-scanner",
-      "description": "🕵️‍♂️ (2-in-1) Email & Username OSINT suite for deep data extraction just from a single Email/Username. Analyzes 465+ actively maintained scan vectors (175+ email / 290+ username) for security research, investigations, and digital footprinting.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 4379,
-      "forks": 452,
-      "stars_since": "93",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/98528577?s=40&v=4",
-          "username": "kaifcodec"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/706078?s=40&v=4",
-          "username": "brunolm"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/62358492?s=40&v=4",
-          "username": "VamatoHD"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/208832952?s=40&v=4",
-          "username": "json-hunter07"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7974602?s=40&v=4",
-          "username": "kristoisberg"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 12,
-      "full_name": "every-app/open-seo",
-      "owner": "every-app",
-      "name": "open-seo",
-      "url": "https://github.com/every-app/open-seo",
-      "description": "Open source alternative to Semrush and Ahrefs",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 15855,
-      "forks": 1911,
-      "stars_since": "610",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/44480372?s=40&v=4",
-          "username": "bensenescu"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/287046313?s=40&v=4",
-          "username": "jeremypenguin-max"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/68512992?s=40&v=4",
-          "username": "bookingseo"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
-          "username": "mvanhorn"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 13,
-      "full_name": "p-e-w/heretic",
-      "owner": "p-e-w",
-      "name": "heretic",
-      "url": "https://github.com/p-e-w/heretic",
-      "description": "Fully automatic censorship removal for language models",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 29755,
-      "forks": 3257,
-      "stars_since": "537",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2702526?s=40&v=4",
-          "username": "p-e-w"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/175500353?s=40&v=4",
-          "username": "Vinay-Umrethe"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1325515?s=40&v=4",
-          "username": "anrp"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/133602907?s=40&v=4",
-          "username": "spikymoth"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 14,
-      "full_name": "handsomestWei/patent-disclosure-skill",
-      "owner": "handsomestWei",
-      "name": "patent-disclosure-skill",
-      "url": "https://github.com/handsomestWei/patent-disclosure-skill",
-      "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 6386,
-      "forks": 740,
-      "stars_since": "571",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/36500279?s=40&v=4",
-          "username": "handsomestWei"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/135248415?s=40&v=4",
-          "username": "917Dhj"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 15,
       "full_name": "firecrawl/pdf-inspector",
       "owner": "firecrawl",
       "name": "pdf-inspector",
@@ -509,9 +237,9 @@
       "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
       "language": "Rust",
       "language_color": "#dea584",
-      "stars": 17488,
-      "forks": 1206,
-      "stars_since": "228",
+      "stars": 18067,
+      "forks": 1230,
+      "stars_since": "541",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -539,39 +267,247 @@
       "source": "github"
     },
     {
-      "rank": 16,
-      "full_name": "pollen-robotics/microduck_rl",
-      "owner": "pollen-robotics",
-      "name": "microduck_rl",
-      "url": "https://github.com/pollen-robotics/microduck_rl",
-      "description": "RL training environments for Microduck (mjlab)",
+      "rank": 8,
+      "full_name": "browser-use/video-use",
+      "owner": "browser-use",
+      "name": "video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "description": "Edit videos with coding agents",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 1245,
-      "forks": 213,
-      "stars_since": "385",
+      "stars": 23113,
+      "forks": 2823,
+      "stars_since": "472",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/6552564?s=40&v=4",
-          "username": "apirrone"
+          "avatar": "https://avatars.githubusercontent.com/u/36313686?s=40&v=4",
+          "username": "gregpr07"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/72405531?s=40&v=4",
-          "username": "Drenayaz"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/76959?s=40&v=4",
-          "username": "darkseed"
+          "avatar": "https://avatars.githubusercontent.com/u/129362299?s=40&v=4",
+          "username": "ShawnPana"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/6255609?s=40&v=4",
-          "username": "tfrere"
+          "avatar": "https://avatars.githubusercontent.com/u/18312206?s=40&v=4",
+          "username": "sidorovanthon"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/25386449?s=40&v=4",
-          "username": "andrewginns"
+          "avatar": "https://avatars.githubusercontent.com/u/118331084?s=40&v=4",
+          "username": "antoinersx"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 9,
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "owner": "K-Dense-AI",
+      "name": "scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 41698,
+      "forks": 3833,
+      "stars_since": "912",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9168908?s=40&v=4",
+          "username": "TKassis"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+          "username": "cursoragent"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/206480607?s=40&v=4",
+          "username": "borealBytes"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 10,
+      "full_name": "handsomestWei/patent-disclosure-skill",
+      "owner": "handsomestWei",
+      "name": "patent-disclosure-skill",
+      "url": "https://github.com/handsomestWei/patent-disclosure-skill",
+      "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 6844,
+      "forks": 766,
+      "stars_since": "501",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/36500279?s=40&v=4",
+          "username": "handsomestWei"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/30405889?s=40&v=4",
+          "username": "xiaofengShi"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/108231307?s=40&v=4",
+          "username": "dajiaohuang"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/135248415?s=40&v=4",
+          "username": "917Dhj"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 11,
+      "full_name": "VoltAgent/awesome-design-md",
+      "owner": "VoltAgent",
+      "name": "awesome-design-md",
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+      "language": "Others",
+      "language_color": "#8b949e",
+      "stars": 113028,
+      "forks": 12796,
+      "stars_since": "323",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/18739364?s=40&v=4",
+          "username": "necatiozmen"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1110414?s=40&v=4",
+          "username": "omeraplak"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/24356000?s=40&v=4",
+          "username": "doanbactam"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/33016192?s=40&v=4",
+          "username": "LeeDoYup"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 12,
+      "full_name": "averygan/reclip",
+      "owner": "averygan",
+      "name": "reclip",
+      "url": "https://github.com/averygan/reclip",
+      "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+      "language": "HTML",
+      "language_color": "#e34c26",
+      "stars": 7821,
+      "forks": 1326,
+      "stars_since": "56",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/88895948?s=40&v=4",
+          "username": "averygan"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/161183892?s=40&v=4",
+          "username": "jouls0217"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/97675744?s=40&v=4",
+          "username": "AmanoSpica"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 13,
+      "full_name": "affaan-m/ECC",
+      "owner": "affaan-m",
+      "name": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 245841,
+      "forks": 37096,
+      "stars_since": "623",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/124439313?s=40&v=4",
+          "username": "affaan-m"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/49814733?s=40&v=4",
+          "username": "haelyra"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/73515951?s=40&v=4",
+          "username": "pangerlkr"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 14,
+      "full_name": "unclecode/crawl4ai",
+      "owner": "unclecode",
+      "name": "crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 80939,
+      "forks": 8362,
+      "stars_since": "145",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/12494079?s=40&v=4",
+          "username": "unclecode"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/17140097?s=40&v=4",
+          "username": "ntohidi"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/15815124?s=40&v=4",
+          "username": "aravindkarnam"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/114597712?s=40&v=4",
+          "username": "SohamKukreti"
         }
       ],
       "source": "github"
