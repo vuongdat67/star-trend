@@ -435,13 +435,45 @@
       ]
     },
     {
+      "title": "From Production Traffic to Post-Training: Building a Self-Hosted LLM That Covers the Corporate Request Mix",
+      "summary": "Data-residency constraints force enterprises to self-host LLMs, but continuous adoption of newer models without decommissioning their predecessors expands the serving fleet, fragmenting a finite GPU pool. We consolidate ...",
+      "url": "https://huggingface.co/papers/2609.01572",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 24",
+      "upvotes": 24,
+      "authors": "Olga Tsymboi, Dmitrii Stoianov, Ramil Latypov",
+      "published_at": "2026-08-31",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Recursive Criticality of AI Self-Improvement",
+      "summary": "AI is increasingly used in the R\\&D process that produces future AI systems. We study the conditions under which this feedback becomes self-amplifying. Our model describes how the rate of AI capability growth depends on ...",
+      "url": "https://huggingface.co/papers/2609.00137",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Mikhail Burtsev",
+      "published_at": "2026-08-30",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
       "title": "Agents in the Large: Perception-Centered Architecture for Persistent Agents",
       "summary": "Cognitive language agents have achieved substantial progress by equipping language models with memory, tools, and decision-making procedures, enabling agents to reason and act in interactive environments. Existing framew...",
       "url": "https://huggingface.co/papers/2608.30478",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
+      "badge": "⭐ 4",
+      "upvotes": 4,
       "authors": "Shihan Dou, Haoxiang Jia, Shichun Liu",
       "published_at": "2026-08-30",
       "tags": [
@@ -456,8 +488,8 @@
       "url": "https://huggingface.co/papers/2609.00768",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 11",
+      "upvotes": 11,
       "authors": "Xincheng Wei, Yifan Ding, Yoshua Li",
       "published_at": "2026-08-31",
       "tags": [
@@ -472,8 +504,8 @@
       "url": "https://huggingface.co/papers/2609.00092",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 13",
-      "upvotes": 13,
+      "badge": "⭐ 17",
+      "upvotes": 17,
       "authors": "Ming Zhang, Kaisen Yang, Shu Yu",
       "published_at": "2026-08-30",
       "tags": [
@@ -488,8 +520,8 @@
       "url": "https://huggingface.co/papers/2609.01343",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 15",
-      "upvotes": 15,
+      "badge": "⭐ 59",
+      "upvotes": 59,
       "authors": "Shaowen Wang, Ge Zhang, Kairong Luo",
       "published_at": "2026-08-31",
       "tags": [
@@ -504,8 +536,8 @@
       "url": "https://huggingface.co/papers/2609.01481",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Haoyang Yan, Min-le Su, Hangfan Zhang",
       "published_at": "2026-08-31",
       "tags": [
@@ -520,8 +552,8 @@
       "url": "https://huggingface.co/papers/2609.00028",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 39",
-      "upvotes": 39,
+      "badge": "⭐ 51",
+      "upvotes": 51,
       "authors": "Venus Team, Zhuohan Cai, Haoxing Chen",
       "published_at": "2026-08-26",
       "tags": [
@@ -536,8 +568,8 @@
       "url": "https://huggingface.co/papers/2609.00111",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 8",
-      "upvotes": 8,
+      "badge": "⭐ 232",
+      "upvotes": 232,
       "authors": "Xin Zhou, Zongchuang Zhao, Zhibo Yang",
       "published_at": "2026-08-30",
       "tags": [
@@ -552,8 +584,8 @@
       "url": "https://huggingface.co/papers/2609.00188",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 20",
-      "upvotes": 20,
+      "badge": "⭐ 38",
+      "upvotes": 38,
       "authors": "Xionghao Wu, Yijun Yang, Shiyang Zhou",
       "published_at": "2026-08-30",
       "tags": [
@@ -568,8 +600,8 @@
       "url": "https://huggingface.co/papers/2608.30730",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Wei Fan, Xinjie Shen, Xudong Guo",
       "published_at": "2026-08-30",
       "tags": [
@@ -584,8 +616,8 @@
       "url": "https://huggingface.co/papers/2609.01560",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
+      "badge": "⭐ 36",
+      "upvotes": 36,
       "authors": "Danze Chen, Zeqing Wang, Ziyue Lin",
       "published_at": "2026-08-31",
       "tags": [
@@ -600,8 +632,8 @@
       "url": "https://huggingface.co/papers/2609.01591",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 129",
-      "upvotes": 129,
+      "badge": "⭐ 284",
+      "upvotes": 284,
       "authors": "Ke Yang, Chenglong Wang, Michel Galley",
       "published_at": "2026-08-31",
       "tags": [
@@ -616,8 +648,8 @@
       "url": "https://huggingface.co/papers/2609.01404",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 14",
-      "upvotes": 14,
+      "badge": "⭐ 18",
+      "upvotes": 18,
       "authors": "Jaewoo Park, Minyoung Lee, Sukmin Seo",
       "published_at": "2026-08-31",
       "tags": [
@@ -648,8 +680,8 @@
       "url": "https://huggingface.co/papers/2609.01607",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
+      "badge": "⭐ 18",
+      "upvotes": 18,
       "authors": "Penghao Wu, Haiwen Diao, Weichen Fan",
       "published_at": "2026-08-31",
       "tags": [
@@ -664,8 +696,8 @@
       "url": "https://huggingface.co/papers/2608.30468",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 18",
-      "upvotes": 18,
+      "badge": "⭐ 23",
+      "upvotes": 23,
       "authors": "Jueun Kim, Sungho Park, Wook-Shin Han",
       "published_at": "2026-08-30",
       "tags": [
@@ -716,38 +748,6 @@
       "upvotes": 5,
       "authors": "Xuerui Su, Liya Guo, Qizhi Pei",
       "published_at": "2026-07-20",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "The Mechanics of Democratic Dominance: A System Dynamics Paradigm for Dynamic Consent Engineering",
-      "summary": "Traditional frameworks of political communication operate under linear, event-driven assumptions that treat voter persuasion as a static, transactional function. This paper introduces Dynamic Consent Engineering (DCE), a...",
-      "url": "https://huggingface.co/papers/2608.27509",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Muhammad Sukri Bin Ramli",
-      "published_at": "2026-08-30",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "The Safeguard Worked. Is the LLM System Safer?",
-      "summary": "Safeguards in deployed LLM services are evaluated by refusal, attack success, and policy violation rates. Those rates characterize how a control performed on the requests it was tested on. A deployment has to answer a di...",
-      "url": "https://huggingface.co/papers/2609.00519",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Pingyu Wu, Weiming Zhang, Nenghai Yu",
-      "published_at": "2026-08-31",
       "tags": [
         "paper",
         "arxiv",
@@ -1001,13 +1001,13 @@
       ]
     },
     {
-      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
-      "summary": "Hacker News (1053 pts, 979 comments) by @denysvitali",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "title": "Commodore 64 released September 1, 1982",
+      "summary": "Hacker News (140 pts, 53 comments) by @giuliomagnifico",
+      "url": "https://dfarq.homeip.net/commodore-64-released-september-1-1982/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "1053 pts",
-      "upvotes": 1053,
+      "badge": "140 pts",
+      "upvotes": 140,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1016,13 +1016,13 @@
       ]
     },
     {
-      "title": "True Rate of Unemployment",
-      "summary": "Hacker News (79 pts, 23 comments) by @ptrhvns",
-      "url": "https://www.lisep.org/tru",
+      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+      "summary": "Hacker News (1300 pts, 1215 comments) by @denysvitali",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "79 pts",
-      "upvotes": 79,
+      "badge": "1300 pts",
+      "upvotes": 1300,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1032,12 +1032,27 @@
     },
     {
       "title": "The Emergent Symbolic Structure of Artificial Neural Networks",
-      "summary": "Hacker News (21 pts, 0 comments) by @schmuhblaster",
+      "summary": "Hacker News (184 pts, 62 comments) by @schmuhblaster",
       "url": "https://arxiv.org/abs/2608.29530",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "21 pts",
-      "upvotes": 21,
+      "badge": "184 pts",
+      "upvotes": 184,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "It's OK to hardcode feature flags (2025)",
+      "summary": "Hacker News (13 pts, 8 comments) by @biscuits1",
+      "url": "https://code.mendhak.com/hardcode-feature-flags/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "13 pts",
+      "upvotes": 13,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1047,27 +1062,12 @@
     },
     {
       "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
-      "summary": "Hacker News (548 pts, 637 comments) by @jatins",
+      "summary": "Hacker News (758 pts, 827 comments) by @jatins",
       "url": "https://danluu.com/zitron/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "548 pts",
-      "upvotes": 548,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "WebFPGA",
-      "summary": "Hacker News (20 pts, 9 comments) by @gurjeet",
-      "url": "https://webfpga.io/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "20 pts",
-      "upvotes": 20,
+      "badge": "758 pts",
+      "upvotes": 758,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1077,12 +1077,57 @@
     },
     {
       "title": "Fine, I'll build my own text editor",
-      "summary": "Hacker News (25 pts, 7 comments) by @Alephinitesimal",
+      "summary": "Hacker News (166 pts, 144 comments) by @Alephinitesimal",
       "url": "https://dbushell.com/2026/09/01/text-editor/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "25 pts",
-      "upvotes": 25,
+      "badge": "166 pts",
+      "upvotes": 166,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Quasar 438B: Europe's Leading AI Model",
+      "summary": "Hacker News (11 pts, 1 comments) by @amunozo",
+      "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "11 pts",
+      "upvotes": 11,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Open Battery Information",
+      "summary": "Hacker News (23 pts, 8 comments) by @toomuchtodo",
+      "url": "https://github.com/mnh-jansson/open-battery-information",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "23 pts",
+      "upvotes": 23,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "You Know Who Hates AI? Insurance Claims Adjusters",
+      "summary": "Hacker News (43 pts, 11 comments) by @joozio",
+      "url": "https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "43 pts",
+      "upvotes": 43,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1092,12 +1137,12 @@
     },
     {
       "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
-      "summary": "Hacker News (100 pts, 32 comments) by @tatersolid",
+      "summary": "Hacker News (270 pts, 136 comments) by @tatersolid",
       "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "100 pts",
-      "upvotes": 100,
+      "badge": "270 pts",
+      "upvotes": 270,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1106,43 +1151,13 @@
       ]
     },
     {
-      "title": "The efficient frontier of LLM inference",
-      "summary": "Hacker News (74 pts, 18 comments) by @philipkiely",
-      "url": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
+      "title": "Sweden pauses Denmark power cable over EU grid rules",
+      "summary": "Hacker News (30 pts, 14 comments) by @leonidasrup",
+      "url": "https://www.nordiskpost.com/2026/05/08/sweden-power-cable-dispute-freezes-link-to-denmark/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "74 pts",
-      "upvotes": 74,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "My local model setup on an M4 Pro Mac Mini",
-      "summary": "Hacker News (119 pts, 58 comments) by @raybb",
-      "url": "https://lws.io/blog/my-local-model-setup/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "119 pts",
-      "upvotes": 119,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
-      "summary": "Hacker News (92 pts, 31 comments) by @masteranza",
-      "url": "https://masteranza.github.io/weedout/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "92 pts",
-      "upvotes": 92,
+      "badge": "30 pts",
+      "upvotes": 30,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1152,12 +1167,27 @@
     },
     {
       "title": "Introducing Ad Blocker for Firefox on iOS",
-      "summary": "Hacker News (366 pts, 125 comments) by @HieronymusBosch",
+      "summary": "Hacker News (514 pts, 169 comments) by @HieronymusBosch",
       "url": "https://blog.mozilla.org/en/firefox/ad-blocker-on-ios/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "366 pts",
-      "upvotes": 366,
+      "badge": "514 pts",
+      "upvotes": 514,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Telli (YC F24) is hiring engineers and designers [Berlin, on-site]",
+      "summary": "Hacker News (1 pts, 0 comments) by @sebselassie",
+      "url": "https://careers.telli.com/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "1 pts",
+      "upvotes": 1,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1167,12 +1197,12 @@
     },
     {
       "title": "Sonic Pi",
-      "summary": "Hacker News (73 pts, 11 comments) by @Bluestein",
+      "summary": "Hacker News (192 pts, 42 comments) by @Bluestein",
       "url": "https://sonic-pi.net/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "73 pts",
-      "upvotes": 73,
+      "badge": "192 pts",
+      "upvotes": 192,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1181,43 +1211,13 @@
       ]
     },
     {
-      "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
-      "summary": "Hacker News (312 pts, 146 comments) by @timpera",
-      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "title": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
+      "summary": "Hacker News (157 pts, 70 comments) by @masteranza",
+      "url": "https://masteranza.github.io/weedout/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "312 pts",
-      "upvotes": 312,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Path to Astra: critical capabilities and frontier safeguards",
-      "summary": "Hacker News (111 pts, 50 comments) by @jithinraj",
-      "url": "https://openai.com/index/path-to-astra/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "111 pts",
-      "upvotes": 111,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "The creator of Jujutsu has joined ERSC",
-      "summary": "Hacker News (209 pts, 153 comments) by @steveklabnik",
-      "url": "https://ersc.io/blog/martin-joins-ersc",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "209 pts",
-      "upvotes": 209,
+      "badge": "157 pts",
+      "upvotes": 157,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1826,13 +1826,45 @@
       ]
     },
     {
+      "title": "From Production Traffic to Post-Training: Building a Self-Hosted LLM That Covers the Corporate Request Mix",
+      "summary": "Data-residency constraints force enterprises to self-host LLMs, but continuous adoption of newer models without decommissioning their predecessors expands the serving fleet, fragmenting a finite GPU pool. We consolidate ...",
+      "url": "https://huggingface.co/papers/2609.01572",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 24",
+      "upvotes": 24,
+      "authors": "Olga Tsymboi, Dmitrii Stoianov, Ramil Latypov",
+      "published_at": "2026-08-31",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Recursive Criticality of AI Self-Improvement",
+      "summary": "AI is increasingly used in the R\\&D process that produces future AI systems. We study the conditions under which this feedback becomes self-amplifying. Our model describes how the rate of AI capability growth depends on ...",
+      "url": "https://huggingface.co/papers/2609.00137",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Mikhail Burtsev",
+      "published_at": "2026-08-30",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
       "title": "Agents in the Large: Perception-Centered Architecture for Persistent Agents",
       "summary": "Cognitive language agents have achieved substantial progress by equipping language models with memory, tools, and decision-making procedures, enabling agents to reason and act in interactive environments. Existing framew...",
       "url": "https://huggingface.co/papers/2608.30478",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
+      "badge": "⭐ 4",
+      "upvotes": 4,
       "authors": "Shihan Dou, Haoxiang Jia, Shichun Liu",
       "published_at": "2026-08-30",
       "tags": [
@@ -1847,8 +1879,8 @@
       "url": "https://huggingface.co/papers/2609.00768",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 11",
+      "upvotes": 11,
       "authors": "Xincheng Wei, Yifan Ding, Yoshua Li",
       "published_at": "2026-08-31",
       "tags": [
@@ -1863,8 +1895,8 @@
       "url": "https://huggingface.co/papers/2609.00092",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 13",
-      "upvotes": 13,
+      "badge": "⭐ 17",
+      "upvotes": 17,
       "authors": "Ming Zhang, Kaisen Yang, Shu Yu",
       "published_at": "2026-08-30",
       "tags": [
@@ -1879,8 +1911,8 @@
       "url": "https://huggingface.co/papers/2609.01343",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 15",
-      "upvotes": 15,
+      "badge": "⭐ 59",
+      "upvotes": 59,
       "authors": "Shaowen Wang, Ge Zhang, Kairong Luo",
       "published_at": "2026-08-31",
       "tags": [
@@ -1895,8 +1927,8 @@
       "url": "https://huggingface.co/papers/2609.01481",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Haoyang Yan, Min-le Su, Hangfan Zhang",
       "published_at": "2026-08-31",
       "tags": [
@@ -1911,8 +1943,8 @@
       "url": "https://huggingface.co/papers/2609.00028",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 39",
-      "upvotes": 39,
+      "badge": "⭐ 51",
+      "upvotes": 51,
       "authors": "Venus Team, Zhuohan Cai, Haoxing Chen",
       "published_at": "2026-08-26",
       "tags": [
@@ -1927,8 +1959,8 @@
       "url": "https://huggingface.co/papers/2609.00111",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 8",
-      "upvotes": 8,
+      "badge": "⭐ 232",
+      "upvotes": 232,
       "authors": "Xin Zhou, Zongchuang Zhao, Zhibo Yang",
       "published_at": "2026-08-30",
       "tags": [
@@ -1943,8 +1975,8 @@
       "url": "https://huggingface.co/papers/2609.00188",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 20",
-      "upvotes": 20,
+      "badge": "⭐ 38",
+      "upvotes": 38,
       "authors": "Xionghao Wu, Yijun Yang, Shiyang Zhou",
       "published_at": "2026-08-30",
       "tags": [
@@ -1959,8 +1991,8 @@
       "url": "https://huggingface.co/papers/2608.30730",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Wei Fan, Xinjie Shen, Xudong Guo",
       "published_at": "2026-08-30",
       "tags": [
@@ -1975,8 +2007,8 @@
       "url": "https://huggingface.co/papers/2609.01560",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
+      "badge": "⭐ 36",
+      "upvotes": 36,
       "authors": "Danze Chen, Zeqing Wang, Ziyue Lin",
       "published_at": "2026-08-31",
       "tags": [
@@ -1991,8 +2023,8 @@
       "url": "https://huggingface.co/papers/2609.01591",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 129",
-      "upvotes": 129,
+      "badge": "⭐ 284",
+      "upvotes": 284,
       "authors": "Ke Yang, Chenglong Wang, Michel Galley",
       "published_at": "2026-08-31",
       "tags": [
@@ -2007,8 +2039,8 @@
       "url": "https://huggingface.co/papers/2609.01404",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 14",
-      "upvotes": 14,
+      "badge": "⭐ 18",
+      "upvotes": 18,
       "authors": "Jaewoo Park, Minyoung Lee, Sukmin Seo",
       "published_at": "2026-08-31",
       "tags": [
@@ -2039,8 +2071,8 @@
       "url": "https://huggingface.co/papers/2609.01607",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
+      "badge": "⭐ 18",
+      "upvotes": 18,
       "authors": "Penghao Wu, Haiwen Diao, Weichen Fan",
       "published_at": "2026-08-31",
       "tags": [
@@ -2055,8 +2087,8 @@
       "url": "https://huggingface.co/papers/2608.30468",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 18",
-      "upvotes": 18,
+      "badge": "⭐ 23",
+      "upvotes": 23,
       "authors": "Jueun Kim, Sungho Park, Wook-Shin Han",
       "published_at": "2026-08-30",
       "tags": [
@@ -2107,38 +2139,6 @@
       "upvotes": 5,
       "authors": "Xuerui Su, Liya Guo, Qizhi Pei",
       "published_at": "2026-07-20",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "The Mechanics of Democratic Dominance: A System Dynamics Paradigm for Dynamic Consent Engineering",
-      "summary": "Traditional frameworks of political communication operate under linear, event-driven assumptions that treat voter persuasion as a static, transactional function. This paper introduces Dynamic Consent Engineering (DCE), a...",
-      "url": "https://huggingface.co/papers/2608.27509",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Muhammad Sukri Bin Ramli",
-      "published_at": "2026-08-30",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "The Safeguard Worked. Is the LLM System Safer?",
-      "summary": "Safeguards in deployed LLM services are evaluated by refusal, attack success, and policy violation rates. Those rates characterize how a control performed on the requests it was tested on. A deployment has to answer a di...",
-      "url": "https://huggingface.co/papers/2609.00519",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Pingyu Wu, Weiming Zhang, Nenghai Yu",
-      "published_at": "2026-08-31",
       "tags": [
         "paper",
         "arxiv",
@@ -2392,13 +2392,13 @@
       ]
     },
     {
-      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
-      "summary": "Hacker News (1053 pts, 979 comments) by @denysvitali",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "title": "Commodore 64 released September 1, 1982",
+      "summary": "Hacker News (140 pts, 53 comments) by @giuliomagnifico",
+      "url": "https://dfarq.homeip.net/commodore-64-released-september-1-1982/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "1053 pts",
-      "upvotes": 1053,
+      "badge": "140 pts",
+      "upvotes": 140,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2407,13 +2407,13 @@
       ]
     },
     {
-      "title": "True Rate of Unemployment",
-      "summary": "Hacker News (79 pts, 23 comments) by @ptrhvns",
-      "url": "https://www.lisep.org/tru",
+      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+      "summary": "Hacker News (1300 pts, 1215 comments) by @denysvitali",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "79 pts",
-      "upvotes": 79,
+      "badge": "1300 pts",
+      "upvotes": 1300,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2423,12 +2423,27 @@
     },
     {
       "title": "The Emergent Symbolic Structure of Artificial Neural Networks",
-      "summary": "Hacker News (21 pts, 0 comments) by @schmuhblaster",
+      "summary": "Hacker News (184 pts, 62 comments) by @schmuhblaster",
       "url": "https://arxiv.org/abs/2608.29530",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "21 pts",
-      "upvotes": 21,
+      "badge": "184 pts",
+      "upvotes": 184,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "It's OK to hardcode feature flags (2025)",
+      "summary": "Hacker News (13 pts, 8 comments) by @biscuits1",
+      "url": "https://code.mendhak.com/hardcode-feature-flags/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "13 pts",
+      "upvotes": 13,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2438,27 +2453,12 @@
     },
     {
       "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
-      "summary": "Hacker News (548 pts, 637 comments) by @jatins",
+      "summary": "Hacker News (758 pts, 827 comments) by @jatins",
       "url": "https://danluu.com/zitron/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "548 pts",
-      "upvotes": 548,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "WebFPGA",
-      "summary": "Hacker News (20 pts, 9 comments) by @gurjeet",
-      "url": "https://webfpga.io/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "20 pts",
-      "upvotes": 20,
+      "badge": "758 pts",
+      "upvotes": 758,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2468,12 +2468,57 @@
     },
     {
       "title": "Fine, I'll build my own text editor",
-      "summary": "Hacker News (25 pts, 7 comments) by @Alephinitesimal",
+      "summary": "Hacker News (166 pts, 144 comments) by @Alephinitesimal",
       "url": "https://dbushell.com/2026/09/01/text-editor/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "25 pts",
-      "upvotes": 25,
+      "badge": "166 pts",
+      "upvotes": 166,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Quasar 438B: Europe's Leading AI Model",
+      "summary": "Hacker News (11 pts, 1 comments) by @amunozo",
+      "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "11 pts",
+      "upvotes": 11,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Open Battery Information",
+      "summary": "Hacker News (23 pts, 8 comments) by @toomuchtodo",
+      "url": "https://github.com/mnh-jansson/open-battery-information",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "23 pts",
+      "upvotes": 23,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "You Know Who Hates AI? Insurance Claims Adjusters",
+      "summary": "Hacker News (43 pts, 11 comments) by @joozio",
+      "url": "https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "43 pts",
+      "upvotes": 43,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2483,12 +2528,12 @@
     },
     {
       "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
-      "summary": "Hacker News (100 pts, 32 comments) by @tatersolid",
+      "summary": "Hacker News (270 pts, 136 comments) by @tatersolid",
       "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "100 pts",
-      "upvotes": 100,
+      "badge": "270 pts",
+      "upvotes": 270,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2497,43 +2542,13 @@
       ]
     },
     {
-      "title": "The efficient frontier of LLM inference",
-      "summary": "Hacker News (74 pts, 18 comments) by @philipkiely",
-      "url": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
+      "title": "Sweden pauses Denmark power cable over EU grid rules",
+      "summary": "Hacker News (30 pts, 14 comments) by @leonidasrup",
+      "url": "https://www.nordiskpost.com/2026/05/08/sweden-power-cable-dispute-freezes-link-to-denmark/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "74 pts",
-      "upvotes": 74,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "My local model setup on an M4 Pro Mac Mini",
-      "summary": "Hacker News (119 pts, 58 comments) by @raybb",
-      "url": "https://lws.io/blog/my-local-model-setup/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "119 pts",
-      "upvotes": 119,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
-      "summary": "Hacker News (92 pts, 31 comments) by @masteranza",
-      "url": "https://masteranza.github.io/weedout/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "92 pts",
-      "upvotes": 92,
+      "badge": "30 pts",
+      "upvotes": 30,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2543,12 +2558,27 @@
     },
     {
       "title": "Introducing Ad Blocker for Firefox on iOS",
-      "summary": "Hacker News (366 pts, 125 comments) by @HieronymusBosch",
+      "summary": "Hacker News (514 pts, 169 comments) by @HieronymusBosch",
       "url": "https://blog.mozilla.org/en/firefox/ad-blocker-on-ios/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "366 pts",
-      "upvotes": 366,
+      "badge": "514 pts",
+      "upvotes": 514,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Telli (YC F24) is hiring engineers and designers [Berlin, on-site]",
+      "summary": "Hacker News (1 pts, 0 comments) by @sebselassie",
+      "url": "https://careers.telli.com/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "1 pts",
+      "upvotes": 1,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2558,12 +2588,12 @@
     },
     {
       "title": "Sonic Pi",
-      "summary": "Hacker News (73 pts, 11 comments) by @Bluestein",
+      "summary": "Hacker News (192 pts, 42 comments) by @Bluestein",
       "url": "https://sonic-pi.net/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "73 pts",
-      "upvotes": 73,
+      "badge": "192 pts",
+      "upvotes": 192,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2572,43 +2602,13 @@
       ]
     },
     {
-      "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
-      "summary": "Hacker News (312 pts, 146 comments) by @timpera",
-      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "title": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
+      "summary": "Hacker News (157 pts, 70 comments) by @masteranza",
+      "url": "https://masteranza.github.io/weedout/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "312 pts",
-      "upvotes": 312,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Path to Astra: critical capabilities and frontier safeguards",
-      "summary": "Hacker News (111 pts, 50 comments) by @jithinraj",
-      "url": "https://openai.com/index/path-to-astra/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "111 pts",
-      "upvotes": 111,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "The creator of Jujutsu has joined ERSC",
-      "summary": "Hacker News (209 pts, 153 comments) by @steveklabnik",
-      "url": "https://ersc.io/blog/martin-joins-ersc",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "209 pts",
-      "upvotes": 209,
+      "badge": "157 pts",
+      "upvotes": 157,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
