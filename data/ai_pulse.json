@@ -435,13 +435,29 @@
       ]
     },
     {
+      "title": "RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning",
+      "summary": "Robot learning increasingly depends on broad and diverse demonstrations, yet collecting robot data remains expensive and poorly suited to covering the long tail of real-world tasks. To address this bottleneck, we introdu...",
+      "url": "https://huggingface.co/papers/2609.03199",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 74",
+      "upvotes": 74,
+      "authors": "Howard Qian, Yiting Chen, Yunfei Xie",
+      "published_at": "2026-09-01",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
       "title": "A Common Measure of Communication for Speech Brain-Computer Interfaces",
       "summary": "Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restoring speech for people with paralysis and, more broadly, enabling new forms of natural human-computer i...",
       "url": "https://huggingface.co/papers/2609.02887",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 9",
+      "upvotes": 9,
       "authors": "Dulhan Jayalath, Benjamin Ballyk, Oiwi Parker Jones",
       "published_at": "2026-09-01",
       "tags": [
@@ -456,8 +472,8 @@
       "url": "https://huggingface.co/papers/2609.03153",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 12",
+      "upvotes": 12,
       "authors": "Wenzhuo Xu, Yuchen Zhu, Chongjian Ge",
       "published_at": "2026-09-01",
       "tags": [
@@ -472,8 +488,8 @@
       "url": "https://huggingface.co/papers/2608.29188",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 9",
+      "upvotes": 9,
       "authors": "Qiancheng Zhou, Ruizhe Li",
       "published_at": "2026-08-28",
       "tags": [
@@ -488,8 +504,8 @@
       "url": "https://huggingface.co/papers/2609.04094",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 17",
-      "upvotes": 17,
+      "badge": "⭐ 23",
+      "upvotes": 23,
       "authors": "Shubham Gandhi, Saurabh Goyal, Kiran Kate",
       "published_at": "2026-09-02",
       "tags": [
@@ -504,8 +520,8 @@
       "url": "https://huggingface.co/papers/2609.04173",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 14",
-      "upvotes": 14,
+      "badge": "⭐ 26",
+      "upvotes": 26,
       "authors": "Vilém Zouhar, Niyati Bafna, Mukund Choudhary",
       "published_at": "2026-09-02",
       "tags": [
@@ -520,8 +536,8 @@
       "url": "https://huggingface.co/papers/2608.29253",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
+      "badge": "⭐ 13",
+      "upvotes": 13,
       "authors": "Yaroslav Prytula, Anton Popov, Dmytro Fishman",
       "published_at": "2026-08-28",
       "tags": [
@@ -536,8 +552,8 @@
       "url": "https://huggingface.co/papers/2609.03820",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 9",
-      "upvotes": 9,
+      "badge": "⭐ 15",
+      "upvotes": 15,
       "authors": "Prakhar Khatri",
       "published_at": "2026-09-02",
       "tags": [
@@ -552,8 +568,8 @@
       "url": "https://huggingface.co/papers/2608.30391",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
+      "badge": "⭐ 18",
+      "upvotes": 18,
       "authors": "Zhuoran Lu, Yangyang Yu, Zhuoyan Li",
       "published_at": "2026-08-30",
       "tags": [
@@ -568,8 +584,8 @@
       "url": "https://huggingface.co/papers/2609.04201",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 34",
-      "upvotes": 34,
+      "badge": "⭐ 45",
+      "upvotes": 45,
       "authors": "Chin-Yang Lin, Yang-Che Sun, Cheng Sun",
       "published_at": "2026-09-02",
       "tags": [
@@ -584,8 +600,8 @@
       "url": "https://huggingface.co/papers/2609.01072",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 8",
-      "upvotes": 8,
+      "badge": "⭐ 13",
+      "upvotes": 13,
       "authors": "Daehwan Kim, Haejun Chung, Ikbeom Jang",
       "published_at": "2026-09-01",
       "tags": [
@@ -600,8 +616,8 @@
       "url": "https://huggingface.co/papers/2609.04199",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 256",
-      "upvotes": 256,
+      "badge": "⭐ 307",
+      "upvotes": 307,
       "authors": "Yuntian Deng, Pengyu Nie, Stuart Shieber",
       "published_at": "2026-09-02",
       "tags": [
@@ -616,8 +632,8 @@
       "url": "https://huggingface.co/papers/2609.02373",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
+      "badge": "⭐ 13",
+      "upvotes": 13,
       "authors": "Sai Niranjan Ramachandran, Suvrit Sra",
       "published_at": "2026-09-01",
       "tags": [
@@ -632,8 +648,8 @@
       "url": "https://huggingface.co/papers/2609.03293",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 16",
-      "upvotes": 16,
+      "badge": "⭐ 22",
+      "upvotes": 22,
       "authors": "Yoojin Kim, Jihyoung Jang, Hyounghun Kim",
       "published_at": "2026-09-02",
       "tags": [
@@ -648,8 +664,8 @@
       "url": "https://huggingface.co/papers/2608.26730",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 139",
-      "upvotes": 139,
+      "badge": "⭐ 149",
+      "upvotes": 149,
       "authors": "Tingyun Li, Wenfeng Feng, Weiqing Li",
       "published_at": "2026-08-26",
       "tags": [
@@ -664,8 +680,8 @@
       "url": "https://huggingface.co/papers/2609.04196",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 58",
-      "upvotes": 58,
+      "badge": "⭐ 65",
+      "upvotes": 65,
       "authors": "Kang Liao, Yihang Luo, Xiao-Ming Wu",
       "published_at": "2026-09-02",
       "tags": [
@@ -680,8 +696,8 @@
       "url": "https://huggingface.co/papers/2609.04131",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 22",
-      "upvotes": 22,
+      "badge": "⭐ 29",
+      "upvotes": 29,
       "authors": "Hongyu Qu, Guangming Yao, Ling Xing",
       "published_at": "2026-09-02",
       "tags": [
@@ -696,8 +712,8 @@
       "url": "https://huggingface.co/papers/2609.02367",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 26",
-      "upvotes": 26,
+      "badge": "⭐ 33",
+      "upvotes": 33,
       "authors": "Yichen Liu, Quanwei Zhang, Haozhe Wang",
       "published_at": "2026-09-01",
       "tags": [
@@ -712,8 +728,8 @@
       "url": "https://huggingface.co/papers/2609.03563",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 11",
-      "upvotes": 11,
+      "badge": "⭐ 19",
+      "upvotes": 19,
       "authors": "Byeongjun Park, Byung-Hoon Kim, Hyungjin Chung",
       "published_at": "2026-09-02",
       "tags": [
@@ -728,25 +744,9 @@
       "url": "https://huggingface.co/papers/2609.03952",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 15",
-      "upvotes": 15,
+      "badge": "⭐ 23",
+      "upvotes": 23,
       "authors": "Yibin Wang, Zehan Wang, Junshu Tang",
-      "published_at": "2026-09-02",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
-      "summary": "Large language models achieve superior performance on tasks that require extended reasoning, but long chains of thought make the KV cache a severe memory bottleneck. Existing KV cache compression methods share one paradi...",
-      "url": "https://huggingface.co/papers/2609.03430",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 123",
-      "upvotes": 123,
-      "authors": "Heng Wang, Jielin Qiu, Wenting Zhao",
       "published_at": "2026-09-02",
       "tags": [
         "paper",
@@ -999,13 +999,13 @@
       ]
     },
     {
-      "title": "Formalizing Fermat's Last Theorem",
-      "summary": "Hacker News (415 pts, 269 comments) by @jlebar",
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "title": "Private German rocket makes history, reaches orbit from European soil",
+      "summary": "Hacker News (251 pts, 121 comments) by @bookmtn",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "415 pts",
-      "upvotes": 415,
+      "badge": "251 pts",
+      "upvotes": 251,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1014,13 +1014,13 @@
       ]
     },
     {
-      "title": "Actively exploited sandbox RCE in all Chromium versions",
-      "summary": "Hacker News (82 pts, 32 comments) by @negura",
-      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
+      "title": "Falsehoods Programmers Believe About LANs",
+      "summary": "Hacker News (24 pts, 18 comments) by @robinpie",
+      "url": "https://dreamstation.systems/personal/lanfalsehoods.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "82 pts",
-      "upvotes": 82,
+      "badge": "24 pts",
+      "upvotes": 24,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1029,13 +1029,133 @@
       ]
     },
     {
-      "title": "Statichost.eu – European static site hosting",
-      "summary": "Hacker News (128 pts, 41 comments) by @p4bl0",
-      "url": "https://www.statichost.eu/",
+      "title": "Show HN: Fly By – retro biplane flying game",
+      "summary": "Hacker News (23 pts, 15 comments) by @michaelteter",
+      "url": "https://michaelteter.com/flyby.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "128 pts",
-      "upvotes": 128,
+      "badge": "23 pts",
+      "upvotes": 23,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Finite time blowup for an averaged three-dimensional Navier-Stokes equation (2014)",
+      "summary": "Hacker News (49 pts, 20 comments) by @gmays",
+      "url": "https://terrytao.wordpress.com/2014/02/04/finite-time-blowup-for-an-averaged-three-dimensional-navier-stokes-equation/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "49 pts",
+      "upvotes": 49,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Learn Programming with OCaml",
+      "summary": "Hacker News (142 pts, 66 comments) by @elvis70",
+      "url": "https://usr.lmf.cnrs.fr/lpo/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "142 pts",
+      "upvotes": 142,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "The \"$60 Gaming PC\" – AMD BC-250 (2025)",
+      "summary": "Hacker News (254 pts, 76 comments) by @networked",
+      "url": "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "254 pts",
+      "upvotes": 254,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "How Swiss tables work in Go built-in map",
+      "summary": "Hacker News (23 pts, 0 comments) by @valyala",
+      "url": "https://victoriametrics.com/blog/go-swiss-table-map/index.html",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "23 pts",
+      "upvotes": 23,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "LLMs as a Cognitive Virus",
+      "summary": "Hacker News (135 pts, 112 comments) by @canjobear",
+      "url": "https://arxiv.org/abs/2609.03344",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "135 pts",
+      "upvotes": 135,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Visualizing Rust's Vtables: How dyn Trait Works In Memory",
+      "summary": "Hacker News (115 pts, 14 comments) by @torutofu",
+      "url": "https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "115 pts",
+      "upvotes": 115,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Balrogg: Demonically compacting (up to 15%) lossless Vorbis/Opus recompressor",
+      "summary": "Hacker News (47 pts, 7 comments) by @palaiologos",
+      "url": "https://github.com/iczelia/balrogg",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "47 pts",
+      "upvotes": 47,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
+      "summary": "Hacker News (4 pts, 0 comments) by @okf_memory",
+      "url": "https://github.com/okf-memory/okf-agent-memory",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "4 pts",
+      "upvotes": 4,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1045,12 +1165,12 @@
     },
     {
       "title": "Discovery of a new OpenAI agent message board",
-      "summary": "Hacker News (1413 pts, 1137 comments) by @moultano",
+      "summary": "Hacker News (2071 pts, 1502 comments) by @moultano",
       "url": "https://collusion.wiki/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "1413 pts",
-      "upvotes": 1413,
+      "badge": "2071 pts",
+      "upvotes": 2071,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1059,13 +1179,13 @@
       ]
     },
     {
-      "title": "GPT-6 Astra on OpenRouter",
-      "summary": "Hacker News (62 pts, 26 comments) by @Topfi",
-      "url": "https://openrouter.ai/openai/gpt-6-astra",
+      "title": "Actively exploited sandbox RCE in all Chromium versions",
+      "summary": "Hacker News (732 pts, 433 comments) by @negura",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "62 pts",
-      "upvotes": 62,
+      "badge": "732 pts",
+      "upvotes": 732,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1074,13 +1194,13 @@
       ]
     },
     {
-      "title": "Can AI design circuit boards yet?",
-      "summary": "Hacker News (124 pts, 71 comments) by @iopapa",
-      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+      "title": "Nitter has more working instances than before the takedowns",
+      "summary": "Hacker News (601 pts, 285 comments) by @Cider9986",
+      "url": "https://codeberg.org/mv12star/shitter/wiki/Instances",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "124 pts",
-      "upvotes": 124,
+      "badge": "601 pts",
+      "upvotes": 601,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1089,133 +1209,13 @@
       ]
     },
     {
-      "title": "Shutting down our public encrypted DNS",
-      "summary": "Hacker News (207 pts, 75 comments) by @mywacaday",
-      "url": "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead",
+      "title": "Delidded Intel I9-14900KS CT Scan",
+      "summary": "Hacker News (47 pts, 0 comments) by @willx86",
+      "url": "https://www.lttlabs.com/articles/2026/09/02/delidded-intel-i9-14900ks",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "207 pts",
-      "upvotes": 207,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "An open DNS recursive service for free security and high privacy",
-      "summary": "Hacker News (46 pts, 9 comments) by @mooreds",
-      "url": "https://quad9.net/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "46 pts",
-      "upvotes": 46,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Show HN: Open-Source eInk Bike Computer",
-      "summary": "Hacker News (209 pts, 69 comments) by @stingrae",
-      "url": "https://opentrailpaper.com",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "209 pts",
-      "upvotes": 209,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "RSA-260 Factorized",
-      "summary": "Hacker News (37 pts, 14 comments) by @samyok",
-      "url": "https://twitter.com/penlume/status/2095372672356212876",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "37 pts",
-      "upvotes": 37,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Government Rails Site Hit Hours After CVE Patch",
-      "summary": "Hacker News (63 pts, 14 comments) by @rietta",
-      "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "63 pts",
-      "upvotes": 63,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Digital Sovereignty Is Written in PHP",
-      "summary": "Hacker News (30 pts, 1 comments) by @taubek",
-      "url": "https://thephp.foundation/blog/2026/09/02/digital-sovereignty-is-written-in-php/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "30 pts",
-      "upvotes": 30,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "The Rust React Compiler is now native in Vite",
-      "summary": "Hacker News (99 pts, 19 comments) by @acusti",
-      "url": "https://blog.master.dev/react-now-rusted-all-the-way-out/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "99 pts",
-      "upvotes": 99,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Fermat's Last Theorem in Lean 4",
-      "summary": "Hacker News (46 pts, 10 comments) by @aaraujo002",
-      "url": "https://github.com/anthropics/fermats-last-theorem",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "46 pts",
-      "upvotes": 46,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Record-High 89% in U.S. Say Government Corruption Widespread",
-      "summary": "Hacker News (62 pts, 25 comments) by @karakoram",
-      "url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "62 pts",
-      "upvotes": 62,
+      "badge": "47 pts",
+      "upvotes": 47,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1824,13 +1824,29 @@
       ]
     },
     {
+      "title": "RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning",
+      "summary": "Robot learning increasingly depends on broad and diverse demonstrations, yet collecting robot data remains expensive and poorly suited to covering the long tail of real-world tasks. To address this bottleneck, we introdu...",
+      "url": "https://huggingface.co/papers/2609.03199",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 74",
+      "upvotes": 74,
+      "authors": "Howard Qian, Yiting Chen, Yunfei Xie",
+      "published_at": "2026-09-01",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
       "title": "A Common Measure of Communication for Speech Brain-Computer Interfaces",
       "summary": "Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restoring speech for people with paralysis and, more broadly, enabling new forms of natural human-computer i...",
       "url": "https://huggingface.co/papers/2609.02887",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 9",
+      "upvotes": 9,
       "authors": "Dulhan Jayalath, Benjamin Ballyk, Oiwi Parker Jones",
       "published_at": "2026-09-01",
       "tags": [
@@ -1845,8 +1861,8 @@
       "url": "https://huggingface.co/papers/2609.03153",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 12",
+      "upvotes": 12,
       "authors": "Wenzhuo Xu, Yuchen Zhu, Chongjian Ge",
       "published_at": "2026-09-01",
       "tags": [
@@ -1861,8 +1877,8 @@
       "url": "https://huggingface.co/papers/2608.29188",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 9",
+      "upvotes": 9,
       "authors": "Qiancheng Zhou, Ruizhe Li",
       "published_at": "2026-08-28",
       "tags": [
@@ -1877,8 +1893,8 @@
       "url": "https://huggingface.co/papers/2609.04094",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 17",
-      "upvotes": 17,
+      "badge": "⭐ 23",
+      "upvotes": 23,
       "authors": "Shubham Gandhi, Saurabh Goyal, Kiran Kate",
       "published_at": "2026-09-02",
       "tags": [
@@ -1893,8 +1909,8 @@
       "url": "https://huggingface.co/papers/2609.04173",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 14",
-      "upvotes": 14,
+      "badge": "⭐ 26",
+      "upvotes": 26,
       "authors": "Vilém Zouhar, Niyati Bafna, Mukund Choudhary",
       "published_at": "2026-09-02",
       "tags": [
@@ -1909,8 +1925,8 @@
       "url": "https://huggingface.co/papers/2608.29253",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
+      "badge": "⭐ 13",
+      "upvotes": 13,
       "authors": "Yaroslav Prytula, Anton Popov, Dmytro Fishman",
       "published_at": "2026-08-28",
       "tags": [
@@ -1925,8 +1941,8 @@
       "url": "https://huggingface.co/papers/2609.03820",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 9",
-      "upvotes": 9,
+      "badge": "⭐ 15",
+      "upvotes": 15,
       "authors": "Prakhar Khatri",
       "published_at": "2026-09-02",
       "tags": [
@@ -1941,8 +1957,8 @@
       "url": "https://huggingface.co/papers/2608.30391",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
+      "badge": "⭐ 18",
+      "upvotes": 18,
       "authors": "Zhuoran Lu, Yangyang Yu, Zhuoyan Li",
       "published_at": "2026-08-30",
       "tags": [
@@ -1957,8 +1973,8 @@
       "url": "https://huggingface.co/papers/2609.04201",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 34",
-      "upvotes": 34,
+      "badge": "⭐ 45",
+      "upvotes": 45,
       "authors": "Chin-Yang Lin, Yang-Che Sun, Cheng Sun",
       "published_at": "2026-09-02",
       "tags": [
@@ -1973,8 +1989,8 @@
       "url": "https://huggingface.co/papers/2609.01072",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 8",
-      "upvotes": 8,
+      "badge": "⭐ 13",
+      "upvotes": 13,
       "authors": "Daehwan Kim, Haejun Chung, Ikbeom Jang",
       "published_at": "2026-09-01",
       "tags": [
@@ -1989,8 +2005,8 @@
       "url": "https://huggingface.co/papers/2609.04199",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 256",
-      "upvotes": 256,
+      "badge": "⭐ 307",
+      "upvotes": 307,
       "authors": "Yuntian Deng, Pengyu Nie, Stuart Shieber",
       "published_at": "2026-09-02",
       "tags": [
@@ -2005,8 +2021,8 @@
       "url": "https://huggingface.co/papers/2609.02373",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
+      "badge": "⭐ 13",
+      "upvotes": 13,
       "authors": "Sai Niranjan Ramachandran, Suvrit Sra",
       "published_at": "2026-09-01",
       "tags": [
@@ -2021,8 +2037,8 @@
       "url": "https://huggingface.co/papers/2609.03293",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 16",
-      "upvotes": 16,
+      "badge": "⭐ 22",
+      "upvotes": 22,
       "authors": "Yoojin Kim, Jihyoung Jang, Hyounghun Kim",
       "published_at": "2026-09-02",
       "tags": [
@@ -2037,8 +2053,8 @@
       "url": "https://huggingface.co/papers/2608.26730",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 139",
-      "upvotes": 139,
+      "badge": "⭐ 149",
+      "upvotes": 149,
       "authors": "Tingyun Li, Wenfeng Feng, Weiqing Li",
       "published_at": "2026-08-26",
       "tags": [
@@ -2053,8 +2069,8 @@
       "url": "https://huggingface.co/papers/2609.04196",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 58",
-      "upvotes": 58,
+      "badge": "⭐ 65",
+      "upvotes": 65,
       "authors": "Kang Liao, Yihang Luo, Xiao-Ming Wu",
       "published_at": "2026-09-02",
       "tags": [
@@ -2069,8 +2085,8 @@
       "url": "https://huggingface.co/papers/2609.04131",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 22",
-      "upvotes": 22,
+      "badge": "⭐ 29",
+      "upvotes": 29,
       "authors": "Hongyu Qu, Guangming Yao, Ling Xing",
       "published_at": "2026-09-02",
       "tags": [
@@ -2085,8 +2101,8 @@
       "url": "https://huggingface.co/papers/2609.02367",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 26",
-      "upvotes": 26,
+      "badge": "⭐ 33",
+      "upvotes": 33,
       "authors": "Yichen Liu, Quanwei Zhang, Haozhe Wang",
       "published_at": "2026-09-01",
       "tags": [
@@ -2101,8 +2117,8 @@
       "url": "https://huggingface.co/papers/2609.03563",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 11",
-      "upvotes": 11,
+      "badge": "⭐ 19",
+      "upvotes": 19,
       "authors": "Byeongjun Park, Byung-Hoon Kim, Hyungjin Chung",
       "published_at": "2026-09-02",
       "tags": [
@@ -2117,25 +2133,9 @@
       "url": "https://huggingface.co/papers/2609.03952",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 15",
-      "upvotes": 15,
+      "badge": "⭐ 23",
+      "upvotes": 23,
       "authors": "Yibin Wang, Zehan Wang, Junshu Tang",
-      "published_at": "2026-09-02",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
-      "summary": "Large language models achieve superior performance on tasks that require extended reasoning, but long chains of thought make the KV cache a severe memory bottleneck. Existing KV cache compression methods share one paradi...",
-      "url": "https://huggingface.co/papers/2609.03430",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 123",
-      "upvotes": 123,
-      "authors": "Heng Wang, Jielin Qiu, Wenting Zhao",
       "published_at": "2026-09-02",
       "tags": [
         "paper",
@@ -2388,13 +2388,13 @@
       ]
     },
     {
-      "title": "Formalizing Fermat's Last Theorem",
-      "summary": "Hacker News (415 pts, 269 comments) by @jlebar",
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "title": "Private German rocket makes history, reaches orbit from European soil",
+      "summary": "Hacker News (251 pts, 121 comments) by @bookmtn",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "415 pts",
-      "upvotes": 415,
+      "badge": "251 pts",
+      "upvotes": 251,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2403,13 +2403,13 @@
       ]
     },
     {
-      "title": "Actively exploited sandbox RCE in all Chromium versions",
-      "summary": "Hacker News (82 pts, 32 comments) by @negura",
-      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
+      "title": "Falsehoods Programmers Believe About LANs",
+      "summary": "Hacker News (24 pts, 18 comments) by @robinpie",
+      "url": "https://dreamstation.systems/personal/lanfalsehoods.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "82 pts",
-      "upvotes": 82,
+      "badge": "24 pts",
+      "upvotes": 24,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2418,13 +2418,133 @@
       ]
     },
     {
-      "title": "Statichost.eu – European static site hosting",
-      "summary": "Hacker News (128 pts, 41 comments) by @p4bl0",
-      "url": "https://www.statichost.eu/",
+      "title": "Show HN: Fly By – retro biplane flying game",
+      "summary": "Hacker News (23 pts, 15 comments) by @michaelteter",
+      "url": "https://michaelteter.com/flyby.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "128 pts",
-      "upvotes": 128,
+      "badge": "23 pts",
+      "upvotes": 23,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Finite time blowup for an averaged three-dimensional Navier-Stokes equation (2014)",
+      "summary": "Hacker News (49 pts, 20 comments) by @gmays",
+      "url": "https://terrytao.wordpress.com/2014/02/04/finite-time-blowup-for-an-averaged-three-dimensional-navier-stokes-equation/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "49 pts",
+      "upvotes": 49,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Learn Programming with OCaml",
+      "summary": "Hacker News (142 pts, 66 comments) by @elvis70",
+      "url": "https://usr.lmf.cnrs.fr/lpo/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "142 pts",
+      "upvotes": 142,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "The \"$60 Gaming PC\" – AMD BC-250 (2025)",
+      "summary": "Hacker News (254 pts, 76 comments) by @networked",
+      "url": "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "254 pts",
+      "upvotes": 254,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "How Swiss tables work in Go built-in map",
+      "summary": "Hacker News (23 pts, 0 comments) by @valyala",
+      "url": "https://victoriametrics.com/blog/go-swiss-table-map/index.html",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "23 pts",
+      "upvotes": 23,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "LLMs as a Cognitive Virus",
+      "summary": "Hacker News (135 pts, 112 comments) by @canjobear",
+      "url": "https://arxiv.org/abs/2609.03344",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "135 pts",
+      "upvotes": 135,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Visualizing Rust's Vtables: How dyn Trait Works In Memory",
+      "summary": "Hacker News (115 pts, 14 comments) by @torutofu",
+      "url": "https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "115 pts",
+      "upvotes": 115,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Balrogg: Demonically compacting (up to 15%) lossless Vorbis/Opus recompressor",
+      "summary": "Hacker News (47 pts, 7 comments) by @palaiologos",
+      "url": "https://github.com/iczelia/balrogg",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "47 pts",
+      "upvotes": 47,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
+      "summary": "Hacker News (4 pts, 0 comments) by @okf_memory",
+      "url": "https://github.com/okf-memory/okf-agent-memory",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "4 pts",
+      "upvotes": 4,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2434,12 +2554,12 @@
     },
     {
       "title": "Discovery of a new OpenAI agent message board",
-      "summary": "Hacker News (1413 pts, 1137 comments) by @moultano",
+      "summary": "Hacker News (2071 pts, 1502 comments) by @moultano",
       "url": "https://collusion.wiki/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "1413 pts",
-      "upvotes": 1413,
+      "badge": "2071 pts",
+      "upvotes": 2071,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2448,13 +2568,13 @@
       ]
     },
     {
-      "title": "GPT-6 Astra on OpenRouter",
-      "summary": "Hacker News (62 pts, 26 comments) by @Topfi",
-      "url": "https://openrouter.ai/openai/gpt-6-astra",
+      "title": "Actively exploited sandbox RCE in all Chromium versions",
+      "summary": "Hacker News (732 pts, 433 comments) by @negura",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "62 pts",
-      "upvotes": 62,
+      "badge": "732 pts",
+      "upvotes": 732,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2463,13 +2583,13 @@
       ]
     },
     {
-      "title": "Can AI design circuit boards yet?",
-      "summary": "Hacker News (124 pts, 71 comments) by @iopapa",
-      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+      "title": "Nitter has more working instances than before the takedowns",
+      "summary": "Hacker News (601 pts, 285 comments) by @Cider9986",
+      "url": "https://codeberg.org/mv12star/shitter/wiki/Instances",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "124 pts",
-      "upvotes": 124,
+      "badge": "601 pts",
+      "upvotes": 601,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2478,133 +2598,13 @@
       ]
     },
     {
-      "title": "Shutting down our public encrypted DNS",
-      "summary": "Hacker News (207 pts, 75 comments) by @mywacaday",
-      "url": "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead",
+      "title": "Delidded Intel I9-14900KS CT Scan",
+      "summary": "Hacker News (47 pts, 0 comments) by @willx86",
+      "url": "https://www.lttlabs.com/articles/2026/09/02/delidded-intel-i9-14900ks",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "207 pts",
-      "upvotes": 207,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "An open DNS recursive service for free security and high privacy",
-      "summary": "Hacker News (46 pts, 9 comments) by @mooreds",
-      "url": "https://quad9.net/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "46 pts",
-      "upvotes": 46,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Show HN: Open-Source eInk Bike Computer",
-      "summary": "Hacker News (209 pts, 69 comments) by @stingrae",
-      "url": "https://opentrailpaper.com",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "209 pts",
-      "upvotes": 209,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "RSA-260 Factorized",
-      "summary": "Hacker News (37 pts, 14 comments) by @samyok",
-      "url": "https://twitter.com/penlume/status/2095372672356212876",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "37 pts",
-      "upvotes": 37,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Government Rails Site Hit Hours After CVE Patch",
-      "summary": "Hacker News (63 pts, 14 comments) by @rietta",
-      "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "63 pts",
-      "upvotes": 63,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Digital Sovereignty Is Written in PHP",
-      "summary": "Hacker News (30 pts, 1 comments) by @taubek",
-      "url": "https://thephp.foundation/blog/2026/09/02/digital-sovereignty-is-written-in-php/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "30 pts",
-      "upvotes": 30,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "The Rust React Compiler is now native in Vite",
-      "summary": "Hacker News (99 pts, 19 comments) by @acusti",
-      "url": "https://blog.master.dev/react-now-rusted-all-the-way-out/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "99 pts",
-      "upvotes": 99,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Fermat's Last Theorem in Lean 4",
-      "summary": "Hacker News (46 pts, 10 comments) by @aaraujo002",
-      "url": "https://github.com/anthropics/fermats-last-theorem",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "46 pts",
-      "upvotes": 46,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Record-High 89% in U.S. Say Government Corruption Widespread",
-      "summary": "Hacker News (62 pts, 25 comments) by @karakoram",
-      "url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "62 pts",
-      "upvotes": 62,
+      "badge": "47 pts",
+      "upvotes": 47,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",

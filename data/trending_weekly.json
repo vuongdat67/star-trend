@@ -9,9 +9,9 @@
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 48021,
-      "forks": 3099,
-      "stars_since": "24,227",
+      "stars": 49378,
+      "forks": 3204,
+      "stars_since": "21,896",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -47,9 +47,9 @@
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 31488,
-      "forks": 5183,
-      "stars_since": "10,023",
+      "stars": 31917,
+      "forks": 5236,
+      "stars_since": "10,274",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -78,44 +78,6 @@
     },
     {
       "rank": 3,
-      "full_name": "bilawalsidhu/gods-eye-view",
-      "owner": "bilawalsidhu",
-      "name": "gods-eye-view",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 17489,
-      "forks": 3527,
-      "stars_since": "10,485",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/106619546?s=40&v=4",
-          "username": "bilawalsidhu"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/177599791?s=40&v=4",
-          "username": "ethanstoner"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4534677?s=40&v=4",
-          "username": "yangsongsf"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/49208092?s=40&v=4",
-          "username": "prajwal-raj"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 4,
       "full_name": "Gitlawb/openclaude",
       "owner": "Gitlawb",
       "name": "openclaude",
@@ -123,9 +85,9 @@
       "description": "runs anywhere. uses anything",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 32564,
-      "forks": 9046,
-      "stars_since": "1,389",
+      "stars": 32712,
+      "forks": 9063,
+      "stars_since": "1,679",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -153,7 +115,7 @@
       "source": "github"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "full_name": "google-research/timesfm",
       "owner": "google-research",
       "name": "timesfm",
@@ -161,9 +123,9 @@
       "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 31036,
-      "forks": 2956,
-      "stars_since": "2,324",
+      "stars": 31298,
+      "forks": 2993,
+      "stars_since": "2,653",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -191,7 +153,7 @@
       "source": "github"
     },
     {
-      "rank": 6,
+      "rank": 5,
       "full_name": "jingyaogong/minimind",
       "owner": "jingyaogong",
       "name": "minimind",
@@ -199,9 +161,9 @@
       "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 58522,
-      "forks": 7606,
-      "stars_since": "3,122",
+      "stars": 58776,
+      "forks": 7634,
+      "stars_since": "3,390",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -222,8 +184,46 @@
           "username": "wangzhaode"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/46831957?s=40&v=4",
-          "username": "TKiteRunner"
+          "avatar": "https://avatars.githubusercontent.com/u/9588843?s=40&v=4",
+          "username": "JustinGuese"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 6,
+      "full_name": "tailscale/tailcat",
+      "owner": "tailscale",
+      "name": "tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "language_color": "#00ADD8",
+      "stars": 6362,
+      "forks": 244,
+      "stars_since": "3,762",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2621?s=40&v=4",
+          "username": "bradfitz"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1918?s=40&v=4",
+          "username": "danderson"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1079173?s=40&v=4",
+          "username": "andrew-d"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/348?s=40&v=4",
+          "username": "raggi"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/10344482?s=40&v=4",
+          "username": "jwhited"
         }
       ],
       "source": "github"
@@ -237,9 +237,9 @@
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 42625,
-      "forks": 3899,
-      "stars_since": "7,370",
+      "stars": 42936,
+      "forks": 3925,
+      "stars_since": "6,898",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -271,9 +271,9 @@
       "description": "",
       "language": "Swift",
       "language_color": "#F05138",
-      "stars": 10490,
-      "forks": 1351,
-      "stars_since": "2,137",
+      "stars": 10772,
+      "forks": 1375,
+      "stars_since": "1,982",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -309,9 +309,9 @@
       "description": "A modern formatting library",
       "language": "C++",
       "language_color": "#f34b7d",
-      "stars": 25457,
-      "forks": 3035,
-      "stars_since": "993",
+      "stars": 25567,
+      "forks": 3043,
+      "stars_since": "1,671",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -336,116 +336,6 @@
     },
     {
       "rank": 10,
-      "full_name": "every-app/open-seo",
-      "owner": "every-app",
-      "name": "open-seo",
-      "url": "https://github.com/every-app/open-seo",
-      "description": "Open source alternative to Semrush and Ahrefs",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 17014,
-      "forks": 2116,
-      "stars_since": "2,941",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/44480372?s=40&v=4",
-          "username": "bensenescu"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/287046313?s=40&v=4",
-          "username": "jeremypenguin-max"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/68512992?s=40&v=4",
-          "username": "bookingseo"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
-          "username": "mvanhorn"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 11,
-      "full_name": "p-e-w/heretic",
-      "owner": "p-e-w",
-      "name": "heretic",
-      "url": "https://github.com/p-e-w/heretic",
-      "description": "Fully automatic censorship removal for language models",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 30449,
-      "forks": 3369,
-      "stars_since": "2,146",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2702526?s=40&v=4",
-          "username": "p-e-w"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/175500353?s=40&v=4",
-          "username": "Vinay-Umrethe"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1325515?s=40&v=4",
-          "username": "anrp"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/133602907?s=40&v=4",
-          "username": "spikymoth"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 12,
-      "full_name": "colinhacks/zod",
-      "owner": "colinhacks",
-      "name": "zod",
-      "url": "https://github.com/colinhacks/zod",
-      "description": "TypeScript-first schema validation with static type inference",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 43834,
-      "forks": 2175,
-      "stars_since": "277",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3084745?s=40&v=4",
-          "username": "colinhacks"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/31667350?s=40&v=4",
-          "username": "JacobWeisenburger"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1682194?s=40&v=4",
-          "username": "scotttrinh"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/14938291?s=40&v=4",
-          "username": "igalklebanov"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 13,
       "full_name": "handsomestWei/patent-disclosure-skill",
       "owner": "handsomestWei",
       "name": "patent-disclosure-skill",
@@ -453,9 +343,9 @@
       "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 7366,
-      "forks": 813,
-      "stars_since": "1,846",
+      "stars": 7468,
+      "forks": 821,
+      "stars_since": "1,975",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -479,7 +369,7 @@
       "source": "github"
     },
     {
-      "rank": 14,
+      "rank": 11,
       "full_name": "debpalash/VoiceStudio",
       "owner": "debpalash",
       "name": "VoiceStudio",
@@ -487,9 +377,9 @@
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 17910,
-      "forks": 2350,
-      "stars_since": "3,902",
+      "stars": 18934,
+      "forks": 2431,
+      "stars_since": "5,150",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -517,6 +407,116 @@
       "source": "github"
     },
     {
+      "rank": 12,
+      "full_name": "magnitudedev/magnitude",
+      "owner": "magnitudedev",
+      "name": "magnitude",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 3178,
+      "forks": 228,
+      "stars_since": "740",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/28166244?s=40&v=4",
+          "username": "anerli"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/32600629?s=40&v=4",
+          "username": "thrgreenwald"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1196732?s=40&v=4",
+          "username": "fabianhug"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/120605515?s=40&v=4",
+          "username": "lloydgreenwald"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 13,
+      "full_name": "every-app/open-seo",
+      "owner": "every-app",
+      "name": "open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 17276,
+      "forks": 2161,
+      "stars_since": "2,950",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/44480372?s=40&v=4",
+          "username": "bensenescu"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/287046313?s=40&v=4",
+          "username": "jeremypenguin-max"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/68512992?s=40&v=4",
+          "username": "bookingseo"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
+          "username": "mvanhorn"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 14,
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "owner": "bilawalsidhu",
+      "name": "gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 17990,
+      "forks": 3637,
+      "stars_since": "7,314",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/106619546?s=40&v=4",
+          "username": "bilawalsidhu"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/177599791?s=40&v=4",
+          "username": "ethanstoner"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4534677?s=40&v=4",
+          "username": "yangsongsf"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/49208092?s=40&v=4",
+          "username": "prajwal-raj"
+        }
+      ],
+      "source": "github"
+    },
+    {
       "rank": 15,
       "full_name": "punkpeye/awesome-mcp-servers",
       "owner": "punkpeye",
@@ -525,9 +525,9 @@
       "description": "A collection of MCP servers.",
       "language": "Others",
       "language_color": "#8b949e",
-      "stars": 94150,
-      "forks": 15647,
-      "stars_since": "1,130",
+      "stars": 94329,
+      "forks": 15706,
+      "stars_since": "1,198",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -556,74 +556,40 @@
     },
     {
       "rank": 16,
-      "full_name": "abi/screenshot-to-code",
-      "owner": "abi",
-      "name": "screenshot-to-code",
-      "url": "https://github.com/abi/screenshot-to-code",
-      "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+      "full_name": "p-e-w/heretic",
+      "owner": "p-e-w",
+      "name": "heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 77683,
-      "forks": 9454,
-      "stars_since": "2,412",
+      "stars": 30591,
+      "forks": 3382,
+      "stars_since": "2,065",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/23818?s=40&v=4",
-          "username": "abi"
+          "avatar": "https://avatars.githubusercontent.com/u/2702526?s=40&v=4",
+          "username": "p-e-w"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
+          "avatar": "https://avatars.githubusercontent.com/u/175500353?s=40&v=4",
+          "username": "Vinay-Umrethe"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/53188310?s=40&v=4",
-          "username": "clean99"
+          "avatar": "https://avatars.githubusercontent.com/u/1325515?s=40&v=4",
+          "username": "anrp"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/59241904?s=40&v=4",
-          "username": "kachbit"
+          "avatar": "https://avatars.githubusercontent.com/u/133602907?s=40&v=4",
+          "username": "spikymoth"
         }
       ],
       "source": "github"
     },
     {
       "rank": 17,
-      "full_name": "ChromeDevTools/chrome-devtools-mcp",
-      "owner": "ChromeDevTools",
-      "name": "chrome-devtools-mcp",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "description": "Chrome DevTools for coding agents",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 50930,
-      "forks": 3572,
-      "stars_since": "1,058",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/399150?s=40&v=4",
-          "username": "OrKoN"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/34244704?s=40&v=4",
-          "username": "Lightning00Blade"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/133232582?s=40&v=4",
-          "username": "browser-automation-bot"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11618243?s=40&v=4",
-          "username": "yulunz"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 18,
       "full_name": "majd/ipatool",
       "owner": "majd",
       "name": "ipatool",
@@ -631,9 +597,9 @@
       "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
       "language": "Go",
       "language_color": "#00ADD8",
-      "stars": 10862,
-      "forks": 909,
-      "stars_since": "847",
+      "stars": 10914,
+      "forks": 910,
+      "stars_since": "903",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -657,77 +623,137 @@
       "source": "github"
     },
     {
-      "rank": 19,
-      "full_name": "MakazhanAlpamys/Soup",
-      "owner": "MakazhanAlpamys",
-      "name": "Soup",
-      "url": "https://github.com/MakazhanAlpamys/Soup",
-      "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 5285,
-      "forks": 789,
-      "stars_since": "1,812",
+      "rank": 18,
+      "full_name": "affaan-m/ECC",
+      "owner": "affaan-m",
+      "name": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 249842,
+      "forks": 37610,
+      "stars_since": "4,815",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/188336071?s=40&v=4",
-          "username": "MakazhanAlpamys"
+          "avatar": "https://avatars.githubusercontent.com/u/124439313?s=40&v=4",
+          "username": "affaan-m"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/49814733?s=40&v=4",
+          "username": "haelyra"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/154662592?s=40&v=4",
-          "username": "Amix29"
+          "avatar": "https://avatars.githubusercontent.com/u/73515951?s=40&v=4",
+          "username": "pangerlkr"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 19,
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "owner": "ChromeDevTools",
+      "name": "chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 51057,
+      "forks": 3578,
+      "stars_since": "1,067",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/399150?s=40&v=4",
+          "username": "OrKoN"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/26088029?s=40&v=4",
-          "username": "AmirF194"
+          "avatar": "https://avatars.githubusercontent.com/u/34244704?s=40&v=4",
+          "username": "Lightning00Blade"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2910651?s=40&v=4",
-          "username": "ousamabenyounes"
+          "avatar": "https://avatars.githubusercontent.com/u/133232582?s=40&v=4",
+          "username": "browser-automation-bot"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/11618243?s=40&v=4",
+          "username": "yulunz"
         }
       ],
       "source": "github"
     },
     {
       "rank": 20,
-      "full_name": "OpenWhispr/openwhispr",
-      "owner": "OpenWhispr",
-      "name": "openwhispr",
-      "url": "https://github.com/OpenWhispr/openwhispr",
-      "description": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 6751,
-      "forks": 902,
-      "stars_since": "642",
+      "full_name": "checkstyle/checkstyle",
+      "owner": "checkstyle",
+      "name": "checkstyle",
+      "url": "https://github.com/checkstyle/checkstyle",
+      "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.",
+      "language": "Java",
+      "language_color": "#b07219",
+      "stars": 9542,
+      "forks": 4218,
+      "stars_since": "569",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/11309189?s=40&v=4",
-          "username": "gabrielste1n"
+          "avatar": "https://avatars.githubusercontent.com/u/812984?s=40&v=4",
+          "username": "romani"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/48052303?s=40&v=4",
-          "username": "Chadpiha"
+          "avatar": "https://avatars.githubusercontent.com/u/5170945?s=40&v=4",
+          "username": "oburn"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/62606476?s=40&v=4",
-          "username": "xAlcahest"
+          "avatar": "https://avatars.githubusercontent.com/u/5427943?s=40&v=4",
+          "username": "rnveach"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5467276?s=40&v=4",
+          "username": "mkordas"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 21,
+      "full_name": "abi/screenshot-to-code",
+      "owner": "abi",
+      "name": "screenshot-to-code",
+      "url": "https://github.com/abi/screenshot-to-code",
+      "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 77895,
+      "forks": 9473,
+      "stars_since": "2,372",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/23818?s=40&v=4",
+          "username": "abi"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/231806842?s=40&v=4",
-          "username": "hsusul"
+          "avatar": "https://avatars.githubusercontent.com/u/53188310?s=40&v=4",
+          "username": "clean99"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/59241904?s=40&v=4",
+          "username": "kachbit"
         }
       ],
       "source": "github"
