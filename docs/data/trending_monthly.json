@@ -9,9 +9,9 @@
       "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
       "language_color": "#e34c26",
-      "stars": 32306,
-      "forks": 2074,
-      "stars_since": "28,654",
+      "stars": 33276,
+      "forks": 2127,
+      "stars_since": "29,194",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -24,16 +24,16 @@
           "username": "parveen0029"
         },
         {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
           "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
           "username": "mvanhorn"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/19864447?s=40&v=4",
           "username": "web-flow"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/143511969?s=40&v=4",
-          "username": "0xDarkMatter"
         }
       ],
       "source": "github"
@@ -47,9 +47,9 @@
       "description": "Beautiful, Modern & Opinionated Linux",
       "language": "Shell",
       "language_color": "#89e051",
-      "stars": 38591,
-      "forks": 4151,
-      "stars_since": "14,222",
+      "stars": 38971,
+      "forks": 4206,
+      "stars_since": "14,497",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -70,8 +70,8 @@
           "username": "codex"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/317366263?s=40&v=4",
-          "username": "omarchybot"
+          "avatar": "https://avatars.githubusercontent.com/u/7035687?s=40&v=4",
+          "username": "spencerbull"
         }
       ],
       "source": "github"
@@ -85,9 +85,9 @@
       "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 12171,
-      "forks": 1372,
-      "stars_since": "10,251",
+      "stars": 12285,
+      "forks": 1383,
+      "stars_since": "10,145",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -112,6 +112,40 @@
     },
     {
       "rank": 4,
+      "full_name": "anthropics/claude-plugins-community",
+      "owner": "anthropics",
+      "name": "claude-plugins-community",
+      "url": "https://github.com/anthropics/claude-plugins-community",
+      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 3578,
+      "forks": 273,
+      "stars_since": "3,243",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/238056179?s=40&v=4",
+          "username": "bryan-anthropic"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/32489862?s=40&v=4",
+          "username": "tobinsouth"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/140827?s=40&v=4",
+          "username": "ThariqS"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 5,
       "full_name": "tt-a1i/archify",
       "owner": "tt-a1i",
       "name": "archify",
@@ -119,9 +153,9 @@
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 50726,
-      "forks": 3301,
-      "stars_since": "40,038",
+      "stars": 52843,
+      "forks": 3452,
+      "stars_since": "41,018",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -149,40 +183,6 @@
       "source": "github"
     },
     {
-      "rank": 5,
-      "full_name": "anthropics/claude-plugins-community",
-      "owner": "anthropics",
-      "name": "claude-plugins-community",
-      "url": "https://github.com/anthropics/claude-plugins-community",
-      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 3527,
-      "forks": 271,
-      "stars_since": "3,187",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/238056179?s=40&v=4",
-          "username": "bryan-anthropic"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/32489862?s=40&v=4",
-          "username": "tobinsouth"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/140827?s=40&v=4",
-          "username": "ThariqS"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 6,
       "full_name": "AprilNEA/OpenLogi",
       "owner": "AprilNEA",
@@ -191,9 +191,9 @@
       "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
       "language": "Rust",
       "language_color": "#dea584",
-      "stars": 19729,
-      "forks": 601,
-      "stars_since": "11,323",
+      "stars": 19940,
+      "forks": 615,
+      "stars_since": "11,494",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -225,9 +225,9 @@
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 35782,
-      "forks": 2728,
-      "stars_since": "7,811",
+      "stars": 35939,
+      "forks": 2742,
+      "stars_since": "7,895",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -256,44 +256,6 @@
     },
     {
       "rank": 8,
-      "full_name": "PrimeIntellect-ai/prime-agent",
-      "owner": "PrimeIntellect-ai",
-      "name": "prime-agent",
-      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 20046,
-      "forks": 2191,
-      "stars_since": "20,036",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/46242684?s=40&v=4",
-          "username": "kevinjosethomas"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/110109193?s=40&v=4",
-          "username": "snimu"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/32787133?s=40&v=4",
-          "username": "sethkarten"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13501287?s=40&v=4",
-          "username": "alexzhang13"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/55492238?s=40&v=4",
-          "username": "samsja"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 9,
       "full_name": "xai-org/x-algorithm",
       "owner": "xai-org",
       "name": "x-algorithm",
@@ -301,9 +263,9 @@
       "description": "Algorithm powering the For You feed on X",
       "language": "Rust",
       "language_color": "#dea584",
-      "stars": 32788,
-      "forks": 5365,
-      "stars_since": "5,935",
+      "stars": 32863,
+      "forks": 5368,
+      "stars_since": "5,983",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -323,7 +285,7 @@
       "source": "github"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "full_name": "freestylefly/awesome-gpt-image-2",
       "owner": "freestylefly",
       "name": "awesome-gpt-image-2",
@@ -331,9 +293,9 @@
       "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 28300,
-      "forks": 2714,
-      "stars_since": "19,395",
+      "stars": 28494,
+      "forks": 2729,
+      "stars_since": "19,087",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -361,7 +323,7 @@
       "source": "github"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "full_name": "THU-MAIC/OpenMAIC",
       "owner": "THU-MAIC",
       "name": "OpenMAIC",
@@ -369,9 +331,9 @@
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 32389,
-      "forks": 5291,
-      "stars_since": "11,420",
+      "stars": 33037,
+      "forks": 5367,
+      "stars_since": "11,874",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -399,37 +361,41 @@
       "source": "github"
     },
     {
-      "rank": 12,
-      "full_name": "vitali87/code-graph-rag",
-      "owner": "vitali87",
-      "name": "code-graph-rag",
-      "url": "https://github.com/vitali87/code-graph-rag",
-      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "rank": 11,
+      "full_name": "youssofal/MTPLX",
+      "owner": "youssofal",
+      "name": "MTPLX",
+      "url": "https://github.com/youssofal/MTPLX",
+      "description": "3x faster speeds on MLX | Qwen 3.8 27B | Native MTP Speculative Decoding On Apple Silicon With No External Drafter.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 5033,
-      "forks": 661,
-      "stars_since": "2,486",
+      "stars": 2145,
+      "forks": 158,
+      "stars_since": "1,000",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/22404335?s=40&v=4",
-          "username": "vitali87"
+          "avatar": "https://avatars.githubusercontent.com/u/66418316?s=40&v=4",
+          "username": "youssofal"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/140069682?s=40&v=4",
-          "username": "ZuebeyirEser"
+          "avatar": "https://avatars.githubusercontent.com/u/8346495?s=40&v=4",
+          "username": "davidtai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/84099452?s=40&v=4",
+          "username": "Cyb3rb1ade"
         }
       ],
       "source": "github"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "full_name": "cactus-compute/needle",
       "owner": "cactus-compute",
       "name": "needle",
@@ -437,9 +403,9 @@
       "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 10415,
-      "forks": 672,
-      "stars_since": "7,001",
+      "stars": 10499,
+      "forks": 673,
+      "stars_since": "7,069",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -467,7 +433,7 @@
       "source": "github"
     },
     {
-      "rank": 14,
+      "rank": 13,
       "full_name": "vorssaint/vorssaint-utils",
       "owner": "vorssaint",
       "name": "vorssaint-utils",
@@ -475,9 +441,9 @@
       "description": "Free and open-source macOS menu bar toolkit.",
       "language": "Swift",
       "language_color": "#F05138",
-      "stars": 16035,
-      "forks": 563,
-      "stars_since": "11,072",
+      "stars": 16730,
+      "forks": 584,
+      "stars_since": "11,159",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -505,7 +471,7 @@
       "source": "github"
     },
     {
-      "rank": 15,
+      "rank": 14,
       "full_name": "modular/modular",
       "owner": "modular",
       "name": "modular",
@@ -513,9 +479,9 @@
       "description": "The Modular Platform (includes MAX & Mojo)",
       "language": "Mojo",
       "language_color": "#ff4c1f",
-      "stars": 29578,
-      "forks": 3156,
-      "stars_since": "2,995",
+      "stars": 29609,
+      "forks": 3158,
+      "stars_since": "3,000",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -543,83 +509,45 @@
       "source": "github"
     },
     {
-      "rank": 16,
-      "full_name": "apache/maka",
-      "owner": "apache",
-      "name": "maka",
-      "url": "https://github.com/apache/maka",
-      "description": "Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.",
+      "rank": 15,
+      "full_name": "PrimeIntellect-ai/prime-agent",
+      "owner": "PrimeIntellect-ai",
+      "name": "prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 4834,
-      "forks": 460,
-      "stars_since": "3,614",
+      "stars": 20166,
+      "forks": 2200,
+      "stars_since": "17,024",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/30525741?s=40&v=4",
-          "username": "jackwener"
+          "avatar": "https://avatars.githubusercontent.com/u/46242684?s=40&v=4",
+          "username": "kevinjosethomas"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/255364436?s=40&v=4",
-          "username": "Astro-Han"
+          "avatar": "https://avatars.githubusercontent.com/u/110109193?s=40&v=4",
+          "username": "snimu"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/90952590?s=40&v=4",
-          "username": "likun666661"
+          "avatar": "https://avatars.githubusercontent.com/u/32787133?s=40&v=4",
+          "username": "sethkarten"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/68144809?s=40&v=4",
-          "username": "M4n5ter"
+          "avatar": "https://avatars.githubusercontent.com/u/13501287?s=40&v=4",
+          "username": "alexzhang13"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/96464454?s=40&v=4",
-          "username": "me2seeks"
+          "avatar": "https://avatars.githubusercontent.com/u/55492238?s=40&v=4",
+          "username": "samsja"
         }
       ],
       "source": "github"
     },
     {
-      "rank": 17,
-      "full_name": "3b1b/manim",
-      "owner": "3b1b",
-      "name": "manim",
-      "url": "https://github.com/3b1b/manim",
-      "description": "Animation engine for explanatory math videos",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 93280,
-      "forks": 7660,
-      "stars_since": "4,108",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11601040?s=40&v=4",
-          "username": "3b1b"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/44120331?s=40&v=4",
-          "username": "TonyCrane"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13440601?s=40&v=4",
-          "username": "bhbr"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/50232075?s=40&v=4",
-          "username": "YishiMichael"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/43117506?s=40&v=4",
-          "username": "eulertour"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 18,
+      "rank": 16,
       "full_name": "akitaonrails/ai-memory",
       "owner": "akitaonrails",
       "name": "ai-memory",
@@ -627,9 +555,9 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "language_color": "#dea584",
-      "stars": 5877,
-      "forks": 415,
-      "stars_since": "4,430",
+      "stars": 6009,
+      "forks": 419,
+      "stars_since": "4,490",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -657,6 +585,82 @@
       "source": "github"
     },
     {
+      "rank": 17,
+      "full_name": "apache/maka",
+      "owner": "apache",
+      "name": "maka",
+      "url": "https://github.com/apache/maka",
+      "description": "Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 4926,
+      "forks": 461,
+      "stars_since": "3,647",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/30525741?s=40&v=4",
+          "username": "jackwener"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/255364436?s=40&v=4",
+          "username": "Astro-Han"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/90952590?s=40&v=4",
+          "username": "likun666661"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/68144809?s=40&v=4",
+          "username": "M4n5ter"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/96464454?s=40&v=4",
+          "username": "me2seeks"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 18,
+      "full_name": "3b1b/manim",
+      "owner": "3b1b",
+      "name": "manim",
+      "url": "https://github.com/3b1b/manim",
+      "description": "Animation engine for explanatory math videos",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 93404,
+      "forks": 7672,
+      "stars_since": "4,206",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/11601040?s=40&v=4",
+          "username": "3b1b"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/44120331?s=40&v=4",
+          "username": "TonyCrane"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/13440601?s=40&v=4",
+          "username": "bhbr"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/50232075?s=40&v=4",
+          "username": "YishiMichael"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/43117506?s=40&v=4",
+          "username": "eulertour"
+        }
+      ],
+      "source": "github"
+    },
+    {
       "rank": 19,
       "full_name": "debpalash/VoiceStudio",
       "owner": "debpalash",
@@ -665,9 +669,9 @@
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 19807,
-      "forks": 2511,
-      "stars_since": "9,208",
+      "stars": 20604,
+      "forks": 2570,
+      "stars_since": "9,973",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -688,8 +692,8 @@
           "username": "paoloantinori"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/13193085?s=40&v=4",
-          "username": "bultodepapas"
+          "avatar": "https://avatars.githubusercontent.com/u/19777571?s=40&v=4",
+          "username": "psiberfunk"
         }
       ],
       "source": "github"
@@ -703,9 +707,9 @@
       "description": "A collective list of free APIs",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 476477,
-      "forks": 52609,
-      "stars_since": "22,282",
+      "stars": 477017,
+      "forks": 52653,
+      "stars_since": "22,696",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -741,9 +745,9 @@
       "description": "",
       "language": "Swift",
       "language_color": "#F05138",
-      "stars": 10954,
-      "forks": 1398,
-      "stars_since": "3,201",
+      "stars": 11137,
+      "forks": 1419,
+      "stars_since": "3,335",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -772,6 +776,36 @@
     },
     {
       "rank": 22,
+      "full_name": "vitali87/code-graph-rag",
+      "owner": "vitali87",
+      "name": "code-graph-rag",
+      "url": "https://github.com/vitali87/code-graph-rag",
+      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 5078,
+      "forks": 663,
+      "stars_since": "2,504",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22404335?s=40&v=4",
+          "username": "vitali87"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/140069682?s=40&v=4",
+          "username": "ZuebeyirEser"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 23,
       "full_name": "megadose/holehe",
       "owner": "megadose",
       "name": "holehe",
@@ -779,9 +813,9 @@
       "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 14664,
-      "forks": 1870,
-      "stars_since": "2,755",
+      "stars": 14718,
+      "forks": 1876,
+      "stars_since": "2,754",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
