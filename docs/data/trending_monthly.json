@@ -9,9 +9,9 @@
       "description": "Beautiful, Modern & Opinionated Linux",
       "language": "Shell",
       "language_color": "#89e051",
-      "stars": 40063,
-      "forks": 4389,
-      "stars_since": "15,578",
+      "stars": 40338,
+      "forks": 4444,
+      "stars_since": "15,894",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -40,82 +40,6 @@
     },
     {
       "rank": 2,
-      "full_name": "cathrynlavery/diagram-design",
-      "owner": "cathrynlavery",
-      "name": "diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "language": "HTML",
-      "language_color": "#e34c26",
-      "stars": 37703,
-      "forks": 2389,
-      "stars_since": "32,587",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/50469282?s=40&v=4",
-          "username": "cathrynlavery"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/174610155?s=40&v=4",
-          "username": "parveen0029"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
-          "username": "mvanhorn"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/19864447?s=40&v=4",
-          "username": "web-flow"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 3,
-      "full_name": "cursor/plugins",
-      "owner": "cursor",
-      "name": "plugins",
-      "url": "https://github.com/cursor/plugins",
-      "description": "Cursor plugin specification and official plugins",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 7373,
-      "forks": 642,
-      "stars_since": "4,683",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1390709?s=40&v=4",
-          "username": "poteto"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/930790?s=40&v=4",
-          "username": "roshansada"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/25622412?s=40&v=4",
-          "username": "ericzakariasson"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9469738?s=40&v=4",
-          "username": "maloneya"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 4,
       "full_name": "tt-a1i/archify",
       "owner": "tt-a1i",
       "name": "archify",
@@ -123,9 +47,9 @@
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 57356,
-      "forks": 3742,
-      "stars_since": "45,313",
+      "stars": 58528,
+      "forks": 3817,
+      "stars_since": "46,339",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -153,7 +77,7 @@
       "source": "github"
     },
     {
-      "rank": 5,
+      "rank": 3,
       "full_name": "anthropics/claude-plugins-community",
       "owner": "anthropics",
       "name": "claude-plugins-community",
@@ -161,9 +85,9 @@
       "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 3745,
-      "forks": 282,
-      "stars_since": "3,395",
+      "stars": 3804,
+      "forks": 284,
+      "stars_since": "3,460",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -187,7 +111,117 @@
       "source": "github"
     },
     {
+      "rank": 4,
+      "full_name": "cordiverse/cordis",
+      "owner": "cordiverse",
+      "name": "cordis",
+      "url": "https://github.com/cordiverse/cordis",
+      "description": "Meta-Framework of Spatiotemporal Composability",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 8373,
+      "forks": 521,
+      "stars_since": "8,270",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/33423008?s=40&v=4",
+          "username": "shigma"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/16983883?s=40&v=4",
+          "username": "Hieuzest"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/29992205?s=40&v=4",
+          "username": "undefined-moe"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/68551684?s=40&v=4",
+          "username": "cyans-nya"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/76467478?s=40&v=4",
+          "username": "morluto"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 5,
+      "full_name": "cursor/plugins",
+      "owner": "cursor",
+      "name": "plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 7460,
+      "forks": 651,
+      "stars_since": "4,798",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+          "username": "cursoragent"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1390709?s=40&v=4",
+          "username": "poteto"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/930790?s=40&v=4",
+          "username": "roshansada"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/25622412?s=40&v=4",
+          "username": "ericzakariasson"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9469738?s=40&v=4",
+          "username": "maloneya"
+        }
+      ],
+      "source": "github"
+    },
+    {
       "rank": 6,
+      "full_name": "cathrynlavery/diagram-design",
+      "owner": "cathrynlavery",
+      "name": "diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "language_color": "#e34c26",
+      "stars": 38466,
+      "forks": 2438,
+      "stars_since": "33,361",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/50469282?s=40&v=4",
+          "username": "cathrynlavery"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/174610155?s=40&v=4",
+          "username": "parveen0029"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
+          "username": "mvanhorn"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 7,
       "full_name": "AprilNEA/OpenLogi",
       "owner": "AprilNEA",
       "name": "OpenLogi",
@@ -195,9 +229,9 @@
       "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
       "language": "Rust",
       "language_color": "#dea584",
-      "stars": 20529,
-      "forks": 639,
-      "stars_since": "12,082",
+      "stars": 20695,
+      "forks": 661,
+      "stars_since": "12,225",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -221,7 +255,7 @@
       "source": "github"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "full_name": "volcengine/OpenViking",
       "owner": "volcengine",
       "name": "OpenViking",
@@ -229,9 +263,9 @@
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 36501,
-      "forks": 2795,
-      "stars_since": "8,284",
+      "stars": 36700,
+      "forks": 2809,
+      "stars_since": "8,469",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -240,12 +274,12 @@
           "username": "qin-ctx"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
           "avatar": "https://avatars.githubusercontent.com/u/31875147?s=40&v=4",
           "username": "ZaynJarvis"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/242402223?s=40&v=4",
@@ -259,36 +293,6 @@
       "source": "github"
     },
     {
-      "rank": 8,
-      "full_name": "xai-org/x-algorithm",
-      "owner": "xai-org",
-      "name": "x-algorithm",
-      "url": "https://github.com/xai-org/x-algorithm",
-      "description": "Algorithm powering the For You feed on X",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 33075,
-      "forks": 5381,
-      "stars_since": "6,170",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/219145320?s=40&v=4",
-          "username": "joshs1017dev"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/320713965?s=40&v=4",
-          "username": "x-open-source"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 9,
       "full_name": "freestylefly/awesome-gpt-image-2",
       "owner": "freestylefly",
@@ -297,9 +301,9 @@
       "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 30814,
-      "forks": 2984,
-      "stars_since": "20,295",
+      "stars": 31339,
+      "forks": 3034,
+      "stars_since": "21,157",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -328,78 +332,6 @@
     },
     {
       "rank": 10,
-      "full_name": "NVIDIA-NeMo/Switchyard",
-      "owner": "NVIDIA-NeMo",
-      "name": "Switchyard",
-      "url": "https://github.com/NVIDIA-NeMo/Switchyard",
-      "description": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 2833,
-      "forks": 257,
-      "stars_since": "2,617",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/197974741?s=40&v=4",
-          "username": "nachiketb-nvidia"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/180418?s=40&v=4",
-          "username": "grahamking"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/186739590?s=40&v=4",
-          "username": "elyasmnvidian"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/196090752?s=40&v=4",
-          "username": "ryan-lempka"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/208532109?s=40&v=4",
-          "username": "ayushag-nv"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 11,
-      "full_name": "semantica-agi/semantica",
-      "owner": "semantica-agi",
-      "name": "semantica",
-      "url": "https://github.com/semantica-agi/semantica",
-      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 12606,
-      "forks": 1411,
-      "stars_since": "9,711",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/98801504?s=40&v=4",
-          "username": "KaifAhmad1"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/169603553?s=40&v=4",
-          "username": "Sameer6305"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/109234410?s=40&v=4",
-          "username": "ZohaibHassan16"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 12,
       "full_name": "THU-MAIC/OpenMAIC",
       "owner": "THU-MAIC",
       "name": "OpenMAIC",
@@ -407,9 +339,9 @@
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 35270,
-      "forks": 5630,
-      "stars_since": "13,766",
+      "stars": 35885,
+      "forks": 5697,
+      "stars_since": "14,604",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -437,41 +369,37 @@
       "source": "github"
     },
     {
-      "rank": 13,
-      "full_name": "youssofal/MTPLX",
-      "owner": "youssofal",
-      "name": "MTPLX",
-      "url": "https://github.com/youssofal/MTPLX",
-      "description": "3x faster speeds on MLX | Qwen 3.8 27B | Native MTP Speculative Decoding On Apple Silicon With No External Drafter.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 2216,
-      "forks": 163,
-      "stars_since": "1,055",
+      "rank": 11,
+      "full_name": "xai-org/x-algorithm",
+      "owner": "xai-org",
+      "name": "x-algorithm",
+      "url": "https://github.com/xai-org/x-algorithm",
+      "description": "Algorithm powering the For You feed on X",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 33138,
+      "forks": 5384,
+      "stars_since": "6,248",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/66418316?s=40&v=4",
-          "username": "youssofal"
-        },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/8346495?s=40&v=4",
-          "username": "davidtai"
+          "avatar": "https://avatars.githubusercontent.com/u/219145320?s=40&v=4",
+          "username": "joshs1017dev"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/84099452?s=40&v=4",
-          "username": "Cyb3rb1ade"
+          "avatar": "https://avatars.githubusercontent.com/u/320713965?s=40&v=4",
+          "username": "x-open-source"
         }
       ],
       "source": "github"
     },
     {
-      "rank": 14,
+      "rank": 12,
       "full_name": "vorssaint/vorssaint-utils",
       "owner": "vorssaint",
       "name": "vorssaint-utils",
@@ -479,9 +407,9 @@
       "description": "Free and open-source macOS menu bar toolkit.",
       "language": "Swift",
       "language_color": "#F05138",
-      "stars": 18080,
-      "forks": 640,
-      "stars_since": "12,822",
+      "stars": 18346,
+      "forks": 650,
+      "stars_since": "13,129",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -509,7 +437,41 @@
       "source": "github"
     },
     {
-      "rank": 15,
+      "rank": 13,
+      "full_name": "semantica-agi/semantica",
+      "owner": "semantica-agi",
+      "name": "semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 12694,
+      "forks": 1420,
+      "stars_since": "8,849",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/98801504?s=40&v=4",
+          "username": "KaifAhmad1"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/169603553?s=40&v=4",
+          "username": "Sameer6305"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/109234410?s=40&v=4",
+          "username": "ZohaibHassan16"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 14,
       "full_name": "modular/modular",
       "owner": "modular",
       "name": "modular",
@@ -517,9 +479,9 @@
       "description": "The Modular Platform (includes MAX & Mojo)",
       "language": "Mojo",
       "language_color": "#ff4c1f",
-      "stars": 29673,
-      "forks": 3164,
-      "stars_since": "3,054",
+      "stars": 29692,
+      "forks": 3167,
+      "stars_since": "3,080",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -536,18 +498,18 @@
           "username": "JoeLoser"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/283886?s=40&v=4",
-          "username": "keith"
-        },
-        {
           "avatar": "https://avatars.githubusercontent.com/u/30697412?s=40&v=4",
           "username": "atomicapple0"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/283886?s=40&v=4",
+          "username": "keith"
         }
       ],
       "source": "github"
     },
     {
-      "rank": 16,
+      "rank": 15,
       "full_name": "debpalash/VoiceStudio",
       "owner": "debpalash",
       "name": "VoiceStudio",
@@ -555,9 +517,9 @@
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 22216,
-      "forks": 2735,
-      "stars_since": "12,027",
+      "stars": 22585,
+      "forks": 2773,
+      "stars_since": "12,418",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -585,7 +547,7 @@
       "source": "github"
     },
     {
-      "rank": 17,
+      "rank": 16,
       "full_name": "akitaonrails/ai-memory",
       "owner": "akitaonrails",
       "name": "ai-memory",
@@ -593,9 +555,9 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "language_color": "#dea584",
-      "stars": 6460,
-      "forks": 444,
-      "stars_since": "4,804",
+      "stars": 6553,
+      "forks": 449,
+      "stars_since": "5,026",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -623,189 +585,45 @@
       "source": "github"
     },
     {
+      "rank": 17,
+      "full_name": "NVIDIA-NeMo/Switchyard",
+      "owner": "NVIDIA-NeMo",
+      "name": "Switchyard",
+      "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+      "description": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 2892,
+      "forks": 261,
+      "stars_since": "2,628",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/197974741?s=40&v=4",
+          "username": "nachiketb-nvidia"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/180418?s=40&v=4",
+          "username": "grahamking"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/196090752?s=40&v=4",
+          "username": "ryan-lempka"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/186739590?s=40&v=4",
+          "username": "elyasmnvidian"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/208532109?s=40&v=4",
+          "username": "ayushag-nv"
+        }
+      ],
+      "source": "github"
+    },
+    {
       "rank": 18,
-      "full_name": "Lakr233/vphone-cli",
-      "owner": "Lakr233",
-      "name": "vphone-cli",
-      "url": "https://github.com/Lakr233/vphone-cli",
-      "description": "",
-      "language": "Swift",
-      "language_color": "#F05138",
-      "stars": 11470,
-      "forks": 1456,
-      "stars_since": "3,794",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/25259084?s=40&v=4",
-          "username": "Lakr233"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/19415570?s=40&v=4",
-          "username": "zqxwce"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/76083688?s=40&v=4",
-          "username": "TastyHeadphones"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/22845248?s=40&v=4",
-          "username": "mpass99"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 19,
-      "full_name": "public-apis/public-apis",
-      "owner": "public-apis",
-      "name": "public-apis",
-      "url": "https://github.com/public-apis/public-apis",
-      "description": "A collective list of free APIs",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 478624,
-      "forks": 52827,
-      "stars_since": "23,852",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/50463866?s=40&v=4",
-          "username": "matheusfelipeog"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/15134885?s=40&v=4",
-          "username": "davemachado"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/278394627?s=40&v=4",
-          "username": "ArindamOSS"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/36134699?s=40&v=4",
-          "username": "pawelborkar"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/246103?s=40&v=4",
-          "username": "jbrooksuk"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 20,
-      "full_name": "cactus-compute/needle",
-      "owner": "cactus-compute",
-      "name": "needle",
-      "url": "https://github.com/cactus-compute/needle",
-      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 10763,
-      "forks": 687,
-      "stars_since": "7,313",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/26547576?s=40&v=4",
-          "username": "HenryNdubuaku"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/75380243?s=40&v=4",
-          "username": "ncylich"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/52249278?s=40&v=4",
-          "username": "kar-m"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/128657146?s=40&v=4",
-          "username": "justinl66"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/154585401?s=40&v=4",
-          "username": "LeonSGP43"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 21,
-      "full_name": "apache/maka",
-      "owner": "apache",
-      "name": "maka",
-      "url": "https://github.com/apache/maka",
-      "description": "Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 5201,
-      "forks": 482,
-      "stars_since": "3,880",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/30525741?s=40&v=4",
-          "username": "jackwener"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/255364436?s=40&v=4",
-          "username": "Astro-Han"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/90952590?s=40&v=4",
-          "username": "likun666661"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/68144809?s=40&v=4",
-          "username": "M4n5ter"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/96464454?s=40&v=4",
-          "username": "me2seeks"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 22,
-      "full_name": "AlexsJones/llmfit",
-      "owner": "AlexsJones",
-      "name": "llmfit",
-      "url": "https://github.com/AlexsJones/llmfit",
-      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 35716,
-      "forks": 2264,
-      "stars_since": "4,157",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1235925?s=40&v=4",
-          "username": "AlexsJones"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/261414774?s=40&v=4",
-          "username": "three-foxes-in-a-trenchcoat"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 23,
       "full_name": "ayghri/i-have-adhd",
       "owner": "ayghri",
       "name": "i-have-adhd",
@@ -813,9 +631,9 @@
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 38181,
-      "forks": 2197,
-      "stars_since": "17,608",
+      "stars": 41705,
+      "forks": 2360,
+      "stars_since": "18,245",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -843,39 +661,183 @@
       "source": "github"
     },
     {
-      "rank": 24,
-      "full_name": "harry0703/MoneyPrinterTurbo",
-      "owner": "harry0703",
-      "name": "MoneyPrinterTurbo",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 122228,
-      "forks": 18880,
-      "stars_since": "20,372",
+      "rank": 19,
+      "full_name": "Lakr233/vphone-cli",
+      "owner": "Lakr233",
+      "name": "vphone-cli",
+      "url": "https://github.com/Lakr233/vphone-cli",
+      "description": "",
+      "language": "Swift",
+      "language_color": "#F05138",
+      "stars": 11622,
+      "forks": 1471,
+      "stars_since": "3,892",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/4928832?s=40&v=4",
-          "username": "harry0703"
+          "avatar": "https://avatars.githubusercontent.com/u/25259084?s=40&v=4",
+          "username": "Lakr233"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/19415570?s=40&v=4",
+          "username": "zqxwce"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/95077259?s=40&v=4",
-          "username": "yyhhyyyyyy"
+          "avatar": "https://avatars.githubusercontent.com/u/76083688?s=40&v=4",
+          "username": "TastyHeadphones"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/96235876?s=40&v=4",
-          "username": "vuisme"
+          "avatar": "https://avatars.githubusercontent.com/u/22845248?s=40&v=4",
+          "username": "mpass99"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 20,
+      "full_name": "AlexsJones/llmfit",
+      "owner": "AlexsJones",
+      "name": "llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 36083,
+      "forks": 2282,
+      "stars_since": "4,375",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1235925?s=40&v=4",
+          "username": "AlexsJones"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/41247825?s=40&v=4",
-          "username": "Mihir7027"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/261414774?s=40&v=4",
+          "username": "three-foxes-in-a-trenchcoat"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 21,
+      "full_name": "public-apis/public-apis",
+      "owner": "public-apis",
+      "name": "public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 479014,
+      "forks": 52854,
+      "stars_since": "24,223",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/50463866?s=40&v=4",
+          "username": "matheusfelipeog"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/15134885?s=40&v=4",
+          "username": "davemachado"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/278394627?s=40&v=4",
+          "username": "ArindamOSS"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/36134699?s=40&v=4",
+          "username": "pawelborkar"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/246103?s=40&v=4",
+          "username": "jbrooksuk"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 22,
+      "full_name": "apache/maka",
+      "owner": "apache",
+      "name": "maka",
+      "url": "https://github.com/apache/maka",
+      "description": "Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 5245,
+      "forks": 487,
+      "stars_since": "3,941",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/30525741?s=40&v=4",
+          "username": "jackwener"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/255364436?s=40&v=4",
+          "username": "Astro-Han"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/90952590?s=40&v=4",
+          "username": "likun666661"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/68144809?s=40&v=4",
+          "username": "M4n5ter"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/96464454?s=40&v=4",
+          "username": "me2seeks"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 23,
+      "full_name": "cactus-compute/needle",
+      "owner": "cactus-compute",
+      "name": "needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 10844,
+      "forks": 694,
+      "stars_since": "7,395",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/26547576?s=40&v=4",
+          "username": "HenryNdubuaku"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/75380243?s=40&v=4",
+          "username": "ncylich"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/52249278?s=40&v=4",
+          "username": "kar-m"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/128657146?s=40&v=4",
+          "username": "justinl66"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/154585401?s=40&v=4",
+          "username": "LeonSGP43"
         }
       ],
       "source": "github"
