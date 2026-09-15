@@ -9,9 +9,9 @@
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 44281,
-      "forks": 2543,
-      "stars_since": "15,924",
+      "stars": 45410,
+      "forks": 2635,
+      "stars_since": "17,658",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -40,78 +40,6 @@
     },
     {
       "rank": 2,
-      "full_name": "affaan-m/ECC",
-      "owner": "affaan-m",
-      "name": "ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 257738,
-      "forks": 38547,
-      "stars_since": "8,086",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/124439313?s=40&v=4",
-          "username": "affaan-m"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/49814733?s=40&v=4",
-          "username": "haelyra"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/73515951?s=40&v=4",
-          "username": "pangerlkr"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 3,
-      "full_name": "openai/plugins",
-      "owner": "openai",
-      "name": "plugins",
-      "url": "https://github.com/openai/plugins",
-      "description": "OpenAI Plugins",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 6615,
-      "forks": 871,
-      "stars_since": "1,120",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/239646192?s=40&v=4",
-          "username": "cching-openai"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/264544061?s=40&v=4",
-          "username": "ashwinm-oai"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/24821844?s=40&v=4",
-          "username": "Aismit"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/250380837?s=40&v=4",
-          "username": "vb-openai"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/235382312?s=40&v=4",
-          "username": "gverma-openai"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 4,
       "full_name": "bilawalsidhu/gods-eye-view",
       "owner": "bilawalsidhu",
       "name": "gods-eye-view",
@@ -119,9 +47,9 @@
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 31816,
-      "forks": 6387,
-      "stars_since": "10,510",
+      "stars": 33543,
+      "forks": 6698,
+      "stars_since": "14,403",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -149,41 +77,79 @@
       "source": "github"
     },
     {
-      "rank": 5,
-      "full_name": "mksglu/context-mode",
-      "owner": "mksglu",
-      "name": "context-mode",
-      "url": "https://github.com/mksglu/context-mode",
-      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 22614,
-      "forks": 1631,
-      "stars_since": "1,936",
+      "rank": 3,
+      "full_name": "affaan-m/ECC",
+      "owner": "affaan-m",
+      "name": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 258384,
+      "forks": 38645,
+      "stars_since": "6,085",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/6067714?s=40&v=4",
-          "username": "mksglu"
+          "avatar": "https://avatars.githubusercontent.com/u/124439313?s=40&v=4",
+          "username": "affaan-m"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/49814733?s=40&v=4",
+          "username": "haelyra"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/380338?s=40&v=4",
-          "username": "ipedro"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2910651?s=40&v=4",
-          "username": "ousamabenyounes"
+          "avatar": "https://avatars.githubusercontent.com/u/73515951?s=40&v=4",
+          "username": "pangerlkr"
         }
       ],
       "source": "github"
     },
     {
-      "rank": 6,
+      "rank": 4,
+      "full_name": "openai/plugins",
+      "owner": "openai",
+      "name": "plugins",
+      "url": "https://github.com/openai/plugins",
+      "description": "OpenAI Plugins",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 6704,
+      "forks": 877,
+      "stars_since": "1,233",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/239646192?s=40&v=4",
+          "username": "cching-openai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/264544061?s=40&v=4",
+          "username": "ashwinm-oai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/24821844?s=40&v=4",
+          "username": "Aismit"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/250380837?s=40&v=4",
+          "username": "vb-openai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/235382312?s=40&v=4",
+          "username": "gverma-openai"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 5,
       "full_name": "DietrichGebert/ponytail",
       "owner": "DietrichGebert",
       "name": "ponytail",
@@ -191,9 +157,9 @@
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 137284,
-      "forks": 7372,
-      "stars_since": "9,272",
+      "stars": 138383,
+      "forks": 7429,
+      "stars_since": "7,722",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -221,83 +187,41 @@
       "source": "github"
     },
     {
-      "rank": 7,
-      "full_name": "tt-a1i/archify",
-      "owner": "tt-a1i",
-      "name": "archify",
-      "url": "https://github.com/tt-a1i/archify",
-      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 60701,
-      "forks": 3986,
-      "stars_since": "10,442",
+      "rank": 6,
+      "full_name": "mksglu/context-mode",
+      "owner": "mksglu",
+      "name": "context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 22847,
+      "forks": 1653,
+      "stars_since": "2,241",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/53142663?s=40&v=4",
-          "username": "tt-a1i"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/55621390?s=40&v=4",
-          "username": "sunsunsun-java"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/44204222?s=40&v=4",
-          "username": "YunyueLi"
+          "avatar": "https://avatars.githubusercontent.com/u/6067714?s=40&v=4",
+          "username": "mksglu"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/380338?s=40&v=4",
+          "username": "ipedro"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2910651?s=40&v=4",
+          "username": "ousamabenyounes"
         }
       ],
       "source": "github"
     },
     {
-      "rank": 8,
-      "full_name": "openai/skills",
-      "owner": "openai",
-      "name": "skills",
-      "url": "https://github.com/openai/skills",
-      "description": "Skills Catalog for Codex",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 27092,
-      "forks": 1809,
-      "stars_since": "1,579",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/200841172?s=40&v=4",
-          "username": "dkundel-openai"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/235382312?s=40&v=4",
-          "username": "gverma-openai"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/250380837?s=40&v=4",
-          "username": "vb-openai"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/173195103?s=40&v=4",
-          "username": "ae-openai"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/32676955?s=40&v=4",
-          "username": "quuu"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 9,
+      "rank": 7,
       "full_name": "heygen-com/hyperframes",
       "owner": "heygen-com",
       "name": "hyperframes",
@@ -305,9 +229,9 @@
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 49580,
-      "forks": 4527,
-      "stars_since": "5,124",
+      "stars": 50021,
+      "forks": 4568,
+      "stars_since": "5,052",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -335,6 +259,82 @@
       "source": "github"
     },
     {
+      "rank": 8,
+      "full_name": "tt-a1i/archify",
+      "owner": "tt-a1i",
+      "name": "archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 62208,
+      "forks": 4108,
+      "stars_since": "9,868",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/53142663?s=40&v=4",
+          "username": "tt-a1i"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/55621390?s=40&v=4",
+          "username": "sunsunsun-java"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+          "username": "cursoragent"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/44204222?s=40&v=4",
+          "username": "YunyueLi"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 9,
+      "full_name": "openai/skills",
+      "owner": "openai",
+      "name": "skills",
+      "url": "https://github.com/openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 27190,
+      "forks": 1814,
+      "stars_since": "1,350",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/200841172?s=40&v=4",
+          "username": "dkundel-openai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/235382312?s=40&v=4",
+          "username": "gverma-openai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/250380837?s=40&v=4",
+          "username": "vb-openai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/173195103?s=40&v=4",
+          "username": "ae-openai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/32676955?s=40&v=4",
+          "username": "quuu"
+        }
+      ],
+      "source": "github"
+    },
+    {
       "rank": 10,
       "full_name": "microsoft/markitdown",
       "owner": "microsoft",
@@ -343,9 +343,9 @@
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 183575,
-      "forks": 13506,
-      "stars_since": "4,823",
+      "stars": 183994,
+      "forks": 13543,
+      "stars_since": "4,604",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -377,9 +377,9 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
       "language_color": "#89e051",
-      "stars": 286182,
-      "forks": 25601,
-      "stars_since": "3,938",
+      "stars": 286681,
+      "forks": 25647,
+      "stars_since": "4,124",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -408,184 +408,6 @@
     },
     {
       "rank": 12,
-      "full_name": "coreyhaines31/marketingskills",
-      "owner": "coreyhaines31",
-      "name": "marketingskills",
-      "url": "https://github.com/coreyhaines31/marketingskills",
-      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 49984,
-      "forks": 7586,
-      "stars_since": "2,822",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/34802794?s=40&v=4",
-          "username": "coreyhaines31"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1101879?s=40&v=4",
-          "username": "njcameron"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5956866?s=40&v=4",
-          "username": "Jiliac"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/20099808?s=40&v=4",
-          "username": "basseko"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 13,
-      "full_name": "ChromeDevTools/chrome-devtools-mcp",
-      "owner": "ChromeDevTools",
-      "name": "chrome-devtools-mcp",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "description": "Chrome DevTools for coding agents",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 51833,
-      "forks": 3642,
-      "stars_since": "783",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/399150?s=40&v=4",
-          "username": "OrKoN"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/34244704?s=40&v=4",
-          "username": "Lightning00Blade"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/133232582?s=40&v=4",
-          "username": "browser-automation-bot"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11618243?s=40&v=4",
-          "username": "yulunz"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 14,
-      "full_name": "cathrynlavery/diagram-design",
-      "owner": "cathrynlavery",
-      "name": "diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "language": "HTML",
-      "language_color": "#e34c26",
-      "stars": 39173,
-      "forks": 2488,
-      "stars_since": "7,409",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/50469282?s=40&v=4",
-          "username": "cathrynlavery"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/174610155?s=40&v=4",
-          "username": "parveen0029"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
-          "username": "mvanhorn"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 15,
-      "full_name": "THU-MAIC/OpenMAIC",
-      "owner": "THU-MAIC",
-      "name": "OpenMAIC",
-      "url": "https://github.com/THU-MAIC/OpenMAIC",
-      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 36463,
-      "forks": 5779,
-      "stars_since": "4,417",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/18752201?s=40&v=4",
-          "username": "wyuc"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/117187635?s=40&v=4",
-          "username": "cosarah"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/104178195?s=40&v=4",
-          "username": "YizukiAme"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/94427531?s=40&v=4",
-          "username": "ly-wang19"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 16,
-      "full_name": "Tencent/WeKnora",
-      "owner": "Tencent",
-      "name": "WeKnora",
-      "url": "https://github.com/Tencent/WeKnora",
-      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "language": "Go",
-      "language_color": "#00ADD8",
-      "stars": 22857,
-      "forks": 3264,
-      "stars_since": "1,168",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&v=4",
-          "username": "lyingbug"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/67856742?s=40&v=4",
-          "username": "voidkey"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/216642699?s=40&v=4",
-          "username": "begoniezhao"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 17,
       "full_name": "blader/humanizer",
       "owner": "blader",
       "name": "humanizer",
@@ -593,9 +415,9 @@
       "description": "Agent skill that removes signs of AI-generated writing from text",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 47658,
-      "forks": 3878,
-      "stars_since": "4,069",
+      "stars": 48132,
+      "forks": 3923,
+      "stars_since": "3,201",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -623,7 +445,7 @@
       "source": "github"
     },
     {
-      "rank": 18,
+      "rank": 13,
       "full_name": "max-sixty/worktrunk",
       "owner": "max-sixty",
       "name": "worktrunk",
@@ -631,9 +453,9 @@
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
       "language_color": "#dea584",
-      "stars": 7516,
-      "forks": 269,
-      "stars_since": "257",
+      "stars": 7659,
+      "forks": 273,
+      "stars_since": "761",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -653,37 +475,185 @@
       "source": "github"
     },
     {
-      "rank": 19,
-      "full_name": "humanlayer/skills",
-      "owner": "humanlayer",
-      "name": "skills",
-      "url": "https://github.com/humanlayer/skills",
-      "description": "",
+      "rank": 14,
+      "full_name": "THU-MAIC/OpenMAIC",
+      "owner": "THU-MAIC",
+      "name": "OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 3994,
-      "forks": 121,
-      "stars_since": "1,380",
+      "stars": 36813,
+      "forks": 5818,
+      "stars_since": "3,950",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/3730605?s=40&v=4",
-          "username": "dexhorthy"
+          "avatar": "https://avatars.githubusercontent.com/u/18752201?s=40&v=4",
+          "username": "wyuc"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/18430555?s=40&v=4",
-          "username": "K-Mistele"
+          "avatar": "https://avatars.githubusercontent.com/u/117187635?s=40&v=4",
+          "username": "cosarah"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/104178195?s=40&v=4",
+          "username": "YizukiAme"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/94427531?s=40&v=4",
+          "username": "ly-wang19"
         }
       ],
       "source": "github"
     },
     {
-      "rank": 20,
+      "rank": 15,
+      "full_name": "cathrynlavery/diagram-design",
+      "owner": "cathrynlavery",
+      "name": "diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "language_color": "#e34c26",
+      "stars": 39780,
+      "forks": 2524,
+      "stars_since": "6,604",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/50469282?s=40&v=4",
+          "username": "cathrynlavery"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/174610155?s=40&v=4",
+          "username": "parveen0029"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
+          "username": "mvanhorn"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 16,
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "owner": "ChromeDevTools",
+      "name": "chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 51957,
+      "forks": 3648,
+      "stars_since": "702",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/399150?s=40&v=4",
+          "username": "OrKoN"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/34244704?s=40&v=4",
+          "username": "Lightning00Blade"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/133232582?s=40&v=4",
+          "username": "browser-automation-bot"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/11618243?s=40&v=4",
+          "username": "yulunz"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 17,
+      "full_name": "Tencent/WeKnora",
+      "owner": "Tencent",
+      "name": "WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "language_color": "#00ADD8",
+      "stars": 23216,
+      "forks": 3300,
+      "stars_since": "1,460",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&v=4",
+          "username": "lyingbug"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/67856742?s=40&v=4",
+          "username": "voidkey"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/216642699?s=40&v=4",
+          "username": "begoniezhao"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 18,
+      "full_name": "coreyhaines31/marketingskills",
+      "owner": "coreyhaines31",
+      "name": "marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 50242,
+      "forks": 7610,
+      "stars_since": "2,344",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/34802794?s=40&v=4",
+          "username": "coreyhaines31"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1101879?s=40&v=4",
+          "username": "njcameron"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5956866?s=40&v=4",
+          "username": "Jiliac"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/20099808?s=40&v=4",
+          "username": "basseko"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 19,
       "full_name": "earthtojake/text-to-cad",
       "owner": "earthtojake",
       "name": "text-to-cad",
@@ -691,9 +661,9 @@
       "description": "A library of agent skills for CAD, CAE and CAM",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 15577,
-      "forks": 1609,
-      "stars_since": "1,011",
+      "stars": 15768,
+      "forks": 1629,
+      "stars_since": "1,194",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -713,7 +683,7 @@
       "source": "github"
     },
     {
-      "rank": 21,
+      "rank": 20,
       "full_name": "petergyang/no-ai-slop",
       "owner": "petergyang",
       "name": "no-ai-slop",
@@ -721,9 +691,9 @@
       "description": "Removes 20+ patterns of AI slop from any piece of writing.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 9172,
-      "forks": 669,
-      "stars_since": "1,307",
+      "stars": 9531,
+      "forks": 687,
+      "stars_since": "1,946",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -751,7 +721,7 @@
       "source": "github"
     },
     {
-      "rank": 22,
+      "rank": 21,
       "full_name": "github/spec-kit",
       "owner": "github",
       "name": "spec-kit",
@@ -759,9 +729,9 @@
       "description": "💫 Toolkit to help you get started with Spec-Driven Development",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 136389,
-      "forks": 12252,
-      "stars_since": "2,501",
+      "stars": 136795,
+      "forks": 12271,
+      "stars_since": "2,952",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -781,6 +751,44 @@
       "source": "github"
     },
     {
+      "rank": 22,
+      "full_name": "alibaba/open-code-review",
+      "owner": "alibaba",
+      "name": "open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "language_color": "#00ADD8",
+      "stars": 25642,
+      "forks": 1861,
+      "stars_since": "2,709",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&v=4",
+          "username": "lizhengfeng101"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/16241795?s=40&v=4",
+          "username": "chethanuk"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/149216116?s=40&v=4",
+          "username": "wu21-web"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/61303077?s=40&v=4",
+          "username": "stay-foolish-forever"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        }
+      ],
+      "source": "github"
+    },
+    {
       "rank": 23,
       "full_name": "kunchenguid/firstmate",
       "owner": "kunchenguid",
@@ -789,9 +797,9 @@
       "description": "Talk to one agent. Ship with a crew.",
       "language": "Shell",
       "language_color": "#89e051",
-      "stars": 5729,
-      "forks": 1778,
-      "stars_since": "763",
+      "stars": 5946,
+      "forks": 1822,
+      "stars_since": "978",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -812,8 +820,8 @@
           "username": "mremond"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
+          "avatar": "https://avatars.githubusercontent.com/u/1987829?s=40&v=4",
+          "username": "tiago-peixoto"
         }
       ],
       "source": "github"
