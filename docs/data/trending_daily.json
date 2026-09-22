@@ -2,40 +2,6 @@
   "repos": [
     {
       "rank": 1,
-      "full_name": "affaan-m/ECC",
-      "owner": "affaan-m",
-      "name": "ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 263705,
-      "forks": 39453,
-      "stars_since": "837",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/124439313?s=40&v=4",
-          "username": "affaan-m"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/49814733?s=40&v=4",
-          "username": "haelyra"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/73515951?s=40&v=4",
-          "username": "pangerlkr"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 2,
       "full_name": "BuilderIO/agent-native",
       "owner": "BuilderIO",
       "name": "agent-native",
@@ -43,9 +9,9 @@
       "description": "A framework for building agentic apps",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 5185,
-      "forks": 484,
-      "stars_since": "89",
+      "stars": 5883,
+      "forks": 534,
+      "stars_since": "607",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -65,37 +31,7 @@
       "source": "github"
     },
     {
-      "rank": 3,
-      "full_name": "cloudflare/security-audit-skill",
-      "owner": "cloudflare",
-      "name": "security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 17973,
-      "forks": 997,
-      "stars_since": "2,375",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9935415?s=40&v=4",
-          "username": "literally-dan"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/59650384?s=40&v=4",
-          "username": "CooperSheroy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/228360615?s=40&v=4",
-          "username": "kennysarnoski-jarvis"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 4,
+      "rank": 2,
       "full_name": "trycua/cua",
       "owner": "trycua",
       "name": "cua",
@@ -103,9 +39,9 @@
       "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
       "language": "HTML",
       "language_color": "#e34c26",
-      "stars": 25123,
-      "forks": 1727,
-      "stars_since": "1,012",
+      "stars": 25688,
+      "forks": 1767,
+      "stars_since": "609",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -129,7 +65,113 @@
       "source": "github"
     },
     {
+      "rank": 3,
+      "full_name": "Open-Dev-Society/OpenStock",
+      "owner": "Open-Dev-Society",
+      "name": "OpenStock",
+      "url": "https://github.com/Open-Dev-Society/OpenStock",
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 17706,
+      "forks": 2190,
+      "stars_since": "844",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/148683640?s=40&v=4",
+          "username": "ravixalgorithm"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/180140750?s=40&v=4",
+          "username": "keshav-005"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/76625701?s=40&v=4",
+          "username": "nb-src"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/13096352?s=40&v=4",
+          "username": "chinnsenn"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 4,
+      "full_name": "akitaonrails/ai-memory",
+      "owner": "akitaonrails",
+      "name": "ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 7666,
+      "forks": 521,
+      "stars_since": "167",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2840?s=40&v=4",
+          "username": "akitaonrails"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1858147?s=40&v=4",
+          "username": "djalmajr"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/123646616?s=40&v=4",
+          "username": "samirhvbr"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8575320?s=40&v=4",
+          "username": "wblech"
+        }
+      ],
+      "source": "github"
+    },
+    {
       "rank": 5,
+      "full_name": "coder/coder",
+      "owner": "coder",
+      "name": "coder",
+      "url": "https://github.com/coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "language_color": "#00ADD8",
+      "stars": 16415,
+      "forks": 1564,
+      "stars_since": "460",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7122116?s=40&v=4",
+          "username": "kylecarbs"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/147409?s=40&v=4",
+          "username": "mafredri"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4949514?s=40&v=4",
+          "username": "johnstcn"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5446298?s=40&v=4",
+          "username": "Emyrk"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 6,
       "full_name": "anthropics/financial-services",
       "owner": "anthropics",
       "name": "financial-services",
@@ -137,9 +179,9 @@
       "description": "",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 35349,
-      "forks": 5247,
-      "stars_since": "236",
+      "stars": 35813,
+      "forks": 5267,
+      "stars_since": "424",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -167,269 +209,201 @@
       "source": "github"
     },
     {
-      "rank": 6,
-      "full_name": "paperless-ngx/paperless-ngx",
-      "owner": "paperless-ngx",
-      "name": "paperless-ngx",
-      "url": "https://github.com/paperless-ngx/paperless-ngx",
-      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 45547,
-      "forks": 3143,
+      "rank": 7,
+      "full_name": "cloudflare/quiche",
+      "owner": "cloudflare",
+      "name": "quiche",
+      "url": "https://github.com/cloudflare/quiche",
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 12343,
+      "forks": 1132,
       "stars_since": "32",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/4887959?s=40&v=4",
-          "username": "shamoon"
+          "avatar": "https://avatars.githubusercontent.com/u/117643?s=40&v=4",
+          "username": "ghedo"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/797416?s=40&v=4",
-          "username": "stumpylog"
+          "avatar": "https://avatars.githubusercontent.com/u/33116358?s=40&v=4",
+          "username": "traviscibot"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/218205?s=40&v=4",
-          "username": "danielquinn"
+          "avatar": "https://avatars.githubusercontent.com/u/6571445?s=40&v=4",
+          "username": "LPardue"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/99855517?s=40&v=4",
-          "username": "paperlessngx-bot"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 7,
-      "full_name": "anthropics/claude-code",
-      "owner": "anthropics",
-      "name": "claude-code",
-      "url": "https://github.com/anthropics/claude-code",
-      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 147101,
-      "forks": 24050,
-      "stars_since": "415",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/65916846?s=40&v=4",
-          "username": "actions-user"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7668446?s=40&v=4",
-          "username": "poteat"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1761758?s=40&v=4",
-          "username": "bcherny"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/209710463?s=40&v=4",
-          "username": "ant-kurt"
+          "avatar": "https://avatars.githubusercontent.com/u/28556681?s=40&v=4",
+          "username": "antoniovicente"
         }
       ],
       "source": "github"
     },
     {
       "rank": 8,
-      "full_name": "mihail911/modern-software-dev-assignments",
-      "owner": "mihail911",
-      "name": "modern-software-dev-assignments",
-      "url": "https://github.com/mihail911/modern-software-dev-assignments",
-      "description": "Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)",
+      "full_name": "mvt-project/mvt",
+      "owner": "mvt-project",
+      "name": "mvt",
+      "url": "https://github.com/mvt-project/mvt",
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 4543,
-      "forks": 1009,
-      "stars_since": "174",
+      "stars": 13582,
+      "forks": 1323,
+      "stars_since": "169",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2789441?s=40&v=4",
-          "username": "mihail911"
+          "avatar": "https://avatars.githubusercontent.com/u/1032671?s=40&v=4",
+          "username": "botherder"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/133082422?s=40&v=4",
-          "username": "febielin"
+          "avatar": "https://avatars.githubusercontent.com/u/3081375?s=40&v=4",
+          "username": "DonnchaC"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/15989628?s=40&v=4",
+          "username": "Te-k"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/26350155?s=40&v=4",
+          "username": "besendorf"
         }
       ],
       "source": "github"
     },
     {
       "rank": 9,
-      "full_name": "higgsfield-ai/higgsfield",
-      "owner": "higgsfield-ai",
-      "name": "higgsfield",
-      "url": "https://github.com/higgsfield-ai/higgsfield",
-      "description": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
-      "language": "Jupyter Notebook",
-      "language_color": "#DA5B0B",
-      "stars": 5362,
-      "forks": 953,
-      "stars_since": "461",
+      "full_name": "zhouxiaoka/autoclip",
+      "owner": "zhouxiaoka",
+      "name": "autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 8217,
+      "forks": 1569,
+      "stars_since": "250",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/14979358?s=40&v=4",
-          "username": "arpanetus"
+          "avatar": "https://avatars.githubusercontent.com/u/78066887?s=40&v=4",
+          "username": "zhouxiaoka"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/24421551?s=40&v=4",
-          "username": "higgsfield"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/3302371?s=40&v=4",
-          "username": "zxcjhg"
+          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+          "username": "cursoragent"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/281058146?s=40&v=4",
+          "username": "mitsa-ng"
         }
       ],
       "source": "github"
     },
     {
       "rank": 10,
-      "full_name": "Open-Dev-Society/OpenStock",
-      "owner": "Open-Dev-Society",
-      "name": "OpenStock",
-      "url": "https://github.com/Open-Dev-Society/OpenStock",
-      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 16779,
-      "forks": 2131,
-      "stars_since": "752",
+      "full_name": "ruanyf/weekly",
+      "owner": "ruanyf",
+      "name": "weekly",
+      "url": "https://github.com/ruanyf/weekly",
+      "description": "科技爱好者周刊，每周五发布",
+      "language": "Others",
+      "language_color": "#8b949e",
+      "stars": 103912,
+      "forks": 4447,
+      "stars_since": "182",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/148683640?s=40&v=4",
-          "username": "ravixalgorithm"
+          "avatar": "https://avatars.githubusercontent.com/u/905434?s=40&v=4",
+          "username": "ruanyf"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/180140750?s=40&v=4",
-          "username": "keshav-005"
+          "avatar": "https://avatars.githubusercontent.com/u/3983683?s=40&v=4",
+          "username": "fanofxiaofeng"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/76625701?s=40&v=4",
-          "username": "nb-src"
+          "avatar": "https://avatars.githubusercontent.com/u/13601124?s=40&v=4",
+          "username": "luhuadong"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/13096352?s=40&v=4",
-          "username": "chinnsenn"
+          "avatar": "https://avatars.githubusercontent.com/u/20755558?s=40&v=4",
+          "username": "eltsai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/57277705?s=40&v=4",
+          "username": "keepwow"
         }
       ],
       "source": "github"
     },
     {
       "rank": 11,
-      "full_name": "coder/coder",
-      "owner": "coder",
-      "name": "coder",
-      "url": "https://github.com/coder/coder",
-      "description": "Secure environments for developers and their agents",
-      "language": "Go",
-      "language_color": "#00ADD8",
-      "stars": 16031,
-      "forks": 1541,
-      "stars_since": "382",
+      "full_name": "Crosstalk-Solutions/project-nomad",
+      "owner": "Crosstalk-Solutions",
+      "name": "project-nomad",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 37851,
+      "forks": 3766,
+      "stars_since": "394",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/7122116?s=40&v=4",
-          "username": "kylecarbs"
+          "avatar": "https://avatars.githubusercontent.com/u/52841588?s=40&v=4",
+          "username": "jakeaturner"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/147409?s=40&v=4",
-          "username": "mafredri"
+          "avatar": "https://avatars.githubusercontent.com/u/49691103?s=40&v=4",
+          "username": "chriscrosstalk"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/4949514?s=40&v=4",
-          "username": "johnstcn"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/5446298?s=40&v=4",
-          "username": "Emyrk"
+          "avatar": "https://avatars.githubusercontent.com/u/175166532?s=40&v=4",
+          "username": "cosmistack-bot"
         }
       ],
       "source": "github"
     },
     {
       "rank": 12,
-      "full_name": "vercel-labs/json-render",
-      "owner": "vercel-labs",
-      "name": "json-render",
-      "url": "https://github.com/vercel-labs/json-render",
-      "description": "The Generative UI framework",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 17277,
-      "forks": 918,
-      "stars_since": "332",
+      "full_name": "yynxxxxx/Codex-X",
+      "owner": "yynxxxxx",
+      "name": "Codex-X",
+      "url": "https://github.com/yynxxxxx/Codex-X",
+      "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 3674,
+      "forks": 461,
+      "stars_since": "50",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&v=4",
-          "username": "ctate"
+          "avatar": "https://avatars.githubusercontent.com/u/139136586?s=40&v=4",
+          "username": "yynxxxxx"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/51397083?s=40&v=4",
-          "username": "Railly"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3296497?s=40&v=4",
-          "username": "lucianfialho"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 13,
-      "full_name": "addyosmani/agent-skills",
-      "owner": "addyosmani",
-      "name": "agent-skills",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 97657,
-      "forks": 10294,
-      "stars_since": "729",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/110953?s=40&v=4",
-          "username": "addyosmani"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1307927?s=40&v=4",
-          "username": "nucliweb"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/27234034?s=40&v=4",
-          "username": "federicobartoli"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/66267222?s=40&v=4",
-          "username": "ayobamiseun"
+          "avatar": "https://avatars.githubusercontent.com/u/19239908?s=40&v=4",
+          "username": "muzimu"
         }
       ],
       "source": "github"
