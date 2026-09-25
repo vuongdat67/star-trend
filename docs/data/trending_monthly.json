@@ -9,9 +9,9 @@
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 41893,
-      "forks": 8526,
-      "stars_since": "41,118",
+      "stars": 42470,
+      "forks": 8637,
+      "stars_since": "41,715",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -40,6 +40,36 @@
     },
     {
       "rank": 2,
+      "full_name": "cloudflare/security-audit-skill",
+      "owner": "cloudflare",
+      "name": "security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 21313,
+      "forks": 1226,
+      "stars_since": "18,441",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9935415?s=40&v=4",
+          "username": "literally-dan"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/59650384?s=40&v=4",
+          "username": "CooperSheroy"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/228360615?s=40&v=4",
+          "username": "kennysarnoski-jarvis"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 3,
       "full_name": "tt-a1i/archify",
       "owner": "tt-a1i",
       "name": "archify",
@@ -47,9 +77,9 @@
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 70585,
-      "forks": 4748,
-      "stars_since": "55,857",
+      "stars": 71222,
+      "forks": 4786,
+      "stars_since": "56,351",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -77,36 +107,6 @@
       "source": "github"
     },
     {
-      "rank": 3,
-      "full_name": "cloudflare/security-audit-skill",
-      "owner": "cloudflare",
-      "name": "security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 20893,
-      "forks": 1196,
-      "stars_since": "17,893",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9935415?s=40&v=4",
-          "username": "literally-dan"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/59650384?s=40&v=4",
-          "username": "CooperSheroy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/228360615?s=40&v=4",
-          "username": "kennysarnoski-jarvis"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 4,
       "full_name": "THU-MAIC/OpenMAIC",
       "owner": "THU-MAIC",
@@ -115,9 +115,9 @@
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 38790,
-      "forks": 6065,
-      "stars_since": "18,072",
+      "stars": 38943,
+      "forks": 6075,
+      "stars_since": "18,202",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -153,9 +153,9 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "language_color": "#00ADD8",
-      "stars": 40184,
-      "forks": 2887,
-      "stars_since": "19,196",
+      "stars": 40778,
+      "forks": 2929,
+      "stars_since": "19,583",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -184,6 +184,44 @@
     },
     {
       "rank": 6,
+      "full_name": "superdesigndev/treg",
+      "owner": "superdesigndev",
+      "name": "treg",
+      "url": "https://github.com/superdesigndev/treg",
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 3152,
+      "forks": 262,
+      "stars_since": "2,413",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22532527?s=40&v=4",
+          "username": "JayZeeDesign"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6255130?s=40&v=4",
+          "username": "stonexer"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/12494079?s=40&v=4",
+          "username": "unclecode"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/64325867?s=40&v=4",
+          "username": "shehjad-dev"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 7,
       "full_name": "debpalash/VoiceStudio",
       "owner": "debpalash",
       "name": "VoiceStudio",
@@ -191,9 +229,9 @@
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 34876,
-      "forks": 4121,
-      "stars_since": "23,623",
+      "stars": 35249,
+      "forks": 4150,
+      "stars_since": "23,857",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -221,7 +259,7 @@
       "source": "github"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "full_name": "ayghri/i-have-adhd",
       "owner": "ayghri",
       "name": "i-have-adhd",
@@ -229,9 +267,9 @@
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 50685,
-      "forks": 2927,
-      "stars_since": "27,477",
+      "stars": 50986,
+      "forks": 2942,
+      "stars_since": "27,473",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -259,7 +297,7 @@
       "source": "github"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "full_name": "cursor/plugins",
       "owner": "cursor",
       "name": "plugins",
@@ -267,9 +305,9 @@
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 8497,
-      "forks": 795,
-      "stars_since": "3,900",
+      "stars": 8573,
+      "forks": 807,
+      "stars_since": "3,861",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -297,44 +335,6 @@
       "source": "github"
     },
     {
-      "rank": 9,
-      "full_name": "zedeus/nitter",
-      "owner": "zedeus",
-      "name": "nitter",
-      "url": "https://github.com/zedeus/nitter",
-      "description": "Alternative Twitter front-end",
-      "language": "Nim",
-      "language_color": "#ffc200",
-      "stars": 14482,
-      "forks": 1366,
-      "stars_since": "1,046",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9434921?s=40&v=4",
-          "username": "zedeus"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/10339438?s=40&v=4",
-          "username": "LainLayer"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2900871?s=40&v=4",
-          "username": "jackyzy823"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6720054?s=40&v=4",
-          "username": "setenforce0"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3691490?s=40&v=4",
-          "username": "PeterDaveHello"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 10,
       "full_name": "magnitudedev/magnitude",
       "owner": "magnitudedev",
@@ -343,9 +343,9 @@
       "description": "Open source inference engine for the hardware you already own. Profiles your machine, recommends the best open models for it, and tunes them for your exact hardware. Works on Apple Silicon, NVIDIA, AMD, or nothing but a CPU.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 4940,
-      "forks": 374,
-      "stars_since": "3,430",
+      "stars": 5031,
+      "forks": 376,
+      "stars_since": "3,518",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -360,10 +360,6 @@
         {
           "avatar": "https://avatars.githubusercontent.com/u/224122452?s=40&v=4",
           "username": "ambikeesshh"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1196732?s=40&v=4",
-          "username": "fabianhug"
         }
       ],
       "source": "github"
@@ -377,9 +373,9 @@
       "description": "",
       "language": "Swift",
       "language_color": "#F05138",
-      "stars": 14307,
-      "forks": 1687,
-      "stars_since": "6,370",
+      "stars": 14352,
+      "forks": 1691,
+      "stars_since": "6,390",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -388,12 +384,12 @@
           "username": "Lakr233"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/19415570?s=40&v=4",
-          "username": "zqxwce"
-        },
-        {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/19415570?s=40&v=4",
+          "username": "zqxwce"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/76083688?s=40&v=4",
@@ -408,116 +404,44 @@
     },
     {
       "rank": 12,
-      "full_name": "freestylefly/awesome-gpt-image-2",
-      "owner": "freestylefly",
-      "name": "awesome-gpt-image-2",
-      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-      "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 33395,
-      "forks": 3215,
-      "stars_since": "21,457",
+      "full_name": "JetBrains/go-modern-guidelines",
+      "owner": "JetBrains",
+      "name": "go-modern-guidelines",
+      "url": "https://github.com/JetBrains/go-modern-guidelines",
+      "description": "Help AI coding agents write modern Go",
+      "language": "Go",
+      "language_color": "#00ADD8",
+      "stars": 3700,
+      "forks": 122,
+      "stars_since": "2,858",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/43960064?s=40&v=4",
-          "username": "freestylefly"
+          "avatar": "https://avatars.githubusercontent.com/u/17953379?s=40&v=4",
+          "username": "nikitakuchur"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
+          "avatar": "https://avatars.githubusercontent.com/u/57684922?s=40&v=4",
+          "username": "Splatjov"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/31427850?s=40&v=4",
-          "username": "ImgBotApp"
+          "avatar": "https://avatars.githubusercontent.com/u/25866352?s=40&v=4",
+          "username": "simpletonDL"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/155434161?s=40&v=4",
-          "username": "LengShangbai"
+          "avatar": "https://avatars.githubusercontent.com/u/41039751?s=40&v=4",
+          "username": "raeperd"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/284359760?s=40&v=4",
-          "username": "sscodeai"
+          "avatar": "https://avatars.githubusercontent.com/u/177599791?s=40&v=4",
+          "username": "ethanstoner"
         }
       ],
       "source": "github"
     },
     {
       "rank": 13,
-      "full_name": "tech-leads-club/agent-skills",
-      "owner": "tech-leads-club",
-      "name": "agent-skills",
-      "url": "https://github.com/tech-leads-club/agent-skills",
-      "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 6713,
-      "forks": 552,
-      "stars_since": "1,759",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/99354371?s=40&v=4",
-          "username": "felipfr"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/76621784?s=40&v=4",
-          "username": "edmarpaulino"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5835706?s=40&v=4",
-          "username": "waldemarnt"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/51439466?s=40&v=4",
-          "username": "may-santos"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 14,
-      "full_name": "omacom/omarchy",
-      "owner": "omacom",
-      "name": "omarchy",
-      "url": "https://github.com/omacom/omarchy",
-      "description": "Beautiful, Modern & Opinionated Linux",
-      "language": "Shell",
-      "language_color": "#89e051",
-      "stars": 42868,
-      "forks": 4964,
-      "stars_since": "14,577",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2741?s=40&v=4",
-          "username": "dhh"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1630358?s=40&v=4",
-          "username": "ryanrhughes"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
-          "username": "codex"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7035687?s=40&v=4",
-          "username": "spencerbull"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 15,
       "full_name": "Tencent/WeKnora",
       "owner": "Tencent",
       "name": "WeKnora",
@@ -525,9 +449,9 @@
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
       "language_color": "#00ADD8",
-      "stars": 29337,
-      "forks": 3947,
-      "stars_since": "9,078",
+      "stars": 29711,
+      "forks": 3998,
+      "stars_since": "9,356",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -551,7 +475,41 @@
       "source": "github"
     },
     {
-      "rank": 16,
+      "rank": 14,
+      "full_name": "tech-leads-club/agent-skills",
+      "owner": "tech-leads-club",
+      "name": "agent-skills",
+      "url": "https://github.com/tech-leads-club/agent-skills",
+      "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 6768,
+      "forks": 549,
+      "stars_since": "1,821",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/99354371?s=40&v=4",
+          "username": "felipfr"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/76621784?s=40&v=4",
+          "username": "edmarpaulino"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5835706?s=40&v=4",
+          "username": "waldemarnt"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/51439466?s=40&v=4",
+          "username": "may-santos"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 15,
       "full_name": "google-research/timesfm",
       "owner": "google-research",
       "name": "timesfm",
@@ -559,9 +517,9 @@
       "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 33577,
-      "forks": 3240,
-      "stars_since": "5,563",
+      "stars": 33648,
+      "forks": 3248,
+      "stars_since": "5,545",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -589,6 +547,44 @@
       "source": "github"
     },
     {
+      "rank": 16,
+      "full_name": "every-app/open-seo",
+      "owner": "every-app",
+      "name": "open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 20920,
+      "forks": 2679,
+      "stars_since": "7,668",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/44480372?s=40&v=4",
+          "username": "bensenescu"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/287046313?s=40&v=4",
+          "username": "jeremypenguin-max"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/68512992?s=40&v=4",
+          "username": "bookingseo"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
+          "username": "mvanhorn"
+        }
+      ],
+      "source": "github"
+    },
+    {
       "rank": 17,
       "full_name": "jingyaogong/minimind",
       "owner": "jingyaogong",
@@ -597,9 +593,9 @@
       "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 62330,
-      "forks": 8104,
-      "stars_since": "7,561",
+      "stars": 62484,
+      "forks": 8126,
+      "stars_since": "7,689",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -635,9 +631,9 @@
       "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 6911,
-      "forks": 500,
-      "stars_since": "5,647",
+      "stars": 7119,
+      "forks": 512,
+      "stars_since": "5,854",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -666,78 +662,6 @@
     },
     {
       "rank": 19,
-      "full_name": "every-app/open-seo",
-      "owner": "every-app",
-      "name": "open-seo",
-      "url": "https://github.com/every-app/open-seo",
-      "description": "Open source alternative to Semrush and Ahrefs",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 20545,
-      "forks": 2634,
-      "stars_since": "7,313",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/44480372?s=40&v=4",
-          "username": "bensenescu"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/287046313?s=40&v=4",
-          "username": "jeremypenguin-max"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/68512992?s=40&v=4",
-          "username": "bookingseo"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
-          "username": "mvanhorn"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 20,
-      "full_name": "K-Dense-AI/scientific-agent-skills",
-      "owner": "K-Dense-AI",
-      "name": "scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 46338,
-      "forks": 4194,
-      "stars_since": "12,304",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9168908?s=40&v=4",
-          "username": "TKassis"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/206480607?s=40&v=4",
-          "username": "borealBytes"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 21,
       "full_name": "melgarafael/DeskcommCRM",
       "owner": "melgarafael",
       "name": "DeskcommCRM",
@@ -745,9 +669,9 @@
       "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 3607,
-      "forks": 897,
-      "stars_since": "3,113",
+      "stars": 3713,
+      "forks": 926,
+      "stars_since": "3,225",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -770,6 +694,116 @@
         {
           "avatar": "https://avatars.githubusercontent.com/u/37987074?s=40&v=4",
           "username": "joaopaulomirandamatias"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 20,
+      "full_name": "omacom/omarchy",
+      "owner": "omacom",
+      "name": "omarchy",
+      "url": "https://github.com/omacom/omarchy",
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "language": "Shell",
+      "language_color": "#89e051",
+      "stars": 43025,
+      "forks": 4991,
+      "stars_since": "13,665",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2741?s=40&v=4",
+          "username": "dhh"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1630358?s=40&v=4",
+          "username": "ryanrhughes"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
+          "username": "codex"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7035687?s=40&v=4",
+          "username": "spencerbull"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 21,
+      "full_name": "ever-co/ever-gauzy",
+      "owner": "ever-co",
+      "name": "ever-gauzy",
+      "url": "https://github.com/ever-co/ever-gauzy",
+      "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 7916,
+      "forks": 1179,
+      "stars_since": "3,770",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/41804588?s=40&v=4",
+          "username": "rahul-rocket"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/118497?s=40&v=4",
+          "username": "evereq"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/45813955?s=40&v=4",
+          "username": "adkif"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/40795644?s=40&v=4",
+          "username": "AlexTasev"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 22,
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "owner": "K-Dense-AI",
+      "name": "scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 46533,
+      "forks": 4205,
+      "stars_since": "12,450",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9168908?s=40&v=4",
+          "username": "timothykassis"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+          "username": "cursoragent"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/206480607?s=40&v=4",
+          "username": "borealBytes"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
         }
       ],
       "source": "github"
