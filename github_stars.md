@@ -1,7 +1,7 @@
 # 🌟 GitHub Starred Repositories - @vuongdat67
 
 > Danh sách toàn bộ starred repositories của **[@vuongdat67](https://github.com/vuongdat67)**.
-> 🕒 Cập nhật: `2026-09-28 04:11:37` | 📦 Tổng số: **647** repositories
+> 🕒 Cập nhật: `2026-09-28 04:18:53` | 📦 Tổng số: **647** repositories
 
 ---
 
@@ -194,7 +194,7 @@
 
 - [**anthropics/financial-services**](https://github.com/anthropics/financial-services) - ⭐ **37.9k** | 🍴 5.5k | 📅 `2026-05-09`
 
-- [**vectorize-io/hindsight**](https://github.com/vectorize-io/hindsight) - ⭐ **37.8k** | 🍴 4.9k | 📅 `2026-09-26`
+- [**vectorize-io/hindsight**](https://github.com/vectorize-io/hindsight) - ⭐ **37.9k** | 🍴 4.9k | 📅 `2026-09-26`
   - Hindsight: Agent Memory That Learns
 
 - [**anthropics/claude-plugins-official**](https://github.com/anthropics/claude-plugins-official) - ⭐ **37.1k** | 🍴 4.2k | 📅 `2026-05-22`
@@ -430,7 +430,7 @@
 - [**CRui5in/paper-ppt-agent**](https://github.com/CRui5in/paper-ppt-agent) - ⭐ **1.1k** | 🍴 68 | 📅 `2026-06-18`
   - Generate editable PPT decks from paper PDFs or LaTeX sources
 
-- [**ASCIT31/Dark-Moon**](https://github.com/ASCIT31/Dark-Moon) - ⭐ **973** | 🍴 159 | 📅 `2026-07-10`
+- [**ASCIT31/Dark-Moon**](https://github.com/ASCIT31/Dark-Moon) - ⭐ **974** | 🍴 159 | 📅 `2026-07-10`
   - Open-source autonomous AI penetration testing. 50 specialist agents across web, API, cloud, Active Directory, Kubernetes, CI/CD and AI/LLM (OWASP LLM Top 10). Runs on a local LLM behind a Privacy Gateway. Integrates with GitHub, GitLab, Jenkins, VS Code, JetBrains, n8n, Grafana & Splunk.
 
 - [**vil/H4X-Tools**](https://github.com/vil/H4X-Tools) - ⭐ **834** | 🍴 110 | 📅 `2026-05-19`

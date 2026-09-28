@@ -1,7 +1,7 @@
 # 🏷️ GitHub Starred Repositories Theo Chủ Đề - @vuongdat67
 
 > Phân loại thông minh 647 repositories theo lĩnh vực ứng dụng.
-> 🕒 Cập nhật: `2026-09-28 04:11:37`
+> 🕒 Cập nhật: `2026-09-28 04:18:53`
 
 ---
 
@@ -361,7 +361,7 @@
 - [**patchy631/ai-engineering-hub**](https://github.com/patchy631/ai-engineering-hub) - `Jupyter Notebook` | ⭐ **38.1k** | 🍴 6.3k
   - In-depth tutorials on LLMs, RAGs and real-world AI agent applications.
 
-- [**vectorize-io/hindsight**](https://github.com/vectorize-io/hindsight) - `Python` | ⭐ **37.8k** | 🍴 4.9k
+- [**vectorize-io/hindsight**](https://github.com/vectorize-io/hindsight) - `Python` | ⭐ **37.9k** | 🍴 4.9k
   - Hindsight: Agent Memory That Learns
 
 - [**anthropics/claude-plugins-official**](https://github.com/anthropics/claude-plugins-official) - `Python` | ⭐ **37.1k** | 🍴 4.2k
@@ -894,7 +894,7 @@
 - [**numman-ali/n-skills**](https://github.com/numman-ali/n-skills) - `TypeScript` | ⭐ **1.0k** | 🍴 109
   - Curated plugin marketplace for AI agents - works with Claude Code, Codex, and openskills
 
-- [**ASCIT31/Dark-Moon**](https://github.com/ASCIT31/Dark-Moon) - `Python` | ⭐ **973** | 🍴 159
+- [**ASCIT31/Dark-Moon**](https://github.com/ASCIT31/Dark-Moon) - `Python` | ⭐ **974** | 🍴 159
   - Open-source autonomous AI penetration testing. 50 specialist agents across web, API, cloud, Active Directory, Kubernetes, CI/CD and AI/LLM (OWASP LLM Top 10). Runs on a local LLM behind a Privacy Gateway. Integrates with GitHub, GitLab, Jenkins, VS Code, JetBrains, n8n, Grafana & Splunk.
 
 - [**vil/H4X-Tools**](https://github.com/vil/H4X-Tools) - `Python` | ⭐ **834** | 🍴 110
@@ -1706,7 +1706,7 @@
 - [**AKCodez/hackingtool-plugin**](https://github.com/AKCodez/hackingtool-plugin) - `Python` | ⭐ **1.1k** | 🍴 236
   - Claude Code plugin: 183+ pentesting & OSINT tools from Z4nzu/hackingtool. Auto-runs what it can, hands off the rest.
 
-- [**ASCIT31/Dark-Moon**](https://github.com/ASCIT31/Dark-Moon) - `Python` | ⭐ **973** | 🍴 159
+- [**ASCIT31/Dark-Moon**](https://github.com/ASCIT31/Dark-Moon) - `Python` | ⭐ **974** | 🍴 159
   - Open-source autonomous AI penetration testing. 50 specialist agents across web, API, cloud, Active Directory, Kubernetes, CI/CD and AI/LLM (OWASP LLM Top 10). Runs on a local LLM behind a Privacy Gateway. Integrates with GitHub, GitLab, Jenkins, VS Code, JetBrains, n8n, Grafana & Splunk.
 
 - [**vil/H4X-Tools**](https://github.com/vil/H4X-Tools) - `Python` | ⭐ **834** | 🍴 110
@@ -2496,7 +2496,7 @@
 - [**LetsDefend/awesome-soc-analyst**](https://github.com/LetsDefend/awesome-soc-analyst) - `Others` | ⭐ **1.0k** | 🍴 162
   - Useful resources for SOC Analyst and SOC Analyst candidates.
 
-- [**ASCIT31/Dark-Moon**](https://github.com/ASCIT31/Dark-Moon) - `Python` | ⭐ **973** | 🍴 159
+- [**ASCIT31/Dark-Moon**](https://github.com/ASCIT31/Dark-Moon) - `Python` | ⭐ **974** | 🍴 159
   - Open-source autonomous AI penetration testing. 50 specialist agents across web, API, cloud, Active Directory, Kubernetes, CI/CD and AI/LLM (OWASP LLM Top 10). Runs on a local LLM behind a Privacy Gateway. Integrates with GitHub, GitLab, Jenkins, VS Code, JetBrains, n8n, Grafana & Splunk.
 
 - [**vil/H4X-Tools**](https://github.com/vil/H4X-Tools) - `Python` | ⭐ **834** | 🍴 110
@@ -2886,7 +2886,7 @@
 - [**catppuccin/userstyles**](https://github.com/catppuccin/userstyles) - `Less` | ⭐ **1.1k** | 🍴 299
   - 🖌 Soothing pastel userstyles
 
-- [**ASCIT31/Dark-Moon**](https://github.com/ASCIT31/Dark-Moon) - `Python` | ⭐ **973** | 🍴 159
+- [**ASCIT31/Dark-Moon**](https://github.com/ASCIT31/Dark-Moon) - `Python` | ⭐ **974** | 🍴 159
   - Open-source autonomous AI penetration testing. 50 specialist agents across web, API, cloud, Active Directory, Kubernetes, CI/CD and AI/LLM (OWASP LLM Top 10). Runs on a local LLM behind a Privacy Gateway. Integrates with GitHub, GitLab, Jenkins, VS Code, JetBrains, n8n, Grafana & Splunk.
 
 - [**vil/H4X-Tools**](https://github.com/vil/H4X-Tools) - `Python` | ⭐ **834** | 🍴 110

@@ -304,8 +304,8 @@
       "url": "https://huggingface.co/papers/2609.31093",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Bohao Tang, Zhen Qin, Yuqi Pan",
       "published_at": "2026-09-24",
       "tags": [
@@ -384,8 +384,8 @@
       "url": "https://huggingface.co/papers/2609.31620",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 32",
-      "upvotes": 32,
+      "badge": "⭐ 33",
+      "upvotes": 33,
       "authors": "Hongyang Du, Yunfei Xie, Junjie Ye",
       "published_at": "2026-09-24",
       "tags": [
@@ -865,12 +865,12 @@
     },
     {
       "title": "Owed a billion dollars in Nvidia stock",
-      "summary": "Hacker News (230 pts, 110 comments) by @Eric_Gullichsen",
+      "summary": "Hacker News (242 pts, 117 comments) by @Eric_Gullichsen",
       "url": "https://colo.to/nvidia-stock-narrative.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "230 pts",
-      "upvotes": 230,
+      "badge": "242 pts",
+      "upvotes": 242,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -880,12 +880,12 @@
     },
     {
       "title": "Nissan's third generation e-POWER powertrain",
-      "summary": "Hacker News (19 pts, 11 comments) by @mroche",
+      "summary": "Hacker News (20 pts, 13 comments) by @mroche",
       "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/E_POWER_GEN3/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "19 pts",
-      "upvotes": 19,
+      "badge": "20 pts",
+      "upvotes": 20,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -895,12 +895,12 @@
     },
     {
       "title": "Thinking Fast and Slow in AI: The Role of Metacognition",
-      "summary": "Hacker News (10 pts, 0 comments) by @teleforce",
+      "summary": "Hacker News (11 pts, 0 comments) by @teleforce",
       "url": "https://arxiv.org/abs/2110.01834",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "10 pts",
-      "upvotes": 10,
+      "badge": "11 pts",
+      "upvotes": 11,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -910,12 +910,12 @@
     },
     {
       "title": "Ember-1",
-      "summary": "Hacker News (387 pts, 195 comments) by @gmays",
+      "summary": "Hacker News (388 pts, 195 comments) by @gmays",
       "url": "https://fireworks.ai/blog/ember-1",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "387 pts",
-      "upvotes": 387,
+      "badge": "388 pts",
+      "upvotes": 388,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -925,27 +925,12 @@
     },
     {
       "title": "When did Google get so weird?",
-      "summary": "Hacker News (925 pts, 500 comments) by @sancho-panza",
+      "summary": "Hacker News (932 pts, 503 comments) by @sancho-panza",
       "url": "https://sancho.bearblog.dev/google-weird/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "925 pts",
-      "upvotes": 925,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Musk, the Movie",
-      "summary": "Hacker News (99 pts, 21 comments) by @yablak",
-      "url": "https://bleeckerstreetmedia.com/musk",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "99 pts",
-      "upvotes": 99,
+      "badge": "932 pts",
+      "upvotes": 932,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -970,27 +955,12 @@
     },
     {
       "title": "There is more to code review than (automatable) detection",
-      "summary": "Hacker News (87 pts, 46 comments) by @utiiiD",
+      "summary": "Hacker News (88 pts, 47 comments) by @utiiiD",
       "url": "https://www.adaptivecapacitylabs.com/2026/08/24/there-is-more-to-code-review-than-automatable-detection/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "87 pts",
-      "upvotes": 87,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Guitar amp and effects pedal built on the Waveshare ESP32-S3-Touch-AMOLED-2.06",
-      "summary": "Hacker News (33 pts, 11 comments) by @arbayi",
-      "url": "https://github.com/dashersw/coyopedal",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "33 pts",
-      "upvotes": 33,
+      "badge": "88 pts",
+      "upvotes": 88,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1014,8 +984,83 @@
       ]
     },
     {
+      "title": "Guitar amp and effects pedal built on the Waveshare ESP32-S3-Touch-AMOLED-2.06",
+      "summary": "Hacker News (33 pts, 11 comments) by @arbayi",
+      "url": "https://github.com/dashersw/coyopedal",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "33 pts",
+      "upvotes": 33,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Musk, the Movie",
+      "summary": "Hacker News (102 pts, 24 comments) by @yablak",
+      "url": "https://bleeckerstreetmedia.com/musk",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "102 pts",
+      "upvotes": 102,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Malleable software: Restoring user agency in a world of locked-down apps (2025)",
+      "summary": "Hacker News (16 pts, 3 comments) by @evakhoury",
+      "url": "https://www.inkandswitch.com/essay/malleable-software/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "16 pts",
+      "upvotes": 16,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
+      "summary": "Hacker News (196 pts, 87 comments) by @safaelmali",
+      "url": "https://loficities.com/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "196 pts",
+      "upvotes": 196,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Lunar Terminator Paradox",
+      "summary": "Hacker News (56 pts, 38 comments) by @dima55",
+      "url": "https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "56 pts",
+      "upvotes": 56,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
       "title": "As A.I. makes law firms more efficient, clients ask: 'Where's my discount?'",
-      "summary": "Hacker News (67 pts, 44 comments) by @mooreds",
+      "summary": "Hacker News (67 pts, 48 comments) by @mooreds",
       "url": "https://www.nytimes.com/2026/09/26/business/dealbook/ai-law-discount-billable-hour.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
@@ -1029,58 +1074,13 @@
       ]
     },
     {
-      "title": "Lunar Terminator Paradox",
-      "summary": "Hacker News (55 pts, 38 comments) by @dima55",
-      "url": "https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "55 pts",
-      "upvotes": 55,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
-      "summary": "Hacker News (195 pts, 87 comments) by @safaelmali",
-      "url": "https://loficities.com/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "195 pts",
-      "upvotes": 195,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
       "title": "Don't couple your Go code to GitHub",
-      "summary": "Hacker News (170 pts, 83 comments) by @birdculture",
+      "summary": "Hacker News (170 pts, 84 comments) by @birdculture",
       "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
       "source": "Hacker News",
       "category": "Hacker News Tech",
       "badge": "170 pts",
       "upvotes": 170,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "TabPFN and TabICL vs. tuned XGBoost: the model that doesn't train won 14/14",
-      "summary": "Hacker News (4 pts, 1 comments) by @EfrainGaray",
-      "url": "https://efraingaray.com/en/blog/tabpfn-vs-xgboost/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "4 pts",
-      "upvotes": 4,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1558,8 +1558,8 @@
       "url": "https://huggingface.co/papers/2609.31093",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Bohao Tang, Zhen Qin, Yuqi Pan",
       "published_at": "2026-09-24",
       "tags": [
@@ -1638,8 +1638,8 @@
       "url": "https://huggingface.co/papers/2609.31620",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 32",
-      "upvotes": 32,
+      "badge": "⭐ 33",
+      "upvotes": 33,
       "authors": "Hongyang Du, Yunfei Xie, Junjie Ye",
       "published_at": "2026-09-24",
       "tags": [
@@ -2119,12 +2119,12 @@
     },
     {
       "title": "Owed a billion dollars in Nvidia stock",
-      "summary": "Hacker News (230 pts, 110 comments) by @Eric_Gullichsen",
+      "summary": "Hacker News (242 pts, 117 comments) by @Eric_Gullichsen",
       "url": "https://colo.to/nvidia-stock-narrative.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "230 pts",
-      "upvotes": 230,
+      "badge": "242 pts",
+      "upvotes": 242,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2134,12 +2134,12 @@
     },
     {
       "title": "Nissan's third generation e-POWER powertrain",
-      "summary": "Hacker News (19 pts, 11 comments) by @mroche",
+      "summary": "Hacker News (20 pts, 13 comments) by @mroche",
       "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/E_POWER_GEN3/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "19 pts",
-      "upvotes": 19,
+      "badge": "20 pts",
+      "upvotes": 20,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2149,12 +2149,12 @@
     },
     {
       "title": "Thinking Fast and Slow in AI: The Role of Metacognition",
-      "summary": "Hacker News (10 pts, 0 comments) by @teleforce",
+      "summary": "Hacker News (11 pts, 0 comments) by @teleforce",
       "url": "https://arxiv.org/abs/2110.01834",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "10 pts",
-      "upvotes": 10,
+      "badge": "11 pts",
+      "upvotes": 11,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2164,12 +2164,12 @@
     },
     {
       "title": "Ember-1",
-      "summary": "Hacker News (387 pts, 195 comments) by @gmays",
+      "summary": "Hacker News (388 pts, 195 comments) by @gmays",
       "url": "https://fireworks.ai/blog/ember-1",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "387 pts",
-      "upvotes": 387,
+      "badge": "388 pts",
+      "upvotes": 388,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2179,27 +2179,12 @@
     },
     {
       "title": "When did Google get so weird?",
-      "summary": "Hacker News (925 pts, 500 comments) by @sancho-panza",
+      "summary": "Hacker News (932 pts, 503 comments) by @sancho-panza",
       "url": "https://sancho.bearblog.dev/google-weird/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "925 pts",
-      "upvotes": 925,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Musk, the Movie",
-      "summary": "Hacker News (99 pts, 21 comments) by @yablak",
-      "url": "https://bleeckerstreetmedia.com/musk",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "99 pts",
-      "upvotes": 99,
+      "badge": "932 pts",
+      "upvotes": 932,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2224,27 +2209,12 @@
     },
     {
       "title": "There is more to code review than (automatable) detection",
-      "summary": "Hacker News (87 pts, 46 comments) by @utiiiD",
+      "summary": "Hacker News (88 pts, 47 comments) by @utiiiD",
       "url": "https://www.adaptivecapacitylabs.com/2026/08/24/there-is-more-to-code-review-than-automatable-detection/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "87 pts",
-      "upvotes": 87,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Guitar amp and effects pedal built on the Waveshare ESP32-S3-Touch-AMOLED-2.06",
-      "summary": "Hacker News (33 pts, 11 comments) by @arbayi",
-      "url": "https://github.com/dashersw/coyopedal",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "33 pts",
-      "upvotes": 33,
+      "badge": "88 pts",
+      "upvotes": 88,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2268,8 +2238,83 @@
       ]
     },
     {
+      "title": "Guitar amp and effects pedal built on the Waveshare ESP32-S3-Touch-AMOLED-2.06",
+      "summary": "Hacker News (33 pts, 11 comments) by @arbayi",
+      "url": "https://github.com/dashersw/coyopedal",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "33 pts",
+      "upvotes": 33,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Musk, the Movie",
+      "summary": "Hacker News (102 pts, 24 comments) by @yablak",
+      "url": "https://bleeckerstreetmedia.com/musk",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "102 pts",
+      "upvotes": 102,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Malleable software: Restoring user agency in a world of locked-down apps (2025)",
+      "summary": "Hacker News (16 pts, 3 comments) by @evakhoury",
+      "url": "https://www.inkandswitch.com/essay/malleable-software/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "16 pts",
+      "upvotes": 16,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
+      "summary": "Hacker News (196 pts, 87 comments) by @safaelmali",
+      "url": "https://loficities.com/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "196 pts",
+      "upvotes": 196,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Lunar Terminator Paradox",
+      "summary": "Hacker News (56 pts, 38 comments) by @dima55",
+      "url": "https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "56 pts",
+      "upvotes": 56,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
       "title": "As A.I. makes law firms more efficient, clients ask: 'Where's my discount?'",
-      "summary": "Hacker News (67 pts, 44 comments) by @mooreds",
+      "summary": "Hacker News (67 pts, 48 comments) by @mooreds",
       "url": "https://www.nytimes.com/2026/09/26/business/dealbook/ai-law-discount-billable-hour.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
@@ -2283,58 +2328,13 @@
       ]
     },
     {
-      "title": "Lunar Terminator Paradox",
-      "summary": "Hacker News (55 pts, 38 comments) by @dima55",
-      "url": "https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "55 pts",
-      "upvotes": 55,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
-      "summary": "Hacker News (195 pts, 87 comments) by @safaelmali",
-      "url": "https://loficities.com/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "195 pts",
-      "upvotes": 195,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
       "title": "Don't couple your Go code to GitHub",
-      "summary": "Hacker News (170 pts, 83 comments) by @birdculture",
+      "summary": "Hacker News (170 pts, 84 comments) by @birdculture",
       "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
       "source": "Hacker News",
       "category": "Hacker News Tech",
       "badge": "170 pts",
       "upvotes": 170,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "TabPFN and TabICL vs. tuned XGBoost: the model that doesn't train won 14/14",
-      "summary": "Hacker News (4 pts, 1 comments) by @EfrainGaray",
-      "url": "https://efraingaray.com/en/blog/tabpfn-vs-xgboost/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "4 pts",
-      "upvotes": 4,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
