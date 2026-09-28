@@ -171,14 +171,14 @@
       ]
     },
     {
-      "title": "[cs.AI] LLM Agents Can Easily Tamper With Their Own Traces",
-      "summary": "Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own execution traces. We...",
-      "url": "http://arxiv.org/abs/2609.30266v1",
+      "title": "[cs.AI] Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
+      "summary": "Reasoning models often generate very long reasoning traces, making inference computationally expensive. Existing approaches typically improve efficiency either through inference-time early-stopping mechanisms or by expli...",
+      "url": "http://arxiv.org/abs/2609.31619v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Jeremy Qin, David Schmotz, Derck Prinzhorn",
-      "published_at": "2026-09-24",
+      "authors": "Parsa Hosseini, Akasha Tigalappanavara, Sumit Nawathe",
+      "published_at": "2026-09-25",
       "tags": [
         "arxiv",
         "paper",
@@ -187,14 +187,14 @@
       ]
     },
     {
-      "title": "[cs.AI] AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
-      "summary": "Latent world models are typically trained to predict factual transitions, whereas model predictive control (MPC) must compare alternative actions from the same state. A model can therefore achieve low factual prediction ...",
-      "url": "http://arxiv.org/abs/2609.30264v1",
+      "title": "[cs.AI] Statistical attribute alignment for black-box generative AI via output post-processing",
+      "summary": "Generative AI systems are increasingly used, but aligning their outputs with user requirements poses a continuing challenge. Here, we aim to ensure that the distribution of an attribute of an AI-generated output aligns w...",
+      "url": "http://arxiv.org/abs/2609.31607v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Jiabin Qiu, Zixuan Chen, Hongye Cao",
-      "published_at": "2026-09-24",
+      "authors": "Kevin Jiang, Morgane Austern, Edgar Dobriban",
+      "published_at": "2026-09-25",
       "tags": [
         "arxiv",
         "paper",
@@ -203,14 +203,14 @@
       ]
     },
     {
-      "title": "[cs.AI] RAPID: Robot Agentic Programming from Demonstrations",
-      "summary": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which a...",
-      "url": "http://arxiv.org/abs/2609.30249v1",
+      "title": "[cs.AI] Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer",
+      "summary": "We investigate whether natural-language documentation helps coding agents resolve software issues, and we build the tools to construct and evaluate it. We introduce a roundtrip benchmark that scores code descriptions by ...",
+      "url": "http://arxiv.org/abs/2609.31587v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Yuyao Liu, Jiayuan Mao, David Hsu",
-      "published_at": "2026-09-24",
+      "authors": "Md Shohel Arman, Igor Molybog",
+      "published_at": "2026-09-25",
       "tags": [
         "arxiv",
         "paper",
@@ -219,14 +219,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Rolling-WAM: World Action Models with Rolling Imagination",
-      "summary": "World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial latency...",
-      "url": "http://arxiv.org/abs/2609.30247v1",
+      "title": "[cs.AI] OC-GS: Gaussian Splatting for Irregular Turntable Capture",
+      "summary": "Uneven rotation and dropped frames make equal-angle assumptions unreliable for turntable reconstruction. We present OC-GS, an object-centric Gaussian splatting that refines each image's angle while maintaining a shared c...",
+      "url": "http://arxiv.org/abs/2609.31572v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Yinghua Zhou, Junjie Ye, Yiqi Zhao",
-      "published_at": "2026-09-24",
+      "authors": "Jae Joong Lee, Bedrich Benes",
+      "published_at": "2026-09-25",
       "tags": [
         "arxiv",
         "paper",
@@ -235,14 +235,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Coding Agents for Generalized Task and Motion Planning Problems",
-      "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalize...",
-      "url": "http://arxiv.org/abs/2609.30233v1",
+      "title": "[cs.AI] Adapting for AI: How elementary teachers adjust their practices for an AI-integrated curriculum",
+      "summary": "Conversational AI tools are entering children's everyday experiences, and schools are interested in adopting them. However, successful classroom integration depends not only on the technology but also on the work teacher...",
+      "url": "http://arxiv.org/abs/2609.31569v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Matteo Merler, Bowen Li, Josh Roy",
-      "published_at": "2026-09-24",
+      "authors": "Fasika Melese, Ruiyang Wu, Xinyue Cui",
+      "published_at": "2026-09-25",
       "tags": [
         "arxiv",
         "paper",
@@ -251,14 +251,14 @@
       ]
     },
     {
-      "title": "[cs.AI] To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech",
-      "summary": "Online misinformation increasingly appears in spoken formats such as news clips, podcasts, interviews, political speeches, and social media videos, creating a need for fact-checking systems that can verify claims directl...",
-      "url": "http://arxiv.org/abs/2609.30227v1",
+      "title": "[cs.AI] DeepEdu-v1: Efficient and Scalable Agentic LLMs for Vietnamese Education",
+      "summary": "AI tutoring could markedly improve learning outcomes for students in developing regions such as Vietnam, yet the two obvious paths both fall short. Cloud assistants such as ChatGPT route sensitive student data to foreign...",
+      "url": "http://arxiv.org/abs/2609.31568v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Debajyoti Mazumder,  Mamta, Abhirama Subramanyam Penamakuri",
-      "published_at": "2026-09-24",
+      "authors": "Quang Nguyen, Hieu Nguyen, Hien Hoang",
+      "published_at": "2026-09-25",
       "tags": [
         "arxiv",
         "paper",
@@ -267,14 +267,14 @@
       ]
     },
     {
-      "title": "[cs.AI] PoEM: Predicting RL Outcomes from Existing Policies",
-      "summary": "Foundation models are post-trained with reinforcement learning (RL) to maximize specific rewards, such as human alignment, correctness, or instruction following. This post-training process is computationally intensive, s...",
-      "url": "http://arxiv.org/abs/2609.30226v1",
+      "title": "[cs.AI] Multi-agent Scaling Across Disjunctive and Compensatory Tasks",
+      "summary": "Multi-agent LLM systems are often expected to improve as team size increases, yet the scaling behavior may depend on task structure. Our central contribution is to introduce Steiner's taxonomy of group tasks as a framewo...",
+      "url": "http://arxiv.org/abs/2609.31563v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Kimia Hamidieh, Giannis Daras, Antonio Torralba",
-      "published_at": "2026-09-24",
+      "authors": "Carolina Fortuna, Blaz Bertalanic",
+      "published_at": "2026-09-25",
       "tags": [
         "arxiv",
         "paper",
@@ -283,19 +283,131 @@
       ]
     },
     {
-      "title": "[cs.AI] TrackEverything: Long Horizon Dense Tracking via De-Duplicating 3D Scene Representations",
-      "summary": "Existing point tracking models face a fundamental tradeoff: they can either track a sparse set of query points over long horizons, or track all points across only short clips. We introduce TrackEverything, a 3D point tra...",
-      "url": "http://arxiv.org/abs/2609.30222v1",
+      "title": "[cs.AI] A Flow Matching Framework for Neural Representational Dissimilarity",
+      "summary": "Neural representational dissimilarity quantifies differences between neural response distributions, and is essential for comparing neural codes across stimuli, brain areas, tasks, and models. Commonly used distance metri...",
+      "url": "http://arxiv.org/abs/2609.31544v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Ayush Jain, Sreeharsha Paruchuri, Ishita Gupta",
-      "published_at": "2026-09-24",
+      "authors": "Zeyuan Ye, Xue-Xin Wei",
+      "published_at": "2026-09-25",
       "tags": [
         "arxiv",
         "paper",
         "cs.ai",
         "cs.ai"
+      ]
+    },
+    {
+      "title": "Block Sparse Attention with Log-Linear Complexity",
+      "summary": "Scaling language models to long contexts is limited by the quadratic cost of self-attention. Block sparse attention offers an efficient alternative, but selecting the retained blocks remains a bottleneck. Conventional bl...",
+      "url": "https://huggingface.co/papers/2609.31093",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Bohao Tang, Zhen Qin, Yuqi Pan",
+      "published_at": "2026-09-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs",
+      "summary": "Existing multi-agent benchmarks primarily test in competitive settings, short-horizon interactions under 20 steps, or simply aggregate individual performance, failing to isolate and highlight genuine collaboration capabi...",
+      "url": "https://huggingface.co/papers/2609.31590",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 0",
+      "upvotes": 0,
+      "authors": "Raphael Shu, Yusen Zhang, Young Min Cho",
+      "published_at": "2026-09-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "SLCA-GRPO: Resolving Cross-Segment Credit Misattribution in Tool-Calling RL",
+      "summary": "Tool-calling agents produce heterogeneous outputs, interleaving structured tool invocations with user-facing natural language summaries. This output heterogeneity presents a structural failure mode in standard on-policy ...",
+      "url": "https://huggingface.co/papers/2609.29050",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Yan Zhan, Shaobo Liu, Qiunan Liu",
+      "published_at": "2026-09-23",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "InternW0-Δ: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data",
+      "summary": "World Action Models (WAMs) jointly model visual dynamics and action generation for generalist robot manipulation. A central challenge is to integrate priors from large-scale pretrained models---including visual dynamics,...",
+      "url": "https://huggingface.co/papers/2609.31394",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 11",
+      "upvotes": 11,
+      "authors": "Xingyu Miao, Zizun Li, Baole Fang",
+      "published_at": "2026-09-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Game Arena: Strategic LLM Evaluation in Competitive Environments",
+      "summary": "We introduce Kaggle Game Arena, an open and ever-expanding platform to evaluate large language models (LLMs) through competitive games. Different from static benchmarks, game arena enables models to play head-to-head mat...",
+      "url": "https://huggingface.co/papers/2609.31473",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Bovard Doerschuk-Tiberi, Yao Yan, Justin Chiu",
+      "published_at": "2026-09-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
+      "summary": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation. However, RAEs still need to dec...",
+      "url": "https://huggingface.co/papers/2609.31620",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 32",
+      "upvotes": 32,
+      "authors": "Hongyang Du, Yunfei Xie, Junjie Ye",
+      "published_at": "2026-09-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Morphometric Imitation: From Morphology and Contact Aware Hand Retargeting to Sim-to-Real Visuomotor Policy",
+      "summary": "Human hand-object interactions (HOIs) provide a rich source of demonstrations for dexterous manipulation, but learning directly from them presents challenges in bridging morphology gaps, ensuring dynamical feasibility, a...",
+      "url": "https://huggingface.co/papers/2609.28660",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Tara Sadjadpour, Siming He, C. K. Wolfe",
+      "published_at": "2026-09-22",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
       ]
     },
     {
@@ -368,8 +480,8 @@
       "url": "https://huggingface.co/papers/2609.29429",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Ruoqi Guo, Yi Liu, Gelei Deng",
       "published_at": "2026-09-23",
       "tags": [
@@ -500,118 +612,6 @@
       "upvotes": 7,
       "authors": "Zhenhua Zou, Sheng Guo, Qiuyang Zhan",
       "published_at": "2026-08-28",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "PUBG Ally: A Conversational Embodied Agent as an AI Teammate",
-      "summary": "We introduce PUBG Ally, an embodied agent for PUBG: BATTLEGROUNDS that can reason, act autonomously, and play alongside players as a voice-enabled teammate. Building such a teammate requires combining two difficult capab...",
-      "url": "https://huggingface.co/papers/2609.29837",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 6",
-      "upvotes": 6,
-      "authors": "Beomsoo Kim, Byeongju Kim, Dohyun Kim",
-      "published_at": "2026-09-23",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "OmniEcho: Spatial Audio Understanding for Embodied Agents",
-      "summary": "Humans can effortlessly localize the direction of a sound source and integrate it with visual cues for reasoning, yet this remains challenging for embodied agents. In particular, it is still unclear how to effectively ev...",
-      "url": "https://huggingface.co/papers/2609.23407",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 22",
-      "upvotes": 22,
-      "authors": "Ruixun Liu, Yuxuan Wang, Jiacheng Xie",
-      "published_at": "2026-09-19",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
-      "summary": "General-purpose vision-language models (VLMs) bring broad knowledge and spatial reasoning to robot manipulation, yet existing systems either use them indirectly, to predict constraints or write programs, or give them a v...",
-      "url": "https://huggingface.co/papers/2609.29964",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
-      "authors": "Yehang Zhang, Haojian Huang, Yifan Chang",
-      "published_at": "2026-09-23",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
-      "summary": "Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contemporary video generators scale to 30 seconds and faithfully follow complex conditions, the textual prompt ...",
-      "url": "https://huggingface.co/papers/2609.30221",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 36",
-      "upvotes": 36,
-      "authors": "Yubo Zhu, Yawen Shao, Ziyun Dai",
-      "published_at": "2026-09-23",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
-      "summary": "Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the results. However, evaluating this ability is difficult: ...",
-      "url": "https://huggingface.co/papers/2609.30199",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
-      "authors": "Ming Zhang, Zhenghao Xiang, Peizhong Gao",
-      "published_at": "2026-09-23",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Training Object Permanence in World Models",
-      "summary": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, maki...",
-      "url": "https://huggingface.co/papers/2609.28654",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 203",
-      "upvotes": 203,
-      "authors": "Haotian Zhang, Fengyuan Yu, Dezhi Luo",
-      "published_at": "2026-09-22",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
-      "summary": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environ...",
-      "url": "https://huggingface.co/papers/2609.28416",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 19",
-      "upvotes": 19,
-      "authors": "Shuang Sun, Guoxin Chen, Fanzhe Meng",
-      "published_at": "2026-09-22",
       "tags": [
         "paper",
         "arxiv",
@@ -864,13 +864,43 @@
       ]
     },
     {
-      "title": "When did Google get so weird?",
-      "summary": "Hacker News (615 pts, 333 comments) by @sancho-panza",
-      "url": "https://sancho.bearblog.dev/google-weird/",
+      "title": "Owed a billion dollars in Nvidia stock",
+      "summary": "Hacker News (230 pts, 110 comments) by @Eric_Gullichsen",
+      "url": "https://colo.to/nvidia-stock-narrative.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "615 pts",
-      "upvotes": 615,
+      "badge": "230 pts",
+      "upvotes": 230,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Nissan's third generation e-POWER powertrain",
+      "summary": "Hacker News (19 pts, 11 comments) by @mroche",
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/E_POWER_GEN3/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "19 pts",
+      "upvotes": 19,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Thinking Fast and Slow in AI: The Role of Metacognition",
+      "summary": "Hacker News (10 pts, 0 comments) by @teleforce",
+      "url": "https://arxiv.org/abs/2110.01834",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "10 pts",
+      "upvotes": 10,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -880,12 +910,12 @@
     },
     {
       "title": "Ember-1",
-      "summary": "Hacker News (314 pts, 168 comments) by @gmays",
+      "summary": "Hacker News (387 pts, 195 comments) by @gmays",
       "url": "https://fireworks.ai/blog/ember-1",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "314 pts",
-      "upvotes": 314,
+      "badge": "387 pts",
+      "upvotes": 387,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -894,13 +924,28 @@
       ]
     },
     {
-      "title": "Lunar Terminator Paradox",
-      "summary": "Hacker News (37 pts, 23 comments) by @dima55",
-      "url": "https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html",
+      "title": "When did Google get so weird?",
+      "summary": "Hacker News (925 pts, 500 comments) by @sancho-panza",
+      "url": "https://sancho.bearblog.dev/google-weird/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "37 pts",
-      "upvotes": 37,
+      "badge": "925 pts",
+      "upvotes": 925,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Musk, the Movie",
+      "summary": "Hacker News (99 pts, 21 comments) by @yablak",
+      "url": "https://bleeckerstreetmedia.com/musk",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "99 pts",
+      "upvotes": 99,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -910,42 +955,12 @@
     },
     {
       "title": "Alan Kay's answer to “Did the ENIAC have a BIOS”?",
-      "summary": "Hacker News (63 pts, 24 comments) by @midnightfish",
+      "summary": "Hacker News (89 pts, 31 comments) by @midnightfish",
       "url": "https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "63 pts",
-      "upvotes": 63,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
-      "summary": "Hacker News (143 pts, 68 comments) by @safaelmali",
-      "url": "https://loficities.com/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "143 pts",
-      "upvotes": 143,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "The state of SIMD in Rust in 2026",
-      "summary": "Hacker News (82 pts, 19 comments) by @verdagon",
-      "url": "https://shnatsel.github.io/state-of-simd-rust-2026/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "82 pts",
-      "upvotes": 82,
+      "badge": "89 pts",
+      "upvotes": 89,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -955,12 +970,87 @@
     },
     {
       "title": "There is more to code review than (automatable) detection",
-      "summary": "Hacker News (44 pts, 17 comments) by @utiiiD",
+      "summary": "Hacker News (87 pts, 46 comments) by @utiiiD",
       "url": "https://www.adaptivecapacitylabs.com/2026/08/24/there-is-more-to-code-review-than-automatable-detection/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "44 pts",
-      "upvotes": 44,
+      "badge": "87 pts",
+      "upvotes": 87,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Guitar amp and effects pedal built on the Waveshare ESP32-S3-Touch-AMOLED-2.06",
+      "summary": "Hacker News (33 pts, 11 comments) by @arbayi",
+      "url": "https://github.com/dashersw/coyopedal",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "33 pts",
+      "upvotes": 33,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "The state of SIMD in Rust in 2026",
+      "summary": "Hacker News (108 pts, 23 comments) by @verdagon",
+      "url": "https://shnatsel.github.io/state-of-simd-rust-2026/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "108 pts",
+      "upvotes": 108,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "As A.I. makes law firms more efficient, clients ask: 'Where's my discount?'",
+      "summary": "Hacker News (67 pts, 44 comments) by @mooreds",
+      "url": "https://www.nytimes.com/2026/09/26/business/dealbook/ai-law-discount-billable-hour.html",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "67 pts",
+      "upvotes": 67,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Lunar Terminator Paradox",
+      "summary": "Hacker News (55 pts, 38 comments) by @dima55",
+      "url": "https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "55 pts",
+      "upvotes": 55,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
+      "summary": "Hacker News (195 pts, 87 comments) by @safaelmali",
+      "url": "https://loficities.com/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "195 pts",
+      "upvotes": 195,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -970,12 +1060,12 @@
     },
     {
       "title": "Don't couple your Go code to GitHub",
-      "summary": "Hacker News (121 pts, 55 comments) by @birdculture",
+      "summary": "Hacker News (170 pts, 83 comments) by @birdculture",
       "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "121 pts",
-      "upvotes": 121,
+      "badge": "170 pts",
+      "upvotes": 170,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -984,103 +1074,13 @@
       ]
     },
     {
-      "title": "Imp is a full port of DSPy to the BEAM",
-      "summary": "Hacker News (38 pts, 5 comments) by @mpweiher",
-      "url": "https://github.com/deepfates/imp",
+      "title": "TabPFN and TabICL vs. tuned XGBoost: the model that doesn't train won 14/14",
+      "summary": "Hacker News (4 pts, 1 comments) by @EfrainGaray",
+      "url": "https://efraingaray.com/en/blog/tabpfn-vs-xgboost/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "38 pts",
-      "upvotes": 38,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "What I did at Recurse Center",
-      "summary": "Hacker News (50 pts, 16 comments) by @bingden",
-      "url": "https://thill.me/2026/09/11/what-i-did-at-rc.html",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "50 pts",
-      "upvotes": 50,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Oral history of John Chowning, inventor of FM synthesis [video]",
-      "summary": "Hacker News (42 pts, 6 comments) by @Rochus",
-      "url": "https://www.youtube.com/watch?v=e1Xn3030IvM",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "42 pts",
-      "upvotes": 42,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "In an $80 motel room, a discovery to shed light on the origins of life",
-      "summary": "Hacker News (194 pts, 79 comments) by @danso",
-      "url": "https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "194 pts",
-      "upvotes": 194,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Replacing the old battery on rechargeable bike lights",
-      "summary": "Hacker News (131 pts, 72 comments) by @surprisetalk",
-      "url": "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "131 pts",
-      "upvotes": 131,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "A New Experiment Meta-Strategy",
-      "summary": "Hacker News (7 pts, 0 comments) by @surprisetalk",
-      "url": "https://chillphysicsenjoyer.substack.com/p/a-new-experiment-meta-strategy",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "7 pts",
-      "upvotes": 7,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "S3 Is the Future, S3 Is the Past",
-      "summary": "Hacker News (38 pts, 23 comments) by @tkhattra",
-      "url": "https://btrblocks.com/blog/s3_is_the_future_and_the_past/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "38 pts",
-      "upvotes": 38,
+      "badge": "4 pts",
+      "upvotes": 4,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1425,14 +1425,14 @@
       ]
     },
     {
-      "title": "[cs.AI] LLM Agents Can Easily Tamper With Their Own Traces",
-      "summary": "Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own execution traces. We...",
-      "url": "http://arxiv.org/abs/2609.30266v1",
+      "title": "[cs.AI] Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
+      "summary": "Reasoning models often generate very long reasoning traces, making inference computationally expensive. Existing approaches typically improve efficiency either through inference-time early-stopping mechanisms or by expli...",
+      "url": "http://arxiv.org/abs/2609.31619v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Jeremy Qin, David Schmotz, Derck Prinzhorn",
-      "published_at": "2026-09-24",
+      "authors": "Parsa Hosseini, Akasha Tigalappanavara, Sumit Nawathe",
+      "published_at": "2026-09-25",
       "tags": [
         "arxiv",
         "paper",
@@ -1441,14 +1441,14 @@
       ]
     },
     {
-      "title": "[cs.AI] AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
-      "summary": "Latent world models are typically trained to predict factual transitions, whereas model predictive control (MPC) must compare alternative actions from the same state. A model can therefore achieve low factual prediction ...",
-      "url": "http://arxiv.org/abs/2609.30264v1",
+      "title": "[cs.AI] Statistical attribute alignment for black-box generative AI via output post-processing",
+      "summary": "Generative AI systems are increasingly used, but aligning their outputs with user requirements poses a continuing challenge. Here, we aim to ensure that the distribution of an attribute of an AI-generated output aligns w...",
+      "url": "http://arxiv.org/abs/2609.31607v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Jiabin Qiu, Zixuan Chen, Hongye Cao",
-      "published_at": "2026-09-24",
+      "authors": "Kevin Jiang, Morgane Austern, Edgar Dobriban",
+      "published_at": "2026-09-25",
       "tags": [
         "arxiv",
         "paper",
@@ -1457,14 +1457,14 @@
       ]
     },
     {
-      "title": "[cs.AI] RAPID: Robot Agentic Programming from Demonstrations",
-      "summary": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which a...",
-      "url": "http://arxiv.org/abs/2609.30249v1",
+      "title": "[cs.AI] Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer",
+      "summary": "We investigate whether natural-language documentation helps coding agents resolve software issues, and we build the tools to construct and evaluate it. We introduce a roundtrip benchmark that scores code descriptions by ...",
+      "url": "http://arxiv.org/abs/2609.31587v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Yuyao Liu, Jiayuan Mao, David Hsu",
-      "published_at": "2026-09-24",
+      "authors": "Md Shohel Arman, Igor Molybog",
+      "published_at": "2026-09-25",
       "tags": [
         "arxiv",
         "paper",
@@ -1473,14 +1473,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Rolling-WAM: World Action Models with Rolling Imagination",
-      "summary": "World Action Models (WAMs) couple action generation with future visual prediction for robotic manipulation. However, completing the joint video-action denoising process at each replanning cycle incurs substantial latency...",
-      "url": "http://arxiv.org/abs/2609.30247v1",
+      "title": "[cs.AI] OC-GS: Gaussian Splatting for Irregular Turntable Capture",
+      "summary": "Uneven rotation and dropped frames make equal-angle assumptions unreliable for turntable reconstruction. We present OC-GS, an object-centric Gaussian splatting that refines each image's angle while maintaining a shared c...",
+      "url": "http://arxiv.org/abs/2609.31572v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Yinghua Zhou, Junjie Ye, Yiqi Zhao",
-      "published_at": "2026-09-24",
+      "authors": "Jae Joong Lee, Bedrich Benes",
+      "published_at": "2026-09-25",
       "tags": [
         "arxiv",
         "paper",
@@ -1489,14 +1489,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Coding Agents for Generalized Task and Motion Planning Problems",
-      "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalize...",
-      "url": "http://arxiv.org/abs/2609.30233v1",
+      "title": "[cs.AI] Adapting for AI: How elementary teachers adjust their practices for an AI-integrated curriculum",
+      "summary": "Conversational AI tools are entering children's everyday experiences, and schools are interested in adopting them. However, successful classroom integration depends not only on the technology but also on the work teacher...",
+      "url": "http://arxiv.org/abs/2609.31569v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Matteo Merler, Bowen Li, Josh Roy",
-      "published_at": "2026-09-24",
+      "authors": "Fasika Melese, Ruiyang Wu, Xinyue Cui",
+      "published_at": "2026-09-25",
       "tags": [
         "arxiv",
         "paper",
@@ -1505,14 +1505,14 @@
       ]
     },
     {
-      "title": "[cs.AI] To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech",
-      "summary": "Online misinformation increasingly appears in spoken formats such as news clips, podcasts, interviews, political speeches, and social media videos, creating a need for fact-checking systems that can verify claims directl...",
-      "url": "http://arxiv.org/abs/2609.30227v1",
+      "title": "[cs.AI] DeepEdu-v1: Efficient and Scalable Agentic LLMs for Vietnamese Education",
+      "summary": "AI tutoring could markedly improve learning outcomes for students in developing regions such as Vietnam, yet the two obvious paths both fall short. Cloud assistants such as ChatGPT route sensitive student data to foreign...",
+      "url": "http://arxiv.org/abs/2609.31568v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Debajyoti Mazumder,  Mamta, Abhirama Subramanyam Penamakuri",
-      "published_at": "2026-09-24",
+      "authors": "Quang Nguyen, Hieu Nguyen, Hien Hoang",
+      "published_at": "2026-09-25",
       "tags": [
         "arxiv",
         "paper",
@@ -1521,14 +1521,14 @@
       ]
     },
     {
-      "title": "[cs.AI] PoEM: Predicting RL Outcomes from Existing Policies",
-      "summary": "Foundation models are post-trained with reinforcement learning (RL) to maximize specific rewards, such as human alignment, correctness, or instruction following. This post-training process is computationally intensive, s...",
-      "url": "http://arxiv.org/abs/2609.30226v1",
+      "title": "[cs.AI] Multi-agent Scaling Across Disjunctive and Compensatory Tasks",
+      "summary": "Multi-agent LLM systems are often expected to improve as team size increases, yet the scaling behavior may depend on task structure. Our central contribution is to introduce Steiner's taxonomy of group tasks as a framewo...",
+      "url": "http://arxiv.org/abs/2609.31563v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Kimia Hamidieh, Giannis Daras, Antonio Torralba",
-      "published_at": "2026-09-24",
+      "authors": "Carolina Fortuna, Blaz Bertalanic",
+      "published_at": "2026-09-25",
       "tags": [
         "arxiv",
         "paper",
@@ -1537,19 +1537,131 @@
       ]
     },
     {
-      "title": "[cs.AI] TrackEverything: Long Horizon Dense Tracking via De-Duplicating 3D Scene Representations",
-      "summary": "Existing point tracking models face a fundamental tradeoff: they can either track a sparse set of query points over long horizons, or track all points across only short clips. We introduce TrackEverything, a 3D point tra...",
-      "url": "http://arxiv.org/abs/2609.30222v1",
+      "title": "[cs.AI] A Flow Matching Framework for Neural Representational Dissimilarity",
+      "summary": "Neural representational dissimilarity quantifies differences between neural response distributions, and is essential for comparing neural codes across stimuli, brain areas, tasks, and models. Commonly used distance metri...",
+      "url": "http://arxiv.org/abs/2609.31544v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Ayush Jain, Sreeharsha Paruchuri, Ishita Gupta",
-      "published_at": "2026-09-24",
+      "authors": "Zeyuan Ye, Xue-Xin Wei",
+      "published_at": "2026-09-25",
       "tags": [
         "arxiv",
         "paper",
         "cs.ai",
         "cs.ai"
+      ]
+    },
+    {
+      "title": "Block Sparse Attention with Log-Linear Complexity",
+      "summary": "Scaling language models to long contexts is limited by the quadratic cost of self-attention. Block sparse attention offers an efficient alternative, but selecting the retained blocks remains a bottleneck. Conventional bl...",
+      "url": "https://huggingface.co/papers/2609.31093",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Bohao Tang, Zhen Qin, Yuqi Pan",
+      "published_at": "2026-09-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs",
+      "summary": "Existing multi-agent benchmarks primarily test in competitive settings, short-horizon interactions under 20 steps, or simply aggregate individual performance, failing to isolate and highlight genuine collaboration capabi...",
+      "url": "https://huggingface.co/papers/2609.31590",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 0",
+      "upvotes": 0,
+      "authors": "Raphael Shu, Yusen Zhang, Young Min Cho",
+      "published_at": "2026-09-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "SLCA-GRPO: Resolving Cross-Segment Credit Misattribution in Tool-Calling RL",
+      "summary": "Tool-calling agents produce heterogeneous outputs, interleaving structured tool invocations with user-facing natural language summaries. This output heterogeneity presents a structural failure mode in standard on-policy ...",
+      "url": "https://huggingface.co/papers/2609.29050",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Yan Zhan, Shaobo Liu, Qiunan Liu",
+      "published_at": "2026-09-23",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "InternW0-Δ: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data",
+      "summary": "World Action Models (WAMs) jointly model visual dynamics and action generation for generalist robot manipulation. A central challenge is to integrate priors from large-scale pretrained models---including visual dynamics,...",
+      "url": "https://huggingface.co/papers/2609.31394",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 11",
+      "upvotes": 11,
+      "authors": "Xingyu Miao, Zizun Li, Baole Fang",
+      "published_at": "2026-09-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Game Arena: Strategic LLM Evaluation in Competitive Environments",
+      "summary": "We introduce Kaggle Game Arena, an open and ever-expanding platform to evaluate large language models (LLMs) through competitive games. Different from static benchmarks, game arena enables models to play head-to-head mat...",
+      "url": "https://huggingface.co/papers/2609.31473",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Bovard Doerschuk-Tiberi, Yao Yan, Justin Chiu",
+      "published_at": "2026-09-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
+      "summary": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation. However, RAEs still need to dec...",
+      "url": "https://huggingface.co/papers/2609.31620",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 32",
+      "upvotes": 32,
+      "authors": "Hongyang Du, Yunfei Xie, Junjie Ye",
+      "published_at": "2026-09-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Morphometric Imitation: From Morphology and Contact Aware Hand Retargeting to Sim-to-Real Visuomotor Policy",
+      "summary": "Human hand-object interactions (HOIs) provide a rich source of demonstrations for dexterous manipulation, but learning directly from them presents challenges in bridging morphology gaps, ensuring dynamical feasibility, a...",
+      "url": "https://huggingface.co/papers/2609.28660",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Tara Sadjadpour, Siming He, C. K. Wolfe",
+      "published_at": "2026-09-22",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
       ]
     },
     {
@@ -1622,8 +1734,8 @@
       "url": "https://huggingface.co/papers/2609.29429",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Ruoqi Guo, Yi Liu, Gelei Deng",
       "published_at": "2026-09-23",
       "tags": [
@@ -1754,118 +1866,6 @@
       "upvotes": 7,
       "authors": "Zhenhua Zou, Sheng Guo, Qiuyang Zhan",
       "published_at": "2026-08-28",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "PUBG Ally: A Conversational Embodied Agent as an AI Teammate",
-      "summary": "We introduce PUBG Ally, an embodied agent for PUBG: BATTLEGROUNDS that can reason, act autonomously, and play alongside players as a voice-enabled teammate. Building such a teammate requires combining two difficult capab...",
-      "url": "https://huggingface.co/papers/2609.29837",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 6",
-      "upvotes": 6,
-      "authors": "Beomsoo Kim, Byeongju Kim, Dohyun Kim",
-      "published_at": "2026-09-23",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "OmniEcho: Spatial Audio Understanding for Embodied Agents",
-      "summary": "Humans can effortlessly localize the direction of a sound source and integrate it with visual cues for reasoning, yet this remains challenging for embodied agents. In particular, it is still unclear how to effectively ev...",
-      "url": "https://huggingface.co/papers/2609.23407",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 22",
-      "upvotes": 22,
-      "authors": "Ruixun Liu, Yuxuan Wang, Jiacheng Xie",
-      "published_at": "2026-09-19",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
-      "summary": "General-purpose vision-language models (VLMs) bring broad knowledge and spatial reasoning to robot manipulation, yet existing systems either use them indirectly, to predict constraints or write programs, or give them a v...",
-      "url": "https://huggingface.co/papers/2609.29964",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
-      "authors": "Yehang Zhang, Haojian Huang, Yifan Chang",
-      "published_at": "2026-09-23",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
-      "summary": "Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contemporary video generators scale to 30 seconds and faithfully follow complex conditions, the textual prompt ...",
-      "url": "https://huggingface.co/papers/2609.30221",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 36",
-      "upvotes": 36,
-      "authors": "Yubo Zhu, Yawen Shao, Ziyun Dai",
-      "published_at": "2026-09-23",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
-      "summary": "Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the results. However, evaluating this ability is difficult: ...",
-      "url": "https://huggingface.co/papers/2609.30199",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
-      "authors": "Ming Zhang, Zhenghao Xiang, Peizhong Gao",
-      "published_at": "2026-09-23",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Training Object Permanence in World Models",
-      "summary": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, maki...",
-      "url": "https://huggingface.co/papers/2609.28654",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 203",
-      "upvotes": 203,
-      "authors": "Haotian Zhang, Fengyuan Yu, Dezhi Luo",
-      "published_at": "2026-09-22",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
-      "summary": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environ...",
-      "url": "https://huggingface.co/papers/2609.28416",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 19",
-      "upvotes": 19,
-      "authors": "Shuang Sun, Guoxin Chen, Fanzhe Meng",
-      "published_at": "2026-09-22",
       "tags": [
         "paper",
         "arxiv",
@@ -2118,13 +2118,43 @@
       ]
     },
     {
-      "title": "When did Google get so weird?",
-      "summary": "Hacker News (615 pts, 333 comments) by @sancho-panza",
-      "url": "https://sancho.bearblog.dev/google-weird/",
+      "title": "Owed a billion dollars in Nvidia stock",
+      "summary": "Hacker News (230 pts, 110 comments) by @Eric_Gullichsen",
+      "url": "https://colo.to/nvidia-stock-narrative.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "615 pts",
-      "upvotes": 615,
+      "badge": "230 pts",
+      "upvotes": 230,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Nissan's third generation e-POWER powertrain",
+      "summary": "Hacker News (19 pts, 11 comments) by @mroche",
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/E_POWER_GEN3/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "19 pts",
+      "upvotes": 19,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Thinking Fast and Slow in AI: The Role of Metacognition",
+      "summary": "Hacker News (10 pts, 0 comments) by @teleforce",
+      "url": "https://arxiv.org/abs/2110.01834",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "10 pts",
+      "upvotes": 10,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2134,12 +2164,12 @@
     },
     {
       "title": "Ember-1",
-      "summary": "Hacker News (314 pts, 168 comments) by @gmays",
+      "summary": "Hacker News (387 pts, 195 comments) by @gmays",
       "url": "https://fireworks.ai/blog/ember-1",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "314 pts",
-      "upvotes": 314,
+      "badge": "387 pts",
+      "upvotes": 387,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2148,13 +2178,28 @@
       ]
     },
     {
-      "title": "Lunar Terminator Paradox",
-      "summary": "Hacker News (37 pts, 23 comments) by @dima55",
-      "url": "https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html",
+      "title": "When did Google get so weird?",
+      "summary": "Hacker News (925 pts, 500 comments) by @sancho-panza",
+      "url": "https://sancho.bearblog.dev/google-weird/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "37 pts",
-      "upvotes": 37,
+      "badge": "925 pts",
+      "upvotes": 925,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Musk, the Movie",
+      "summary": "Hacker News (99 pts, 21 comments) by @yablak",
+      "url": "https://bleeckerstreetmedia.com/musk",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "99 pts",
+      "upvotes": 99,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2164,42 +2209,12 @@
     },
     {
       "title": "Alan Kay's answer to “Did the ENIAC have a BIOS”?",
-      "summary": "Hacker News (63 pts, 24 comments) by @midnightfish",
+      "summary": "Hacker News (89 pts, 31 comments) by @midnightfish",
       "url": "https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "63 pts",
-      "upvotes": 63,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
-      "summary": "Hacker News (143 pts, 68 comments) by @safaelmali",
-      "url": "https://loficities.com/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "143 pts",
-      "upvotes": 143,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "The state of SIMD in Rust in 2026",
-      "summary": "Hacker News (82 pts, 19 comments) by @verdagon",
-      "url": "https://shnatsel.github.io/state-of-simd-rust-2026/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "82 pts",
-      "upvotes": 82,
+      "badge": "89 pts",
+      "upvotes": 89,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2209,12 +2224,87 @@
     },
     {
       "title": "There is more to code review than (automatable) detection",
-      "summary": "Hacker News (44 pts, 17 comments) by @utiiiD",
+      "summary": "Hacker News (87 pts, 46 comments) by @utiiiD",
       "url": "https://www.adaptivecapacitylabs.com/2026/08/24/there-is-more-to-code-review-than-automatable-detection/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "44 pts",
-      "upvotes": 44,
+      "badge": "87 pts",
+      "upvotes": 87,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Guitar amp and effects pedal built on the Waveshare ESP32-S3-Touch-AMOLED-2.06",
+      "summary": "Hacker News (33 pts, 11 comments) by @arbayi",
+      "url": "https://github.com/dashersw/coyopedal",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "33 pts",
+      "upvotes": 33,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "The state of SIMD in Rust in 2026",
+      "summary": "Hacker News (108 pts, 23 comments) by @verdagon",
+      "url": "https://shnatsel.github.io/state-of-simd-rust-2026/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "108 pts",
+      "upvotes": 108,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "As A.I. makes law firms more efficient, clients ask: 'Where's my discount?'",
+      "summary": "Hacker News (67 pts, 44 comments) by @mooreds",
+      "url": "https://www.nytimes.com/2026/09/26/business/dealbook/ai-law-discount-billable-hour.html",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "67 pts",
+      "upvotes": 67,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Lunar Terminator Paradox",
+      "summary": "Hacker News (55 pts, 38 comments) by @dima55",
+      "url": "https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "55 pts",
+      "upvotes": 55,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
+      "summary": "Hacker News (195 pts, 87 comments) by @safaelmali",
+      "url": "https://loficities.com/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "195 pts",
+      "upvotes": 195,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2224,12 +2314,12 @@
     },
     {
       "title": "Don't couple your Go code to GitHub",
-      "summary": "Hacker News (121 pts, 55 comments) by @birdculture",
+      "summary": "Hacker News (170 pts, 83 comments) by @birdculture",
       "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "121 pts",
-      "upvotes": 121,
+      "badge": "170 pts",
+      "upvotes": 170,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2238,103 +2328,13 @@
       ]
     },
     {
-      "title": "Imp is a full port of DSPy to the BEAM",
-      "summary": "Hacker News (38 pts, 5 comments) by @mpweiher",
-      "url": "https://github.com/deepfates/imp",
+      "title": "TabPFN and TabICL vs. tuned XGBoost: the model that doesn't train won 14/14",
+      "summary": "Hacker News (4 pts, 1 comments) by @EfrainGaray",
+      "url": "https://efraingaray.com/en/blog/tabpfn-vs-xgboost/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "38 pts",
-      "upvotes": 38,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "What I did at Recurse Center",
-      "summary": "Hacker News (50 pts, 16 comments) by @bingden",
-      "url": "https://thill.me/2026/09/11/what-i-did-at-rc.html",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "50 pts",
-      "upvotes": 50,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Oral history of John Chowning, inventor of FM synthesis [video]",
-      "summary": "Hacker News (42 pts, 6 comments) by @Rochus",
-      "url": "https://www.youtube.com/watch?v=e1Xn3030IvM",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "42 pts",
-      "upvotes": 42,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "In an $80 motel room, a discovery to shed light on the origins of life",
-      "summary": "Hacker News (194 pts, 79 comments) by @danso",
-      "url": "https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "194 pts",
-      "upvotes": 194,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Replacing the old battery on rechargeable bike lights",
-      "summary": "Hacker News (131 pts, 72 comments) by @surprisetalk",
-      "url": "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "131 pts",
-      "upvotes": 131,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "A New Experiment Meta-Strategy",
-      "summary": "Hacker News (7 pts, 0 comments) by @surprisetalk",
-      "url": "https://chillphysicsenjoyer.substack.com/p/a-new-experiment-meta-strategy",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "7 pts",
-      "upvotes": 7,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "S3 Is the Future, S3 Is the Past",
-      "summary": "Hacker News (38 pts, 23 comments) by @tkhattra",
-      "url": "https://btrblocks.com/blog/s3_is_the_future_and_the_past/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "38 pts",
-      "upvotes": 38,
+      "badge": "4 pts",
+      "upvotes": 4,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
