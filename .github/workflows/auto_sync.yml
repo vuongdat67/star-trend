@@ -2,7 +2,7 @@ name: Build & Deploy to GitHub Pages
 
 on:
   schedule:
-    - cron: '0 22 * * *'  # 22:00 UTC = 05:00 sáng giờ Hà Nội (UTC+7)
+    - cron: '0 20 * * *'  # 22:00 UTC = 05:00 sáng giờ Hà Nội (UTC+7)
   workflow_dispatch:
   push:
     branches: [main]
