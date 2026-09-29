@@ -2,82 +2,6 @@
   "repos": [
     {
       "rank": 1,
-      "full_name": "paperclipai/paperclip",
-      "owner": "paperclipai",
-      "name": "paperclip",
-      "url": "https://github.com/paperclipai/paperclip",
-      "description": "The open-source app everyone uses to manage agents at work",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 90411,
-      "forks": 15704,
-      "stars_since": "2,401",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/34892728?s=40&v=4",
-          "username": "cryppadotta"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/271391591?s=40&v=4",
-          "username": "Paperclip-Paperclip"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/139239?s=40&v=4",
-          "username": "devinfoley"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/331803?s=40&v=4",
-          "username": "nickyleach"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 2,
-      "full_name": "vectorize-io/hindsight",
-      "owner": "vectorize-io",
-      "name": "hindsight",
-      "url": "https://github.com/vectorize-io/hindsight",
-      "description": "Hindsight: Agent Memory That Learns",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 37858,
-      "forks": 4907,
-      "stars_since": "4,520",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/23314389?s=40&v=4",
-          "username": "nicoloboschi"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/62250174?s=40&v=4",
-          "username": "benfrank241"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/233881301?s=40&v=4",
-          "username": "r266-tech"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/22917476?s=40&v=4",
-          "username": "cdbartholomew"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 3,
       "full_name": "debpalash/VoiceStudio",
       "owner": "debpalash",
       "name": "VoiceStudio",
@@ -85,9 +9,9 @@
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 40569,
-      "forks": 4817,
-      "stars_since": "3,086",
+      "stars": 43992,
+      "forks": 5091,
+      "stars_since": "3,221",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -115,111 +39,191 @@
       "source": "github"
     },
     {
-      "rank": 4,
-      "full_name": "rohitg00/ai-engineering-from-scratch",
-      "owner": "rohitg00",
-      "name": "ai-engineering-from-scratch",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 59533,
-      "forks": 10259,
-      "stars_since": "790",
+      "rank": 2,
+      "full_name": "paperclipai/paperclip",
+      "owner": "paperclipai",
+      "name": "paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 92744,
+      "forks": 15885,
+      "stars_since": "3,197",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/48523873?s=40&v=4",
-          "username": "rohitg00"
+          "avatar": "https://avatars.githubusercontent.com/u/34892728?s=40&v=4",
+          "username": "cryppadotta"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/113239388?s=40&v=4",
-          "username": "abhinav-m22"
+          "avatar": "https://avatars.githubusercontent.com/u/271391591?s=40&v=4",
+          "username": "Paperclip-Paperclip"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/37583483?s=40&v=4",
-          "username": "thereisnotime"
+          "avatar": "https://avatars.githubusercontent.com/u/139239?s=40&v=4",
+          "username": "devinfoley"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/331803?s=40&v=4",
+          "username": "nickyleach"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 3,
+      "full_name": "vectorize-io/hindsight",
+      "owner": "vectorize-io",
+      "name": "hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 40938,
+      "forks": 5532,
+      "stars_since": "4,561",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/23314389?s=40&v=4",
+          "username": "nicoloboschi"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/62250174?s=40&v=4",
+          "username": "benfrank241"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/233881301?s=40&v=4",
+          "username": "r266-tech"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22917476?s=40&v=4",
+          "username": "cdbartholomew"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 4,
+      "full_name": "NawfalMotii79/PLFM_RADAR",
+      "owner": "NawfalMotii79",
+      "name": "PLFM_RADAR",
+      "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+      "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+      "language": "PLSQL",
+      "language_color": "#dad8d8",
+      "stars": 25752,
+      "forks": 5886,
+      "stars_since": "158",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/83615043?s=40&v=4",
+          "username": "JJassonn69"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/215612484?s=40&v=4",
+          "username": "NawfalMotii79"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/11138019?s=40&v=4",
+          "username": "joyshmitz"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/70629228?s=40&v=4",
+          "username": "shaun0927"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/102328514?s=40&v=4",
+          "username": "3aLaee"
         }
       ],
       "source": "github"
     },
     {
       "rank": 5,
-      "full_name": "InfinityLoop1308/PipePipe",
-      "owner": "InfinityLoop1308",
-      "name": "PipePipe",
-      "url": "https://github.com/InfinityLoop1308/PipePipe",
-      "description": "An open-source Android app to let you browse YouTube and other services freely.",
-      "language": "Shell",
-      "language_color": "#89e051",
-      "stars": 6645,
-      "forks": 224,
-      "stars_since": "242",
+      "full_name": "cs341-illinois/coursebook",
+      "owner": "cs341-illinois",
+      "name": "coursebook",
+      "url": "https://github.com/cs341-illinois/coursebook",
+      "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+      "language": "TeX",
+      "language_color": "#3D6117",
+      "stars": 2495,
+      "forks": 236,
+      "stars_since": "195",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/96324692?s=40&v=4",
-          "username": "InfinityLoop1308"
+          "avatar": "https://avatars.githubusercontent.com/u/6509868?s=40&v=4",
+          "username": "bhuvy2"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/62299611?s=40&v=4",
-          "username": "wh201906"
+          "avatar": "https://avatars.githubusercontent.com/u/4468456?s=40&v=4",
+          "username": "angrave"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/3509797?s=40&v=4",
-          "username": "Korb"
+          "avatar": "https://avatars.githubusercontent.com/u/13492296?s=40&v=4",
+          "username": "PradyumnaShome"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/138765817?s=40&v=4",
-          "username": "Priveetee"
+          "avatar": "https://avatars.githubusercontent.com/u/28277163?s=40&v=4",
+          "username": "ekcom"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/155876573?s=40&v=4",
-          "username": "yurtpage"
+          "avatar": "https://avatars.githubusercontent.com/u/14022626?s=40&v=4",
+          "username": "aneeshdurg"
         }
       ],
       "source": "github"
     },
     {
       "rank": 6,
-      "full_name": "vercel-labs/scriptc",
-      "owner": "vercel-labs",
-      "name": "scriptc",
-      "url": "https://github.com/vercel-labs/scriptc",
-      "description": "TypeScript-to-Native Compiler",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 5460,
-      "forks": 142,
-      "stars_since": "102",
+      "full_name": "byoungd/up",
+      "owner": "byoungd",
+      "name": "up",
+      "url": "https://github.com/byoungd/up",
+      "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 64640,
+      "forks": 6510,
+      "stars_since": "327",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&v=4",
-          "username": "ctate"
+          "avatar": "https://avatars.githubusercontent.com/u/16145783?s=40&v=4",
+          "username": "byoungd"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/6071338?s=40&v=4",
-          "username": "jimmyhmiller"
+          "avatar": "https://avatars.githubusercontent.com/u/4256108?s=40&v=4",
+          "username": "fakesnow"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/20857346?s=40&v=4",
-          "username": "HagegeR"
+          "avatar": "https://avatars.githubusercontent.com/u/17680637?s=40&v=4",
+          "username": "holtenko"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/23098414?s=40&v=4",
-          "username": "mmamedel"
+          "avatar": "https://avatars.githubusercontent.com/u/5085821?s=40&v=4",
+          "username": "WMXPY"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1560508?s=40&v=4",
-          "username": "ryoppippi"
+          "avatar": "https://avatars.githubusercontent.com/u/1472352?s=40&v=4",
+          "username": "overtrue"
         }
       ],
       "source": "github"
@@ -233,9 +237,9 @@
       "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 1103,
-      "forks": 107,
-      "stars_since": "114",
+      "stars": 1701,
+      "forks": 135,
+      "stars_since": "734",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -252,12 +256,12 @@
           "username": "mattik"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/5032736?s=40&v=4",
-          "username": "agentS"
+          "avatar": "https://avatars.githubusercontent.com/u/1132767?s=40&v=4",
+          "username": "mvdpoel"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/245085724?s=40&v=4",
-          "username": "danielkuykendall23-boop"
+          "avatar": "https://avatars.githubusercontent.com/u/5032736?s=40&v=4",
+          "username": "agentS"
         }
       ],
       "source": "github"
@@ -271,9 +275,9 @@
       "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 20708,
-      "forks": 1740,
-      "stars_since": "895",
+      "stars": 21235,
+      "forks": 1801,
+      "stars_since": "1,099",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -296,40 +300,6 @@
         {
           "avatar": "https://avatars.githubusercontent.com/u/26315959?s=40&v=4",
           "username": "wpxp123456"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 9,
-      "full_name": "willfaust/Madeira",
-      "owner": "willfaust",
-      "name": "Madeira",
-      "url": "https://github.com/willfaust/Madeira",
-      "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
-      "language": "C",
-      "language_color": "#555555",
-      "stars": 860,
-      "forks": 153,
-      "stars_since": "83",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/39139570?s=40&v=4",
-          "username": "willfaust"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/133181124?s=40&v=4",
-          "username": "125hz"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
-          "username": "codex"
         }
       ],
       "source": "github"
