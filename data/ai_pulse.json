@@ -435,13 +435,29 @@
       ]
     },
     {
+      "title": "Replacing Large Language Models with Jev Decision Models for Low-Latency Edge Service Orchestration",
+      "summary": "Natural-language service requests can require a language-model decision before execution starts, consuming part of the request's latency budget. We integrate Jev's decision-oriented application programming interface (API...",
+      "url": "https://huggingface.co/papers/2609.22753",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 5",
+      "upvotes": 5,
+      "authors": "Delong Li, Xu Wang, Haochen Gong",
+      "published_at": "2026-09-25",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
       "title": "Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation",
       "summary": "Video generation models are increasingly being explored as world simulators for embodied planning and learning. To do so effectively, these models must not only generate visually appealing frames, but also predict how en...",
       "url": "https://huggingface.co/papers/2610.01092",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 21",
+      "upvotes": 21,
       "authors": "Patrick Amadeus Irawan, Iskandar Muda Rizky Parlambang, Rava Maulana",
       "published_at": "2026-09-30",
       "tags": [
@@ -456,8 +472,8 @@
       "url": "https://huggingface.co/papers/2609.36435",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Jingxuan Wu, Yuzhe Yang, Yiqiao Huang",
       "published_at": "2026-09-28",
       "tags": [
@@ -472,8 +488,8 @@
       "url": "https://huggingface.co/papers/2610.00812",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 9",
-      "upvotes": 9,
+      "badge": "⭐ 44",
+      "upvotes": 44,
       "authors": "Chaoyu Li, Xiaoyi Gu, Yogesh Kulkarni",
       "published_at": "2026-09-29",
       "tags": [
@@ -488,8 +504,8 @@
       "url": "https://huggingface.co/papers/2609.36388",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 40",
+      "upvotes": 40,
       "authors": "Zehao Jin, Junran Wang, Ruixuan Deng",
       "published_at": "2026-09-27",
       "tags": [
@@ -504,8 +520,8 @@
       "url": "https://huggingface.co/papers/2609.36585",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 62",
+      "upvotes": 62,
       "authors": "Zehao Jin, Ruixuan Deng, Junran Wang",
       "published_at": "2026-09-28",
       "tags": [
@@ -520,8 +536,8 @@
       "url": "https://huggingface.co/papers/2609.37690",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Jack Wei Lun Shi, Kaichen Zhou, Haoyu Chen",
       "published_at": "2026-09-29",
       "tags": [
@@ -536,8 +552,8 @@
       "url": "https://huggingface.co/papers/2609.32993",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 11",
-      "upvotes": 11,
+      "badge": "⭐ 36",
+      "upvotes": 36,
       "authors": "Sitao Cheng, Xunjian Yin, Zhiyuan Sun",
       "published_at": "2026-09-25",
       "tags": [
@@ -552,8 +568,8 @@
       "url": "https://huggingface.co/papers/2609.32810",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 11",
+      "upvotes": 11,
       "authors": "Anqi Li, Zhixuan Ge, Yixuan Duan",
       "published_at": "2026-09-25",
       "tags": [
@@ -568,8 +584,8 @@
       "url": "https://huggingface.co/papers/2610.02142",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Juan S. Santillana",
       "published_at": "2026-09-30",
       "tags": [
@@ -584,8 +600,8 @@
       "url": "https://huggingface.co/papers/2610.02202",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 9",
+      "upvotes": 9,
       "authors": "Sohyeon Kim, Yoonho Lee, Bo Liu",
       "published_at": "2026-09-30",
       "tags": [
@@ -600,8 +616,8 @@
       "url": "https://huggingface.co/papers/2609.35259",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 114",
-      "upvotes": 114,
+      "badge": "⭐ 153",
+      "upvotes": 153,
       "authors": "Julianna Piskorz, Antonin Berthon, Mihaela van der Schaar",
       "published_at": "2026-09-27",
       "tags": [
@@ -616,8 +632,8 @@
       "url": "https://huggingface.co/papers/2609.34210",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 10",
+      "upvotes": 10,
       "authors": "Haitong Ma, Chenxiao Gao, Rushi Qiang",
       "published_at": "2026-09-28",
       "tags": [
@@ -632,8 +648,8 @@
       "url": "https://huggingface.co/papers/2610.00686",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 10",
+      "upvotes": 10,
       "authors": "Mikhail Dereviannykh, Vikram Voleti, Simon Donne",
       "published_at": "2026-09-29",
       "tags": [
@@ -648,8 +664,8 @@
       "url": "https://huggingface.co/papers/2610.02117",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
+      "badge": "⭐ 14",
+      "upvotes": 14,
       "authors": "Sophia Sirko-Galouchenko, Monika Wysoczanska, Andrei Bursuc",
       "published_at": "2026-09-30",
       "tags": [
@@ -664,8 +680,8 @@
       "url": "https://huggingface.co/papers/2610.02185",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 18",
-      "upvotes": 18,
+      "badge": "⭐ 25",
+      "upvotes": 25,
       "authors": "Weihao Liu, Huangjie Zheng, Tianrong Chen",
       "published_at": "2026-09-30",
       "tags": [
@@ -680,8 +696,8 @@
       "url": "https://huggingface.co/papers/2609.36602",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 7",
+      "upvotes": 7,
       "authors": "Guillaume Besset, Erwann Carn, Timothée Carecchio",
       "published_at": "2026-09-28",
       "tags": [
@@ -696,8 +712,8 @@
       "url": "https://huggingface.co/papers/2610.00437",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 7",
+      "upvotes": 7,
       "authors": "Haoyang Su, Weiran Huang",
       "published_at": "2026-09-29",
       "tags": [
@@ -712,8 +728,8 @@
       "url": "https://huggingface.co/papers/2606.10953",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 11",
-      "upvotes": 11,
+      "badge": "⭐ 26",
+      "upvotes": 26,
       "authors": "Fedor Rodionov, Aleksandar Cvejic, Michael Birsak",
       "published_at": "2026-09-29",
       "tags": [
@@ -728,26 +744,10 @@
       "url": "https://huggingface.co/papers/2609.36138",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Jiayi Li, Ruizhe Li",
       "published_at": "2026-09-27",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "LOCI: Spatial Linear Memory for Streaming World Models",
-      "summary": "When a camera revisits a previously observed region, a video world model should reproduce what was there before. This requires both remembering past observations and retrieving the right one for the current viewpoint. Ke...",
-      "url": "https://huggingface.co/papers/2609.40222",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
-      "authors": "Ji Xia, Tingting Liao, Xuezhi Liang",
-      "published_at": "2026-09-30",
       "tags": [
         "paper",
         "arxiv",
@@ -1001,13 +1001,13 @@
       ]
     },
     {
-      "title": "Apple Pass Designer",
-      "summary": "Hacker News (264 pts, 185 comments) by @soheilpro",
-      "url": "https://developer.apple.com/pass-designer/",
+      "title": "Hole Punch: Sling your spaceship around gravitational fields",
+      "summary": "Hacker News (168 pts, 45 comments) by @trwhite",
+      "url": "https://notoriousbfg.com/hole-punch/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "264 pts",
-      "upvotes": 264,
+      "badge": "168 pts",
+      "upvotes": 168,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1016,13 +1016,13 @@
       ]
     },
     {
-      "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
-      "summary": "Hacker News (440 pts, 195 comments) by @hn_acker",
-      "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+      "title": "Celebrating the 100th birthday of the kidney donated to him as a teenager",
+      "summary": "Hacker News (103 pts, 29 comments) by @gscott",
+      "url": "https://www.whec.com/top-news/webster-man-celebrating-the-100th-birthday-of-the-kidney-his-mom-donated-to-him-as-a-teenager/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "440 pts",
-      "upvotes": 440,
+      "badge": "103 pts",
+      "upvotes": 103,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1031,13 +1031,13 @@
       ]
     },
     {
-      "title": "A 12-year sequence of telescope images of a star and four planets orbiting",
-      "summary": "Hacker News (158 pts, 33 comments) by @mariuz",
-      "url": "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f",
+      "title": "Reasons I didn't become an EMT, ranked",
+      "summary": "Hacker News (24 pts, 5 comments) by @citelao",
+      "url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "158 pts",
-      "upvotes": 158,
+      "badge": "24 pts",
+      "upvotes": 24,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1046,13 +1046,13 @@
       ]
     },
     {
-      "title": "With most information hidden, the game Stratego had stumped AI until now",
-      "summary": "Hacker News (148 pts, 68 comments) by @PaulHoule",
-      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "summary": "Hacker News (111 pts, 77 comments) by @saikatsg",
+      "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "148 pts",
-      "upvotes": 148,
+      "badge": "111 pts",
+      "upvotes": 111,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1061,13 +1061,13 @@
       ]
     },
     {
-      "title": "Muse Gadgets",
-      "summary": "Hacker News (84 pts, 45 comments) by @anant",
-      "url": "https://gadgets.muse.ai",
+      "title": "We want you to build the next Git platform on Cloudflare",
+      "summary": "Hacker News (82 pts, 74 comments) by @geoffbp",
+      "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "84 pts",
-      "upvotes": 84,
+      "badge": "82 pts",
+      "upvotes": 82,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1076,13 +1076,13 @@
       ]
     },
     {
-      "title": "Mike Tomlin spent 12 years building a Minecraft city",
-      "summary": "Hacker News (184 pts, 51 comments) by @CoryOndrejka",
-      "url": "https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach/",
+      "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "summary": "Hacker News (32 pts, 0 comments) by @speckx",
+      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "184 pts",
-      "upvotes": 184,
+      "badge": "32 pts",
+      "upvotes": 32,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1091,13 +1091,13 @@
       ]
     },
     {
-      "title": "Loss of cell identity drives human aging: Two new papers",
-      "summary": "Hacker News (149 pts, 37 comments) by @bookofjoe",
-      "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
+      "title": "Kolibri: A Sovereign Open-Weight Model",
+      "summary": "Hacker News (463 pts, 278 comments) by @bastitx",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "149 pts",
-      "upvotes": 149,
+      "badge": "463 pts",
+      "upvotes": 463,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1106,13 +1106,13 @@
       ]
     },
     {
-      "title": "Zig v0.17.0",
-      "summary": "Hacker News (175 pts, 85 comments) by @ErenayDev",
-      "url": "https://ziglang.org/download/0.17.0/release-notes.html",
+      "title": "Federal judge calls Flock 'indiscriminate mass surveillance'",
+      "summary": "Hacker News (26 pts, 8 comments) by @sbulaev",
+      "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "175 pts",
-      "upvotes": 175,
+      "badge": "26 pts",
+      "upvotes": 26,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1121,13 +1121,13 @@
       ]
     },
     {
-      "title": "From the creator of Redis; run LLM locally with ds4",
-      "summary": "Hacker News (118 pts, 34 comments) by @fibo",
-      "url": "https://dwarfstar.sh/",
+      "title": "New York City should carefully measure a new tree",
+      "summary": "Hacker News (15 pts, 2 comments) by @willmeyers",
+      "url": "https://blog.willmeye.rs/new-york-city-should-carefully-measure-a-new-tree/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "118 pts",
-      "upvotes": 118,
+      "badge": "15 pts",
+      "upvotes": 15,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1136,13 +1136,13 @@
       ]
     },
     {
-      "title": "One month coding with GLM 5.3 Flash",
-      "summary": "Hacker News (89 pts, 68 comments) by @ThibWeb",
-      "url": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
+      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
+      "summary": "Hacker News (63 pts, 27 comments) by @edverma2",
+      "url": "https://pipod.dev/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "89 pts",
-      "upvotes": 89,
+      "badge": "63 pts",
+      "upvotes": 63,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1151,13 +1151,13 @@
       ]
     },
     {
-      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
-      "summary": "Hacker News (154 pts, 33 comments) by @usernomdeguerre",
-      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "title": "What Meta got right with Muse",
+      "summary": "Hacker News (8 pts, 1 comments) by @young_mete",
+      "url": "https://metedata.substack.com/p/what-meta-got-right-with-muse",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "154 pts",
-      "upvotes": 154,
+      "badge": "8 pts",
+      "upvotes": 8,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1166,13 +1166,13 @@
       ]
     },
     {
-      "title": "The Forgetful CPU (Linux on M4)",
-      "summary": "Hacker News (16 pts, 0 comments) by @signa11",
-      "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html",
+      "title": "Docker has always used microVMs (well since 2016)",
+      "summary": "Hacker News (6 pts, 0 comments) by @avsm",
+      "url": "https://dave.recoil.org/docker-has-always-used-microvms/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "16 pts",
-      "upvotes": 16,
+      "badge": "6 pts",
+      "upvotes": 6,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1181,13 +1181,13 @@
       ]
     },
     {
-      "title": "Every SaaS business will become a harness around a model",
-      "summary": "Hacker News (66 pts, 48 comments) by @iacguy",
-      "url": "https://blog.sshh.io/p/the-harness-is-the-company",
+      "title": "FTL: A new operating system for clouds",
+      "summary": "Hacker News (134 pts, 57 comments) by @romac",
+      "url": "https://ftl-os.org/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "66 pts",
-      "upvotes": 66,
+      "badge": "134 pts",
+      "upvotes": 134,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1196,13 +1196,13 @@
       ]
     },
     {
-      "title": "Show HN: Made an open-source Lego AI generator",
-      "summary": "Hacker News (53 pts, 34 comments) by @antelocnova",
-      "url": "https://github.com/anteloc/ldraw-nova",
+      "title": "Treachery in the Rodin Museum 3D scan verdict",
+      "summary": "Hacker News (11 pts, 1 comments) by @CosmoWenman",
+      "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "53 pts",
-      "upvotes": 53,
+      "badge": "11 pts",
+      "upvotes": 11,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1211,13 +1211,13 @@
       ]
     },
     {
-      "title": "Updates to Full Disk Access in macOS",
-      "summary": "Hacker News (76 pts, 51 comments) by @notfirstpost",
-      "url": "https://developer.apple.com/news/?id=p6zjojqw",
+      "title": "Agents don't need memory, they need documentation",
+      "summary": "Hacker News (13 pts, 7 comments) by @kmeh",
+      "url": "https://liao.gg/blog/agents-dont-need-memory",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "76 pts",
-      "upvotes": 76,
+      "badge": "13 pts",
+      "upvotes": 13,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1826,13 +1826,29 @@
       ]
     },
     {
+      "title": "Replacing Large Language Models with Jev Decision Models for Low-Latency Edge Service Orchestration",
+      "summary": "Natural-language service requests can require a language-model decision before execution starts, consuming part of the request's latency budget. We integrate Jev's decision-oriented application programming interface (API...",
+      "url": "https://huggingface.co/papers/2609.22753",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 5",
+      "upvotes": 5,
+      "authors": "Delong Li, Xu Wang, Haochen Gong",
+      "published_at": "2026-09-25",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
       "title": "Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation",
       "summary": "Video generation models are increasingly being explored as world simulators for embodied planning and learning. To do so effectively, these models must not only generate visually appealing frames, but also predict how en...",
       "url": "https://huggingface.co/papers/2610.01092",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 21",
+      "upvotes": 21,
       "authors": "Patrick Amadeus Irawan, Iskandar Muda Rizky Parlambang, Rava Maulana",
       "published_at": "2026-09-30",
       "tags": [
@@ -1847,8 +1863,8 @@
       "url": "https://huggingface.co/papers/2609.36435",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Jingxuan Wu, Yuzhe Yang, Yiqiao Huang",
       "published_at": "2026-09-28",
       "tags": [
@@ -1863,8 +1879,8 @@
       "url": "https://huggingface.co/papers/2610.00812",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 9",
-      "upvotes": 9,
+      "badge": "⭐ 44",
+      "upvotes": 44,
       "authors": "Chaoyu Li, Xiaoyi Gu, Yogesh Kulkarni",
       "published_at": "2026-09-29",
       "tags": [
@@ -1879,8 +1895,8 @@
       "url": "https://huggingface.co/papers/2609.36388",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 40",
+      "upvotes": 40,
       "authors": "Zehao Jin, Junran Wang, Ruixuan Deng",
       "published_at": "2026-09-27",
       "tags": [
@@ -1895,8 +1911,8 @@
       "url": "https://huggingface.co/papers/2609.36585",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 62",
+      "upvotes": 62,
       "authors": "Zehao Jin, Ruixuan Deng, Junran Wang",
       "published_at": "2026-09-28",
       "tags": [
@@ -1911,8 +1927,8 @@
       "url": "https://huggingface.co/papers/2609.37690",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Jack Wei Lun Shi, Kaichen Zhou, Haoyu Chen",
       "published_at": "2026-09-29",
       "tags": [
@@ -1927,8 +1943,8 @@
       "url": "https://huggingface.co/papers/2609.32993",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 11",
-      "upvotes": 11,
+      "badge": "⭐ 36",
+      "upvotes": 36,
       "authors": "Sitao Cheng, Xunjian Yin, Zhiyuan Sun",
       "published_at": "2026-09-25",
       "tags": [
@@ -1943,8 +1959,8 @@
       "url": "https://huggingface.co/papers/2609.32810",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 11",
+      "upvotes": 11,
       "authors": "Anqi Li, Zhixuan Ge, Yixuan Duan",
       "published_at": "2026-09-25",
       "tags": [
@@ -1959,8 +1975,8 @@
       "url": "https://huggingface.co/papers/2610.02142",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Juan S. Santillana",
       "published_at": "2026-09-30",
       "tags": [
@@ -1975,8 +1991,8 @@
       "url": "https://huggingface.co/papers/2610.02202",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 9",
+      "upvotes": 9,
       "authors": "Sohyeon Kim, Yoonho Lee, Bo Liu",
       "published_at": "2026-09-30",
       "tags": [
@@ -1991,8 +2007,8 @@
       "url": "https://huggingface.co/papers/2609.35259",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 114",
-      "upvotes": 114,
+      "badge": "⭐ 153",
+      "upvotes": 153,
       "authors": "Julianna Piskorz, Antonin Berthon, Mihaela van der Schaar",
       "published_at": "2026-09-27",
       "tags": [
@@ -2007,8 +2023,8 @@
       "url": "https://huggingface.co/papers/2609.34210",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 10",
+      "upvotes": 10,
       "authors": "Haitong Ma, Chenxiao Gao, Rushi Qiang",
       "published_at": "2026-09-28",
       "tags": [
@@ -2023,8 +2039,8 @@
       "url": "https://huggingface.co/papers/2610.00686",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 10",
+      "upvotes": 10,
       "authors": "Mikhail Dereviannykh, Vikram Voleti, Simon Donne",
       "published_at": "2026-09-29",
       "tags": [
@@ -2039,8 +2055,8 @@
       "url": "https://huggingface.co/papers/2610.02117",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
+      "badge": "⭐ 14",
+      "upvotes": 14,
       "authors": "Sophia Sirko-Galouchenko, Monika Wysoczanska, Andrei Bursuc",
       "published_at": "2026-09-30",
       "tags": [
@@ -2055,8 +2071,8 @@
       "url": "https://huggingface.co/papers/2610.02185",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 18",
-      "upvotes": 18,
+      "badge": "⭐ 25",
+      "upvotes": 25,
       "authors": "Weihao Liu, Huangjie Zheng, Tianrong Chen",
       "published_at": "2026-09-30",
       "tags": [
@@ -2071,8 +2087,8 @@
       "url": "https://huggingface.co/papers/2609.36602",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 7",
+      "upvotes": 7,
       "authors": "Guillaume Besset, Erwann Carn, Timothée Carecchio",
       "published_at": "2026-09-28",
       "tags": [
@@ -2087,8 +2103,8 @@
       "url": "https://huggingface.co/papers/2610.00437",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 7",
+      "upvotes": 7,
       "authors": "Haoyang Su, Weiran Huang",
       "published_at": "2026-09-29",
       "tags": [
@@ -2103,8 +2119,8 @@
       "url": "https://huggingface.co/papers/2606.10953",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 11",
-      "upvotes": 11,
+      "badge": "⭐ 26",
+      "upvotes": 26,
       "authors": "Fedor Rodionov, Aleksandar Cvejic, Michael Birsak",
       "published_at": "2026-09-29",
       "tags": [
@@ -2119,26 +2135,10 @@
       "url": "https://huggingface.co/papers/2609.36138",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Jiayi Li, Ruizhe Li",
       "published_at": "2026-09-27",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "LOCI: Spatial Linear Memory for Streaming World Models",
-      "summary": "When a camera revisits a previously observed region, a video world model should reproduce what was there before. This requires both remembering past observations and retrieving the right one for the current viewpoint. Ke...",
-      "url": "https://huggingface.co/papers/2609.40222",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
-      "authors": "Ji Xia, Tingting Liao, Xuezhi Liang",
-      "published_at": "2026-09-30",
       "tags": [
         "paper",
         "arxiv",
@@ -2392,13 +2392,13 @@
       ]
     },
     {
-      "title": "Apple Pass Designer",
-      "summary": "Hacker News (264 pts, 185 comments) by @soheilpro",
-      "url": "https://developer.apple.com/pass-designer/",
+      "title": "Hole Punch: Sling your spaceship around gravitational fields",
+      "summary": "Hacker News (168 pts, 45 comments) by @trwhite",
+      "url": "https://notoriousbfg.com/hole-punch/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "264 pts",
-      "upvotes": 264,
+      "badge": "168 pts",
+      "upvotes": 168,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2407,13 +2407,13 @@
       ]
     },
     {
-      "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
-      "summary": "Hacker News (440 pts, 195 comments) by @hn_acker",
-      "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+      "title": "Celebrating the 100th birthday of the kidney donated to him as a teenager",
+      "summary": "Hacker News (103 pts, 29 comments) by @gscott",
+      "url": "https://www.whec.com/top-news/webster-man-celebrating-the-100th-birthday-of-the-kidney-his-mom-donated-to-him-as-a-teenager/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "440 pts",
-      "upvotes": 440,
+      "badge": "103 pts",
+      "upvotes": 103,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2422,13 +2422,13 @@
       ]
     },
     {
-      "title": "A 12-year sequence of telescope images of a star and four planets orbiting",
-      "summary": "Hacker News (158 pts, 33 comments) by @mariuz",
-      "url": "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f",
+      "title": "Reasons I didn't become an EMT, ranked",
+      "summary": "Hacker News (24 pts, 5 comments) by @citelao",
+      "url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "158 pts",
-      "upvotes": 158,
+      "badge": "24 pts",
+      "upvotes": 24,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2437,13 +2437,13 @@
       ]
     },
     {
-      "title": "With most information hidden, the game Stratego had stumped AI until now",
-      "summary": "Hacker News (148 pts, 68 comments) by @PaulHoule",
-      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "summary": "Hacker News (111 pts, 77 comments) by @saikatsg",
+      "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "148 pts",
-      "upvotes": 148,
+      "badge": "111 pts",
+      "upvotes": 111,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2452,13 +2452,13 @@
       ]
     },
     {
-      "title": "Muse Gadgets",
-      "summary": "Hacker News (84 pts, 45 comments) by @anant",
-      "url": "https://gadgets.muse.ai",
+      "title": "We want you to build the next Git platform on Cloudflare",
+      "summary": "Hacker News (82 pts, 74 comments) by @geoffbp",
+      "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "84 pts",
-      "upvotes": 84,
+      "badge": "82 pts",
+      "upvotes": 82,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2467,13 +2467,13 @@
       ]
     },
     {
-      "title": "Mike Tomlin spent 12 years building a Minecraft city",
-      "summary": "Hacker News (184 pts, 51 comments) by @CoryOndrejka",
-      "url": "https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach/",
+      "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "summary": "Hacker News (32 pts, 0 comments) by @speckx",
+      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "184 pts",
-      "upvotes": 184,
+      "badge": "32 pts",
+      "upvotes": 32,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2482,13 +2482,13 @@
       ]
     },
     {
-      "title": "Loss of cell identity drives human aging: Two new papers",
-      "summary": "Hacker News (149 pts, 37 comments) by @bookofjoe",
-      "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
+      "title": "Kolibri: A Sovereign Open-Weight Model",
+      "summary": "Hacker News (463 pts, 278 comments) by @bastitx",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "149 pts",
-      "upvotes": 149,
+      "badge": "463 pts",
+      "upvotes": 463,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2497,13 +2497,13 @@
       ]
     },
     {
-      "title": "Zig v0.17.0",
-      "summary": "Hacker News (175 pts, 85 comments) by @ErenayDev",
-      "url": "https://ziglang.org/download/0.17.0/release-notes.html",
+      "title": "Federal judge calls Flock 'indiscriminate mass surveillance'",
+      "summary": "Hacker News (26 pts, 8 comments) by @sbulaev",
+      "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "175 pts",
-      "upvotes": 175,
+      "badge": "26 pts",
+      "upvotes": 26,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2512,13 +2512,13 @@
       ]
     },
     {
-      "title": "From the creator of Redis; run LLM locally with ds4",
-      "summary": "Hacker News (118 pts, 34 comments) by @fibo",
-      "url": "https://dwarfstar.sh/",
+      "title": "New York City should carefully measure a new tree",
+      "summary": "Hacker News (15 pts, 2 comments) by @willmeyers",
+      "url": "https://blog.willmeye.rs/new-york-city-should-carefully-measure-a-new-tree/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "118 pts",
-      "upvotes": 118,
+      "badge": "15 pts",
+      "upvotes": 15,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2527,13 +2527,13 @@
       ]
     },
     {
-      "title": "One month coding with GLM 5.3 Flash",
-      "summary": "Hacker News (89 pts, 68 comments) by @ThibWeb",
-      "url": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
+      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
+      "summary": "Hacker News (63 pts, 27 comments) by @edverma2",
+      "url": "https://pipod.dev/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "89 pts",
-      "upvotes": 89,
+      "badge": "63 pts",
+      "upvotes": 63,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2542,13 +2542,13 @@
       ]
     },
     {
-      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
-      "summary": "Hacker News (154 pts, 33 comments) by @usernomdeguerre",
-      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "title": "What Meta got right with Muse",
+      "summary": "Hacker News (8 pts, 1 comments) by @young_mete",
+      "url": "https://metedata.substack.com/p/what-meta-got-right-with-muse",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "154 pts",
-      "upvotes": 154,
+      "badge": "8 pts",
+      "upvotes": 8,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2557,13 +2557,13 @@
       ]
     },
     {
-      "title": "The Forgetful CPU (Linux on M4)",
-      "summary": "Hacker News (16 pts, 0 comments) by @signa11",
-      "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html",
+      "title": "Docker has always used microVMs (well since 2016)",
+      "summary": "Hacker News (6 pts, 0 comments) by @avsm",
+      "url": "https://dave.recoil.org/docker-has-always-used-microvms/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "16 pts",
-      "upvotes": 16,
+      "badge": "6 pts",
+      "upvotes": 6,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2572,13 +2572,13 @@
       ]
     },
     {
-      "title": "Every SaaS business will become a harness around a model",
-      "summary": "Hacker News (66 pts, 48 comments) by @iacguy",
-      "url": "https://blog.sshh.io/p/the-harness-is-the-company",
+      "title": "FTL: A new operating system for clouds",
+      "summary": "Hacker News (134 pts, 57 comments) by @romac",
+      "url": "https://ftl-os.org/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "66 pts",
-      "upvotes": 66,
+      "badge": "134 pts",
+      "upvotes": 134,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2587,13 +2587,13 @@
       ]
     },
     {
-      "title": "Show HN: Made an open-source Lego AI generator",
-      "summary": "Hacker News (53 pts, 34 comments) by @antelocnova",
-      "url": "https://github.com/anteloc/ldraw-nova",
+      "title": "Treachery in the Rodin Museum 3D scan verdict",
+      "summary": "Hacker News (11 pts, 1 comments) by @CosmoWenman",
+      "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "53 pts",
-      "upvotes": 53,
+      "badge": "11 pts",
+      "upvotes": 11,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2602,13 +2602,13 @@
       ]
     },
     {
-      "title": "Updates to Full Disk Access in macOS",
-      "summary": "Hacker News (76 pts, 51 comments) by @notfirstpost",
-      "url": "https://developer.apple.com/news/?id=p6zjojqw",
+      "title": "Agents don't need memory, they need documentation",
+      "summary": "Hacker News (13 pts, 7 comments) by @kmeh",
+      "url": "https://liao.gg/blog/agents-dont-need-memory",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "76 pts",
-      "upvotes": 76,
+      "badge": "13 pts",
+      "upvotes": 13,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
