@@ -9,9 +9,9 @@
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 47498,
-      "forks": 9682,
-      "stars_since": "30,444",
+      "stars": 47980,
+      "forks": 9766,
+      "stars_since": "30,235",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -47,9 +47,9 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "language_color": "#00ADD8",
-      "stars": 43701,
-      "forks": 3151,
-      "stars_since": "21,959",
+      "stars": 43871,
+      "forks": 3162,
+      "stars_since": "22,242",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -85,9 +85,9 @@
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 272923,
-      "forks": 40739,
-      "stars_since": "26,724",
+      "stars": 273659,
+      "forks": 40830,
+      "stars_since": "25,740",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -119,9 +119,9 @@
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 53555,
-      "forks": 3073,
-      "stars_since": "26,497",
+      "stars": 53940,
+      "forks": 3095,
+      "stars_since": "26,953",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -150,40 +150,6 @@
     },
     {
       "rank": 5,
-      "full_name": "Tencent/WeKnora",
-      "owner": "Tencent",
-      "name": "WeKnora",
-      "url": "https://github.com/Tencent/WeKnora",
-      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "language": "Go",
-      "language_color": "#00ADD8",
-      "stars": 32017,
-      "forks": 4270,
-      "stars_since": "10,856",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&v=4",
-          "username": "lyingbug"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/67856742?s=40&v=4",
-          "username": "voidkey"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/216642699?s=40&v=4",
-          "username": "begoniezhao"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 6,
       "full_name": "anthropics/financial-services",
       "owner": "anthropics",
       "name": "financial-services",
@@ -191,9 +157,9 @@
       "description": "",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 38710,
-      "forks": 5550,
-      "stars_since": "4,082",
+      "stars": 38795,
+      "forks": 5561,
+      "stars_since": "4,207",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -221,41 +187,7 @@
       "source": "github"
     },
     {
-      "rank": 7,
-      "full_name": "mksglu/context-mode",
-      "owner": "mksglu",
-      "name": "context-mode",
-      "url": "https://github.com/mksglu/context-mode",
-      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 25390,
-      "forks": 1815,
-      "stars_since": "4,978",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6067714?s=40&v=4",
-          "username": "mksglu"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/380338?s=40&v=4",
-          "username": "ipedro"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2910651?s=40&v=4",
-          "username": "ousamabenyounes"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 8,
+      "rank": 6,
       "full_name": "paperclipai/paperclip",
       "owner": "paperclipai",
       "name": "paperclip",
@@ -263,9 +195,9 @@
       "description": "The open-source app everyone uses to manage agents at work",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 97158,
-      "forks": 16434,
-      "stars_since": "17,030",
+      "stars": 97670,
+      "forks": 16507,
+      "stars_since": "17,769",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -293,45 +225,41 @@
       "source": "github"
     },
     {
-      "rank": 9,
-      "full_name": "tt-a1i/archify",
-      "owner": "tt-a1i",
-      "name": "archify",
-      "url": "https://github.com/tt-a1i/archify",
-      "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 77401,
-      "forks": 5210,
-      "stars_since": "31,939",
+      "rank": 7,
+      "full_name": "Tencent/WeKnora",
+      "owner": "Tencent",
+      "name": "WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "language_color": "#00ADD8",
+      "stars": 32178,
+      "forks": 4287,
+      "stars_since": "10,976",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/53142663?s=40&v=4",
-          "username": "tt-a1i"
+          "avatar": "https://avatars.githubusercontent.com/u/11257935?s=40&v=4",
+          "username": "lyingbug"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/55621390?s=40&v=4",
-          "username": "sunsunsun-java"
+          "avatar": "https://avatars.githubusercontent.com/u/67856742?s=40&v=4",
+          "username": "voidkey"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/189123600?s=40&v=4",
-          "username": "goatliamia"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/54790606?s=40&v=4",
-          "username": "uygnoey"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/198414770?s=40&v=4",
-          "username": "outlier27-cell"
+          "avatar": "https://avatars.githubusercontent.com/u/216642699?s=40&v=4",
+          "username": "begoniezhao"
         }
       ],
       "source": "github"
     },
     {
-      "rank": 10,
+      "rank": 8,
       "full_name": "vectorize-io/hindsight",
       "owner": "vectorize-io",
       "name": "hindsight",
@@ -339,9 +267,9 @@
       "description": "Hindsight: Agent Memory That Learns",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 45472,
-      "forks": 5908,
-      "stars_since": "23,065",
+      "stars": 45946,
+      "forks": 5930,
+      "stars_since": "23,453",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -369,7 +297,41 @@
       "source": "github"
     },
     {
-      "rank": 11,
+      "rank": 9,
+      "full_name": "mksglu/context-mode",
+      "owner": "mksglu",
+      "name": "context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 25480,
+      "forks": 1828,
+      "stars_since": "5,191",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6067714?s=40&v=4",
+          "username": "mksglu"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/380338?s=40&v=4",
+          "username": "ipedro"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2910651?s=40&v=4",
+          "username": "ousamabenyounes"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 10,
       "full_name": "heygen-com/hyperframes",
       "owner": "heygen-com",
       "name": "hyperframes",
@@ -377,9 +339,9 @@
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 56737,
-      "forks": 5090,
-      "stars_since": "12,634",
+      "stars": 57328,
+      "forks": 5132,
+      "stars_since": "13,245",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -407,6 +369,40 @@
       "source": "github"
     },
     {
+      "rank": 11,
+      "full_name": "tt-a1i/archify",
+      "owner": "tt-a1i",
+      "name": "archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 78128,
+      "forks": 5250,
+      "stars_since": "29,482",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/53142663?s=40&v=4",
+          "username": "tt-a1i"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/55621390?s=40&v=4",
+          "username": "sunsunsun-java"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/189123600?s=40&v=4",
+          "username": "goatliamia"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/54790606?s=40&v=4",
+          "username": "uygnoey"
+        }
+      ],
+      "source": "github"
+    },
+    {
       "rank": 12,
       "full_name": "anthropics/claude-code",
       "owner": "anthropics",
@@ -415,9 +411,9 @@
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 149418,
-      "forks": 25488,
-      "stars_since": "5,841",
+      "stars": 149526,
+      "forks": 25573,
+      "stars_since": "6,009",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -453,9 +449,9 @@
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 6732,
-      "forks": 834,
-      "stars_since": "5,183",
+      "stars": 7010,
+      "forks": 866,
+      "stars_since": "5,450",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -484,44 +480,6 @@
     },
     {
       "rank": 14,
-      "full_name": "superdesigndev/treg",
-      "owner": "superdesigndev",
-      "name": "treg",
-      "url": "https://github.com/superdesigndev/treg",
-      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 4130,
-      "forks": 344,
-      "stars_since": "2,960",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/22532527?s=40&v=4",
-          "username": "JayZeeDesign"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6255130?s=40&v=4",
-          "username": "stonexer"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/64325867?s=40&v=4",
-          "username": "shehjad-dev"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/12494079?s=40&v=4",
-          "username": "unclecode"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 15,
       "full_name": "agent-substrate/substrate",
       "owner": "agent-substrate",
       "name": "substrate",
@@ -529,9 +487,9 @@
       "description": "Agent Substrate: the core system",
       "language": "Go",
       "language_color": "#00ADD8",
-      "stars": 4286,
-      "forks": 506,
-      "stars_since": "2,460",
+      "stars": 4361,
+      "forks": 511,
+      "stars_since": "2,571",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -559,7 +517,7 @@
       "source": "github"
     },
     {
-      "rank": 16,
+      "rank": 15,
       "full_name": "NVIDIA/OpenShell",
       "owner": "NVIDIA",
       "name": "OpenShell",
@@ -567,9 +525,9 @@
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
       "language_color": "#dea584",
-      "stars": 14848,
-      "forks": 1695,
-      "stars_since": "6,209",
+      "stars": 14999,
+      "forks": 1707,
+      "stars_since": "6,534",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -597,7 +555,7 @@
       "source": "github"
     },
     {
-      "rank": 17,
+      "rank": 16,
       "full_name": "DietrichGebert/ponytail",
       "owner": "DietrichGebert",
       "name": "ponytail",
@@ -605,9 +563,9 @@
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 154800,
-      "forks": 8320,
-      "stars_since": "30,546",
+      "stars": 155993,
+      "forks": 8379,
+      "stars_since": "29,162",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -635,6 +593,44 @@
       "source": "github"
     },
     {
+      "rank": 17,
+      "full_name": "superdesigndev/treg",
+      "owner": "superdesigndev",
+      "name": "treg",
+      "url": "https://github.com/superdesigndev/treg",
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 4188,
+      "forks": 350,
+      "stars_since": "2,992",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22532527?s=40&v=4",
+          "username": "JayZeeDesign"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6255130?s=40&v=4",
+          "username": "stonexer"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/64325867?s=40&v=4",
+          "username": "shehjad-dev"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/12494079?s=40&v=4",
+          "username": "unclecode"
+        }
+      ],
+      "source": "github"
+    },
+    {
       "rank": 18,
       "full_name": "cursor/plugins",
       "owner": "cursor",
@@ -643,9 +639,9 @@
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 9787,
-      "forks": 924,
-      "stars_since": "3,087",
+      "stars": 9966,
+      "forks": 939,
+      "stars_since": "3,201",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -681,9 +677,9 @@
       "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
       "language": "Rust",
       "language_color": "#dea584",
-      "stars": 28038,
-      "forks": 1988,
-      "stars_since": "5,879",
+      "stars": 28222,
+      "forks": 2002,
+      "stars_since": "6,026",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -708,30 +704,34 @@
     },
     {
       "rank": 20,
-      "full_name": "max-sixty/worktrunk",
-      "owner": "max-sixty",
-      "name": "worktrunk",
-      "url": "https://github.com/max-sixty/worktrunk",
-      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 8799,
-      "forks": 315,
-      "stars_since": "1,999",
+      "full_name": "tashfeenahmed/freellmapi",
+      "owner": "tashfeenahmed",
+      "name": "freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 30967,
+      "forks": 4337,
+      "stars_since": "6,667",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&v=4",
-          "username": "max-sixty"
+          "avatar": "https://avatars.githubusercontent.com/u/9307356?s=40&v=4",
+          "username": "tashfeenahmed"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/254187624?s=40&v=4",
-          "username": "worktrunk-bot"
+          "avatar": "https://avatars.githubusercontent.com/u/108558399?s=40&v=4",
+          "username": "suantea"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/102485413?s=40&v=4",
+          "username": "OhOkThisIsFine"
         }
       ],
       "source": "github"
@@ -745,9 +745,9 @@
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 26085,
-      "forks": 3053,
-      "stars_since": "2,272",
+      "stars": 26184,
+      "forks": 3062,
+      "stars_since": "2,343",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -772,38 +772,30 @@
     },
     {
       "rank": 22,
-      "full_name": "tashfeenahmed/freellmapi",
-      "owner": "tashfeenahmed",
-      "name": "freellmapi",
-      "url": "https://github.com/tashfeenahmed/freellmapi",
-      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 30624,
-      "forks": 4297,
-      "stars_since": "6,502",
+      "full_name": "max-sixty/worktrunk",
+      "owner": "max-sixty",
+      "name": "worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 8856,
+      "forks": 321,
+      "stars_since": "2,098",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/9307356?s=40&v=4",
-          "username": "tashfeenahmed"
+          "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&v=4",
+          "username": "max-sixty"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/108558399?s=40&v=4",
-          "username": "suantea"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/319142293?s=40&v=4",
-          "username": "tashdroid"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/102485413?s=40&v=4",
-          "username": "OhOkThisIsFine"
+          "avatar": "https://avatars.githubusercontent.com/u/254187624?s=40&v=4",
+          "username": "worktrunk-bot"
         }
       ],
       "source": "github"
@@ -817,9 +809,9 @@
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
       "language_color": "#b07219",
-      "stars": 80585,
-      "forks": 8966,
-      "stars_since": "6,293",
+      "stars": 80826,
+      "forks": 8983,
+      "stars_since": "6,491",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
