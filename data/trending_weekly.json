@@ -2,6 +2,44 @@
   "repos": [
     {
       "rank": 1,
+      "full_name": "boykopovar/AnyPS5",
+      "owner": "boykopovar",
+      "name": "AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "language": "C++",
+      "language_color": "#f34b7d",
+      "stars": 15624,
+      "forks": 1232,
+      "stars_since": "10,243",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/184076081?s=40&v=4",
+          "username": "boykopovar"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/158058829?s=40&v=4",
+          "username": "oneandonlydean"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/57327458?s=40&v=4",
+          "username": "adriadam10"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/13449963?s=40&v=4",
+          "username": "SamG-Coder"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 2,
       "full_name": "mvschwarz/openrig",
       "owner": "mvschwarz",
       "name": "openrig",
@@ -9,9 +47,9 @@
       "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 5774,
-      "forks": 428,
-      "stars_since": "3,327",
+      "stars": 6145,
+      "forks": 449,
+      "stars_since": "2,693",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -32,46 +70,8 @@
           "username": "dajiaohuang"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/35828647?s=40&v=4",
-          "username": "Totopo27"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 2,
-      "full_name": "boykopovar/AnyPS5",
-      "owner": "boykopovar",
-      "name": "AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-      "language": "C++",
-      "language_color": "#f34b7d",
-      "stars": 10489,
-      "forks": 792,
-      "stars_since": "3,073",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/184076081?s=40&v=4",
-          "username": "boykopovar"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/158058829?s=40&v=4",
-          "username": "oneandonlydean"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/57327458?s=40&v=4",
-          "username": "adriadam10"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13449963?s=40&v=4",
-          "username": "SamG-Coder"
+          "avatar": "https://avatars.githubusercontent.com/u/186654237?s=40&v=4",
+          "username": "Coder8124"
         }
       ],
       "source": "github"
@@ -85,9 +85,9 @@
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 58523,
-      "forks": 5207,
-      "stars_since": "3,614",
+      "stars": 59183,
+      "forks": 5274,
+      "stars_since": "3,996",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -116,6 +116,44 @@
     },
     {
       "rank": 4,
+      "full_name": "EpicGames/raddebugger",
+      "owner": "EpicGames",
+      "name": "raddebugger",
+      "url": "https://github.com/EpicGames/raddebugger",
+      "description": "A native, user-mode, multi-process, graphical debugger.",
+      "language": "C",
+      "language_color": "#555555",
+      "stars": 8101,
+      "forks": 391,
+      "stars_since": "448",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/12454169?s=40&v=4",
+          "username": "ryanfleury"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4572155?s=40&v=4",
+          "username": "NikitaSmith057"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1665010?s=40&v=4",
+          "username": "mmozeiko"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/167924611?s=40&v=4",
+          "username": "NikitaAtEpic"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/58001412?s=40&v=4",
+          "username": "andreymlv"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 5,
       "full_name": "cursor/plugins",
       "owner": "cursor",
       "name": "plugins",
@@ -123,9 +161,9 @@
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 10252,
-      "forks": 972,
-      "stars_since": "1,106",
+      "stars": 10396,
+      "forks": 986,
+      "stars_since": "1,109",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -153,83 +191,7 @@
       "source": "github"
     },
     {
-      "rank": 5,
-      "full_name": "NVIDIA/OpenShell",
-      "owner": "NVIDIA",
-      "name": "OpenShell",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 15291,
-      "forks": 1724,
-      "stars_since": "5,228",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/385?s=40&v=4",
-          "username": "drew"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9696606?s=40&v=4",
-          "username": "johntmyers"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1116309?s=40&v=4",
-          "username": "pimlock"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/189799508?s=40&v=4",
-          "username": "miyoungc"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/931393?s=40&v=4",
-          "username": "elezar"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 6,
-      "full_name": "Panniantong/Agent-Reach",
-      "owner": "Panniantong",
-      "name": "Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 93214,
-      "forks": 8164,
-      "stars_since": "6,454",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/73925474?s=40&v=4",
-          "username": "Panniantong"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/289980115?s=40&v=4",
-          "username": "nyxst4ck"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7401626?s=40&v=4",
-          "username": "kadaliao"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/10735997?s=40&v=4",
-          "username": "hymansun"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 7,
       "full_name": "thedotmack/claude-mem",
       "owner": "thedotmack",
       "name": "claude-mem",
@@ -237,9 +199,9 @@
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 97698,
-      "forks": 8602,
-      "stars_since": "2,104",
+      "stars": 98447,
+      "forks": 8634,
+      "stars_since": "3,153",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -267,33 +229,105 @@
       "source": "github"
     },
     {
-      "rank": 8,
-      "full_name": "pablostanley/yoinks",
-      "owner": "pablostanley",
-      "name": "yoinks",
-      "url": "https://github.com/pablostanley/yoinks",
-      "description": "yoink any video from your terminal. no shady ads.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 5091,
-      "forks": 440,
-      "stars_since": "2,947",
+      "rank": 7,
+      "full_name": "mattpocock/skills",
+      "owner": "mattpocock",
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "language_color": "#89e051",
+      "stars": 281045,
+      "forks": 23557,
+      "stars_since": "7,448",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/7430988?s=40&v=4",
-          "username": "pablostanley"
+          "avatar": "https://avatars.githubusercontent.com/u/28293365?s=40&v=4",
+          "username": "mattpocock"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/39256258?s=40&v=4",
+          "username": "gabimoncha"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 8,
+      "full_name": "Panniantong/Agent-Reach",
+      "owner": "Panniantong",
+      "name": "Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 94126,
+      "forks": 8232,
+      "stars_since": "6,987",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/73925474?s=40&v=4",
+          "username": "Panniantong"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/289980115?s=40&v=4",
+          "username": "nyxst4ck"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7401626?s=40&v=4",
+          "username": "kadaliao"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/10735997?s=40&v=4",
+          "username": "hymansun"
         }
       ],
       "source": "github"
     },
     {
       "rank": 9,
+      "full_name": "earthtojake/text-to-cad",
+      "owner": "earthtojake",
+      "name": "text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "Give your agent CAD superpowers.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 18467,
+      "forks": 1833,
+      "stars_since": "1,898",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/10742417?s=40&v=4",
+          "username": "earthtojake"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/143688508?s=40&v=4",
+          "username": "warun7"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 10,
       "full_name": "DuarteSantos8/openGym",
       "owner": "DuarteSantos8",
       "name": "openGym",
@@ -301,9 +335,9 @@
       "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 6865,
-      "forks": 903,
-      "stars_since": "3,318",
+      "stars": 7995,
+      "forks": 1021,
+      "stars_since": "6,086",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -331,65 +365,27 @@
       "source": "github"
     },
     {
-      "rank": 10,
-      "full_name": "tile-ai/tilelang",
-      "owner": "tile-ai",
-      "name": "tilelang",
-      "url": "https://github.com/tile-ai/tilelang",
-      "description": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 8471,
-      "forks": 856,
-      "stars_since": "675",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/34334180?s=40&v=4",
-          "username": "LeiWang1999"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/54519279?s=40&v=4",
-          "username": "chengyupku"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/41781658?s=40&v=4",
-          "username": "SiriusNEO"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/109033598?s=40&v=4",
-          "username": "Rachmanino"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/132904306?s=40&v=4",
-          "username": "xwhzz"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 11,
-      "full_name": "HunxByts/GhostTrack",
-      "owner": "HunxByts",
-      "name": "GhostTrack",
-      "url": "https://github.com/HunxByts/GhostTrack",
-      "description": "Useful tool to track location or mobile number",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 17383,
-      "forks": 2355,
-      "stars_since": "2,017",
+      "full_name": "pablostanley/yoinks",
+      "owner": "pablostanley",
+      "name": "yoinks",
+      "url": "https://github.com/pablostanley/yoinks",
+      "description": "yoink any video from your terminal. no shady ads.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 5380,
+      "forks": 458,
+      "stars_since": "2,706",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/130666567?s=40&v=4",
-          "username": "HunxByts"
+          "avatar": "https://avatars.githubusercontent.com/u/7430988?s=40&v=4",
+          "username": "pablostanley"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/69375806?s=40&v=4",
-          "username": "bakaemon"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
         }
       ],
       "source": "github"
