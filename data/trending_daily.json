@@ -2,78 +2,6 @@
   "repos": [
     {
       "rank": 1,
-      "full_name": "boykopovar/AnyPS5",
-      "owner": "boykopovar",
-      "name": "AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-      "language": "C++",
-      "language_color": "#f34b7d",
-      "stars": 15624,
-      "forks": 1232,
-      "stars_since": "4,669",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/184076081?s=40&v=4",
-          "username": "boykopovar"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/158058829?s=40&v=4",
-          "username": "oneandonlydean"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/57327458?s=40&v=4",
-          "username": "adriadam10"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13449963?s=40&v=4",
-          "username": "SamG-Coder"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 2,
-      "full_name": "cathrynlavery/diagram-design",
-      "owner": "cathrynlavery",
-      "name": "diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "language": "HTML",
-      "language_color": "#e34c26",
-      "stars": 46298,
-      "forks": 2947,
-      "stars_since": "1,160",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/50469282?s=40&v=4",
-          "username": "cathrynlavery"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/174610155?s=40&v=4",
-          "username": "parveen0029"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
-          "username": "mvanhorn"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 3,
       "full_name": "morluto/rea",
       "owner": "morluto",
       "name": "rea",
@@ -81,9 +9,9 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 25918,
-      "forks": 2914,
-      "stars_since": "7,738",
+      "stars": 45164,
+      "forks": 7137,
+      "stars_since": "15,335",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -111,7 +39,45 @@
       "source": "github"
     },
     {
-      "rank": 4,
+      "rank": 2,
+      "full_name": "boykopovar/AnyPS5",
+      "owner": "boykopovar",
+      "name": "AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "language": "C++",
+      "language_color": "#f34b7d",
+      "stars": 22176,
+      "forks": 1806,
+      "stars_since": "5,925",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/184076081?s=40&v=4",
+          "username": "boykopovar"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/158058829?s=40&v=4",
+          "username": "oneandonlydean"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/57327458?s=40&v=4",
+          "username": "adriadam10"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/13449963?s=40&v=4",
+          "username": "SamG-Coder"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 3,
       "full_name": "mattpocock/skills",
       "owner": "mattpocock",
       "name": "skills",
@@ -119,9 +85,9 @@
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
       "language_color": "#89e051",
-      "stars": 281045,
-      "forks": 23557,
-      "stars_since": "1,774",
+      "stars": 282636,
+      "forks": 23679,
+      "stars_since": "1,696",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -141,83 +107,79 @@
       "source": "github"
     },
     {
-      "rank": 5,
-      "full_name": "thedotmack/claude-mem",
-      "owner": "thedotmack",
-      "name": "claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 98447,
-      "forks": 8634,
-      "stars_since": "670",
+      "rank": 4,
+      "full_name": "cathrynlavery/diagram-design",
+      "owner": "cathrynlavery",
+      "name": "diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "language_color": "#e34c26",
+      "stars": 47829,
+      "forks": 3033,
+      "stars_since": "1,744",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/683968?s=40&v=4",
-          "username": "thedotmack"
+          "avatar": "https://avatars.githubusercontent.com/u/50469282?s=40&v=4",
+          "username": "cathrynlavery"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/174610155?s=40&v=4",
+          "username": "parveen0029"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
-          "username": "rudycelekli"
+          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
+          "username": "mvanhorn"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 5,
+      "full_name": "alibaba/open-code-review",
+      "owner": "alibaba",
+      "name": "open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "language_color": "#00ADD8",
+      "stars": 45179,
+      "forks": 3261,
+      "stars_since": "323",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/254839944?s=40&v=4",
+          "username": "lizhengfeng101"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
+          "avatar": "https://avatars.githubusercontent.com/u/149216116?s=40&v=4",
+          "username": "wu21-web"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/106971?s=40&v=4",
-          "username": "rodboev"
+          "avatar": "https://avatars.githubusercontent.com/u/16241795?s=40&v=4",
+          "username": "chethanuk"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/61303077?s=40&v=4",
+          "username": "stay-foolish-forever"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/267806965?s=40&v=4",
+          "username": "Qiyuanqiii"
         }
       ],
       "source": "github"
     },
     {
       "rank": 6,
-      "full_name": "EpicGames/raddebugger",
-      "owner": "EpicGames",
-      "name": "raddebugger",
-      "url": "https://github.com/EpicGames/raddebugger",
-      "description": "A native, user-mode, multi-process, graphical debugger.",
-      "language": "C",
-      "language_color": "#555555",
-      "stars": 8101,
-      "forks": 391,
-      "stars_since": "279",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/12454169?s=40&v=4",
-          "username": "ryanfleury"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4572155?s=40&v=4",
-          "username": "NikitaSmith057"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1665010?s=40&v=4",
-          "username": "mmozeiko"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/167924611?s=40&v=4",
-          "username": "NikitaAtEpic"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/58001412?s=40&v=4",
-          "username": "andreymlv"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 7,
       "full_name": "anthropics/knowledge-work-plugins",
       "owner": "anthropics",
       "name": "knowledge-work-plugins",
@@ -225,9 +187,9 @@
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 27523,
-      "forks": 3197,
-      "stars_since": "392",
+      "stars": 28233,
+      "forks": 3244,
+      "stars_since": "714",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -251,7 +213,79 @@
       "source": "github"
     },
     {
+      "rank": 7,
+      "full_name": "BerriAI/litellm",
+      "owner": "BerriAI",
+      "name": "litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 60645,
+      "forks": 12186,
+      "stars_since": "95",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/29436595?s=40&v=4",
+          "username": "ishaan-jaff"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/277851410?s=40&v=4",
+          "username": "mateo-berri"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/264297931?s=40&v=4",
+          "username": "yuneng-berri"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/231518212?s=40&v=4",
+          "username": "Sameerlite"
+        }
+      ],
+      "source": "github"
+    },
+    {
       "rank": 8,
+      "full_name": "addyosmani/agent-skills",
+      "owner": "addyosmani",
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 103968,
+      "forks": 10868,
+      "stars_since": "523",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/110953?s=40&v=4",
+          "username": "addyosmani"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1307927?s=40&v=4",
+          "username": "nucliweb"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/27234034?s=40&v=4",
+          "username": "federicobartoli"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/66267222?s=40&v=4",
+          "username": "ayobamiseun"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 9,
       "full_name": "storytold/artcraft",
       "owner": "storytold",
       "name": "artcraft",
@@ -259,9 +293,9 @@
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
       "language_color": "#dea584",
-      "stars": 7851,
-      "forks": 1095,
-      "stars_since": "2,103",
+      "stars": 11384,
+      "forks": 1720,
+      "stars_since": "3,723",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -289,31 +323,61 @@
       "source": "github"
     },
     {
-      "rank": 9,
-      "full_name": "liquidslr/system-design-notes",
-      "owner": "liquidslr",
-      "name": "system-design-notes",
-      "url": "https://github.com/liquidslr/system-design-notes",
-      "description": "Notes of the book System Desgin Interview - An Insider's Guide",
-      "language": "Others",
-      "language_color": "#8b949e",
-      "stars": 24594,
-      "forks": 4600,
-      "stars_since": "393",
+      "rank": 10,
+      "full_name": "Robbyant/lingbot-map",
+      "owner": "Robbyant",
+      "name": "lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "description": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 17682,
+      "forks": 1950,
+      "stars_since": "109",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/26876811?s=40&v=4",
-          "username": "liquidslr"
+          "avatar": "https://avatars.githubusercontent.com/u/32637882?s=40&v=4",
+          "username": "LinZhuoChen"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/22492808?s=40&v=4",
-          "username": "emmadonjo"
+          "avatar": "https://avatars.githubusercontent.com/u/29980330?s=40&v=4",
+          "username": "justimyhxu"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/153318865?s=40&v=4",
-          "username": "stym01"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 11,
+      "full_name": "twostraws/SwiftUI-Agent-Skill",
+      "owner": "twostraws",
+      "name": "SwiftUI-Agent-Skill",
+      "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+      "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+      "language": "Others",
+      "language_color": "#8b949e",
+      "stars": 5411,
+      "forks": 196,
+      "stars_since": "88",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/190200?s=40&v=4",
+          "username": "twostraws"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/23104281?s=40&v=4",
+          "username": "GLinnik21"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6942160?s=40&v=4",
+          "username": "Jeehut"
         }
       ],
       "source": "github"
