@@ -435,6 +435,22 @@
       ]
     },
     {
+      "title": "The Lattice of Transition Laws",
+      "summary": "Diffusion and autoregression (AR) have long been seen as different categories of generative models, with diffusion specialising in continuous fields and AR specialising in discrete tokens. Recent work seeks to combine th...",
+      "url": "https://huggingface.co/papers/2610.11216",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "T. Y. Tsui, Jiatao Gu, Lingjie Liu",
+      "published_at": "2026-10-07",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
       "title": "Behavioral Persistence and Incomplete Functional Transfer of Co-evolved Communication in Evolutionary Robotics",
       "summary": "This work evaluates the direct transfer of a co-evolved communication protocol from a 2D simulation to a 3D physical environment, without retraining the network weights. Two e-puck-type robots, controlled by a GRU networ...",
       "url": "https://huggingface.co/papers/2609.38527",
@@ -472,8 +488,8 @@
       "url": "https://huggingface.co/papers/2609.33987",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
+      "badge": "⭐ 10",
+      "upvotes": 10,
       "authors": "Kai Mei, Zhiyuan Hu, Yutong Dai",
       "published_at": "2026-10-07",
       "tags": [
@@ -520,8 +536,8 @@
       "url": "https://huggingface.co/papers/2606.03335",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Rui Zhang, Qiwei Wu, Zhengyu Zhang",
       "published_at": "2026-10-05",
       "tags": [
@@ -536,8 +552,8 @@
       "url": "https://huggingface.co/papers/2609.35855",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Yubin Lyu, Fu Li, Jiawei Fei",
       "published_at": "2026-09-24",
       "tags": [
@@ -600,8 +616,8 @@
       "url": "https://huggingface.co/papers/2610.04875",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 3",
+      "upvotes": 3,
       "authors": "Chung-En Ho, Weiyu Sun, Cheng-Jhih Shih",
       "published_at": "2026-10-05",
       "tags": [
@@ -616,8 +632,8 @@
       "url": "https://huggingface.co/papers/2610.10355",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 2",
+      "upvotes": 2,
       "authors": "Zekai Liu, Zhilin Wang, Xuzheng He",
       "published_at": "2026-10-06",
       "tags": [
@@ -632,8 +648,8 @@
       "url": "https://huggingface.co/papers/2610.08927",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Wenyu Du, Stephen Chung",
       "published_at": "2026-10-05",
       "tags": [
@@ -648,8 +664,8 @@
       "url": "https://huggingface.co/papers/2610.12423",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 15",
+      "upvotes": 15,
       "authors": "Siyu Chen, Zehan Wang, Jiayang Xu",
       "published_at": "2026-10-07",
       "tags": [
@@ -728,8 +744,8 @@
       "url": "https://huggingface.co/papers/2610.11794",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 24",
-      "upvotes": 24,
+      "badge": "⭐ 28",
+      "upvotes": 28,
       "authors": "Haoyu Zhao, Zhengxu Yu, Zhiyuan He",
       "published_at": "2026-10-07",
       "tags": [
@@ -739,276 +755,13 @@
       ]
     },
     {
-      "title": "You Changed Your Mind, The Model Didn't: Demystifying Intent in Multi-Turn Dialogue",
-      "summary": "When a large language model handles a multi-turn task and a user proposes a change but ultimately rejects it, the model should continue as if nothing changed. We find a surprising failure: merely mentioning a rejected ch...",
-      "url": "https://huggingface.co/papers/2610.06496",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Junle Chen, Wei Chen, Zhengjun Huang",
-      "published_at": "2026-10-04",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "[HIGH] GHSA-m687-p538-r5hp (CWE-942): Vikunja: Permissive Cross-domain Security Policy trusts every localhost origin which should not be trusted",
-      "summary": "## Summary\n\nVikunja ships with `cors.origins` defaulting to `http://127.0.0.1:*` and `http://localhost:*`, and sends `Access-Control-Allow-Credentials: true`, so a page served from any port on the user's own machine may ...",
-      "url": "https://github.com/advisories/GHSA-m687-p538-r5hp",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-942"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-fmmf-xq98-g327 (CWE-863): Vikunja: Write-level project members can delete admin-tier link shares through an unloaded permission check",
-      "summary": "## Summary\n\nA project member with Write permission can delete an admin-tier link share on that project. The deletion authorization check reads the permission from an object populated only with URL IDs, rather than from t...",
-      "url": "https://github.com/advisories/GHSA-fmmf-xq98-g327",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-863"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-pjr3-86v4-5p7w (CWE-269, CWE-284): Vikunja: Explicit lower-permission share on a sub-project is silently overridden by an inherited parent permission (broken access control / privilege-management regression in v2.6.0)",
-      "summary": "## Description\n\n### Summary\n\nIn Vikunja v2.6.0 the project-permission engine resolves a user's effective permission on a project as\nthe **MAX over the entire reachable project subtree**. As a result, when a user has been...",
-      "url": "https://github.com/advisories/GHSA-pjr3-86v4-5p7w",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-269",
-        "cwe-284"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-hjx8-qv73-f7cm (CWE-613, CWE-863): Vikunja: Webhooks and link shares survive every revocation path, so a removed collaborator keeps a live feed",
-      "summary": "## Summary\n\nA collaborator removed from a project keeps a **live, automatic feed** of that project's contents, because nothing on any revocation path deletes the webhook they created while they had access.\n\nVikunja alrea...",
-      "url": "https://github.com/advisories/GHSA-hjx8-qv73-f7cm",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-613",
-        "cwe-863"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-fprf-r6rv-xg99 (CWE-863): Vikunja: Saved filter creation with an empty filter string recalculates task positions across all tenants",
-      "summary": "### Summary\n\nIn Vikunja v2.6.0 the task position recalculation that runs when a saved filter view is created fails open when the requesting user has no accessible projects. Instead of aborting, the search that feeds the ...",
-      "url": "https://github.com/advisories/GHSA-fprf-r6rv-xg99",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-863"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-4hv6-xc92-j86g (CWE-613): Vikunja: WebSocket authentication ignores server-side session state, so revoked sessions keep receiving live pushes",
-      "summary": "### Summary\n\nVikunja v2.6.0 introduced server-side sessions with revocation semantics: `DELETE /api/v2/user/sessions/{id}` documents \"Revokes a specific session by its UUID\", and enabling TOTP calls `DeleteAllUserSession...",
-      "url": "https://github.com/advisories/GHSA-4hv6-xc92-j86g",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-613"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-107805 (CWE-400): Nginx UI: Unauthenticated signed-request body staging can exhaust temporary storage",
-      "summary": "## Summary\n\nIn Nginx UI versions 2.5.0 through 2.5.x, the node-signature authentication path staged an attacker-controlled request body in a temporary file and synchronized it to disk before validating the body digest an...",
-      "url": "https://github.com/advisories/GHSA-j3hg-9rp3-5hw9",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-400"
-      ]
-    },
-    {
-      "title": "[MEDIUM] CVE-2026-107804 (CWE-346): Nginx UI: Bundled reverse proxy can bypass IP allowlists and enable shared login lockout",
-      "summary": "## Summary\n\nIn Nginx UI versions 2.2.0 through 2.5.x, the official bundled reverse-proxy topology did not preserve the external client identity used by Gin. The backend treated the local proxy peer as the client because ...",
-      "url": "https://github.com/advisories/GHSA-9h23-53f4-q947",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-346"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-108259 (CWE-94): Tina: Code injection via unescaped Git branch name in generated client source",
-      "summary": "### Summary\n\n`@tinacms/cli` inserts the raw Git branch value into the generated `client.ts` source without escaping or encoding. A Git-valid branch name can close the string literal and inject an arbitrary JavaScript exp...",
-      "url": "https://github.com/advisories/GHSA-pwhx-cvv3-qj5c",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-94"
-      ]
-    },
-    {
-      "title": "[CRITICAL] CVE-2026-108261 (CWE-346, CWE-441, CWE-601): TinaCMS admin preview iframe loads an attacker-controlled origin from the URL fragment",
-      "summary": "### Summary\n\nThe TinaCMS admin builds its preview `<iframe src>` from the `/~/*` hash-router splat without checking that the value stays same-origin. A fragment with a doubled slash (`#/~//attacker.example/p`) becomes th...",
-      "url": "https://github.com/advisories/GHSA-x34j-47hf-4xg7",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "CRITICAL",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-346",
-        "cwe-441",
-        "cwe-601"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-108260 (CWE-79, CWE-83): @tinacms/web-components: `tina-markdown` writes rich-text link URLs into `href` without scheme validation, allowing stored XSS",
-      "summary": "### Summary\n\n`<tina-markdown>` renders a rich-text AST into the DOM and, for `a` nodes, assigns the node's URL straight to the anchor's `href` with no scheme check. A link authored in the CMS as `javascript:…` renders as...",
-      "url": "https://github.com/advisories/GHSA-c42q-qvc3-j6vg",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-79",
-        "cwe-83"
-      ]
-    },
-    {
-      "title": "[MEDIUM] CVE-2026-108258 (CWE-22): Shiny for Python has path traversal in bookmark restore",
-      "summary": "### Impact\n\nShiny for Python's bookmark-restore path accepted a client-supplied `_state_id_`\nquery-string value and joined it into the server-side bookmark directory\n(`<cwd>/shiny_bookmarks/<id>`) without validating it. ...",
-      "url": "https://github.com/advisories/GHSA-47c3-hpmg-7j6p",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-22"
-      ]
-    },
-    {
-      "title": "[LOW] GHSA-w2ch-4xgr-22ww (CWE-285, CWE-862): Vikunja: Task relation deletion does not check read access to the other task, allowing cross-project relation removal",
-      "summary": "## Summary\n\nDeleting a task relation only requires write access on the base task. Unlike relation creation, it does not verify that the caller can read the other task. A user with write access to one project can therefor...",
-      "url": "https://github.com/advisories/GHSA-w2ch-4xgr-22ww",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "LOW",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-285",
-        "cwe-862"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-8wvg-r2j4-3737 (CWE-200): Vikunja: Assignee email addresses disclosed to read-only project members via the task assignees endpoint",
-      "summary": "### Summary\n`TaskAssginee.ReadAll` returns assignee user objects without blanking the `Email` field, disclosing assignee email addresses to any read-only project member. Every sibling path that returns user objects obfus...",
-      "url": "https://github.com/advisories/GHSA-8wvg-r2j4-3737",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-200"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-3hc7-r24j-rpwc (CWE-200, CWE-862): Vikunja: Cross-project task disclosure through subtask expansion",
-      "summary": "### Summary\nVikunja lets a task in one project have a subtask that lives in a different project. When listing a project's tasks, an option pulls in those subtasks (?expand%5B%5D=subtasks). The main listing is correctly f...",
-      "url": "https://github.com/advisories/GHSA-3hc7-r24j-rpwc",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-200",
-        "cwe-862"
-      ]
-    },
-    {
-      "title": "Cloudflare acquires Deno",
-      "summary": "Hacker News (1012 pts, 523 comments) by @ilreb",
-      "url": "https://deno.com/blog/cloudflare",
+      "title": "2D Vehicles",
+      "summary": "Hacker News (303 pts, 71 comments) by @Michelangelo11",
+      "url": "https://patkerr.co.uk/2d-vehicles/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "1012 pts",
-      "upvotes": 1012,
+      "badge": "303 pts",
+      "upvotes": 303,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1017,13 +770,13 @@
       ]
     },
     {
-      "title": "Triple-A Minesweeper",
-      "summary": "Hacker News (516 pts, 101 comments) by @robin_reala",
-      "url": "https://minesweeper.mikelacher.com/",
+      "title": "A city-building game in which the city would prefer you didn't",
+      "summary": "Hacker News (85 pts, 33 comments) by @JumpCrisscross",
+      "url": "https://housing.over.pizza/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "516 pts",
-      "upvotes": 516,
+      "badge": "85 pts",
+      "upvotes": 85,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1032,13 +785,13 @@
       ]
     },
     {
-      "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
-      "summary": "Hacker News (180 pts, 16 comments) by @simplyalec",
-      "url": "https://carrierexplode.com/",
+      "title": "Nix wrote half of my debugger",
+      "summary": "Hacker News (89 pts, 7 comments) by @ingve",
+      "url": "https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "180 pts",
-      "upvotes": 180,
+      "badge": "89 pts",
+      "upvotes": 89,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1047,13 +800,13 @@
       ]
     },
     {
-      "title": "Our $445M Series D",
-      "summary": "Hacker News (561 pts, 247 comments) by @ahlCVA",
-      "url": "https://oxide.computer/blog/our-445m-series-d",
+      "title": "Why DuckDB 2.0 is faster",
+      "summary": "Hacker News (106 pts, 34 comments) by @tosh",
+      "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "561 pts",
-      "upvotes": 561,
+      "badge": "106 pts",
+      "upvotes": 106,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1062,13 +815,13 @@
       ]
     },
     {
-      "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
-      "summary": "Hacker News (335 pts, 175 comments) by @gumby",
-      "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
+      "title": "Knuth reward check",
+      "summary": "Hacker News (123 pts, 47 comments) by @Curiositry",
+      "url": "https://www.thomas-huehn.com/knuth-reward-check/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "335 pts",
-      "upvotes": 335,
+      "badge": "123 pts",
+      "upvotes": 123,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1077,13 +830,13 @@
       ]
     },
     {
-      "title": "Sorry, I'm in a meeting",
-      "summary": "Hacker News (721 pts, 225 comments) by @splintersio",
-      "url": "https://iminafleeting.com/",
+      "title": "The Lightbulb Computer",
+      "summary": "Hacker News (151 pts, 37 comments) by @oskarth",
+      "url": "https://lightbulbcomputer.com/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "721 pts",
-      "upvotes": 721,
+      "badge": "151 pts",
+      "upvotes": 151,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1092,13 +845,13 @@
       ]
     },
     {
-      "title": "Typesafe AI raises $870M at $7.5B",
-      "summary": "Hacker News (231 pts, 197 comments) by @tosh",
-      "url": "https://typesafe.ai/blog/series-ai",
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "summary": "Hacker News (228 pts, 114 comments) by @rociiu",
+      "url": "https://github.com/rociiu/talorys",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "231 pts",
-      "upvotes": 231,
+      "badge": "228 pts",
+      "upvotes": 228,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1107,13 +860,13 @@
       ]
     },
     {
-      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
-      "summary": "Hacker News (93 pts, 45 comments) by @piratebroadcast",
-      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+      "title": "Mxc: Microsoft Execution Containers version 1.0.0",
+      "summary": "Hacker News (144 pts, 32 comments) by @smokel",
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "93 pts",
-      "upvotes": 93,
+      "badge": "144 pts",
+      "upvotes": 144,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1122,13 +875,13 @@
       ]
     },
     {
-      "title": "Japan's Most Famous Tuna Buyer Says He Turned Somali Pirates into Fishermen",
-      "summary": "Hacker News (19 pts, 5 comments) by @robaato",
-      "url": "https://www.japaninsides.com/the-sushi-king-who-went-to-somalia-how-japans-most-famous-tuna-buyer-says-he-turned-pirates-into-fishermen-55344",
+      "title": "Recent AI models struggled to match a human algorithmic innovation",
+      "summary": "Hacker News (60 pts, 49 comments) by @merksittich",
+      "url": "https://epoch.ai/publications/innovationeval",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "19 pts",
-      "upvotes": 19,
+      "badge": "60 pts",
+      "upvotes": 60,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1137,13 +890,13 @@
       ]
     },
     {
-      "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
-      "summary": "Hacker News (363 pts, 161 comments) by @franze",
-      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "title": "REA Reverse – Engineer Anything",
+      "summary": "Hacker News (669 pts, 294 comments) by @modinfo",
+      "url": "https://rea.tools/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "363 pts",
-      "upvotes": 363,
+      "badge": "669 pts",
+      "upvotes": 669,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1152,13 +905,13 @@
       ]
     },
     {
-      "title": "Show HN: Proton Drive for Linux",
-      "summary": "Hacker News (23 pts, 6 comments) by @khaosdoctor",
-      "url": "https://oss.lsantos.dev/proton-drive-linux-fs/",
+      "title": "Apple/macOS removed from official Unix registry",
+      "summary": "Hacker News (230 pts, 207 comments) by @john_alan",
+      "url": "https://www.opengroup.org//openbrand/register/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "23 pts",
-      "upvotes": 23,
+      "badge": "230 pts",
+      "upvotes": 230,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1167,13 +920,13 @@
       ]
     },
     {
-      "title": "Nobel Peace Prize for 2026 to Navanethem Pillay",
-      "summary": "Hacker News (427 pts, 217 comments) by @Anon84",
-      "url": "https://www.nobelprize.org/prizes/peace/2026/press-release/",
+      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "summary": "Hacker News (92 pts, 58 comments) by @arkj",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "427 pts",
-      "upvotes": 427,
+      "badge": "92 pts",
+      "upvotes": 92,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1182,13 +935,13 @@
       ]
     },
     {
-      "title": "No Man Is an Island",
-      "summary": "Hacker News (245 pts, 141 comments) by @zetalyrae",
-      "url": "https://borretti.me/article/no-man-is-an-island",
+      "title": "Grieving the loss of details",
+      "summary": "Hacker News (308 pts, 245 comments) by @signa11",
+      "url": "https://purplesyringa.moe/blog/grieving-the-loss-of-details/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "245 pts",
-      "upvotes": 245,
+      "badge": "308 pts",
+      "upvotes": 308,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1197,13 +950,13 @@
       ]
     },
     {
-      "title": "'Wallace and Gromit,' 90% Alone",
-      "summary": "Hacker News (143 pts, 19 comments) by @vinhnx",
-      "url": "https://animationobsessive.substack.com/p/wallace-and-gromit-90-alone",
+      "title": "Unikernels were hard. key word: were",
+      "summary": "Hacker News (66 pts, 30 comments) by @ghuntley",
+      "url": "https://ghuntley.com/unikernels/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "143 pts",
-      "upvotes": 143,
+      "badge": "66 pts",
+      "upvotes": 66,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1212,13 +965,13 @@
       ]
     },
     {
-      "title": "Show HN: The rarest tech books and docs you've probably never read",
-      "summary": "Hacker News (55 pts, 9 comments) by @miletus",
-      "url": "https://readrare.com/",
+      "title": "Rampart: Browser native on-device PII radaction",
+      "summary": "Hacker News (62 pts, 28 comments) by @nateb2022",
+      "url": "https://ndstudio.gov/posts/say-hello-to-rampart",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "55 pts",
-      "upvotes": 55,
+      "badge": "62 pts",
+      "upvotes": 62,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1827,6 +1580,22 @@
       ]
     },
     {
+      "title": "The Lattice of Transition Laws",
+      "summary": "Diffusion and autoregression (AR) have long been seen as different categories of generative models, with diffusion specialising in continuous fields and AR specialising in discrete tokens. Recent work seeks to combine th...",
+      "url": "https://huggingface.co/papers/2610.11216",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "T. Y. Tsui, Jiatao Gu, Lingjie Liu",
+      "published_at": "2026-10-07",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
       "title": "Behavioral Persistence and Incomplete Functional Transfer of Co-evolved Communication in Evolutionary Robotics",
       "summary": "This work evaluates the direct transfer of a co-evolved communication protocol from a 2D simulation to a 3D physical environment, without retraining the network weights. Two e-puck-type robots, controlled by a GRU networ...",
       "url": "https://huggingface.co/papers/2609.38527",
@@ -1864,8 +1633,8 @@
       "url": "https://huggingface.co/papers/2609.33987",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
+      "badge": "⭐ 10",
+      "upvotes": 10,
       "authors": "Kai Mei, Zhiyuan Hu, Yutong Dai",
       "published_at": "2026-10-07",
       "tags": [
@@ -1912,8 +1681,8 @@
       "url": "https://huggingface.co/papers/2606.03335",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Rui Zhang, Qiwei Wu, Zhengyu Zhang",
       "published_at": "2026-10-05",
       "tags": [
@@ -1928,8 +1697,8 @@
       "url": "https://huggingface.co/papers/2609.35855",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Yubin Lyu, Fu Li, Jiawei Fei",
       "published_at": "2026-09-24",
       "tags": [
@@ -1992,8 +1761,8 @@
       "url": "https://huggingface.co/papers/2610.04875",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 3",
+      "upvotes": 3,
       "authors": "Chung-En Ho, Weiyu Sun, Cheng-Jhih Shih",
       "published_at": "2026-10-05",
       "tags": [
@@ -2008,8 +1777,8 @@
       "url": "https://huggingface.co/papers/2610.10355",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 2",
+      "upvotes": 2,
       "authors": "Zekai Liu, Zhilin Wang, Xuzheng He",
       "published_at": "2026-10-06",
       "tags": [
@@ -2024,8 +1793,8 @@
       "url": "https://huggingface.co/papers/2610.08927",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Wenyu Du, Stephen Chung",
       "published_at": "2026-10-05",
       "tags": [
@@ -2040,8 +1809,8 @@
       "url": "https://huggingface.co/papers/2610.12423",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 15",
+      "upvotes": 15,
       "authors": "Siyu Chen, Zehan Wang, Jiayang Xu",
       "published_at": "2026-10-07",
       "tags": [
@@ -2120,8 +1889,8 @@
       "url": "https://huggingface.co/papers/2610.11794",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 24",
-      "upvotes": 24,
+      "badge": "⭐ 28",
+      "upvotes": 28,
       "authors": "Haoyu Zhao, Zhengxu Yu, Zhiyuan He",
       "published_at": "2026-10-07",
       "tags": [
@@ -2131,276 +1900,13 @@
       ]
     },
     {
-      "title": "You Changed Your Mind, The Model Didn't: Demystifying Intent in Multi-Turn Dialogue",
-      "summary": "When a large language model handles a multi-turn task and a user proposes a change but ultimately rejects it, the model should continue as if nothing changed. We find a surprising failure: merely mentioning a rejected ch...",
-      "url": "https://huggingface.co/papers/2610.06496",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Junle Chen, Wei Chen, Zhengjun Huang",
-      "published_at": "2026-10-04",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "[HIGH] GHSA-m687-p538-r5hp (CWE-942): Vikunja: Permissive Cross-domain Security Policy trusts every localhost origin which should not be trusted",
-      "summary": "## Summary\n\nVikunja ships with `cors.origins` defaulting to `http://127.0.0.1:*` and `http://localhost:*`, and sends `Access-Control-Allow-Credentials: true`, so a page served from any port on the user's own machine may ...",
-      "url": "https://github.com/advisories/GHSA-m687-p538-r5hp",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-942"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-fmmf-xq98-g327 (CWE-863): Vikunja: Write-level project members can delete admin-tier link shares through an unloaded permission check",
-      "summary": "## Summary\n\nA project member with Write permission can delete an admin-tier link share on that project. The deletion authorization check reads the permission from an object populated only with URL IDs, rather than from t...",
-      "url": "https://github.com/advisories/GHSA-fmmf-xq98-g327",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-863"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-pjr3-86v4-5p7w (CWE-269, CWE-284): Vikunja: Explicit lower-permission share on a sub-project is silently overridden by an inherited parent permission (broken access control / privilege-management regression in v2.6.0)",
-      "summary": "## Description\n\n### Summary\n\nIn Vikunja v2.6.0 the project-permission engine resolves a user's effective permission on a project as\nthe **MAX over the entire reachable project subtree**. As a result, when a user has been...",
-      "url": "https://github.com/advisories/GHSA-pjr3-86v4-5p7w",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-269",
-        "cwe-284"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-hjx8-qv73-f7cm (CWE-613, CWE-863): Vikunja: Webhooks and link shares survive every revocation path, so a removed collaborator keeps a live feed",
-      "summary": "## Summary\n\nA collaborator removed from a project keeps a **live, automatic feed** of that project's contents, because nothing on any revocation path deletes the webhook they created while they had access.\n\nVikunja alrea...",
-      "url": "https://github.com/advisories/GHSA-hjx8-qv73-f7cm",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-613",
-        "cwe-863"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-fprf-r6rv-xg99 (CWE-863): Vikunja: Saved filter creation with an empty filter string recalculates task positions across all tenants",
-      "summary": "### Summary\n\nIn Vikunja v2.6.0 the task position recalculation that runs when a saved filter view is created fails open when the requesting user has no accessible projects. Instead of aborting, the search that feeds the ...",
-      "url": "https://github.com/advisories/GHSA-fprf-r6rv-xg99",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-863"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-4hv6-xc92-j86g (CWE-613): Vikunja: WebSocket authentication ignores server-side session state, so revoked sessions keep receiving live pushes",
-      "summary": "### Summary\n\nVikunja v2.6.0 introduced server-side sessions with revocation semantics: `DELETE /api/v2/user/sessions/{id}` documents \"Revokes a specific session by its UUID\", and enabling TOTP calls `DeleteAllUserSession...",
-      "url": "https://github.com/advisories/GHSA-4hv6-xc92-j86g",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-613"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-107805 (CWE-400): Nginx UI: Unauthenticated signed-request body staging can exhaust temporary storage",
-      "summary": "## Summary\n\nIn Nginx UI versions 2.5.0 through 2.5.x, the node-signature authentication path staged an attacker-controlled request body in a temporary file and synchronized it to disk before validating the body digest an...",
-      "url": "https://github.com/advisories/GHSA-j3hg-9rp3-5hw9",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-400"
-      ]
-    },
-    {
-      "title": "[MEDIUM] CVE-2026-107804 (CWE-346): Nginx UI: Bundled reverse proxy can bypass IP allowlists and enable shared login lockout",
-      "summary": "## Summary\n\nIn Nginx UI versions 2.2.0 through 2.5.x, the official bundled reverse-proxy topology did not preserve the external client identity used by Gin. The backend treated the local proxy peer as the client because ...",
-      "url": "https://github.com/advisories/GHSA-9h23-53f4-q947",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-346"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-108259 (CWE-94): Tina: Code injection via unescaped Git branch name in generated client source",
-      "summary": "### Summary\n\n`@tinacms/cli` inserts the raw Git branch value into the generated `client.ts` source without escaping or encoding. A Git-valid branch name can close the string literal and inject an arbitrary JavaScript exp...",
-      "url": "https://github.com/advisories/GHSA-pwhx-cvv3-qj5c",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-94"
-      ]
-    },
-    {
-      "title": "[CRITICAL] CVE-2026-108261 (CWE-346, CWE-441, CWE-601): TinaCMS admin preview iframe loads an attacker-controlled origin from the URL fragment",
-      "summary": "### Summary\n\nThe TinaCMS admin builds its preview `<iframe src>` from the `/~/*` hash-router splat without checking that the value stays same-origin. A fragment with a doubled slash (`#/~//attacker.example/p`) becomes th...",
-      "url": "https://github.com/advisories/GHSA-x34j-47hf-4xg7",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "CRITICAL",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-346",
-        "cwe-441",
-        "cwe-601"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-108260 (CWE-79, CWE-83): @tinacms/web-components: `tina-markdown` writes rich-text link URLs into `href` without scheme validation, allowing stored XSS",
-      "summary": "### Summary\n\n`<tina-markdown>` renders a rich-text AST into the DOM and, for `a` nodes, assigns the node's URL straight to the anchor's `href` with no scheme check. A link authored in the CMS as `javascript:…` renders as...",
-      "url": "https://github.com/advisories/GHSA-c42q-qvc3-j6vg",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-79",
-        "cwe-83"
-      ]
-    },
-    {
-      "title": "[MEDIUM] CVE-2026-108258 (CWE-22): Shiny for Python has path traversal in bookmark restore",
-      "summary": "### Impact\n\nShiny for Python's bookmark-restore path accepted a client-supplied `_state_id_`\nquery-string value and joined it into the server-side bookmark directory\n(`<cwd>/shiny_bookmarks/<id>`) without validating it. ...",
-      "url": "https://github.com/advisories/GHSA-47c3-hpmg-7j6p",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-22"
-      ]
-    },
-    {
-      "title": "[LOW] GHSA-w2ch-4xgr-22ww (CWE-285, CWE-862): Vikunja: Task relation deletion does not check read access to the other task, allowing cross-project relation removal",
-      "summary": "## Summary\n\nDeleting a task relation only requires write access on the base task. Unlike relation creation, it does not verify that the caller can read the other task. A user with write access to one project can therefor...",
-      "url": "https://github.com/advisories/GHSA-w2ch-4xgr-22ww",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "LOW",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-285",
-        "cwe-862"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-8wvg-r2j4-3737 (CWE-200): Vikunja: Assignee email addresses disclosed to read-only project members via the task assignees endpoint",
-      "summary": "### Summary\n`TaskAssginee.ReadAll` returns assignee user objects without blanking the `Email` field, disclosing assignee email addresses to any read-only project member. Every sibling path that returns user objects obfus...",
-      "url": "https://github.com/advisories/GHSA-8wvg-r2j4-3737",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-200"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-3hc7-r24j-rpwc (CWE-200, CWE-862): Vikunja: Cross-project task disclosure through subtask expansion",
-      "summary": "### Summary\nVikunja lets a task in one project have a subtask that lives in a different project. When listing a project's tasks, an option pulls in those subtasks (?expand%5B%5D=subtasks). The main listing is correctly f...",
-      "url": "https://github.com/advisories/GHSA-3hc7-r24j-rpwc",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-200",
-        "cwe-862"
-      ]
-    },
-    {
-      "title": "Cloudflare acquires Deno",
-      "summary": "Hacker News (1012 pts, 523 comments) by @ilreb",
-      "url": "https://deno.com/blog/cloudflare",
+      "title": "2D Vehicles",
+      "summary": "Hacker News (303 pts, 71 comments) by @Michelangelo11",
+      "url": "https://patkerr.co.uk/2d-vehicles/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "1012 pts",
-      "upvotes": 1012,
+      "badge": "303 pts",
+      "upvotes": 303,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2409,13 +1915,13 @@
       ]
     },
     {
-      "title": "Triple-A Minesweeper",
-      "summary": "Hacker News (516 pts, 101 comments) by @robin_reala",
-      "url": "https://minesweeper.mikelacher.com/",
+      "title": "A city-building game in which the city would prefer you didn't",
+      "summary": "Hacker News (85 pts, 33 comments) by @JumpCrisscross",
+      "url": "https://housing.over.pizza/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "516 pts",
-      "upvotes": 516,
+      "badge": "85 pts",
+      "upvotes": 85,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2424,13 +1930,13 @@
       ]
     },
     {
-      "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
-      "summary": "Hacker News (180 pts, 16 comments) by @simplyalec",
-      "url": "https://carrierexplode.com/",
+      "title": "Nix wrote half of my debugger",
+      "summary": "Hacker News (89 pts, 7 comments) by @ingve",
+      "url": "https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "180 pts",
-      "upvotes": 180,
+      "badge": "89 pts",
+      "upvotes": 89,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2439,13 +1945,13 @@
       ]
     },
     {
-      "title": "Our $445M Series D",
-      "summary": "Hacker News (561 pts, 247 comments) by @ahlCVA",
-      "url": "https://oxide.computer/blog/our-445m-series-d",
+      "title": "Why DuckDB 2.0 is faster",
+      "summary": "Hacker News (106 pts, 34 comments) by @tosh",
+      "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "561 pts",
-      "upvotes": 561,
+      "badge": "106 pts",
+      "upvotes": 106,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2454,13 +1960,13 @@
       ]
     },
     {
-      "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
-      "summary": "Hacker News (335 pts, 175 comments) by @gumby",
-      "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
+      "title": "Knuth reward check",
+      "summary": "Hacker News (123 pts, 47 comments) by @Curiositry",
+      "url": "https://www.thomas-huehn.com/knuth-reward-check/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "335 pts",
-      "upvotes": 335,
+      "badge": "123 pts",
+      "upvotes": 123,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2469,13 +1975,13 @@
       ]
     },
     {
-      "title": "Sorry, I'm in a meeting",
-      "summary": "Hacker News (721 pts, 225 comments) by @splintersio",
-      "url": "https://iminafleeting.com/",
+      "title": "The Lightbulb Computer",
+      "summary": "Hacker News (151 pts, 37 comments) by @oskarth",
+      "url": "https://lightbulbcomputer.com/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "721 pts",
-      "upvotes": 721,
+      "badge": "151 pts",
+      "upvotes": 151,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2484,13 +1990,13 @@
       ]
     },
     {
-      "title": "Typesafe AI raises $870M at $7.5B",
-      "summary": "Hacker News (231 pts, 197 comments) by @tosh",
-      "url": "https://typesafe.ai/blog/series-ai",
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "summary": "Hacker News (228 pts, 114 comments) by @rociiu",
+      "url": "https://github.com/rociiu/talorys",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "231 pts",
-      "upvotes": 231,
+      "badge": "228 pts",
+      "upvotes": 228,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2499,13 +2005,13 @@
       ]
     },
     {
-      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
-      "summary": "Hacker News (93 pts, 45 comments) by @piratebroadcast",
-      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+      "title": "Mxc: Microsoft Execution Containers version 1.0.0",
+      "summary": "Hacker News (144 pts, 32 comments) by @smokel",
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "93 pts",
-      "upvotes": 93,
+      "badge": "144 pts",
+      "upvotes": 144,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2514,13 +2020,13 @@
       ]
     },
     {
-      "title": "Japan's Most Famous Tuna Buyer Says He Turned Somali Pirates into Fishermen",
-      "summary": "Hacker News (19 pts, 5 comments) by @robaato",
-      "url": "https://www.japaninsides.com/the-sushi-king-who-went-to-somalia-how-japans-most-famous-tuna-buyer-says-he-turned-pirates-into-fishermen-55344",
+      "title": "Recent AI models struggled to match a human algorithmic innovation",
+      "summary": "Hacker News (60 pts, 49 comments) by @merksittich",
+      "url": "https://epoch.ai/publications/innovationeval",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "19 pts",
-      "upvotes": 19,
+      "badge": "60 pts",
+      "upvotes": 60,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2529,13 +2035,13 @@
       ]
     },
     {
-      "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
-      "summary": "Hacker News (363 pts, 161 comments) by @franze",
-      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "title": "REA Reverse – Engineer Anything",
+      "summary": "Hacker News (669 pts, 294 comments) by @modinfo",
+      "url": "https://rea.tools/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "363 pts",
-      "upvotes": 363,
+      "badge": "669 pts",
+      "upvotes": 669,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2544,13 +2050,13 @@
       ]
     },
     {
-      "title": "Show HN: Proton Drive for Linux",
-      "summary": "Hacker News (23 pts, 6 comments) by @khaosdoctor",
-      "url": "https://oss.lsantos.dev/proton-drive-linux-fs/",
+      "title": "Apple/macOS removed from official Unix registry",
+      "summary": "Hacker News (230 pts, 207 comments) by @john_alan",
+      "url": "https://www.opengroup.org//openbrand/register/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "23 pts",
-      "upvotes": 23,
+      "badge": "230 pts",
+      "upvotes": 230,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2559,13 +2065,13 @@
       ]
     },
     {
-      "title": "Nobel Peace Prize for 2026 to Navanethem Pillay",
-      "summary": "Hacker News (427 pts, 217 comments) by @Anon84",
-      "url": "https://www.nobelprize.org/prizes/peace/2026/press-release/",
+      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "summary": "Hacker News (92 pts, 58 comments) by @arkj",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "427 pts",
-      "upvotes": 427,
+      "badge": "92 pts",
+      "upvotes": 92,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2574,13 +2080,13 @@
       ]
     },
     {
-      "title": "No Man Is an Island",
-      "summary": "Hacker News (245 pts, 141 comments) by @zetalyrae",
-      "url": "https://borretti.me/article/no-man-is-an-island",
+      "title": "Grieving the loss of details",
+      "summary": "Hacker News (308 pts, 245 comments) by @signa11",
+      "url": "https://purplesyringa.moe/blog/grieving-the-loss-of-details/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "245 pts",
-      "upvotes": 245,
+      "badge": "308 pts",
+      "upvotes": 308,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2589,13 +2095,13 @@
       ]
     },
     {
-      "title": "'Wallace and Gromit,' 90% Alone",
-      "summary": "Hacker News (143 pts, 19 comments) by @vinhnx",
-      "url": "https://animationobsessive.substack.com/p/wallace-and-gromit-90-alone",
+      "title": "Unikernels were hard. key word: were",
+      "summary": "Hacker News (66 pts, 30 comments) by @ghuntley",
+      "url": "https://ghuntley.com/unikernels/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "143 pts",
-      "upvotes": 143,
+      "badge": "66 pts",
+      "upvotes": 66,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2604,13 +2110,13 @@
       ]
     },
     {
-      "title": "Show HN: The rarest tech books and docs you've probably never read",
-      "summary": "Hacker News (55 pts, 9 comments) by @miletus",
-      "url": "https://readrare.com/",
+      "title": "Rampart: Browser native on-device PII radaction",
+      "summary": "Hacker News (62 pts, 28 comments) by @nateb2022",
+      "url": "https://ndstudio.gov/posts/say-hello-to-rampart",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "55 pts",
-      "upvotes": 55,
+      "badge": "62 pts",
+      "upvotes": 62,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
