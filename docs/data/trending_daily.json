@@ -9,9 +9,9 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 159940,
-      "forks": 37279,
-      "stars_since": "45,327",
+      "stars": 205890,
+      "forks": 50131,
+      "stars_since": "54,706",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -47,9 +47,9 @@
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 53747,
-      "forks": 10613,
-      "stars_since": "1,895",
+      "stars": 55317,
+      "forks": 10820,
+      "stars_since": "1,961",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -78,6 +78,44 @@
     },
     {
       "rank": 3,
+      "full_name": "debpalash/VoiceStudio",
+      "owner": "debpalash",
+      "name": "VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 63153,
+      "forks": 7027,
+      "stars_since": "2,277",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4178343?s=40&v=4",
+          "username": "debpalash"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/270455167?s=40&v=4",
+          "username": "velixio"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5299031?s=40&v=4",
+          "username": "kevin9327"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1787973?s=40&v=4",
+          "username": "jaketame"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 4,
       "full_name": "mksglu/context-mode",
       "owner": "mksglu",
       "name": "context-mode",
@@ -85,9 +123,9 @@
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 27327,
-      "forks": 1946,
-      "stars_since": "246",
+      "stars": 28196,
+      "forks": 1990,
+      "stars_since": "978",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -111,83 +149,7 @@
       "source": "github"
     },
     {
-      "rank": 4,
-      "full_name": "storytold/artcraft",
-      "owner": "storytold",
-      "name": "artcraft",
-      "url": "https://github.com/storytold/artcraft",
-      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 22183,
-      "forks": 3578,
-      "stars_since": "4,095",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/39263?s=40&v=4",
-          "username": "echelon"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/46063141?s=40&v=4",
-          "username": "bflatastic"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6252325?s=40&v=4",
-          "username": "ArEnSc"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1340665?s=40&v=4",
-          "username": "wilwong"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/75916236?s=40&v=4",
-          "username": "Quicksticks-oss"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 5,
-      "full_name": "open-webui/open-webui",
-      "owner": "open-webui",
-      "name": "open-webui",
-      "url": "https://github.com/open-webui/open-webui",
-      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 155060,
-      "forks": 22643,
-      "stars_since": "157",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/25473318?s=40&v=4",
-          "username": "tjbck"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/27028174?s=40&v=4",
-          "username": "Classic298"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/50341825?s=40&v=4",
-          "username": "silentoplayz"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/818368?s=40&v=4",
-          "username": "cheahjs"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/17093811?s=40&v=4",
-          "username": "ShirasawaSama"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 6,
       "full_name": "cathrynlavery/diagram-design",
       "owner": "cathrynlavery",
       "name": "diagram-design",
@@ -195,9 +157,9 @@
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
       "language_color": "#e34c26",
-      "stars": 52686,
-      "forks": 3333,
-      "stars_since": "2,081",
+      "stars": 54043,
+      "forks": 3429,
+      "stars_since": "1,813",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -206,16 +168,50 @@
           "username": "cathrynlavery"
         },
         {
+          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
+          "username": "rudycelekli"
+        },
+        {
           "avatar": "https://avatars.githubusercontent.com/u/174610155?s=40&v=4",
           "username": "parveen0029"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 6,
+      "full_name": "vercel-labs/skills",
+      "owner": "vercel-labs",
+      "name": "skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "description": "The open agent skills tool - npx skills",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 34469,
+      "forks": 2951,
+      "stars_since": "187",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/32676955?s=40&v=4",
+          "username": "quuu"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
-          "username": "rudycelekli"
+          "avatar": "https://avatars.githubusercontent.com/u/4800338?s=40&v=4",
+          "username": "huozhi"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/771968?s=40&v=4",
+          "username": "jonathanhefner"
         }
       ],
       "source": "github"
@@ -229,9 +225,9 @@
       "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
       "language": "Jupyter Notebook",
       "language_color": "#DA5B0B",
-      "stars": 37570,
-      "forks": 3874,
-      "stars_since": "879",
+      "stars": 38297,
+      "forks": 3916,
+      "stars_since": "1,004",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -260,72 +256,76 @@
     },
     {
       "rank": 8,
-      "full_name": "microsoft/BitNet",
-      "owner": "microsoft",
-      "name": "BitNet",
-      "url": "https://github.com/microsoft/BitNet",
-      "description": "Official inference framework for 1-bit LLMs",
-      "language": "C++",
-      "language_color": "#f34b7d",
-      "stars": 40927,
-      "forks": 3809,
-      "stars_since": "97",
+      "full_name": "storytold/artcraft",
+      "owner": "storytold",
+      "name": "artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 25555,
+      "forks": 4018,
+      "stars_since": "4,078",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/54800242?s=40&v=4",
-          "username": "potassiummmm"
+          "avatar": "https://avatars.githubusercontent.com/u/39263?s=40&v=4",
+          "username": "echelon"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/84831885?s=40&v=4",
-          "username": "tsong-ms"
+          "avatar": "https://avatars.githubusercontent.com/u/46063141?s=40&v=4",
+          "username": "bflatastic"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/49240599?s=40&v=4",
-          "username": "younesbelkada"
+          "avatar": "https://avatars.githubusercontent.com/u/6252325?s=40&v=4",
+          "username": "ArEnSc"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/57054352?s=40&v=4",
-          "username": "isHuangXin"
+          "avatar": "https://avatars.githubusercontent.com/u/1340665?s=40&v=4",
+          "username": "wilwong"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/178687198?s=40&v=4",
-          "username": "XsquirrelC"
+          "avatar": "https://avatars.githubusercontent.com/u/75916236?s=40&v=4",
+          "username": "Quicksticks-oss"
         }
       ],
       "source": "github"
     },
     {
       "rank": 9,
-      "full_name": "Alishahryar1/free-claude-code",
-      "owner": "Alishahryar1",
-      "name": "free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 59166,
-      "forks": 9318,
-      "stars_since": "626",
+      "full_name": "xtool-org/xtool",
+      "owner": "xtool-org",
+      "name": "xtool",
+      "url": "https://github.com/xtool-org/xtool",
+      "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+      "language": "Swift",
+      "language_color": "#F05138",
+      "stars": 9296,
+      "forks": 394,
+      "stars_since": "1,182",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/20476625?s=40&v=4",
-          "username": "Alishahryar1"
+          "avatar": "https://avatars.githubusercontent.com/u/12706786?s=40&v=4",
+          "username": "kabiroberai"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
+          "avatar": "https://avatars.githubusercontent.com/u/33566?s=40&v=4",
+          "username": "reklis"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
+          "avatar": "https://avatars.githubusercontent.com/u/16653389?s=40&v=4",
+          "username": "erikbdev"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/49880456?s=40&v=4",
-          "username": "Tanishq-1"
+          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
+          "username": "mvanhorn"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1180980?s=40&v=4",
+          "username": "pawlowskialex"
         }
       ],
       "source": "github"

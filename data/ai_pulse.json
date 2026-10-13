@@ -435,15 +435,15 @@
       ]
     },
     {
-      "title": "Systematic Multi-Agent Vision-and-Language Navigation: Formulation, Benchmark, and Method",
-      "summary": "Vision-and-Language Navigation (VLN) has largely focused on a single agent following a single instruction, yet many real-world applications require teams of robots to tackle tasks beyond the capabilities of any individua...",
-      "url": "https://huggingface.co/papers/2609.35965",
+      "title": "HyperThink: Text-to-Parameter Hypernetworks for Efficient Reasoning",
+      "summary": "Long-form thinking traces can substantially improve the multi-step reasoning performance of large language models (LLMs), but they introduce high inference-time overhead, with latency dominated by sequential decoding. We...",
+      "url": "https://huggingface.co/papers/2610.03039",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Yunzhe Xu, Zhe Liu",
-      "published_at": "2026-10-06",
+      "badge": "⭐ 0",
+      "upvotes": 0,
+      "authors": "Donggyun Kim, Jack Lu, Chanwoo Kim",
+      "published_at": "2026-10-01",
       "tags": [
         "paper",
         "arxiv",
@@ -451,142 +451,46 @@
       ]
     },
     {
-      "title": "Multi-Stream Attention Residuals",
-      "summary": "Attention Residuals (AttnRes) enables content-dependent retrieval over network depth, which can be viewed as single-stream softmax attention along the depth axis. Inspired by the success of multi-head attention along the...",
-      "url": "https://huggingface.co/papers/2610.13630",
+      "title": "PR-OPD: Privileged Representation On-policy Self-Distillation for Agentic Reinforcement Learning",
+      "summary": "Language-model agents are usually trained by reinforcement learning from one reward per episode, and privileged self-distillation enriches it by letting the same policy, given a skill, teach its skill-free self through t...",
+      "url": "https://huggingface.co/papers/2609.36642",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 23",
+      "upvotes": 23,
+      "authors": "Muyang Li, Jie Yang, Zhengyu Fang",
+      "published_at": "2026-09-28",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "UNITAS: A 3D-Native World Action Model for Embodied Manipulation",
+      "summary": "World action models (WAMs) aim to answer a coupled physical question: given a task instruction, what motion should the robot execute, and how will that motion change the surrounding world? Most existing WAMs build on pre...",
+      "url": "https://huggingface.co/papers/2610.12099",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Ruixiang Wang, Yongyi Su, Wenlve Zhou",
+      "published_at": "2026-10-07",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Visual Grounding Safety in Vision-Language Models",
+      "summary": "Vision-language models (VLMs) are increasingly trained to generate structured outputs like points and bounding boxes that downstream interfaces, agents, and robots can act on, yet safety alignment of this output channel ...",
+      "url": "https://huggingface.co/papers/2610.05637",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 2",
       "upvotes": 2,
-      "authors": "Xiaohan Qin, Xiangdong Zhang, Tuo Dai",
-      "published_at": "2026-10-08",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models",
-      "summary": "Humans perceive far more in a scene than what is explicitly depicted: a single glance captures past causes and future trajectories; a quick peek determines if a vehicle can fit between two parked cars; a few seconds of v...",
-      "url": "https://huggingface.co/papers/2610.08966",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 14",
-      "upvotes": 14,
-      "authors": "Xingang Guo, Jing Gu, Brian Jang",
-      "published_at": "2026-10-07",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Mental-Models for Multi-Agent Systems",
-      "summary": "Large foundation models have accelerated progress toward general-purpose agents that interact with humans and other agents through language and multimodal signals. However, robust multi-agent decision-making requires rea...",
-      "url": "https://huggingface.co/papers/2610.12453",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Hanan Gani, Lulu Shao, Manmohan Chandraker",
-      "published_at": "2026-10-07",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "BudgetPix: Compute-Adaptive Tokenization for Pixel-Space Image Diffusion",
-      "summary": "Most image generation models rely on uniform tokenization, allocating the exact same computational budget to equally-sized image patches. This static paradigm cannot adapt to different resource constraints at inference t...",
-      "url": "https://huggingface.co/papers/2610.12307",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Ozgur Kara, Yujia Chen, Daniel Watson",
-      "published_at": "2026-10-07",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Clinician use of language models diverges from how the models are evaluated",
-      "summary": "Large language model (LLM) assistants are being deployed to clinicians across health systems, and judgments about their readiness rest largely on benchmark scores, most of them derived from examination questions or curat...",
-      "url": "https://huggingface.co/papers/2610.11069",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Krithik Vishwanath, Haitong Lin, Anton Alyakin",
-      "published_at": "2026-10-07",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
-      "summary": "Recovering faithful 3D hand motion from video remains challenging due to frequent occlusions and incomplete visual observations, which make frame-wise pose estimates unreliable and temporally inconsistent. To address thi...",
-      "url": "https://huggingface.co/papers/2610.10512",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Chen Xu, Yunqi Li, Binbin Huang",
-      "published_at": "2026-10-06",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Few-Step Generation via Data-Space Iteration",
-      "summary": "Flow matching has emerged as a scalable paradigm for training high-quality generative models, but sampling from the learned probability flow requires many network evaluations. Distillation can reduce this cost to one or ...",
-      "url": "https://huggingface.co/papers/2610.12102",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
-      "authors": "Shanchuan Lin, Yansong Peng, Fu-Yun Wang",
-      "published_at": "2026-10-07",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "GATOR: Generative and Agentic 3D Object Reconstruction From Casual Images",
-      "summary": "Reconstructing complete, scene-aligned 3D objects from casual images requires integrating sparse, uncertain observations and inferring surfaces hidden by occlusions. We present GATOR, a generative and agentic framework t...",
-      "url": "https://huggingface.co/papers/2610.11215",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Qirui Wu, Stan Birchfield, Hesam Rabeti",
-      "published_at": "2026-10-08",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Distributionally Robust Mixture-of-Experts Training",
-      "summary": "Mixture-of-Experts (MoE) transformers scale capacity by activating only a few experts per token, but this sparsity creates a hidden reliability problem: when routing is imperfect, load-balanced models may send tokens to ...",
-      "url": "https://huggingface.co/papers/2610.07207",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
-      "authors": "Xin Teng, Muxiao Li, Hongyi Wen",
+      "authors": "Erfan Shayegani, Kundan Krishna, Yue Dong",
       "published_at": "2026-10-04",
       "tags": [
         "paper",
@@ -595,15 +499,15 @@
       ]
     },
     {
-      "title": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
-      "summary": "A latent recurrent language model applies a shared block of layers repeatedly, so one checkpoint can trade inference compute for accuracy by changing the loop count. At one loop, however, such models typically fall well ...",
-      "url": "https://huggingface.co/papers/2610.12582",
+      "title": "Prospective Hindsight: Self-Calibrating Reinforcement Learning via Prediction-Reality Gaps",
+      "summary": "Reinforcement learning for long-horizon agents relies on purely retrospective training signals: credit is assigned only after observing environmental consequences, leaving the agent's belief at action time invisible to t...",
+      "url": "https://huggingface.co/papers/2610.02740",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 3",
       "upvotes": 3,
-      "authors": "Faisal Ladhak, Shantanu Acharya, Santiago Akle Serano",
-      "published_at": "2026-10-07",
+      "authors": "Jiaxin Zhang, Xiangyu Peng, Qinglin Chen",
+      "published_at": "2026-10-01",
       "tags": [
         "paper",
         "arxiv",
@@ -611,15 +515,15 @@
       ]
     },
     {
-      "title": "The Life Cycle of a Massive Activation: Stochastic Birth, Weight-Decay-Driven Growth, and Competitive Consolidation",
-      "summary": "Massive activations, residual-stream coordinates with magnitudes far larger than typical activations, are associated with attention sinks in transformers, but how their scale is regulated during training remains incomple...",
-      "url": "https://huggingface.co/papers/2610.00423",
+      "title": "Evaluating LLM Creativity through Long-Tail Performance",
+      "summary": "Creativity benchmarks for large language models (LLMs) vary widely in task and metric design. This raises the question of whether they capture a common notion of creativity. We propose that this shared target can be form...",
+      "url": "https://huggingface.co/papers/2610.12998",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 3",
       "upvotes": 3,
-      "authors": "S. Aaron McClendon, Jorge Gallego-Feliciano, Antonios Saravanos",
-      "published_at": "2026-10-04",
+      "authors": "Yichen Wang, Tenghao Huang, Vishakh Padmakumar",
+      "published_at": "2026-10-08",
       "tags": [
         "paper",
         "arxiv",
@@ -627,14 +531,30 @@
       ]
     },
     {
-      "title": "SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations",
-      "summary": "Given a target dataset, such as faces with eyeglasses, and a background dataset, such as faces without, contrastive analysis separates salient factors specific to the target from common content shared by both. We aim for...",
-      "url": "https://huggingface.co/papers/2609.39635",
+      "title": "Same Output, Different Gold: Measuring How Reference Choice Moves a Multilingual Benchmark Score",
+      "summary": "A benchmark score compares a system output against a reference, and methodological attention falls almost entirely on the first term. We measure the second. The retained annotation record of a six-language benchmark for ...",
+      "url": "https://huggingface.co/papers/2610.03825",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 2",
       "upvotes": 2,
-      "authors": "Shuang Liang, Lejun Liao, Shiyuan Zhang",
+      "authors": "Parth Kulshreshtha, Shivali Dalmia, Abhishek Mukherji",
+      "published_at": "2026-10-01",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Initialization Improves LLM-Driven Discovery",
+      "summary": "Large Language Models (LLMs) have been used for novel discovery of algorithms, theorems, drugs, and other tasks through the use of harnesses that prompt an LLM to iteratively optimize an objective. In this work, we study...",
+      "url": "https://huggingface.co/papers/2610.00707",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 4",
+      "upvotes": 4,
+      "authors": "Mansi Sakarvadia, Marco Ciccone, Colin Raffel",
       "published_at": "2026-09-29",
       "tags": [
         "paper",
@@ -643,15 +563,15 @@
       ]
     },
     {
-      "title": "Self-Preservation in Language Models",
-      "summary": "Continual learning (CL) seeks to adapt pretrained models while preserving prior capabilities. Yet the tasks supplied for preservation cover only part of what a model knows, while forgetting can extend beyond them. Recent...",
-      "url": "https://huggingface.co/papers/2610.12602",
+      "title": "Branching On-Policy Distillation",
+      "summary": "On-policy distillation (OPD) provides teacher supervision on student-generated trajectories, but a single trajectory realizes only one continuation at each decision, limiting supervision coverage under a finite sampling ...",
+      "url": "https://huggingface.co/papers/2610.13481",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Dongkyu Cho, Rumi Chunara, Ali Behrouz",
-      "published_at": "2026-10-07",
+      "badge": "⭐ 5",
+      "upvotes": 5,
+      "authors": "Dongyang Chen, Shudong Liu, Shubo Li",
+      "published_at": "2026-10-08",
       "tags": [
         "paper",
         "arxiv",
@@ -659,14 +579,30 @@
       ]
     },
     {
-      "title": "Coding-Agent Benchmarks Should Match Their Users' Task Flows",
-      "summary": "The evaluation of coding agents generally strives to be as realistic as possible. In our study, we collect 4,782 agent sessions of real software engineers in JetBrains IDEs, which we call Production Sessions. Since our s...",
-      "url": "https://huggingface.co/papers/2610.09633",
+      "title": "CrossTimeEdit: A Decade-Spanning Cross-View Dataset and Reward-Guided Editing for Historical Street-View Generation",
+      "summary": "Historical street-view imagery records urban evolution, but uneven coverage leaves substantial gaps in historical records. Generating plausible past appearances requires restoring changed structures while preserving pers...",
+      "url": "https://huggingface.co/papers/2609.36616",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 11",
-      "upvotes": 11,
-      "authors": "Igor Slinko, Yaroslav Golubev, Sergey Titov",
+      "badge": "⭐ 20",
+      "upvotes": 20,
+      "authors": "Hanwen Lu, Jun He, Mingjia Yang",
+      "published_at": "2026-09-28",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "VIS-Ground: Video Interactive Storytelling with Contextual Grounding",
+      "summary": "Video interactive storytelling enables viewers to actively steer how a video unfolds. However, once we allow viewers to intervene during generation, a new challenge arises: The viewer's request can have latent dependenci...",
+      "url": "https://huggingface.co/papers/2610.09326",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 78",
+      "upvotes": 78,
+      "authors": "Bingxuan Li, Yiwen Song, Xueqing Wu",
       "published_at": "2026-10-06",
       "tags": [
         "paper",
@@ -675,14 +611,62 @@
       ]
     },
     {
-      "title": "QuantMLA: Function-Aligned Dual-Path Quantization for Low-Bit MLA KV Caching",
-      "summary": "Multi-Head Latent Attention (MLA) enables expressive multi-head attention with compact caches for its content and decoupled RoPE paths, yet cache memory still scales linearly with context length and batch size. In this w...",
-      "url": "https://huggingface.co/papers/2609.36760",
+      "title": "SPLATIFY: Reproduce, Discover, Innovate! From Papers and Ideas to Trainable 3DGS Code",
+      "summary": "The rapid growth of 3D Gaussian Splatting (3DGS) research demands significant effort to reimplement papers before building on them. We introduce SPLATIFY, a multi-agent framework that converts 3DGS papers into trainable ...",
+      "url": "https://huggingface.co/papers/2610.09116",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
-      "authors": "Zunhai Su, Yuxuan Sun, Jianchao Tan",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Seemandhar Jain, Keshav Gupta, Manmohan Chandraker",
+      "published_at": "2026-10-05",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training",
+      "summary": "Large language models have achieved remarkable advances in complex reasoning. However, scaling reasoning post-training with ever-larger corpora can substantially increase training cost without proportional performance ga...",
+      "url": "https://huggingface.co/papers/2610.12933",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 7",
+      "upvotes": 7,
+      "authors": "Suorong Yang, Jiaxin Wang, Jiaming Su",
+      "published_at": "2026-10-08",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
+      "summary": "As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to build agents fitted to their users' own workflows. This delegation carries a quiet assumption, that t...",
+      "url": "https://huggingface.co/papers/2610.13361",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 201",
+      "upvotes": 201,
+      "authors": "Jiahao Wang, Hongjin Qian, Yuyang Hu",
+      "published_at": "2026-10-08",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed",
+      "summary": "Autoregressive (AR) grounding models serialize spatial predictions, introducing sequential latency and imposing a causal order on output tokens. We view grounding as visual evidence extraction: objects, locations, and sp...",
+      "url": "https://huggingface.co/papers/2609.39600",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 73",
+      "upvotes": 73,
+      "authors": "Qize Yu, Lianrui Fan, Bowen Ping",
       "published_at": "2026-09-29",
       "tags": [
         "paper",
@@ -691,15 +675,15 @@
       ]
     },
     {
-      "title": "When to Rethink: Learning Multi-Perspective Self-Verification for Vision-Language Models",
-      "summary": "Vision-language models (VLMs) have achieved strong performance in multimodal reasoning, yet they remain prone to generating plausible but incorrect answers. Self-verification offers a practical way to improve answer reli...",
-      "url": "https://huggingface.co/papers/2610.07018",
+      "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
+      "summary": "Precise grounding matters. It specifies which object is the target and where that object is, even in clutter and for tiny objects, and it has to be fast enough for closed-loop control. Yet vision-language-action (VLA) an...",
+      "url": "https://huggingface.co/papers/2609.39601",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
-      "authors": "Ziquan Zhu, Hanruo Zhu, Si-Yuan Lu",
-      "published_at": "2026-10-03",
+      "badge": "⭐ 247",
+      "upvotes": 247,
+      "authors": "Qize Yu, Lianrui Fan, Boyu Chen",
+      "published_at": "2026-09-29",
       "tags": [
         "paper",
         "arxiv",
@@ -707,15 +691,15 @@
       ]
     },
     {
-      "title": "MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances",
-      "summary": "Generating realistic human-object interactions (HOI) in complex 3D scenes requires two complementary capabilities: reasoning about interaction feasibility in the environment and synthesizing realistic human-object motion...",
-      "url": "https://huggingface.co/papers/2610.12416",
+      "title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+      "summary": "Terminal agents are moving beyond local operations toward completing real-world professional tasks. Short trajectories can demonstrate commands and tool calls, but they do not fully show how agents accumulate evidence th...",
+      "url": "https://huggingface.co/papers/2610.13166",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Mingyuan Lei, Yoonchang Sung, Tat-Jen Cham",
-      "published_at": "2026-10-07",
+      "badge": "⭐ 133",
+      "upvotes": 133,
+      "authors": "Shun Zou, Ziyu Ma, Yi Zou",
+      "published_at": "2026-10-08",
       "tags": [
         "paper",
         "arxiv",
@@ -723,31 +707,15 @@
       ]
     },
     {
-      "title": "MetaKernelBench: Measuring GPU Kernel Knowledge Transfer Beyond Code",
-      "summary": "Recent GPU kernel optimization agents retain what they learn in knowledge bases or as distilled skills. Kernel benchmarks score each attempt's implementation for correctness and speed but leave the reuse value of retaine...",
-      "url": "https://huggingface.co/papers/2610.05014",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 16",
-      "upvotes": 16,
-      "authors": "Xueyi Chen, Shiyu Liu, Xin Jin",
-      "published_at": "2026-10-03",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Universal Textual Teaching for LLMs",
-      "summary": "Knowledge distillation (KD) transfers knowledge from stronger Teacher models to weaker Student models, but most methods require training the Student parameters, thereby binding the distilled knowledge to a specific archi...",
-      "url": "https://huggingface.co/papers/2610.12114",
+      "title": "T3lescope: Arbitrary-Resolution High-Fidelity Generative Surface Reconstruction from Images",
+      "summary": "We reconstruct high-fidelity 3D scene meshes from posed multi-view images without per-scene optimization, across scales ranging from single objects to large outdoor scenes. Per-scene optimization methods lack the learned...",
+      "url": "https://huggingface.co/papers/2610.03308",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 10",
       "upvotes": 10,
-      "authors": "Zhanyi Lu, Huan Wang",
-      "published_at": "2026-10-07",
+      "authors": "Atsuhiro Noguchi, Tianhan Xu, Yiming Liang",
+      "published_at": "2026-10-01",
       "tags": [
         "paper",
         "arxiv",
@@ -755,127 +723,253 @@
       ]
     },
     {
-      "title": "[HIGH] GHSA-m687-p538-r5hp (CWE-942): Vikunja: Permissive Cross-domain Security Policy trusts every localhost origin which should not be trusted",
-      "summary": "## Summary\n\nVikunja ships with `cors.origins` defaulting to `http://127.0.0.1:*` and `http://localhost:*`, and sends `Access-Control-Allow-Credentials: true`, so a page served from any port on the user's own machine may ...",
-      "url": "https://github.com/advisories/GHSA-m687-p538-r5hp",
+      "title": "ARCS: Towards Precise Text-to-SQL via Structured Disambiguation",
+      "summary": "As text-to-SQL systems move beyond demonstrations toward real-world deployment, ambiguity in user questions becomes a primary source of errors. Such ambiguities are often subtle, domain- or data-specific, and can silentl...",
+      "url": "https://huggingface.co/papers/2610.09396",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 8",
+      "upvotes": 8,
+      "authors": "Yihao Hu, Yanlin Feng, Naoki Otani",
+      "published_at": "2026-10-06",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents",
+      "summary": "Personal Graphical User Interface (GUI) agents rely on interaction history to infer what a user wants from ambiguous instructions and to anticipate recurring routines. Existing approaches retrieve task-relevant history a...",
+      "url": "https://huggingface.co/papers/2609.33304",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 30",
+      "upvotes": 30,
+      "authors": "Fuyao Zhang, Xuan Wang, Zherui Li",
+      "published_at": "2026-09-26",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-70035 (CWE-502): Microsoft Security Advisory CVE-2026-70035 - .NET and Visual Studio Remote Code Execution Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-4j9v-h7pp-725h",
       "source": "CVE & Security Advisory",
       "category": "Lỗ Hổng CVE/CWE",
       "badge": "HIGH",
-      "published_at": "2026-10-09",
+      "published_at": "2026-10-13",
       "tags": [
         "cve",
         "cwe",
         "security",
         "vulnerability",
-        "cwe-942"
+        "cwe-502"
       ]
     },
     {
-      "title": "[MEDIUM] GHSA-fmmf-xq98-g327 (CWE-863): Vikunja: Write-level project members can delete admin-tier link shares through an unloaded permission check",
-      "summary": "## Summary\n\nA project member with Write permission can delete an admin-tier link share on that project. The deletion authorization check reads the permission from an object populated only with URL IDs, rather than from t...",
-      "url": "https://github.com/advisories/GHSA-fmmf-xq98-g327",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-863"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-pjr3-86v4-5p7w (CWE-269, CWE-284): Vikunja: Explicit lower-permission share on a sub-project is silently overridden by an inherited parent permission (broken access control / privilege-management regression in v2.6.0)",
-      "summary": "## Description\n\n### Summary\n\nIn Vikunja v2.6.0 the project-permission engine resolves a user's effective permission on a project as\nthe **MAX over the entire reachable project subtree**. As a result, when a user has been...",
-      "url": "https://github.com/advisories/GHSA-pjr3-86v4-5p7w",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-269",
-        "cwe-284"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-hjx8-qv73-f7cm (CWE-613, CWE-863): Vikunja: Webhooks and link shares survive every revocation path, so a removed collaborator keeps a live feed",
-      "summary": "## Summary\n\nA collaborator removed from a project keeps a **live, automatic feed** of that project's contents, because nothing on any revocation path deletes the webhook they created while they had access.\n\nVikunja alrea...",
-      "url": "https://github.com/advisories/GHSA-hjx8-qv73-f7cm",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-613",
-        "cwe-863"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-fprf-r6rv-xg99 (CWE-863): Vikunja: Saved filter creation with an empty filter string recalculates task positions across all tenants",
-      "summary": "### Summary\n\nIn Vikunja v2.6.0 the task position recalculation that runs when a saved filter view is created fails open when the requesting user has no accessible projects. Instead of aborting, the search that feeds the ...",
-      "url": "https://github.com/advisories/GHSA-fprf-r6rv-xg99",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-863"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-4hv6-xc92-j86g (CWE-613): Vikunja: WebSocket authentication ignores server-side session state, so revoked sessions keep receiving live pushes",
-      "summary": "### Summary\n\nVikunja v2.6.0 introduced server-side sessions with revocation semantics: `DELETE /api/v2/user/sessions/{id}` documents \"Revokes a specific session by its UUID\", and enabling TOTP calls `DeleteAllUserSession...",
-      "url": "https://github.com/advisories/GHSA-4hv6-xc92-j86g",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-613"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-107805 (CWE-400): Nginx UI: Unauthenticated signed-request body staging can exhaust temporary storage",
-      "summary": "## Summary\n\nIn Nginx UI versions 2.5.0 through 2.5.x, the node-signature authentication path staged an attacker-controlled request body in a temporary file and synchronized it to disk before validating the body digest an...",
-      "url": "https://github.com/advisories/GHSA-j3hg-9rp3-5hw9",
+      "title": "[HIGH] CVE-2026-70186 (CWE-833): Microsoft Security Advisory CVE-2026-70186 - ASP.NET Core Denial of Service Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.AspNetCore.Server.Kestrel.Core. This advisory also provides guidance on what developers can do...",
+      "url": "https://github.com/advisories/GHSA-mf4x-w4gh-4656",
       "source": "CVE & Security Advisory",
       "category": "Lỗ Hổng CVE/CWE",
       "badge": "HIGH",
-      "published_at": "2026-10-09",
+      "published_at": "2026-10-13",
       "tags": [
         "cve",
         "cwe",
         "security",
         "vulnerability",
-        "cwe-400"
+        "cwe-833"
       ]
     },
     {
-      "title": "[MEDIUM] CVE-2026-107804 (CWE-346): Nginx UI: Bundled reverse proxy can bypass IP allowlists and enable shared login lockout",
-      "summary": "## Summary\n\nIn Nginx UI versions 2.2.0 through 2.5.x, the official bundled reverse-proxy topology did not preserve the external client identity used by Gin. The backend treated the local proxy peer as the client because ...",
-      "url": "https://github.com/advisories/GHSA-9h23-53f4-q947",
+      "title": "[HIGH] CVE-2026-70007 (CWE-787): Microsoft Security Advisory CVE-2026-70007 - .NET and Visual Studio Remote Code Execution Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-pfwj-2f93-rf42",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-787"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-87697 (CWE-502): Microsoft Security Advisory CVE-2026-87697 - .NET and Visual Studio Remote Code Execution Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-c27m-942f-rcfh",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-502"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-96225 (CWE-59): Microsoft Security Advisory CVE-2026-96225 - .NET and Visual Studio Elevation of Privilege Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.NETCore.App.Runtime; System.Private.CoreLib. This advisory also provides guidance on what deve...",
+      "url": "https://github.com/advisories/GHSA-w6wh-p4g7-mpj2",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-59"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-96230 (CWE-79): Microsoft Security Advisory CVE-2026-96230 - ASP.NET Core Remote Code Execution Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.AspNetCore.Components.WebAssembly.Server. This advisory also provides guidance on what develop...",
+      "url": "https://github.com/advisories/GHSA-qjpx-jqm5-h2c4",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-79"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-70179 (CWE-290): Microsoft Security Advisory CVE-2026-70179 - ASP.NET Core Elevation of Privilege Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.AspNetCore.Authentication.Negotiate. This advisory also provides guidance on what developers c...",
+      "url": "https://github.com/advisories/GHSA-vrrp-6v32-2p8g",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-290"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-96224 (CWE-787): Microsoft Security Advisory CVE-2026-96224 - .NET and Visual Studio Remote Code Execution Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-xq57-crx4-g373",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-787"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-85363 (CWE-190): Microsoft Security Advisory CVE-2026-85363 - .NET and Visual Studio Remote Code Execution Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-f63g-mx39-3r38",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-190"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-96959 (CWE-770): Microsoft Security Advisory CVE-2026-96959 - .NET and Visual Studio Denial of Service Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in System.Security.Cryptography.Xml; System.Private.Xml. This advisory also provides guidance on what devel...",
+      "url": "https://github.com/advisories/GHSA-c399-9853-6jmj",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-770"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-83520 (CWE-502): Microsoft Security Advisory CVE-2026-83520 - .NET and Visual Studio Remote Code Execution Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-4w5f-7jp2-w48g",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-502"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-70174 (CWE-358): Microsoft Security Advisory CVE-2026-70174 - .NET and Visual Studio Remote Code Execution Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-f749-vhgx-39h6",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-358"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-96232 (CWE-125): Microsoft Security Advisory CVE-2026-96232 - .NET and Visual Studio Information Disclosure Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-f8qh-mqg4-9939",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-125"
+      ]
+    },
+    {
+      "title": "[MEDIUM] CVE-2026-96234 (CWE-346): Microsoft Security Advisory CVE-2026-96234 - .NET and Visual Studio Information Disclosure Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-fq6x-pvr9-888r",
       "source": "CVE & Security Advisory",
       "category": "Lỗ Hổng CVE/CWE",
       "badge": "MEDIUM",
-      "published_at": "2026-10-09",
+      "published_at": "2026-10-13",
       "tags": [
         "cve",
         "cwe",
@@ -885,130 +979,29 @@
       ]
     },
     {
-      "title": "[HIGH] CVE-2026-108259 (CWE-94): Tina: Code injection via unescaped Git branch name in generated client source",
-      "summary": "### Summary\n\n`@tinacms/cli` inserts the raw Git branch value into the generated `client.ts` source without escaping or encoding. A Git-valid branch name can close the string literal and inject an arbitrary JavaScript exp...",
-      "url": "https://github.com/advisories/GHSA-pwhx-cvv3-qj5c",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-94"
-      ]
-    },
-    {
-      "title": "[CRITICAL] CVE-2026-108261 (CWE-346, CWE-441, CWE-601): TinaCMS admin preview iframe loads an attacker-controlled origin from the URL fragment",
-      "summary": "### Summary\n\nThe TinaCMS admin builds its preview `<iframe src>` from the `/~/*` hash-router splat without checking that the value stays same-origin. A fragment with a doubled slash (`#/~//attacker.example/p`) becomes th...",
-      "url": "https://github.com/advisories/GHSA-x34j-47hf-4xg7",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "CRITICAL",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-346",
-        "cwe-441",
-        "cwe-601"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-108260 (CWE-79, CWE-83): @tinacms/web-components: `tina-markdown` writes rich-text link URLs into `href` without scheme validation, allowing stored XSS",
-      "summary": "### Summary\n\n`<tina-markdown>` renders a rich-text AST into the DOM and, for `a` nodes, assigns the node's URL straight to the anchor's `href` with no scheme check. A link authored in the CMS as `javascript:…` renders as...",
-      "url": "https://github.com/advisories/GHSA-c42q-qvc3-j6vg",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-79",
-        "cwe-83"
-      ]
-    },
-    {
-      "title": "[MEDIUM] CVE-2026-108258 (CWE-22): Shiny for Python has path traversal in bookmark restore",
-      "summary": "### Impact\n\nShiny for Python's bookmark-restore path accepted a client-supplied `_state_id_`\nquery-string value and joined it into the server-side bookmark directory\n(`<cwd>/shiny_bookmarks/<id>`) without validating it. ...",
-      "url": "https://github.com/advisories/GHSA-47c3-hpmg-7j6p",
+      "title": "[MEDIUM] CVE-2026-96229 (CWE-183): Microsoft Security Advisory CVE-2026-96229 - .NET and Visual Studio Information Disclosure Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-5qr9-xxm9-6cmq",
       "source": "CVE & Security Advisory",
       "category": "Lỗ Hổng CVE/CWE",
       "badge": "MEDIUM",
-      "published_at": "2026-10-09",
+      "published_at": "2026-10-13",
       "tags": [
         "cve",
         "cwe",
         "security",
         "vulnerability",
-        "cwe-22"
+        "cwe-183"
       ]
     },
     {
-      "title": "[LOW] GHSA-w2ch-4xgr-22ww (CWE-285, CWE-862): Vikunja: Task relation deletion does not check read access to the other task, allowing cross-project relation removal",
-      "summary": "## Summary\n\nDeleting a task relation only requires write access on the base task. Unlike relation creation, it does not verify that the caller can read the other task. A user with write access to one project can therefor...",
-      "url": "https://github.com/advisories/GHSA-w2ch-4xgr-22ww",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "LOW",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-285",
-        "cwe-862"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-8wvg-r2j4-3737 (CWE-200): Vikunja: Assignee email addresses disclosed to read-only project members via the task assignees endpoint",
-      "summary": "### Summary\n`TaskAssginee.ReadAll` returns assignee user objects without blanking the `Email` field, disclosing assignee email addresses to any read-only project member. Every sibling path that returns user objects obfus...",
-      "url": "https://github.com/advisories/GHSA-8wvg-r2j4-3737",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-200"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-3hc7-r24j-rpwc (CWE-200, CWE-862): Vikunja: Cross-project task disclosure through subtask expansion",
-      "summary": "### Summary\nVikunja lets a task in one project have a subtask that lives in a different project. When listing a project's tasks, an option pulls in those subtasks (?expand%5B%5D=subtasks). The main listing is correctly f...",
-      "url": "https://github.com/advisories/GHSA-3hc7-r24j-rpwc",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-200",
-        "cwe-862"
-      ]
-    },
-    {
-      "title": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
-      "summary": "Hacker News (88 pts, 49 comments) by @arunc",
-      "url": "https://doi.org/10.1111/acel.70751",
+      "title": "OpenAI engineer arrested in bugging of executive conference room",
+      "summary": "Hacker News (332 pts, 282 comments) by @forthwall",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "88 pts",
-      "upvotes": 88,
+      "badge": "332 pts",
+      "upvotes": 332,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1017,13 +1010,13 @@
       ]
     },
     {
-      "title": "GPT-6 Astra Helped Me Jailbreak My Kindle",
-      "summary": "Hacker News (99 pts, 55 comments) by @nirajrajgor",
-      "url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+      "title": "Gemini 4 Argon",
+      "summary": "Hacker News (890 pts, 698 comments) by @737max",
+      "url": "https://deepmind.google/models/gemini/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "99 pts",
-      "upvotes": 99,
+      "badge": "890 pts",
+      "upvotes": 890,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1032,13 +1025,13 @@
       ]
     },
     {
-      "title": "GLM-Legal",
-      "summary": "Hacker News (428 pts, 247 comments) by @ilreb",
-      "url": "https://z.ai/blog/glm-legal",
+      "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
+      "summary": "Hacker News (194 pts, 76 comments) by @talccc",
+      "url": "https://guitoro.com/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "428 pts",
-      "upvotes": 428,
+      "badge": "194 pts",
+      "upvotes": 194,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1047,13 +1040,13 @@
       ]
     },
     {
-      "title": "Who Is Vfmaddrnd231pd?",
-      "summary": "Hacker News (112 pts, 9 comments) by @pngmangi",
-      "url": "https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd/",
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "summary": "Hacker News (357 pts, 290 comments) by @thm",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "112 pts",
-      "upvotes": 112,
+      "badge": "357 pts",
+      "upvotes": 357,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1062,13 +1055,13 @@
       ]
     },
     {
-      "title": "A Modern Web App in C",
-      "summary": "Hacker News (392 pts, 161 comments) by @prophittcorey",
-      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+      "title": "Redesigning source control at Anthropic",
+      "summary": "Hacker News (466 pts, 464 comments) by @Philpax",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "392 pts",
-      "upvotes": 392,
+      "badge": "466 pts",
+      "upvotes": 466,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1077,13 +1070,13 @@
       ]
     },
     {
-      "title": "The baffling intelligence of a single cell (2024)",
-      "summary": "Hacker News (35 pts, 1 comments) by @jsomers",
-      "url": "https://jsomers.net/e-coli-chemotaxis/",
+      "title": "Apple HomeView",
+      "summary": "Hacker News (628 pts, 756 comments) by @etothet",
+      "url": "https://www.apple.com/apple-homeview/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "35 pts",
-      "upvotes": 35,
+      "badge": "628 pts",
+      "upvotes": 628,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1092,13 +1085,13 @@
       ]
     },
     {
-      "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
-      "summary": "Hacker News (65 pts, 20 comments) by @hurricanepootis",
-      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+      "title": "Thunderbird for iOS",
+      "summary": "Hacker News (301 pts, 123 comments) by @mjorgers",
+      "url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "65 pts",
-      "upvotes": 65,
+      "badge": "301 pts",
+      "upvotes": 301,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1107,13 +1100,13 @@
       ]
     },
     {
-      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
-      "summary": "Hacker News (444 pts, 655 comments) by @Zeekaas",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+      "title": "11 year old unsoundness bugs found in Rust borrow checker",
+      "summary": "Hacker News (650 pts, 362 comments) by @formerly_proven",
+      "url": "https://github.com/rust-lang/rust/issues/164250",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "444 pts",
-      "upvotes": 444,
+      "badge": "650 pts",
+      "upvotes": 650,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1122,13 +1115,13 @@
       ]
     },
     {
-      "title": "Making big downloads resumable in Firefox",
-      "summary": "Hacker News (88 pts, 32 comments) by @speckx",
-      "url": "https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html",
+      "title": "AlphaNIST",
+      "summary": "Hacker News (17 pts, 0 comments) by @jasonjmcghee",
+      "url": "https://alpha-nist.github.io/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "88 pts",
-      "upvotes": 88,
+      "badge": "17 pts",
+      "upvotes": 17,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1137,13 +1130,13 @@
       ]
     },
     {
-      "title": "Phreak.ing – Internet Phone Switch",
-      "summary": "Hacker News (71 pts, 24 comments) by @rickcarlino",
-      "url": "https://phreak.ing/",
+      "title": "Firefox Enterprise",
+      "summary": "Hacker News (604 pts, 252 comments) by @recvonline",
+      "url": "https://www.firefox.com/en-US/enterprise/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "71 pts",
-      "upvotes": 71,
+      "badge": "604 pts",
+      "upvotes": 604,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1152,13 +1145,13 @@
       ]
     },
     {
-      "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
-      "summary": "Hacker News (29 pts, 13 comments) by @khalidkhair",
-      "url": "https://github.com/prabanta-dev/janas",
+      "title": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
+      "summary": "Hacker News (1 pts, 0 comments) by @morraa",
+      "url": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "29 pts",
-      "upvotes": 29,
+      "badge": "1 pts",
+      "upvotes": 1,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1167,13 +1160,13 @@
       ]
     },
     {
-      "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
-      "summary": "Hacker News (259 pts, 69 comments) by @djfergus",
-      "url": "https://github.com/h0m3us3r/w1700k-sdr",
+      "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+      "summary": "Hacker News (223 pts, 139 comments) by @sammy0910",
+      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "259 pts",
-      "upvotes": 259,
+      "badge": "223 pts",
+      "upvotes": 223,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1182,13 +1175,13 @@
       ]
     },
     {
-      "title": "Writing a Demoscene Intro for the ZX Spectrum",
-      "summary": "Hacker News (76 pts, 6 comments) by @zdw",
-      "url": "https://www.markround.com/blog/2026/zx-spectrum-intro",
+      "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+      "summary": "Hacker News (4 pts, 0 comments) by @niztk",
+      "url": "https://pulseos.finance",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "76 pts",
-      "upvotes": 76,
+      "badge": "4 pts",
+      "upvotes": 4,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1197,13 +1190,28 @@
       ]
     },
     {
-      "title": "Citroen revives the 2CV for an electric age",
-      "summary": "Hacker News (267 pts, 317 comments) by @scrlk",
-      "url": "https://www.bbc.com/news/articles/c620r33plgppo",
+      "title": "The United Kingdom generates less electricity per person than in the 1970s",
+      "summary": "Hacker News (176 pts, 247 comments) by @karakoram",
+      "url": "https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "267 pts",
-      "upvotes": 267,
+      "badge": "176 pts",
+      "upvotes": 176,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
+      "summary": "Hacker News (162 pts, 272 comments) by @ivell",
+      "url": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "162 pts",
+      "upvotes": 162,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1812,15 +1820,15 @@
       ]
     },
     {
-      "title": "Systematic Multi-Agent Vision-and-Language Navigation: Formulation, Benchmark, and Method",
-      "summary": "Vision-and-Language Navigation (VLN) has largely focused on a single agent following a single instruction, yet many real-world applications require teams of robots to tackle tasks beyond the capabilities of any individua...",
-      "url": "https://huggingface.co/papers/2609.35965",
+      "title": "HyperThink: Text-to-Parameter Hypernetworks for Efficient Reasoning",
+      "summary": "Long-form thinking traces can substantially improve the multi-step reasoning performance of large language models (LLMs), but they introduce high inference-time overhead, with latency dominated by sequential decoding. We...",
+      "url": "https://huggingface.co/papers/2610.03039",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Yunzhe Xu, Zhe Liu",
-      "published_at": "2026-10-06",
+      "badge": "⭐ 0",
+      "upvotes": 0,
+      "authors": "Donggyun Kim, Jack Lu, Chanwoo Kim",
+      "published_at": "2026-10-01",
       "tags": [
         "paper",
         "arxiv",
@@ -1828,142 +1836,46 @@
       ]
     },
     {
-      "title": "Multi-Stream Attention Residuals",
-      "summary": "Attention Residuals (AttnRes) enables content-dependent retrieval over network depth, which can be viewed as single-stream softmax attention along the depth axis. Inspired by the success of multi-head attention along the...",
-      "url": "https://huggingface.co/papers/2610.13630",
+      "title": "PR-OPD: Privileged Representation On-policy Self-Distillation for Agentic Reinforcement Learning",
+      "summary": "Language-model agents are usually trained by reinforcement learning from one reward per episode, and privileged self-distillation enriches it by letting the same policy, given a skill, teach its skill-free self through t...",
+      "url": "https://huggingface.co/papers/2609.36642",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 23",
+      "upvotes": 23,
+      "authors": "Muyang Li, Jie Yang, Zhengyu Fang",
+      "published_at": "2026-09-28",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "UNITAS: A 3D-Native World Action Model for Embodied Manipulation",
+      "summary": "World action models (WAMs) aim to answer a coupled physical question: given a task instruction, what motion should the robot execute, and how will that motion change the surrounding world? Most existing WAMs build on pre...",
+      "url": "https://huggingface.co/papers/2610.12099",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Ruixiang Wang, Yongyi Su, Wenlve Zhou",
+      "published_at": "2026-10-07",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Visual Grounding Safety in Vision-Language Models",
+      "summary": "Vision-language models (VLMs) are increasingly trained to generate structured outputs like points and bounding boxes that downstream interfaces, agents, and robots can act on, yet safety alignment of this output channel ...",
+      "url": "https://huggingface.co/papers/2610.05637",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 2",
       "upvotes": 2,
-      "authors": "Xiaohan Qin, Xiangdong Zhang, Tuo Dai",
-      "published_at": "2026-10-08",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models",
-      "summary": "Humans perceive far more in a scene than what is explicitly depicted: a single glance captures past causes and future trajectories; a quick peek determines if a vehicle can fit between two parked cars; a few seconds of v...",
-      "url": "https://huggingface.co/papers/2610.08966",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 14",
-      "upvotes": 14,
-      "authors": "Xingang Guo, Jing Gu, Brian Jang",
-      "published_at": "2026-10-07",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Mental-Models for Multi-Agent Systems",
-      "summary": "Large foundation models have accelerated progress toward general-purpose agents that interact with humans and other agents through language and multimodal signals. However, robust multi-agent decision-making requires rea...",
-      "url": "https://huggingface.co/papers/2610.12453",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Hanan Gani, Lulu Shao, Manmohan Chandraker",
-      "published_at": "2026-10-07",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "BudgetPix: Compute-Adaptive Tokenization for Pixel-Space Image Diffusion",
-      "summary": "Most image generation models rely on uniform tokenization, allocating the exact same computational budget to equally-sized image patches. This static paradigm cannot adapt to different resource constraints at inference t...",
-      "url": "https://huggingface.co/papers/2610.12307",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Ozgur Kara, Yujia Chen, Daniel Watson",
-      "published_at": "2026-10-07",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Clinician use of language models diverges from how the models are evaluated",
-      "summary": "Large language model (LLM) assistants are being deployed to clinicians across health systems, and judgments about their readiness rest largely on benchmark scores, most of them derived from examination questions or curat...",
-      "url": "https://huggingface.co/papers/2610.11069",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Krithik Vishwanath, Haitong Lin, Anton Alyakin",
-      "published_at": "2026-10-07",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
-      "summary": "Recovering faithful 3D hand motion from video remains challenging due to frequent occlusions and incomplete visual observations, which make frame-wise pose estimates unreliable and temporally inconsistent. To address thi...",
-      "url": "https://huggingface.co/papers/2610.10512",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Chen Xu, Yunqi Li, Binbin Huang",
-      "published_at": "2026-10-06",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Few-Step Generation via Data-Space Iteration",
-      "summary": "Flow matching has emerged as a scalable paradigm for training high-quality generative models, but sampling from the learned probability flow requires many network evaluations. Distillation can reduce this cost to one or ...",
-      "url": "https://huggingface.co/papers/2610.12102",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
-      "authors": "Shanchuan Lin, Yansong Peng, Fu-Yun Wang",
-      "published_at": "2026-10-07",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "GATOR: Generative and Agentic 3D Object Reconstruction From Casual Images",
-      "summary": "Reconstructing complete, scene-aligned 3D objects from casual images requires integrating sparse, uncertain observations and inferring surfaces hidden by occlusions. We present GATOR, a generative and agentic framework t...",
-      "url": "https://huggingface.co/papers/2610.11215",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Qirui Wu, Stan Birchfield, Hesam Rabeti",
-      "published_at": "2026-10-08",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Distributionally Robust Mixture-of-Experts Training",
-      "summary": "Mixture-of-Experts (MoE) transformers scale capacity by activating only a few experts per token, but this sparsity creates a hidden reliability problem: when routing is imperfect, load-balanced models may send tokens to ...",
-      "url": "https://huggingface.co/papers/2610.07207",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
-      "authors": "Xin Teng, Muxiao Li, Hongyi Wen",
+      "authors": "Erfan Shayegani, Kundan Krishna, Yue Dong",
       "published_at": "2026-10-04",
       "tags": [
         "paper",
@@ -1972,15 +1884,15 @@
       ]
     },
     {
-      "title": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
-      "summary": "A latent recurrent language model applies a shared block of layers repeatedly, so one checkpoint can trade inference compute for accuracy by changing the loop count. At one loop, however, such models typically fall well ...",
-      "url": "https://huggingface.co/papers/2610.12582",
+      "title": "Prospective Hindsight: Self-Calibrating Reinforcement Learning via Prediction-Reality Gaps",
+      "summary": "Reinforcement learning for long-horizon agents relies on purely retrospective training signals: credit is assigned only after observing environmental consequences, leaving the agent's belief at action time invisible to t...",
+      "url": "https://huggingface.co/papers/2610.02740",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 3",
       "upvotes": 3,
-      "authors": "Faisal Ladhak, Shantanu Acharya, Santiago Akle Serano",
-      "published_at": "2026-10-07",
+      "authors": "Jiaxin Zhang, Xiangyu Peng, Qinglin Chen",
+      "published_at": "2026-10-01",
       "tags": [
         "paper",
         "arxiv",
@@ -1988,15 +1900,15 @@
       ]
     },
     {
-      "title": "The Life Cycle of a Massive Activation: Stochastic Birth, Weight-Decay-Driven Growth, and Competitive Consolidation",
-      "summary": "Massive activations, residual-stream coordinates with magnitudes far larger than typical activations, are associated with attention sinks in transformers, but how their scale is regulated during training remains incomple...",
-      "url": "https://huggingface.co/papers/2610.00423",
+      "title": "Evaluating LLM Creativity through Long-Tail Performance",
+      "summary": "Creativity benchmarks for large language models (LLMs) vary widely in task and metric design. This raises the question of whether they capture a common notion of creativity. We propose that this shared target can be form...",
+      "url": "https://huggingface.co/papers/2610.12998",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 3",
       "upvotes": 3,
-      "authors": "S. Aaron McClendon, Jorge Gallego-Feliciano, Antonios Saravanos",
-      "published_at": "2026-10-04",
+      "authors": "Yichen Wang, Tenghao Huang, Vishakh Padmakumar",
+      "published_at": "2026-10-08",
       "tags": [
         "paper",
         "arxiv",
@@ -2004,14 +1916,30 @@
       ]
     },
     {
-      "title": "SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations",
-      "summary": "Given a target dataset, such as faces with eyeglasses, and a background dataset, such as faces without, contrastive analysis separates salient factors specific to the target from common content shared by both. We aim for...",
-      "url": "https://huggingface.co/papers/2609.39635",
+      "title": "Same Output, Different Gold: Measuring How Reference Choice Moves a Multilingual Benchmark Score",
+      "summary": "A benchmark score compares a system output against a reference, and methodological attention falls almost entirely on the first term. We measure the second. The retained annotation record of a six-language benchmark for ...",
+      "url": "https://huggingface.co/papers/2610.03825",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 2",
       "upvotes": 2,
-      "authors": "Shuang Liang, Lejun Liao, Shiyuan Zhang",
+      "authors": "Parth Kulshreshtha, Shivali Dalmia, Abhishek Mukherji",
+      "published_at": "2026-10-01",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Initialization Improves LLM-Driven Discovery",
+      "summary": "Large Language Models (LLMs) have been used for novel discovery of algorithms, theorems, drugs, and other tasks through the use of harnesses that prompt an LLM to iteratively optimize an objective. In this work, we study...",
+      "url": "https://huggingface.co/papers/2610.00707",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 4",
+      "upvotes": 4,
+      "authors": "Mansi Sakarvadia, Marco Ciccone, Colin Raffel",
       "published_at": "2026-09-29",
       "tags": [
         "paper",
@@ -2020,15 +1948,15 @@
       ]
     },
     {
-      "title": "Self-Preservation in Language Models",
-      "summary": "Continual learning (CL) seeks to adapt pretrained models while preserving prior capabilities. Yet the tasks supplied for preservation cover only part of what a model knows, while forgetting can extend beyond them. Recent...",
-      "url": "https://huggingface.co/papers/2610.12602",
+      "title": "Branching On-Policy Distillation",
+      "summary": "On-policy distillation (OPD) provides teacher supervision on student-generated trajectories, but a single trajectory realizes only one continuation at each decision, limiting supervision coverage under a finite sampling ...",
+      "url": "https://huggingface.co/papers/2610.13481",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Dongkyu Cho, Rumi Chunara, Ali Behrouz",
-      "published_at": "2026-10-07",
+      "badge": "⭐ 5",
+      "upvotes": 5,
+      "authors": "Dongyang Chen, Shudong Liu, Shubo Li",
+      "published_at": "2026-10-08",
       "tags": [
         "paper",
         "arxiv",
@@ -2036,14 +1964,30 @@
       ]
     },
     {
-      "title": "Coding-Agent Benchmarks Should Match Their Users' Task Flows",
-      "summary": "The evaluation of coding agents generally strives to be as realistic as possible. In our study, we collect 4,782 agent sessions of real software engineers in JetBrains IDEs, which we call Production Sessions. Since our s...",
-      "url": "https://huggingface.co/papers/2610.09633",
+      "title": "CrossTimeEdit: A Decade-Spanning Cross-View Dataset and Reward-Guided Editing for Historical Street-View Generation",
+      "summary": "Historical street-view imagery records urban evolution, but uneven coverage leaves substantial gaps in historical records. Generating plausible past appearances requires restoring changed structures while preserving pers...",
+      "url": "https://huggingface.co/papers/2609.36616",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 11",
-      "upvotes": 11,
-      "authors": "Igor Slinko, Yaroslav Golubev, Sergey Titov",
+      "badge": "⭐ 20",
+      "upvotes": 20,
+      "authors": "Hanwen Lu, Jun He, Mingjia Yang",
+      "published_at": "2026-09-28",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "VIS-Ground: Video Interactive Storytelling with Contextual Grounding",
+      "summary": "Video interactive storytelling enables viewers to actively steer how a video unfolds. However, once we allow viewers to intervene during generation, a new challenge arises: The viewer's request can have latent dependenci...",
+      "url": "https://huggingface.co/papers/2610.09326",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 78",
+      "upvotes": 78,
+      "authors": "Bingxuan Li, Yiwen Song, Xueqing Wu",
       "published_at": "2026-10-06",
       "tags": [
         "paper",
@@ -2052,14 +1996,62 @@
       ]
     },
     {
-      "title": "QuantMLA: Function-Aligned Dual-Path Quantization for Low-Bit MLA KV Caching",
-      "summary": "Multi-Head Latent Attention (MLA) enables expressive multi-head attention with compact caches for its content and decoupled RoPE paths, yet cache memory still scales linearly with context length and batch size. In this w...",
-      "url": "https://huggingface.co/papers/2609.36760",
+      "title": "SPLATIFY: Reproduce, Discover, Innovate! From Papers and Ideas to Trainable 3DGS Code",
+      "summary": "The rapid growth of 3D Gaussian Splatting (3DGS) research demands significant effort to reimplement papers before building on them. We introduce SPLATIFY, a multi-agent framework that converts 3DGS papers into trainable ...",
+      "url": "https://huggingface.co/papers/2610.09116",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
-      "authors": "Zunhai Su, Yuxuan Sun, Jianchao Tan",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Seemandhar Jain, Keshav Gupta, Manmohan Chandraker",
+      "published_at": "2026-10-05",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training",
+      "summary": "Large language models have achieved remarkable advances in complex reasoning. However, scaling reasoning post-training with ever-larger corpora can substantially increase training cost without proportional performance ga...",
+      "url": "https://huggingface.co/papers/2610.12933",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 7",
+      "upvotes": 7,
+      "authors": "Suorong Yang, Jiaxin Wang, Jiaming Su",
+      "published_at": "2026-10-08",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
+      "summary": "As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to build agents fitted to their users' own workflows. This delegation carries a quiet assumption, that t...",
+      "url": "https://huggingface.co/papers/2610.13361",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 201",
+      "upvotes": 201,
+      "authors": "Jiahao Wang, Hongjin Qian, Yuyang Hu",
+      "published_at": "2026-10-08",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed",
+      "summary": "Autoregressive (AR) grounding models serialize spatial predictions, introducing sequential latency and imposing a causal order on output tokens. We view grounding as visual evidence extraction: objects, locations, and sp...",
+      "url": "https://huggingface.co/papers/2609.39600",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 73",
+      "upvotes": 73,
+      "authors": "Qize Yu, Lianrui Fan, Bowen Ping",
       "published_at": "2026-09-29",
       "tags": [
         "paper",
@@ -2068,15 +2060,15 @@
       ]
     },
     {
-      "title": "When to Rethink: Learning Multi-Perspective Self-Verification for Vision-Language Models",
-      "summary": "Vision-language models (VLMs) have achieved strong performance in multimodal reasoning, yet they remain prone to generating plausible but incorrect answers. Self-verification offers a practical way to improve answer reli...",
-      "url": "https://huggingface.co/papers/2610.07018",
+      "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
+      "summary": "Precise grounding matters. It specifies which object is the target and where that object is, even in clutter and for tiny objects, and it has to be fast enough for closed-loop control. Yet vision-language-action (VLA) an...",
+      "url": "https://huggingface.co/papers/2609.39601",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
-      "authors": "Ziquan Zhu, Hanruo Zhu, Si-Yuan Lu",
-      "published_at": "2026-10-03",
+      "badge": "⭐ 247",
+      "upvotes": 247,
+      "authors": "Qize Yu, Lianrui Fan, Boyu Chen",
+      "published_at": "2026-09-29",
       "tags": [
         "paper",
         "arxiv",
@@ -2084,15 +2076,15 @@
       ]
     },
     {
-      "title": "MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances",
-      "summary": "Generating realistic human-object interactions (HOI) in complex 3D scenes requires two complementary capabilities: reasoning about interaction feasibility in the environment and synthesizing realistic human-object motion...",
-      "url": "https://huggingface.co/papers/2610.12416",
+      "title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+      "summary": "Terminal agents are moving beyond local operations toward completing real-world professional tasks. Short trajectories can demonstrate commands and tool calls, but they do not fully show how agents accumulate evidence th...",
+      "url": "https://huggingface.co/papers/2610.13166",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Mingyuan Lei, Yoonchang Sung, Tat-Jen Cham",
-      "published_at": "2026-10-07",
+      "badge": "⭐ 133",
+      "upvotes": 133,
+      "authors": "Shun Zou, Ziyu Ma, Yi Zou",
+      "published_at": "2026-10-08",
       "tags": [
         "paper",
         "arxiv",
@@ -2100,31 +2092,15 @@
       ]
     },
     {
-      "title": "MetaKernelBench: Measuring GPU Kernel Knowledge Transfer Beyond Code",
-      "summary": "Recent GPU kernel optimization agents retain what they learn in knowledge bases or as distilled skills. Kernel benchmarks score each attempt's implementation for correctness and speed but leave the reuse value of retaine...",
-      "url": "https://huggingface.co/papers/2610.05014",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 16",
-      "upvotes": 16,
-      "authors": "Xueyi Chen, Shiyu Liu, Xin Jin",
-      "published_at": "2026-10-03",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Universal Textual Teaching for LLMs",
-      "summary": "Knowledge distillation (KD) transfers knowledge from stronger Teacher models to weaker Student models, but most methods require training the Student parameters, thereby binding the distilled knowledge to a specific archi...",
-      "url": "https://huggingface.co/papers/2610.12114",
+      "title": "T3lescope: Arbitrary-Resolution High-Fidelity Generative Surface Reconstruction from Images",
+      "summary": "We reconstruct high-fidelity 3D scene meshes from posed multi-view images without per-scene optimization, across scales ranging from single objects to large outdoor scenes. Per-scene optimization methods lack the learned...",
+      "url": "https://huggingface.co/papers/2610.03308",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 10",
       "upvotes": 10,
-      "authors": "Zhanyi Lu, Huan Wang",
-      "published_at": "2026-10-07",
+      "authors": "Atsuhiro Noguchi, Tianhan Xu, Yiming Liang",
+      "published_at": "2026-10-01",
       "tags": [
         "paper",
         "arxiv",
@@ -2132,127 +2108,253 @@
       ]
     },
     {
-      "title": "[HIGH] GHSA-m687-p538-r5hp (CWE-942): Vikunja: Permissive Cross-domain Security Policy trusts every localhost origin which should not be trusted",
-      "summary": "## Summary\n\nVikunja ships with `cors.origins` defaulting to `http://127.0.0.1:*` and `http://localhost:*`, and sends `Access-Control-Allow-Credentials: true`, so a page served from any port on the user's own machine may ...",
-      "url": "https://github.com/advisories/GHSA-m687-p538-r5hp",
+      "title": "ARCS: Towards Precise Text-to-SQL via Structured Disambiguation",
+      "summary": "As text-to-SQL systems move beyond demonstrations toward real-world deployment, ambiguity in user questions becomes a primary source of errors. Such ambiguities are often subtle, domain- or data-specific, and can silentl...",
+      "url": "https://huggingface.co/papers/2610.09396",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 8",
+      "upvotes": 8,
+      "authors": "Yihao Hu, Yanlin Feng, Naoki Otani",
+      "published_at": "2026-10-06",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents",
+      "summary": "Personal Graphical User Interface (GUI) agents rely on interaction history to infer what a user wants from ambiguous instructions and to anticipate recurring routines. Existing approaches retrieve task-relevant history a...",
+      "url": "https://huggingface.co/papers/2609.33304",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 30",
+      "upvotes": 30,
+      "authors": "Fuyao Zhang, Xuan Wang, Zherui Li",
+      "published_at": "2026-09-26",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-70035 (CWE-502): Microsoft Security Advisory CVE-2026-70035 - .NET and Visual Studio Remote Code Execution Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-4j9v-h7pp-725h",
       "source": "CVE & Security Advisory",
       "category": "Lỗ Hổng CVE/CWE",
       "badge": "HIGH",
-      "published_at": "2026-10-09",
+      "published_at": "2026-10-13",
       "tags": [
         "cve",
         "cwe",
         "security",
         "vulnerability",
-        "cwe-942"
+        "cwe-502"
       ]
     },
     {
-      "title": "[MEDIUM] GHSA-fmmf-xq98-g327 (CWE-863): Vikunja: Write-level project members can delete admin-tier link shares through an unloaded permission check",
-      "summary": "## Summary\n\nA project member with Write permission can delete an admin-tier link share on that project. The deletion authorization check reads the permission from an object populated only with URL IDs, rather than from t...",
-      "url": "https://github.com/advisories/GHSA-fmmf-xq98-g327",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-863"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-pjr3-86v4-5p7w (CWE-269, CWE-284): Vikunja: Explicit lower-permission share on a sub-project is silently overridden by an inherited parent permission (broken access control / privilege-management regression in v2.6.0)",
-      "summary": "## Description\n\n### Summary\n\nIn Vikunja v2.6.0 the project-permission engine resolves a user's effective permission on a project as\nthe **MAX over the entire reachable project subtree**. As a result, when a user has been...",
-      "url": "https://github.com/advisories/GHSA-pjr3-86v4-5p7w",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-269",
-        "cwe-284"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-hjx8-qv73-f7cm (CWE-613, CWE-863): Vikunja: Webhooks and link shares survive every revocation path, so a removed collaborator keeps a live feed",
-      "summary": "## Summary\n\nA collaborator removed from a project keeps a **live, automatic feed** of that project's contents, because nothing on any revocation path deletes the webhook they created while they had access.\n\nVikunja alrea...",
-      "url": "https://github.com/advisories/GHSA-hjx8-qv73-f7cm",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-613",
-        "cwe-863"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-fprf-r6rv-xg99 (CWE-863): Vikunja: Saved filter creation with an empty filter string recalculates task positions across all tenants",
-      "summary": "### Summary\n\nIn Vikunja v2.6.0 the task position recalculation that runs when a saved filter view is created fails open when the requesting user has no accessible projects. Instead of aborting, the search that feeds the ...",
-      "url": "https://github.com/advisories/GHSA-fprf-r6rv-xg99",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-863"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-4hv6-xc92-j86g (CWE-613): Vikunja: WebSocket authentication ignores server-side session state, so revoked sessions keep receiving live pushes",
-      "summary": "### Summary\n\nVikunja v2.6.0 introduced server-side sessions with revocation semantics: `DELETE /api/v2/user/sessions/{id}` documents \"Revokes a specific session by its UUID\", and enabling TOTP calls `DeleteAllUserSession...",
-      "url": "https://github.com/advisories/GHSA-4hv6-xc92-j86g",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-613"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-107805 (CWE-400): Nginx UI: Unauthenticated signed-request body staging can exhaust temporary storage",
-      "summary": "## Summary\n\nIn Nginx UI versions 2.5.0 through 2.5.x, the node-signature authentication path staged an attacker-controlled request body in a temporary file and synchronized it to disk before validating the body digest an...",
-      "url": "https://github.com/advisories/GHSA-j3hg-9rp3-5hw9",
+      "title": "[HIGH] CVE-2026-70186 (CWE-833): Microsoft Security Advisory CVE-2026-70186 - ASP.NET Core Denial of Service Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.AspNetCore.Server.Kestrel.Core. This advisory also provides guidance on what developers can do...",
+      "url": "https://github.com/advisories/GHSA-mf4x-w4gh-4656",
       "source": "CVE & Security Advisory",
       "category": "Lỗ Hổng CVE/CWE",
       "badge": "HIGH",
-      "published_at": "2026-10-09",
+      "published_at": "2026-10-13",
       "tags": [
         "cve",
         "cwe",
         "security",
         "vulnerability",
-        "cwe-400"
+        "cwe-833"
       ]
     },
     {
-      "title": "[MEDIUM] CVE-2026-107804 (CWE-346): Nginx UI: Bundled reverse proxy can bypass IP allowlists and enable shared login lockout",
-      "summary": "## Summary\n\nIn Nginx UI versions 2.2.0 through 2.5.x, the official bundled reverse-proxy topology did not preserve the external client identity used by Gin. The backend treated the local proxy peer as the client because ...",
-      "url": "https://github.com/advisories/GHSA-9h23-53f4-q947",
+      "title": "[HIGH] CVE-2026-70007 (CWE-787): Microsoft Security Advisory CVE-2026-70007 - .NET and Visual Studio Remote Code Execution Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-pfwj-2f93-rf42",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-787"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-87697 (CWE-502): Microsoft Security Advisory CVE-2026-87697 - .NET and Visual Studio Remote Code Execution Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-c27m-942f-rcfh",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-502"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-96225 (CWE-59): Microsoft Security Advisory CVE-2026-96225 - .NET and Visual Studio Elevation of Privilege Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.NETCore.App.Runtime; System.Private.CoreLib. This advisory also provides guidance on what deve...",
+      "url": "https://github.com/advisories/GHSA-w6wh-p4g7-mpj2",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-59"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-96230 (CWE-79): Microsoft Security Advisory CVE-2026-96230 - ASP.NET Core Remote Code Execution Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.AspNetCore.Components.WebAssembly.Server. This advisory also provides guidance on what develop...",
+      "url": "https://github.com/advisories/GHSA-qjpx-jqm5-h2c4",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-79"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-70179 (CWE-290): Microsoft Security Advisory CVE-2026-70179 - ASP.NET Core Elevation of Privilege Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.AspNetCore.Authentication.Negotiate. This advisory also provides guidance on what developers c...",
+      "url": "https://github.com/advisories/GHSA-vrrp-6v32-2p8g",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-290"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-96224 (CWE-787): Microsoft Security Advisory CVE-2026-96224 - .NET and Visual Studio Remote Code Execution Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-xq57-crx4-g373",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-787"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-85363 (CWE-190): Microsoft Security Advisory CVE-2026-85363 - .NET and Visual Studio Remote Code Execution Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-f63g-mx39-3r38",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-190"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-96959 (CWE-770): Microsoft Security Advisory CVE-2026-96959 - .NET and Visual Studio Denial of Service Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in System.Security.Cryptography.Xml; System.Private.Xml. This advisory also provides guidance on what devel...",
+      "url": "https://github.com/advisories/GHSA-c399-9853-6jmj",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-770"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-83520 (CWE-502): Microsoft Security Advisory CVE-2026-83520 - .NET and Visual Studio Remote Code Execution Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-4w5f-7jp2-w48g",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-502"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-70174 (CWE-358): Microsoft Security Advisory CVE-2026-70174 - .NET and Visual Studio Remote Code Execution Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-f749-vhgx-39h6",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-358"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-96232 (CWE-125): Microsoft Security Advisory CVE-2026-96232 - .NET and Visual Studio Information Disclosure Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-f8qh-mqg4-9939",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-13",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-125"
+      ]
+    },
+    {
+      "title": "[MEDIUM] CVE-2026-96234 (CWE-346): Microsoft Security Advisory CVE-2026-96234 - .NET and Visual Studio Information Disclosure Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-fq6x-pvr9-888r",
       "source": "CVE & Security Advisory",
       "category": "Lỗ Hổng CVE/CWE",
       "badge": "MEDIUM",
-      "published_at": "2026-10-09",
+      "published_at": "2026-10-13",
       "tags": [
         "cve",
         "cwe",
@@ -2262,130 +2364,29 @@
       ]
     },
     {
-      "title": "[HIGH] CVE-2026-108259 (CWE-94): Tina: Code injection via unescaped Git branch name in generated client source",
-      "summary": "### Summary\n\n`@tinacms/cli` inserts the raw Git branch value into the generated `client.ts` source without escaping or encoding. A Git-valid branch name can close the string literal and inject an arbitrary JavaScript exp...",
-      "url": "https://github.com/advisories/GHSA-pwhx-cvv3-qj5c",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-94"
-      ]
-    },
-    {
-      "title": "[CRITICAL] CVE-2026-108261 (CWE-346, CWE-441, CWE-601): TinaCMS admin preview iframe loads an attacker-controlled origin from the URL fragment",
-      "summary": "### Summary\n\nThe TinaCMS admin builds its preview `<iframe src>` from the `/~/*` hash-router splat without checking that the value stays same-origin. A fragment with a doubled slash (`#/~//attacker.example/p`) becomes th...",
-      "url": "https://github.com/advisories/GHSA-x34j-47hf-4xg7",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "CRITICAL",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-346",
-        "cwe-441",
-        "cwe-601"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-108260 (CWE-79, CWE-83): @tinacms/web-components: `tina-markdown` writes rich-text link URLs into `href` without scheme validation, allowing stored XSS",
-      "summary": "### Summary\n\n`<tina-markdown>` renders a rich-text AST into the DOM and, for `a` nodes, assigns the node's URL straight to the anchor's `href` with no scheme check. A link authored in the CMS as `javascript:…` renders as...",
-      "url": "https://github.com/advisories/GHSA-c42q-qvc3-j6vg",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-79",
-        "cwe-83"
-      ]
-    },
-    {
-      "title": "[MEDIUM] CVE-2026-108258 (CWE-22): Shiny for Python has path traversal in bookmark restore",
-      "summary": "### Impact\n\nShiny for Python's bookmark-restore path accepted a client-supplied `_state_id_`\nquery-string value and joined it into the server-side bookmark directory\n(`<cwd>/shiny_bookmarks/<id>`) without validating it. ...",
-      "url": "https://github.com/advisories/GHSA-47c3-hpmg-7j6p",
+      "title": "[MEDIUM] CVE-2026-96229 (CWE-183): Microsoft Security Advisory CVE-2026-96229 - .NET and Visual Studio Information Disclosure Vulnerability",
+      "summary": "## Executive summary\n\nMicrosoft is releasing this security advisory to provide information about a vulnerability in Microsoft.WindowsDesktop.App.Runtime (WPF). This advisory also provides guidance on what developers can ...",
+      "url": "https://github.com/advisories/GHSA-5qr9-xxm9-6cmq",
       "source": "CVE & Security Advisory",
       "category": "Lỗ Hổng CVE/CWE",
       "badge": "MEDIUM",
-      "published_at": "2026-10-09",
+      "published_at": "2026-10-13",
       "tags": [
         "cve",
         "cwe",
         "security",
         "vulnerability",
-        "cwe-22"
+        "cwe-183"
       ]
     },
     {
-      "title": "[LOW] GHSA-w2ch-4xgr-22ww (CWE-285, CWE-862): Vikunja: Task relation deletion does not check read access to the other task, allowing cross-project relation removal",
-      "summary": "## Summary\n\nDeleting a task relation only requires write access on the base task. Unlike relation creation, it does not verify that the caller can read the other task. A user with write access to one project can therefor...",
-      "url": "https://github.com/advisories/GHSA-w2ch-4xgr-22ww",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "LOW",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-285",
-        "cwe-862"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-8wvg-r2j4-3737 (CWE-200): Vikunja: Assignee email addresses disclosed to read-only project members via the task assignees endpoint",
-      "summary": "### Summary\n`TaskAssginee.ReadAll` returns assignee user objects without blanking the `Email` field, disclosing assignee email addresses to any read-only project member. Every sibling path that returns user objects obfus...",
-      "url": "https://github.com/advisories/GHSA-8wvg-r2j4-3737",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-200"
-      ]
-    },
-    {
-      "title": "[MEDIUM] GHSA-3hc7-r24j-rpwc (CWE-200, CWE-862): Vikunja: Cross-project task disclosure through subtask expansion",
-      "summary": "### Summary\nVikunja lets a task in one project have a subtask that lives in a different project. When listing a project's tasks, an option pulls in those subtasks (?expand%5B%5D=subtasks). The main listing is correctly f...",
-      "url": "https://github.com/advisories/GHSA-3hc7-r24j-rpwc",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-09",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-200",
-        "cwe-862"
-      ]
-    },
-    {
-      "title": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
-      "summary": "Hacker News (88 pts, 49 comments) by @arunc",
-      "url": "https://doi.org/10.1111/acel.70751",
+      "title": "OpenAI engineer arrested in bugging of executive conference room",
+      "summary": "Hacker News (332 pts, 282 comments) by @forthwall",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "88 pts",
-      "upvotes": 88,
+      "badge": "332 pts",
+      "upvotes": 332,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2394,13 +2395,13 @@
       ]
     },
     {
-      "title": "GPT-6 Astra Helped Me Jailbreak My Kindle",
-      "summary": "Hacker News (99 pts, 55 comments) by @nirajrajgor",
-      "url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+      "title": "Gemini 4 Argon",
+      "summary": "Hacker News (890 pts, 698 comments) by @737max",
+      "url": "https://deepmind.google/models/gemini/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "99 pts",
-      "upvotes": 99,
+      "badge": "890 pts",
+      "upvotes": 890,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2409,13 +2410,13 @@
       ]
     },
     {
-      "title": "GLM-Legal",
-      "summary": "Hacker News (428 pts, 247 comments) by @ilreb",
-      "url": "https://z.ai/blog/glm-legal",
+      "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
+      "summary": "Hacker News (194 pts, 76 comments) by @talccc",
+      "url": "https://guitoro.com/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "428 pts",
-      "upvotes": 428,
+      "badge": "194 pts",
+      "upvotes": 194,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2424,13 +2425,13 @@
       ]
     },
     {
-      "title": "Who Is Vfmaddrnd231pd?",
-      "summary": "Hacker News (112 pts, 9 comments) by @pngmangi",
-      "url": "https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd/",
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "summary": "Hacker News (357 pts, 290 comments) by @thm",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "112 pts",
-      "upvotes": 112,
+      "badge": "357 pts",
+      "upvotes": 357,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2439,13 +2440,13 @@
       ]
     },
     {
-      "title": "A Modern Web App in C",
-      "summary": "Hacker News (392 pts, 161 comments) by @prophittcorey",
-      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+      "title": "Redesigning source control at Anthropic",
+      "summary": "Hacker News (466 pts, 464 comments) by @Philpax",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "392 pts",
-      "upvotes": 392,
+      "badge": "466 pts",
+      "upvotes": 466,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2454,13 +2455,13 @@
       ]
     },
     {
-      "title": "The baffling intelligence of a single cell (2024)",
-      "summary": "Hacker News (35 pts, 1 comments) by @jsomers",
-      "url": "https://jsomers.net/e-coli-chemotaxis/",
+      "title": "Apple HomeView",
+      "summary": "Hacker News (628 pts, 756 comments) by @etothet",
+      "url": "https://www.apple.com/apple-homeview/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "35 pts",
-      "upvotes": 35,
+      "badge": "628 pts",
+      "upvotes": 628,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2469,13 +2470,13 @@
       ]
     },
     {
-      "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
-      "summary": "Hacker News (65 pts, 20 comments) by @hurricanepootis",
-      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+      "title": "Thunderbird for iOS",
+      "summary": "Hacker News (301 pts, 123 comments) by @mjorgers",
+      "url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "65 pts",
-      "upvotes": 65,
+      "badge": "301 pts",
+      "upvotes": 301,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2484,13 +2485,13 @@
       ]
     },
     {
-      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
-      "summary": "Hacker News (444 pts, 655 comments) by @Zeekaas",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+      "title": "11 year old unsoundness bugs found in Rust borrow checker",
+      "summary": "Hacker News (650 pts, 362 comments) by @formerly_proven",
+      "url": "https://github.com/rust-lang/rust/issues/164250",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "444 pts",
-      "upvotes": 444,
+      "badge": "650 pts",
+      "upvotes": 650,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2499,13 +2500,13 @@
       ]
     },
     {
-      "title": "Making big downloads resumable in Firefox",
-      "summary": "Hacker News (88 pts, 32 comments) by @speckx",
-      "url": "https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html",
+      "title": "AlphaNIST",
+      "summary": "Hacker News (17 pts, 0 comments) by @jasonjmcghee",
+      "url": "https://alpha-nist.github.io/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "88 pts",
-      "upvotes": 88,
+      "badge": "17 pts",
+      "upvotes": 17,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2514,13 +2515,13 @@
       ]
     },
     {
-      "title": "Phreak.ing – Internet Phone Switch",
-      "summary": "Hacker News (71 pts, 24 comments) by @rickcarlino",
-      "url": "https://phreak.ing/",
+      "title": "Firefox Enterprise",
+      "summary": "Hacker News (604 pts, 252 comments) by @recvonline",
+      "url": "https://www.firefox.com/en-US/enterprise/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "71 pts",
-      "upvotes": 71,
+      "badge": "604 pts",
+      "upvotes": 604,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2529,13 +2530,13 @@
       ]
     },
     {
-      "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
-      "summary": "Hacker News (29 pts, 13 comments) by @khalidkhair",
-      "url": "https://github.com/prabanta-dev/janas",
+      "title": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
+      "summary": "Hacker News (1 pts, 0 comments) by @morraa",
+      "url": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "29 pts",
-      "upvotes": 29,
+      "badge": "1 pts",
+      "upvotes": 1,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2544,13 +2545,13 @@
       ]
     },
     {
-      "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
-      "summary": "Hacker News (259 pts, 69 comments) by @djfergus",
-      "url": "https://github.com/h0m3us3r/w1700k-sdr",
+      "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+      "summary": "Hacker News (223 pts, 139 comments) by @sammy0910",
+      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "259 pts",
-      "upvotes": 259,
+      "badge": "223 pts",
+      "upvotes": 223,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2559,13 +2560,13 @@
       ]
     },
     {
-      "title": "Writing a Demoscene Intro for the ZX Spectrum",
-      "summary": "Hacker News (76 pts, 6 comments) by @zdw",
-      "url": "https://www.markround.com/blog/2026/zx-spectrum-intro",
+      "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+      "summary": "Hacker News (4 pts, 0 comments) by @niztk",
+      "url": "https://pulseos.finance",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "76 pts",
-      "upvotes": 76,
+      "badge": "4 pts",
+      "upvotes": 4,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2574,13 +2575,28 @@
       ]
     },
     {
-      "title": "Citroen revives the 2CV for an electric age",
-      "summary": "Hacker News (267 pts, 317 comments) by @scrlk",
-      "url": "https://www.bbc.com/news/articles/c620r33plgppo",
+      "title": "The United Kingdom generates less electricity per person than in the 1970s",
+      "summary": "Hacker News (176 pts, 247 comments) by @karakoram",
+      "url": "https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "267 pts",
-      "upvotes": 267,
+      "badge": "176 pts",
+      "upvotes": 176,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
+      "summary": "Hacker News (162 pts, 272 comments) by @ivell",
+      "url": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "162 pts",
+      "upvotes": 162,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
