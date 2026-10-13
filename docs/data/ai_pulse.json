@@ -171,14 +171,14 @@
       ]
     },
     {
-      "title": "[cs.AI] On the estimation and validity of AI time horizons---a statistical look at the METR plot",
-      "summary": "METR's 50\\% time horizon measures the human completion time of software tasks that an AI solves with 50\\% probability, allowing AI capabilities to be expressed in interpretable units. On 228 tasks and 26 AIs, we recomput...",
-      "url": "http://arxiv.org/abs/2610.12466v1",
+      "title": "[cs.AI] Can Language Models Play the Wikipedia Game?",
+      "summary": "Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the Wiki...",
+      "url": "http://arxiv.org/abs/2610.13948v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Drew T. Nguyen, William Fithian",
-      "published_at": "2026-10-08",
+      "authors": "Alexander Hickey, Joanna Knight, James Bishop",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -187,14 +187,14 @@
       ]
     },
     {
-      "title": "[cs.AI] From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
-      "summary": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coord...",
-      "url": "http://arxiv.org/abs/2610.12463v1",
+      "title": "[cs.AI] Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
+      "summary": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-b...",
+      "url": "http://arxiv.org/abs/2610.13935v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Abbas Raftari",
-      "published_at": "2026-10-08",
+      "authors": "Bhanu Tokas, Rahul Nair, Rockwell Jackson",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -203,14 +203,14 @@
       ]
     },
     {
-      "title": "[cs.AI] BrickBench: Evaluating Agentic Brick Design",
-      "summary": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be ph...",
-      "url": "http://arxiv.org/abs/2610.12452v1",
+      "title": "[cs.AI] Revisiting Tabular Deep Regression: Objectives and the Limits of Global Early Stopping",
+      "summary": "While deep learning models for tabular data have recently received significant research attention, the choice of objective functions for regression tasks remains an understudied degree of freedom. Several lines of resear...",
+      "url": "http://arxiv.org/abs/2610.13909v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Peter Kulits, Yiqing Xu, R. Kenny Jones",
-      "published_at": "2026-10-08",
+      "authors": "Danil Rudenko, Georgii Bulgakov, Nikolay Kartashev",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -219,14 +219,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems",
-      "summary": "Bifurcations are ubiquitous in physical systems, from structural buckling to fluid and climate dynamics, yet they remain largely unexplored in deep learning. At a symmetry-breaking bifurcation, a single input admits mult...",
-      "url": "http://arxiv.org/abs/2610.12449v1",
+      "title": "[cs.AI] Task Context Shapes Component Roles in Language Models",
+      "summary": "Large language models reuse the same attention heads across tasks, but identifying these shared heads does not explain what they do differently in each task. A natural source of inspiration is task-dependent interactions...",
+      "url": "http://arxiv.org/abs/2610.13895v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Anna Zimmel, Fleur Hendriks, Markus Holzleitner",
-      "published_at": "2026-10-08",
+      "authors": "Sovesh Mohapatra, Dani S Bassett",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -235,14 +235,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
-      "summary": "Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people. We show that white-box deception detection via probes can be scaled up to frontier monitoring settings b...",
-      "url": "http://arxiv.org/abs/2610.12445v1",
+      "title": "[cs.AI] RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
+      "summary": "As AI agents increasingly rely on external tools, accurate retrieval is essential for reliable behavior. Existing methods optimize semantic relevance but largely ignore tool availability during execution. To address this...",
+      "url": "http://arxiv.org/abs/2610.13889v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Oskar J. Hollinsworth, Alex F. Spies, Tigist Diriba",
-      "published_at": "2026-10-08",
+      "authors": "Weiliang Chen, Song Liao",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -251,14 +251,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
-      "summary": "AI agents can now conduct real-world cyberattacks, scale up capabilities with the number of agents, and collectively pursue misaligned goals to obtain rewards. Together, these factors raise the risk of a population explo...",
-      "url": "http://arxiv.org/abs/2610.12436v1",
+      "title": "[cs.AI] X-AgentRed: Red-Teaming Personal Agents in Evolving Multi-Service Ecosystems",
+      "summary": "Personal agents increasingly connect to services across the web and applications by using tools. As the effects of their actions accumulate and interact across services, unintended or harmful outcomes can arise when agen...",
+      "url": "http://arxiv.org/abs/2610.13886v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Erin Crawley, Hidenori Tanaka",
-      "published_at": "2026-10-08",
+      "authors": "Yeonsung Jung, Zhiyuan Wang, Zifan Wang",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -267,14 +267,14 @@
       ]
     },
     {
-      "title": "[cs.AI] RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments",
-      "summary": "A generalist robot should not only perform diverse tasks but also improve through experience, turning what it learns during execution into capabilities that later tasks can reuse. Robot agents that act through code can a...",
-      "url": "http://arxiv.org/abs/2610.12424v1",
+      "title": "[cs.AI] Studying Comics at Scale with Artificial Intelligence: The PAGE Framework and Three Studies of American Comics and Japanese Manga",
+      "summary": "Comics are one of the great visual records of the twentieth century: hundreds of thousands of pages in which a mass readership saw its leaders, its wars and its heroes. Most of this record has never been studied as a who...",
+      "url": "http://arxiv.org/abs/2610.13840v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Zimo Wen, Yijin Chen, Yuxuan Cao",
-      "published_at": "2026-10-08",
+      "authors": "Emilio Ferrara",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -283,14 +283,14 @@
       ]
     },
     {
-      "title": "[cs.AI] MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances",
-      "summary": "Generating realistic human-object interactions (HOI) in complex 3D scenes requires two complementary capabilities: reasoning about interaction feasibility in the environment and synthesizing realistic human-object motion...",
-      "url": "http://arxiv.org/abs/2610.12416v1",
+      "title": "[cs.AI] SpatialASM: Internalizing Active Mentalization for Spatial Reasoning",
+      "summary": "When solving complex spatial reasoning tasks, ordinary humans naturally revisit the scenes from task-relevant viewpoints and mentally reconstruct the spatial layouts from those viewpoints. But can Large Vision-Language M...",
+      "url": "http://arxiv.org/abs/2610.13832v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Mingyuan Lei, Yoonchang Sung, Tat-Jen Cham",
-      "published_at": "2026-10-08",
+      "authors": "Yuhong Liu, Shenxi Wu, Junyi Chi",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -299,14 +299,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
-      "summary": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coord...",
-      "url": "http://arxiv.org/abs/2610.12463v1",
+      "title": "[cs.CR Security] AI Models Can Provably Hide Arbitrary Capabilities",
+      "summary": "Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adv...",
+      "url": "http://arxiv.org/abs/2610.13928v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Abbas Raftari",
-      "published_at": "2026-10-08",
+      "authors": "Andis Draguns, Sumeet Ramesh Motwani, Raymond Douglas",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -316,14 +316,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] ORCAGen: Orchestrating Context-Aware Malware Deception with RAG-Guided Generative AI",
-      "summary": "Malware defenses often remove or isolate suspicious programs as quickly as possible. While effective for containment, this approach can also waste an opportunity to observe attacker behavior and deploy targeted counterme...",
-      "url": "http://arxiv.org/abs/2610.12415v1",
+      "title": "[cs.CR Security] Decision-Focused Learning for Cyber-Physical Risk-Aware Power Grid Operations",
+      "summary": "Power grid cyber-physical security requires intrusion detection methods that account for the operational consequences of detection errors. However, the existing intrusion detection approaches primarily focus on the predi...",
+      "url": "http://arxiv.org/abs/2610.13853v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Shihab Ahmed, Md Sajidul Islam Sajid, Teryl Taylor",
-      "published_at": "2026-10-08",
+      "authors": "Ayesha Siddiqua Dina, Ebisa D. Wollega, Afzal Hossain Sohag",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -333,14 +333,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Improved Local Leakage Resilience of Shamir Secret Sharing and Worst-Case Optimal Polynomial Intersection",
-      "summary": "We study two problems: Local Leakage Resilience (LLR) for Shamir secret sharing, and worst-case Optimal Polynomial Intersection (OPI). Both problems concern polynomials $Q(X)$ of degree less than $k$, over a prime-order ...",
-      "url": "http://arxiv.org/abs/2610.12357v1",
+      "title": "[cs.CR Security] ToFu: Exploiting and Fuzzing the LLM-Orchestrator-Tool Trust Boundary",
+      "summary": "Large language models (LLMs) are increasingly deployed as agents that interact with external software through tools, with an orchestration layer translating model outputs into structured tool invocations. This architectu...",
+      "url": "http://arxiv.org/abs/2610.13651v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Yihang Sun, Mary Wootters",
-      "published_at": "2026-10-08",
+      "authors": "Md Nazmul Islam Ananto, Pierre Prevost-Avenel, Colin Smith",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -350,14 +350,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] ReSI: Recursive Safety Improvement toward Resistant and Resilient AI",
-      "summary": "Recursive self-improvement, the participation of AI systems in improving their own capabilities, is beginning to move from theoretical prospect to practice, posing both challenges and opportunities for safety alignment. ...",
-      "url": "http://arxiv.org/abs/2610.12233v1",
+      "title": "[cs.CR Security] APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
+      "summary": "Professional agents increasingly work through command-line interfaces and multiple tools over shared workspaces containing files, messages, and business applications. These environments create safety risks that are diffi...",
+      "url": "http://arxiv.org/abs/2610.13623v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Jingnan Zheng, Dongcheng Zhang, Yi Zhang",
-      "published_at": "2026-10-08",
+      "authors": "Ziyi Yang, Adel Bibi, Guohao Li",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -367,14 +367,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] One Node, Two Roles: Simultaneous Contests for Validation and Attention in Rollups",
-      "summary": "An optimistic rollup is safe as long as at least one honest validator executes its state transition function (STF) and disputes any assertion that is inconsistent with the result of the execution. Allowing anyone to part...",
-      "url": "http://arxiv.org/abs/2610.12220v1",
+      "title": "[cs.CR Security] A Systematic Study of Security Enforcement at Android Inter-Component Boundaries",
+      "summary": "Android's inter-process communication (IPC) mechanisms (Activities, Services, BroadcastReceivers, ContentProviders, and URI scheme handlers) form the primary interface between applications and between applications and th...",
+      "url": "http://arxiv.org/abs/2610.13597v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Pranay Anchuri, Ben Berger, Matteo Campanelli",
-      "published_at": "2026-10-08",
+      "authors": "Sandiyo Christan A",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -384,14 +384,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Verification with Transfer: Exact Information Frontiers and Their Price in Calls",
-      "summary": "A verifier that accepts or rejects whole answers reveals little: under a flat prior over $k$-bit answers, zero error needs $2^k-1$ verifications. The usual remedy is to solve related source tasks, either all first, as a ...",
-      "url": "http://arxiv.org/abs/2610.12211v1",
+      "title": "[cs.CR Security] EviRepair: Evidence-Driven Agents for Reliable Vulnerability Repair",
+      "summary": "Recent advances in large language models (LLMs) have enabled agent-based approaches for repository-level automated vulnerability repair (AVR), showing promising repair capabilities. However, an important issue has receiv...",
+      "url": "http://arxiv.org/abs/2610.13491v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Hazar Yueksel",
-      "published_at": "2026-10-08",
+      "authors": "Yilian Shi, Qingyu Liu, Tianyi Zhou",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -401,14 +401,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Poster: A Preliminary Study of LLM Distillation Inference",
-      "summary": "Unauthorized model distillation, in which a model is trained on the outputs of a proprietary large language model (LLM), is a growing threat to model providers. We study distillation inference: determining whether a susp...",
-      "url": "http://arxiv.org/abs/2610.12137v1",
+      "title": "[cs.CR Security] Towards Safe World Models: Risks, Defenses, and Evaluation",
+      "summary": "World models support planning, control, learning from imagined experience, and model-mediated evaluation by predicting action-conditioned consequences. Their safety cannot be inferred from predictive accuracy alone: erro...",
+      "url": "http://arxiv.org/abs/2610.13372v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Edward Chen, Yuntao Du",
-      "published_at": "2026-10-08",
+      "authors": "Xiaoma Wang, Litian Zhang, Xinze Shi",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -418,14 +418,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Could LLM Watermark Detection be Public?",
-      "summary": "Watermarking large language models is popular for tracing chatbot and agentic outputs, yet detectors remain unreleased since exposing them could let attackers do targeted edits with the detector's feedback. However, wate...",
-      "url": "http://arxiv.org/abs/2610.12106v1",
+      "title": "[cs.CR Security] Secrets in Preamble: Practical and Robust PHY Information Hiding for Wi-Fi",
+      "summary": "Physical layer (PHY) information hiding refers to the concealment of secrets within PHY waveforms without compromising the integrity of the primary communication link, thereby enabling critical applications such as cover...",
+      "url": "http://arxiv.org/abs/2610.13367v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Georgios Milis, Tom Sander, Tomáš Souček",
-      "published_at": "2026-10-08",
+      "authors": "Rui Pan, Guanxiong Shen, Linning Peng",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -435,46 +435,14 @@
       ]
     },
     {
-      "title": "The Lattice of Transition Laws",
-      "summary": "Diffusion and autoregression (AR) have long been seen as different categories of generative models, with diffusion specialising in continuous fields and AR specialising in discrete tokens. Recent work seeks to combine th...",
-      "url": "https://huggingface.co/papers/2610.11216",
+      "title": "Systematic Multi-Agent Vision-and-Language Navigation: Formulation, Benchmark, and Method",
+      "summary": "Vision-and-Language Navigation (VLN) has largely focused on a single agent following a single instruction, yet many real-world applications require teams of robots to tackle tasks beyond the capabilities of any individua...",
+      "url": "https://huggingface.co/papers/2609.35965",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
-      "authors": "T. Y. Tsui, Jiatao Gu, Lingjie Liu",
-      "published_at": "2026-10-07",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Behavioral Persistence and Incomplete Functional Transfer of Co-evolved Communication in Evolutionary Robotics",
-      "summary": "This work evaluates the direct transfer of a co-evolved communication protocol from a 2D simulation to a 3D physical environment, without retraining the network weights. Two e-puck-type robots, controlled by a GRU networ...",
-      "url": "https://huggingface.co/papers/2609.38527",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
-      "authors": "Fernando Montes-Gonzalez",
-      "published_at": "2026-09-28",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Evaluating the Transfer of Co-Evolved Communication from 2D to 3D Simulation",
-      "summary": "This work examines the transfer of a co-evolved communication mechanism between two robotic agents from a discrete two-dimensional (2D) simulator to a three-dimensional simulator with real physics (3D). The study focuses...",
-      "url": "https://huggingface.co/papers/2610.09280",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
-      "authors": "Fernando Montes-Gonzalez",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Yunzhe Xu, Zhe Liu",
       "published_at": "2026-10-06",
       "tags": [
         "paper",
@@ -483,14 +451,30 @@
       ]
     },
     {
-      "title": "Opera: A Verbal Critic Framework for Long-horizon Coding Agents",
-      "summary": "Long-horizon coding agents need timely corrections, yet feedback can be ineffective or even harmful when it misjudges ongoing work or fails to address the underlying problem. Existing critics focus on evaluating trajecto...",
-      "url": "https://huggingface.co/papers/2609.33987",
+      "title": "Multi-Stream Attention Residuals",
+      "summary": "Attention Residuals (AttnRes) enables content-dependent retrieval over network depth, which can be viewed as single-stream softmax attention along the depth axis. Inspired by the success of multi-head attention along the...",
+      "url": "https://huggingface.co/papers/2610.13630",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Xiaohan Qin, Xiangdong Zhang, Tuo Dai",
+      "published_at": "2026-10-08",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models",
+      "summary": "Humans perceive far more in a scene than what is explicitly depicted: a single glance captures past causes and future trajectories; a quick peek determines if a vehicle can fit between two parked cars; a few seconds of v...",
+      "url": "https://huggingface.co/papers/2610.08966",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 14",
       "upvotes": 14,
-      "authors": "Kai Mei, Zhiyuan Hu, Yutong Dai",
+      "authors": "Xingang Guo, Jing Gu, Brian Jang",
       "published_at": "2026-10-07",
       "tags": [
         "paper",
@@ -499,14 +483,14 @@
       ]
     },
     {
-      "title": "Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub",
-      "summary": "Agent skills are SKILL.md instructions and scripts that AI coding agents such as Claude Code and Codex run with the permissions of their user. Developers share skills by copying them between repositories, which makes the...",
-      "url": "https://huggingface.co/papers/2610.11169",
+      "title": "Mental-Models for Multi-Agent Systems",
+      "summary": "Large foundation models have accelerated progress toward general-purpose agents that interact with humans and other agents through language and multimodal signals. However, robust multi-agent decision-making requires rea...",
+      "url": "https://huggingface.co/papers/2610.12453",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
-      "authors": "Fahd Seddik",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Hanan Gani, Lulu Shao, Manmohan Chandraker",
       "published_at": "2026-10-07",
       "tags": [
         "paper",
@@ -515,14 +499,14 @@
       ]
     },
     {
-      "title": "Predicting Cable Dynamics with Physical Attention Bias",
-      "summary": "Learned simulators for deformable linear objects (DLOs) such as cables have to predict the motion of cables they were not trained on and stay stable over long rollouts. Most of their error occurs where the cable touches ...",
-      "url": "https://huggingface.co/papers/2610.11975",
+      "title": "BudgetPix: Compute-Adaptive Tokenization for Pixel-Space Image Diffusion",
+      "summary": "Most image generation models rely on uniform tokenization, allocating the exact same computational budget to equally-sized image patches. This static paradigm cannot adapt to different resource constraints at inference t...",
+      "url": "https://huggingface.co/papers/2610.12307",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
-      "authors": "Avihai Giuili, Rotem Atari, Avishai Sintov",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Ozgur Kara, Yujia Chen, Daniel Watson",
       "published_at": "2026-10-07",
       "tags": [
         "paper",
@@ -531,15 +515,15 @@
       ]
     },
     {
-      "title": "A GPU-Parallel Framework for Heterogeneous Multi-Task Reinforcement Learning",
-      "summary": "GPU-parallel simulation provides abundant robot interaction, but existing benchmarks rarely combine this scale with heterogeneous manipulation tasks and standardized multi-task RL evaluation. We introduce Hebero (Heterog...",
-      "url": "https://huggingface.co/papers/2606.03335",
+      "title": "Clinician use of language models diverges from how the models are evaluated",
+      "summary": "Large language model (LLM) assistants are being deployed to clinicians across health systems, and judgments about their readiness rest largely on benchmark scores, most of them derived from examination questions or curat...",
+      "url": "https://huggingface.co/papers/2610.11069",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
-      "authors": "Rui Zhang, Qiwei Wu, Zhengyu Zhang",
-      "published_at": "2026-10-05",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Krithik Vishwanath, Haitong Lin, Anton Alyakin",
+      "published_at": "2026-10-07",
       "tags": [
         "paper",
         "arxiv",
@@ -547,94 +531,14 @@
       ]
     },
     {
-      "title": "Mara Chain: Rethinking Failure as a Stepping Stone for AI System Auto-Evolution",
-      "summary": "Optimizing deployed AI systems increasingly amounts to editing prompts, skills, harnesses, and code rather than model weights. Existing approaches commonly optimize these artifacts through propose-evaluate-select procedu...",
-      "url": "https://huggingface.co/papers/2609.35855",
+      "title": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
+      "summary": "Recovering faithful 3D hand motion from video remains challenging due to frequent occlusions and incomplete visual observations, which make frame-wise pose estimates unreliable and temporally inconsistent. To address thi...",
+      "url": "https://huggingface.co/papers/2610.10512",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 9",
-      "upvotes": 9,
-      "authors": "Yubin Lyu, Fu Li, Jiawei Fei",
-      "published_at": "2026-09-24",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Incidental information contaminates patient notes and disrupts clinical reasoning in large language models",
-      "summary": "Large language models (LLMs) are increasingly relied upon to support ambient documentation and clinical reasoning. Here we examine the impact of a failure mode shared between these two applications by assessing their sen...",
-      "url": "https://huggingface.co/papers/2610.08585",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 6",
-      "upvotes": 6,
-      "authors": "Krithik Vishwanath, Brandon Ye, Anton Alyakin",
-      "published_at": "2026-10-05",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Frozen Models, Evolving Expertise: Model-Agnostic Learning from Deployment Experience for Multimodal Medical AI",
-      "summary": "Large language models (LLMs) and vision-language models (VLMs) are usually frozen after deployment, so they do not learn from the cases they solve. This is especially concerning in medicine, where new clinical evidence, ...",
-      "url": "https://huggingface.co/papers/2610.09146",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 6",
-      "upvotes": 6,
-      "authors": "Yexiao He, Yucheng Tang, Pengfei Guo",
-      "published_at": "2026-10-05",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
-      "summary": "Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. T...",
-      "url": "https://huggingface.co/papers/2610.10549",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
-      "authors": "Yipeng Li, Ashutosh Hathidara, Jane Lo",
-      "published_at": "2026-09-23",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "SpecFold: Folding Multi-Branch Redundancy for Faster Speculative Decoding in Diffusion Language Models",
-      "summary": "Diffusion large language models (DLLMs) generate text through iterative block denoising, and multi-branch speculative decoding accelerates this process by verifying a main branch together with multiple draft branches in ...",
-      "url": "https://huggingface.co/papers/2610.04875",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
-      "authors": "Chung-En Ho, Weiyu Sun, Cheng-Jhih Shih",
-      "published_at": "2026-10-05",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "MIRA: A Musical Intent Refinement Agent for Aligning Text-to-Music Generation with User Intent",
-      "summary": "Text-to-music systems produce increasingly convincing audio, yet evaluation reveals little about whether the result matches user intent. A global text-audio relevance score can overlook the implicit intent in underspecif...",
-      "url": "https://huggingface.co/papers/2610.10355",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 8",
-      "upvotes": 8,
-      "authors": "Zekai Liu, Zhilin Wang, Xuzheng He",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Chen Xu, Yunqi Li, Binbin Huang",
       "published_at": "2026-10-06",
       "tags": [
         "paper",
@@ -643,30 +547,14 @@
       ]
     },
     {
-      "title": "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station",
-      "summary": "Recent AI systems have made rapid progress in scientific discovery when given well-defined metrics, but whether they can autonomously undertake open-ended scientific discovery remains unclear. We investigate AI's ability...",
-      "url": "https://huggingface.co/papers/2610.08927",
+      "title": "Few-Step Generation via Data-Space Iteration",
+      "summary": "Flow matching has emerged as a scalable paradigm for training high-quality generative models, but sampling from the learned probability flow requires many network evaluations. Distillation can reduce this cost to one or ...",
+      "url": "https://huggingface.co/papers/2610.12102",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 8",
-      "upvotes": 8,
-      "authors": "Wenyu Du, Stephen Chung",
-      "published_at": "2026-10-05",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Pumpire: Unified Benchmark for Metric Distance Estimation",
-      "summary": "We present Pumpire, a unified benchmark for evaluating metric point-pair distance estimation capability of both image- and video-level 3D foundation models, with or without depth priors. In contrast to previous approache...",
-      "url": "https://huggingface.co/papers/2610.12423",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 18",
-      "upvotes": 18,
-      "authors": "Siyu Chen, Zehan Wang, Jiayang Xu",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Shanchuan Lin, Yansong Peng, Fu-Yun Wang",
       "published_at": "2026-10-07",
       "tags": [
         "paper",
@@ -675,15 +563,15 @@
       ]
     },
     {
-      "title": "Incremental Open-Ended Deep Research with Structured Harness",
-      "summary": "Existing Open-Ended Deep Research (OEDR) systems primarily generate reports from scratch, making them inefficient for scenarios where research reports need to be continuously maintained as new information emerges. We int...",
-      "url": "https://huggingface.co/papers/2610.11566",
+      "title": "GATOR: Generative and Agentic 3D Object Reconstruction From Casual Images",
+      "summary": "Reconstructing complete, scene-aligned 3D objects from casual images requires integrating sparse, uncertain observations and inferring surfaces hidden by occlusions. We present GATOR, a generative and agentic framework t...",
+      "url": "https://huggingface.co/papers/2610.11215",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
-      "authors": "Meilin Chen, Hongyuan Bao",
-      "published_at": "2026-10-07",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Qirui Wu, Stan Birchfield, Hesam Rabeti",
+      "published_at": "2026-10-08",
       "tags": [
         "paper",
         "arxiv",
@@ -691,15 +579,15 @@
       ]
     },
     {
-      "title": "Investigating the Role of Reasoning-Language Alignment in Monolingual Retrieval-Augmented Generation",
-      "summary": "Reasoning traces improve large language models (LLMs), but current models are trained to reason mostly in English. It has been shown that forcing a model to reason in another language degrades accuracy, even when the rea...",
-      "url": "https://huggingface.co/papers/2610.03136",
+      "title": "Distributionally Robust Mixture-of-Experts Training",
+      "summary": "Mixture-of-Experts (MoE) transformers scale capacity by activating only a few experts per token, but this sparsity creates a hidden reliability problem: when routing is imperfect, load-balanced models may send tokens to ...",
+      "url": "https://huggingface.co/papers/2610.07207",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 5",
       "upvotes": 5,
-      "authors": "Oliver Hauck, Mario Sanz-Guerrero, Katharina von der Wense",
-      "published_at": "2026-10-01",
+      "authors": "Xin Teng, Muxiao Li, Hongyi Wen",
+      "published_at": "2026-10-04",
       "tags": [
         "paper",
         "arxiv",
@@ -707,14 +595,14 @@
       ]
     },
     {
-      "title": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
-      "summary": "In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation. reViT restores de...",
-      "url": "https://huggingface.co/papers/2610.12448",
+      "title": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
+      "summary": "A latent recurrent language model applies a shared block of layers repeatedly, so one checkpoint can trade inference compute for accuracy by changing the loop count. At one loop, however, such models typically fall well ...",
+      "url": "https://huggingface.co/papers/2610.12582",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
-      "authors": "Adrian Bulat, Yassine Ouali, Georgios Tzimiropoulos",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Faisal Ladhak, Shantanu Acharya, Santiago Akle Serano",
       "published_at": "2026-10-07",
       "tags": [
         "paper",
@@ -723,14 +611,46 @@
       ]
     },
     {
-      "title": "A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization",
-      "summary": "Black-box optimization (BBO) arises in many scientific and engineering problems where objective evaluations are expensive and limited. Recent large language model (LLM) agents offer a new way to approach BBO by combining...",
-      "url": "https://huggingface.co/papers/2610.12183",
+      "title": "The Life Cycle of a Massive Activation: Stochastic Birth, Weight-Decay-Driven Growth, and Competitive Consolidation",
+      "summary": "Massive activations, residual-stream coordinates with magnitudes far larger than typical activations, are associated with attention sinks in transformers, but how their scale is regulated during training remains incomple...",
+      "url": "https://huggingface.co/papers/2610.00423",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 8",
-      "upvotes": 8,
-      "authors": "Ming Chen, Rong-Xi Tan, Ke Xue",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "S. Aaron McClendon, Jorge Gallego-Feliciano, Antonios Saravanos",
+      "published_at": "2026-10-04",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations",
+      "summary": "Given a target dataset, such as faces with eyeglasses, and a background dataset, such as faces without, contrastive analysis separates salient factors specific to the target from common content shared by both. We aim for...",
+      "url": "https://huggingface.co/papers/2609.39635",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Shuang Liang, Lejun Liao, Shiyuan Zhang",
+      "published_at": "2026-09-29",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Self-Preservation in Language Models",
+      "summary": "Continual learning (CL) seeks to adapt pretrained models while preserving prior capabilities. Yet the tasks supplied for preservation cover only part of what a model knows, while forgetting can extend beyond them. Recent...",
+      "url": "https://huggingface.co/papers/2610.12602",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Dongkyu Cho, Rumi Chunara, Ali Behrouz",
       "published_at": "2026-10-07",
       "tags": [
         "paper",
@@ -739,14 +659,94 @@
       ]
     },
     {
-      "title": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
-      "summary": "Learning to act in unfamiliar environments requires agents to infer how the world works and revise that understanding as new evidence arrives. Yet limited observations can support multiple world models that explain past ...",
-      "url": "https://huggingface.co/papers/2610.11794",
+      "title": "Coding-Agent Benchmarks Should Match Their Users' Task Flows",
+      "summary": "The evaluation of coding agents generally strives to be as realistic as possible. In our study, we collect 4,782 agent sessions of real software engineers in JetBrains IDEs, which we call Production Sessions. Since our s...",
+      "url": "https://huggingface.co/papers/2610.09633",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 35",
-      "upvotes": 35,
-      "authors": "Haoyu Zhao, Zhengxu Yu, Zhiyuan He",
+      "badge": "⭐ 11",
+      "upvotes": 11,
+      "authors": "Igor Slinko, Yaroslav Golubev, Sergey Titov",
+      "published_at": "2026-10-06",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "QuantMLA: Function-Aligned Dual-Path Quantization for Low-Bit MLA KV Caching",
+      "summary": "Multi-Head Latent Attention (MLA) enables expressive multi-head attention with compact caches for its content and decoupled RoPE paths, yet cache memory still scales linearly with context length and batch size. In this w...",
+      "url": "https://huggingface.co/papers/2609.36760",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 5",
+      "upvotes": 5,
+      "authors": "Zunhai Su, Yuxuan Sun, Jianchao Tan",
+      "published_at": "2026-09-29",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "When to Rethink: Learning Multi-Perspective Self-Verification for Vision-Language Models",
+      "summary": "Vision-language models (VLMs) have achieved strong performance in multimodal reasoning, yet they remain prone to generating plausible but incorrect answers. Self-verification offers a practical way to improve answer reli...",
+      "url": "https://huggingface.co/papers/2610.07018",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Ziquan Zhu, Hanruo Zhu, Si-Yuan Lu",
+      "published_at": "2026-10-03",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances",
+      "summary": "Generating realistic human-object interactions (HOI) in complex 3D scenes requires two complementary capabilities: reasoning about interaction feasibility in the environment and synthesizing realistic human-object motion...",
+      "url": "https://huggingface.co/papers/2610.12416",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Mingyuan Lei, Yoonchang Sung, Tat-Jen Cham",
+      "published_at": "2026-10-07",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "MetaKernelBench: Measuring GPU Kernel Knowledge Transfer Beyond Code",
+      "summary": "Recent GPU kernel optimization agents retain what they learn in knowledge bases or as distilled skills. Kernel benchmarks score each attempt's implementation for correctness and speed but leave the reuse value of retaine...",
+      "url": "https://huggingface.co/papers/2610.05014",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 16",
+      "upvotes": 16,
+      "authors": "Xueyi Chen, Shiyu Liu, Xin Jin",
+      "published_at": "2026-10-03",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Universal Textual Teaching for LLMs",
+      "summary": "Knowledge distillation (KD) transfers knowledge from stronger Teacher models to weaker Student models, but most methods require training the Student parameters, thereby binding the distilled knowledge to a specific archi...",
+      "url": "https://huggingface.co/papers/2610.12114",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 10",
+      "upvotes": 10,
+      "authors": "Zhanyi Lu, Huan Wang",
       "published_at": "2026-10-07",
       "tags": [
         "paper",
@@ -1002,13 +1002,13 @@
       ]
     },
     {
-      "title": "Total Annihilation, rebuilt for modern computers",
-      "summary": "Hacker News (297 pts, 126 comments) by @jttnr",
-      "url": "https://nanolathe.gg",
+      "title": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
+      "summary": "Hacker News (88 pts, 49 comments) by @arunc",
+      "url": "https://doi.org/10.1111/acel.70751",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "297 pts",
-      "upvotes": 297,
+      "badge": "88 pts",
+      "upvotes": 88,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1017,13 +1017,13 @@
       ]
     },
     {
-      "title": "Cartographers of North Korea",
-      "summary": "Hacker News (140 pts, 22 comments) by @edent",
-      "url": "https://cartographers-nk.wonyoung.so/",
+      "title": "GPT-6 Astra Helped Me Jailbreak My Kindle",
+      "summary": "Hacker News (99 pts, 55 comments) by @nirajrajgor",
+      "url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "140 pts",
-      "upvotes": 140,
+      "badge": "99 pts",
+      "upvotes": 99,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1032,13 +1032,13 @@
       ]
     },
     {
-      "title": "The gap in shared understanding of LLM capability is widening",
-      "summary": "Hacker News (148 pts, 200 comments) by @albertzeyer",
-      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "title": "GLM-Legal",
+      "summary": "Hacker News (428 pts, 247 comments) by @ilreb",
+      "url": "https://z.ai/blog/glm-legal",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "148 pts",
-      "upvotes": 148,
+      "badge": "428 pts",
+      "upvotes": 428,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1047,13 +1047,13 @@
       ]
     },
     {
-      "title": "Recursive self-improvement through collective intelligence",
-      "summary": "Hacker News (13 pts, 0 comments) by @hardmaru",
-      "url": "https://pub.sakana.ai/mass/",
+      "title": "Who Is Vfmaddrnd231pd?",
+      "summary": "Hacker News (112 pts, 9 comments) by @pngmangi",
+      "url": "https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "13 pts",
-      "upvotes": 13,
+      "badge": "112 pts",
+      "upvotes": 112,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1062,13 +1062,13 @@
       ]
     },
     {
-      "title": "Google Data Centers around the world",
-      "summary": "Hacker News (12 pts, 5 comments) by @andsoitis",
-      "url": "https://datacenters.google/locations/",
+      "title": "A Modern Web App in C",
+      "summary": "Hacker News (392 pts, 161 comments) by @prophittcorey",
+      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "12 pts",
-      "upvotes": 12,
+      "badge": "392 pts",
+      "upvotes": 392,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1077,13 +1077,13 @@
       ]
     },
     {
-      "title": "So, You’d Like To Sell Your Print Issues Of The Onion?",
-      "summary": "Hacker News (217 pts, 25 comments) by @mooreds",
-      "url": "https://theonion.com/archivehunt/",
+      "title": "The baffling intelligence of a single cell (2024)",
+      "summary": "Hacker News (35 pts, 1 comments) by @jsomers",
+      "url": "https://jsomers.net/e-coli-chemotaxis/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "217 pts",
-      "upvotes": 217,
+      "badge": "35 pts",
+      "upvotes": 35,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1092,13 +1092,13 @@
       ]
     },
     {
-      "title": "Fingerprints Are the New Cookies",
-      "summary": "Hacker News (7 pts, 0 comments) by @royfish",
-      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+      "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "summary": "Hacker News (65 pts, 20 comments) by @hurricanepootis",
+      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "7 pts",
-      "upvotes": 7,
+      "badge": "65 pts",
+      "upvotes": 65,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1107,13 +1107,13 @@
       ]
     },
     {
-      "title": "Chapter 1 of Ways of Seeing by John Berger",
-      "summary": "Hacker News (62 pts, 10 comments) by @rafael859",
-      "url": "https://www.ways-of-seeing.com/ch1",
+      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+      "summary": "Hacker News (444 pts, 655 comments) by @Zeekaas",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "62 pts",
-      "upvotes": 62,
+      "badge": "444 pts",
+      "upvotes": 444,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1122,13 +1122,13 @@
       ]
     },
     {
-      "title": "Terence Tao: Math 2.0 [pdf]",
-      "summary": "Hacker News (288 pts, 349 comments) by @Anon84",
-      "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+      "title": "Making big downloads resumable in Firefox",
+      "summary": "Hacker News (88 pts, 32 comments) by @speckx",
+      "url": "https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "288 pts",
-      "upvotes": 288,
+      "badge": "88 pts",
+      "upvotes": 88,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1137,13 +1137,13 @@
       ]
     },
     {
-      "title": "A Remote Employee Refused 160 Webcam Photos a Day. Her Employer Fired Her",
-      "summary": "Hacker News (94 pts, 58 comments) by @bhrlady",
-      "url": "https://www.inc.com/chloe-rosenberg/a-remote-employee-refused-160-webcam-photos-a-day-her-employer-fired-her/91415963",
+      "title": "Phreak.ing – Internet Phone Switch",
+      "summary": "Hacker News (71 pts, 24 comments) by @rickcarlino",
+      "url": "https://phreak.ing/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "94 pts",
-      "upvotes": 94,
+      "badge": "71 pts",
+      "upvotes": 71,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1152,13 +1152,13 @@
       ]
     },
     {
-      "title": "NYC's \"Click to Cancel\" rule is now in effect",
-      "summary": "Hacker News (297 pts, 143 comments) by @gregsadetsky",
-      "url": "https://www.nyc.gov/main/click-to-cancel",
+      "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+      "summary": "Hacker News (29 pts, 13 comments) by @khalidkhair",
+      "url": "https://github.com/prabanta-dev/janas",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "297 pts",
-      "upvotes": 297,
+      "badge": "29 pts",
+      "upvotes": 29,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1167,13 +1167,13 @@
       ]
     },
     {
-      "title": "IRCv3",
-      "summary": "Hacker News (329 pts, 280 comments) by @basilikum",
-      "url": "https://ircv3.net/",
+      "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
+      "summary": "Hacker News (259 pts, 69 comments) by @djfergus",
+      "url": "https://github.com/h0m3us3r/w1700k-sdr",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "329 pts",
-      "upvotes": 329,
+      "badge": "259 pts",
+      "upvotes": 259,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1182,13 +1182,13 @@
       ]
     },
     {
-      "title": "Passkeys are a trap. Do not use them",
-      "summary": "Hacker News (111 pts, 39 comments) by @laurex",
-      "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
+      "title": "Writing a Demoscene Intro for the ZX Spectrum",
+      "summary": "Hacker News (76 pts, 6 comments) by @zdw",
+      "url": "https://www.markround.com/blog/2026/zx-spectrum-intro",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "111 pts",
-      "upvotes": 111,
+      "badge": "76 pts",
+      "upvotes": 76,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1197,28 +1197,13 @@
       ]
     },
     {
-      "title": "I guess I'm using WebP now?",
-      "summary": "Hacker News (54 pts, 56 comments) by @Brajeshwar",
-      "url": "https://anderegg.ca/2026/10/08/i-guess-im-using-webp-now",
+      "title": "Citroen revives the 2CV for an electric age",
+      "summary": "Hacker News (267 pts, 317 comments) by @scrlk",
+      "url": "https://www.bbc.com/news/articles/c620r33plgppo",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "54 pts",
-      "upvotes": 54,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "LineageOS 24",
-      "summary": "Hacker News (400 pts, 163 comments) by @timschumi",
-      "url": "https://lineageos.org/Changelog-32/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "400 pts",
-      "upvotes": 400,
+      "badge": "267 pts",
+      "upvotes": 267,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1563,14 +1548,14 @@
       ]
     },
     {
-      "title": "[cs.AI] On the estimation and validity of AI time horizons---a statistical look at the METR plot",
-      "summary": "METR's 50\\% time horizon measures the human completion time of software tasks that an AI solves with 50\\% probability, allowing AI capabilities to be expressed in interpretable units. On 228 tasks and 26 AIs, we recomput...",
-      "url": "http://arxiv.org/abs/2610.12466v1",
+      "title": "[cs.AI] Can Language Models Play the Wikipedia Game?",
+      "summary": "Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the Wiki...",
+      "url": "http://arxiv.org/abs/2610.13948v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Drew T. Nguyen, William Fithian",
-      "published_at": "2026-10-08",
+      "authors": "Alexander Hickey, Joanna Knight, James Bishop",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -1579,14 +1564,14 @@
       ]
     },
     {
-      "title": "[cs.AI] From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
-      "summary": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coord...",
-      "url": "http://arxiv.org/abs/2610.12463v1",
+      "title": "[cs.AI] Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
+      "summary": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-b...",
+      "url": "http://arxiv.org/abs/2610.13935v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Abbas Raftari",
-      "published_at": "2026-10-08",
+      "authors": "Bhanu Tokas, Rahul Nair, Rockwell Jackson",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -1595,14 +1580,14 @@
       ]
     },
     {
-      "title": "[cs.AI] BrickBench: Evaluating Agentic Brick Design",
-      "summary": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be ph...",
-      "url": "http://arxiv.org/abs/2610.12452v1",
+      "title": "[cs.AI] Revisiting Tabular Deep Regression: Objectives and the Limits of Global Early Stopping",
+      "summary": "While deep learning models for tabular data have recently received significant research attention, the choice of objective functions for regression tasks remains an understudied degree of freedom. Several lines of resear...",
+      "url": "http://arxiv.org/abs/2610.13909v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Peter Kulits, Yiqing Xu, R. Kenny Jones",
-      "published_at": "2026-10-08",
+      "authors": "Danil Rudenko, Georgii Bulgakov, Nikolay Kartashev",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -1611,14 +1596,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems",
-      "summary": "Bifurcations are ubiquitous in physical systems, from structural buckling to fluid and climate dynamics, yet they remain largely unexplored in deep learning. At a symmetry-breaking bifurcation, a single input admits mult...",
-      "url": "http://arxiv.org/abs/2610.12449v1",
+      "title": "[cs.AI] Task Context Shapes Component Roles in Language Models",
+      "summary": "Large language models reuse the same attention heads across tasks, but identifying these shared heads does not explain what they do differently in each task. A natural source of inspiration is task-dependent interactions...",
+      "url": "http://arxiv.org/abs/2610.13895v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Anna Zimmel, Fleur Hendriks, Markus Holzleitner",
-      "published_at": "2026-10-08",
+      "authors": "Sovesh Mohapatra, Dani S Bassett",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -1627,14 +1612,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
-      "summary": "Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people. We show that white-box deception detection via probes can be scaled up to frontier monitoring settings b...",
-      "url": "http://arxiv.org/abs/2610.12445v1",
+      "title": "[cs.AI] RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
+      "summary": "As AI agents increasingly rely on external tools, accurate retrieval is essential for reliable behavior. Existing methods optimize semantic relevance but largely ignore tool availability during execution. To address this...",
+      "url": "http://arxiv.org/abs/2610.13889v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Oskar J. Hollinsworth, Alex F. Spies, Tigist Diriba",
-      "published_at": "2026-10-08",
+      "authors": "Weiliang Chen, Song Liao",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -1643,14 +1628,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
-      "summary": "AI agents can now conduct real-world cyberattacks, scale up capabilities with the number of agents, and collectively pursue misaligned goals to obtain rewards. Together, these factors raise the risk of a population explo...",
-      "url": "http://arxiv.org/abs/2610.12436v1",
+      "title": "[cs.AI] X-AgentRed: Red-Teaming Personal Agents in Evolving Multi-Service Ecosystems",
+      "summary": "Personal agents increasingly connect to services across the web and applications by using tools. As the effects of their actions accumulate and interact across services, unintended or harmful outcomes can arise when agen...",
+      "url": "http://arxiv.org/abs/2610.13886v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Erin Crawley, Hidenori Tanaka",
-      "published_at": "2026-10-08",
+      "authors": "Yeonsung Jung, Zhiyuan Wang, Zifan Wang",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -1659,14 +1644,14 @@
       ]
     },
     {
-      "title": "[cs.AI] RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments",
-      "summary": "A generalist robot should not only perform diverse tasks but also improve through experience, turning what it learns during execution into capabilities that later tasks can reuse. Robot agents that act through code can a...",
-      "url": "http://arxiv.org/abs/2610.12424v1",
+      "title": "[cs.AI] Studying Comics at Scale with Artificial Intelligence: The PAGE Framework and Three Studies of American Comics and Japanese Manga",
+      "summary": "Comics are one of the great visual records of the twentieth century: hundreds of thousands of pages in which a mass readership saw its leaders, its wars and its heroes. Most of this record has never been studied as a who...",
+      "url": "http://arxiv.org/abs/2610.13840v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Zimo Wen, Yijin Chen, Yuxuan Cao",
-      "published_at": "2026-10-08",
+      "authors": "Emilio Ferrara",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -1675,14 +1660,14 @@
       ]
     },
     {
-      "title": "[cs.AI] MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances",
-      "summary": "Generating realistic human-object interactions (HOI) in complex 3D scenes requires two complementary capabilities: reasoning about interaction feasibility in the environment and synthesizing realistic human-object motion...",
-      "url": "http://arxiv.org/abs/2610.12416v1",
+      "title": "[cs.AI] SpatialASM: Internalizing Active Mentalization for Spatial Reasoning",
+      "summary": "When solving complex spatial reasoning tasks, ordinary humans naturally revisit the scenes from task-relevant viewpoints and mentally reconstruct the spatial layouts from those viewpoints. But can Large Vision-Language M...",
+      "url": "http://arxiv.org/abs/2610.13832v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Mingyuan Lei, Yoonchang Sung, Tat-Jen Cham",
-      "published_at": "2026-10-08",
+      "authors": "Yuhong Liu, Shenxi Wu, Junyi Chi",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -1691,14 +1676,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
-      "summary": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coord...",
-      "url": "http://arxiv.org/abs/2610.12463v1",
+      "title": "[cs.CR Security] AI Models Can Provably Hide Arbitrary Capabilities",
+      "summary": "Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adv...",
+      "url": "http://arxiv.org/abs/2610.13928v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Abbas Raftari",
-      "published_at": "2026-10-08",
+      "authors": "Andis Draguns, Sumeet Ramesh Motwani, Raymond Douglas",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -1708,14 +1693,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] ORCAGen: Orchestrating Context-Aware Malware Deception with RAG-Guided Generative AI",
-      "summary": "Malware defenses often remove or isolate suspicious programs as quickly as possible. While effective for containment, this approach can also waste an opportunity to observe attacker behavior and deploy targeted counterme...",
-      "url": "http://arxiv.org/abs/2610.12415v1",
+      "title": "[cs.CR Security] Decision-Focused Learning for Cyber-Physical Risk-Aware Power Grid Operations",
+      "summary": "Power grid cyber-physical security requires intrusion detection methods that account for the operational consequences of detection errors. However, the existing intrusion detection approaches primarily focus on the predi...",
+      "url": "http://arxiv.org/abs/2610.13853v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Shihab Ahmed, Md Sajidul Islam Sajid, Teryl Taylor",
-      "published_at": "2026-10-08",
+      "authors": "Ayesha Siddiqua Dina, Ebisa D. Wollega, Afzal Hossain Sohag",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -1725,14 +1710,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Improved Local Leakage Resilience of Shamir Secret Sharing and Worst-Case Optimal Polynomial Intersection",
-      "summary": "We study two problems: Local Leakage Resilience (LLR) for Shamir secret sharing, and worst-case Optimal Polynomial Intersection (OPI). Both problems concern polynomials $Q(X)$ of degree less than $k$, over a prime-order ...",
-      "url": "http://arxiv.org/abs/2610.12357v1",
+      "title": "[cs.CR Security] ToFu: Exploiting and Fuzzing the LLM-Orchestrator-Tool Trust Boundary",
+      "summary": "Large language models (LLMs) are increasingly deployed as agents that interact with external software through tools, with an orchestration layer translating model outputs into structured tool invocations. This architectu...",
+      "url": "http://arxiv.org/abs/2610.13651v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Yihang Sun, Mary Wootters",
-      "published_at": "2026-10-08",
+      "authors": "Md Nazmul Islam Ananto, Pierre Prevost-Avenel, Colin Smith",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -1742,14 +1727,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] ReSI: Recursive Safety Improvement toward Resistant and Resilient AI",
-      "summary": "Recursive self-improvement, the participation of AI systems in improving their own capabilities, is beginning to move from theoretical prospect to practice, posing both challenges and opportunities for safety alignment. ...",
-      "url": "http://arxiv.org/abs/2610.12233v1",
+      "title": "[cs.CR Security] APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
+      "summary": "Professional agents increasingly work through command-line interfaces and multiple tools over shared workspaces containing files, messages, and business applications. These environments create safety risks that are diffi...",
+      "url": "http://arxiv.org/abs/2610.13623v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Jingnan Zheng, Dongcheng Zhang, Yi Zhang",
-      "published_at": "2026-10-08",
+      "authors": "Ziyi Yang, Adel Bibi, Guohao Li",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -1759,14 +1744,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] One Node, Two Roles: Simultaneous Contests for Validation and Attention in Rollups",
-      "summary": "An optimistic rollup is safe as long as at least one honest validator executes its state transition function (STF) and disputes any assertion that is inconsistent with the result of the execution. Allowing anyone to part...",
-      "url": "http://arxiv.org/abs/2610.12220v1",
+      "title": "[cs.CR Security] A Systematic Study of Security Enforcement at Android Inter-Component Boundaries",
+      "summary": "Android's inter-process communication (IPC) mechanisms (Activities, Services, BroadcastReceivers, ContentProviders, and URI scheme handlers) form the primary interface between applications and between applications and th...",
+      "url": "http://arxiv.org/abs/2610.13597v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Pranay Anchuri, Ben Berger, Matteo Campanelli",
-      "published_at": "2026-10-08",
+      "authors": "Sandiyo Christan A",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -1776,14 +1761,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Verification with Transfer: Exact Information Frontiers and Their Price in Calls",
-      "summary": "A verifier that accepts or rejects whole answers reveals little: under a flat prior over $k$-bit answers, zero error needs $2^k-1$ verifications. The usual remedy is to solve related source tasks, either all first, as a ...",
-      "url": "http://arxiv.org/abs/2610.12211v1",
+      "title": "[cs.CR Security] EviRepair: Evidence-Driven Agents for Reliable Vulnerability Repair",
+      "summary": "Recent advances in large language models (LLMs) have enabled agent-based approaches for repository-level automated vulnerability repair (AVR), showing promising repair capabilities. However, an important issue has receiv...",
+      "url": "http://arxiv.org/abs/2610.13491v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Hazar Yueksel",
-      "published_at": "2026-10-08",
+      "authors": "Yilian Shi, Qingyu Liu, Tianyi Zhou",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -1793,14 +1778,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Poster: A Preliminary Study of LLM Distillation Inference",
-      "summary": "Unauthorized model distillation, in which a model is trained on the outputs of a proprietary large language model (LLM), is a growing threat to model providers. We study distillation inference: determining whether a susp...",
-      "url": "http://arxiv.org/abs/2610.12137v1",
+      "title": "[cs.CR Security] Towards Safe World Models: Risks, Defenses, and Evaluation",
+      "summary": "World models support planning, control, learning from imagined experience, and model-mediated evaluation by predicting action-conditioned consequences. Their safety cannot be inferred from predictive accuracy alone: erro...",
+      "url": "http://arxiv.org/abs/2610.13372v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Edward Chen, Yuntao Du",
-      "published_at": "2026-10-08",
+      "authors": "Xiaoma Wang, Litian Zhang, Xinze Shi",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -1810,14 +1795,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Could LLM Watermark Detection be Public?",
-      "summary": "Watermarking large language models is popular for tracing chatbot and agentic outputs, yet detectors remain unreleased since exposing them could let attackers do targeted edits with the detector's feedback. However, wate...",
-      "url": "http://arxiv.org/abs/2610.12106v1",
+      "title": "[cs.CR Security] Secrets in Preamble: Practical and Robust PHY Information Hiding for Wi-Fi",
+      "summary": "Physical layer (PHY) information hiding refers to the concealment of secrets within PHY waveforms without compromising the integrity of the primary communication link, thereby enabling critical applications such as cover...",
+      "url": "http://arxiv.org/abs/2610.13367v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Georgios Milis, Tom Sander, Tomáš Souček",
-      "published_at": "2026-10-08",
+      "authors": "Rui Pan, Guanxiong Shen, Linning Peng",
+      "published_at": "2026-10-09",
       "tags": [
         "arxiv",
         "paper",
@@ -1827,46 +1812,14 @@
       ]
     },
     {
-      "title": "The Lattice of Transition Laws",
-      "summary": "Diffusion and autoregression (AR) have long been seen as different categories of generative models, with diffusion specialising in continuous fields and AR specialising in discrete tokens. Recent work seeks to combine th...",
-      "url": "https://huggingface.co/papers/2610.11216",
+      "title": "Systematic Multi-Agent Vision-and-Language Navigation: Formulation, Benchmark, and Method",
+      "summary": "Vision-and-Language Navigation (VLN) has largely focused on a single agent following a single instruction, yet many real-world applications require teams of robots to tackle tasks beyond the capabilities of any individua...",
+      "url": "https://huggingface.co/papers/2609.35965",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
-      "authors": "T. Y. Tsui, Jiatao Gu, Lingjie Liu",
-      "published_at": "2026-10-07",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Behavioral Persistence and Incomplete Functional Transfer of Co-evolved Communication in Evolutionary Robotics",
-      "summary": "This work evaluates the direct transfer of a co-evolved communication protocol from a 2D simulation to a 3D physical environment, without retraining the network weights. Two e-puck-type robots, controlled by a GRU networ...",
-      "url": "https://huggingface.co/papers/2609.38527",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
-      "authors": "Fernando Montes-Gonzalez",
-      "published_at": "2026-09-28",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Evaluating the Transfer of Co-Evolved Communication from 2D to 3D Simulation",
-      "summary": "This work examines the transfer of a co-evolved communication mechanism between two robotic agents from a discrete two-dimensional (2D) simulator to a three-dimensional simulator with real physics (3D). The study focuses...",
-      "url": "https://huggingface.co/papers/2610.09280",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
-      "authors": "Fernando Montes-Gonzalez",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Yunzhe Xu, Zhe Liu",
       "published_at": "2026-10-06",
       "tags": [
         "paper",
@@ -1875,14 +1828,30 @@
       ]
     },
     {
-      "title": "Opera: A Verbal Critic Framework for Long-horizon Coding Agents",
-      "summary": "Long-horizon coding agents need timely corrections, yet feedback can be ineffective or even harmful when it misjudges ongoing work or fails to address the underlying problem. Existing critics focus on evaluating trajecto...",
-      "url": "https://huggingface.co/papers/2609.33987",
+      "title": "Multi-Stream Attention Residuals",
+      "summary": "Attention Residuals (AttnRes) enables content-dependent retrieval over network depth, which can be viewed as single-stream softmax attention along the depth axis. Inspired by the success of multi-head attention along the...",
+      "url": "https://huggingface.co/papers/2610.13630",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Xiaohan Qin, Xiangdong Zhang, Tuo Dai",
+      "published_at": "2026-10-08",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models",
+      "summary": "Humans perceive far more in a scene than what is explicitly depicted: a single glance captures past causes and future trajectories; a quick peek determines if a vehicle can fit between two parked cars; a few seconds of v...",
+      "url": "https://huggingface.co/papers/2610.08966",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 14",
       "upvotes": 14,
-      "authors": "Kai Mei, Zhiyuan Hu, Yutong Dai",
+      "authors": "Xingang Guo, Jing Gu, Brian Jang",
       "published_at": "2026-10-07",
       "tags": [
         "paper",
@@ -1891,14 +1860,14 @@
       ]
     },
     {
-      "title": "Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub",
-      "summary": "Agent skills are SKILL.md instructions and scripts that AI coding agents such as Claude Code and Codex run with the permissions of their user. Developers share skills by copying them between repositories, which makes the...",
-      "url": "https://huggingface.co/papers/2610.11169",
+      "title": "Mental-Models for Multi-Agent Systems",
+      "summary": "Large foundation models have accelerated progress toward general-purpose agents that interact with humans and other agents through language and multimodal signals. However, robust multi-agent decision-making requires rea...",
+      "url": "https://huggingface.co/papers/2610.12453",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
-      "authors": "Fahd Seddik",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Hanan Gani, Lulu Shao, Manmohan Chandraker",
       "published_at": "2026-10-07",
       "tags": [
         "paper",
@@ -1907,14 +1876,14 @@
       ]
     },
     {
-      "title": "Predicting Cable Dynamics with Physical Attention Bias",
-      "summary": "Learned simulators for deformable linear objects (DLOs) such as cables have to predict the motion of cables they were not trained on and stay stable over long rollouts. Most of their error occurs where the cable touches ...",
-      "url": "https://huggingface.co/papers/2610.11975",
+      "title": "BudgetPix: Compute-Adaptive Tokenization for Pixel-Space Image Diffusion",
+      "summary": "Most image generation models rely on uniform tokenization, allocating the exact same computational budget to equally-sized image patches. This static paradigm cannot adapt to different resource constraints at inference t...",
+      "url": "https://huggingface.co/papers/2610.12307",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
-      "authors": "Avihai Giuili, Rotem Atari, Avishai Sintov",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Ozgur Kara, Yujia Chen, Daniel Watson",
       "published_at": "2026-10-07",
       "tags": [
         "paper",
@@ -1923,15 +1892,15 @@
       ]
     },
     {
-      "title": "A GPU-Parallel Framework for Heterogeneous Multi-Task Reinforcement Learning",
-      "summary": "GPU-parallel simulation provides abundant robot interaction, but existing benchmarks rarely combine this scale with heterogeneous manipulation tasks and standardized multi-task RL evaluation. We introduce Hebero (Heterog...",
-      "url": "https://huggingface.co/papers/2606.03335",
+      "title": "Clinician use of language models diverges from how the models are evaluated",
+      "summary": "Large language model (LLM) assistants are being deployed to clinicians across health systems, and judgments about their readiness rest largely on benchmark scores, most of them derived from examination questions or curat...",
+      "url": "https://huggingface.co/papers/2610.11069",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
-      "authors": "Rui Zhang, Qiwei Wu, Zhengyu Zhang",
-      "published_at": "2026-10-05",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Krithik Vishwanath, Haitong Lin, Anton Alyakin",
+      "published_at": "2026-10-07",
       "tags": [
         "paper",
         "arxiv",
@@ -1939,94 +1908,14 @@
       ]
     },
     {
-      "title": "Mara Chain: Rethinking Failure as a Stepping Stone for AI System Auto-Evolution",
-      "summary": "Optimizing deployed AI systems increasingly amounts to editing prompts, skills, harnesses, and code rather than model weights. Existing approaches commonly optimize these artifacts through propose-evaluate-select procedu...",
-      "url": "https://huggingface.co/papers/2609.35855",
+      "title": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
+      "summary": "Recovering faithful 3D hand motion from video remains challenging due to frequent occlusions and incomplete visual observations, which make frame-wise pose estimates unreliable and temporally inconsistent. To address thi...",
+      "url": "https://huggingface.co/papers/2610.10512",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 9",
-      "upvotes": 9,
-      "authors": "Yubin Lyu, Fu Li, Jiawei Fei",
-      "published_at": "2026-09-24",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Incidental information contaminates patient notes and disrupts clinical reasoning in large language models",
-      "summary": "Large language models (LLMs) are increasingly relied upon to support ambient documentation and clinical reasoning. Here we examine the impact of a failure mode shared between these two applications by assessing their sen...",
-      "url": "https://huggingface.co/papers/2610.08585",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 6",
-      "upvotes": 6,
-      "authors": "Krithik Vishwanath, Brandon Ye, Anton Alyakin",
-      "published_at": "2026-10-05",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Frozen Models, Evolving Expertise: Model-Agnostic Learning from Deployment Experience for Multimodal Medical AI",
-      "summary": "Large language models (LLMs) and vision-language models (VLMs) are usually frozen after deployment, so they do not learn from the cases they solve. This is especially concerning in medicine, where new clinical evidence, ...",
-      "url": "https://huggingface.co/papers/2610.09146",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 6",
-      "upvotes": 6,
-      "authors": "Yexiao He, Yucheng Tang, Pengfei Guo",
-      "published_at": "2026-10-05",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
-      "summary": "Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. T...",
-      "url": "https://huggingface.co/papers/2610.10549",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
-      "authors": "Yipeng Li, Ashutosh Hathidara, Jane Lo",
-      "published_at": "2026-09-23",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "SpecFold: Folding Multi-Branch Redundancy for Faster Speculative Decoding in Diffusion Language Models",
-      "summary": "Diffusion large language models (DLLMs) generate text through iterative block denoising, and multi-branch speculative decoding accelerates this process by verifying a main branch together with multiple draft branches in ...",
-      "url": "https://huggingface.co/papers/2610.04875",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
-      "authors": "Chung-En Ho, Weiyu Sun, Cheng-Jhih Shih",
-      "published_at": "2026-10-05",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "MIRA: A Musical Intent Refinement Agent for Aligning Text-to-Music Generation with User Intent",
-      "summary": "Text-to-music systems produce increasingly convincing audio, yet evaluation reveals little about whether the result matches user intent. A global text-audio relevance score can overlook the implicit intent in underspecif...",
-      "url": "https://huggingface.co/papers/2610.10355",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 8",
-      "upvotes": 8,
-      "authors": "Zekai Liu, Zhilin Wang, Xuzheng He",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Chen Xu, Yunqi Li, Binbin Huang",
       "published_at": "2026-10-06",
       "tags": [
         "paper",
@@ -2035,30 +1924,14 @@
       ]
     },
     {
-      "title": "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station",
-      "summary": "Recent AI systems have made rapid progress in scientific discovery when given well-defined metrics, but whether they can autonomously undertake open-ended scientific discovery remains unclear. We investigate AI's ability...",
-      "url": "https://huggingface.co/papers/2610.08927",
+      "title": "Few-Step Generation via Data-Space Iteration",
+      "summary": "Flow matching has emerged as a scalable paradigm for training high-quality generative models, but sampling from the learned probability flow requires many network evaluations. Distillation can reduce this cost to one or ...",
+      "url": "https://huggingface.co/papers/2610.12102",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 8",
-      "upvotes": 8,
-      "authors": "Wenyu Du, Stephen Chung",
-      "published_at": "2026-10-05",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Pumpire: Unified Benchmark for Metric Distance Estimation",
-      "summary": "We present Pumpire, a unified benchmark for evaluating metric point-pair distance estimation capability of both image- and video-level 3D foundation models, with or without depth priors. In contrast to previous approache...",
-      "url": "https://huggingface.co/papers/2610.12423",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 18",
-      "upvotes": 18,
-      "authors": "Siyu Chen, Zehan Wang, Jiayang Xu",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Shanchuan Lin, Yansong Peng, Fu-Yun Wang",
       "published_at": "2026-10-07",
       "tags": [
         "paper",
@@ -2067,15 +1940,15 @@
       ]
     },
     {
-      "title": "Incremental Open-Ended Deep Research with Structured Harness",
-      "summary": "Existing Open-Ended Deep Research (OEDR) systems primarily generate reports from scratch, making them inefficient for scenarios where research reports need to be continuously maintained as new information emerges. We int...",
-      "url": "https://huggingface.co/papers/2610.11566",
+      "title": "GATOR: Generative and Agentic 3D Object Reconstruction From Casual Images",
+      "summary": "Reconstructing complete, scene-aligned 3D objects from casual images requires integrating sparse, uncertain observations and inferring surfaces hidden by occlusions. We present GATOR, a generative and agentic framework t...",
+      "url": "https://huggingface.co/papers/2610.11215",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
-      "authors": "Meilin Chen, Hongyuan Bao",
-      "published_at": "2026-10-07",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Qirui Wu, Stan Birchfield, Hesam Rabeti",
+      "published_at": "2026-10-08",
       "tags": [
         "paper",
         "arxiv",
@@ -2083,15 +1956,15 @@
       ]
     },
     {
-      "title": "Investigating the Role of Reasoning-Language Alignment in Monolingual Retrieval-Augmented Generation",
-      "summary": "Reasoning traces improve large language models (LLMs), but current models are trained to reason mostly in English. It has been shown that forcing a model to reason in another language degrades accuracy, even when the rea...",
-      "url": "https://huggingface.co/papers/2610.03136",
+      "title": "Distributionally Robust Mixture-of-Experts Training",
+      "summary": "Mixture-of-Experts (MoE) transformers scale capacity by activating only a few experts per token, but this sparsity creates a hidden reliability problem: when routing is imperfect, load-balanced models may send tokens to ...",
+      "url": "https://huggingface.co/papers/2610.07207",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 5",
       "upvotes": 5,
-      "authors": "Oliver Hauck, Mario Sanz-Guerrero, Katharina von der Wense",
-      "published_at": "2026-10-01",
+      "authors": "Xin Teng, Muxiao Li, Hongyi Wen",
+      "published_at": "2026-10-04",
       "tags": [
         "paper",
         "arxiv",
@@ -2099,14 +1972,14 @@
       ]
     },
     {
-      "title": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
-      "summary": "In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation. reViT restores de...",
-      "url": "https://huggingface.co/papers/2610.12448",
+      "title": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
+      "summary": "A latent recurrent language model applies a shared block of layers repeatedly, so one checkpoint can trade inference compute for accuracy by changing the loop count. At one loop, however, such models typically fall well ...",
+      "url": "https://huggingface.co/papers/2610.12582",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
-      "authors": "Adrian Bulat, Yassine Ouali, Georgios Tzimiropoulos",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Faisal Ladhak, Shantanu Acharya, Santiago Akle Serano",
       "published_at": "2026-10-07",
       "tags": [
         "paper",
@@ -2115,14 +1988,46 @@
       ]
     },
     {
-      "title": "A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization",
-      "summary": "Black-box optimization (BBO) arises in many scientific and engineering problems where objective evaluations are expensive and limited. Recent large language model (LLM) agents offer a new way to approach BBO by combining...",
-      "url": "https://huggingface.co/papers/2610.12183",
+      "title": "The Life Cycle of a Massive Activation: Stochastic Birth, Weight-Decay-Driven Growth, and Competitive Consolidation",
+      "summary": "Massive activations, residual-stream coordinates with magnitudes far larger than typical activations, are associated with attention sinks in transformers, but how their scale is regulated during training remains incomple...",
+      "url": "https://huggingface.co/papers/2610.00423",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 8",
-      "upvotes": 8,
-      "authors": "Ming Chen, Rong-Xi Tan, Ke Xue",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "S. Aaron McClendon, Jorge Gallego-Feliciano, Antonios Saravanos",
+      "published_at": "2026-10-04",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations",
+      "summary": "Given a target dataset, such as faces with eyeglasses, and a background dataset, such as faces without, contrastive analysis separates salient factors specific to the target from common content shared by both. We aim for...",
+      "url": "https://huggingface.co/papers/2609.39635",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Shuang Liang, Lejun Liao, Shiyuan Zhang",
+      "published_at": "2026-09-29",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Self-Preservation in Language Models",
+      "summary": "Continual learning (CL) seeks to adapt pretrained models while preserving prior capabilities. Yet the tasks supplied for preservation cover only part of what a model knows, while forgetting can extend beyond them. Recent...",
+      "url": "https://huggingface.co/papers/2610.12602",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Dongkyu Cho, Rumi Chunara, Ali Behrouz",
       "published_at": "2026-10-07",
       "tags": [
         "paper",
@@ -2131,14 +2036,94 @@
       ]
     },
     {
-      "title": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
-      "summary": "Learning to act in unfamiliar environments requires agents to infer how the world works and revise that understanding as new evidence arrives. Yet limited observations can support multiple world models that explain past ...",
-      "url": "https://huggingface.co/papers/2610.11794",
+      "title": "Coding-Agent Benchmarks Should Match Their Users' Task Flows",
+      "summary": "The evaluation of coding agents generally strives to be as realistic as possible. In our study, we collect 4,782 agent sessions of real software engineers in JetBrains IDEs, which we call Production Sessions. Since our s...",
+      "url": "https://huggingface.co/papers/2610.09633",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 35",
-      "upvotes": 35,
-      "authors": "Haoyu Zhao, Zhengxu Yu, Zhiyuan He",
+      "badge": "⭐ 11",
+      "upvotes": 11,
+      "authors": "Igor Slinko, Yaroslav Golubev, Sergey Titov",
+      "published_at": "2026-10-06",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "QuantMLA: Function-Aligned Dual-Path Quantization for Low-Bit MLA KV Caching",
+      "summary": "Multi-Head Latent Attention (MLA) enables expressive multi-head attention with compact caches for its content and decoupled RoPE paths, yet cache memory still scales linearly with context length and batch size. In this w...",
+      "url": "https://huggingface.co/papers/2609.36760",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 5",
+      "upvotes": 5,
+      "authors": "Zunhai Su, Yuxuan Sun, Jianchao Tan",
+      "published_at": "2026-09-29",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "When to Rethink: Learning Multi-Perspective Self-Verification for Vision-Language Models",
+      "summary": "Vision-language models (VLMs) have achieved strong performance in multimodal reasoning, yet they remain prone to generating plausible but incorrect answers. Self-verification offers a practical way to improve answer reli...",
+      "url": "https://huggingface.co/papers/2610.07018",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Ziquan Zhu, Hanruo Zhu, Si-Yuan Lu",
+      "published_at": "2026-10-03",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances",
+      "summary": "Generating realistic human-object interactions (HOI) in complex 3D scenes requires two complementary capabilities: reasoning about interaction feasibility in the environment and synthesizing realistic human-object motion...",
+      "url": "https://huggingface.co/papers/2610.12416",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Mingyuan Lei, Yoonchang Sung, Tat-Jen Cham",
+      "published_at": "2026-10-07",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "MetaKernelBench: Measuring GPU Kernel Knowledge Transfer Beyond Code",
+      "summary": "Recent GPU kernel optimization agents retain what they learn in knowledge bases or as distilled skills. Kernel benchmarks score each attempt's implementation for correctness and speed but leave the reuse value of retaine...",
+      "url": "https://huggingface.co/papers/2610.05014",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 16",
+      "upvotes": 16,
+      "authors": "Xueyi Chen, Shiyu Liu, Xin Jin",
+      "published_at": "2026-10-03",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Universal Textual Teaching for LLMs",
+      "summary": "Knowledge distillation (KD) transfers knowledge from stronger Teacher models to weaker Student models, but most methods require training the Student parameters, thereby binding the distilled knowledge to a specific archi...",
+      "url": "https://huggingface.co/papers/2610.12114",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 10",
+      "upvotes": 10,
+      "authors": "Zhanyi Lu, Huan Wang",
       "published_at": "2026-10-07",
       "tags": [
         "paper",
@@ -2394,13 +2379,13 @@
       ]
     },
     {
-      "title": "Total Annihilation, rebuilt for modern computers",
-      "summary": "Hacker News (297 pts, 126 comments) by @jttnr",
-      "url": "https://nanolathe.gg",
+      "title": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
+      "summary": "Hacker News (88 pts, 49 comments) by @arunc",
+      "url": "https://doi.org/10.1111/acel.70751",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "297 pts",
-      "upvotes": 297,
+      "badge": "88 pts",
+      "upvotes": 88,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2409,13 +2394,13 @@
       ]
     },
     {
-      "title": "Cartographers of North Korea",
-      "summary": "Hacker News (140 pts, 22 comments) by @edent",
-      "url": "https://cartographers-nk.wonyoung.so/",
+      "title": "GPT-6 Astra Helped Me Jailbreak My Kindle",
+      "summary": "Hacker News (99 pts, 55 comments) by @nirajrajgor",
+      "url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "140 pts",
-      "upvotes": 140,
+      "badge": "99 pts",
+      "upvotes": 99,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2424,13 +2409,13 @@
       ]
     },
     {
-      "title": "The gap in shared understanding of LLM capability is widening",
-      "summary": "Hacker News (148 pts, 200 comments) by @albertzeyer",
-      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "title": "GLM-Legal",
+      "summary": "Hacker News (428 pts, 247 comments) by @ilreb",
+      "url": "https://z.ai/blog/glm-legal",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "148 pts",
-      "upvotes": 148,
+      "badge": "428 pts",
+      "upvotes": 428,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2439,13 +2424,13 @@
       ]
     },
     {
-      "title": "Recursive self-improvement through collective intelligence",
-      "summary": "Hacker News (13 pts, 0 comments) by @hardmaru",
-      "url": "https://pub.sakana.ai/mass/",
+      "title": "Who Is Vfmaddrnd231pd?",
+      "summary": "Hacker News (112 pts, 9 comments) by @pngmangi",
+      "url": "https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "13 pts",
-      "upvotes": 13,
+      "badge": "112 pts",
+      "upvotes": 112,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2454,13 +2439,13 @@
       ]
     },
     {
-      "title": "Google Data Centers around the world",
-      "summary": "Hacker News (12 pts, 5 comments) by @andsoitis",
-      "url": "https://datacenters.google/locations/",
+      "title": "A Modern Web App in C",
+      "summary": "Hacker News (392 pts, 161 comments) by @prophittcorey",
+      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "12 pts",
-      "upvotes": 12,
+      "badge": "392 pts",
+      "upvotes": 392,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2469,13 +2454,13 @@
       ]
     },
     {
-      "title": "So, You’d Like To Sell Your Print Issues Of The Onion?",
-      "summary": "Hacker News (217 pts, 25 comments) by @mooreds",
-      "url": "https://theonion.com/archivehunt/",
+      "title": "The baffling intelligence of a single cell (2024)",
+      "summary": "Hacker News (35 pts, 1 comments) by @jsomers",
+      "url": "https://jsomers.net/e-coli-chemotaxis/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "217 pts",
-      "upvotes": 217,
+      "badge": "35 pts",
+      "upvotes": 35,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2484,13 +2469,13 @@
       ]
     },
     {
-      "title": "Fingerprints Are the New Cookies",
-      "summary": "Hacker News (7 pts, 0 comments) by @royfish",
-      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+      "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "summary": "Hacker News (65 pts, 20 comments) by @hurricanepootis",
+      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "7 pts",
-      "upvotes": 7,
+      "badge": "65 pts",
+      "upvotes": 65,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2499,13 +2484,13 @@
       ]
     },
     {
-      "title": "Chapter 1 of Ways of Seeing by John Berger",
-      "summary": "Hacker News (62 pts, 10 comments) by @rafael859",
-      "url": "https://www.ways-of-seeing.com/ch1",
+      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+      "summary": "Hacker News (444 pts, 655 comments) by @Zeekaas",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "62 pts",
-      "upvotes": 62,
+      "badge": "444 pts",
+      "upvotes": 444,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2514,13 +2499,13 @@
       ]
     },
     {
-      "title": "Terence Tao: Math 2.0 [pdf]",
-      "summary": "Hacker News (288 pts, 349 comments) by @Anon84",
-      "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+      "title": "Making big downloads resumable in Firefox",
+      "summary": "Hacker News (88 pts, 32 comments) by @speckx",
+      "url": "https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "288 pts",
-      "upvotes": 288,
+      "badge": "88 pts",
+      "upvotes": 88,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2529,13 +2514,13 @@
       ]
     },
     {
-      "title": "A Remote Employee Refused 160 Webcam Photos a Day. Her Employer Fired Her",
-      "summary": "Hacker News (94 pts, 58 comments) by @bhrlady",
-      "url": "https://www.inc.com/chloe-rosenberg/a-remote-employee-refused-160-webcam-photos-a-day-her-employer-fired-her/91415963",
+      "title": "Phreak.ing – Internet Phone Switch",
+      "summary": "Hacker News (71 pts, 24 comments) by @rickcarlino",
+      "url": "https://phreak.ing/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "94 pts",
-      "upvotes": 94,
+      "badge": "71 pts",
+      "upvotes": 71,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2544,13 +2529,13 @@
       ]
     },
     {
-      "title": "NYC's \"Click to Cancel\" rule is now in effect",
-      "summary": "Hacker News (297 pts, 143 comments) by @gregsadetsky",
-      "url": "https://www.nyc.gov/main/click-to-cancel",
+      "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+      "summary": "Hacker News (29 pts, 13 comments) by @khalidkhair",
+      "url": "https://github.com/prabanta-dev/janas",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "297 pts",
-      "upvotes": 297,
+      "badge": "29 pts",
+      "upvotes": 29,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2559,13 +2544,13 @@
       ]
     },
     {
-      "title": "IRCv3",
-      "summary": "Hacker News (329 pts, 280 comments) by @basilikum",
-      "url": "https://ircv3.net/",
+      "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
+      "summary": "Hacker News (259 pts, 69 comments) by @djfergus",
+      "url": "https://github.com/h0m3us3r/w1700k-sdr",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "329 pts",
-      "upvotes": 329,
+      "badge": "259 pts",
+      "upvotes": 259,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2574,13 +2559,13 @@
       ]
     },
     {
-      "title": "Passkeys are a trap. Do not use them",
-      "summary": "Hacker News (111 pts, 39 comments) by @laurex",
-      "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
+      "title": "Writing a Demoscene Intro for the ZX Spectrum",
+      "summary": "Hacker News (76 pts, 6 comments) by @zdw",
+      "url": "https://www.markround.com/blog/2026/zx-spectrum-intro",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "111 pts",
-      "upvotes": 111,
+      "badge": "76 pts",
+      "upvotes": 76,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2589,28 +2574,13 @@
       ]
     },
     {
-      "title": "I guess I'm using WebP now?",
-      "summary": "Hacker News (54 pts, 56 comments) by @Brajeshwar",
-      "url": "https://anderegg.ca/2026/10/08/i-guess-im-using-webp-now",
+      "title": "Citroen revives the 2CV for an electric age",
+      "summary": "Hacker News (267 pts, 317 comments) by @scrlk",
+      "url": "https://www.bbc.com/news/articles/c620r33plgppo",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "54 pts",
-      "upvotes": 54,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "LineageOS 24",
-      "summary": "Hacker News (400 pts, 163 comments) by @timschumi",
-      "url": "https://lineageos.org/Changelog-32/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "400 pts",
-      "upvotes": 400,
+      "badge": "267 pts",
+      "upvotes": 267,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
