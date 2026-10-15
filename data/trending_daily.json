@@ -9,9 +9,9 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 240207,
-      "forks": 59733,
-      "stars_since": "41,187",
+      "stars": 268714,
+      "forks": 67383,
+      "stars_since": "32,282",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -40,6 +40,108 @@
     },
     {
       "rank": 2,
+      "full_name": "anthropics/claude-plugins-official",
+      "owner": "anthropics",
+      "name": "claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 39005,
+      "forks": 4322,
+      "stars_since": "525",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/305637556?s=40&v=4",
+          "username": "jordanecker-ant"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/238056179?s=40&v=4",
+          "username": "bryan-anthropic"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8000722?s=40&v=4",
+          "username": "mhegazy"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 3,
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "owner": "K-Dense-AI",
+      "name": "scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 50407,
+      "forks": 4485,
+      "stars_since": "1,091",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9168908?s=40&v=4",
+          "username": "timothykassis"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+          "username": "cursoragent"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/206480607?s=40&v=4",
+          "username": "borealBytes"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 4,
+      "full_name": "JuliusBrussee/caveman",
+      "owner": "JuliusBrussee",
+      "name": "caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "language_color": "#00ADD8",
+      "stars": 112490,
+      "forks": 6518,
+      "stars_since": "530",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/104168679?s=40&v=4",
+          "username": "JuliusBrussee"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/11289396?s=40&v=4",
+          "username": "nikpushkarski"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/26088029?s=40&v=4",
+          "username": "AmirF194"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 5,
       "full_name": "debpalash/VoiceStudio",
       "owner": "debpalash",
       "name": "VoiceStudio",
@@ -47,9 +149,9 @@
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 66164,
-      "forks": 7297,
-      "stars_since": "3,547",
+      "stars": 68957,
+      "forks": 7544,
+      "stars_since": "3,027",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -77,7 +179,79 @@
       "source": "github"
     },
     {
-      "rank": 3,
+      "rank": 6,
+      "full_name": "obra/superpowers",
+      "owner": "obra",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "language_color": "#89e051",
+      "stars": 299837,
+      "forks": 26778,
+      "stars_since": "688",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/45416?s=40&v=4",
+          "username": "obra"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5742859?s=40&v=4",
+          "username": "arittr"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/69736?s=40&v=4",
+          "username": "clkao"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/12824278?s=40&v=4",
+          "username": "gaurav0107"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 7,
+      "full_name": "ruvnet/ruflo",
+      "owner": "ruvnet",
+      "name": "ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 75083,
+      "forks": 8923,
+      "stars_since": "224",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&v=4",
+          "username": "ruvnet"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
+          "username": "rudycelekli"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/214853444?s=40&v=4",
+          "username": "proffesor-for-testing"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 8,
       "full_name": "mksglu/context-mode",
       "owner": "mksglu",
       "name": "context-mode",
@@ -85,9 +259,9 @@
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 29064,
-      "forks": 2041,
-      "stars_since": "946",
+      "stars": 29767,
+      "forks": 2081,
+      "stars_since": "902",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -111,303 +285,7 @@
       "source": "github"
     },
     {
-      "rank": 4,
-      "full_name": "nvm-sh/nvm",
-      "owner": "nvm-sh",
-      "name": "nvm",
-      "url": "https://github.com/nvm-sh/nvm",
-      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
-      "language": "Shell",
-      "language_color": "#89e051",
-      "stars": 95442,
-      "forks": 10516,
-      "stars_since": "70",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/45469?s=40&v=4",
-          "username": "ljharb"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3691490?s=40&v=4",
-          "username": "PeterDaveHello"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/89353?s=40&v=4",
-          "username": "creationix"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/351038?s=40&v=4",
-          "username": "koenpunt"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2123375?s=40&v=4",
-          "username": "lukechilds"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 5,
-      "full_name": "K-Dense-AI/scientific-agent-skills",
-      "owner": "K-Dense-AI",
-      "name": "scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 49284,
-      "forks": 4418,
-      "stars_since": "146",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9168908?s=40&v=4",
-          "username": "timothykassis"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/206480607?s=40&v=4",
-          "username": "borealBytes"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 6,
-      "full_name": "HKUDS/CLI-Anything",
-      "owner": "HKUDS",
-      "name": "CLI-Anything",
-      "url": "https://github.com/HKUDS/CLI-Anything",
-      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 52447,
-      "forks": 4772,
-      "stars_since": "94",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/43330997?s=40&v=4",
-          "username": "yuh-yang"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/76622021?s=40&v=4",
-          "username": "AiMiDi"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/76780961?s=40&v=4",
-          "username": "omerarslan0"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/26110883?s=40&v=4",
-          "username": "hito0512"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 7,
-      "full_name": "ifixai-ai/iFixAi",
-      "owner": "ifixai-ai",
-      "name": "iFixAi",
-      "url": "https://github.com/ifixai-ai/iFixAi",
-      "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 27309,
-      "forks": 1501,
-      "stars_since": "2,143",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
-          "username": "rudycelekli"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/258243974?s=40&v=4",
-          "username": "n-papaioannou"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/260612219?s=40&v=4",
-          "username": "stefyi-4355"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/234348864?s=40&v=4",
-          "username": "Sebabaian"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 8,
-      "full_name": "vxcontrol/pentagi",
-      "owner": "vxcontrol",
-      "name": "pentagi",
-      "url": "https://github.com/vxcontrol/pentagi",
-      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-      "language": "Go",
-      "language_color": "#00ADD8",
-      "stars": 29371,
-      "forks": 4412,
-      "stars_since": "1,070",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7765123?s=40&v=4",
-          "username": "sirozha"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4257336?s=40&v=4",
-          "username": "asdek"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/52062353?s=40&v=4",
-          "username": "mason5052"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 9,
-      "full_name": "rust-lang/rust",
-      "owner": "rust-lang",
-      "name": "rust",
-      "url": "https://github.com/rust-lang/rust",
-      "description": "Empowering everyone to build reliable and efficient software.",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 119989,
-      "forks": 18700,
-      "stars_since": "205",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&v=4",
-          "username": "bors"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/476013?s=40&v=4",
-          "username": "matthiaskrgr"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/330628?s=40&v=4",
-          "username": "RalfJung"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3050060?s=40&v=4",
-          "username": "GuillaumeGomez"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1711539?s=40&v=4",
-          "username": "matklad"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 10,
-      "full_name": "xtool-org/xtool",
-      "owner": "xtool-org",
-      "name": "xtool",
-      "url": "https://github.com/xtool-org/xtool",
-      "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
-      "language": "Swift",
-      "language_color": "#F05138",
-      "stars": 10724,
-      "forks": 477,
-      "stars_since": "1,510",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/12706786?s=40&v=4",
-          "username": "kabiroberai"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/33566?s=40&v=4",
-          "username": "reklis"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/16653389?s=40&v=4",
-          "username": "erikbdev"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
-          "username": "mvanhorn"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1180980?s=40&v=4",
-          "username": "pawlowskialex"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 11,
-      "full_name": "ntdevlabs/tiny11builder",
-      "owner": "ntdevlabs",
-      "name": "tiny11builder",
-      "url": "https://github.com/ntdevlabs/tiny11builder",
-      "description": "WinUI app for building smaller, customized Windows 11 images.",
-      "language": "C#",
-      "language_color": "#7355dd",
-      "stars": 20188,
-      "forks": 1553,
-      "stars_since": "194",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/38796849?s=40&v=4",
-          "username": "ntdevlabs"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/167513064?s=40&v=4",
-          "username": "Miiraak"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/45657752?s=40&v=4",
-          "username": "Karl-WE"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/952007?s=40&v=4",
-          "username": "szepeviktor"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/406768?s=40&v=4",
-          "username": "eugenesan"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 12,
       "full_name": "NationalSecurityAgency/ghidra",
       "owner": "NationalSecurityAgency",
       "name": "ghidra",
@@ -415,9 +293,9 @@
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
       "language_color": "#b07219",
-      "stars": 87421,
-      "forks": 9759,
-      "stars_since": "1,002",
+      "stars": 88683,
+      "forks": 9899,
+      "stars_since": "1,366",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -440,6 +318,116 @@
         {
           "avatar": "https://avatars.githubusercontent.com/u/48068198?s=40&v=4",
           "username": "caheckman"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 10,
+      "full_name": "affaan-m/ECC",
+      "owner": "affaan-m",
+      "name": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 280302,
+      "forks": 41697,
+      "stars_since": "1,015",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/124439313?s=40&v=4",
+          "username": "affaan-m"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/49814733?s=40&v=4",
+          "username": "haelyra"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/24193489?s=40&v=4",
+          "username": "montjeffrey"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 11,
+      "full_name": "lightseekorg/tokenspeed",
+      "owner": "lightseekorg",
+      "name": "tokenspeed",
+      "url": "https://github.com/lightseekorg/tokenspeed",
+      "description": "TokenSpeed is a speed-of-light LLM inference engine.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 2460,
+      "forks": 336,
+      "stars_since": "25",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/243258330?s=40&v=4",
+          "username": "lightseek-bot"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/487928?s=40&v=4",
+          "username": "antiagainst"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/297528256?s=40&v=4",
+          "username": "nperrin-fr"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/312376714?s=40&v=4",
+          "username": "longcat-ia-team"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/25846776?s=40&v=4",
+          "username": "borontion"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 12,
+      "full_name": "xerj-org/xerj",
+      "owner": "xerj-org",
+      "name": "xerj",
+      "url": "https://github.com/xerj-org/xerj",
+      "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 5589,
+      "forks": 306,
+      "stars_since": "725",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/297525353?s=40&v=4",
+          "username": "xerj-org"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/14009?s=40&v=4",
+          "username": "buger"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/157309135?s=40&v=4",
+          "username": "Vinz2168"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/28789935?s=40&v=4",
+          "username": "thomas-villani"
         }
       ],
       "source": "github"
