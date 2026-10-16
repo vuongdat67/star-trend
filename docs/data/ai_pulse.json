@@ -171,14 +171,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
-      "summary": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional tr...",
-      "url": "http://arxiv.org/abs/2610.20606v1",
+      "title": "[cs.AI] LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+      "summary": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manip...",
+      "url": "http://arxiv.org/abs/2610.22372v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Huixuan Cheng, Bike Zhang, Shankar Sastry",
-      "published_at": "2026-10-14",
+      "authors": "Zhixu Li, Keqian Tang, Litian Gong",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -187,14 +187,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
-      "summary": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous ...",
-      "url": "http://arxiv.org/abs/2610.20607v1",
+      "title": "[cs.AI] Discovering state-of-the-art quantum circuits with large language models",
+      "summary": "Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorith...",
+      "url": "http://arxiv.org/abs/2610.22367v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Zhefei Gong, Hefeifei Jiang, Zehao Wang",
-      "published_at": "2026-10-14",
+      "authors": "Andi Gu, Alek H. Kemeny, Susanne F. Yelin",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -203,14 +203,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Co-Evolving Acting and Forecasting for Language Agents",
-      "summary": "Training language agents is bottlenecked by the high cost of long-horizon rollouts, yet standard agentic reinforcement learning (RL) learns only from a terminal scalar reward, leaving the supervision in intermediate step...",
-      "url": "http://arxiv.org/abs/2610.20597v1",
+      "title": "[cs.AI] T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+      "summary": "Predicting how the world responds to an action requires more than what can be seen: robots must account for environmental factors that are neither directly observable nor explicitly specified, from physical properties su...",
+      "url": "http://arxiv.org/abs/2610.22364v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Haofei Yu, Yixing Chen, Yining Zhao",
-      "published_at": "2026-10-14",
+      "authors": "Chenyuan Zhou, Yining Hong, Huang Huang",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -219,14 +219,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Your Transformer Is Secretly Elastic",
-      "summary": "Scaling up transformers has produced models with broad capabilities, deployed across heterogeneous hardware and fluctuating workloads. Yet, model families offer only a few fixed sizes (e.g., S, B, L), forcing users to co...",
-      "url": "http://arxiv.org/abs/2610.20588v1",
+      "title": "[cs.AI] CoDA: Co-Evolution of Data Engines and Action Policies",
+      "summary": "Generative simulation can automate robot environment construction, but physically valid environments are not necessarily useful for training. The challenge is to identify environments that address a policy's failures and...",
+      "url": "http://arxiv.org/abs/2610.22362v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Walter Simoncini, Dheeraj Varghese, Gertjan J. Burghouts",
-      "published_at": "2026-10-14",
+      "authors": "Tianjiao Yu, Zhilin Ou, Yifan Shen",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -235,14 +235,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Price of Anarchy of First-Price Auctions in Agentic Markets",
-      "summary": "An agentic market is a decentralized serving-time market where AI agents bid to claim each user prompt. An agent's bid is based on its expected value for the prompt, which is the expectation of the reward for its respons...",
-      "url": "http://arxiv.org/abs/2610.20587v1",
+      "title": "[cs.AI] Rethinking Routing Exploration in Modern Mixture-of-Experts",
+      "summary": "Mixture-of-experts (MoE) models have become an important approach for scaling model parameters. Modern MoE architectures increasingly combine two design choices: fine-grained expert segmentation and shared experts. The f...",
+      "url": "http://arxiv.org/abs/2610.22353v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Shubhendu Trivedi, Jacob Eisenstein, Alekh Agarwal",
-      "published_at": "2026-10-14",
+      "authors": "Bingcong Li, Hao Ma, Michael Muehlebach",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -251,14 +251,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Continuum Attention",
-      "summary": "We introduce Continuum Attention (CA), a causal Transformer attention operator that replaces discrete key and value lookup with integration over a continuous, piecewise linear memory curve. Each query induces an exponent...",
-      "url": "http://arxiv.org/abs/2610.20586v1",
+      "title": "[cs.AI] FDE-Gym: The Last Mile of AI Delivery",
+      "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must cla...",
+      "url": "http://arxiv.org/abs/2610.22350v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Afshin Khadangi",
-      "published_at": "2026-10-14",
+      "authors": "Dongxu Yang, Hongda Yan, Renxin Wang",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -267,14 +267,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Player-1: Learning to Play from Synthetic Experience",
-      "summary": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and of...",
-      "url": "http://arxiv.org/abs/2610.20584v1",
+      "title": "[cs.AI] MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+      "summary": "Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvemen...",
+      "url": "http://arxiv.org/abs/2610.22344v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Mingyu Ouyang, Yiran Wang, Siyuan Hu",
-      "published_at": "2026-10-14",
+      "authors": "Shangheng Du, Jinxin Shi, Shuaiyu Zhang",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -283,14 +283,14 @@
       ]
     },
     {
-      "title": "[cs.AI] One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness",
-      "summary": "Post-training binds the competence of an LLM agent to the interface it was trained on. Semantics-preserving perturbations of that interface, such as renaming an action or changing the notation, leave the underlying task ...",
-      "url": "http://arxiv.org/abs/2610.20576v1",
+      "title": "[cs.AI] GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
+      "summary": "Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors. However, the view dependence of these features entangles sc...",
+      "url": "http://arxiv.org/abs/2610.22343v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Artin Tajdini, Manpreet Kaur, Peng Qi",
-      "published_at": "2026-10-14",
+      "authors": "Hongchang Liu, Jian Liu, Yujuan Ding",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -299,14 +299,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Prioritizing Microservice Requests via Retries",
-      "summary": "Cloud services rapidly shift towards independently-managed microservices architectures. This independence may lead to temporary microservices miscoordination, resulting in overloads and rejections of valuable transaction...",
-      "url": "http://arxiv.org/abs/2610.20567v1",
+      "title": "[cs.CR Security] My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
+      "summary": "The Model Context Protocol (MCP) standardizes how AI agents invoke external tools. MCP servers expose tools through a declared contract consisting of a name, description, and argument schema. In typical local deployments...",
+      "url": "http://arxiv.org/abs/2610.22301v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Ofek Lavi, Jhonatan Tavori, Hanoch Levy",
-      "published_at": "2026-10-14",
+      "authors": "Zeqian Huang, Mingyue Tang, Aonan Guan",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -316,14 +316,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Quantum-Aware Key Rank for Side-Channel Attacks evaluation",
-      "summary": "Side-channel attacks on block ciphers rarely recover the key outright: they leave a residual key space ordered by subkey posteriors, and evaluation laboratories report the key rank of the true key against thresholds near...",
-      "url": "http://arxiv.org/abs/2610.20537v1",
+      "title": "[cs.CR Security] Private Retrieval Augmented Generation via Random Projection",
+      "summary": "Retrieval-Augmented Generation (RAG) enhances the capabilities of large language models (LLMs) by querying external structured knowledge. However, it can also introduce privacy risks by leaking sensitive information from...",
+      "url": "http://arxiv.org/abs/2610.22297v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Yevgen Kotukh",
-      "published_at": "2026-10-14",
+      "authors": "Dixi Yao, Tahseen Rabbani, Tian Li",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -333,14 +333,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Tulva: Practical Asynchronous Threshold FHE",
-      "summary": "We present Tulva, a practical threshold FHE scheme which equips a base FHE scheme with an asynchronous threshold decryption mechanism in a modular way. Our scheme simultaneously (1) is compatible with virtually any base ...",
-      "url": "http://arxiv.org/abs/2610.20521v1",
+      "title": "[cs.CR Security] Subgraph Counting with Local Node Differential Privacy",
+      "summary": "We study the problem of approximately counting subgraphs under local node differential privacy (LNDP), a recently introduced model that enforces strong privacy guarantees in analyses of distributed social networks. We de...",
+      "url": "http://arxiv.org/abs/2610.22278v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Valerio Cini, Antonio Guimarães, Russell W. F. Lai",
-      "published_at": "2026-10-14",
+      "authors": "Sofya Raskhodnikova, Adam Smith, Connor Wagaman",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -350,14 +350,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] From Training to Escalation: Forensic Analysis and Local Recreation of RL/RLHF-Induced Privilege Escalation in AI Agents (CVE-2026-65616)",
-      "summary": "Mid-2026 reporting on autonomous AI evaluation incidents claimed that frontier large language model (LLM) agents escaped server containment through emergent coordination and cloud infrastructure attacks. This paper conte...",
-      "url": "http://arxiv.org/abs/2610.20437v1",
+      "title": "[cs.CR Security] Language Is a Security Surface for Agent Guards",
+      "summary": "Step-level guards decide, before each tool call, whether an agent's next action is safe given the user's request and the trajectory so far. Users write those requests in many languages, while guard prompts and the benchm...",
+      "url": "http://arxiv.org/abs/2610.22244v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Alicia Colmenero-Fernández",
-      "published_at": "2026-10-14",
+      "authors": "Hasan Demirkiran, Jens Ernstberger",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -367,14 +367,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Phantomware: a Data Augmentation Framework for the Detection of Emerging Malware Campaigns",
-      "summary": "Detecting unseen malware variants remains a major challenge as malware families continuously evolve. This issue is exacerbated in data-scarce scenarios such as emerging malware campaigns, where only a few samples are ava...",
-      "url": "http://arxiv.org/abs/2610.20427v1",
+      "title": "[cs.CR Security] Shortcut Sensitivity in Agent-Safety Evaluations",
+      "summary": "AI agents take actions through tools. Some actions are sensitive, so guards that supervise them must themselves be evaluated reliably. Yet the data used to evaluate a guard can include cues that make labels predictable w...",
+      "url": "http://arxiv.org/abs/2610.22243v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Antonino Rullo",
-      "published_at": "2026-10-14",
+      "authors": "Hasan Demirkiran, Jens Ernstberger",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -384,14 +384,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Building Sound Evaluation Practices for Rust-Based Security Frameworks",
-      "summary": "Background: Rust is a modern programming language known for its focus on usability, concurrency, and security. However, empirical studies reveal that Rust is still affected by software vulnerabilities, with hundreds of m...",
-      "url": "http://arxiv.org/abs/2610.20315v1",
+      "title": "[cs.CR Security] MAppPrint: Robust and Real-time Mobile App Fingerprinting via Traffic Behavior Correlation Graphs",
+      "summary": "Mobile apps have become ubiquitous in daily life. Despite communication encryption, app fingerprinting (AF) attacks can still enable adversaries to infer the apps in use by analyzing patterns of encrypted network traffic...",
+      "url": "http://arxiv.org/abs/2610.22148v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "David Paaßen, Lucas Davi",
-      "published_at": "2026-10-14",
+      "authors": "Tao Duan, Junzhou Zhao, Jianglong Li",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -401,14 +401,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Towards Efficient Threat Intelligence Instruction Tuning via Quality-Aware and Optimal Transport-Guided Data Selection",
-      "summary": "High-quality data is essential for improving instruction tuning in threat intelligence analysis. However, existing methods for generating cybersecurity instruction data lack reliable quality assessment mechanisms, and gr...",
-      "url": "http://arxiv.org/abs/2610.20284v1",
+      "title": "[cs.CR Security] SMT-Boosted Security Types and Correctness for Low-Level MPC",
+      "summary": "Secure Multi-Party Computation (MPC) is an important enabling technology for data privacy in modern distributed applications. We develop a new Hoare logic and type theory to automatically enforce correctness, confidentia...",
+      "url": "http://arxiv.org/abs/2610.22047v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Jiyu Tian, Mingchu Li, Xiangwei Chen",
-      "published_at": "2026-10-14",
+      "authors": "Christian Skalka, Steven Baldasty, Yeonhee Yeh",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -418,14 +418,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] P2Patch: Exploit-Guided Vulnerability Repair",
-      "summary": "Large language models are increasingly deployed as autonomous agents for automated program repair, patching software vulnerabilities through multi-step reasoning and tool use. Yet these systems typically validate a patch...",
-      "url": "http://arxiv.org/abs/2610.20245v1",
+      "title": "[cs.CR Security] Encoded but Exposed: Language Embeddings can Reveal More Than They Should in Recommender Systems",
+      "summary": "Language embeddings are increasingly used in recommenders to represent item content, but their privacy risks remain poorly understood. We study whether item embeddings can reveal item identities when an adversary has acc...",
+      "url": "http://arxiv.org/abs/2610.21713v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Mohsen Iranmanesh, Sina Moradi Sabet, Sina Marefat",
-      "published_at": "2026-10-14",
+      "authors": "Linda Beková, Rodrigo Alves",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -435,63 +435,15 @@
       ]
     },
     {
-      "title": "Unlocking Structured Pruning for Reasoning Language Models via Attention-Preserving MLP Trimming",
-      "summary": "Structured pruning reduces LLM inference costs by removing model components to produce smaller dense models. However, existing methods can cause reasoning performance to collapse on long-form reasoning tasks such as AIME...",
-      "url": "https://huggingface.co/papers/2610.19121",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
-      "authors": "Woosang Lim, Haneul Yoo, Vincent-Daniel Yun",
-      "published_at": "2026-10-12",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Lluna: Collaborative Unimodal Models for Missing-Modality Inference",
-      "summary": "Pretrained unimodal models offer a flexible route to multimodal prediction through collaboration, but this collaboration can become less accurate than a surviving unimodal model when modalities are missing. We study this...",
-      "url": "https://huggingface.co/papers/2610.20526",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
-      "authors": "Haoyue Bai, Yinyi Luo, Heqing Huang",
-      "published_at": "2026-10-13",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Looking Complete Is Not Being Grounded: Evaluating LLM Sitreps Against Human-Authored Situation Reports",
-      "summary": "Evaluation for automatic crisis reporting should measure what practitioners need, not what is convenient to compare. Through LLM-assisted, author-approved content analysis, we derive a 15-slot information schema from pro...",
-      "url": "https://huggingface.co/papers/2610.18762",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
-      "authors": "Sachin Kumar",
-      "published_at": "2026-10-13",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "When Left Is Right? Camera-Motion Understanding beyond Screen",
-      "summary": "Can a vision-language model tell left from right? Modern VLMs solve visual puzzles and follow hour-long videos, yet when asked whether the camera moved left or right, most do no better than a coin flip. Adding camera-mot...",
-      "url": "https://huggingface.co/papers/2610.17242",
+      "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
+      "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which ...",
+      "url": "https://huggingface.co/papers/2610.21261",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 2",
       "upvotes": 2,
-      "authors": "Chong Cheng, Ran Zhang, Xinyuan Li",
-      "published_at": "2026-10-11",
+      "authors": "Haotian Ma, Ziye Mei, Frederic Sala",
+      "published_at": "2026-10-14",
       "tags": [
         "paper",
         "arxiv",
@@ -499,15 +451,31 @@
       ]
     },
     {
-      "title": "PreciseCoder: Faithful and Generalizable Debugging Beyond Unit-Test Rewards",
-      "summary": "Reinforcement learning (RL) from unit tests is the common recipe for post-training code models, but a unit test only asks whether the final program passes. We analyze what this unit-test-only reward teaches a model durin...",
-      "url": "https://huggingface.co/papers/2610.18755",
+      "title": "Diminishing Returns of Data in Sparse Autoencoders: Functional Behavior does not Guarantee Feature Reproducibility",
+      "summary": "Sparse autoencoders (SAEs) are typically trained on hundreds of millions to billions of activation tokens, yet little work has tested whether this scale is necessary. We study how much activation data SAEs need by traini...",
+      "url": "https://huggingface.co/papers/2610.20680",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Sambit Ghosh, Madelyn Mathai, R. Venkatesh Babu",
+      "published_at": "2026-10-13",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents",
+      "summary": "Computer-use agents increasingly tackle long-horizon tasks, where running a frontier model at every step is expensive and a small open-weight model alone often fails. Weak-to-strong escalation offers a middle ground wher...",
+      "url": "https://huggingface.co/papers/2610.22280",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 4",
       "upvotes": 4,
-      "authors": "Yunkai Zhan, Miaosen Chai, Shangshang Wang",
-      "published_at": "2026-10-12",
+      "authors": "Qingni Wang, Changdae Oh, Yuzhe Yang",
+      "published_at": "2026-10-14",
       "tags": [
         "paper",
         "arxiv",
@@ -515,62 +483,14 @@
       ]
     },
     {
-      "title": "Drive3R: Block-wise Streaming Geometric Foundation Models for Autonomous Driving",
-      "summary": "High-fidelity closed-loop simulation for autonomous driving increasingly relies on dense multi-view 3D reconstruction. While recent feed-forward geometric foundation models have revolutionized per-scene optimization, app...",
-      "url": "https://huggingface.co/papers/2610.15112",
+      "title": "Scalable Weak-to-Strong Verifier Hardening for Agent Environments",
+      "summary": "Agent environments are essential for large language model (LLM) development. They use programmatic verifiers to turn complex outcomes into rewards. Verifiers can be attacked into awarding full credit to cheating agents w...",
+      "url": "https://huggingface.co/papers/2610.15924",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 1",
       "upvotes": 1,
-      "authors": "Tianyi Yang, Haojun Yang, Jipeng Xiao",
-      "published_at": "2026-10-09",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
-      "summary": "Diffusion language models (DLMs) offer parallel sampling for faster generation than autoregressive models, an increasingly important advantage as inference becomes a dominant computational workload. However, DLMs degrade...",
-      "url": "https://huggingface.co/papers/2610.14162",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Hermann Kumbong, Ishan S. Khare, Iddah Mlauzi",
-      "published_at": "2026-10-08",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Cortex: Measurement-Gated Evolution and Pruning of Coding-Agent Skills and Rules",
-      "summary": "Coding agents such as Claude Code also follow text files that developers write for them: a project file, skills the agent may choose to open, and rules that load automatically when the agent reads matching files. We call...",
-      "url": "https://huggingface.co/papers/2610.14216",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Samuele Giampieri",
-      "published_at": "2026-10-08",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "History Replays Itself: Unleashing Long-Context Capability in Linear Attention",
-      "summary": "Linear attention promises the efficiency needed for long-context language modelling, yet its fixed-size recurrent state must simultaneously support ongoing computation and preserve information from an ever-growing histor...",
-      "url": "https://huggingface.co/papers/2610.15715",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 9",
-      "upvotes": 9,
-      "authors": "Li Nanbo, Firas Laakom, Yilan Zhang",
+      "authors": "Chong Zeng, Ziqian Zhong, Kexun Zhang",
       "published_at": "2026-10-10",
       "tags": [
         "paper",
@@ -579,14 +499,14 @@
       ]
     },
     {
-      "title": "The Agent Knew: Internal States Forecast Unauthorized Actions and Stop Them, and the Lies That Follow",
-      "summary": "Language-model agents sometimes act beyond their authorization and then misreport what they did. On CAPE-Bench, matched agent tasks in which one fact decides whether an action is authorized, frontier open-weight agents d...",
-      "url": "https://huggingface.co/papers/2610.17301",
+      "title": "LeanPRM: Lean-Grounded Process Supervision for Natural Language Proof Verification",
+      "summary": "AI systems now write long and difficult mathematical proofs, and checking their step-by-step validity is becoming a bottleneck. A learned verifier could check proofs cheaply, but training one requires a correctness label...",
+      "url": "https://huggingface.co/papers/2610.17697",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Arya Fayyazi, Mehdi Kamal, Massoud Pedram",
+      "badge": "⭐ 4",
+      "upvotes": 4,
+      "authors": "Rodney Lafuente-Mercado, Salman Rahman, Jingyan Shen",
       "published_at": "2026-10-12",
       "tags": [
         "paper",
@@ -595,14 +515,190 @@
       ]
     },
     {
-      "title": "APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
-      "summary": "Professional agents increasingly work through command-line interfaces and multiple tools over shared workspaces containing files, messages, and business applications. These environments create safety risks that are diffi...",
-      "url": "https://huggingface.co/papers/2610.13623",
+      "title": "Equal CER, Unequal Damage: Severity-Weighted Character Error Rate for OCR",
+      "summary": "Character Error Rate (CER), the standard metric for OCR and vision-language models (VLMs), charges a typo as much as a wrong name. We introduce semCER, which keeps CER's alignment and denominator and charges each graphem...",
+      "url": "https://huggingface.co/papers/2610.20461",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
-      "authors": "Ziyi Yang, Adel Bibi, Guohao Li",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Nguyen Nguyen, Yongyi Zang",
+      "published_at": "2026-10-13",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
+      "summary": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading models predict marginal quantiles, leaving the dependence structure of future trajectories unspecifie...",
+      "url": "https://huggingface.co/papers/2610.22358",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Jiachen Yao, Xiyuan Zhang, Annan Yu",
+      "published_at": "2026-10-14",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Learning to Read Out: Unembedding Dynamics in Language Model Pretraining",
+      "summary": "When does a language model acquire a capability? Developmental studies usually answer this by tracking when models start producing the correct token. But that prediction passes through the unembedding matrix, or readout,...",
+      "url": "https://huggingface.co/papers/2610.21025",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Matteo He, William F. Shen, Alex Iacob",
+      "published_at": "2026-10-13",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Copy-Paste Language Models",
+      "summary": "Transformers are intuitively considered to be efficient at copying from their inputs. We actually show that the ability of LLMs to copy in context can be improved through explicit modeling. We propose Copy-Paste Language...",
+      "url": "https://huggingface.co/papers/2610.19247",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Nathan Godey, Yoav Artzi",
+      "published_at": "2026-10-12",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Explaining the Roles of Experts in Mixture-of-Experts LLMs for Personalization",
+      "summary": "Personalization of Large Language Models (LLMs) is increasingly important for user-centric applications, yet prior methods mainly adapt dense LLMs, whose polysemantic neurons, each encoding multiple unrelated concepts, h...",
+      "url": "https://huggingface.co/papers/2610.22127",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Sekh Mainul Islam, Pepa Atanasova, Isabelle Augenstein",
+      "published_at": "2026-10-14",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "PAIR: Bridging Perception and Action in Vision-Language-Action Models",
+      "summary": "Vision-language-action (VLA) models map visual observations and language instructions to continuous robot actions. This task requires a transition from representations that describe the scene and instruction to represent...",
+      "url": "https://huggingface.co/papers/2610.09016",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Kaixi Feng, Guoheng Sun, Ang Li",
+      "published_at": "2026-10-05",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) typically uses small rollout groups per prompt, where repeated sampling from the same policy can yield highly similar trajectories, reducing within-group reward varia...",
+      "url": "https://huggingface.co/papers/2610.16105",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Daijiao Liu, Huiyi Wang, Lina Yao",
+      "published_at": "2026-10-11",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "One Bias Score, Two Factors: How Mitigations Affect Option Bias in Multiple-Choice Evaluation",
+      "summary": "Reordering multiple-choice options can change a model's answer, an effect studied as selection bias (a preference for certain option letters) and as order sensitivity (changes in answers across option orderings). We conn...",
+      "url": "https://huggingface.co/papers/2610.20993",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Hyunjong Ok, Minjae Park, Jaeho Lee",
+      "published_at": "2026-10-13",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Gen4P: Video Generators are 4D Perceivers",
+      "summary": "We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video. We show that a pretrained video generator can be repurposed into a feed-forward 4D perceiver without iterative denoising...",
+      "url": "https://huggingface.co/papers/2610.22371",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Yitong Xia, Zeren Jiang, Chuanxia Zheng",
+      "published_at": "2026-10-14",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill",
+      "summary": "Reusing the attention KV cache across requests is a standard way to cut prefill cost in long-context LLM serving, and production systems increasingly back the per-engine cache with a remote tier shared by every engine. W...",
+      "url": "https://huggingface.co/papers/2610.21500",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Muhammad Ibrahim",
+      "published_at": "2026-10-14",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Virtual Head Attention",
+      "summary": "The design of attention mechanisms in long-context large language models faces an ``impossible triangle'' among KV cache size, training and prefill FLOPs, and model quality. GQA achieves strong quality but incurs high KV...",
+      "url": "https://huggingface.co/papers/2610.17959",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 4",
+      "upvotes": 4,
+      "authors": "Xibo Ding, Guoxia Wang, Jinle Zeng",
+      "published_at": "2026-10-12",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Speech event detector: Timestamped detection of non-verbal vocalizations and background sounds for rich speech transcription",
+      "summary": "Automatic speech recognition produces words but drops the non-verbal content of a recording: the breaths, coughs, sighs and laughter of the speaker, and the horns, music or barking around them. We describe Speech Event D...",
+      "url": "https://huggingface.co/papers/2610.14232",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Ayush Kumar Bar, Promila Ghosh",
       "published_at": "2026-10-08",
       "tags": [
         "paper",
@@ -611,78 +707,14 @@
       ]
     },
     {
-      "title": "CLASHarness: Benchmarking Multi-Agent Conflict in Computer Use via a Controllable and Verifiable Generation Pipeline",
-      "summary": "Vision-language models (VLMs) are increasingly deployed in multi-agent systems to automate complex computer-use workflows, yet existing benchmarks mostly assume consistent, cooperative environments. In contrast, real-wor...",
-      "url": "https://huggingface.co/papers/2610.19128",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 25",
-      "upvotes": 25,
-      "authors": "Yuxiang Lai, Jike Zhong, Chengzhi Liu",
-      "published_at": "2026-10-12",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Self-Conditioning Enables Deep Sequential Reasoning in Flow Matching",
-      "summary": "Recent work has explored visual reasoning through image generation, where models solve visual-reasoning problems by directly generating solution images. Intuitively, iterative samplers such as flow matching are well suit...",
-      "url": "https://huggingface.co/papers/2610.19628",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
-      "authors": "Zeyang Zhang, Linxiang Gao, Meiqi Gu",
-      "published_at": "2026-10-13",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "VLX-Go: Robust Embodied Tracking through Multi-Stage Learning and On-Policy Refinement",
-      "summary": "Embodied visual tracking requires a robot to identify a designated target from visual observations and control its own motion to follow that target through an environment. Following an isolated person is a comparatively ...",
-      "url": "https://huggingface.co/papers/2610.19361",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Kyusong Lee, Heting Ying, Tiancheng Zhao",
-      "published_at": "2026-10-13",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "A Diagnostic Study of World-Space Human Recovery Under High Camera Dynamics",
-      "summary": "Monocular world-space human recovery methods excel on current benchmarks, but these rarely include fast camera motion. We introduce the K-Pop stress test, broadcast dance videos that combine fast, large camera motion wit...",
-      "url": "https://huggingface.co/papers/2610.19729",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
-      "authors": "Hao-Jen Chien, Wei-Lun Chao, Yu-Lun Liu",
-      "published_at": "2026-10-13",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Choosing LLMs for Strategic Agent Interactions",
-      "summary": "Game-theoretic benchmarks claim that large language model (LLM) strategic decision-making varies across game types, interaction structures, and capability dimensions. However, they only evaluate strategic performance acr...",
-      "url": "https://huggingface.co/papers/2610.18354",
+      "title": "FlashMask-3: Efficient and Expressive Mask-Aware Distributed Attention",
+      "summary": "Long-context training of large language and multimodal models couples structured attention masks (document, prefix-LM, share-question, sliding-window, block-sparse) with multi-node context parallelism, making the mask a ...",
+      "url": "https://huggingface.co/papers/2610.17901",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 5",
       "upvotes": 5,
-      "authors": "Arastun Mammadli, Herbert Woisetschläger, Jawad Fayaz",
+      "authors": "Guoxia Wang, Qianyue He, Siming Wu",
       "published_at": "2026-10-12",
       "tags": [
         "paper",
@@ -691,15 +723,15 @@
       ]
     },
     {
-      "title": "From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents",
-      "summary": "Simulated environments enable scalable training data generation for embodied agents, but more data does not necessarily provide what a particular agent needs to learn. Existing environment-generation pipelines largely op...",
-      "url": "https://huggingface.co/papers/2610.19420",
+      "title": "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
+      "summary": "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsisten...",
+      "url": "https://huggingface.co/papers/2610.22352",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 7",
       "upvotes": 7,
-      "authors": "Yue Zhang, Han Lin, Zun Wang",
-      "published_at": "2026-10-13",
+      "authors": "Chen Yang, Jiemin Fang, Fanpeng Meng",
+      "published_at": "2026-10-14",
       "tags": [
         "paper",
         "arxiv",
@@ -707,15 +739,15 @@
       ]
     },
     {
-      "title": "LabInstruct: Benchmarking Situated Instructional Video Generation for Lab Procedures",
-      "summary": "Self-driving laboratories (SDLs) aim to automate the full experimental loop, from scientific decision-making to physical execution. Ideally, AI-generated plans could be carried out directly by robotic systems, but reliab...",
-      "url": "https://huggingface.co/papers/2610.14020",
+      "title": "Can World and Action Modeling Benefit Each Other under Unified Causal Training?",
+      "summary": "World and action modeling are closely related, yet their reciprocal benefits under unified causal training remain unclear. We introduce OneWM, a simple framework for unified causal training that treats actions as both co...",
+      "url": "https://huggingface.co/papers/2610.21095",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 15",
-      "upvotes": 15,
-      "authors": "Yuming Fu, Weijia Wu, Jing Chen",
-      "published_at": "2026-09-28",
+      "badge": "⭐ 31",
+      "upvotes": 31,
+      "authors": "Yue Su, Bokai Lin, Xinkai Wang",
+      "published_at": "2026-10-14",
       "tags": [
         "paper",
         "arxiv",
@@ -723,35 +755,219 @@
       ]
     },
     {
-      "title": "Your Transformer Is Secretly Elastic",
-      "summary": "Scaling up transformers has produced models with broad capabilities, deployed across heterogeneous hardware and fluctuating workloads. Yet, model families offer only a few fixed sizes (e.g., S, B, L), forcing users to co...",
-      "url": "https://huggingface.co/papers/2610.20588",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Walter Simoncini, Dheeraj Varghese, Gertjan J. Burghouts",
-      "published_at": "2026-10-13",
+      "title": "[HIGH] CVE-2026-96627 (CWE-266, CWE-269): Arcane: Delegated users:update permission allows admin account takeover via password reset (no privilege-hierarchy check)",
+      "summary": "## Summary\nA user holding the delegated `users:update` permission can reset the global administrator's password and take over the admin account. `UpdateUser` sets the target user's `PasswordHash` from the request body fo...",
+      "url": "https://github.com/advisories/GHSA-pw5q-rjx4-7f7p",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-16",
       "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-266",
+        "cwe-269"
       ]
     },
     {
-      "title": "VASPO: Self-Distillation with Privileged Value Estimation",
-      "summary": "On-policy self-distillation provides dense supervision for reasoning models via a privileged self-teacher. However, this supervision reflects local token preferences rather than the expected return of an unguided student...",
-      "url": "https://huggingface.co/papers/2610.20516",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
-      "authors": "Fei Wu, Zhenrong Zhang, Jianshu Zhang",
-      "published_at": "2026-10-13",
+      "title": "[MEDIUM] CVE-2026-96628 (CWE-863): Arcane: Environment access token bypasses the admin-required authorization gate on `/api/debug/pprof`",
+      "summary": "## Summary\n\nArcane v2.10.2 contains an authorization inconsistency in `AuthMiddleware.managerAuth`.\n\nWhen a request supplies a valid environment access token through the `X-Arcane-Agent-Token` header, `managerAuth` resol...",
+      "url": "https://github.com/advisories/GHSA-mp22-58ff-6fhr",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "MEDIUM",
+      "published_at": "2026-10-16",
       "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-863"
+      ]
+    },
+    {
+      "title": "[CRITICAL] CVE-2026-105192 (CWE-306): LMCache: Remote code execution via unsafe deserialization in multiprocess mode transport",
+      "summary": "### Summary\n\nLMCache is vulnerable to Unauthenticated Remote Code Execution via Pickle Deserialization on the Multiprocess ZMQ Transport\n\n\n\n### Details\n\nLMCache multiprocess mode, also called distributed mode, opens an u...",
+      "url": "https://github.com/advisories/GHSA-w5f2-9q9c-ff4h",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "CRITICAL",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-306"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-100349 (CWE-476): kin-openapi openapi3filter: nil-pointer panic in ValidateResponse on a response header declared with content",
+      "summary": "## Summary\n\n`ValidateResponse` panics on a nil pointer when a spec declares a response header with `content` instead of `schema`. `doc.Validate()` accepts that document, so the crash comes from a spec the library just ca...",
+      "url": "https://github.com/advisories/GHSA-74vm-87hj-r66f",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-476"
+      ]
+    },
+    {
+      "title": "[MEDIUM] CVE-2026-58494 (CWE-281, CWE-863): Wasmtime: WASI hard links bypass wasmtime-wasi's FilePerms for destination",
+      "summary": "## Summary\n\nWasmtime's WASI filesystem implementation lets a guest with a read-only source file capability overwrite that file by hard-linking it into another preopen that allows file writes. An attacker who can run a WA...",
+      "url": "https://github.com/advisories/GHSA-4ch3-9j33-3pmj",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "MEDIUM",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-281",
+        "cwe-863"
+      ]
+    },
+    {
+      "title": "[HIGH] GHSA-6fj4-rcr3-r7rr (CWE-1124): lopdf has a stack overflow via deeply nested PDF objects",
+      "summary": "`lopdf::Document::load_mem` (and the other `load*` entry points) parses nested PDF arrays and dictionaries with unbounded recursion. A small crafted PDF whose Catalog contains a deeply nested array (`/X [[[ … ]]]`, on th...",
+      "url": "https://github.com/advisories/GHSA-6fj4-rcr3-r7rr",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-1124"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-102834 (CWE-190): JavaCV: Integer Overflow in IPCameraFrameGrabber Causes Infinite-Loop DoS",
+      "summary": "### Summary\n`IPCameraFrameGrabber` parses the `Content-Length` value from the multipart MJPEG HTTP stream returned by the configured IP camera without any bounds checking. A malicious or compromised camera endpoint - or ...",
+      "url": "https://github.com/advisories/GHSA-rxjv-24xq-76wc",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-190"
+      ]
+    },
+    {
+      "title": "[CRITICAL] CVE-2026-96620 (CWE-20, CWE-78, CWE-88): Claude Agent SDK: Argument Injection via resume Option Allows Arbitrary Command Execution",
+      "summary": "The Claude Agent SDK for Python passed the `resume` option to the Claude CLI without validation, allowing a value beginning with `-` to be interpreted as a separate CLI flag. An attacker who controlled the `resume` value...",
+      "url": "https://github.com/advisories/GHSA-h4mw-j7qp-8mwm",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "CRITICAL",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-20",
+        "cwe-78",
+        "cwe-88"
+      ]
+    },
+    {
+      "title": "[LOW] CVE-2026-62994 (CWE-248, CWE-755): CoreDNS `k8s_external` headless AXFR can emit an empty transfer batch that panics the `transfer` plugin",
+      "summary": "### Summary\n\nA network DNS client allowed to request AXFR for a CoreDNS zone can trigger a panic when CoreDNS is configured with `k8s_external` headless-service zone transfers and Kubernetes contains a headless service e...",
+      "url": "https://github.com/advisories/GHSA-74w3-63xv-x9mv",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "LOW",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-248",
+        "cwe-755"
+      ]
+    },
+    {
+      "title": "[LOW] CVE-2026-76894 (CWE-345, CWE-940): ckan-mcp-server: DataStore Table UI resource does not validate postMessage origin (in) and posts to targetOrigin \"*\" (out)",
+      "summary": "## Summary\n\nThe MCP Apps UI resource (an interactive DataStore table rendered in the host's webview/iframe) communicates with its parent via `postMessage`. Its inbound `message` listener performs no `event.origin` valida...",
+      "url": "https://github.com/advisories/GHSA-vqff-r82h-9crc",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "LOW",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-345",
+        "cwe-940"
+      ]
+    },
+    {
+      "title": "[LOW] CVE-2026-54893 (CWE-116, CWE-789, CWE-1284): swoosh has email-derived URL path injection in Microsoft Graph endpoint",
+      "summary": "### Summary\n\n`Swoosh.Adapters.MsGraph` builds its Microsoft Graph API request URL by interpolating the sender's email address directly into the URL path (`/users/{from}/sendMail`) without percent-encoding or validation. ...",
+      "url": "https://github.com/advisories/GHSA-754j-98wh-57rf",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "LOW",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-116",
+        "cwe-789",
+        "cwe-1284"
+      ]
+    },
+    {
+      "title": "[LOW] CVE-2026-68549 (CWE-22): ClickMigrate has Path Traversal in \"revision -m\" argument",
+      "summary": "### Impact\nA path traversal vulnerability in the `revision` command allowed a crafted migration name supplied via the `-m` argument to escape the intended migrations directory.\n\nUnder specific conditions, an attacker cou...",
+      "url": "https://github.com/advisories/GHSA-vgf9-9mxx-hq54",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "LOW",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-22"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-102941 (CWE-125): gomarkdown/markdown IsSafeURL panics on short URLs",
+      "summary": "## Summary\n\nIsSafeURL slices url[:nPath] before checking that len(url) >= nPath, so a URL shorter than a path prefix (0, 1 or 2 bytes) triggers a slice-bounds panic, and this is reached end to end when the html.Safelink ...",
+      "url": "https://github.com/advisories/GHSA-cv23-7vc5-jfh7",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-125"
       ]
     },
     {
@@ -789,224 +1005,13 @@
       ]
     },
     {
-      "title": "[CRITICAL] CVE-2026-94603 (CWE-693): Podman: The `podman run` command can be instructed to disable almost all sandboxing by image annotation",
-      "summary": "### Impact\nPodman v4.4.0 added a feature where container checkpoints (from the `podman container checkpoint` command) could be distributed via OCI registry, and pulled from that registry and run via the `podman run` comm...",
-      "url": "https://github.com/advisories/GHSA-2cvf-wqm6-wr9g",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "CRITICAL",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-693"
-      ]
-    },
-    {
-      "title": "[MEDIUM] CVE-2026-102832 (CWE-367, CWE-863): JupyterLab: Command link trust prompt in JupyterLab can trust a document other than the one clicked",
-      "summary": "## Description\n\nA Markdown file or a notebook output can carry a button that runs a JupyterLab command. Since 4.5.7 the first click on such a button opens a prompt naming the command, with Cancel, Run Once and Trust. Cho...",
-      "url": "https://github.com/advisories/GHSA-jwrc-gm9j-263p",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-367",
-        "cwe-863"
-      ]
-    },
-    {
-      "title": "[MEDIUM] CVE-2026-103028 (CWE-863): SFTPGo source-side file-pattern filter bypass during copy operations",
-      "summary": "### Summary\n\nFile pattern filters (`denied_patterns` / `allowed_patterns`) were evaluated on the destination of a copy only. A user holding the copy permission could copy a file denied by the filters to a permitted name ...",
-      "url": "https://github.com/advisories/GHSA-wwv9-g5x4-966q",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-863"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-86063 (CWE-494, CWE-829): Claude Code: Plugin Hash Pin Bypass Allows Bypass of Hash Pinning",
-      "summary": "The plugin install flow in Claude Code and Claude Desktop checked out a marketplace's pinned commit SHA using `git checkout` without verifying that the resulting HEAD matched the pinned SHA. An attacker controlling a plu...",
-      "url": "https://github.com/advisories/GHSA-pq7j-f95f-qfcv",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-494",
-        "cwe-829"
-      ]
-    },
-    {
-      "title": "[MEDIUM] CVE-2026-95838 (CWE-400, CWE-407): containerd: Unpack DoS via repeated opaque whiteouts",
-      "summary": "### Impact\n\nA vulnerability exists in containerd's layer unpack handler where the processing of certain image layers causes superlinear time complexity. During the unpack operation, specific file configurations within th...",
-      "url": "https://github.com/advisories/GHSA-rp3h-jf77-q9p4",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-400",
-        "cwe-407"
-      ]
-    },
-    {
-      "title": "[MEDIUM] CVE-2026-85747 (CWE-354): Distribution: Client `manifests.Get()` does not verify returned content against requested digest",
-      "summary": "### Summary\n\n`registry/client.(*manifests).Get(ctx, dgst, …)` fetches a manifest by digest but never hashes the returned body and compares it against the requested digest. A malicious or compromised registry, or any MITM...",
-      "url": "https://github.com/advisories/GHSA-685w-q87j-wqw3",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-354"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-84994 (CWE-248): Qwik: Crashing any Qwik Server via Resource thenable",
-      "summary": "### Summary\n\nA Qwik server in the default configuration can be crashed with one unauthenticated HTTP request. During qwik-json body parsing, `ResourceSerializer.$fill$` does `Promise.resolve(resource._resolved)`. If `_re...",
-      "url": "https://github.com/advisories/GHSA-x586-xvc8-g7q6",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-248"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-95837 (CWE-269): containerd CRI plugin: Checkpoint restore bypasses destination security context",
-      "summary": "### Impact\n\nA vulnerability in containerd's CRI implementation allows a container restored from an untrusted checkpoint via the `CreateContainer` API to bypass the destination security context and execute with elevated p...",
-      "url": "https://github.com/advisories/GHSA-p7v4-vr35-mj6f",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-269"
-      ]
-    },
-    {
-      "title": "[MEDIUM] CVE-2026-106495 (CWE-284): Backstage: Improper access control in backend action invocation",
-      "summary": "### Impact\n\nAn authenticated user could invoke actions that an operator had excluded through action configuration. Existing action permissions and downstream authorization remain enforced.\n\n### Patches\n\nPatched in `@back...",
-      "url": "https://github.com/advisories/GHSA-3xr5-8w6c-p5gw",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-284"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-100353 (CWE-476): kin-openapi: Incomplete Fix for GHSA-p6wj-qrr4-pgh5: Three Unpatched nil-Items Panic Paths in openapi3filter",
-      "summary": "## Summary\n\nThe fix for GHSA-p6wj-qrr4-pgh5 addressed a nil-pointer dereference that occurs when an OpenAPI 3.1 array schema omits the `items` keyword (which is legal under JSON Schema 2020-12). That fix patched three de...",
-      "url": "https://github.com/advisories/GHSA-vrcc-3ch7-hppw",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-476"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-100354 (CWE-674): kin-openapi: Uncontrolled Recursion on Circular allOf/anyOf/oneOf Schemas Causes Fatal Process Crash",
-      "summary": "## Summary\n\nkin-openapi's spec loader and spec-time validator both handle circular schema references safely: the loader resolves circular `$ref`s on purpose (to support recursive data structures), and `Schema.validate()`...",
-      "url": "https://github.com/advisories/GHSA-g8cf-rcjf-c8cf",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-674"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-100352 (CWE-754): kin-openapi: YAML NaN/Inf Values Bypass Built-in Guards and Panic via OAS 3.1 Validation Path",
-      "summary": "## Summary\n\nkin-openapi guards against `NaN` and `Inf` values in its built-in schema visitor (`visitJSON`) by returning `ErrSchemaInputNaN` / `ErrSchemaInputInf` when a `float64` input violates those constraints. For OAS...",
-      "url": "https://github.com/advisories/GHSA-rj39-cv6w-8wv7",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-754"
-      ]
-    },
-    {
-      "title": "[LOW] CVE-2026-77564 (CWE-312): Talos Linux: Support bundle does not redact registry credentials",
-      "summary": "### Summary\nWhen generating a support bundle with `talosctl support` the credentials entered for private registries are included in the bundle.\n\n\n### Details\n\nWithin the generated support bundle, inside `resources/regist...",
-      "url": "https://github.com/advisories/GHSA-7cxh-94cf-mfp6",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "LOW",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-312"
-      ]
-    },
-    {
-      "title": "Muse Spark Open",
-      "summary": "Hacker News (536 pts, 302 comments) by @bigwheels",
-      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "title": "Tesla Roadster",
+      "summary": "Hacker News (998 pts, 1797 comments) by @shekhar101",
+      "url": "https://www.tesla.com/roadster",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "536 pts",
-      "upvotes": 536,
+      "badge": "998 pts",
+      "upvotes": 998,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1015,13 +1020,13 @@
       ]
     },
     {
-      "title": "What I Self-Host",
-      "summary": "Hacker News (132 pts, 61 comments) by @BrunoBernardino",
-      "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
+      "title": "Claude reveals ECDSA curve origins",
+      "summary": "Hacker News (504 pts, 212 comments) by @ahlCVA",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "132 pts",
-      "upvotes": 132,
+      "badge": "504 pts",
+      "upvotes": 504,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1030,13 +1035,13 @@
       ]
     },
     {
-      "title": "Neural networks are clean",
-      "summary": "Hacker News (436 pts, 158 comments) by @themgt",
-      "url": "https://already-clean.goodfire.com/",
+      "title": "FLUX 3 Image Klein",
+      "summary": "Hacker News (69 pts, 13 comments) by @gmays",
+      "url": "https://bfl.ai/blog/flux-3-image-klein",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "436 pts",
-      "upvotes": 436,
+      "badge": "69 pts",
+      "upvotes": 69,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1045,13 +1050,13 @@
       ]
     },
     {
-      "title": "Call Center Jobs Are Declining, but 14,000 Calls Show Humans Still Outperform AI",
-      "summary": "Hacker News (33 pts, 38 comments) by @thomas_unise",
-      "url": "https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai",
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "summary": "Hacker News (133 pts, 37 comments) by @Anon84",
+      "url": "https://github.com/cobanov/PS5LM",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "33 pts",
-      "upvotes": 33,
+      "badge": "133 pts",
+      "upvotes": 133,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1060,13 +1065,13 @@
       ]
     },
     {
-      "title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
-      "summary": "Hacker News (135 pts, 58 comments) by @speckx",
-      "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
+      "title": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
+      "summary": "Hacker News (125 pts, 101 comments) by @7402",
+      "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "135 pts",
-      "upvotes": 135,
+      "badge": "125 pts",
+      "upvotes": 125,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1075,13 +1080,13 @@
       ]
     },
     {
-      "title": "Wayland desktop for Linux with skeuomorphic design",
-      "summary": "Hacker News (456 pts, 181 comments) by @FinalDestiny",
-      "url": "https://github.com/fyzugx/DEsk",
+      "title": "Waymo in Toronto",
+      "summary": "Hacker News (219 pts, 325 comments) by @ChrisArchitect",
+      "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "456 pts",
-      "upvotes": 456,
+      "badge": "219 pts",
+      "upvotes": 219,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1090,13 +1095,13 @@
       ]
     },
     {
-      "title": "Jev meets the Trolley Problem",
-      "summary": "Hacker News (231 pts, 107 comments) by @zlandes86",
-      "url": "https://zachlandes.com/trolley-problem/",
+      "title": "Wireless magnetic millirobots that deliver medicine inside the beating heart",
+      "summary": "Hacker News (35 pts, 1 comments) by @giuliomagnifico",
+      "url": "https://hub.jhu.edu/2026/10/12/magnetic-millirobots-cardiac-treatment/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "231 pts",
-      "upvotes": 231,
+      "badge": "35 pts",
+      "upvotes": 35,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1105,13 +1110,13 @@
       ]
     },
     {
-      "title": "Krea 3 – An image model built for editing at scale",
-      "summary": "Hacker News (224 pts, 73 comments) by @dvrp",
-      "url": "https://www.krea.ai/krea-3",
+      "title": "C++26: The New Debugging Header",
+      "summary": "Hacker News (40 pts, 2 comments) by @jandeboevrie",
+      "url": "https://www.sandordargo.com/blog/2026/09/30/cpp26-debugging",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "224 pts",
-      "upvotes": 224,
+      "badge": "40 pts",
+      "upvotes": 40,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1120,13 +1125,13 @@
       ]
     },
     {
-      "title": "AdFection: Targeted ads turned into a pipeline for zero-click mercenary spyware",
-      "summary": "Hacker News (341 pts, 503 comments) by @jcomp",
-      "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
+      "title": "Designing more efficient quantum circuits with Claude",
+      "summary": "Hacker News (71 pts, 14 comments) by @pretext",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "341 pts",
-      "upvotes": 341,
+      "badge": "71 pts",
+      "upvotes": 71,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1135,13 +1140,13 @@
       ]
     },
     {
-      "title": "E Ink Kaleido 4",
-      "summary": "Hacker News (103 pts, 60 comments) by @Perroboc",
-      "url": "https://www.eink.com/news/detail/EInk-Launches-Latest-Version-of-Color-ePaper-Platform-E-Ink-Kaleido-4",
+      "title": "How the Claude Code team does code review",
+      "summary": "Hacker News (152 pts, 151 comments) by @pretext",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "103 pts",
-      "upvotes": 103,
+      "badge": "152 pts",
+      "upvotes": 152,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1150,13 +1155,13 @@
       ]
     },
     {
-      "title": "Celebrating 70 Years of Fortran",
-      "summary": "Hacker News (195 pts, 87 comments) by @rbanffy",
-      "url": "https://fortran-lang.org/news/2026/09-15-Fortran-birthday/",
+      "title": "You could have invented transformers from memory",
+      "summary": "Hacker News (60 pts, 8 comments) by @speckx",
+      "url": "https://alexwang.ai/posts/associative-memory/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "195 pts",
-      "upvotes": 195,
+      "badge": "60 pts",
+      "upvotes": 60,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1165,13 +1170,13 @@
       ]
     },
     {
-      "title": "Why I Wrote PGP (1991, revised 1999)",
-      "summary": "Hacker News (87 pts, 30 comments) by @GaryBluto",
-      "url": "https://philzimmermann.com/EN/essays/WhyIWrotePGP.html",
+      "title": "JPEG XL vs. AVIF for web use-cases",
+      "summary": "Hacker News (168 pts, 133 comments) by @farlight",
+      "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "87 pts",
-      "upvotes": 87,
+      "badge": "168 pts",
+      "upvotes": 168,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1180,13 +1185,13 @@
       ]
     },
     {
-      "title": "The 8-mile hole in a Hawaii national park that no one can explain",
-      "summary": "Hacker News (18 pts, 5 comments) by @elsewhen",
-      "url": "https://www.sfgate.com/national-parks/article/hawaii-volcanoes-park-great-crack-22358849.php",
+      "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+      "summary": "Hacker News (240 pts, 108 comments) by @antipaul",
+      "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "18 pts",
-      "upvotes": 18,
+      "badge": "240 pts",
+      "upvotes": 240,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1195,9 +1200,9 @@
       ]
     },
     {
-      "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
-      "summary": "Hacker News (112 pts, 97 comments) by @johnbehnke",
-      "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+      "title": "I never authorized an integration that scans my secrets",
+      "summary": "Hacker News (112 pts, 62 comments) by @trvrprkr",
+      "url": "https://github.com/home-assistant/home-assistant.io/issues/49314",
       "source": "Hacker News",
       "category": "Hacker News Tech",
       "badge": "112 pts",
@@ -1210,13 +1215,13 @@
       ]
     },
     {
-      "title": "Delta’s Biscoff cookies were supposed to be temporary",
-      "summary": "Hacker News (156 pts, 134 comments) by @mhb",
-      "url": "https://www.seriouseats.com/biscoff-history-12168161",
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "summary": "Hacker News (338 pts, 295 comments) by @speckx",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "156 pts",
-      "upvotes": 156,
+      "badge": "338 pts",
+      "upvotes": 338,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1561,14 +1566,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
-      "summary": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional tr...",
-      "url": "http://arxiv.org/abs/2610.20606v1",
+      "title": "[cs.AI] LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+      "summary": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manip...",
+      "url": "http://arxiv.org/abs/2610.22372v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Huixuan Cheng, Bike Zhang, Shankar Sastry",
-      "published_at": "2026-10-14",
+      "authors": "Zhixu Li, Keqian Tang, Litian Gong",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -1577,14 +1582,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
-      "summary": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous ...",
-      "url": "http://arxiv.org/abs/2610.20607v1",
+      "title": "[cs.AI] Discovering state-of-the-art quantum circuits with large language models",
+      "summary": "Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorith...",
+      "url": "http://arxiv.org/abs/2610.22367v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Zhefei Gong, Hefeifei Jiang, Zehao Wang",
-      "published_at": "2026-10-14",
+      "authors": "Andi Gu, Alek H. Kemeny, Susanne F. Yelin",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -1593,14 +1598,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Co-Evolving Acting and Forecasting for Language Agents",
-      "summary": "Training language agents is bottlenecked by the high cost of long-horizon rollouts, yet standard agentic reinforcement learning (RL) learns only from a terminal scalar reward, leaving the supervision in intermediate step...",
-      "url": "http://arxiv.org/abs/2610.20597v1",
+      "title": "[cs.AI] T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+      "summary": "Predicting how the world responds to an action requires more than what can be seen: robots must account for environmental factors that are neither directly observable nor explicitly specified, from physical properties su...",
+      "url": "http://arxiv.org/abs/2610.22364v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Haofei Yu, Yixing Chen, Yining Zhao",
-      "published_at": "2026-10-14",
+      "authors": "Chenyuan Zhou, Yining Hong, Huang Huang",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -1609,14 +1614,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Your Transformer Is Secretly Elastic",
-      "summary": "Scaling up transformers has produced models with broad capabilities, deployed across heterogeneous hardware and fluctuating workloads. Yet, model families offer only a few fixed sizes (e.g., S, B, L), forcing users to co...",
-      "url": "http://arxiv.org/abs/2610.20588v1",
+      "title": "[cs.AI] CoDA: Co-Evolution of Data Engines and Action Policies",
+      "summary": "Generative simulation can automate robot environment construction, but physically valid environments are not necessarily useful for training. The challenge is to identify environments that address a policy's failures and...",
+      "url": "http://arxiv.org/abs/2610.22362v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Walter Simoncini, Dheeraj Varghese, Gertjan J. Burghouts",
-      "published_at": "2026-10-14",
+      "authors": "Tianjiao Yu, Zhilin Ou, Yifan Shen",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -1625,14 +1630,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Price of Anarchy of First-Price Auctions in Agentic Markets",
-      "summary": "An agentic market is a decentralized serving-time market where AI agents bid to claim each user prompt. An agent's bid is based on its expected value for the prompt, which is the expectation of the reward for its respons...",
-      "url": "http://arxiv.org/abs/2610.20587v1",
+      "title": "[cs.AI] Rethinking Routing Exploration in Modern Mixture-of-Experts",
+      "summary": "Mixture-of-experts (MoE) models have become an important approach for scaling model parameters. Modern MoE architectures increasingly combine two design choices: fine-grained expert segmentation and shared experts. The f...",
+      "url": "http://arxiv.org/abs/2610.22353v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Shubhendu Trivedi, Jacob Eisenstein, Alekh Agarwal",
-      "published_at": "2026-10-14",
+      "authors": "Bingcong Li, Hao Ma, Michael Muehlebach",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -1641,14 +1646,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Continuum Attention",
-      "summary": "We introduce Continuum Attention (CA), a causal Transformer attention operator that replaces discrete key and value lookup with integration over a continuous, piecewise linear memory curve. Each query induces an exponent...",
-      "url": "http://arxiv.org/abs/2610.20586v1",
+      "title": "[cs.AI] FDE-Gym: The Last Mile of AI Delivery",
+      "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must cla...",
+      "url": "http://arxiv.org/abs/2610.22350v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Afshin Khadangi",
-      "published_at": "2026-10-14",
+      "authors": "Dongxu Yang, Hongda Yan, Renxin Wang",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -1657,14 +1662,14 @@
       ]
     },
     {
-      "title": "[cs.AI] Player-1: Learning to Play from Synthetic Experience",
-      "summary": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and of...",
-      "url": "http://arxiv.org/abs/2610.20584v1",
+      "title": "[cs.AI] MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+      "summary": "Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvemen...",
+      "url": "http://arxiv.org/abs/2610.22344v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Mingyu Ouyang, Yiran Wang, Siyuan Hu",
-      "published_at": "2026-10-14",
+      "authors": "Shangheng Du, Jinxin Shi, Shuaiyu Zhang",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -1673,14 +1678,14 @@
       ]
     },
     {
-      "title": "[cs.AI] One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness",
-      "summary": "Post-training binds the competence of an LLM agent to the interface it was trained on. Semantics-preserving perturbations of that interface, such as renaming an action or changing the notation, leave the underlying task ...",
-      "url": "http://arxiv.org/abs/2610.20576v1",
+      "title": "[cs.AI] GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
+      "summary": "Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors. However, the view dependence of these features entangles sc...",
+      "url": "http://arxiv.org/abs/2610.22343v1",
       "source": "arXiv (cs.AI)",
       "category": "arXiv Preprints",
       "badge": "cs.AI",
-      "authors": "Artin Tajdini, Manpreet Kaur, Peng Qi",
-      "published_at": "2026-10-14",
+      "authors": "Hongchang Liu, Jian Liu, Yujuan Ding",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -1689,14 +1694,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Prioritizing Microservice Requests via Retries",
-      "summary": "Cloud services rapidly shift towards independently-managed microservices architectures. This independence may lead to temporary microservices miscoordination, resulting in overloads and rejections of valuable transaction...",
-      "url": "http://arxiv.org/abs/2610.20567v1",
+      "title": "[cs.CR Security] My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
+      "summary": "The Model Context Protocol (MCP) standardizes how AI agents invoke external tools. MCP servers expose tools through a declared contract consisting of a name, description, and argument schema. In typical local deployments...",
+      "url": "http://arxiv.org/abs/2610.22301v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Ofek Lavi, Jhonatan Tavori, Hanoch Levy",
-      "published_at": "2026-10-14",
+      "authors": "Zeqian Huang, Mingyue Tang, Aonan Guan",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -1706,14 +1711,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Quantum-Aware Key Rank for Side-Channel Attacks evaluation",
-      "summary": "Side-channel attacks on block ciphers rarely recover the key outright: they leave a residual key space ordered by subkey posteriors, and evaluation laboratories report the key rank of the true key against thresholds near...",
-      "url": "http://arxiv.org/abs/2610.20537v1",
+      "title": "[cs.CR Security] Private Retrieval Augmented Generation via Random Projection",
+      "summary": "Retrieval-Augmented Generation (RAG) enhances the capabilities of large language models (LLMs) by querying external structured knowledge. However, it can also introduce privacy risks by leaking sensitive information from...",
+      "url": "http://arxiv.org/abs/2610.22297v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Yevgen Kotukh",
-      "published_at": "2026-10-14",
+      "authors": "Dixi Yao, Tahseen Rabbani, Tian Li",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -1723,14 +1728,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Tulva: Practical Asynchronous Threshold FHE",
-      "summary": "We present Tulva, a practical threshold FHE scheme which equips a base FHE scheme with an asynchronous threshold decryption mechanism in a modular way. Our scheme simultaneously (1) is compatible with virtually any base ...",
-      "url": "http://arxiv.org/abs/2610.20521v1",
+      "title": "[cs.CR Security] Subgraph Counting with Local Node Differential Privacy",
+      "summary": "We study the problem of approximately counting subgraphs under local node differential privacy (LNDP), a recently introduced model that enforces strong privacy guarantees in analyses of distributed social networks. We de...",
+      "url": "http://arxiv.org/abs/2610.22278v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Valerio Cini, Antonio Guimarães, Russell W. F. Lai",
-      "published_at": "2026-10-14",
+      "authors": "Sofya Raskhodnikova, Adam Smith, Connor Wagaman",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -1740,14 +1745,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] From Training to Escalation: Forensic Analysis and Local Recreation of RL/RLHF-Induced Privilege Escalation in AI Agents (CVE-2026-65616)",
-      "summary": "Mid-2026 reporting on autonomous AI evaluation incidents claimed that frontier large language model (LLM) agents escaped server containment through emergent coordination and cloud infrastructure attacks. This paper conte...",
-      "url": "http://arxiv.org/abs/2610.20437v1",
+      "title": "[cs.CR Security] Language Is a Security Surface for Agent Guards",
+      "summary": "Step-level guards decide, before each tool call, whether an agent's next action is safe given the user's request and the trajectory so far. Users write those requests in many languages, while guard prompts and the benchm...",
+      "url": "http://arxiv.org/abs/2610.22244v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Alicia Colmenero-Fernández",
-      "published_at": "2026-10-14",
+      "authors": "Hasan Demirkiran, Jens Ernstberger",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -1757,14 +1762,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Phantomware: a Data Augmentation Framework for the Detection of Emerging Malware Campaigns",
-      "summary": "Detecting unseen malware variants remains a major challenge as malware families continuously evolve. This issue is exacerbated in data-scarce scenarios such as emerging malware campaigns, where only a few samples are ava...",
-      "url": "http://arxiv.org/abs/2610.20427v1",
+      "title": "[cs.CR Security] Shortcut Sensitivity in Agent-Safety Evaluations",
+      "summary": "AI agents take actions through tools. Some actions are sensitive, so guards that supervise them must themselves be evaluated reliably. Yet the data used to evaluate a guard can include cues that make labels predictable w...",
+      "url": "http://arxiv.org/abs/2610.22243v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Antonino Rullo",
-      "published_at": "2026-10-14",
+      "authors": "Hasan Demirkiran, Jens Ernstberger",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -1774,14 +1779,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Building Sound Evaluation Practices for Rust-Based Security Frameworks",
-      "summary": "Background: Rust is a modern programming language known for its focus on usability, concurrency, and security. However, empirical studies reveal that Rust is still affected by software vulnerabilities, with hundreds of m...",
-      "url": "http://arxiv.org/abs/2610.20315v1",
+      "title": "[cs.CR Security] MAppPrint: Robust and Real-time Mobile App Fingerprinting via Traffic Behavior Correlation Graphs",
+      "summary": "Mobile apps have become ubiquitous in daily life. Despite communication encryption, app fingerprinting (AF) attacks can still enable adversaries to infer the apps in use by analyzing patterns of encrypted network traffic...",
+      "url": "http://arxiv.org/abs/2610.22148v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "David Paaßen, Lucas Davi",
-      "published_at": "2026-10-14",
+      "authors": "Tao Duan, Junzhou Zhao, Jianglong Li",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -1791,14 +1796,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] Towards Efficient Threat Intelligence Instruction Tuning via Quality-Aware and Optimal Transport-Guided Data Selection",
-      "summary": "High-quality data is essential for improving instruction tuning in threat intelligence analysis. However, existing methods for generating cybersecurity instruction data lack reliable quality assessment mechanisms, and gr...",
-      "url": "http://arxiv.org/abs/2610.20284v1",
+      "title": "[cs.CR Security] SMT-Boosted Security Types and Correctness for Low-Level MPC",
+      "summary": "Secure Multi-Party Computation (MPC) is an important enabling technology for data privacy in modern distributed applications. We develop a new Hoare logic and type theory to automatically enforce correctness, confidentia...",
+      "url": "http://arxiv.org/abs/2610.22047v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Jiyu Tian, Mingchu Li, Xiangwei Chen",
-      "published_at": "2026-10-14",
+      "authors": "Christian Skalka, Steven Baldasty, Yeonhee Yeh",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -1808,14 +1813,14 @@
       ]
     },
     {
-      "title": "[cs.CR Security] P2Patch: Exploit-Guided Vulnerability Repair",
-      "summary": "Large language models are increasingly deployed as autonomous agents for automated program repair, patching software vulnerabilities through multi-step reasoning and tool use. Yet these systems typically validate a patch...",
-      "url": "http://arxiv.org/abs/2610.20245v1",
+      "title": "[cs.CR Security] Encoded but Exposed: Language Embeddings can Reveal More Than They Should in Recommender Systems",
+      "summary": "Language embeddings are increasingly used in recommenders to represent item content, but their privacy risks remain poorly understood. We study whether item embeddings can reveal item identities when an adversary has acc...",
+      "url": "http://arxiv.org/abs/2610.21713v1",
       "source": "arXiv (cs.CR Security)",
       "category": "arXiv Preprints",
       "badge": "cs.CR Security",
-      "authors": "Mohsen Iranmanesh, Sina Moradi Sabet, Sina Marefat",
-      "published_at": "2026-10-14",
+      "authors": "Linda Beková, Rodrigo Alves",
+      "published_at": "2026-10-15",
       "tags": [
         "arxiv",
         "paper",
@@ -1825,63 +1830,15 @@
       ]
     },
     {
-      "title": "Unlocking Structured Pruning for Reasoning Language Models via Attention-Preserving MLP Trimming",
-      "summary": "Structured pruning reduces LLM inference costs by removing model components to produce smaller dense models. However, existing methods can cause reasoning performance to collapse on long-form reasoning tasks such as AIME...",
-      "url": "https://huggingface.co/papers/2610.19121",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
-      "authors": "Woosang Lim, Haneul Yoo, Vincent-Daniel Yun",
-      "published_at": "2026-10-12",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Lluna: Collaborative Unimodal Models for Missing-Modality Inference",
-      "summary": "Pretrained unimodal models offer a flexible route to multimodal prediction through collaboration, but this collaboration can become less accurate than a surviving unimodal model when modalities are missing. We study this...",
-      "url": "https://huggingface.co/papers/2610.20526",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
-      "authors": "Haoyue Bai, Yinyi Luo, Heqing Huang",
-      "published_at": "2026-10-13",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Looking Complete Is Not Being Grounded: Evaluating LLM Sitreps Against Human-Authored Situation Reports",
-      "summary": "Evaluation for automatic crisis reporting should measure what practitioners need, not what is convenient to compare. Through LLM-assisted, author-approved content analysis, we derive a 15-slot information schema from pro...",
-      "url": "https://huggingface.co/papers/2610.18762",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
-      "authors": "Sachin Kumar",
-      "published_at": "2026-10-13",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "When Left Is Right? Camera-Motion Understanding beyond Screen",
-      "summary": "Can a vision-language model tell left from right? Modern VLMs solve visual puzzles and follow hour-long videos, yet when asked whether the camera moved left or right, most do no better than a coin flip. Adding camera-mot...",
-      "url": "https://huggingface.co/papers/2610.17242",
+      "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
+      "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which ...",
+      "url": "https://huggingface.co/papers/2610.21261",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 2",
       "upvotes": 2,
-      "authors": "Chong Cheng, Ran Zhang, Xinyuan Li",
-      "published_at": "2026-10-11",
+      "authors": "Haotian Ma, Ziye Mei, Frederic Sala",
+      "published_at": "2026-10-14",
       "tags": [
         "paper",
         "arxiv",
@@ -1889,15 +1846,31 @@
       ]
     },
     {
-      "title": "PreciseCoder: Faithful and Generalizable Debugging Beyond Unit-Test Rewards",
-      "summary": "Reinforcement learning (RL) from unit tests is the common recipe for post-training code models, but a unit test only asks whether the final program passes. We analyze what this unit-test-only reward teaches a model durin...",
-      "url": "https://huggingface.co/papers/2610.18755",
+      "title": "Diminishing Returns of Data in Sparse Autoencoders: Functional Behavior does not Guarantee Feature Reproducibility",
+      "summary": "Sparse autoencoders (SAEs) are typically trained on hundreds of millions to billions of activation tokens, yet little work has tested whether this scale is necessary. We study how much activation data SAEs need by traini...",
+      "url": "https://huggingface.co/papers/2610.20680",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Sambit Ghosh, Madelyn Mathai, R. Venkatesh Babu",
+      "published_at": "2026-10-13",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents",
+      "summary": "Computer-use agents increasingly tackle long-horizon tasks, where running a frontier model at every step is expensive and a small open-weight model alone often fails. Weak-to-strong escalation offers a middle ground wher...",
+      "url": "https://huggingface.co/papers/2610.22280",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 4",
       "upvotes": 4,
-      "authors": "Yunkai Zhan, Miaosen Chai, Shangshang Wang",
-      "published_at": "2026-10-12",
+      "authors": "Qingni Wang, Changdae Oh, Yuzhe Yang",
+      "published_at": "2026-10-14",
       "tags": [
         "paper",
         "arxiv",
@@ -1905,62 +1878,14 @@
       ]
     },
     {
-      "title": "Drive3R: Block-wise Streaming Geometric Foundation Models for Autonomous Driving",
-      "summary": "High-fidelity closed-loop simulation for autonomous driving increasingly relies on dense multi-view 3D reconstruction. While recent feed-forward geometric foundation models have revolutionized per-scene optimization, app...",
-      "url": "https://huggingface.co/papers/2610.15112",
+      "title": "Scalable Weak-to-Strong Verifier Hardening for Agent Environments",
+      "summary": "Agent environments are essential for large language model (LLM) development. They use programmatic verifiers to turn complex outcomes into rewards. Verifiers can be attacked into awarding full credit to cheating agents w...",
+      "url": "https://huggingface.co/papers/2610.15924",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 1",
       "upvotes": 1,
-      "authors": "Tianyi Yang, Haojun Yang, Jipeng Xiao",
-      "published_at": "2026-10-09",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
-      "summary": "Diffusion language models (DLMs) offer parallel sampling for faster generation than autoregressive models, an increasingly important advantage as inference becomes a dominant computational workload. However, DLMs degrade...",
-      "url": "https://huggingface.co/papers/2610.14162",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Hermann Kumbong, Ishan S. Khare, Iddah Mlauzi",
-      "published_at": "2026-10-08",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Cortex: Measurement-Gated Evolution and Pruning of Coding-Agent Skills and Rules",
-      "summary": "Coding agents such as Claude Code also follow text files that developers write for them: a project file, skills the agent may choose to open, and rules that load automatically when the agent reads matching files. We call...",
-      "url": "https://huggingface.co/papers/2610.14216",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Samuele Giampieri",
-      "published_at": "2026-10-08",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "History Replays Itself: Unleashing Long-Context Capability in Linear Attention",
-      "summary": "Linear attention promises the efficiency needed for long-context language modelling, yet its fixed-size recurrent state must simultaneously support ongoing computation and preserve information from an ever-growing histor...",
-      "url": "https://huggingface.co/papers/2610.15715",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 9",
-      "upvotes": 9,
-      "authors": "Li Nanbo, Firas Laakom, Yilan Zhang",
+      "authors": "Chong Zeng, Ziqian Zhong, Kexun Zhang",
       "published_at": "2026-10-10",
       "tags": [
         "paper",
@@ -1969,14 +1894,14 @@
       ]
     },
     {
-      "title": "The Agent Knew: Internal States Forecast Unauthorized Actions and Stop Them, and the Lies That Follow",
-      "summary": "Language-model agents sometimes act beyond their authorization and then misreport what they did. On CAPE-Bench, matched agent tasks in which one fact decides whether an action is authorized, frontier open-weight agents d...",
-      "url": "https://huggingface.co/papers/2610.17301",
+      "title": "LeanPRM: Lean-Grounded Process Supervision for Natural Language Proof Verification",
+      "summary": "AI systems now write long and difficult mathematical proofs, and checking their step-by-step validity is becoming a bottleneck. A learned verifier could check proofs cheaply, but training one requires a correctness label...",
+      "url": "https://huggingface.co/papers/2610.17697",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Arya Fayyazi, Mehdi Kamal, Massoud Pedram",
+      "badge": "⭐ 4",
+      "upvotes": 4,
+      "authors": "Rodney Lafuente-Mercado, Salman Rahman, Jingyan Shen",
       "published_at": "2026-10-12",
       "tags": [
         "paper",
@@ -1985,14 +1910,190 @@
       ]
     },
     {
-      "title": "APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
-      "summary": "Professional agents increasingly work through command-line interfaces and multiple tools over shared workspaces containing files, messages, and business applications. These environments create safety risks that are diffi...",
-      "url": "https://huggingface.co/papers/2610.13623",
+      "title": "Equal CER, Unequal Damage: Severity-Weighted Character Error Rate for OCR",
+      "summary": "Character Error Rate (CER), the standard metric for OCR and vision-language models (VLMs), charges a typo as much as a wrong name. We introduce semCER, which keeps CER's alignment and denominator and charges each graphem...",
+      "url": "https://huggingface.co/papers/2610.20461",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
-      "authors": "Ziyi Yang, Adel Bibi, Guohao Li",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Nguyen Nguyen, Yongyi Zang",
+      "published_at": "2026-10-13",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
+      "summary": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading models predict marginal quantiles, leaving the dependence structure of future trajectories unspecifie...",
+      "url": "https://huggingface.co/papers/2610.22358",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Jiachen Yao, Xiyuan Zhang, Annan Yu",
+      "published_at": "2026-10-14",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Learning to Read Out: Unembedding Dynamics in Language Model Pretraining",
+      "summary": "When does a language model acquire a capability? Developmental studies usually answer this by tracking when models start producing the correct token. But that prediction passes through the unembedding matrix, or readout,...",
+      "url": "https://huggingface.co/papers/2610.21025",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Matteo He, William F. Shen, Alex Iacob",
+      "published_at": "2026-10-13",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Copy-Paste Language Models",
+      "summary": "Transformers are intuitively considered to be efficient at copying from their inputs. We actually show that the ability of LLMs to copy in context can be improved through explicit modeling. We propose Copy-Paste Language...",
+      "url": "https://huggingface.co/papers/2610.19247",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Nathan Godey, Yoav Artzi",
+      "published_at": "2026-10-12",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Explaining the Roles of Experts in Mixture-of-Experts LLMs for Personalization",
+      "summary": "Personalization of Large Language Models (LLMs) is increasingly important for user-centric applications, yet prior methods mainly adapt dense LLMs, whose polysemantic neurons, each encoding multiple unrelated concepts, h...",
+      "url": "https://huggingface.co/papers/2610.22127",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Sekh Mainul Islam, Pepa Atanasova, Isabelle Augenstein",
+      "published_at": "2026-10-14",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "PAIR: Bridging Perception and Action in Vision-Language-Action Models",
+      "summary": "Vision-language-action (VLA) models map visual observations and language instructions to continuous robot actions. This task requires a transition from representations that describe the scene and instruction to represent...",
+      "url": "https://huggingface.co/papers/2610.09016",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Kaixi Feng, Guoheng Sun, Ang Li",
+      "published_at": "2026-10-05",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) typically uses small rollout groups per prompt, where repeated sampling from the same policy can yield highly similar trajectories, reducing within-group reward varia...",
+      "url": "https://huggingface.co/papers/2610.16105",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Daijiao Liu, Huiyi Wang, Lina Yao",
+      "published_at": "2026-10-11",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "One Bias Score, Two Factors: How Mitigations Affect Option Bias in Multiple-Choice Evaluation",
+      "summary": "Reordering multiple-choice options can change a model's answer, an effect studied as selection bias (a preference for certain option letters) and as order sensitivity (changes in answers across option orderings). We conn...",
+      "url": "https://huggingface.co/papers/2610.20993",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Hyunjong Ok, Minjae Park, Jaeho Lee",
+      "published_at": "2026-10-13",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Gen4P: Video Generators are 4D Perceivers",
+      "summary": "We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video. We show that a pretrained video generator can be repurposed into a feed-forward 4D perceiver without iterative denoising...",
+      "url": "https://huggingface.co/papers/2610.22371",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 3",
+      "upvotes": 3,
+      "authors": "Yitong Xia, Zeren Jiang, Chuanxia Zheng",
+      "published_at": "2026-10-14",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill",
+      "summary": "Reusing the attention KV cache across requests is a standard way to cut prefill cost in long-context LLM serving, and production systems increasingly back the per-engine cache with a remote tier shared by every engine. W...",
+      "url": "https://huggingface.co/papers/2610.21500",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Muhammad Ibrahim",
+      "published_at": "2026-10-14",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Virtual Head Attention",
+      "summary": "The design of attention mechanisms in long-context large language models faces an ``impossible triangle'' among KV cache size, training and prefill FLOPs, and model quality. GQA achieves strong quality but incurs high KV...",
+      "url": "https://huggingface.co/papers/2610.17959",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 4",
+      "upvotes": 4,
+      "authors": "Xibo Ding, Guoxia Wang, Jinle Zeng",
+      "published_at": "2026-10-12",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Speech event detector: Timestamped detection of non-verbal vocalizations and background sounds for rich speech transcription",
+      "summary": "Automatic speech recognition produces words but drops the non-verbal content of a recording: the breaths, coughs, sighs and laughter of the speaker, and the horns, music or barking around them. We describe Speech Event D...",
+      "url": "https://huggingface.co/papers/2610.14232",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Ayush Kumar Bar, Promila Ghosh",
       "published_at": "2026-10-08",
       "tags": [
         "paper",
@@ -2001,78 +2102,14 @@
       ]
     },
     {
-      "title": "CLASHarness: Benchmarking Multi-Agent Conflict in Computer Use via a Controllable and Verifiable Generation Pipeline",
-      "summary": "Vision-language models (VLMs) are increasingly deployed in multi-agent systems to automate complex computer-use workflows, yet existing benchmarks mostly assume consistent, cooperative environments. In contrast, real-wor...",
-      "url": "https://huggingface.co/papers/2610.19128",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 25",
-      "upvotes": 25,
-      "authors": "Yuxiang Lai, Jike Zhong, Chengzhi Liu",
-      "published_at": "2026-10-12",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Self-Conditioning Enables Deep Sequential Reasoning in Flow Matching",
-      "summary": "Recent work has explored visual reasoning through image generation, where models solve visual-reasoning problems by directly generating solution images. Intuitively, iterative samplers such as flow matching are well suit...",
-      "url": "https://huggingface.co/papers/2610.19628",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
-      "authors": "Zeyang Zhang, Linxiang Gao, Meiqi Gu",
-      "published_at": "2026-10-13",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "VLX-Go: Robust Embodied Tracking through Multi-Stage Learning and On-Policy Refinement",
-      "summary": "Embodied visual tracking requires a robot to identify a designated target from visual observations and control its own motion to follow that target through an environment. Following an isolated person is a comparatively ...",
-      "url": "https://huggingface.co/papers/2610.19361",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Kyusong Lee, Heting Ying, Tiancheng Zhao",
-      "published_at": "2026-10-13",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "A Diagnostic Study of World-Space Human Recovery Under High Camera Dynamics",
-      "summary": "Monocular world-space human recovery methods excel on current benchmarks, but these rarely include fast camera motion. We introduce the K-Pop stress test, broadcast dance videos that combine fast, large camera motion wit...",
-      "url": "https://huggingface.co/papers/2610.19729",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
-      "authors": "Hao-Jen Chien, Wei-Lun Chao, Yu-Lun Liu",
-      "published_at": "2026-10-13",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Choosing LLMs for Strategic Agent Interactions",
-      "summary": "Game-theoretic benchmarks claim that large language model (LLM) strategic decision-making varies across game types, interaction structures, and capability dimensions. However, they only evaluate strategic performance acr...",
-      "url": "https://huggingface.co/papers/2610.18354",
+      "title": "FlashMask-3: Efficient and Expressive Mask-Aware Distributed Attention",
+      "summary": "Long-context training of large language and multimodal models couples structured attention masks (document, prefix-LM, share-question, sliding-window, block-sparse) with multi-node context parallelism, making the mask a ...",
+      "url": "https://huggingface.co/papers/2610.17901",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 5",
       "upvotes": 5,
-      "authors": "Arastun Mammadli, Herbert Woisetschläger, Jawad Fayaz",
+      "authors": "Guoxia Wang, Qianyue He, Siming Wu",
       "published_at": "2026-10-12",
       "tags": [
         "paper",
@@ -2081,15 +2118,15 @@
       ]
     },
     {
-      "title": "From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents",
-      "summary": "Simulated environments enable scalable training data generation for embodied agents, but more data does not necessarily provide what a particular agent needs to learn. Existing environment-generation pipelines largely op...",
-      "url": "https://huggingface.co/papers/2610.19420",
+      "title": "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
+      "summary": "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsisten...",
+      "url": "https://huggingface.co/papers/2610.22352",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 7",
       "upvotes": 7,
-      "authors": "Yue Zhang, Han Lin, Zun Wang",
-      "published_at": "2026-10-13",
+      "authors": "Chen Yang, Jiemin Fang, Fanpeng Meng",
+      "published_at": "2026-10-14",
       "tags": [
         "paper",
         "arxiv",
@@ -2097,15 +2134,15 @@
       ]
     },
     {
-      "title": "LabInstruct: Benchmarking Situated Instructional Video Generation for Lab Procedures",
-      "summary": "Self-driving laboratories (SDLs) aim to automate the full experimental loop, from scientific decision-making to physical execution. Ideally, AI-generated plans could be carried out directly by robotic systems, but reliab...",
-      "url": "https://huggingface.co/papers/2610.14020",
+      "title": "Can World and Action Modeling Benefit Each Other under Unified Causal Training?",
+      "summary": "World and action modeling are closely related, yet their reciprocal benefits under unified causal training remain unclear. We introduce OneWM, a simple framework for unified causal training that treats actions as both co...",
+      "url": "https://huggingface.co/papers/2610.21095",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 15",
-      "upvotes": 15,
-      "authors": "Yuming Fu, Weijia Wu, Jing Chen",
-      "published_at": "2026-09-28",
+      "badge": "⭐ 31",
+      "upvotes": 31,
+      "authors": "Yue Su, Bokai Lin, Xinkai Wang",
+      "published_at": "2026-10-14",
       "tags": [
         "paper",
         "arxiv",
@@ -2113,35 +2150,219 @@
       ]
     },
     {
-      "title": "Your Transformer Is Secretly Elastic",
-      "summary": "Scaling up transformers has produced models with broad capabilities, deployed across heterogeneous hardware and fluctuating workloads. Yet, model families offer only a few fixed sizes (e.g., S, B, L), forcing users to co...",
-      "url": "https://huggingface.co/papers/2610.20588",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Walter Simoncini, Dheeraj Varghese, Gertjan J. Burghouts",
-      "published_at": "2026-10-13",
+      "title": "[HIGH] CVE-2026-96627 (CWE-266, CWE-269): Arcane: Delegated users:update permission allows admin account takeover via password reset (no privilege-hierarchy check)",
+      "summary": "## Summary\nA user holding the delegated `users:update` permission can reset the global administrator's password and take over the admin account. `UpdateUser` sets the target user's `PasswordHash` from the request body fo...",
+      "url": "https://github.com/advisories/GHSA-pw5q-rjx4-7f7p",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-16",
       "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-266",
+        "cwe-269"
       ]
     },
     {
-      "title": "VASPO: Self-Distillation with Privileged Value Estimation",
-      "summary": "On-policy self-distillation provides dense supervision for reasoning models via a privileged self-teacher. However, this supervision reflects local token preferences rather than the expected return of an unguided student...",
-      "url": "https://huggingface.co/papers/2610.20516",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
-      "authors": "Fei Wu, Zhenrong Zhang, Jianshu Zhang",
-      "published_at": "2026-10-13",
+      "title": "[MEDIUM] CVE-2026-96628 (CWE-863): Arcane: Environment access token bypasses the admin-required authorization gate on `/api/debug/pprof`",
+      "summary": "## Summary\n\nArcane v2.10.2 contains an authorization inconsistency in `AuthMiddleware.managerAuth`.\n\nWhen a request supplies a valid environment access token through the `X-Arcane-Agent-Token` header, `managerAuth` resol...",
+      "url": "https://github.com/advisories/GHSA-mp22-58ff-6fhr",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "MEDIUM",
+      "published_at": "2026-10-16",
       "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-863"
+      ]
+    },
+    {
+      "title": "[CRITICAL] CVE-2026-105192 (CWE-306): LMCache: Remote code execution via unsafe deserialization in multiprocess mode transport",
+      "summary": "### Summary\n\nLMCache is vulnerable to Unauthenticated Remote Code Execution via Pickle Deserialization on the Multiprocess ZMQ Transport\n\n\n\n### Details\n\nLMCache multiprocess mode, also called distributed mode, opens an u...",
+      "url": "https://github.com/advisories/GHSA-w5f2-9q9c-ff4h",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "CRITICAL",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-306"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-100349 (CWE-476): kin-openapi openapi3filter: nil-pointer panic in ValidateResponse on a response header declared with content",
+      "summary": "## Summary\n\n`ValidateResponse` panics on a nil pointer when a spec declares a response header with `content` instead of `schema`. `doc.Validate()` accepts that document, so the crash comes from a spec the library just ca...",
+      "url": "https://github.com/advisories/GHSA-74vm-87hj-r66f",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-476"
+      ]
+    },
+    {
+      "title": "[MEDIUM] CVE-2026-58494 (CWE-281, CWE-863): Wasmtime: WASI hard links bypass wasmtime-wasi's FilePerms for destination",
+      "summary": "## Summary\n\nWasmtime's WASI filesystem implementation lets a guest with a read-only source file capability overwrite that file by hard-linking it into another preopen that allows file writes. An attacker who can run a WA...",
+      "url": "https://github.com/advisories/GHSA-4ch3-9j33-3pmj",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "MEDIUM",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-281",
+        "cwe-863"
+      ]
+    },
+    {
+      "title": "[HIGH] GHSA-6fj4-rcr3-r7rr (CWE-1124): lopdf has a stack overflow via deeply nested PDF objects",
+      "summary": "`lopdf::Document::load_mem` (and the other `load*` entry points) parses nested PDF arrays and dictionaries with unbounded recursion. A small crafted PDF whose Catalog contains a deeply nested array (`/X [[[ … ]]]`, on th...",
+      "url": "https://github.com/advisories/GHSA-6fj4-rcr3-r7rr",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-1124"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-102834 (CWE-190): JavaCV: Integer Overflow in IPCameraFrameGrabber Causes Infinite-Loop DoS",
+      "summary": "### Summary\n`IPCameraFrameGrabber` parses the `Content-Length` value from the multipart MJPEG HTTP stream returned by the configured IP camera without any bounds checking. A malicious or compromised camera endpoint - or ...",
+      "url": "https://github.com/advisories/GHSA-rxjv-24xq-76wc",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-190"
+      ]
+    },
+    {
+      "title": "[CRITICAL] CVE-2026-96620 (CWE-20, CWE-78, CWE-88): Claude Agent SDK: Argument Injection via resume Option Allows Arbitrary Command Execution",
+      "summary": "The Claude Agent SDK for Python passed the `resume` option to the Claude CLI without validation, allowing a value beginning with `-` to be interpreted as a separate CLI flag. An attacker who controlled the `resume` value...",
+      "url": "https://github.com/advisories/GHSA-h4mw-j7qp-8mwm",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "CRITICAL",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-20",
+        "cwe-78",
+        "cwe-88"
+      ]
+    },
+    {
+      "title": "[LOW] CVE-2026-62994 (CWE-248, CWE-755): CoreDNS `k8s_external` headless AXFR can emit an empty transfer batch that panics the `transfer` plugin",
+      "summary": "### Summary\n\nA network DNS client allowed to request AXFR for a CoreDNS zone can trigger a panic when CoreDNS is configured with `k8s_external` headless-service zone transfers and Kubernetes contains a headless service e...",
+      "url": "https://github.com/advisories/GHSA-74w3-63xv-x9mv",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "LOW",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-248",
+        "cwe-755"
+      ]
+    },
+    {
+      "title": "[LOW] CVE-2026-76894 (CWE-345, CWE-940): ckan-mcp-server: DataStore Table UI resource does not validate postMessage origin (in) and posts to targetOrigin \"*\" (out)",
+      "summary": "## Summary\n\nThe MCP Apps UI resource (an interactive DataStore table rendered in the host's webview/iframe) communicates with its parent via `postMessage`. Its inbound `message` listener performs no `event.origin` valida...",
+      "url": "https://github.com/advisories/GHSA-vqff-r82h-9crc",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "LOW",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-345",
+        "cwe-940"
+      ]
+    },
+    {
+      "title": "[LOW] CVE-2026-54893 (CWE-116, CWE-789, CWE-1284): swoosh has email-derived URL path injection in Microsoft Graph endpoint",
+      "summary": "### Summary\n\n`Swoosh.Adapters.MsGraph` builds its Microsoft Graph API request URL by interpolating the sender's email address directly into the URL path (`/users/{from}/sendMail`) without percent-encoding or validation. ...",
+      "url": "https://github.com/advisories/GHSA-754j-98wh-57rf",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "LOW",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-116",
+        "cwe-789",
+        "cwe-1284"
+      ]
+    },
+    {
+      "title": "[LOW] CVE-2026-68549 (CWE-22): ClickMigrate has Path Traversal in \"revision -m\" argument",
+      "summary": "### Impact\nA path traversal vulnerability in the `revision` command allowed a crafted migration name supplied via the `-m` argument to escape the intended migrations directory.\n\nUnder specific conditions, an attacker cou...",
+      "url": "https://github.com/advisories/GHSA-vgf9-9mxx-hq54",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "LOW",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-22"
+      ]
+    },
+    {
+      "title": "[HIGH] CVE-2026-102941 (CWE-125): gomarkdown/markdown IsSafeURL panics on short URLs",
+      "summary": "## Summary\n\nIsSafeURL slices url[:nPath] before checking that len(url) >= nPath, so a URL shorter than a path prefix (0, 1 or 2 bytes) triggers a slice-bounds panic, and this is reached end to end when the html.Safelink ...",
+      "url": "https://github.com/advisories/GHSA-cv23-7vc5-jfh7",
+      "source": "CVE & Security Advisory",
+      "category": "Lỗ Hổng CVE/CWE",
+      "badge": "HIGH",
+      "published_at": "2026-10-16",
+      "tags": [
+        "cve",
+        "cwe",
+        "security",
+        "vulnerability",
+        "cwe-125"
       ]
     },
     {
@@ -2179,224 +2400,13 @@
       ]
     },
     {
-      "title": "[CRITICAL] CVE-2026-94603 (CWE-693): Podman: The `podman run` command can be instructed to disable almost all sandboxing by image annotation",
-      "summary": "### Impact\nPodman v4.4.0 added a feature where container checkpoints (from the `podman container checkpoint` command) could be distributed via OCI registry, and pulled from that registry and run via the `podman run` comm...",
-      "url": "https://github.com/advisories/GHSA-2cvf-wqm6-wr9g",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "CRITICAL",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-693"
-      ]
-    },
-    {
-      "title": "[MEDIUM] CVE-2026-102832 (CWE-367, CWE-863): JupyterLab: Command link trust prompt in JupyterLab can trust a document other than the one clicked",
-      "summary": "## Description\n\nA Markdown file or a notebook output can carry a button that runs a JupyterLab command. Since 4.5.7 the first click on such a button opens a prompt naming the command, with Cancel, Run Once and Trust. Cho...",
-      "url": "https://github.com/advisories/GHSA-jwrc-gm9j-263p",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-367",
-        "cwe-863"
-      ]
-    },
-    {
-      "title": "[MEDIUM] CVE-2026-103028 (CWE-863): SFTPGo source-side file-pattern filter bypass during copy operations",
-      "summary": "### Summary\n\nFile pattern filters (`denied_patterns` / `allowed_patterns`) were evaluated on the destination of a copy only. A user holding the copy permission could copy a file denied by the filters to a permitted name ...",
-      "url": "https://github.com/advisories/GHSA-wwv9-g5x4-966q",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-863"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-86063 (CWE-494, CWE-829): Claude Code: Plugin Hash Pin Bypass Allows Bypass of Hash Pinning",
-      "summary": "The plugin install flow in Claude Code and Claude Desktop checked out a marketplace's pinned commit SHA using `git checkout` without verifying that the resulting HEAD matched the pinned SHA. An attacker controlling a plu...",
-      "url": "https://github.com/advisories/GHSA-pq7j-f95f-qfcv",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-494",
-        "cwe-829"
-      ]
-    },
-    {
-      "title": "[MEDIUM] CVE-2026-95838 (CWE-400, CWE-407): containerd: Unpack DoS via repeated opaque whiteouts",
-      "summary": "### Impact\n\nA vulnerability exists in containerd's layer unpack handler where the processing of certain image layers causes superlinear time complexity. During the unpack operation, specific file configurations within th...",
-      "url": "https://github.com/advisories/GHSA-rp3h-jf77-q9p4",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-400",
-        "cwe-407"
-      ]
-    },
-    {
-      "title": "[MEDIUM] CVE-2026-85747 (CWE-354): Distribution: Client `manifests.Get()` does not verify returned content against requested digest",
-      "summary": "### Summary\n\n`registry/client.(*manifests).Get(ctx, dgst, …)` fetches a manifest by digest but never hashes the returned body and compares it against the requested digest. A malicious or compromised registry, or any MITM...",
-      "url": "https://github.com/advisories/GHSA-685w-q87j-wqw3",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-354"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-84994 (CWE-248): Qwik: Crashing any Qwik Server via Resource thenable",
-      "summary": "### Summary\n\nA Qwik server in the default configuration can be crashed with one unauthenticated HTTP request. During qwik-json body parsing, `ResourceSerializer.$fill$` does `Promise.resolve(resource._resolved)`. If `_re...",
-      "url": "https://github.com/advisories/GHSA-x586-xvc8-g7q6",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-248"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-95837 (CWE-269): containerd CRI plugin: Checkpoint restore bypasses destination security context",
-      "summary": "### Impact\n\nA vulnerability in containerd's CRI implementation allows a container restored from an untrusted checkpoint via the `CreateContainer` API to bypass the destination security context and execute with elevated p...",
-      "url": "https://github.com/advisories/GHSA-p7v4-vr35-mj6f",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-269"
-      ]
-    },
-    {
-      "title": "[MEDIUM] CVE-2026-106495 (CWE-284): Backstage: Improper access control in backend action invocation",
-      "summary": "### Impact\n\nAn authenticated user could invoke actions that an operator had excluded through action configuration. Existing action permissions and downstream authorization remain enforced.\n\n### Patches\n\nPatched in `@back...",
-      "url": "https://github.com/advisories/GHSA-3xr5-8w6c-p5gw",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "MEDIUM",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-284"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-100353 (CWE-476): kin-openapi: Incomplete Fix for GHSA-p6wj-qrr4-pgh5: Three Unpatched nil-Items Panic Paths in openapi3filter",
-      "summary": "## Summary\n\nThe fix for GHSA-p6wj-qrr4-pgh5 addressed a nil-pointer dereference that occurs when an OpenAPI 3.1 array schema omits the `items` keyword (which is legal under JSON Schema 2020-12). That fix patched three de...",
-      "url": "https://github.com/advisories/GHSA-vrcc-3ch7-hppw",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-476"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-100354 (CWE-674): kin-openapi: Uncontrolled Recursion on Circular allOf/anyOf/oneOf Schemas Causes Fatal Process Crash",
-      "summary": "## Summary\n\nkin-openapi's spec loader and spec-time validator both handle circular schema references safely: the loader resolves circular `$ref`s on purpose (to support recursive data structures), and `Schema.validate()`...",
-      "url": "https://github.com/advisories/GHSA-g8cf-rcjf-c8cf",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-674"
-      ]
-    },
-    {
-      "title": "[HIGH] CVE-2026-100352 (CWE-754): kin-openapi: YAML NaN/Inf Values Bypass Built-in Guards and Panic via OAS 3.1 Validation Path",
-      "summary": "## Summary\n\nkin-openapi guards against `NaN` and `Inf` values in its built-in schema visitor (`visitJSON`) by returning `ErrSchemaInputNaN` / `ErrSchemaInputInf` when a `float64` input violates those constraints. For OAS...",
-      "url": "https://github.com/advisories/GHSA-rj39-cv6w-8wv7",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "HIGH",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-754"
-      ]
-    },
-    {
-      "title": "[LOW] CVE-2026-77564 (CWE-312): Talos Linux: Support bundle does not redact registry credentials",
-      "summary": "### Summary\nWhen generating a support bundle with `talosctl support` the credentials entered for private registries are included in the bundle.\n\n\n### Details\n\nWithin the generated support bundle, inside `resources/regist...",
-      "url": "https://github.com/advisories/GHSA-7cxh-94cf-mfp6",
-      "source": "CVE & Security Advisory",
-      "category": "Lỗ Hổng CVE/CWE",
-      "badge": "LOW",
-      "published_at": "2026-10-15",
-      "tags": [
-        "cve",
-        "cwe",
-        "security",
-        "vulnerability",
-        "cwe-312"
-      ]
-    },
-    {
-      "title": "Muse Spark Open",
-      "summary": "Hacker News (536 pts, 302 comments) by @bigwheels",
-      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "title": "Tesla Roadster",
+      "summary": "Hacker News (998 pts, 1797 comments) by @shekhar101",
+      "url": "https://www.tesla.com/roadster",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "536 pts",
-      "upvotes": 536,
+      "badge": "998 pts",
+      "upvotes": 998,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2405,13 +2415,13 @@
       ]
     },
     {
-      "title": "What I Self-Host",
-      "summary": "Hacker News (132 pts, 61 comments) by @BrunoBernardino",
-      "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
+      "title": "Claude reveals ECDSA curve origins",
+      "summary": "Hacker News (504 pts, 212 comments) by @ahlCVA",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "132 pts",
-      "upvotes": 132,
+      "badge": "504 pts",
+      "upvotes": 504,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2420,13 +2430,13 @@
       ]
     },
     {
-      "title": "Neural networks are clean",
-      "summary": "Hacker News (436 pts, 158 comments) by @themgt",
-      "url": "https://already-clean.goodfire.com/",
+      "title": "FLUX 3 Image Klein",
+      "summary": "Hacker News (69 pts, 13 comments) by @gmays",
+      "url": "https://bfl.ai/blog/flux-3-image-klein",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "436 pts",
-      "upvotes": 436,
+      "badge": "69 pts",
+      "upvotes": 69,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2435,13 +2445,13 @@
       ]
     },
     {
-      "title": "Call Center Jobs Are Declining, but 14,000 Calls Show Humans Still Outperform AI",
-      "summary": "Hacker News (33 pts, 38 comments) by @thomas_unise",
-      "url": "https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai",
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "summary": "Hacker News (133 pts, 37 comments) by @Anon84",
+      "url": "https://github.com/cobanov/PS5LM",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "33 pts",
-      "upvotes": 33,
+      "badge": "133 pts",
+      "upvotes": 133,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2450,13 +2460,13 @@
       ]
     },
     {
-      "title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
-      "summary": "Hacker News (135 pts, 58 comments) by @speckx",
-      "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
+      "title": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
+      "summary": "Hacker News (125 pts, 101 comments) by @7402",
+      "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "135 pts",
-      "upvotes": 135,
+      "badge": "125 pts",
+      "upvotes": 125,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2465,13 +2475,13 @@
       ]
     },
     {
-      "title": "Wayland desktop for Linux with skeuomorphic design",
-      "summary": "Hacker News (456 pts, 181 comments) by @FinalDestiny",
-      "url": "https://github.com/fyzugx/DEsk",
+      "title": "Waymo in Toronto",
+      "summary": "Hacker News (219 pts, 325 comments) by @ChrisArchitect",
+      "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "456 pts",
-      "upvotes": 456,
+      "badge": "219 pts",
+      "upvotes": 219,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2480,13 +2490,13 @@
       ]
     },
     {
-      "title": "Jev meets the Trolley Problem",
-      "summary": "Hacker News (231 pts, 107 comments) by @zlandes86",
-      "url": "https://zachlandes.com/trolley-problem/",
+      "title": "Wireless magnetic millirobots that deliver medicine inside the beating heart",
+      "summary": "Hacker News (35 pts, 1 comments) by @giuliomagnifico",
+      "url": "https://hub.jhu.edu/2026/10/12/magnetic-millirobots-cardiac-treatment/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "231 pts",
-      "upvotes": 231,
+      "badge": "35 pts",
+      "upvotes": 35,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2495,13 +2505,13 @@
       ]
     },
     {
-      "title": "Krea 3 – An image model built for editing at scale",
-      "summary": "Hacker News (224 pts, 73 comments) by @dvrp",
-      "url": "https://www.krea.ai/krea-3",
+      "title": "C++26: The New Debugging Header",
+      "summary": "Hacker News (40 pts, 2 comments) by @jandeboevrie",
+      "url": "https://www.sandordargo.com/blog/2026/09/30/cpp26-debugging",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "224 pts",
-      "upvotes": 224,
+      "badge": "40 pts",
+      "upvotes": 40,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2510,13 +2520,13 @@
       ]
     },
     {
-      "title": "AdFection: Targeted ads turned into a pipeline for zero-click mercenary spyware",
-      "summary": "Hacker News (341 pts, 503 comments) by @jcomp",
-      "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
+      "title": "Designing more efficient quantum circuits with Claude",
+      "summary": "Hacker News (71 pts, 14 comments) by @pretext",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "341 pts",
-      "upvotes": 341,
+      "badge": "71 pts",
+      "upvotes": 71,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2525,13 +2535,13 @@
       ]
     },
     {
-      "title": "E Ink Kaleido 4",
-      "summary": "Hacker News (103 pts, 60 comments) by @Perroboc",
-      "url": "https://www.eink.com/news/detail/EInk-Launches-Latest-Version-of-Color-ePaper-Platform-E-Ink-Kaleido-4",
+      "title": "How the Claude Code team does code review",
+      "summary": "Hacker News (152 pts, 151 comments) by @pretext",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "103 pts",
-      "upvotes": 103,
+      "badge": "152 pts",
+      "upvotes": 152,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2540,13 +2550,13 @@
       ]
     },
     {
-      "title": "Celebrating 70 Years of Fortran",
-      "summary": "Hacker News (195 pts, 87 comments) by @rbanffy",
-      "url": "https://fortran-lang.org/news/2026/09-15-Fortran-birthday/",
+      "title": "You could have invented transformers from memory",
+      "summary": "Hacker News (60 pts, 8 comments) by @speckx",
+      "url": "https://alexwang.ai/posts/associative-memory/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "195 pts",
-      "upvotes": 195,
+      "badge": "60 pts",
+      "upvotes": 60,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2555,13 +2565,13 @@
       ]
     },
     {
-      "title": "Why I Wrote PGP (1991, revised 1999)",
-      "summary": "Hacker News (87 pts, 30 comments) by @GaryBluto",
-      "url": "https://philzimmermann.com/EN/essays/WhyIWrotePGP.html",
+      "title": "JPEG XL vs. AVIF for web use-cases",
+      "summary": "Hacker News (168 pts, 133 comments) by @farlight",
+      "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "87 pts",
-      "upvotes": 87,
+      "badge": "168 pts",
+      "upvotes": 168,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2570,13 +2580,13 @@
       ]
     },
     {
-      "title": "The 8-mile hole in a Hawaii national park that no one can explain",
-      "summary": "Hacker News (18 pts, 5 comments) by @elsewhen",
-      "url": "https://www.sfgate.com/national-parks/article/hawaii-volcanoes-park-great-crack-22358849.php",
+      "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+      "summary": "Hacker News (240 pts, 108 comments) by @antipaul",
+      "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "18 pts",
-      "upvotes": 18,
+      "badge": "240 pts",
+      "upvotes": 240,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2585,9 +2595,9 @@
       ]
     },
     {
-      "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
-      "summary": "Hacker News (112 pts, 97 comments) by @johnbehnke",
-      "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+      "title": "I never authorized an integration that scans my secrets",
+      "summary": "Hacker News (112 pts, 62 comments) by @trvrprkr",
+      "url": "https://github.com/home-assistant/home-assistant.io/issues/49314",
       "source": "Hacker News",
       "category": "Hacker News Tech",
       "badge": "112 pts",
@@ -2600,13 +2610,13 @@
       ]
     },
     {
-      "title": "Delta’s Biscoff cookies were supposed to be temporary",
-      "summary": "Hacker News (156 pts, 134 comments) by @mhb",
-      "url": "https://www.seriouseats.com/biscoff-history-12168161",
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "summary": "Hacker News (338 pts, 295 comments) by @speckx",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "156 pts",
-      "upvotes": 156,
+      "badge": "338 pts",
+      "upvotes": 338,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
