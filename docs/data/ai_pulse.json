@@ -435,13 +435,29 @@
       ]
     },
     {
+      "title": "Mine, Sample, Render: Test-Time Diversity Alignment Of Generative Models",
+      "summary": "Modern generative models produce high-quality individual outputs but struggle to sample diversely, even when explicitly instructed to do so. We introduce MINE-SAMPLE-RENDER (MSR), a test-time approach that externalizes t...",
+      "url": "https://huggingface.co/papers/2610.21185",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 5",
+      "upvotes": 5,
+      "authors": "Kostas Triaridis, Morris E. Sharp, Nebojsa Jojic",
+      "published_at": "2026-10-14",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
       "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
       "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which ...",
       "url": "https://huggingface.co/papers/2610.21261",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 105",
+      "upvotes": 105,
       "authors": "Haotian Ma, Ziye Mei, Frederic Sala",
       "published_at": "2026-10-14",
       "tags": [
@@ -472,8 +488,8 @@
       "url": "https://huggingface.co/papers/2610.22280",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Qingni Wang, Changdae Oh, Yuzhe Yang",
       "published_at": "2026-10-14",
       "tags": [
@@ -488,8 +504,8 @@
       "url": "https://huggingface.co/papers/2610.15924",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 4",
+      "upvotes": 4,
       "authors": "Chong Zeng, Ziqian Zhong, Kexun Zhang",
       "published_at": "2026-10-10",
       "tags": [
@@ -568,8 +584,8 @@
       "url": "https://huggingface.co/papers/2610.19247",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 4",
+      "upvotes": 4,
       "authors": "Nathan Godey, Yoav Artzi",
       "published_at": "2026-10-12",
       "tags": [
@@ -584,8 +600,8 @@
       "url": "https://huggingface.co/papers/2610.22127",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 3",
+      "upvotes": 3,
       "authors": "Sekh Mainul Islam, Pepa Atanasova, Isabelle Augenstein",
       "published_at": "2026-10-14",
       "tags": [
@@ -616,8 +632,8 @@
       "url": "https://huggingface.co/papers/2610.16105",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Daijiao Liu, Huiyi Wang, Lina Yao",
       "published_at": "2026-10-11",
       "tags": [
@@ -648,8 +664,8 @@
       "url": "https://huggingface.co/papers/2610.22371",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Yitong Xia, Zeren Jiang, Chuanxia Zheng",
       "published_at": "2026-10-14",
       "tags": [
@@ -664,8 +680,8 @@
       "url": "https://huggingface.co/papers/2610.21500",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 2",
+      "upvotes": 2,
       "authors": "Muhammad Ibrahim",
       "published_at": "2026-10-14",
       "tags": [
@@ -680,8 +696,8 @@
       "url": "https://huggingface.co/papers/2610.17959",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 9",
+      "upvotes": 9,
       "authors": "Xibo Ding, Guoxia Wang, Jinle Zeng",
       "published_at": "2026-10-12",
       "tags": [
@@ -712,8 +728,8 @@
       "url": "https://huggingface.co/papers/2610.17901",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Guoxia Wang, Qianyue He, Siming Wu",
       "published_at": "2026-10-12",
       "tags": [
@@ -728,25 +744,9 @@
       "url": "https://huggingface.co/papers/2610.22352",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Chen Yang, Jiemin Fang, Fanpeng Meng",
-      "published_at": "2026-10-14",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Can World and Action Modeling Benefit Each Other under Unified Causal Training?",
-      "summary": "World and action modeling are closely related, yet their reciprocal benefits under unified causal training remain unclear. We introduce OneWM, a simple framework for unified causal training that treats actions as both co...",
-      "url": "https://huggingface.co/papers/2610.21095",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 31",
-      "upvotes": 31,
-      "authors": "Yue Su, Bokai Lin, Xinkai Wang",
       "published_at": "2026-10-14",
       "tags": [
         "paper",
@@ -1005,13 +1005,13 @@
       ]
     },
     {
-      "title": "Tesla Roadster",
-      "summary": "Hacker News (998 pts, 1797 comments) by @shekhar101",
-      "url": "https://www.tesla.com/roadster",
+      "title": "Bleached corals thrive within days when touching healthy neighbour",
+      "summary": "Hacker News (199 pts, 29 comments) by @alkyon",
+      "url": "https://www.nature.com/articles/d41586-026-03266-x",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "998 pts",
-      "upvotes": 998,
+      "badge": "199 pts",
+      "upvotes": 199,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1020,13 +1020,13 @@
       ]
     },
     {
-      "title": "Claude reveals ECDSA curve origins",
-      "summary": "Hacker News (504 pts, 212 comments) by @ahlCVA",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "title": "Chrome and Edge are removing XSLT: what breaks and what does not",
+      "summary": "Hacker News (44 pts, 36 comments) by @croes",
+      "url": "https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "504 pts",
-      "upvotes": 504,
+      "badge": "44 pts",
+      "upvotes": 44,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1035,13 +1035,13 @@
       ]
     },
     {
-      "title": "FLUX 3 Image Klein",
-      "summary": "Hacker News (69 pts, 13 comments) by @gmays",
-      "url": "https://bfl.ai/blog/flux-3-image-klein",
+      "title": "Dam removals are bringing fish back across the northeastern United States",
+      "summary": "Hacker News (100 pts, 25 comments) by @sohkamyung",
+      "url": "https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "69 pts",
-      "upvotes": 69,
+      "badge": "100 pts",
+      "upvotes": 100,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1050,13 +1050,13 @@
       ]
     },
     {
-      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-      "summary": "Hacker News (133 pts, 37 comments) by @Anon84",
-      "url": "https://github.com/cobanov/PS5LM",
+      "title": "Furifont, a Japanese font that shows furigana",
+      "summary": "Hacker News (201 pts, 43 comments) by @plaguna",
+      "url": "https://furifont.antfu.me/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "133 pts",
-      "upvotes": 133,
+      "badge": "201 pts",
+      "upvotes": 201,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1065,13 +1065,13 @@
       ]
     },
     {
-      "title": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
-      "summary": "Hacker News (125 pts, 101 comments) by @7402",
-      "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
+      "title": "The Commodore 64 hardware simulator: break chips and pins, see the results",
+      "summary": "Hacker News (103 pts, 18 comments) by @antirez",
+      "url": "https://github.com/antirez/c64-hw-simulator",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "125 pts",
-      "upvotes": 125,
+      "badge": "103 pts",
+      "upvotes": 103,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1080,13 +1080,13 @@
       ]
     },
     {
-      "title": "Waymo in Toronto",
-      "summary": "Hacker News (219 pts, 325 comments) by @ChrisArchitect",
-      "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+      "title": "Making chicken transparent using Dorito dust",
+      "summary": "Hacker News (226 pts, 62 comments) by @crescit_eundo",
+      "url": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "219 pts",
-      "upvotes": 219,
+      "badge": "226 pts",
+      "upvotes": 226,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1095,13 +1095,13 @@
       ]
     },
     {
-      "title": "Wireless magnetic millirobots that deliver medicine inside the beating heart",
-      "summary": "Hacker News (35 pts, 1 comments) by @giuliomagnifico",
-      "url": "https://hub.jhu.edu/2026/10/12/magnetic-millirobots-cardiac-treatment/",
+      "title": "Microsoft and CMU Team Up to Train Early Career Software Engineers",
+      "summary": "Hacker News (32 pts, 29 comments) by @azhenley",
+      "url": "https://www.cs.cmu.edu/news/2026/microsoft-cmu-praise",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "35 pts",
-      "upvotes": 35,
+      "badge": "32 pts",
+      "upvotes": 32,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1110,13 +1110,13 @@
       ]
     },
     {
-      "title": "C++26: The New Debugging Header",
-      "summary": "Hacker News (40 pts, 2 comments) by @jandeboevrie",
-      "url": "https://www.sandordargo.com/blog/2026/09/30/cpp26-debugging",
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "summary": "Hacker News (605 pts, 530 comments) by @theykk",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "40 pts",
-      "upvotes": 40,
+      "badge": "605 pts",
+      "upvotes": 605,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1125,13 +1125,13 @@
       ]
     },
     {
-      "title": "Designing more efficient quantum circuits with Claude",
-      "summary": "Hacker News (71 pts, 14 comments) by @pretext",
-      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "title": "Pele – Mermaid diagrams as themeable SVG",
+      "summary": "Hacker News (128 pts, 15 comments) by @dchest",
+      "url": "https://pele.run/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "71 pts",
-      "upvotes": 71,
+      "badge": "128 pts",
+      "upvotes": 128,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1140,13 +1140,13 @@
       ]
     },
     {
-      "title": "How the Claude Code team does code review",
-      "summary": "Hacker News (152 pts, 151 comments) by @pretext",
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "title": "Pattern Matching Beats Narrative Reasoning",
+      "summary": "Hacker News (28 pts, 15 comments) by @tosh",
+      "url": "https://blog.scottstevenson.net/p/pattern-matching-beats-narrative",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "152 pts",
-      "upvotes": 152,
+      "badge": "28 pts",
+      "upvotes": 28,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1155,13 +1155,13 @@
       ]
     },
     {
-      "title": "You could have invented transformers from memory",
-      "summary": "Hacker News (60 pts, 8 comments) by @speckx",
-      "url": "https://alexwang.ai/posts/associative-memory/",
+      "title": "Gold is now the top U.S. export",
+      "summary": "Hacker News (145 pts, 81 comments) by @iamnothere",
+      "url": "https://www.numismaticnews.net/gold-now-top-u-s-export",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "60 pts",
-      "upvotes": 60,
+      "badge": "145 pts",
+      "upvotes": 145,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1170,13 +1170,13 @@
       ]
     },
     {
-      "title": "JPEG XL vs. AVIF for web use-cases",
-      "summary": "Hacker News (168 pts, 133 comments) by @farlight",
-      "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+      "title": "Source code of the Estonian online voting system",
+      "summary": "Hacker News (113 pts, 91 comments) by @theanonymousone",
+      "url": "https://github.com/valimised/ivxv",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "168 pts",
-      "upvotes": 168,
+      "badge": "113 pts",
+      "upvotes": 113,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1185,13 +1185,13 @@
       ]
     },
     {
-      "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
-      "summary": "Hacker News (240 pts, 108 comments) by @antipaul",
-      "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+      "title": "Laser Fault Injection on a Budget: RP2350 Edition",
+      "summary": "Hacker News (27 pts, 3 comments) by @gregsadetsky",
+      "url": "https://courk.cc/rp2350-challenge-laser",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "240 pts",
-      "upvotes": 240,
+      "badge": "27 pts",
+      "upvotes": 27,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1200,13 +1200,13 @@
       ]
     },
     {
-      "title": "I never authorized an integration that scans my secrets",
-      "summary": "Hacker News (112 pts, 62 comments) by @trvrprkr",
-      "url": "https://github.com/home-assistant/home-assistant.io/issues/49314",
+      "title": "I Became a Citizen of Japan",
+      "summary": "Hacker News (93 pts, 28 comments) by @luu",
+      "url": "https://www.derekwessman.com/blog-1/natural",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "112 pts",
-      "upvotes": 112,
+      "badge": "93 pts",
+      "upvotes": 93,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1215,13 +1215,13 @@
       ]
     },
     {
-      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-      "summary": "Hacker News (338 pts, 295 comments) by @speckx",
-      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "title": "Solar surpasses nuclear power globally for first time",
+      "summary": "Hacker News (418 pts, 243 comments) by @xbmcuser",
+      "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "338 pts",
-      "upvotes": 338,
+      "badge": "418 pts",
+      "upvotes": 418,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1830,13 +1830,29 @@
       ]
     },
     {
+      "title": "Mine, Sample, Render: Test-Time Diversity Alignment Of Generative Models",
+      "summary": "Modern generative models produce high-quality individual outputs but struggle to sample diversely, even when explicitly instructed to do so. We introduce MINE-SAMPLE-RENDER (MSR), a test-time approach that externalizes t...",
+      "url": "https://huggingface.co/papers/2610.21185",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 5",
+      "upvotes": 5,
+      "authors": "Kostas Triaridis, Morris E. Sharp, Nebojsa Jojic",
+      "published_at": "2026-10-14",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
       "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
       "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which ...",
       "url": "https://huggingface.co/papers/2610.21261",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 105",
+      "upvotes": 105,
       "authors": "Haotian Ma, Ziye Mei, Frederic Sala",
       "published_at": "2026-10-14",
       "tags": [
@@ -1867,8 +1883,8 @@
       "url": "https://huggingface.co/papers/2610.22280",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Qingni Wang, Changdae Oh, Yuzhe Yang",
       "published_at": "2026-10-14",
       "tags": [
@@ -1883,8 +1899,8 @@
       "url": "https://huggingface.co/papers/2610.15924",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 4",
+      "upvotes": 4,
       "authors": "Chong Zeng, Ziqian Zhong, Kexun Zhang",
       "published_at": "2026-10-10",
       "tags": [
@@ -1963,8 +1979,8 @@
       "url": "https://huggingface.co/papers/2610.19247",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 4",
+      "upvotes": 4,
       "authors": "Nathan Godey, Yoav Artzi",
       "published_at": "2026-10-12",
       "tags": [
@@ -1979,8 +1995,8 @@
       "url": "https://huggingface.co/papers/2610.22127",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 3",
+      "upvotes": 3,
       "authors": "Sekh Mainul Islam, Pepa Atanasova, Isabelle Augenstein",
       "published_at": "2026-10-14",
       "tags": [
@@ -2011,8 +2027,8 @@
       "url": "https://huggingface.co/papers/2610.16105",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Daijiao Liu, Huiyi Wang, Lina Yao",
       "published_at": "2026-10-11",
       "tags": [
@@ -2043,8 +2059,8 @@
       "url": "https://huggingface.co/papers/2610.22371",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Yitong Xia, Zeren Jiang, Chuanxia Zheng",
       "published_at": "2026-10-14",
       "tags": [
@@ -2059,8 +2075,8 @@
       "url": "https://huggingface.co/papers/2610.21500",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 2",
+      "upvotes": 2,
       "authors": "Muhammad Ibrahim",
       "published_at": "2026-10-14",
       "tags": [
@@ -2075,8 +2091,8 @@
       "url": "https://huggingface.co/papers/2610.17959",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 9",
+      "upvotes": 9,
       "authors": "Xibo Ding, Guoxia Wang, Jinle Zeng",
       "published_at": "2026-10-12",
       "tags": [
@@ -2107,8 +2123,8 @@
       "url": "https://huggingface.co/papers/2610.17901",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Guoxia Wang, Qianyue He, Siming Wu",
       "published_at": "2026-10-12",
       "tags": [
@@ -2123,25 +2139,9 @@
       "url": "https://huggingface.co/papers/2610.22352",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Chen Yang, Jiemin Fang, Fanpeng Meng",
-      "published_at": "2026-10-14",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Can World and Action Modeling Benefit Each Other under Unified Causal Training?",
-      "summary": "World and action modeling are closely related, yet their reciprocal benefits under unified causal training remain unclear. We introduce OneWM, a simple framework for unified causal training that treats actions as both co...",
-      "url": "https://huggingface.co/papers/2610.21095",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 31",
-      "upvotes": 31,
-      "authors": "Yue Su, Bokai Lin, Xinkai Wang",
       "published_at": "2026-10-14",
       "tags": [
         "paper",
@@ -2400,13 +2400,13 @@
       ]
     },
     {
-      "title": "Tesla Roadster",
-      "summary": "Hacker News (998 pts, 1797 comments) by @shekhar101",
-      "url": "https://www.tesla.com/roadster",
+      "title": "Bleached corals thrive within days when touching healthy neighbour",
+      "summary": "Hacker News (199 pts, 29 comments) by @alkyon",
+      "url": "https://www.nature.com/articles/d41586-026-03266-x",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "998 pts",
-      "upvotes": 998,
+      "badge": "199 pts",
+      "upvotes": 199,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2415,13 +2415,13 @@
       ]
     },
     {
-      "title": "Claude reveals ECDSA curve origins",
-      "summary": "Hacker News (504 pts, 212 comments) by @ahlCVA",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "title": "Chrome and Edge are removing XSLT: what breaks and what does not",
+      "summary": "Hacker News (44 pts, 36 comments) by @croes",
+      "url": "https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "504 pts",
-      "upvotes": 504,
+      "badge": "44 pts",
+      "upvotes": 44,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2430,13 +2430,13 @@
       ]
     },
     {
-      "title": "FLUX 3 Image Klein",
-      "summary": "Hacker News (69 pts, 13 comments) by @gmays",
-      "url": "https://bfl.ai/blog/flux-3-image-klein",
+      "title": "Dam removals are bringing fish back across the northeastern United States",
+      "summary": "Hacker News (100 pts, 25 comments) by @sohkamyung",
+      "url": "https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "69 pts",
-      "upvotes": 69,
+      "badge": "100 pts",
+      "upvotes": 100,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2445,13 +2445,13 @@
       ]
     },
     {
-      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-      "summary": "Hacker News (133 pts, 37 comments) by @Anon84",
-      "url": "https://github.com/cobanov/PS5LM",
+      "title": "Furifont, a Japanese font that shows furigana",
+      "summary": "Hacker News (201 pts, 43 comments) by @plaguna",
+      "url": "https://furifont.antfu.me/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "133 pts",
-      "upvotes": 133,
+      "badge": "201 pts",
+      "upvotes": 201,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2460,13 +2460,13 @@
       ]
     },
     {
-      "title": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
-      "summary": "Hacker News (125 pts, 101 comments) by @7402",
-      "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear",
+      "title": "The Commodore 64 hardware simulator: break chips and pins, see the results",
+      "summary": "Hacker News (103 pts, 18 comments) by @antirez",
+      "url": "https://github.com/antirez/c64-hw-simulator",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "125 pts",
-      "upvotes": 125,
+      "badge": "103 pts",
+      "upvotes": 103,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2475,13 +2475,13 @@
       ]
     },
     {
-      "title": "Waymo in Toronto",
-      "summary": "Hacker News (219 pts, 325 comments) by @ChrisArchitect",
-      "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+      "title": "Making chicken transparent using Dorito dust",
+      "summary": "Hacker News (226 pts, 62 comments) by @crescit_eundo",
+      "url": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "219 pts",
-      "upvotes": 219,
+      "badge": "226 pts",
+      "upvotes": 226,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2490,13 +2490,13 @@
       ]
     },
     {
-      "title": "Wireless magnetic millirobots that deliver medicine inside the beating heart",
-      "summary": "Hacker News (35 pts, 1 comments) by @giuliomagnifico",
-      "url": "https://hub.jhu.edu/2026/10/12/magnetic-millirobots-cardiac-treatment/",
+      "title": "Microsoft and CMU Team Up to Train Early Career Software Engineers",
+      "summary": "Hacker News (32 pts, 29 comments) by @azhenley",
+      "url": "https://www.cs.cmu.edu/news/2026/microsoft-cmu-praise",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "35 pts",
-      "upvotes": 35,
+      "badge": "32 pts",
+      "upvotes": 32,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2505,13 +2505,13 @@
       ]
     },
     {
-      "title": "C++26: The New Debugging Header",
-      "summary": "Hacker News (40 pts, 2 comments) by @jandeboevrie",
-      "url": "https://www.sandordargo.com/blog/2026/09/30/cpp26-debugging",
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "summary": "Hacker News (605 pts, 530 comments) by @theykk",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "40 pts",
-      "upvotes": 40,
+      "badge": "605 pts",
+      "upvotes": 605,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2520,13 +2520,13 @@
       ]
     },
     {
-      "title": "Designing more efficient quantum circuits with Claude",
-      "summary": "Hacker News (71 pts, 14 comments) by @pretext",
-      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "title": "Pele – Mermaid diagrams as themeable SVG",
+      "summary": "Hacker News (128 pts, 15 comments) by @dchest",
+      "url": "https://pele.run/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "71 pts",
-      "upvotes": 71,
+      "badge": "128 pts",
+      "upvotes": 128,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2535,13 +2535,13 @@
       ]
     },
     {
-      "title": "How the Claude Code team does code review",
-      "summary": "Hacker News (152 pts, 151 comments) by @pretext",
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "title": "Pattern Matching Beats Narrative Reasoning",
+      "summary": "Hacker News (28 pts, 15 comments) by @tosh",
+      "url": "https://blog.scottstevenson.net/p/pattern-matching-beats-narrative",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "152 pts",
-      "upvotes": 152,
+      "badge": "28 pts",
+      "upvotes": 28,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2550,13 +2550,13 @@
       ]
     },
     {
-      "title": "You could have invented transformers from memory",
-      "summary": "Hacker News (60 pts, 8 comments) by @speckx",
-      "url": "https://alexwang.ai/posts/associative-memory/",
+      "title": "Gold is now the top U.S. export",
+      "summary": "Hacker News (145 pts, 81 comments) by @iamnothere",
+      "url": "https://www.numismaticnews.net/gold-now-top-u-s-export",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "60 pts",
-      "upvotes": 60,
+      "badge": "145 pts",
+      "upvotes": 145,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2565,13 +2565,13 @@
       ]
     },
     {
-      "title": "JPEG XL vs. AVIF for web use-cases",
-      "summary": "Hacker News (168 pts, 133 comments) by @farlight",
-      "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+      "title": "Source code of the Estonian online voting system",
+      "summary": "Hacker News (113 pts, 91 comments) by @theanonymousone",
+      "url": "https://github.com/valimised/ivxv",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "168 pts",
-      "upvotes": 168,
+      "badge": "113 pts",
+      "upvotes": 113,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2580,13 +2580,13 @@
       ]
     },
     {
-      "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
-      "summary": "Hacker News (240 pts, 108 comments) by @antipaul",
-      "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+      "title": "Laser Fault Injection on a Budget: RP2350 Edition",
+      "summary": "Hacker News (27 pts, 3 comments) by @gregsadetsky",
+      "url": "https://courk.cc/rp2350-challenge-laser",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "240 pts",
-      "upvotes": 240,
+      "badge": "27 pts",
+      "upvotes": 27,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2595,13 +2595,13 @@
       ]
     },
     {
-      "title": "I never authorized an integration that scans my secrets",
-      "summary": "Hacker News (112 pts, 62 comments) by @trvrprkr",
-      "url": "https://github.com/home-assistant/home-assistant.io/issues/49314",
+      "title": "I Became a Citizen of Japan",
+      "summary": "Hacker News (93 pts, 28 comments) by @luu",
+      "url": "https://www.derekwessman.com/blog-1/natural",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "112 pts",
-      "upvotes": 112,
+      "badge": "93 pts",
+      "upvotes": 93,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2610,13 +2610,13 @@
       ]
     },
     {
-      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-      "summary": "Hacker News (338 pts, 295 comments) by @speckx",
-      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "title": "Solar surpasses nuclear power globally for first time",
+      "summary": "Hacker News (418 pts, 243 comments) by @xbmcuser",
+      "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "338 pts",
-      "upvotes": 338,
+      "badge": "418 pts",
+      "upvotes": 418,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",

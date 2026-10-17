@@ -9,9 +9,9 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 290079,
-      "forks": 72988,
-      "stars_since": "239,477",
+      "stars": 306583,
+      "forks": 77563,
+      "stars_since": "248,962",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -47,9 +47,9 @@
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "language": "Rust",
       "language_color": "#dea584",
-      "stars": 30528,
-      "forks": 4854,
-      "stars_since": "22,319",
+      "stars": 31700,
+      "forks": 5017,
+      "stars_since": "20,267",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -85,9 +85,9 @@
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "language": "C++",
       "language_color": "#f34b7d",
-      "stars": 39843,
-      "forks": 3563,
-      "stars_since": "25,174",
+      "stars": 41569,
+      "forks": 3740,
+      "stars_since": "20,518",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -123,9 +123,9 @@
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
       "language_color": "#e34c26",
-      "stars": 56404,
-      "forks": 3576,
-      "stars_since": "10,237",
+      "stars": 56956,
+      "forks": 3620,
+      "stars_since": "9,024",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -138,18 +138,52 @@
           "username": "rudycelekli"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/174610155?s=40&v=4",
-          "username": "parveen0029"
-        },
-        {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/174610155?s=40&v=4",
+          "username": "parveen0029"
         }
       ],
       "source": "github"
     },
     {
       "rank": 5,
+      "full_name": "anthropics/claude-plugins-official",
+      "owner": "anthropics",
+      "name": "claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 41646,
+      "forks": 4455,
+      "stars_since": "2,328",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/305637556?s=40&v=4",
+          "username": "jordanecker-ant"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/238056179?s=40&v=4",
+          "username": "bryan-anthropic"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8000722?s=40&v=4",
+          "username": "mhegazy"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 6,
       "full_name": "heygen-com/hyperframes",
       "owner": "heygen-com",
       "name": "hyperframes",
@@ -157,9 +191,9 @@
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 65268,
-      "forks": 5881,
-      "stars_since": "5,318",
+      "stars": 65931,
+      "forks": 5951,
+      "stars_since": "5,601",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -187,37 +221,41 @@
       "source": "github"
     },
     {
-      "rank": 6,
-      "full_name": "mattpocock/skills",
-      "owner": "mattpocock",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "language_color": "#89e051",
-      "stars": 294017,
-      "forks": 24649,
-      "stars_since": "12,147",
+      "rank": 7,
+      "full_name": "mksglu/context-mode",
+      "owner": "mksglu",
+      "name": "context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 30496,
+      "forks": 2207,
+      "stars_since": "4,207",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/28293365?s=40&v=4",
-          "username": "mattpocock"
+          "avatar": "https://avatars.githubusercontent.com/u/6067714?s=40&v=4",
+          "username": "mksglu"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/39256258?s=40&v=4",
-          "username": "gabimoncha"
+          "avatar": "https://avatars.githubusercontent.com/u/380338?s=40&v=4",
+          "username": "ipedro"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2910651?s=40&v=4",
+          "username": "ousamabenyounes"
         }
       ],
       "source": "github"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "full_name": "NationalSecurityAgency/ghidra",
       "owner": "NationalSecurityAgency",
       "name": "ghidra",
@@ -225,9 +263,9 @@
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
       "language_color": "#b07219",
-      "stars": 89580,
-      "forks": 10014,
-      "stars_since": "6,614",
+      "stars": 90209,
+      "forks": 10096,
+      "stars_since": "7,510",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -255,41 +293,37 @@
       "source": "github"
     },
     {
-      "rank": 8,
-      "full_name": "mksglu/context-mode",
-      "owner": "mksglu",
-      "name": "context-mode",
-      "url": "https://github.com/mksglu/context-mode",
-      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 30198,
-      "forks": 2124,
-      "stars_since": "4,038",
+      "rank": 9,
+      "full_name": "mattpocock/skills",
+      "owner": "mattpocock",
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "language_color": "#89e051",
+      "stars": 295019,
+      "forks": 24743,
+      "stars_since": "11,937",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/6067714?s=40&v=4",
-          "username": "mksglu"
+          "avatar": "https://avatars.githubusercontent.com/u/28293365?s=40&v=4",
+          "username": "mattpocock"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/380338?s=40&v=4",
-          "username": "ipedro"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2910651?s=40&v=4",
-          "username": "ousamabenyounes"
+          "avatar": "https://avatars.githubusercontent.com/u/39256258?s=40&v=4",
+          "username": "gabimoncha"
         }
       ],
       "source": "github"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "full_name": "ranxianglei/billion-context",
       "owner": "ranxianglei",
       "name": "billion-context",
@@ -297,9 +331,9 @@
       "description": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 1531,
-      "forks": 121,
-      "stars_since": "659",
+      "stars": 1706,
+      "forks": 137,
+      "stars_since": "779",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -316,72 +350,8 @@
           "username": "yingzhongshuoqi"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/299720939?s=40&v=4",
-          "username": "wangbl1010"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 10,
-      "full_name": "anthropics/claude-plugins-official",
-      "owner": "anthropics",
-      "name": "claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 40461,
-      "forks": 4398,
-      "stars_since": "2,217",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/305637556?s=40&v=4",
-          "username": "jordanecker-ant"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/238056179?s=40&v=4",
-          "username": "bryan-anthropic"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/8000722?s=40&v=4",
-          "username": "mhegazy"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 11,
-      "full_name": "earthtojake/text-to-cad",
-      "owner": "earthtojake",
-      "name": "text-to-cad",
-      "url": "https://github.com/earthtojake/text-to-cad",
-      "description": "Give your agent CAD superpowers.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 20972,
-      "forks": 2072,
-      "stars_since": "2,244",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/10742417?s=40&v=4",
-          "username": "earthtojake"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/143688508?s=40&v=4",
-          "username": "warun7"
+          "avatar": "https://avatars.githubusercontent.com/u/38494?s=40&v=4",
+          "username": "aolshevskiy"
         }
       ],
       "source": "github"
