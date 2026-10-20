@@ -9,9 +9,9 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 336262,
-      "forks": 84939,
-      "stars_since": "229,268",
+      "stars": 347504,
+      "forks": 87442,
+      "stars_since": "201,065",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -20,12 +20,12 @@
           "username": "morluto"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/161784452?s=40&v=4",
-          "username": "N0zoM1z0"
-        },
-        {
           "avatar": "https://avatars.githubusercontent.com/u/208281322?s=40&v=4",
           "username": "kaoru0822-kitauji"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/161784452?s=40&v=4",
+          "username": "N0zoM1z0"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
@@ -40,6 +40,44 @@
     },
     {
       "rank": 2,
+      "full_name": "MadsLorentzen/ai-job-search",
+      "owner": "MadsLorentzen",
+      "name": "ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 60403,
+      "forks": 18860,
+      "stars_since": "9,073",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/50207393?s=40&v=4",
+          "username": "MadsLorentzen"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/66267222?s=40&v=4",
+          "username": "ayobamiseun"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
+          "username": "rudycelekli"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/80536682?s=40&v=4",
+          "username": "oscarbol09"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 3,
       "full_name": "anthropics/claude-plugins-official",
       "owner": "anthropics",
       "name": "claude-plugins-official",
@@ -47,9 +85,9 @@
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 43168,
-      "forks": 4566,
-      "stars_since": "4,774",
+      "stars": 43393,
+      "forks": 4584,
+      "stars_since": "5,441",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -73,121 +111,41 @@
       "source": "github"
     },
     {
-      "rank": 3,
-      "full_name": "storytold/artcraft",
-      "owner": "storytold",
-      "name": "artcraft",
-      "url": "https://github.com/storytold/artcraft",
-      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 33685,
-      "forks": 5331,
-      "stars_since": "16,379",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/39263?s=40&v=4",
-          "username": "echelon"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/46063141?s=40&v=4",
-          "username": "bflatastic"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6252325?s=40&v=4",
-          "username": "ArEnSc"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1340665?s=40&v=4",
-          "username": "wilwong"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/75916236?s=40&v=4",
-          "username": "Quicksticks-oss"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 4,
-      "full_name": "MadsLorentzen/ai-job-search",
-      "owner": "MadsLorentzen",
-      "name": "ai-job-search",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 57082,
-      "forks": 18160,
-      "stars_since": "5,742",
+      "full_name": "mksglu/context-mode",
+      "owner": "mksglu",
+      "name": "context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 31343,
+      "forks": 2206,
+      "stars_since": "4,224",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6067714?s=40&v=4",
+          "username": "mksglu"
+        },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/50207393?s=40&v=4",
-          "username": "MadsLorentzen"
+          "avatar": "https://avatars.githubusercontent.com/u/380338?s=40&v=4",
+          "username": "ipedro"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/66267222?s=40&v=4",
-          "username": "ayobamiseun"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/80536682?s=40&v=4",
-          "username": "oscarbol09"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
-          "username": "rudycelekli"
+          "avatar": "https://avatars.githubusercontent.com/u/2910651?s=40&v=4",
+          "username": "ousamabenyounes"
         }
       ],
       "source": "github"
     },
     {
       "rank": 5,
-      "full_name": "boykopovar/AnyPS5",
-      "owner": "boykopovar",
-      "name": "AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-      "language": "C++",
-      "language_color": "#f34b7d",
-      "stars": 44436,
-      "forks": 4057,
-      "stars_since": "14,224",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/57327458?s=40&v=4",
-          "username": "adriadam10"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/158058829?s=40&v=4",
-          "username": "oneandonlydean"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/184076081?s=40&v=4",
-          "username": "boykopovar"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/67475268?s=40&v=4",
-          "username": "MarcZX10"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 6,
       "full_name": "NationalSecurityAgency/ghidra",
       "owner": "NationalSecurityAgency",
       "name": "ghidra",
@@ -195,9 +153,9 @@
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
       "language_color": "#b07219",
-      "stars": 91545,
-      "forks": 10250,
-      "stars_since": "7,602",
+      "stars": 92112,
+      "forks": 10315,
+      "stars_since": "7,152",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -225,41 +183,41 @@
       "source": "github"
     },
     {
-      "rank": 7,
-      "full_name": "mksglu/context-mode",
-      "owner": "mksglu",
-      "name": "context-mode",
-      "url": "https://github.com/mksglu/context-mode",
-      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 31062,
-      "forks": 2335,
-      "stars_since": "4,138",
+      "rank": 6,
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "owner": "K-Dense-AI",
+      "name": "scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 53255,
+      "forks": 4704,
+      "stars_since": "4,355",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/6067714?s=40&v=4",
-          "username": "mksglu"
+          "avatar": "https://avatars.githubusercontent.com/u/9168908?s=40&v=4",
+          "username": "timothykassis"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+          "username": "cursoragent"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/206480607?s=40&v=4",
+          "username": "borealBytes"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/380338?s=40&v=4",
-          "username": "ipedro"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2910651?s=40&v=4",
-          "username": "ousamabenyounes"
         }
       ],
       "source": "github"
     },
     {
-      "rank": 8,
+      "rank": 7,
       "full_name": "heygen-com/hyperframes",
       "owner": "heygen-com",
       "name": "hyperframes",
@@ -267,9 +225,9 @@
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 67630,
-      "forks": 6115,
-      "stars_since": "5,883",
+      "stars": 68453,
+      "forks": 6189,
+      "stars_since": "5,945",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -297,113 +255,7 @@
       "source": "github"
     },
     {
-      "rank": 9,
-      "full_name": "cathrynlavery/diagram-design",
-      "owner": "cathrynlavery",
-      "name": "diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "language": "HTML",
-      "language_color": "#e34c26",
-      "stars": 58372,
-      "forks": 3751,
-      "stars_since": "7,901",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/50469282?s=40&v=4",
-          "username": "cathrynlavery"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
-          "username": "rudycelekli"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/174610155?s=40&v=4",
-          "username": "parveen0029"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 10,
-      "full_name": "K-Dense-AI/scientific-agent-skills",
-      "owner": "K-Dense-AI",
-      "name": "scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 52923,
-      "forks": 4688,
-      "stars_since": "4,310",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9168908?s=40&v=4",
-          "username": "timothykassis"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/206480607?s=40&v=4",
-          "username": "borealBytes"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 11,
-      "full_name": "cursor/plugins",
-      "owner": "cursor",
-      "name": "plugins",
-      "url": "https://github.com/cursor/plugins",
-      "description": "Cursor plugin specification and official plugins",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 13040,
-      "forks": 1281,
-      "stars_since": "1,717",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1390709?s=40&v=4",
-          "username": "poteto"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2145689?s=40&v=4",
-          "username": "minupalaniappan"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/25622412?s=40&v=4",
-          "username": "ericzakariasson"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/930790?s=40&v=4",
-          "username": "roshansada"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 12,
+      "rank": 8,
       "full_name": "debpalash/VoiceStudio",
       "owner": "debpalash",
       "name": "VoiceStudio",
@@ -411,9 +263,9 @@
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 77441,
-      "forks": 8481,
-      "stars_since": "16,569",
+      "stars": 78901,
+      "forks": 8667,
+      "stars_since": "17,291",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -441,45 +293,7 @@
       "source": "github"
     },
     {
-      "rank": 13,
-      "full_name": "YuJunZhiXue/dsh-purge",
-      "owner": "YuJunZhiXue",
-      "name": "dsh-purge",
-      "url": "https://github.com/YuJunZhiXue/dsh-purge",
-      "description": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 8727,
-      "forks": 1474,
-      "stars_since": "2,622",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/188421097?s=40&v=4",
-          "username": "YuJunZhiXue"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/279201993?s=40&v=4",
-          "username": "Musan-34"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/38674512?s=40&v=4",
-          "username": "fomaper"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/68159061?s=40&v=4",
-          "username": "Kilig1058674225"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 14,
+      "rank": 9,
       "full_name": "ruvnet/ruflo",
       "owner": "ruvnet",
       "name": "ruflo",
@@ -487,9 +301,9 @@
       "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 77156,
-      "forks": 9102,
-      "stars_since": "2,117",
+      "stars": 77801,
+      "forks": 9152,
+      "stars_since": "2,543",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -508,6 +322,192 @@
         {
           "avatar": "https://avatars.githubusercontent.com/u/214853444?s=40&v=4",
           "username": "proffesor-for-testing"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 10,
+      "full_name": "android/skills",
+      "owner": "android",
+      "name": "skills",
+      "url": "https://github.com/android/skills",
+      "description": "",
+      "language": "Kotlin",
+      "language_color": "#A97BFF",
+      "stars": 9051,
+      "forks": 585,
+      "stars_since": "1,233",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/133978327?s=40&v=4",
+          "username": "android-devrel-github-bot"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/35065668?s=40&v=4",
+          "username": "simona-anomis"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/609125?s=40&v=4",
+          "username": "JoseAlcerreca"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/19445?s=40&v=4",
+          "username": "bentrengrove"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/35296563?s=40&v=4",
+          "username": "vinishavathwani"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 11,
+      "full_name": "boykopovar/AnyPS5",
+      "owner": "boykopovar",
+      "name": "AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "language": "C++",
+      "language_color": "#f34b7d",
+      "stars": 45479,
+      "forks": 4176,
+      "stars_since": "12,389",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/57327458?s=40&v=4",
+          "username": "adriadam10"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/158058829?s=40&v=4",
+          "username": "oneandonlydean"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/184076081?s=40&v=4",
+          "username": "boykopovar"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/75296019?s=40&v=4",
+          "username": "EagleBearerYS"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 12,
+      "full_name": "cursor/plugins",
+      "owner": "cursor",
+      "name": "plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 13241,
+      "forks": 1304,
+      "stars_since": "1,975",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+          "username": "cursoragent"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1390709?s=40&v=4",
+          "username": "poteto"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2145689?s=40&v=4",
+          "username": "minupalaniappan"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/25622412?s=40&v=4",
+          "username": "ericzakariasson"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/930790?s=40&v=4",
+          "username": "roshansada"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 13,
+      "full_name": "cathrynlavery/diagram-design",
+      "owner": "cathrynlavery",
+      "name": "diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "language_color": "#e34c26",
+      "stars": 58960,
+      "forks": 3792,
+      "stars_since": "6,638",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/50469282?s=40&v=4",
+          "username": "cathrynlavery"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
+          "username": "rudycelekli"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/174610155?s=40&v=4",
+          "username": "parveen0029"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 14,
+      "full_name": "storytold/artcraft",
+      "owner": "storytold",
+      "name": "artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 34488,
+      "forks": 5462,
+      "stars_since": "13,572",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/39263?s=40&v=4",
+          "username": "echelon"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/46063141?s=40&v=4",
+          "username": "bflatastic"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6252325?s=40&v=4",
+          "username": "ArEnSc"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1340665?s=40&v=4",
+          "username": "wilwong"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/75916236?s=40&v=4",
+          "username": "Quicksticks-oss"
         }
       ],
       "source": "github"
