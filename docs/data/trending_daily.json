@@ -2,6 +2,36 @@
   "repos": [
     {
       "rank": 1,
+      "full_name": "cloudflare/security-audit-skill",
+      "owner": "cloudflare",
+      "name": "security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 42033,
+      "forks": 2628,
+      "stars_since": "2,706",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9935415?s=40&v=4",
+          "username": "literally-dan"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/59650384?s=40&v=4",
+          "username": "CooperSheroy"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/228360615?s=40&v=4",
+          "username": "kennysarnoski-jarvis"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 2,
       "full_name": "php/php-src",
       "owner": "php",
       "name": "php-src",
@@ -9,9 +39,9 @@
       "description": "The PHP Interpreter",
       "language": "C",
       "language_color": "#555555",
-      "stars": 41121,
-      "forks": 8305,
-      "stars_since": "423",
+      "stars": 41546,
+      "forks": 8357,
+      "stars_since": "722",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -39,7 +69,7 @@
       "source": "github"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "full_name": "anthropics/knowledge-work-plugins",
       "owner": "anthropics",
       "name": "knowledge-work-plugins",
@@ -47,9 +77,9 @@
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 31552,
-      "forks": 3530,
-      "stars_since": "303",
+      "stars": 32181,
+      "forks": 3569,
+      "stars_since": "643",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -73,247 +103,187 @@
       "source": "github"
     },
     {
-      "rank": 3,
-      "full_name": "DietrichGebert/ponytail",
-      "owner": "DietrichGebert",
-      "name": "ponytail",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 173376,
-      "forks": 9436,
-      "stars_since": "1,949",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/137048761?s=40&v=4",
-          "username": "DietrichGebert"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2910651?s=40&v=4",
-          "username": "ousamabenyounes"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/169168095?s=40&v=4",
-          "username": "Lakshya77089"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/91044156?s=40&v=4",
-          "username": "dhedhialy"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 4,
-      "full_name": "cloudflare/security-audit-skill",
-      "owner": "cloudflare",
-      "name": "security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 39424,
-      "forks": 2455,
-      "stars_since": "2,979",
+      "full_name": "NVIDIA/OpenShell",
+      "owner": "NVIDIA",
+      "name": "OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 18741,
+      "forks": 1881,
+      "stars_since": "1,240",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/9935415?s=40&v=4",
-          "username": "literally-dan"
+          "avatar": "https://avatars.githubusercontent.com/u/385?s=40&v=4",
+          "username": "drew"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/59650384?s=40&v=4",
-          "username": "CooperSheroy"
+          "avatar": "https://avatars.githubusercontent.com/u/9696606?s=40&v=4",
+          "username": "johntmyers"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/228360615?s=40&v=4",
-          "username": "kennysarnoski-jarvis"
+          "avatar": "https://avatars.githubusercontent.com/u/1116309?s=40&v=4",
+          "username": "pimlock"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/189799508?s=40&v=4",
+          "username": "miyoungc"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/931393?s=40&v=4",
+          "username": "elezar"
         }
       ],
       "source": "github"
     },
     {
       "rank": 5,
-      "full_name": "Graphify-Labs/graphify",
-      "owner": "Graphify-Labs",
-      "name": "graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 132885,
-      "forks": 12716,
-      "stars_since": "1,407",
+      "full_name": "Renhuai123/ziwei-doushu",
+      "owner": "Renhuai123",
+      "name": "ziwei-doushu",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 6832,
+      "forks": 1403,
+      "stars_since": "547",
       "since": "daily",
       "period_label": "today",
       "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/91890238?s=40&v=4",
+          "username": "Renhuai123"
+        },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/216348667?s=40&v=4",
-          "username": "safishamsi"
+          "avatar": "https://avatars.githubusercontent.com/u/108378938?s=40&v=4",
+          "username": "Renhuai"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/144055433?s=40&v=4",
-          "username": "ayushcodes10"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/215653880?s=40&v=4",
-          "username": "rajatnagda45"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/182421137?s=40&v=4",
-          "username": "abhay-codes07"
+          "avatar": "https://avatars.githubusercontent.com/u/289346330?s=40&v=4",
+          "username": "sakura168899-debug"
         }
       ],
       "source": "github"
     },
     {
       "rank": 6,
-      "full_name": "supabase/supabase",
-      "owner": "supabase",
-      "name": "supabase",
-      "url": "https://github.com/supabase/supabase",
-      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 113462,
-      "forks": 16999,
-      "stars_since": "683",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/19742402?s=40&v=4",
-          "username": "joshenlim"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/10214025?s=40&v=4",
-          "username": "kiwicopple"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/8291514?s=40&v=4",
-          "username": "MildTomato"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/105593?s=40&v=4",
-          "username": "saltcod"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/10985857?s=40&v=4",
-          "username": "alaister"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 7,
-      "full_name": "fastapi/fastapi",
-      "owner": "fastapi",
-      "name": "fastapi",
-      "url": "https://github.com/fastapi/fastapi",
-      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "full_name": "SnailSploit/Claude-Red",
+      "owner": "SnailSploit",
+      "name": "Claude-Red",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 103694,
-      "forks": 10086,
-      "stars_since": "96",
+      "stars": 8428,
+      "forks": 1095,
+      "stars_since": "209",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1326112?s=40&v=4",
-          "username": "tiangolo"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/109919500?s=40&v=4",
-          "username": "YuriiMotov"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 8,
-      "full_name": "luongnv89/claude-howto",
-      "owner": "luongnv89",
-      "name": "claude-howto",
-      "url": "https://github.com/luongnv89/claude-howto",
-      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 43140,
-      "forks": 5383,
-      "stars_since": "370",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3288457?s=40&v=4",
-          "username": "luongnv89"
+          "avatar": "https://avatars.githubusercontent.com/u/95986478?s=40&v=4",
+          "username": "SnailSploit"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/258913972?s=40&v=4",
-          "username": "edocltd"
+          "avatar": "https://avatars.githubusercontent.com/u/90972683?s=40&v=4",
+          "username": "halilkirazkaya"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/5405744?s=40&v=4",
-          "username": "toanalien"
+          "avatar": "https://avatars.githubusercontent.com/u/130660521?s=40&v=4",
+          "username": "LvL23HT"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/271938013?s=40&v=4",
-          "username": "lzw-git-all"
+          "avatar": "https://avatars.githubusercontent.com/u/246077594?s=40&v=4",
+          "username": "yogesh-tessl"
         }
       ],
       "source": "github"
     },
     {
-      "rank": 9,
-      "full_name": "Meloong-Git/PCL",
-      "owner": "Meloong-Git",
-      "name": "PCL",
-      "url": "https://github.com/Meloong-Git/PCL",
-      "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
-      "language": "Visual Basic .NET",
-      "language_color": "#945db7",
-      "stars": 8673,
-      "forks": 1198,
-      "stars_since": "115",
+      "rank": 7,
+      "full_name": "OpenBMB/VoxCPM",
+      "owner": "OpenBMB",
+      "name": "VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 40227,
+      "forks": 4573,
+      "stars_since": "144",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/40348278?s=40&v=4",
-          "username": "LTCatt"
+          "avatar": "https://avatars.githubusercontent.com/u/63361337?s=40&v=4",
+          "username": "Labmem-Zhouyx"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/116283787?s=40&v=4",
-          "username": "allMagicNB"
+          "avatar": "https://avatars.githubusercontent.com/u/8132992?s=40&v=4",
+          "username": "a710128"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/188181427?s=40&v=4",
-          "username": "RyogiMutsuki"
+          "avatar": "https://avatars.githubusercontent.com/u/40820394?s=40&v=4",
+          "username": "bcsdcox"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/154735436?s=40&v=4",
-          "username": "wyc-26"
+          "avatar": "https://avatars.githubusercontent.com/u/33060143?s=40&v=4",
+          "username": "liuxin99"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/60414767?s=40&v=4",
-          "username": "Pigeon0v0"
+          "avatar": "https://avatars.githubusercontent.com/u/167593451?s=40&v=4",
+          "username": "VoxInstruct"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 8,
+      "full_name": "nodejs/node",
+      "owner": "nodejs",
+      "name": "node",
+      "url": "https://github.com/nodejs/node",
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 122836,
+      "forks": 39849,
+      "stars_since": "93",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/718899?s=40&v=4",
+          "username": "Trott"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/80?s=40&v=4",
+          "username": "ry"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/275871?s=40&v=4",
+          "username": "bnoordhuis"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/899444?s=40&v=4",
+          "username": "addaleax"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9287?s=40&v=4",
+          "username": "isaacs"
         }
       ],
       "source": "github"
