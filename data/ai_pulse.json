@@ -435,13 +435,61 @@
       ]
     },
     {
+      "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+      "summary": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs. Existing embodied-agent systems often focus on specified goals or abstract execution into symbolic act...",
+      "url": "https://huggingface.co/papers/2610.30043",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Yicheng Xu, Zhikai Xu, Ziyuan Chen",
+      "published_at": "2026-10-20",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
+      "summary": "Split language models keep input text on a client but send intermediate representations to a server. Attacks can reconstruct text from these messages. Comparing privacy evaluations is difficult when attackers see differe...",
+      "url": "https://huggingface.co/papers/2610.22722",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 4",
+      "upvotes": 4,
+      "authors": "Georgios Politis, Evangelos Pappas",
+      "published_at": "2026-10-14",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
+      "summary": "Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repeatedly running complex benchmarks is costly and slows iteration. Human experts reduce this cost by sel...",
+      "url": "https://huggingface.co/papers/2610.04184",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Yaolun Zhang, Tianyi Xu, Yujie Zhao",
+      "published_at": "2026-10-15",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
       "title": "Diffusion Language Models Change Speed Across Tasks and Languages",
       "summary": "Diffusion language models can write several tokens in one forward pass, and they decide during generation how many passes to spend. Two outputs of the same token length can therefore vary a lot in cost. To understand the...",
       "url": "https://huggingface.co/papers/2610.25835",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 3",
+      "upvotes": 3,
       "authors": "Mohsen Fayyaz, Ali Modarressi, Daniel Israel",
       "published_at": "2026-10-19",
       "tags": [
@@ -456,8 +504,8 @@
       "url": "https://huggingface.co/papers/2610.31198",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 15",
+      "upvotes": 15,
       "authors": "Ofek Avivi, Eliron Rahimi, Avi Mendelson",
       "published_at": "2026-10-21",
       "tags": [
@@ -504,8 +552,8 @@
       "url": "https://huggingface.co/papers/2610.30418",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 11",
-      "upvotes": 11,
+      "badge": "⭐ 16",
+      "upvotes": 16,
       "authors": "Daniel Ruiz, Luca Luceri, Emilio Ferrara",
       "published_at": "2026-10-20",
       "tags": [
@@ -520,8 +568,8 @@
       "url": "https://huggingface.co/papers/2610.28950",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 2",
+      "upvotes": 2,
       "authors": "Jonas Eschmann, Giuseppe Loianno",
       "published_at": "2026-10-19",
       "tags": [
@@ -536,8 +584,8 @@
       "url": "https://huggingface.co/papers/2610.31651",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 7",
+      "upvotes": 7,
       "authors": "Ava Pun, Kevin Dai, Sally Chen",
       "published_at": "2026-10-21",
       "tags": [
@@ -552,8 +600,8 @@
       "url": "https://huggingface.co/papers/2610.27148",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Weien Li, Haochen Liu, Zeyu Li",
       "published_at": "2026-10-18",
       "tags": [
@@ -568,8 +616,8 @@
       "url": "https://huggingface.co/papers/2610.30753",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
+      "badge": "⭐ 26",
+      "upvotes": 26,
       "authors": "Yiming Zhang, Jiarui Guo, Haojia Wei",
       "published_at": "2026-10-21",
       "tags": [
@@ -584,8 +632,8 @@
       "url": "https://huggingface.co/papers/2610.31372",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 6",
-      "upvotes": 6,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Jiening Siow, Amy Xin, Junjie Wang",
       "published_at": "2026-10-21",
       "tags": [
@@ -664,8 +712,8 @@
       "url": "https://huggingface.co/papers/2610.30949",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 53",
-      "upvotes": 53,
+      "badge": "⭐ 86",
+      "upvotes": 86,
       "authors": "A. Jian Yang, An Huang, Bo Dan",
       "published_at": "2026-10-21",
       "tags": [
@@ -680,8 +728,8 @@
       "url": "https://huggingface.co/papers/2610.31329",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 221",
-      "upvotes": 221,
+      "badge": "⭐ 232",
+      "upvotes": 232,
       "authors": "Tianming Liang, Junyi Pan, Yuxi Li",
       "published_at": "2026-10-21",
       "tags": [
@@ -696,58 +744,10 @@
       "url": "https://huggingface.co/papers/2610.23987",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 32",
-      "upvotes": 32,
+      "badge": "⭐ 33",
+      "upvotes": 33,
       "authors": "Tengju Ru, Weitong Lian, Zecong Tang",
       "published_at": "2026-10-13",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
-      "summary": "Masked diffusion language models generate tokens in parallel, but their efficiency depends on which predictions are committed. Learned unmasking policies improve the speed--accuracy trade-off, yet differ in supervision, ...",
-      "url": "https://huggingface.co/papers/2610.31576",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
-      "authors": "Jinya Sakurai, Xun Xu, Jaehong Yoon",
-      "published_at": "2026-10-21",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "RLSplat: Resource-Linear Budget Control for Feed-forward 3D Gaussian Splatting",
-      "summary": "Feed-forward 3D Gaussian Splatting (FF3DGS) reconstructs 3D scenes from images in a single forward pass, making it well-suited to applications that must operate within limited resource budgets. To further improve its pra...",
-      "url": "https://huggingface.co/papers/2610.27712",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 15",
-      "upvotes": 15,
-      "authors": "Injae Kim, Minseok Joo, Jihwan Park",
-      "published_at": "2026-10-19",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "TILDE: Teacher-in-the-Loop Distillation from Embodied Foundation Models",
-      "summary": "Large-scale action pretraining equips Embodied Foundation Models (EFMs) with strong manipulation capabilities, with particular strengths in generalization and closed-loop robustness, but reproducing such pretraining requ...",
-      "url": "https://huggingface.co/papers/2610.25376",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
-      "authors": "Yuxiang Lu, Yantong Liu, Jinghua Hou",
-      "published_at": "2026-10-17",
       "tags": [
         "paper",
         "arxiv",
@@ -996,13 +996,13 @@
       ]
     },
     {
-      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-      "summary": "Hacker News (615 pts, 376 comments) by @Jowsey",
-      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "title": "Show HN: Steal My Bitcoin",
+      "summary": "Hacker News (185 pts, 59 comments) by @cloudlandsdev",
+      "url": "https://stealmybitcoin.com/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "615 pts",
-      "upvotes": 615,
+      "badge": "185 pts",
+      "upvotes": 185,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1011,13 +1011,13 @@
       ]
     },
     {
-      "title": "Apple Music 404 Not Found",
-      "summary": "Hacker News (458 pts, 160 comments) by @frizlab",
-      "url": "https://music.apple.com/this-url-doesnt-exist",
+      "title": "The Goose Programming Language",
+      "summary": "Hacker News (155 pts, 54 comments) by @andsoitis",
+      "url": "https://aardappel.github.io/goose/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "458 pts",
-      "upvotes": 458,
+      "badge": "155 pts",
+      "upvotes": 155,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1026,13 +1026,13 @@
       ]
     },
     {
-      "title": "Dessa: the most authentic full-duplex speech model ever built",
-      "summary": "Hacker News (146 pts, 54 comments) by @dsr12",
-      "url": "https://block.xyz/dessa",
+      "title": "No Signs of AI Payoff Outside the Tech Sector",
+      "summary": "Hacker News (350 pts, 317 comments) by @the-mitr",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "146 pts",
-      "upvotes": 146,
+      "badge": "350 pts",
+      "upvotes": 350,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1041,13 +1041,13 @@
       ]
     },
     {
-      "title": "Today, we hacked what we'd set out to hack: the iPhone",
-      "summary": "Hacker News (669 pts, 447 comments) by @pavel_lishin",
-      "url": "https://blog.calif.io/p/iphone",
+      "title": "John Carmack on the Goose Language: multiple data stacks and relative references",
+      "summary": "Hacker News (119 pts, 50 comments) by @bobbydigitales",
+      "url": "https://twitter.com/ID_AA_Carmack/status/2113704269274636568",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "669 pts",
-      "upvotes": 669,
+      "badge": "119 pts",
+      "upvotes": 119,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1056,13 +1056,13 @@
       ]
     },
     {
-      "title": "CVE Tracker",
-      "summary": "Hacker News (33 pts, 2 comments) by @Group_B",
-      "url": "https://cve.0xosprey.com/",
+      "title": "Listen and read USA nuclear forces Emergency Action Messages, heard on 11175 kHz",
+      "summary": "Hacker News (70 pts, 33 comments) by @liotier",
+      "url": "https://missileer.watch",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "33 pts",
-      "upvotes": 33,
+      "badge": "70 pts",
+      "upvotes": 70,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1071,13 +1071,13 @@
       ]
     },
     {
-      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
-      "summary": "Hacker News (1168 pts, 223 comments) by @sohkamyung",
-      "url": "https://edjefferson.com/localwiki/",
+      "title": "Roku developer repositories moved from GitHub to GitLab",
+      "summary": "Hacker News (220 pts, 145 comments) by @cxr",
+      "url": "https://blog.roku.com/developer/gitlab-move",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "1168 pts",
-      "upvotes": 1168,
+      "badge": "220 pts",
+      "upvotes": 220,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1086,13 +1086,13 @@
       ]
     },
     {
-      "title": "The Real Kevin Bacon",
-      "summary": "Hacker News (198 pts, 62 comments) by @xnx",
-      "url": "https://pudding.cool/2026/10/kevin-bacon/",
+      "title": "Dream-1",
+      "summary": "Hacker News (129 pts, 65 comments) by @GaggiX",
+      "url": "https://dreamlabs.ai/research/dream-1/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "198 pts",
-      "upvotes": 198,
+      "badge": "129 pts",
+      "upvotes": 129,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1101,13 +1101,13 @@
       ]
     },
     {
-      "title": "Canadians are running out of time to oppose Bill C-22",
-      "summary": "Hacker News (260 pts, 131 comments) by @hn_acker",
-      "url": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill",
+      "title": "The St. Helena 5 pence coin shows Jonathan, a roughly 190 year old tortoise",
+      "summary": "Hacker News (77 pts, 16 comments) by @schleck8",
+      "url": "https://de.numista.com/9866",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "260 pts",
-      "upvotes": 260,
+      "badge": "77 pts",
+      "upvotes": 77,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1116,13 +1116,13 @@
       ]
     },
     {
-      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
-      "summary": "Hacker News (166 pts, 78 comments) by @JustSkyfall",
-      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "title": "Danish Government silently drops plan to dump MS Office",
+      "summary": "Hacker News (168 pts, 110 comments) by @lowkeyokay",
+      "url": "https://www.computerworld.dk/art/297226/digitaliseringsministeriet-har-i-al-stilhed-droppet-stort-anlagt-forsoeg-med-open-source-alternativ-til-microsoft",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "166 pts",
-      "upvotes": 166,
+      "badge": "168 pts",
+      "upvotes": 168,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1131,13 +1131,13 @@
       ]
     },
     {
-      "title": "We are all living inside of an obscure sci-fi film from 1970",
-      "summary": "Hacker News (79 pts, 65 comments) by @speckx",
-      "url": "https://thanksforthatjim.bearblog.dev/we-are-all-living-inside-of-an-obscure-sci-fi-film-from-1970/",
+      "title": "FreeDNS",
+      "summary": "Hacker News (216 pts, 56 comments) by @esher",
+      "url": "https://freedns.afraid.org/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "79 pts",
-      "upvotes": 79,
+      "badge": "216 pts",
+      "upvotes": 216,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1146,13 +1146,13 @@
       ]
     },
     {
-      "title": "Rune 1.3: adds TypeScript, a Helix editor, Kitty graphics and OSC-7501",
-      "summary": "Hacker News (20 pts, 1 comments) by @ernestrc",
-      "url": "https://rune.build/blog/rune-1-3-release",
+      "title": "Neural chip decodes interactions between brain regions",
+      "summary": "Hacker News (73 pts, 23 comments) by @giuliomagnifico",
+      "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "20 pts",
-      "upvotes": 20,
+      "badge": "73 pts",
+      "upvotes": 73,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1161,13 +1161,13 @@
       ]
     },
     {
-      "title": "No Source Code? No Problem",
-      "summary": "Hacker News (13 pts, 5 comments) by @ibobev",
-      "url": "https://queue.acm.org/doi/10.1145/945131.945155",
+      "title": "I don't understand quantum physics (2018)",
+      "summary": "Hacker News (249 pts, 184 comments) by @rramadass",
+      "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "13 pts",
-      "upvotes": 13,
+      "badge": "249 pts",
+      "upvotes": 249,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1176,43 +1176,43 @@
       ]
     },
     {
-      "title": "A whirlwind tour of systemd-nspawn containers",
-      "summary": "Hacker News (15 pts, 2 comments) by @ibobev",
-      "url": "https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers/",
+      "title": "OBS Studio 33",
+      "summary": "Hacker News (431 pts, 155 comments) by @pentagrama",
+      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "431 pts",
+      "upvotes": 431,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+      "summary": "Hacker News (254 pts, 125 comments) by @theanonymousone",
+      "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "254 pts",
+      "upvotes": 254,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "SpeedCrunch 1.1",
+      "summary": "Hacker News (15 pts, 2 comments) by @LordNibbler",
+      "url": "https://www.speedcrunch.org/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
       "badge": "15 pts",
       "upvotes": 15,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "A Bicycle Journey Across Brazil to Find a Vanishing Savanna",
-      "summary": "Hacker News (7 pts, 2 comments) by @throwaway2037",
-      "url": "https://e360.yale.edu/features/2026-film-contest-second-place-cerrado",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "7 pts",
-      "upvotes": 7,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Animations for System Builders",
-      "summary": "Hacker News (25 pts, 3 comments) by @KraftyOne",
-      "url": "https://brooker.co.za/blog/2026/10/23/animations.html",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "25 pts",
-      "upvotes": 25,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1821,13 +1821,61 @@
       ]
     },
     {
+      "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+      "summary": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs. Existing embodied-agent systems often focus on specified goals or abstract execution into symbolic act...",
+      "url": "https://huggingface.co/papers/2610.30043",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Yicheng Xu, Zhikai Xu, Ziyuan Chen",
+      "published_at": "2026-10-20",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
+      "summary": "Split language models keep input text on a client but send intermediate representations to a server. Attacks can reconstruct text from these messages. Comparing privacy evaluations is difficult when attackers see differe...",
+      "url": "https://huggingface.co/papers/2610.22722",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 4",
+      "upvotes": 4,
+      "authors": "Georgios Politis, Evangelos Pappas",
+      "published_at": "2026-10-14",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
+      "summary": "Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repeatedly running complex benchmarks is costly and slows iteration. Human experts reduce this cost by sel...",
+      "url": "https://huggingface.co/papers/2610.04184",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Yaolun Zhang, Tianyi Xu, Yujie Zhao",
+      "published_at": "2026-10-15",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
       "title": "Diffusion Language Models Change Speed Across Tasks and Languages",
       "summary": "Diffusion language models can write several tokens in one forward pass, and they decide during generation how many passes to spend. Two outputs of the same token length can therefore vary a lot in cost. To understand the...",
       "url": "https://huggingface.co/papers/2610.25835",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 3",
+      "upvotes": 3,
       "authors": "Mohsen Fayyaz, Ali Modarressi, Daniel Israel",
       "published_at": "2026-10-19",
       "tags": [
@@ -1842,8 +1890,8 @@
       "url": "https://huggingface.co/papers/2610.31198",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 15",
+      "upvotes": 15,
       "authors": "Ofek Avivi, Eliron Rahimi, Avi Mendelson",
       "published_at": "2026-10-21",
       "tags": [
@@ -1890,8 +1938,8 @@
       "url": "https://huggingface.co/papers/2610.30418",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 11",
-      "upvotes": 11,
+      "badge": "⭐ 16",
+      "upvotes": 16,
       "authors": "Daniel Ruiz, Luca Luceri, Emilio Ferrara",
       "published_at": "2026-10-20",
       "tags": [
@@ -1906,8 +1954,8 @@
       "url": "https://huggingface.co/papers/2610.28950",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 2",
+      "upvotes": 2,
       "authors": "Jonas Eschmann, Giuseppe Loianno",
       "published_at": "2026-10-19",
       "tags": [
@@ -1922,8 +1970,8 @@
       "url": "https://huggingface.co/papers/2610.31651",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 7",
+      "upvotes": 7,
       "authors": "Ava Pun, Kevin Dai, Sally Chen",
       "published_at": "2026-10-21",
       "tags": [
@@ -1938,8 +1986,8 @@
       "url": "https://huggingface.co/papers/2610.27148",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Weien Li, Haochen Liu, Zeyu Li",
       "published_at": "2026-10-18",
       "tags": [
@@ -1954,8 +2002,8 @@
       "url": "https://huggingface.co/papers/2610.30753",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
+      "badge": "⭐ 26",
+      "upvotes": 26,
       "authors": "Yiming Zhang, Jiarui Guo, Haojia Wei",
       "published_at": "2026-10-21",
       "tags": [
@@ -1970,8 +2018,8 @@
       "url": "https://huggingface.co/papers/2610.31372",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 6",
-      "upvotes": 6,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Jiening Siow, Amy Xin, Junjie Wang",
       "published_at": "2026-10-21",
       "tags": [
@@ -2050,8 +2098,8 @@
       "url": "https://huggingface.co/papers/2610.30949",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 53",
-      "upvotes": 53,
+      "badge": "⭐ 86",
+      "upvotes": 86,
       "authors": "A. Jian Yang, An Huang, Bo Dan",
       "published_at": "2026-10-21",
       "tags": [
@@ -2066,8 +2114,8 @@
       "url": "https://huggingface.co/papers/2610.31329",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 221",
-      "upvotes": 221,
+      "badge": "⭐ 232",
+      "upvotes": 232,
       "authors": "Tianming Liang, Junyi Pan, Yuxi Li",
       "published_at": "2026-10-21",
       "tags": [
@@ -2082,58 +2130,10 @@
       "url": "https://huggingface.co/papers/2610.23987",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 32",
-      "upvotes": 32,
+      "badge": "⭐ 33",
+      "upvotes": 33,
       "authors": "Tengju Ru, Weitong Lian, Zecong Tang",
       "published_at": "2026-10-13",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
-      "summary": "Masked diffusion language models generate tokens in parallel, but their efficiency depends on which predictions are committed. Learned unmasking policies improve the speed--accuracy trade-off, yet differ in supervision, ...",
-      "url": "https://huggingface.co/papers/2610.31576",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
-      "authors": "Jinya Sakurai, Xun Xu, Jaehong Yoon",
-      "published_at": "2026-10-21",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "RLSplat: Resource-Linear Budget Control for Feed-forward 3D Gaussian Splatting",
-      "summary": "Feed-forward 3D Gaussian Splatting (FF3DGS) reconstructs 3D scenes from images in a single forward pass, making it well-suited to applications that must operate within limited resource budgets. To further improve its pra...",
-      "url": "https://huggingface.co/papers/2610.27712",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 15",
-      "upvotes": 15,
-      "authors": "Injae Kim, Minseok Joo, Jihwan Park",
-      "published_at": "2026-10-19",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "TILDE: Teacher-in-the-Loop Distillation from Embodied Foundation Models",
-      "summary": "Large-scale action pretraining equips Embodied Foundation Models (EFMs) with strong manipulation capabilities, with particular strengths in generalization and closed-loop robustness, but reproducing such pretraining requ...",
-      "url": "https://huggingface.co/papers/2610.25376",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
-      "authors": "Yuxiang Lu, Yantong Liu, Jinghua Hou",
-      "published_at": "2026-10-17",
       "tags": [
         "paper",
         "arxiv",
@@ -2382,13 +2382,13 @@
       ]
     },
     {
-      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-      "summary": "Hacker News (615 pts, 376 comments) by @Jowsey",
-      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "title": "Show HN: Steal My Bitcoin",
+      "summary": "Hacker News (185 pts, 59 comments) by @cloudlandsdev",
+      "url": "https://stealmybitcoin.com/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "615 pts",
-      "upvotes": 615,
+      "badge": "185 pts",
+      "upvotes": 185,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2397,13 +2397,13 @@
       ]
     },
     {
-      "title": "Apple Music 404 Not Found",
-      "summary": "Hacker News (458 pts, 160 comments) by @frizlab",
-      "url": "https://music.apple.com/this-url-doesnt-exist",
+      "title": "The Goose Programming Language",
+      "summary": "Hacker News (155 pts, 54 comments) by @andsoitis",
+      "url": "https://aardappel.github.io/goose/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "458 pts",
-      "upvotes": 458,
+      "badge": "155 pts",
+      "upvotes": 155,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2412,13 +2412,13 @@
       ]
     },
     {
-      "title": "Dessa: the most authentic full-duplex speech model ever built",
-      "summary": "Hacker News (146 pts, 54 comments) by @dsr12",
-      "url": "https://block.xyz/dessa",
+      "title": "No Signs of AI Payoff Outside the Tech Sector",
+      "summary": "Hacker News (350 pts, 317 comments) by @the-mitr",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "146 pts",
-      "upvotes": 146,
+      "badge": "350 pts",
+      "upvotes": 350,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2427,13 +2427,13 @@
       ]
     },
     {
-      "title": "Today, we hacked what we'd set out to hack: the iPhone",
-      "summary": "Hacker News (669 pts, 447 comments) by @pavel_lishin",
-      "url": "https://blog.calif.io/p/iphone",
+      "title": "John Carmack on the Goose Language: multiple data stacks and relative references",
+      "summary": "Hacker News (119 pts, 50 comments) by @bobbydigitales",
+      "url": "https://twitter.com/ID_AA_Carmack/status/2113704269274636568",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "669 pts",
-      "upvotes": 669,
+      "badge": "119 pts",
+      "upvotes": 119,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2442,13 +2442,13 @@
       ]
     },
     {
-      "title": "CVE Tracker",
-      "summary": "Hacker News (33 pts, 2 comments) by @Group_B",
-      "url": "https://cve.0xosprey.com/",
+      "title": "Listen and read USA nuclear forces Emergency Action Messages, heard on 11175 kHz",
+      "summary": "Hacker News (70 pts, 33 comments) by @liotier",
+      "url": "https://missileer.watch",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "33 pts",
-      "upvotes": 33,
+      "badge": "70 pts",
+      "upvotes": 70,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2457,13 +2457,13 @@
       ]
     },
     {
-      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
-      "summary": "Hacker News (1168 pts, 223 comments) by @sohkamyung",
-      "url": "https://edjefferson.com/localwiki/",
+      "title": "Roku developer repositories moved from GitHub to GitLab",
+      "summary": "Hacker News (220 pts, 145 comments) by @cxr",
+      "url": "https://blog.roku.com/developer/gitlab-move",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "1168 pts",
-      "upvotes": 1168,
+      "badge": "220 pts",
+      "upvotes": 220,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2472,13 +2472,13 @@
       ]
     },
     {
-      "title": "The Real Kevin Bacon",
-      "summary": "Hacker News (198 pts, 62 comments) by @xnx",
-      "url": "https://pudding.cool/2026/10/kevin-bacon/",
+      "title": "Dream-1",
+      "summary": "Hacker News (129 pts, 65 comments) by @GaggiX",
+      "url": "https://dreamlabs.ai/research/dream-1/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "198 pts",
-      "upvotes": 198,
+      "badge": "129 pts",
+      "upvotes": 129,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2487,13 +2487,13 @@
       ]
     },
     {
-      "title": "Canadians are running out of time to oppose Bill C-22",
-      "summary": "Hacker News (260 pts, 131 comments) by @hn_acker",
-      "url": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill",
+      "title": "The St. Helena 5 pence coin shows Jonathan, a roughly 190 year old tortoise",
+      "summary": "Hacker News (77 pts, 16 comments) by @schleck8",
+      "url": "https://de.numista.com/9866",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "260 pts",
-      "upvotes": 260,
+      "badge": "77 pts",
+      "upvotes": 77,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2502,13 +2502,13 @@
       ]
     },
     {
-      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
-      "summary": "Hacker News (166 pts, 78 comments) by @JustSkyfall",
-      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "title": "Danish Government silently drops plan to dump MS Office",
+      "summary": "Hacker News (168 pts, 110 comments) by @lowkeyokay",
+      "url": "https://www.computerworld.dk/art/297226/digitaliseringsministeriet-har-i-al-stilhed-droppet-stort-anlagt-forsoeg-med-open-source-alternativ-til-microsoft",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "166 pts",
-      "upvotes": 166,
+      "badge": "168 pts",
+      "upvotes": 168,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2517,13 +2517,13 @@
       ]
     },
     {
-      "title": "We are all living inside of an obscure sci-fi film from 1970",
-      "summary": "Hacker News (79 pts, 65 comments) by @speckx",
-      "url": "https://thanksforthatjim.bearblog.dev/we-are-all-living-inside-of-an-obscure-sci-fi-film-from-1970/",
+      "title": "FreeDNS",
+      "summary": "Hacker News (216 pts, 56 comments) by @esher",
+      "url": "https://freedns.afraid.org/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "79 pts",
-      "upvotes": 79,
+      "badge": "216 pts",
+      "upvotes": 216,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2532,13 +2532,13 @@
       ]
     },
     {
-      "title": "Rune 1.3: adds TypeScript, a Helix editor, Kitty graphics and OSC-7501",
-      "summary": "Hacker News (20 pts, 1 comments) by @ernestrc",
-      "url": "https://rune.build/blog/rune-1-3-release",
+      "title": "Neural chip decodes interactions between brain regions",
+      "summary": "Hacker News (73 pts, 23 comments) by @giuliomagnifico",
+      "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "20 pts",
-      "upvotes": 20,
+      "badge": "73 pts",
+      "upvotes": 73,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2547,13 +2547,13 @@
       ]
     },
     {
-      "title": "No Source Code? No Problem",
-      "summary": "Hacker News (13 pts, 5 comments) by @ibobev",
-      "url": "https://queue.acm.org/doi/10.1145/945131.945155",
+      "title": "I don't understand quantum physics (2018)",
+      "summary": "Hacker News (249 pts, 184 comments) by @rramadass",
+      "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "13 pts",
-      "upvotes": 13,
+      "badge": "249 pts",
+      "upvotes": 249,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2562,43 +2562,43 @@
       ]
     },
     {
-      "title": "A whirlwind tour of systemd-nspawn containers",
-      "summary": "Hacker News (15 pts, 2 comments) by @ibobev",
-      "url": "https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers/",
+      "title": "OBS Studio 33",
+      "summary": "Hacker News (431 pts, 155 comments) by @pentagrama",
+      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "431 pts",
+      "upvotes": 431,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+      "summary": "Hacker News (254 pts, 125 comments) by @theanonymousone",
+      "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "254 pts",
+      "upvotes": 254,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "SpeedCrunch 1.1",
+      "summary": "Hacker News (15 pts, 2 comments) by @LordNibbler",
+      "url": "https://www.speedcrunch.org/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
       "badge": "15 pts",
       "upvotes": 15,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "A Bicycle Journey Across Brazil to Find a Vanishing Savanna",
-      "summary": "Hacker News (7 pts, 2 comments) by @throwaway2037",
-      "url": "https://e360.yale.edu/features/2026-film-contest-second-place-cerrado",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "7 pts",
-      "upvotes": 7,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Animations for System Builders",
-      "summary": "Hacker News (25 pts, 3 comments) by @KraftyOne",
-      "url": "https://brooker.co.za/blog/2026/10/23/animations.html",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "25 pts",
-      "upvotes": 25,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
