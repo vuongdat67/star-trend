@@ -2,6 +2,32 @@
   "repos": [
     {
       "rank": 1,
+      "full_name": "elayadesign/ai-design-skills",
+      "owner": "elayadesign",
+      "name": "ai-design-skills",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "description": "",
+      "language": "Others",
+      "language_color": "#8b949e",
+      "stars": 9241,
+      "forks": 665,
+      "stars_since": "1,395",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/218383883?s=40&v=4",
+          "username": "elayadesign"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 2,
       "full_name": "Nutlope/hallmark",
       "owner": "Nutlope",
       "name": "hallmark",
@@ -9,9 +35,9 @@
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
       "language_color": "#663399",
-      "stars": 36222,
-      "forks": 1892,
-      "stars_since": "2,235",
+      "stars": 38924,
+      "forks": 2028,
+      "stars_since": "2,859",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -39,261 +65,7 @@
       "source": "github"
     },
     {
-      "rank": 2,
-      "full_name": "TauricResearch/TradingAgents",
-      "owner": "TauricResearch",
-      "name": "TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 116030,
-      "forks": 22269,
-      "stars_since": "1,376",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/48253104?s=40&v=4",
-          "username": "Yijia-Xiao"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/68405458?s=40&v=4",
-          "username": "EdwardoSunny"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/91041827?s=40&v=4",
-          "username": "CadeYu"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/15189961?s=40&v=4",
-          "username": "luohy15"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 3,
-      "full_name": "JetBrains/thinkrail",
-      "owner": "JetBrains",
-      "name": "thinkrail",
-      "url": "https://github.com/JetBrains/thinkrail",
-      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 2854,
-      "forks": 153,
-      "stars_since": "1,156",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/177517595?s=40&v=4",
-          "username": "rsolmano"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3789877?s=40&v=4",
-          "username": "danyaberezun"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/14210843?s=40&v=4",
-          "username": "OLavrik"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/54807972?s=40&v=4",
-          "username": "SBOne-Kenobi"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 4,
-      "full_name": "makecindy/cindy",
-      "owner": "makecindy",
-      "name": "cindy",
-      "url": "https://github.com/makecindy/cindy",
-      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 6417,
-      "forks": 785,
-      "stars_since": "1,268",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/125997726?s=40&v=4",
-          "username": "dashhuang"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4436110?s=40&v=4",
-          "username": "zqchris"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/17176223?s=40&v=4",
-          "username": "MagicLizi"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/290921921?s=40&v=4",
-          "username": "DavidShenXD"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 5,
-      "full_name": "affaan-m/ECC",
-      "owner": "affaan-m",
-      "name": "ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 289807,
-      "forks": 42940,
-      "stars_since": "987",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/124439313?s=40&v=4",
-          "username": "affaan-m"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/49814733?s=40&v=4",
-          "username": "haelyra"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/24193489?s=40&v=4",
-          "username": "montjeffrey"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 6,
-      "full_name": "pbakaus/impeccable",
-      "owner": "pbakaus",
-      "name": "impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "description": "The design language that makes your AI harness better at design.",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 89133,
-      "forks": 5308,
-      "stars_since": "1,551",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/43004?s=40&v=4",
-          "username": "pbakaus"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/32850166?s=40&v=4",
-          "username": "abdulwahabone"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 7,
-      "full_name": "NVIDIA/SkillSpector",
-      "owner": "NVIDIA",
-      "name": "SkillSpector",
-      "url": "https://github.com/NVIDIA/SkillSpector",
-      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 22143,
-      "forks": 1936,
-      "stars_since": "203",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/32655573?s=40&v=4",
-          "username": "rng1995"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/282666402?s=40&v=4",
-          "username": "yashrajp22"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/32313895?s=40&v=4",
-          "username": "keshprad"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 8,
-      "full_name": "pollen-robotics/microduck",
-      "owner": "pollen-robotics",
-      "name": "microduck",
-      "url": "https://github.com/pollen-robotics/microduck",
-      "description": "A Tiny biped duck robot 🦆",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 12383,
-      "forks": 1546,
-      "stars_since": "844",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4290742?s=40&v=4",
-          "username": "pierre-rouanet"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6552564?s=40&v=4",
-          "username": "apirrone"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/72405531?s=40&v=4",
-          "username": "Drenayaz"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/185968020?s=40&v=4",
-          "username": "Nixxx19"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 9,
       "full_name": "nightly-labs/openbot",
       "owner": "nightly-labs",
       "name": "openbot",
@@ -301,9 +73,9 @@
       "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 1449,
-      "forks": 183,
-      "stars_since": "312",
+      "stars": 2377,
+      "forks": 247,
+      "stars_since": "794",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -331,83 +103,117 @@
       "source": "github"
     },
     {
-      "rank": 10,
-      "full_name": "Panniantong/Agent-Reach",
-      "owner": "Panniantong",
-      "name": "Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 103517,
-      "forks": 9185,
-      "stars_since": "723",
+      "rank": 4,
+      "full_name": "obra/superpowers",
+      "owner": "obra",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "language_color": "#89e051",
+      "stars": 306399,
+      "forks": 27277,
+      "stars_since": "608",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/73925474?s=40&v=4",
-          "username": "Panniantong"
+          "avatar": "https://avatars.githubusercontent.com/u/45416?s=40&v=4",
+          "username": "obra"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5742859?s=40&v=4",
+          "username": "arittr"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/116092574?s=40&v=4",
-          "username": "LohseZSai"
+          "avatar": "https://avatars.githubusercontent.com/u/69736?s=40&v=4",
+          "username": "clkao"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/289980115?s=40&v=4",
-          "username": "nyxst4ck"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/75488296?s=40&v=4",
-          "username": "ricardolaurito"
+          "avatar": "https://avatars.githubusercontent.com/u/19286898?s=40&v=4",
+          "username": "arimu1"
         }
       ],
       "source": "github"
     },
     {
-      "rank": 11,
-      "full_name": "debpalash/VoiceStudio",
-      "owner": "debpalash",
-      "name": "VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 89139,
-      "forks": 9840,
-      "stars_since": "2,292",
+      "rank": 5,
+      "full_name": "pbakaus/impeccable",
+      "owner": "pbakaus",
+      "name": "impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 90458,
+      "forks": 5374,
+      "stars_since": "1,458",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/4178343?s=40&v=4",
-          "username": "debpalash"
+          "avatar": "https://avatars.githubusercontent.com/u/43004?s=40&v=4",
+          "username": "pbakaus"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/270455167?s=40&v=4",
-          "username": "velixio"
+          "avatar": "https://avatars.githubusercontent.com/u/32850166?s=40&v=4",
+          "username": "abdulwahabone"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/5299031?s=40&v=4",
-          "username": "kevin9327"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1787973?s=40&v=4",
-          "username": "jaketame"
+          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+          "username": "cursoragent"
         }
       ],
       "source": "github"
     },
     {
-      "rank": 12,
+      "rank": 6,
+      "full_name": "makecindy/cindy",
+      "owner": "makecindy",
+      "name": "cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 7434,
+      "forks": 885,
+      "stars_since": "1,446",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/125997726?s=40&v=4",
+          "username": "dashhuang"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4436110?s=40&v=4",
+          "username": "zqchris"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/17176223?s=40&v=4",
+          "username": "MagicLizi"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/290921921?s=40&v=4",
+          "username": "DavidShenXD"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 7,
       "full_name": "gitroomhq/postiz-app",
       "owner": "gitroomhq",
       "name": "postiz-app",
@@ -415,9 +221,9 @@
       "description": "📨 The ultimate agentic social media scheduling tool 🤖",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 38417,
-      "forks": 7454,
-      "stars_since": "146",
+      "stars": 39328,
+      "forks": 7509,
+      "stars_since": "953",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -445,69 +251,141 @@
       "source": "github"
     },
     {
-      "rank": 13,
-      "full_name": "alchaincyf/huashu-design",
-      "owner": "alchaincyf",
-      "name": "huashu-design",
-      "url": "https://github.com/alchaincyf/huashu-design",
-      "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
-      "language": "HTML",
-      "language_color": "#e34c26",
-      "stars": 26715,
-      "forks": 2960,
-      "stars_since": "409",
+      "rank": 8,
+      "full_name": "affaan-m/ECC",
+      "owner": "affaan-m",
+      "name": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 290845,
+      "forks": 43073,
+      "stars_since": "1,183",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/127714341?s=40&v=4",
-          "username": "alchaincyf"
+          "avatar": "https://avatars.githubusercontent.com/u/124439313?s=40&v=4",
+          "username": "affaan-m"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/49814733?s=40&v=4",
+          "username": "haelyra"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/19425679?s=40&v=4",
-          "username": "Jiandong7"
+          "avatar": "https://avatars.githubusercontent.com/u/24193489?s=40&v=4",
+          "username": "montjeffrey"
         }
       ],
       "source": "github"
     },
     {
-      "rank": 14,
-      "full_name": "multica-ai/andrej-karpathy-skills",
-      "owner": "multica-ai",
-      "name": "andrej-karpathy-skills",
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "language": "Others",
-      "language_color": "#8b949e",
-      "stars": 224611,
-      "forks": 22468,
-      "stars_since": "702",
+      "rank": 9,
+      "full_name": "HKUDS/DeepTutor",
+      "owner": "HKUDS",
+      "name": "DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 45795,
+      "forks": 5745,
+      "stars_since": "1,587",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/7857126?s=40&v=4",
-          "username": "forrestchang"
+          "avatar": "https://avatars.githubusercontent.com/u/150592536?s=40&v=4",
+          "username": "pancacake"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/45536170?s=40&v=4",
-          "username": "back1ply"
+          "avatar": "https://avatars.githubusercontent.com/u/272976591?s=40&v=4",
+          "username": "Pinkllow"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/45513138?s=40&v=4",
-          "username": "herobrine19"
+          "avatar": "https://avatars.githubusercontent.com/u/238371241?s=40&v=4",
+          "username": "evan188199-tech"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 10,
+      "full_name": "JetBrains/thinkrail",
+      "owner": "JetBrains",
+      "name": "thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 3948,
+      "forks": 210,
+      "stars_since": "1,211",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/177517595?s=40&v=4",
+          "username": "rsolmano"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/478549?s=40&v=4",
-          "username": "szkocot"
+          "avatar": "https://avatars.githubusercontent.com/u/3789877?s=40&v=4",
+          "username": "danyaberezun"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/14210843?s=40&v=4",
+          "username": "OLavrik"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/54807972?s=40&v=4",
+          "username": "SBOne-Kenobi"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 11,
+      "full_name": "togg53192-cmd/jailbreaks",
+      "owner": "togg53192-cmd",
+      "name": "jailbreaks",
+      "url": "https://github.com/togg53192-cmd/jailbreaks",
+      "description": "LIST OF ALL MY JAILBREAKS",
+      "language": "Others",
+      "language_color": "#8b949e",
+      "stars": 5459,
+      "forks": 816,
+      "stars_since": "890",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/222877182?s=40&v=4",
+          "username": "togg53192-cmd"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/282240492?s=40&v=4",
+          "username": "raghavraut"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/230431?s=40&v=4",
+          "username": "metalim"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/74146687?s=40&v=4",
+          "username": "reblox01"
         }
       ],
       "source": "github"

@@ -9,9 +9,9 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 48505,
-      "forks": 3020,
-      "stars_since": "15,072",
+      "stars": 50117,
+      "forks": 3148,
+      "stars_since": "16,593",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -39,9 +39,9 @@
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 33200,
-      "forks": 3658,
-      "stars_since": "2,790",
+      "stars": 33412,
+      "forks": 3674,
+      "stars_since": "2,822",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -66,106 +66,110 @@
     },
     {
       "rank": 3,
-      "full_name": "ruvnet/ruflo",
-      "owner": "ruvnet",
-      "name": "ruflo",
-      "url": "https://github.com/ruvnet/ruflo",
-      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 79533,
-      "forks": 9337,
-      "stars_since": "2,987",
+      "full_name": "AgriciDaniel/claude-seo",
+      "owner": "AgriciDaniel",
+      "name": "claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 22727,
+      "forks": 3100,
+      "stars_since": "2,546",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&v=4",
-          "username": "ruvnet"
+          "avatar": "https://avatars.githubusercontent.com/u/223140489?s=40&v=4",
+          "username": "AgriciDaniel"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
-          "username": "rudycelekli"
+          "avatar": "https://avatars.githubusercontent.com/u/129338099?s=40&v=4",
+          "username": "Nordalux"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/214853444?s=40&v=4",
-          "username": "proffesor-for-testing"
+          "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
+          "username": "codex"
         }
       ],
       "source": "github"
     },
     {
       "rank": 4,
-      "full_name": "anomalyco/opencode",
-      "owner": "anomalyco",
-      "name": "opencode",
-      "url": "https://github.com/anomalyco/opencode",
-      "description": "The open source coding agent.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 221944,
-      "forks": 29686,
-      "stars_since": "5,921",
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "owner": "multica-ai",
+      "name": "andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "Others",
+      "language_color": "#8b949e",
+      "stars": 225465,
+      "forks": 22526,
+      "stars_since": "3,286",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/826656?s=40&v=4",
-          "username": "thdxr"
+          "avatar": "https://avatars.githubusercontent.com/u/7857126?s=40&v=4",
+          "username": "forrestchang"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/63023139?s=40&v=4",
-          "username": "rekram1-node"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2363879?s=40&v=4",
-          "username": "adamdotdevin"
+          "avatar": "https://avatars.githubusercontent.com/u/45536170?s=40&v=4",
+          "username": "back1ply"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/7587245?s=40&v=4",
-          "username": "kitlangton"
+          "avatar": "https://avatars.githubusercontent.com/u/45513138?s=40&v=4",
+          "username": "herobrine19"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/478549?s=40&v=4",
+          "username": "szkocot"
         }
       ],
       "source": "github"
     },
     {
       "rank": 5,
-      "full_name": "stablyai/orca",
-      "owner": "stablyai",
-      "name": "orca",
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 107021,
-      "forks": 6753,
-      "stars_since": "9,622",
+      "full_name": "TauricResearch/TradingAgents",
+      "owner": "TauricResearch",
+      "name": "TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 117285,
+      "forks": 22467,
+      "stars_since": "3,437",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/4138956?s=40&v=4",
-          "username": "nwparker"
+          "avatar": "https://avatars.githubusercontent.com/u/48253104?s=40&v=4",
+          "username": "Yijia-Xiao"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/79079362?s=40&v=4",
-          "username": "brennanb2025"
+          "avatar": "https://avatars.githubusercontent.com/u/68405458?s=40&v=4",
+          "username": "EdwardoSunny"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/73622457?s=40&v=4",
-          "username": "Jinwoo-H"
+          "avatar": "https://avatars.githubusercontent.com/u/91041827?s=40&v=4",
+          "username": "CadeYu"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/6427696?s=40&v=4",
-          "username": "AmethystLiang"
+          "avatar": "https://avatars.githubusercontent.com/u/15189961?s=40&v=4",
+          "username": "luohy15"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/277417572?s=40&v=4",
-          "username": "orca-ide"
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
         }
       ],
       "source": "github"
@@ -179,9 +183,9 @@
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 136112,
-      "forks": 12994,
-      "stars_since": "6,903",
+      "stars": 136943,
+      "forks": 13071,
+      "stars_since": "7,183",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -210,6 +214,112 @@
     },
     {
       "rank": 7,
+      "full_name": "ruvnet/ruflo",
+      "owner": "ruvnet",
+      "name": "ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 79779,
+      "forks": 9361,
+      "stars_since": "2,683",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2934394?s=40&v=4",
+          "username": "ruvnet"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
+          "username": "rudycelekli"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/214853444?s=40&v=4",
+          "username": "proffesor-for-testing"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 8,
+      "full_name": "anomalyco/opencode",
+      "owner": "anomalyco",
+      "name": "opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 222367,
+      "forks": 29759,
+      "stars_since": "5,070",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/826656?s=40&v=4",
+          "username": "thdxr"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/63023139?s=40&v=4",
+          "username": "rekram1-node"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2363879?s=40&v=4",
+          "username": "adamdotdevin"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7587245?s=40&v=4",
+          "username": "kitlangton"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 9,
+      "full_name": "stablyai/orca",
+      "owner": "stablyai",
+      "name": "orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 108012,
+      "forks": 6832,
+      "stars_since": "9,241",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4138956?s=40&v=4",
+          "username": "nwparker"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/79079362?s=40&v=4",
+          "username": "brennanb2025"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/73622457?s=40&v=4",
+          "username": "Jinwoo-H"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6427696?s=40&v=4",
+          "username": "AmethystLiang"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/277417572?s=40&v=4",
+          "username": "orca-ide"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 10,
       "full_name": "android/skills",
       "owner": "android",
       "name": "skills",
@@ -217,9 +327,9 @@
       "description": "",
       "language": "Kotlin",
       "language_color": "#A97BFF",
-      "stars": 9830,
-      "forks": 635,
-      "stars_since": "1,070",
+      "stars": 9914,
+      "forks": 640,
+      "stars_since": "823",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -247,7 +357,7 @@
       "source": "github"
     },
     {
-      "rank": 8,
+      "rank": 11,
       "full_name": "akitaonrails/ai-memory",
       "owner": "akitaonrails",
       "name": "ai-memory",
@@ -255,9 +365,9 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "language": "Rust",
       "language_color": "#dea584",
-      "stars": 13792,
-      "forks": 977,
-      "stars_since": "3,254",
+      "stars": 14072,
+      "forks": 1003,
+      "stars_since": "2,838",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -285,227 +395,7 @@
       "source": "github"
     },
     {
-      "rank": 9,
-      "full_name": "multica-ai/andrej-karpathy-skills",
-      "owner": "multica-ai",
-      "name": "andrej-karpathy-skills",
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "language": "Others",
-      "language_color": "#8b949e",
-      "stars": 224611,
-      "forks": 22468,
-      "stars_since": "2,937",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7857126?s=40&v=4",
-          "username": "forrestchang"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/45536170?s=40&v=4",
-          "username": "back1ply"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/45513138?s=40&v=4",
-          "username": "herobrine19"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/478549?s=40&v=4",
-          "username": "szkocot"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 10,
-      "full_name": "TauricResearch/TradingAgents",
-      "owner": "TauricResearch",
-      "name": "TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 116030,
-      "forks": 22269,
-      "stars_since": "2,461",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/48253104?s=40&v=4",
-          "username": "Yijia-Xiao"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/68405458?s=40&v=4",
-          "username": "EdwardoSunny"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/91041827?s=40&v=4",
-          "username": "CadeYu"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/15189961?s=40&v=4",
-          "username": "luohy15"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 11,
-      "full_name": "wshobson/agents",
-      "owner": "wshobson",
-      "name": "agents",
-      "url": "https://github.com/wshobson/agents",
-      "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 41807,
-      "forks": 4433,
-      "stars_since": "726",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/553618?s=40&v=4",
-          "username": "wshobson"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/19864447?s=40&v=4",
-          "username": "web-flow"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/130447398?s=40&v=4",
-          "username": "jau123"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 12,
-      "full_name": "heygen-com/hyperframes",
-      "owner": "heygen-com",
-      "name": "hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 73031,
-      "forks": 6606,
-      "stars_since": "5,612",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/229591595?s=40&v=4",
-          "username": "miguel-heygen"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/337856?s=40&v=4",
-          "username": "vanceingalls"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7664106?s=40&v=4",
-          "username": "jrusso1020"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/165517112?s=40&v=4",
-          "username": "ukimsanov"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 13,
-      "full_name": "AgriciDaniel/claude-seo",
-      "owner": "AgriciDaniel",
-      "name": "claude-seo",
-      "url": "https://github.com/AgriciDaniel/claude-seo",
-      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 22124,
-      "forks": 3038,
-      "stars_since": "2,492",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/223140489?s=40&v=4",
-          "username": "AgriciDaniel"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/129338099?s=40&v=4",
-          "username": "Nordalux"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
-          "username": "codex"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 14,
-      "full_name": "Comfy-Org/ComfyUI",
-      "owner": "Comfy-Org",
-      "name": "ComfyUI",
-      "url": "https://github.com/Comfy-Org/ComfyUI",
-      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 143264,
-      "forks": 16920,
-      "stars_since": "4,790",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/121283862?s=40&v=4",
-          "username": "comfyanonymous"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13381981?s=40&v=4",
-          "username": "bigcat88"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/125205205?s=40&v=4",
-          "username": "pythongosssss"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/192523189?s=40&v=4",
-          "username": "comfyui-wiki"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/46076784?s=40&v=4",
-          "username": "rattus128"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 15,
       "full_name": "pingdotgg/t3code",
       "owner": "pingdotgg",
       "name": "t3code",
@@ -513,9 +403,9 @@
       "description": "",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 30500,
-      "forks": 8149,
-      "stars_since": "1,770",
+      "stars": 30816,
+      "forks": 8241,
+      "stars_since": "1,881",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -538,6 +428,32 @@
         {
           "avatar": "https://avatars.githubusercontent.com/u/254055478?s=40&v=4",
           "username": "maria-rcks"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 13,
+      "full_name": "fastapi/fastapi",
+      "owner": "fastapi",
+      "name": "fastapi",
+      "url": "https://github.com/fastapi/fastapi",
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 104165,
+      "forks": 10132,
+      "stars_since": "1,066",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1326112?s=40&v=4",
+          "username": "tiangolo"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/109919500?s=40&v=4",
+          "username": "YuriiMotov"
         }
       ],
       "source": "github"
