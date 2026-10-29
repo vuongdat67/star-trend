@@ -9,9 +9,9 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 51636,
-      "forks": 3276,
-      "stars_since": "16,388",
+      "stars": 52820,
+      "forks": 3384,
+      "stars_since": "16,002",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -32,6 +32,44 @@
     },
     {
       "rank": 2,
+      "full_name": "php/php-src",
+      "owner": "php",
+      "name": "php-src",
+      "url": "https://github.com/php/php-src",
+      "description": "The PHP Interpreter",
+      "language": "C",
+      "language_color": "#555555",
+      "stars": 41717,
+      "forks": 8489,
+      "stars_since": "1,201",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2510034?s=40&v=4",
+          "username": "dstogov"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/216080?s=40&v=4",
+          "username": "nikic"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22016?s=40&v=4",
+          "username": "weltling"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2306138?s=40&v=4",
+          "username": "cmb69"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/158724?s=40&v=4",
+          "username": "iliaal"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 3,
       "full_name": "AgriciDaniel/claude-seo",
       "owner": "AgriciDaniel",
       "name": "claude-seo",
@@ -39,9 +77,9 @@
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 23355,
-      "forks": 3149,
-      "stars_since": "3,081",
+      "stars": 23980,
+      "forks": 3222,
+      "stars_since": "3,516",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -65,7 +103,41 @@
       "source": "github"
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "full_name": "pbakaus/impeccable",
+      "owner": "pbakaus",
+      "name": "impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 95252,
+      "forks": 5615,
+      "stars_since": "7,283",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/43004?s=40&v=4",
+          "username": "pbakaus"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/32850166?s=40&v=4",
+          "username": "abdulwahabone"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+          "username": "cursoragent"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 5,
       "full_name": "multica-ai/andrej-karpathy-skills",
       "owner": "multica-ai",
       "name": "andrej-karpathy-skills",
@@ -73,9 +145,9 @@
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": "Others",
       "language_color": "#8b949e",
-      "stars": 225970,
-      "forks": 22571,
-      "stars_since": "4,039",
+      "stars": 226417,
+      "forks": 22610,
+      "stars_since": "4,293",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -103,41 +175,7 @@
       "source": "github"
     },
     {
-      "rank": 4,
-      "full_name": "anthropics/knowledge-work-plugins",
-      "owner": "anthropics",
-      "name": "knowledge-work-plugins",
-      "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 33651,
-      "forks": 3701,
-      "stars_since": "2,789",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/305637556?s=40&v=4",
-          "username": "jordanecker-ant"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/238056179?s=40&v=4",
-          "username": "bryan-anthropic"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/227474486?s=40&v=4",
-          "username": "mattpic-ant"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 5,
+      "rank": 6,
       "full_name": "TauricResearch/TradingAgents",
       "owner": "TauricResearch",
       "name": "TradingAgents",
@@ -145,9 +183,9 @@
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 117868,
-      "forks": 22552,
-      "stars_since": "4,882",
+      "stars": 118312,
+      "forks": 22628,
+      "stars_since": "5,322",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -175,79 +213,117 @@
       "source": "github"
     },
     {
-      "rank": 6,
-      "full_name": "pbakaus/impeccable",
-      "owner": "pbakaus",
-      "name": "impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 92585,
-      "forks": 5477,
-      "stars_since": "6,713",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/43004?s=40&v=4",
-          "username": "pbakaus"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/32850166?s=40&v=4",
-          "username": "abdulwahabone"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 7,
-      "full_name": "Graphify-Labs/graphify",
-      "owner": "Graphify-Labs",
-      "name": "graphify",
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "full_name": "hugohe3/ppt-master",
+      "owner": "hugohe3",
+      "name": "ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 137824,
-      "forks": 13139,
-      "stars_since": "7,268",
+      "stars": 70815,
+      "forks": 5527,
+      "stars_since": "4,980",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/188330578?s=40&v=4",
+          "username": "hugohe3"
+        },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/216348667?s=40&v=4",
-          "username": "safishamsi"
+          "avatar": "https://avatars.githubusercontent.com/u/83796293?s=40&v=4",
+          "username": "kevindesuyo"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/144055433?s=40&v=4",
-          "username": "ayushcodes10"
+          "avatar": "https://avatars.githubusercontent.com/u/22169353?s=40&v=4",
+          "username": "shenqili"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/215653880?s=40&v=4",
-          "username": "rajatnagda45"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/182421137?s=40&v=4",
-          "username": "abhay-codes07"
+          "avatar": "https://avatars.githubusercontent.com/u/185591438?s=40&v=4",
+          "username": "WodenJay"
         }
       ],
       "source": "github"
     },
     {
       "rank": 8,
+      "full_name": "obra/superpowers",
+      "owner": "obra",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "language_color": "#89e051",
+      "stars": 308511,
+      "forks": 27438,
+      "stars_since": "4,655",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/45416?s=40&v=4",
+          "username": "obra"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5742859?s=40&v=4",
+          "username": "arittr"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/69736?s=40&v=4",
+          "username": "clkao"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/19286898?s=40&v=4",
+          "username": "arimu1"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 9,
+      "full_name": "anthropics/knowledge-work-plugins",
+      "owner": "anthropics",
+      "name": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 33843,
+      "forks": 3721,
+      "stars_since": "2,612",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/305637556?s=40&v=4",
+          "username": "jordanecker-ant"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/238056179?s=40&v=4",
+          "username": "bryan-anthropic"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/227474486?s=40&v=4",
+          "username": "mattpic-ant"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 10,
       "full_name": "Leonxlnx/taste-skill",
       "owner": "Leonxlnx",
       "name": "taste-skill",
@@ -255,9 +331,9 @@
       "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 104429,
-      "forks": 7065,
-      "stars_since": "3,941",
+      "stars": 105508,
+      "forks": 7125,
+      "stars_since": "3,940",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -285,7 +361,33 @@
       "source": "github"
     },
     {
-      "rank": 9,
+      "rank": 11,
+      "full_name": "jakubkrehel/skills",
+      "owner": "jakubkrehel",
+      "name": "skills",
+      "url": "https://github.com/jakubkrehel/skills",
+      "description": "A collection of agent skills that help you build great interfaces.",
+      "language": "Markdown",
+      "language_color": "#083fa1",
+      "stars": 9169,
+      "forks": 348,
+      "stars_since": "776",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/87530089?s=40&v=4",
+          "username": "jakubkrehel"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 12,
       "full_name": "ruvnet/ruflo",
       "owner": "ruvnet",
       "name": "ruflo",
@@ -293,9 +395,9 @@
       "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 79973,
-      "forks": 9378,
-      "stars_since": "2,296",
+      "stars": 80140,
+      "forks": 9400,
+      "stars_since": "1,930",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -314,66 +416,6 @@
         {
           "avatar": "https://avatars.githubusercontent.com/u/214853444?s=40&v=4",
           "username": "proffesor-for-testing"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 10,
-      "full_name": "anomalyco/opencode",
-      "owner": "anomalyco",
-      "name": "opencode",
-      "url": "https://github.com/anomalyco/opencode",
-      "description": "The open source coding agent.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 222748,
-      "forks": 29835,
-      "stars_since": "4,334",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/826656?s=40&v=4",
-          "username": "thdxr"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/63023139?s=40&v=4",
-          "username": "rekram1-node"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2363879?s=40&v=4",
-          "username": "adamdotdevin"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7587245?s=40&v=4",
-          "username": "kitlangton"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 11,
-      "full_name": "jakubkrehel/skills",
-      "owner": "jakubkrehel",
-      "name": "skills",
-      "url": "https://github.com/jakubkrehel/skills",
-      "description": "A collection of agent skills that help you build great interfaces.",
-      "language": "Markdown",
-      "language_color": "#083fa1",
-      "stars": 8968,
-      "forks": 341,
-      "stars_since": "746",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/87530089?s=40&v=4",
-          "username": "jakubkrehel"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
         }
       ],
       "source": "github"
