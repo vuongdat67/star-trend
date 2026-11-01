@@ -488,8 +488,8 @@
       "url": "https://huggingface.co/papers/2610.34298",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Zhenning Shi, Liang Pang, Yongqi Li",
       "published_at": "2026-10-24",
       "tags": [
@@ -552,8 +552,8 @@
       "url": "https://huggingface.co/papers/2610.39302",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 58",
-      "upvotes": 58,
+      "badge": "⭐ 64",
+      "upvotes": 64,
       "authors": "Randall Balestriero, Yann LeCun",
       "published_at": "2026-10-28",
       "tags": [
@@ -568,8 +568,8 @@
       "url": "https://huggingface.co/papers/2610.38174",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Debargha Ganguly, Divya Raghunathan, Dejan Jovanović",
       "published_at": "2026-10-27",
       "tags": [
@@ -600,8 +600,8 @@
       "url": "https://huggingface.co/papers/2610.25276",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 4",
+      "upvotes": 4,
       "authors": "Yushi Lan, Zeren Jiang, Koichi Namekata",
       "published_at": "2026-10-17",
       "tags": [
@@ -616,8 +616,8 @@
       "url": "https://huggingface.co/papers/2610.39301",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 68",
-      "upvotes": 68,
+      "badge": "⭐ 13",
+      "upvotes": 13,
       "authors": "Yunhang Shen, Zhangquan Chen, Xiaotian Li",
       "published_at": "2026-10-28",
       "tags": [
@@ -632,8 +632,8 @@
       "url": "https://huggingface.co/papers/2610.39287",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Junli Liu, Zhongrui You, Chenhui Li",
       "published_at": "2026-10-28",
       "tags": [
@@ -680,8 +680,8 @@
       "url": "https://huggingface.co/papers/2610.38331",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
+      "badge": "⭐ 17",
+      "upvotes": 17,
       "authors": "Jayden Teoh",
       "published_at": "2026-10-27",
       "tags": [
@@ -696,8 +696,8 @@
       "url": "https://huggingface.co/papers/2610.40647",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 36",
-      "upvotes": 36,
+      "badge": "⭐ 24",
+      "upvotes": 24,
       "authors": "Jiongfan Yang, Weichen Fan, Haiwen Diao",
       "published_at": "2026-10-28",
       "tags": [
@@ -712,8 +712,8 @@
       "url": "https://huggingface.co/papers/2610.40614",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 38",
-      "upvotes": 38,
+      "badge": "⭐ 40",
+      "upvotes": 40,
       "authors": "Jinhyeok Choi, JoungBin Lee, Jongmin Lee",
       "published_at": "2026-10-28",
       "tags": [
@@ -728,8 +728,8 @@
       "url": "https://huggingface.co/papers/2610.38342",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 11",
-      "upvotes": 11,
+      "badge": "⭐ 12",
+      "upvotes": 12,
       "authors": "Huangfei Jiang, Anning Hu, Kai Sheng",
       "published_at": "2026-10-27",
       "tags": [
@@ -1000,13 +1000,13 @@
       ]
     },
     {
-      "title": "HackerTube: YouTube built from videos recommended by HN",
-      "summary": "Hacker News (422 pts, 161 comments) by @karpathy",
-      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "summary": "Hacker News (762 pts, 161 comments) by @roansh",
+      "url": "https://hackerbooks.org",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "422 pts",
-      "upvotes": 422,
+      "badge": "762 pts",
+      "upvotes": 762,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1015,13 +1015,13 @@
       ]
     },
     {
-      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
-      "summary": "Hacker News (225 pts, 106 comments) by @oger",
-      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "title": "Nibnib: Image compression with extreme decompression speed",
+      "summary": "Hacker News (68 pts, 7 comments) by @raphlinus",
+      "url": "https://github.com/raphlinus/nibnib",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "225 pts",
-      "upvotes": 225,
+      "badge": "68 pts",
+      "upvotes": 68,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1030,69 +1030,9 @@
       ]
     },
     {
-      "title": "With 86% of the words, you might understand only 38% of an anime's lines",
-      "summary": "Hacker News (34 pts, 23 comments) by @lakesare",
-      "url": "https://learnfromx.com/research/anime-word-coverage-vs-lines-understood",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "34 pts",
-      "upvotes": 34,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "It's the Memory Latency, Stupid",
-      "summary": "Hacker News (82 pts, 22 comments) by @ntur1337",
-      "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "82 pts",
-      "upvotes": 82,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Surviving \"The Graduate\"",
-      "summary": "Hacker News (29 pts, 6 comments) by @samizdis",
-      "url": "https://www.newyorker.com/culture/the-weekend-essay/dustin-hoffman-on-surviving-the-graduate",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "29 pts",
-      "upvotes": 29,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "The Duty of a Scholar",
-      "summary": "Hacker News (67 pts, 22 comments) by @gslin",
-      "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "67 pts",
-      "upvotes": 67,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Show HN: NES Contra (1987) port (ASM –> C and then C –> WebAssembly)",
-      "summary": "Hacker News (30 pts, 17 comments) by @tevlon",
-      "url": "https://epoyraz.github.io/nes-contra-us/",
+      "title": "So I guess everyone uses LLMs to think now",
+      "summary": "Hacker News (30 pts, 12 comments) by @xyzeva",
+      "url": "https://eva.ac/blog/llms/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
       "badge": "30 pts",
@@ -1105,13 +1045,13 @@
       ]
     },
     {
-      "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
-      "summary": "Hacker News (290 pts, 167 comments) by @DeepLogin",
-      "url": "https://piefed.world/post/1503394",
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "summary": "Hacker News (2169 pts, 528 comments) by @karpathy",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "290 pts",
-      "upvotes": 290,
+      "badge": "2169 pts",
+      "upvotes": 2169,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1120,13 +1060,13 @@
       ]
     },
     {
-      "title": "Jepsen: ParticleDB 1.1.4",
-      "summary": "Hacker News (164 pts, 89 comments) by @aphyr",
-      "url": "https://jepsen.io/analyses/particledb-1.1.4",
+      "title": "Tips for more effective fuzz testing with AFL++",
+      "summary": "Hacker News (55 pts, 7 comments) by @luu",
+      "url": "https://nullprogram.com/blog/2025/02/05/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "164 pts",
-      "upvotes": 164,
+      "badge": "55 pts",
+      "upvotes": 55,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1135,13 +1075,13 @@
       ]
     },
     {
-      "title": "Show HN: A language model that lives in a boot sector",
-      "summary": "Hacker News (40 pts, 0 comments) by @kerlenton",
-      "url": "https://github.com/kerlenton/bootgpt",
+      "title": "Copper – A minimal low-level programming language with OOP and generics",
+      "summary": "Hacker News (115 pts, 70 comments) by @bogdanoff_2",
+      "url": "https://tibleiz.net/copper/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "40 pts",
-      "upvotes": 40,
+      "badge": "115 pts",
+      "upvotes": 115,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1150,13 +1090,13 @@
       ]
     },
     {
-      "title": "Much Ado About None: Sentinel Values in Python",
-      "summary": "Hacker News (31 pts, 19 comments) by @sebg",
-      "url": "https://florianwilhelm.info/2026/10/sentinel_values/",
+      "title": "Mathematics has changed. Let's act like it",
+      "summary": "Hacker News (183 pts, 197 comments) by @smilelamp",
+      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "31 pts",
-      "upvotes": 31,
+      "badge": "183 pts",
+      "upvotes": 183,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1165,13 +1105,13 @@
       ]
     },
     {
-      "title": "Rhind Mathematical Papyrus",
-      "summary": "Hacker News (10 pts, 1 comments) by @sweetdingoes",
-      "url": "https://en.wikipedia.org/wiki/Rhind_Mathematical_Papyrus",
+      "title": "New 3D thermal invisibility cloak makes objects disappear from infrared cameras",
+      "summary": "Hacker News (22 pts, 10 comments) by @stevenalowe",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073051.htm",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "10 pts",
-      "upvotes": 10,
+      "badge": "22 pts",
+      "upvotes": 22,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1180,13 +1120,13 @@
       ]
     },
     {
-      "title": "Do the math: How we took over ChatGPT accounts",
-      "summary": "Hacker News (293 pts, 142 comments) by @armcat",
-      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+      "summary": "Hacker News (127 pts, 37 comments) by @FabCH",
+      "url": "https://github.com/ivankovic/omnidiff",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "293 pts",
-      "upvotes": 293,
+      "badge": "127 pts",
+      "upvotes": 127,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1195,13 +1135,13 @@
       ]
     },
     {
-      "title": "Distributed Proofreaders",
-      "summary": "Hacker News (12 pts, 1 comments) by @gone35",
-      "url": "https://www.pgdp.net/c/",
+      "title": "The She-Wolves of Jülich",
+      "summary": "Hacker News (5 pts, 0 comments) by @Thevet",
+      "url": "https://www.historytoday.com/archive/history-matters/she-wolves-julich",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "12 pts",
-      "upvotes": 12,
+      "badge": "5 pts",
+      "upvotes": 5,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1210,13 +1150,58 @@
       ]
     },
     {
-      "title": "Anthropic blocks users for anything touching training larger models",
-      "summary": "Hacker News (109 pts, 26 comments) by @pretext",
-      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "title": "Proving and improving the Platonic Representation Hypothesis with JEPAs",
+      "summary": "Hacker News (98 pts, 55 comments) by @Anon84",
+      "url": "https://arxiv.org/abs/2610.39302",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "109 pts",
-      "upvotes": 109,
+      "badge": "98 pts",
+      "upvotes": 98,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+      "summary": "Hacker News (356 pts, 124 comments) by @entryleveljobsc",
+      "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "356 pts",
+      "upvotes": 356,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Bidirectional charging during grid outages",
+      "summary": "Hacker News (78 pts, 116 comments) by @luu",
+      "url": "https://www.jefftk.com/p/bidirectional-charging-during-grid-outages",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "78 pts",
+      "upvotes": 78,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Novellas with Groff",
+      "summary": "Hacker News (103 pts, 45 comments) by @dverlaeckt80",
+      "url": "https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "103 pts",
+      "upvotes": 103,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1878,8 +1863,8 @@
       "url": "https://huggingface.co/papers/2610.34298",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Zhenning Shi, Liang Pang, Yongqi Li",
       "published_at": "2026-10-24",
       "tags": [
@@ -1942,8 +1927,8 @@
       "url": "https://huggingface.co/papers/2610.39302",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 58",
-      "upvotes": 58,
+      "badge": "⭐ 64",
+      "upvotes": 64,
       "authors": "Randall Balestriero, Yann LeCun",
       "published_at": "2026-10-28",
       "tags": [
@@ -1958,8 +1943,8 @@
       "url": "https://huggingface.co/papers/2610.38174",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Debargha Ganguly, Divya Raghunathan, Dejan Jovanović",
       "published_at": "2026-10-27",
       "tags": [
@@ -1990,8 +1975,8 @@
       "url": "https://huggingface.co/papers/2610.25276",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 4",
+      "upvotes": 4,
       "authors": "Yushi Lan, Zeren Jiang, Koichi Namekata",
       "published_at": "2026-10-17",
       "tags": [
@@ -2006,8 +1991,8 @@
       "url": "https://huggingface.co/papers/2610.39301",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 68",
-      "upvotes": 68,
+      "badge": "⭐ 13",
+      "upvotes": 13,
       "authors": "Yunhang Shen, Zhangquan Chen, Xiaotian Li",
       "published_at": "2026-10-28",
       "tags": [
@@ -2022,8 +2007,8 @@
       "url": "https://huggingface.co/papers/2610.39287",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Junli Liu, Zhongrui You, Chenhui Li",
       "published_at": "2026-10-28",
       "tags": [
@@ -2070,8 +2055,8 @@
       "url": "https://huggingface.co/papers/2610.38331",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
+      "badge": "⭐ 17",
+      "upvotes": 17,
       "authors": "Jayden Teoh",
       "published_at": "2026-10-27",
       "tags": [
@@ -2086,8 +2071,8 @@
       "url": "https://huggingface.co/papers/2610.40647",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 36",
-      "upvotes": 36,
+      "badge": "⭐ 24",
+      "upvotes": 24,
       "authors": "Jiongfan Yang, Weichen Fan, Haiwen Diao",
       "published_at": "2026-10-28",
       "tags": [
@@ -2102,8 +2087,8 @@
       "url": "https://huggingface.co/papers/2610.40614",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 38",
-      "upvotes": 38,
+      "badge": "⭐ 40",
+      "upvotes": 40,
       "authors": "Jinhyeok Choi, JoungBin Lee, Jongmin Lee",
       "published_at": "2026-10-28",
       "tags": [
@@ -2118,8 +2103,8 @@
       "url": "https://huggingface.co/papers/2610.38342",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 11",
-      "upvotes": 11,
+      "badge": "⭐ 12",
+      "upvotes": 12,
       "authors": "Huangfei Jiang, Anning Hu, Kai Sheng",
       "published_at": "2026-10-27",
       "tags": [
@@ -2390,13 +2375,13 @@
       ]
     },
     {
-      "title": "HackerTube: YouTube built from videos recommended by HN",
-      "summary": "Hacker News (422 pts, 161 comments) by @karpathy",
-      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "summary": "Hacker News (762 pts, 161 comments) by @roansh",
+      "url": "https://hackerbooks.org",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "422 pts",
-      "upvotes": 422,
+      "badge": "762 pts",
+      "upvotes": 762,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2405,13 +2390,13 @@
       ]
     },
     {
-      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
-      "summary": "Hacker News (225 pts, 106 comments) by @oger",
-      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "title": "Nibnib: Image compression with extreme decompression speed",
+      "summary": "Hacker News (68 pts, 7 comments) by @raphlinus",
+      "url": "https://github.com/raphlinus/nibnib",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "225 pts",
-      "upvotes": 225,
+      "badge": "68 pts",
+      "upvotes": 68,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2420,69 +2405,9 @@
       ]
     },
     {
-      "title": "With 86% of the words, you might understand only 38% of an anime's lines",
-      "summary": "Hacker News (34 pts, 23 comments) by @lakesare",
-      "url": "https://learnfromx.com/research/anime-word-coverage-vs-lines-understood",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "34 pts",
-      "upvotes": 34,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "It's the Memory Latency, Stupid",
-      "summary": "Hacker News (82 pts, 22 comments) by @ntur1337",
-      "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "82 pts",
-      "upvotes": 82,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Surviving \"The Graduate\"",
-      "summary": "Hacker News (29 pts, 6 comments) by @samizdis",
-      "url": "https://www.newyorker.com/culture/the-weekend-essay/dustin-hoffman-on-surviving-the-graduate",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "29 pts",
-      "upvotes": 29,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "The Duty of a Scholar",
-      "summary": "Hacker News (67 pts, 22 comments) by @gslin",
-      "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "67 pts",
-      "upvotes": 67,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Show HN: NES Contra (1987) port (ASM –> C and then C –> WebAssembly)",
-      "summary": "Hacker News (30 pts, 17 comments) by @tevlon",
-      "url": "https://epoyraz.github.io/nes-contra-us/",
+      "title": "So I guess everyone uses LLMs to think now",
+      "summary": "Hacker News (30 pts, 12 comments) by @xyzeva",
+      "url": "https://eva.ac/blog/llms/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
       "badge": "30 pts",
@@ -2495,13 +2420,13 @@
       ]
     },
     {
-      "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
-      "summary": "Hacker News (290 pts, 167 comments) by @DeepLogin",
-      "url": "https://piefed.world/post/1503394",
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "summary": "Hacker News (2169 pts, 528 comments) by @karpathy",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "290 pts",
-      "upvotes": 290,
+      "badge": "2169 pts",
+      "upvotes": 2169,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2510,13 +2435,13 @@
       ]
     },
     {
-      "title": "Jepsen: ParticleDB 1.1.4",
-      "summary": "Hacker News (164 pts, 89 comments) by @aphyr",
-      "url": "https://jepsen.io/analyses/particledb-1.1.4",
+      "title": "Tips for more effective fuzz testing with AFL++",
+      "summary": "Hacker News (55 pts, 7 comments) by @luu",
+      "url": "https://nullprogram.com/blog/2025/02/05/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "164 pts",
-      "upvotes": 164,
+      "badge": "55 pts",
+      "upvotes": 55,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2525,13 +2450,13 @@
       ]
     },
     {
-      "title": "Show HN: A language model that lives in a boot sector",
-      "summary": "Hacker News (40 pts, 0 comments) by @kerlenton",
-      "url": "https://github.com/kerlenton/bootgpt",
+      "title": "Copper – A minimal low-level programming language with OOP and generics",
+      "summary": "Hacker News (115 pts, 70 comments) by @bogdanoff_2",
+      "url": "https://tibleiz.net/copper/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "40 pts",
-      "upvotes": 40,
+      "badge": "115 pts",
+      "upvotes": 115,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2540,13 +2465,13 @@
       ]
     },
     {
-      "title": "Much Ado About None: Sentinel Values in Python",
-      "summary": "Hacker News (31 pts, 19 comments) by @sebg",
-      "url": "https://florianwilhelm.info/2026/10/sentinel_values/",
+      "title": "Mathematics has changed. Let's act like it",
+      "summary": "Hacker News (183 pts, 197 comments) by @smilelamp",
+      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "31 pts",
-      "upvotes": 31,
+      "badge": "183 pts",
+      "upvotes": 183,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2555,13 +2480,13 @@
       ]
     },
     {
-      "title": "Rhind Mathematical Papyrus",
-      "summary": "Hacker News (10 pts, 1 comments) by @sweetdingoes",
-      "url": "https://en.wikipedia.org/wiki/Rhind_Mathematical_Papyrus",
+      "title": "New 3D thermal invisibility cloak makes objects disappear from infrared cameras",
+      "summary": "Hacker News (22 pts, 10 comments) by @stevenalowe",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073051.htm",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "10 pts",
-      "upvotes": 10,
+      "badge": "22 pts",
+      "upvotes": 22,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2570,13 +2495,13 @@
       ]
     },
     {
-      "title": "Do the math: How we took over ChatGPT accounts",
-      "summary": "Hacker News (293 pts, 142 comments) by @armcat",
-      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+      "summary": "Hacker News (127 pts, 37 comments) by @FabCH",
+      "url": "https://github.com/ivankovic/omnidiff",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "293 pts",
-      "upvotes": 293,
+      "badge": "127 pts",
+      "upvotes": 127,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2585,13 +2510,13 @@
       ]
     },
     {
-      "title": "Distributed Proofreaders",
-      "summary": "Hacker News (12 pts, 1 comments) by @gone35",
-      "url": "https://www.pgdp.net/c/",
+      "title": "The She-Wolves of Jülich",
+      "summary": "Hacker News (5 pts, 0 comments) by @Thevet",
+      "url": "https://www.historytoday.com/archive/history-matters/she-wolves-julich",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "12 pts",
-      "upvotes": 12,
+      "badge": "5 pts",
+      "upvotes": 5,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2600,13 +2525,58 @@
       ]
     },
     {
-      "title": "Anthropic blocks users for anything touching training larger models",
-      "summary": "Hacker News (109 pts, 26 comments) by @pretext",
-      "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "title": "Proving and improving the Platonic Representation Hypothesis with JEPAs",
+      "summary": "Hacker News (98 pts, 55 comments) by @Anon84",
+      "url": "https://arxiv.org/abs/2610.39302",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "109 pts",
-      "upvotes": 109,
+      "badge": "98 pts",
+      "upvotes": 98,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+      "summary": "Hacker News (356 pts, 124 comments) by @entryleveljobsc",
+      "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "356 pts",
+      "upvotes": 356,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Bidirectional charging during grid outages",
+      "summary": "Hacker News (78 pts, 116 comments) by @luu",
+      "url": "https://www.jefftk.com/p/bidirectional-charging-during-grid-outages",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "78 pts",
+      "upvotes": 78,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Novellas with Groff",
+      "summary": "Hacker News (103 pts, 45 comments) by @dverlaeckt80",
+      "url": "https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "103 pts",
+      "upvotes": 103,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
