@@ -2,44 +2,6 @@
   "repos": [
     {
       "rank": 1,
-      "full_name": "Nutlope/hallmark",
-      "owner": "Nutlope",
-      "name": "hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "language": "CSS",
-      "language_color": "#663399",
-      "stars": 46966,
-      "forks": 2484,
-      "stars_since": "8,765",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/154055839?s=40&v=4",
-          "username": "Luffixos"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/63742054?s=40&v=4",
-          "username": "Nutlope"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
-          "username": "rudycelekli"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/293371022?s=40&v=4",
-          "username": "xunguangzlj-cloud"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 2,
       "full_name": "thedotmack/claude-mem",
       "owner": "thedotmack",
       "name": "claude-mem",
@@ -47,9 +9,9 @@
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 111878,
-      "forks": 9736,
-      "stars_since": "7,995",
+      "stars": 112845,
+      "forks": 9801,
+      "stars_since": "8,822",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -77,6 +39,44 @@
       "source": "github"
     },
     {
+      "rank": 2,
+      "full_name": "Nutlope/hallmark",
+      "owner": "Nutlope",
+      "name": "hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "language_color": "#663399",
+      "stars": 47931,
+      "forks": 2531,
+      "stars_since": "7,622",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/154055839?s=40&v=4",
+          "username": "Luffixos"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/63742054?s=40&v=4",
+          "username": "Nutlope"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
+          "username": "rudycelekli"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+          "username": "cursoragent"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/293371022?s=40&v=4",
+          "username": "xunguangzlj-cloud"
+        }
+      ],
+      "source": "github"
+    },
+    {
       "rank": 3,
       "full_name": "pingdotgg/t3code",
       "owner": "pingdotgg",
@@ -85,9 +85,9 @@
       "description": "",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 44361,
-      "forks": 9249,
-      "stars_since": "12,542",
+      "stars": 46610,
+      "forks": 9457,
+      "stars_since": "14,580",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -116,6 +116,40 @@
     },
     {
       "rank": 4,
+      "full_name": "pbakaus/impeccable",
+      "owner": "pbakaus",
+      "name": "impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 102812,
+      "forks": 6081,
+      "stars_since": "10,921",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/43004?s=40&v=4",
+          "username": "pbakaus"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/32850166?s=40&v=4",
+          "username": "abdulwahabone"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+          "username": "cursoragent"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 5,
       "full_name": "obra/superpowers",
       "owner": "obra",
       "name": "superpowers",
@@ -123,9 +157,9 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
       "language_color": "#89e051",
-      "stars": 311857,
-      "forks": 27738,
-      "stars_since": "5,994",
+      "stars": 312444,
+      "forks": 27792,
+      "stars_since": "5,565",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -153,113 +187,7 @@
       "source": "github"
     },
     {
-      "rank": 5,
-      "full_name": "pbakaus/impeccable",
-      "owner": "pbakaus",
-      "name": "impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 101521,
-      "forks": 5988,
-      "stars_since": "11,405",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/43004?s=40&v=4",
-          "username": "pbakaus"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/32850166?s=40&v=4",
-          "username": "abdulwahabone"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 6,
-      "full_name": "AgriciDaniel/claude-seo",
-      "owner": "AgriciDaniel",
-      "name": "claude-seo",
-      "url": "https://github.com/AgriciDaniel/claude-seo",
-      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 26322,
-      "forks": 3428,
-      "stars_since": "3,751",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/223140489?s=40&v=4",
-          "username": "AgriciDaniel"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/129338099?s=40&v=4",
-          "username": "Nordalux"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
-          "username": "codex"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 7,
-      "full_name": "JetBrains/thinkrail",
-      "owner": "JetBrains",
-      "name": "thinkrail",
-      "url": "https://github.com/JetBrains/thinkrail",
-      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 7406,
-      "forks": 440,
-      "stars_since": "3,898",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/177517595?s=40&v=4",
-          "username": "rsolmano"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3789877?s=40&v=4",
-          "username": "danyaberezun"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/14210843?s=40&v=4",
-          "username": "OLavrik"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/88837967?s=40&v=4",
-          "username": "Mark-Life"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 8,
       "full_name": "anthropics/skills",
       "owner": "anthropics",
       "name": "skills",
@@ -267,9 +195,9 @@
       "description": "Public repository for Agent Skills",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 187107,
-      "forks": 22083,
-      "stars_since": "2,969",
+      "stars": 187421,
+      "forks": 22114,
+      "stars_since": "3,003",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -297,7 +225,37 @@
       "source": "github"
     },
     {
-      "rank": 9,
+      "rank": 7,
+      "full_name": "max-sixty/worktrunk",
+      "owner": "max-sixty",
+      "name": "worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 11022,
+      "forks": 412,
+      "stars_since": "1,261",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&v=4",
+          "username": "max-sixty"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/254187624?s=40&v=4",
+          "username": "worktrunk-bot"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 8,
       "full_name": "jakubkrehel/skills",
       "owner": "jakubkrehel",
       "name": "skills",
@@ -305,9 +263,9 @@
       "description": "A collection of agent skills that help you build great interfaces.",
       "language": "Markdown",
       "language_color": "#083fa1",
-      "stars": 10613,
-      "forks": 408,
-      "stars_since": "1,761",
+      "stars": 10813,
+      "forks": 415,
+      "stars_since": "1,865",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -323,7 +281,75 @@
       "source": "github"
     },
     {
+      "rank": 9,
+      "full_name": "JetBrains/thinkrail",
+      "owner": "JetBrains",
+      "name": "thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 7598,
+      "forks": 463,
+      "stars_since": "3,031",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/177517595?s=40&v=4",
+          "username": "rsolmano"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3789877?s=40&v=4",
+          "username": "danyaberezun"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/14210843?s=40&v=4",
+          "username": "OLavrik"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/88837967?s=40&v=4",
+          "username": "Mark-Life"
+        }
+      ],
+      "source": "github"
+    },
+    {
       "rank": 10,
+      "full_name": "ghostty-org/ghostty",
+      "owner": "ghostty-org",
+      "name": "ghostty",
+      "url": "https://github.com/ghostty-org/ghostty",
+      "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+      "language": "Zig",
+      "language_color": "#ec915c",
+      "stars": 63545,
+      "forks": 3818,
+      "stars_since": "738",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1299?s=40&v=4",
+          "username": "mitchellh"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/740022?s=40&v=4",
+          "username": "jcollie"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7241851?s=40&v=4",
+          "username": "qwerasd205"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 11,
       "full_name": "multica-ai/andrej-karpathy-skills",
       "owner": "multica-ai",
       "name": "andrej-karpathy-skills",
@@ -331,9 +357,9 @@
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": "Others",
       "language_color": "#8b949e",
-      "stars": 229090,
-      "forks": 22833,
-      "stars_since": "3,921",
+      "stars": 229503,
+      "forks": 22849,
+      "stars_since": "3,808",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -361,67 +387,7 @@
       "source": "github"
     },
     {
-      "rank": 11,
-      "full_name": "ghostty-org/ghostty",
-      "owner": "ghostty-org",
-      "name": "ghostty",
-      "url": "https://github.com/ghostty-org/ghostty",
-      "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
-      "language": "Zig",
-      "language_color": "#ec915c",
-      "stars": 63435,
-      "forks": 3810,
-      "stars_since": "771",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1299?s=40&v=4",
-          "username": "mitchellh"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/740022?s=40&v=4",
-          "username": "jcollie"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7241851?s=40&v=4",
-          "username": "qwerasd205"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 12,
-      "full_name": "cloudflare/security-audit-skill",
-      "owner": "cloudflare",
-      "name": "security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 58188,
-      "forks": 3791,
-      "stars_since": "8,598",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9935415?s=40&v=4",
-          "username": "literally-dan"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/59650384?s=40&v=4",
-          "username": "CooperSheroy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/228360615?s=40&v=4",
-          "username": "kennysarnoski-jarvis"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 13,
       "full_name": "hyprwm/Hyprland",
       "owner": "hyprwm",
       "name": "Hyprland",
@@ -429,9 +395,9 @@
       "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
       "language": "C++",
       "language_color": "#f34b7d",
-      "stars": 40230,
-      "forks": 2164,
-      "stars_since": "1,232",
+      "stars": 40299,
+      "forks": 2165,
+      "stars_since": "1,325",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -459,103 +425,111 @@
       "source": "github"
     },
     {
-      "rank": 14,
-      "full_name": "TauricResearch/TradingAgents",
-      "owner": "TauricResearch",
-      "name": "TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "rank": 13,
+      "full_name": "AgriciDaniel/claude-seo",
+      "owner": "AgriciDaniel",
+      "name": "claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 120350,
-      "forks": 23004,
-      "stars_since": "3,336",
+      "stars": 26660,
+      "forks": 3467,
+      "stars_since": "3,531",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/48253104?s=40&v=4",
-          "username": "Yijia-Xiao"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/68405458?s=40&v=4",
-          "username": "EdwardoSunny"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/91041827?s=40&v=4",
-          "username": "CadeYu"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/15189961?s=40&v=4",
-          "username": "luohy15"
+          "avatar": "https://avatars.githubusercontent.com/u/223140489?s=40&v=4",
+          "username": "AgriciDaniel"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/129338099?s=40&v=4",
+          "username": "Nordalux"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
+          "username": "codex"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 14,
+      "full_name": "calesthio/OpenMontage",
+      "owner": "calesthio",
+      "name": "OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 76529,
+      "forks": 10153,
+      "stars_since": "3,743",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/213189893?s=40&v=4",
+          "username": "calesthio"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/102245100?s=40&v=4",
+          "username": "0xDevNinja"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
+          "username": "rudycelekli"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/129351686?s=40&v=4",
+          "username": "yiyabo"
         }
       ],
       "source": "github"
     },
     {
       "rank": 15,
-      "full_name": "max-sixty/worktrunk",
-      "owner": "max-sixty",
-      "name": "worktrunk",
-      "url": "https://github.com/max-sixty/worktrunk",
-      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 10470,
-      "forks": 376,
-      "stars_since": "749",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&v=4",
-          "username": "max-sixty"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/254187624?s=40&v=4",
-          "username": "worktrunk-bot"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 16,
-      "full_name": "affaan-m/ECC",
-      "owner": "affaan-m",
-      "name": "ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "Leonxlnx/taste-skill",
+      "owner": "Leonxlnx",
+      "name": "taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 296553,
-      "forks": 43851,
-      "stars_since": "6,053",
+      "stars": 110062,
+      "forks": 7399,
+      "stars_since": "5,935",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/124439313?s=40&v=4",
-          "username": "affaan-m"
+          "avatar": "https://avatars.githubusercontent.com/u/219127460?s=40&v=4",
+          "username": "Leonxlnx"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/49814733?s=40&v=4",
-          "username": "haelyra"
+          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+          "username": "cursoragent"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/24193489?s=40&v=4",
-          "username": "montjeffrey"
+          "avatar": "https://avatars.githubusercontent.com/u/122161868?s=40&v=4",
+          "username": "HugoSpy"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/96955327?s=40&v=4",
+          "username": "flexi767"
         }
       ],
       "source": "github"
