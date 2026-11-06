@@ -2,6 +2,44 @@
   "repos": [
     {
       "rank": 1,
+      "full_name": "zed-industries/zed",
+      "owner": "zed-industries",
+      "name": "zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 93604,
+      "forks": 11499,
+      "stars_since": "292",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/482957?s=40&v=4",
+          "username": "as-cii"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/326587?s=40&v=4",
+          "username": "maxbrunsfeld"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1486634?s=40&v=4",
+          "username": "maxdeviant"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1789?s=40&v=4",
+          "username": "nathansobo"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/94272?s=40&v=4",
+          "username": "ConradIrwin"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 2,
       "full_name": "NVIDIA/auto-ontology",
       "owner": "NVIDIA",
       "name": "auto-ontology",
@@ -9,9 +47,9 @@
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 7306,
-      "forks": 580,
-      "stars_since": "2,679",
+      "stars": 8983,
+      "forks": 722,
+      "stars_since": "2,005",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -39,233 +77,269 @@
       "source": "github"
     },
     {
-      "rank": 2,
-      "full_name": "mattpocock/skills",
-      "owner": "mattpocock",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "language_color": "#89e051",
-      "stars": 315207,
-      "forks": 26396,
-      "stars_since": "2,071",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/28293365?s=40&v=4",
-          "username": "mattpocock"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/39256258?s=40&v=4",
-          "username": "gabimoncha"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 3,
-      "full_name": "garrytan/gstack",
-      "owner": "garrytan",
-      "name": "gstack",
-      "url": "https://github.com/garrytan/gstack",
-      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 139931,
-      "forks": 20695,
-      "stars_since": "612",
+      "full_name": "rails/rails",
+      "owner": "rails",
+      "name": "rails",
+      "url": "https://github.com/rails/rails",
+      "description": "Ruby on Rails",
+      "language": "Ruby",
+      "language_color": "#701516",
+      "stars": 59022,
+      "forks": 23833,
+      "stars_since": "152",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/19957?s=40&v=4",
-          "username": "garrytan"
+          "avatar": "https://avatars.githubusercontent.com/u/47848?s=40&v=4",
+          "username": "rafaelfranca"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
+          "avatar": "https://avatars.githubusercontent.com/u/12642?s=40&v=4",
+          "username": "kamipo"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/17983607?s=40&v=4",
-          "username": "test22345"
+          "avatar": "https://avatars.githubusercontent.com/u/199?s=40&v=4",
+          "username": "jeremy"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/3579304?s=40&v=4",
-          "username": "szsunyuan"
+          "avatar": "https://avatars.githubusercontent.com/u/3124?s=40&v=4",
+          "username": "tenderlove"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/44640?s=40&v=4",
+          "username": "byroot"
         }
       ],
       "source": "github"
     },
     {
       "rank": 4,
-      "full_name": "Usagi-org/ai-goofish-monitor",
-      "owner": "Usagi-org",
-      "name": "ai-goofish-monitor",
-      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
-      "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 17517,
-      "forks": 2942,
-      "stars_since": "240",
+      "full_name": "mpv-player/mpv",
+      "owner": "mpv-player",
+      "name": "mpv",
+      "url": "https://github.com/mpv-player/mpv",
+      "description": "🎥 Command line media player",
+      "language": "C",
+      "language_color": "#555555",
+      "stars": 37871,
+      "forks": 3632,
+      "stars_since": "36",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/34468774?s=40&v=4",
-          "username": "dingyufei615"
+          "avatar": "https://avatars.githubusercontent.com/u/1126053?s=40&v=4",
+          "username": "kasper93"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
+          "avatar": "https://avatars.githubusercontent.com/u/5105515?s=40&v=4",
+          "username": "Dudemanguy"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/212712200?s=40&v=4",
-          "username": "ijodion"
+          "avatar": "https://avatars.githubusercontent.com/u/11783568?s=40&v=4",
+          "username": "guidocella"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/4160779?s=40&v=4",
-          "username": "hurleychin"
+          "avatar": "https://avatars.githubusercontent.com/u/1149047?s=40&v=4",
+          "username": "haasn"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/24681?s=40&v=4",
+          "username": "pigoz"
         }
       ],
       "source": "github"
     },
     {
       "rank": 5,
-      "full_name": "D4Vinci/Scrapling",
-      "owner": "D4Vinci",
-      "name": "Scrapling",
-      "url": "https://github.com/D4Vinci/Scrapling",
-      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 97963,
-      "forks": 10257,
-      "stars_since": "1,655",
+      "full_name": "rust-lang/rust",
+      "owner": "rust-lang",
+      "name": "rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 121436,
+      "forks": 17365,
+      "stars_since": "186",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/20604835?s=40&v=4",
-          "username": "D4Vinci"
+          "avatar": "https://avatars.githubusercontent.com/u/3372342?s=40&v=4",
+          "username": "bors"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/102706514?s=40&v=4",
-          "username": "yetval"
+          "avatar": "https://avatars.githubusercontent.com/u/476013?s=40&v=4",
+          "username": "matthiaskrgr"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/52079299?s=40&v=4",
-          "username": "AbdullahY36"
+          "avatar": "https://avatars.githubusercontent.com/u/330628?s=40&v=4",
+          "username": "RalfJung"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/144490671?s=40&v=4",
-          "username": "SulimanAbdulrazzaq"
+          "avatar": "https://avatars.githubusercontent.com/u/3050060?s=40&v=4",
+          "username": "GuillaumeGomez"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
-          "username": "codex"
+          "avatar": "https://avatars.githubusercontent.com/u/1711539?s=40&v=4",
+          "username": "matklad"
         }
       ],
       "source": "github"
     },
     {
       "rank": 6,
-      "full_name": "vercel-labs/agent-desktop",
-      "owner": "vercel-labs",
-      "name": "agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "description": "Computer use CLI for AI agents",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 16836,
-      "forks": 1189,
-      "stars_since": "2,173",
+      "full_name": "react/react",
+      "owner": "react",
+      "name": "react",
+      "url": "https://github.com/react/react",
+      "description": "The library for web and native user interfaces.",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 252248,
+      "forks": 51809,
+      "stars_since": "244",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/70215676?s=40&v=4",
-          "username": "lahfir"
+          "avatar": "https://avatars.githubusercontent.com/u/63648?s=40&v=4",
+          "username": "sebmarkbage"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&v=4",
-          "username": "ctate"
+          "avatar": "https://avatars.githubusercontent.com/u/8445?s=40&v=4",
+          "username": "zpao"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/810438?s=40&v=4",
+          "username": "gaearon"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3624098?s=40&v=4",
+          "username": "acdlite"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6820?s=40&v=4",
+          "username": "sophiebits"
         }
       ],
       "source": "github"
     },
     {
       "rank": 7,
-      "full_name": "max-sixty/worktrunk",
-      "owner": "max-sixty",
-      "name": "worktrunk",
-      "url": "https://github.com/max-sixty/worktrunk",
-      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 11508,
-      "forks": 439,
-      "stars_since": "546",
+      "full_name": "angular/angular",
+      "owner": "angular",
+      "name": "angular",
+      "url": "https://github.com/angular/angular",
+      "description": "Deliver web apps with confidence 🚀",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 101353,
+      "forks": 28912,
+      "stars_since": "128",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/5635139?s=40&v=4",
-          "username": "max-sixty"
+          "avatar": "https://avatars.githubusercontent.com/u/8604205?s=40&v=4",
+          "username": "gkalpak"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
+          "avatar": "https://avatars.githubusercontent.com/u/15655?s=40&v=4",
+          "username": "petebacondarwin"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/254187624?s=40&v=4",
-          "username": "worktrunk-bot"
+          "avatar": "https://avatars.githubusercontent.com/u/4450522?s=40&v=4",
+          "username": "crisbeto"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/89942104?s=40&v=4",
+          "username": "angular-robot"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4987015?s=40&v=4",
+          "username": "devversion"
         }
       ],
       "source": "github"
     },
     {
       "rank": 8,
-      "full_name": "lz4/lz4",
-      "owner": "lz4",
-      "name": "lz4",
-      "url": "https://github.com/lz4/lz4",
-      "description": "Extremely Fast Compression algorithm",
-      "language": "C",
-      "language_color": "#555555",
-      "stars": 12382,
-      "forks": 1634,
-      "stars_since": "23",
+      "full_name": "symfony/symfony",
+      "owner": "symfony",
+      "name": "symfony",
+      "url": "https://github.com/symfony/symfony",
+      "description": "The Symfony PHP framework",
+      "language": "PHP",
+      "language_color": "#4F5D95",
+      "stars": 31425,
+      "forks": 9948,
+      "stars_since": "239",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/750081?s=40&v=4",
-          "username": "Cyan4973"
+          "avatar": "https://avatars.githubusercontent.com/u/47313?s=40&v=4",
+          "username": "fabpot"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/15112322?s=40&v=4",
-          "username": "inikep"
+          "avatar": "https://avatars.githubusercontent.com/u/243674?s=40&v=4",
+          "username": "nicolas-grekas"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/898396?s=40&v=4",
-          "username": "t-mat"
+          "avatar": "https://avatars.githubusercontent.com/u/1957048?s=40&v=4",
+          "username": "xabbuh"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1154694?s=40&v=4",
-          "username": "felixhandte"
+          "avatar": "https://avatars.githubusercontent.com/u/1506493?s=40&v=4",
+          "username": "derrabus"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7502063?s=40&v=4",
+          "username": "chalasr"
         }
       ],
       "source": "github"
     },
     {
       "rank": 9,
+      "full_name": "prometheus/prometheus",
+      "owner": "prometheus",
+      "name": "prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "language_color": "#00ADD8",
+      "stars": 67176,
+      "forks": 10988,
+      "stars_since": "140",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4948210?s=40&v=4",
+          "username": "fabxc"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/538008?s=40&v=4",
+          "username": "juliusv"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5609886?s=40&v=4",
+          "username": "beorn7"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8125524?s=40&v=4",
+          "username": "bboreham"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 10,
       "full_name": "google/skills",
       "owner": "google",
       "name": "skills",
@@ -273,9 +347,9 @@
       "description": "Agent Skills for Google products and technologies",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 22366,
-      "forks": 1892,
-      "stars_since": "211",
+      "stars": 22818,
+      "forks": 1919,
+      "stars_since": "532",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -303,209 +377,243 @@
       "source": "github"
     },
     {
-      "rank": 10,
-      "full_name": "vercel-labs/agent-browser",
-      "owner": "vercel-labs",
-      "name": "agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 45881,
-      "forks": 3148,
-      "stars_since": "150",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&v=4",
-          "username": "ctate"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/51397083?s=40&v=4",
-          "username": "Railly"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/70215676?s=40&v=4",
-          "username": "lahfir"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 11,
-      "full_name": "scenario-labs/skills",
-      "owner": "scenario-labs",
-      "name": "skills",
-      "url": "https://github.com/scenario-labs/skills",
-      "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 3052,
-      "forks": 269,
-      "stars_since": "667",
+      "full_name": "microsoft/vscode",
+      "owner": "microsoft",
+      "name": "vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "description": "Visual Studio Code",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 195018,
+      "forks": 44424,
+      "stars_since": "295",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1057302?s=40&v=4",
-          "username": "hervenivon"
+          "avatar": "https://avatars.githubusercontent.com/u/900690?s=40&v=4",
+          "username": "bpasero"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
+          "avatar": "https://avatars.githubusercontent.com/u/1794099?s=40&v=4",
+          "username": "jrieken"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
-          "username": "codex"
+          "avatar": "https://avatars.githubusercontent.com/u/2193314?s=40&v=4",
+          "username": "Tyriar"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/78570368?s=40&v=4",
-          "username": "edemaistre"
+          "avatar": "https://avatars.githubusercontent.com/u/10746682?s=40&v=4",
+          "username": "sandy081"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22350?s=40&v=4",
+          "username": "joaomoreno"
         }
       ],
       "source": "github"
     },
     {
       "rank": 12,
-      "full_name": "ConardLi/garden-skills",
-      "owner": "ConardLi",
-      "name": "garden-skills",
-      "url": "https://github.com/ConardLi/garden-skills",
-      "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 14125,
-      "forks": 1647,
-      "stars_since": "175",
+      "full_name": "nushell/nushell",
+      "owner": "nushell",
+      "name": "nushell",
+      "url": "https://github.com/nushell/nushell",
+      "description": "A new type of shell",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 40978,
+      "forks": 2343,
+      "stars_since": "177",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/30708545?s=40&v=4",
-          "username": "ConardLi"
+          "avatar": "https://avatars.githubusercontent.com/u/547158?s=40&v=4",
+          "username": "sophiajt"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
+          "avatar": "https://avatars.githubusercontent.com/u/343840?s=40&v=4",
+          "username": "fdncred"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/22633385?s=40&v=4",
-          "username": "eltociear"
+          "avatar": "https://avatars.githubusercontent.com/u/15833959?s=40&v=4",
+          "username": "sholderbach"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/951128?s=40&v=4",
+          "username": "andrasio"
         }
       ],
       "source": "github"
     },
     {
       "rank": 13,
-      "full_name": "microsoft/VibeVoice",
-      "owner": "microsoft",
-      "name": "VibeVoice",
-      "url": "https://github.com/microsoft/VibeVoice",
-      "description": "Open-Source Frontier Voice AI",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 55915,
-      "forks": 6290,
-      "stars_since": "223",
+      "full_name": "etcd-io/etcd",
+      "owner": "etcd-io",
+      "name": "etcd",
+      "url": "https://github.com/etcd-io/etcd",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "language": "Go",
+      "language_color": "#00ADD8",
+      "stars": 52612,
+      "forks": 10590,
+      "stars_since": "123",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/20237658?s=40&v=4",
-          "username": "YaoyaoChang"
+          "avatar": "https://avatars.githubusercontent.com/u/6799218?s=40&v=4",
+          "username": "gyuho"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/26346329?s=40&v=4",
-          "username": "pengzhiliang"
+          "avatar": "https://avatars.githubusercontent.com/u/30739825?s=40&v=4",
+          "username": "ahrtr"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/173002764?s=40&v=4",
-          "username": "MSLDCherryPick"
+          "avatar": "https://avatars.githubusercontent.com/u/4479947?s=40&v=4",
+          "username": "xiang90"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2119212?s=40&v=4",
-          "username": "jsoref"
+          "avatar": "https://avatars.githubusercontent.com/u/5873433?s=40&v=4",
+          "username": "serathius"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2976232?s=40&v=4",
+          "username": "yichengq"
         }
       ],
       "source": "github"
     },
     {
       "rank": 14,
-      "full_name": "floci-io/floci",
-      "owner": "floci-io",
-      "name": "floci",
-      "url": "https://github.com/floci-io/floci",
-      "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
-      "language": "Java",
-      "language_color": "#b07219",
-      "stars": 30400,
-      "forks": 3332,
-      "stars_since": "779",
+      "full_name": "openssl/openssl",
+      "owner": "openssl",
+      "name": "openssl",
+      "url": "https://github.com/openssl/openssl",
+      "description": "General purpose TLS and crypto library",
+      "language": "C",
+      "language_color": "#555555",
+      "stars": 31283,
+      "forks": 11580,
+      "stars_since": "24",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/2405682?s=40&v=4",
-          "username": "hectorvent"
+          "avatar": "https://avatars.githubusercontent.com/u/698918?s=40&v=4",
+          "username": "levitte"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/6233424?s=40&v=4",
-          "username": "pgermosen"
+          "avatar": "https://avatars.githubusercontent.com/u/7422273?s=40&v=4",
+          "username": "mattcaswell"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/33106608?s=40&v=4",
-          "username": "AndreKurait"
+          "avatar": "https://avatars.githubusercontent.com/u/9038069?s=40&v=4",
+          "username": "dot-asm"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/120861?s=40&v=4",
-          "username": "okinaka"
+          "avatar": "https://avatars.githubusercontent.com/u/17916609?s=40&v=4",
+          "username": "paulidale"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/127635?s=40&v=4",
-          "username": "exoego"
+          "avatar": "https://avatars.githubusercontent.com/u/6590984?s=40&v=4",
+          "username": "snhenson"
         }
       ],
       "source": "github"
     },
     {
       "rank": 15,
-      "full_name": "JiaFeiMiao-K-Cat/DiscImageStudio",
-      "owner": "JiaFeiMiao-K-Cat",
-      "name": "DiscImageStudio",
-      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
-      "description": "",
-      "language": "C#",
-      "language_color": "#7355dd",
-      "stars": 7261,
-      "forks": 260,
-      "stars_since": "984",
+      "full_name": "mattpocock/skills",
+      "owner": "mattpocock",
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "language_color": "#89e051",
+      "stars": 316686,
+      "forks": 26490,
+      "stars_since": "2,058",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/60653106?s=40&v=4",
-          "username": "JiaFeiMiao-K-Cat"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/98449983?s=40&v=4",
-          "username": "Catho168"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/22633385?s=40&v=4",
-          "username": "eltociear"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/70893996?s=40&v=4",
-          "username": "keremuysal"
+          "avatar": "https://avatars.githubusercontent.com/u/28293365?s=40&v=4",
+          "username": "mattpocock"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/39256258?s=40&v=4",
+          "username": "gabimoncha"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 16,
+      "full_name": "cloudflare/security-audit-skill",
+      "owner": "cloudflare",
+      "name": "security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 63936,
+      "forks": 4142,
+      "stars_since": "2,524",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9935415?s=40&v=4",
+          "username": "literally-dan"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/59650384?s=40&v=4",
+          "username": "CooperSheroy"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/228360615?s=40&v=4",
+          "username": "kennysarnoski-jarvis"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 17,
+      "full_name": "astral-sh/ruff",
+      "owner": "astral-sh",
+      "name": "ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 50683,
+      "forks": 2611,
+      "stars_since": "213",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1309177?s=40&v=4",
+          "username": "charliermarsh"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1203881?s=40&v=4",
+          "username": "MichaReiser"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/66076021?s=40&v=4",
+          "username": "AlexWaygood"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4209276?s=40&v=4",
+          "username": "sharkdp"
         }
       ],
       "source": "github"
