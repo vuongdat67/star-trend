@@ -9,9 +9,9 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 430862,
-      "forks": 107086,
-      "stars_since": "430,285",
+      "stars": 434330,
+      "forks": 107795,
+      "stars_since": "430,792",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -47,9 +47,9 @@
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "language": "C++",
       "language_color": "#f34b7d",
-      "stars": 51182,
-      "forks": 4873,
-      "stars_since": "47,878",
+      "stars": 51478,
+      "forks": 4900,
+      "stars_since": "47,184",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -85,9 +85,9 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 59386,
-      "forks": 3856,
-      "stars_since": "34,859",
+      "stars": 61475,
+      "forks": 3989,
+      "stars_since": "35,956",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -115,9 +115,9 @@
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
       "language_color": "#663399",
-      "stars": 47931,
-      "forks": 2531,
-      "stars_since": "18,210",
+      "stars": 48763,
+      "forks": 2585,
+      "stars_since": "19,070",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -138,8 +138,8 @@
           "username": "cursoragent"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/293371022?s=40&v=4",
-          "username": "xunguangzlj-cloud"
+          "avatar": "https://avatars.githubusercontent.com/u/169967362?s=40&v=4",
+          "username": "Bortlesboat"
         }
       ],
       "source": "github"
@@ -153,9 +153,9 @@
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 78945,
-      "forks": 7267,
-      "stars_since": "22,621",
+      "stars": 79559,
+      "forks": 7319,
+      "stars_since": "22,694",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -168,12 +168,12 @@
           "username": "vanceingalls"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/7664106?s=40&v=4",
-          "username": "jrusso1020"
-        },
-        {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7664106?s=40&v=4",
+          "username": "jrusso1020"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/165517112?s=40&v=4",
@@ -191,9 +191,9 @@
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 100992,
-      "forks": 11181,
-      "stars_since": "48,420",
+      "stars": 101911,
+      "forks": 11302,
+      "stars_since": "48,803",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -229,9 +229,9 @@
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
       "language_color": "#b07219",
-      "stars": 97840,
-      "forks": 11063,
-      "stars_since": "17,528",
+      "stars": 98136,
+      "forks": 11103,
+      "stars_since": "17,641",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -260,40 +260,6 @@
     },
     {
       "rank": 8,
-      "full_name": "anthropics/knowledge-work-plugins",
-      "owner": "anthropics",
-      "name": "knowledge-work-plugins",
-      "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 34735,
-      "forks": 3832,
-      "stars_since": "8,764",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/305637556?s=40&v=4",
-          "username": "jordanecker-ant"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/238056179?s=40&v=4",
-          "username": "bryan-anthropic"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/227474486?s=40&v=4",
-          "username": "mattpic-ant"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 9,
       "full_name": "thedotmack/claude-mem",
       "owner": "thedotmack",
       "name": "claude-mem",
@@ -301,9 +267,9 @@
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 112845,
-      "forks": 9801,
-      "stars_since": "17,262",
+      "stars": 113542,
+      "forks": 9850,
+      "stars_since": "17,621",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -331,7 +297,7 @@
       "source": "github"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "full_name": "pingdotgg/t3code",
       "owner": "pingdotgg",
       "name": "t3code",
@@ -339,9 +305,9 @@
       "description": "",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 46610,
-      "forks": 9457,
-      "stars_since": "20,763",
+      "stars": 48326,
+      "forks": 9614,
+      "stars_since": "22,239",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -369,7 +335,7 @@
       "source": "github"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "full_name": "pbakaus/impeccable",
       "owner": "pbakaus",
       "name": "impeccable",
@@ -377,9 +343,9 @@
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
       "language_color": "#dea584",
-      "stars": 102812,
-      "forks": 6081,
-      "stars_since": "26,803",
+      "stars": 103923,
+      "forks": 6159,
+      "stars_since": "27,205",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -403,47 +369,17 @@
       "source": "github"
     },
     {
-      "rank": 12,
-      "full_name": "earthtojake/text-to-cad",
-      "owner": "earthtojake",
-      "name": "text-to-cad",
-      "url": "https://github.com/earthtojake/text-to-cad",
-      "description": "Design physical products with AI",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 25427,
-      "forks": 2410,
-      "stars_since": "8,831",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/10742417?s=40&v=4",
-          "username": "earthtojake"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/143688508?s=40&v=4",
-          "username": "warun7"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 13,
-      "full_name": "anthropics/claude-plugins-official",
+      "rank": 11,
+      "full_name": "anthropics/knowledge-work-plugins",
       "owner": "anthropics",
-      "name": "claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "name": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 46121,
-      "forks": 4796,
-      "stars_since": "8,948",
+      "stars": 34865,
+      "forks": 3840,
+      "stars_since": "8,823",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -456,50 +392,46 @@
           "username": "bryan-anthropic"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/8000722?s=40&v=4",
-          "username": "mhegazy"
-        },
-        {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/227474486?s=40&v=4",
+          "username": "mattpic-ant"
         }
       ],
       "source": "github"
     },
     {
-      "rank": 14,
-      "full_name": "tester-army/e2e",
-      "owner": "tester-army",
-      "name": "e2e",
-      "url": "https://github.com/tester-army/e2e",
-      "description": "Next generation e2e testing framework for web and mobile apps.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 13176,
-      "forks": 686,
-      "stars_since": "10,748",
+      "rank": 12,
+      "full_name": "HKUDS/DeepTutor",
+      "owner": "HKUDS",
+      "name": "DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 55445,
+      "forks": 6798,
+      "stars_since": "14,748",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/52801365?s=40&v=4",
-          "username": "okwasniewski"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/39658211?s=40&v=4",
-          "username": "kacperkapusciak"
+          "avatar": "https://avatars.githubusercontent.com/u/150592536?s=40&v=4",
+          "username": "pancacake"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
-          "username": "rudycelekli"
+          "avatar": "https://avatars.githubusercontent.com/u/272976591?s=40&v=4",
+          "username": "Pinkllow"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/83216158?s=40&v=4",
-          "username": "KrzysztofMoch"
+          "avatar": "https://avatars.githubusercontent.com/u/238371241?s=40&v=4",
+          "username": "evan188199-tech"
         }
       ],
       "source": "github"
