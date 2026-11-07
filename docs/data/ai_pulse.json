@@ -435,13 +435,29 @@
       ]
     },
     {
+      "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
+      "summary": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, long and noisy observations incur substantial context overhead and dilute the agent's attention to task-...",
+      "url": "https://huggingface.co/papers/2611.06500",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Yuetong Liu, Zhehao Zhou, Yitong Zhang",
+      "published_at": "2026-11-03",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
       "title": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
       "summary": "Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text and precomputed embedding vectors. A signature proves who published a pack, not that its vectors enco...",
       "url": "https://huggingface.co/papers/2611.06498",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
+      "badge": "⭐ 2",
+      "upvotes": 2,
       "authors": "Georgios Feretzakis, Alexandros Papaspyridis",
       "published_at": "2026-11-04",
       "tags": [
@@ -456,8 +472,8 @@
       "url": "https://huggingface.co/papers/2611.04386",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 4",
+      "upvotes": 4,
       "authors": "Chenru Wang, Xuanyang Zhang, Yucheng Han",
       "published_at": "2026-11-02",
       "tags": [
@@ -472,8 +488,8 @@
       "url": "https://huggingface.co/papers/2611.08483",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Qile Jiang, George Em Karniadakis",
       "published_at": "2026-11-04",
       "tags": [
@@ -488,8 +504,8 @@
       "url": "https://huggingface.co/papers/2610.37739",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 4",
+      "upvotes": 4,
       "authors": "Jiarui Yao, Ruida Wang, Tong Zhang",
       "published_at": "2026-10-26",
       "tags": [
@@ -504,8 +520,8 @@
       "url": "https://huggingface.co/papers/2611.08237",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 9",
+      "upvotes": 9,
       "authors": "Xiaojun Wu, Cehao Yang, Xuhui Jiang",
       "published_at": "2026-11-05",
       "tags": [
@@ -520,8 +536,8 @@
       "url": "https://huggingface.co/papers/2611.08376",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 7",
+      "upvotes": 7,
       "authors": "Tushaar Gangavarapu, Gil Tabak, Clemens JS Schaefer",
       "published_at": "2026-11-05",
       "tags": [
@@ -536,8 +552,8 @@
       "url": "https://huggingface.co/papers/2609.37820",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 3",
+      "upvotes": 3,
       "authors": "Marcus Gawronsky, Chun-Sung Huang",
       "published_at": "2026-11-04",
       "tags": [
@@ -552,8 +568,8 @@
       "url": "https://huggingface.co/papers/2611.07298",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Seongtae Hong, Youngjoon Jang, Jungseob Lee",
       "published_at": "2026-11-04",
       "tags": [
@@ -568,8 +584,8 @@
       "url": "https://huggingface.co/papers/2610.41789",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 2",
+      "upvotes": 2,
       "authors": "Tahar Chettaoui, Guray Ozgur, Eduarda Caldeira",
       "published_at": "2026-10-30",
       "tags": [
@@ -584,8 +600,8 @@
       "url": "https://huggingface.co/papers/2611.06976",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
+      "badge": "⭐ 14",
+      "upvotes": 14,
       "authors": "Zhenyi Shen, Junru Lu, Wei Liu",
       "published_at": "2026-11-04",
       "tags": [
@@ -600,8 +616,8 @@
       "url": "https://huggingface.co/papers/2611.07613",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Kotaro Oishi, Kazuma Ikeda, Ryosei Hara",
       "published_at": "2026-11-05",
       "tags": [
@@ -632,8 +648,8 @@
       "url": "https://huggingface.co/papers/2611.02075",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 113",
-      "upvotes": 113,
+      "badge": "⭐ 79",
+      "upvotes": 79,
       "authors": "Lang Mo, Xingxuan Zhang, Qi Wang",
       "published_at": "2026-10-31",
       "tags": [
@@ -648,8 +664,8 @@
       "url": "https://huggingface.co/papers/2611.08089",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 6",
-      "upvotes": 6,
+      "badge": "⭐ 7",
+      "upvotes": 7,
       "authors": "Anyuan Zhuo, Shaohua Zhang, Yuan Lin",
       "published_at": "2026-11-05",
       "tags": [
@@ -680,8 +696,8 @@
       "url": "https://huggingface.co/papers/2611.06741",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 36",
-      "upvotes": 36,
+      "badge": "⭐ 39",
+      "upvotes": 39,
       "authors": "Ruikang Li, Zixuan Chen, Jiarui Wu",
       "published_at": "2026-11-03",
       "tags": [
@@ -696,8 +712,8 @@
       "url": "https://huggingface.co/papers/2611.05376",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 80",
+      "upvotes": 80,
       "authors": "Hao Fei",
       "published_at": "2026-11-03",
       "tags": [
@@ -712,8 +728,8 @@
       "url": "https://huggingface.co/papers/2611.03743",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 20",
-      "upvotes": 20,
+      "badge": "⭐ 26",
+      "upvotes": 26,
       "authors": "Zhishang Xiang, Yunbo Tang, Zhongqiao Liu",
       "published_at": "2026-11-01",
       "tags": [
@@ -732,22 +748,6 @@
       "upvotes": 7,
       "authors": "Yutong Bian, Yanglin Zhang, Yuxiang Wang",
       "published_at": "2026-11-03",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
-      "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-l...",
-      "url": "https://huggingface.co/papers/2611.08373",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 48",
-      "upvotes": 48,
-      "authors": "Fuhao Li, Wenxuan Song, Qizhou Huang",
-      "published_at": "2026-11-04",
       "tags": [
         "paper",
         "arxiv",
@@ -995,13 +995,13 @@
       ]
     },
     {
-      "title": "CATL Sodium Battery Hits LFP Cost Parity in 2026: 15,000 Cycles, 30-Year Life",
-      "summary": "Hacker News (54 pts, 19 comments) by @doener",
-      "url": "https://ievchina.com/energy-storage/catl-sodium-battery-cost-parity-lfp-2026-15000-cycles/",
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "summary": "Hacker News (306 pts, 175 comments) by @srean",
+      "url": "https://hunch.net/?p=13764006",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "54 pts",
-      "upvotes": 54,
+      "badge": "306 pts",
+      "upvotes": 306,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1010,13 +1010,13 @@
       ]
     },
     {
-      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-      "summary": "Hacker News (276 pts, 60 comments) by @theanomaly",
-      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "title": "What I run on my $10 USD OpenStick homelab",
+      "summary": "Hacker News (258 pts, 61 comments) by @LaurensBER",
+      "url": "https://blog.bosscher.ch/posts/openstick/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "276 pts",
-      "upvotes": 276,
+      "badge": "258 pts",
+      "upvotes": 258,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1025,13 +1025,13 @@
       ]
     },
     {
-      "title": "AI is dramatically accelerating AI research",
-      "summary": "Hacker News (161 pts, 115 comments) by @yurivish",
-      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
+      "summary": "Hacker News (290 pts, 201 comments) by @user_7832",
+      "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "161 pts",
-      "upvotes": 161,
+      "badge": "290 pts",
+      "upvotes": 290,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1040,13 +1040,13 @@
       ]
     },
     {
-      "title": "Firecracker VM Escape: PwnEscape Part 2",
-      "summary": "Hacker News (141 pts, 68 comments) by @SerCe",
-      "url": "https://pwn.ai/blog/firecracker-escape",
+      "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+      "summary": "Hacker News (172 pts, 37 comments) by @hedgerow-dev",
+      "url": "https://github.com/hedgerow-dev/coldframe",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "141 pts",
-      "upvotes": 141,
+      "badge": "172 pts",
+      "upvotes": 172,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1055,84 +1055,9 @@
       ]
     },
     {
-      "title": "Tesla to wind down Cybertruck production",
-      "summary": "Hacker News (789 pts, 1620 comments) by @PLenz",
-      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "789 pts",
-      "upvotes": 789,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
-      "summary": "Hacker News (256 pts, 205 comments) by @ChrisArchitect",
-      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "256 pts",
-      "upvotes": 256,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
-      "summary": "Hacker News (37 pts, 11 comments) by @Aldipower",
-      "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "37 pts",
-      "upvotes": 37,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "No CVE Today, Please",
-      "summary": "Hacker News (12 pts, 1 comments) by @metalnix",
-      "url": "https://nocveday.com/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "12 pts",
-      "upvotes": 12,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "First steps in bare-metal programming using UEFI",
-      "summary": "Hacker News (167 pts, 31 comments) by @LaSombra",
-      "url": "https://kevinboone.me/efitest_index.html",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "167 pts",
-      "upvotes": 167,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Restaurant Delivery Payment-Skimming Campaign",
-      "summary": "Hacker News (72 pts, 28 comments) by @fiej",
-      "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "summary": "Hacker News (72 pts, 59 comments) by @shmulc",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
       "source": "Hacker News",
       "category": "Hacker News Tech",
       "badge": "72 pts",
@@ -1145,13 +1070,13 @@
       ]
     },
     {
-      "title": "Replit rebuilt its sandbox engine with microVMs",
-      "summary": "Hacker News (50 pts, 14 comments) by @gaplong",
-      "url": "https://frontier.replit.com/sandbox-engine-microvms-part-1/",
+      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "summary": "Hacker News (159 pts, 45 comments) by @antiuniverse",
+      "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "50 pts",
-      "upvotes": 50,
+      "badge": "159 pts",
+      "upvotes": 159,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1160,13 +1085,13 @@
       ]
     },
     {
-      "title": "Google has acquired Crusoe's data center site in southeast Wyoming",
-      "summary": "Hacker News (24 pts, 3 comments) by @rexbee",
-      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+      "title": "Making any integer with four 2s (2025)",
+      "summary": "Hacker News (10 pts, 3 comments) by @germanrabbit",
+      "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "24 pts",
-      "upvotes": 24,
+      "badge": "10 pts",
+      "upvotes": 10,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1175,13 +1100,13 @@
       ]
     },
     {
-      "title": "Memorilla: Latent Semantic Memory for LLMs",
-      "summary": "Hacker News (75 pts, 5 comments) by @handfuloflight",
-      "url": "https://arxiv.org/abs/2610.21375",
+      "title": "Turning Every Radio into a Radar",
+      "summary": "Hacker News (9 pts, 1 comments) by @hasley",
+      "url": "https://tiaminetworks.com/turning-every-radio-into-a-radar/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "75 pts",
-      "upvotes": 75,
+      "badge": "9 pts",
+      "upvotes": 9,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1190,13 +1115,13 @@
       ]
     },
     {
-      "title": "Devvm.dev: One VM for every project",
-      "summary": "Hacker News (91 pts, 45 comments) by @luispa",
-      "url": "https://devvm.dev/",
+      "title": "Need for Speed Underground 2 online in the browser",
+      "summary": "Hacker News (755 pts, 215 comments) by @fluxusars",
+      "url": "https://nfsu2.xyz/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "91 pts",
-      "upvotes": 91,
+      "badge": "755 pts",
+      "upvotes": 755,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1205,13 +1130,88 @@
       ]
     },
     {
-      "title": "The Ubuntu 26.04 Rust sudo is not compatible with standard sudo",
-      "summary": "Hacker News (111 pts, 97 comments) by @wondersky",
-      "url": "https://utcc.utoronto.ca/~cks/space/blog/linux/Ubuntu2604RustSudoNotCompatible",
+      "title": "Retro Song Bird: Plug in any Game Boy cartridge to hear the soundtrack",
+      "summary": "Hacker News (23 pts, 3 comments) by @hentrep",
+      "url": "https://www.retrosongbird.com/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "111 pts",
-      "upvotes": 111,
+      "badge": "23 pts",
+      "upvotes": 23,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Uranium cubes reveal why the German nuclear project failed",
+      "summary": "Hacker News (28 pts, 4 comments) by @rbanffy",
+      "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "28 pts",
+      "upvotes": 28,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Five memorable books about programming (2008)",
+      "summary": "Hacker News (69 pts, 44 comments) by @andsoitis",
+      "url": "https://prog21.dadgum.com/19.html",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "69 pts",
+      "upvotes": 69,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "The $8 Linux Computer (2022)",
+      "summary": "Hacker News (190 pts, 83 comments) by @zenincognito",
+      "url": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "190 pts",
+      "upvotes": 190,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Every Mac comes with an (undocumented) family member classifier",
+      "summary": "Hacker News (555 pts, 327 comments) by @infwhispers",
+      "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "555 pts",
+      "upvotes": 555,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+      "summary": "Hacker News (11 pts, 4 comments) by @prnysoni",
+      "url": "https://eyesrhythm.com/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "11 pts",
+      "upvotes": 11,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1820,13 +1820,29 @@
       ]
     },
     {
+      "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
+      "summary": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, long and noisy observations incur substantial context overhead and dilute the agent's attention to task-...",
+      "url": "https://huggingface.co/papers/2611.06500",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Yuetong Liu, Zhehao Zhou, Yitong Zhang",
+      "published_at": "2026-11-03",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
       "title": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
       "summary": "Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text and precomputed embedding vectors. A signature proves who published a pack, not that its vectors enco...",
       "url": "https://huggingface.co/papers/2611.06498",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
+      "badge": "⭐ 2",
+      "upvotes": 2,
       "authors": "Georgios Feretzakis, Alexandros Papaspyridis",
       "published_at": "2026-11-04",
       "tags": [
@@ -1841,8 +1857,8 @@
       "url": "https://huggingface.co/papers/2611.04386",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 4",
+      "upvotes": 4,
       "authors": "Chenru Wang, Xuanyang Zhang, Yucheng Han",
       "published_at": "2026-11-02",
       "tags": [
@@ -1857,8 +1873,8 @@
       "url": "https://huggingface.co/papers/2611.08483",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Qile Jiang, George Em Karniadakis",
       "published_at": "2026-11-04",
       "tags": [
@@ -1873,8 +1889,8 @@
       "url": "https://huggingface.co/papers/2610.37739",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 4",
+      "upvotes": 4,
       "authors": "Jiarui Yao, Ruida Wang, Tong Zhang",
       "published_at": "2026-10-26",
       "tags": [
@@ -1889,8 +1905,8 @@
       "url": "https://huggingface.co/papers/2611.08237",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 9",
+      "upvotes": 9,
       "authors": "Xiaojun Wu, Cehao Yang, Xuhui Jiang",
       "published_at": "2026-11-05",
       "tags": [
@@ -1905,8 +1921,8 @@
       "url": "https://huggingface.co/papers/2611.08376",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 7",
+      "upvotes": 7,
       "authors": "Tushaar Gangavarapu, Gil Tabak, Clemens JS Schaefer",
       "published_at": "2026-11-05",
       "tags": [
@@ -1921,8 +1937,8 @@
       "url": "https://huggingface.co/papers/2609.37820",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 3",
+      "upvotes": 3,
       "authors": "Marcus Gawronsky, Chun-Sung Huang",
       "published_at": "2026-11-04",
       "tags": [
@@ -1937,8 +1953,8 @@
       "url": "https://huggingface.co/papers/2611.07298",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Seongtae Hong, Youngjoon Jang, Jungseob Lee",
       "published_at": "2026-11-04",
       "tags": [
@@ -1953,8 +1969,8 @@
       "url": "https://huggingface.co/papers/2610.41789",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 2",
+      "upvotes": 2,
       "authors": "Tahar Chettaoui, Guray Ozgur, Eduarda Caldeira",
       "published_at": "2026-10-30",
       "tags": [
@@ -1969,8 +1985,8 @@
       "url": "https://huggingface.co/papers/2611.06976",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
+      "badge": "⭐ 14",
+      "upvotes": 14,
       "authors": "Zhenyi Shen, Junru Lu, Wei Liu",
       "published_at": "2026-11-04",
       "tags": [
@@ -1985,8 +2001,8 @@
       "url": "https://huggingface.co/papers/2611.07613",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Kotaro Oishi, Kazuma Ikeda, Ryosei Hara",
       "published_at": "2026-11-05",
       "tags": [
@@ -2017,8 +2033,8 @@
       "url": "https://huggingface.co/papers/2611.02075",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 113",
-      "upvotes": 113,
+      "badge": "⭐ 79",
+      "upvotes": 79,
       "authors": "Lang Mo, Xingxuan Zhang, Qi Wang",
       "published_at": "2026-10-31",
       "tags": [
@@ -2033,8 +2049,8 @@
       "url": "https://huggingface.co/papers/2611.08089",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 6",
-      "upvotes": 6,
+      "badge": "⭐ 7",
+      "upvotes": 7,
       "authors": "Anyuan Zhuo, Shaohua Zhang, Yuan Lin",
       "published_at": "2026-11-05",
       "tags": [
@@ -2065,8 +2081,8 @@
       "url": "https://huggingface.co/papers/2611.06741",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 36",
-      "upvotes": 36,
+      "badge": "⭐ 39",
+      "upvotes": 39,
       "authors": "Ruikang Li, Zixuan Chen, Jiarui Wu",
       "published_at": "2026-11-03",
       "tags": [
@@ -2081,8 +2097,8 @@
       "url": "https://huggingface.co/papers/2611.05376",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 80",
+      "upvotes": 80,
       "authors": "Hao Fei",
       "published_at": "2026-11-03",
       "tags": [
@@ -2097,8 +2113,8 @@
       "url": "https://huggingface.co/papers/2611.03743",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 20",
-      "upvotes": 20,
+      "badge": "⭐ 26",
+      "upvotes": 26,
       "authors": "Zhishang Xiang, Yunbo Tang, Zhongqiao Liu",
       "published_at": "2026-11-01",
       "tags": [
@@ -2117,22 +2133,6 @@
       "upvotes": 7,
       "authors": "Yutong Bian, Yanglin Zhang, Yuxiang Wang",
       "published_at": "2026-11-03",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
-      "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-l...",
-      "url": "https://huggingface.co/papers/2611.08373",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 48",
-      "upvotes": 48,
-      "authors": "Fuhao Li, Wenxuan Song, Qizhou Huang",
-      "published_at": "2026-11-04",
       "tags": [
         "paper",
         "arxiv",
@@ -2380,13 +2380,13 @@
       ]
     },
     {
-      "title": "CATL Sodium Battery Hits LFP Cost Parity in 2026: 15,000 Cycles, 30-Year Life",
-      "summary": "Hacker News (54 pts, 19 comments) by @doener",
-      "url": "https://ievchina.com/energy-storage/catl-sodium-battery-cost-parity-lfp-2026-15000-cycles/",
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "summary": "Hacker News (306 pts, 175 comments) by @srean",
+      "url": "https://hunch.net/?p=13764006",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "54 pts",
-      "upvotes": 54,
+      "badge": "306 pts",
+      "upvotes": 306,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2395,13 +2395,13 @@
       ]
     },
     {
-      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-      "summary": "Hacker News (276 pts, 60 comments) by @theanomaly",
-      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "title": "What I run on my $10 USD OpenStick homelab",
+      "summary": "Hacker News (258 pts, 61 comments) by @LaurensBER",
+      "url": "https://blog.bosscher.ch/posts/openstick/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "276 pts",
-      "upvotes": 276,
+      "badge": "258 pts",
+      "upvotes": 258,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2410,13 +2410,13 @@
       ]
     },
     {
-      "title": "AI is dramatically accelerating AI research",
-      "summary": "Hacker News (161 pts, 115 comments) by @yurivish",
-      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
+      "summary": "Hacker News (290 pts, 201 comments) by @user_7832",
+      "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "161 pts",
-      "upvotes": 161,
+      "badge": "290 pts",
+      "upvotes": 290,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2425,13 +2425,13 @@
       ]
     },
     {
-      "title": "Firecracker VM Escape: PwnEscape Part 2",
-      "summary": "Hacker News (141 pts, 68 comments) by @SerCe",
-      "url": "https://pwn.ai/blog/firecracker-escape",
+      "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+      "summary": "Hacker News (172 pts, 37 comments) by @hedgerow-dev",
+      "url": "https://github.com/hedgerow-dev/coldframe",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "141 pts",
-      "upvotes": 141,
+      "badge": "172 pts",
+      "upvotes": 172,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2440,84 +2440,9 @@
       ]
     },
     {
-      "title": "Tesla to wind down Cybertruck production",
-      "summary": "Hacker News (789 pts, 1620 comments) by @PLenz",
-      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "789 pts",
-      "upvotes": 789,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
-      "summary": "Hacker News (256 pts, 205 comments) by @ChrisArchitect",
-      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "256 pts",
-      "upvotes": 256,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
-      "summary": "Hacker News (37 pts, 11 comments) by @Aldipower",
-      "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "37 pts",
-      "upvotes": 37,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "No CVE Today, Please",
-      "summary": "Hacker News (12 pts, 1 comments) by @metalnix",
-      "url": "https://nocveday.com/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "12 pts",
-      "upvotes": 12,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "First steps in bare-metal programming using UEFI",
-      "summary": "Hacker News (167 pts, 31 comments) by @LaSombra",
-      "url": "https://kevinboone.me/efitest_index.html",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "167 pts",
-      "upvotes": 167,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Restaurant Delivery Payment-Skimming Campaign",
-      "summary": "Hacker News (72 pts, 28 comments) by @fiej",
-      "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "summary": "Hacker News (72 pts, 59 comments) by @shmulc",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
       "source": "Hacker News",
       "category": "Hacker News Tech",
       "badge": "72 pts",
@@ -2530,13 +2455,13 @@
       ]
     },
     {
-      "title": "Replit rebuilt its sandbox engine with microVMs",
-      "summary": "Hacker News (50 pts, 14 comments) by @gaplong",
-      "url": "https://frontier.replit.com/sandbox-engine-microvms-part-1/",
+      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "summary": "Hacker News (159 pts, 45 comments) by @antiuniverse",
+      "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "50 pts",
-      "upvotes": 50,
+      "badge": "159 pts",
+      "upvotes": 159,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2545,13 +2470,13 @@
       ]
     },
     {
-      "title": "Google has acquired Crusoe's data center site in southeast Wyoming",
-      "summary": "Hacker News (24 pts, 3 comments) by @rexbee",
-      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+      "title": "Making any integer with four 2s (2025)",
+      "summary": "Hacker News (10 pts, 3 comments) by @germanrabbit",
+      "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "24 pts",
-      "upvotes": 24,
+      "badge": "10 pts",
+      "upvotes": 10,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2560,13 +2485,13 @@
       ]
     },
     {
-      "title": "Memorilla: Latent Semantic Memory for LLMs",
-      "summary": "Hacker News (75 pts, 5 comments) by @handfuloflight",
-      "url": "https://arxiv.org/abs/2610.21375",
+      "title": "Turning Every Radio into a Radar",
+      "summary": "Hacker News (9 pts, 1 comments) by @hasley",
+      "url": "https://tiaminetworks.com/turning-every-radio-into-a-radar/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "75 pts",
-      "upvotes": 75,
+      "badge": "9 pts",
+      "upvotes": 9,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2575,13 +2500,13 @@
       ]
     },
     {
-      "title": "Devvm.dev: One VM for every project",
-      "summary": "Hacker News (91 pts, 45 comments) by @luispa",
-      "url": "https://devvm.dev/",
+      "title": "Need for Speed Underground 2 online in the browser",
+      "summary": "Hacker News (755 pts, 215 comments) by @fluxusars",
+      "url": "https://nfsu2.xyz/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "91 pts",
-      "upvotes": 91,
+      "badge": "755 pts",
+      "upvotes": 755,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2590,13 +2515,88 @@
       ]
     },
     {
-      "title": "The Ubuntu 26.04 Rust sudo is not compatible with standard sudo",
-      "summary": "Hacker News (111 pts, 97 comments) by @wondersky",
-      "url": "https://utcc.utoronto.ca/~cks/space/blog/linux/Ubuntu2604RustSudoNotCompatible",
+      "title": "Retro Song Bird: Plug in any Game Boy cartridge to hear the soundtrack",
+      "summary": "Hacker News (23 pts, 3 comments) by @hentrep",
+      "url": "https://www.retrosongbird.com/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "111 pts",
-      "upvotes": 111,
+      "badge": "23 pts",
+      "upvotes": 23,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Uranium cubes reveal why the German nuclear project failed",
+      "summary": "Hacker News (28 pts, 4 comments) by @rbanffy",
+      "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "28 pts",
+      "upvotes": 28,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Five memorable books about programming (2008)",
+      "summary": "Hacker News (69 pts, 44 comments) by @andsoitis",
+      "url": "https://prog21.dadgum.com/19.html",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "69 pts",
+      "upvotes": 69,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "The $8 Linux Computer (2022)",
+      "summary": "Hacker News (190 pts, 83 comments) by @zenincognito",
+      "url": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "190 pts",
+      "upvotes": 190,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Every Mac comes with an (undocumented) family member classifier",
+      "summary": "Hacker News (555 pts, 327 comments) by @infwhispers",
+      "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "555 pts",
+      "upvotes": 555,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+      "summary": "Hacker News (11 pts, 4 comments) by @prnysoni",
+      "url": "https://eyesrhythm.com/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "11 pts",
+      "upvotes": 11,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
