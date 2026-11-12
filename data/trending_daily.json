@@ -9,9 +9,9 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 22769,
-      "forks": 1816,
-      "stars_since": "3,108",
+      "stars": 25068,
+      "forks": 1957,
+      "stars_since": "2,776",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -36,44 +36,116 @@
     },
     {
       "rank": 2,
-      "full_name": "anthropics/skills",
-      "owner": "anthropics",
-      "name": "skills",
-      "url": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "owner": "ZhuLinsen",
+      "name": "daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 192302,
-      "forks": 22642,
-      "stars_since": "1,679",
+      "stars": 70305,
+      "forks": 56857,
+      "stars_since": "278",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/122662504?s=40&v=4",
-          "username": "rlancemartin"
+          "avatar": "https://avatars.githubusercontent.com/u/42829555?s=40&v=4",
+          "username": "ZhuLinsen"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/84525?s=40&v=4",
-          "username": "klazuka"
+          "avatar": "https://avatars.githubusercontent.com/u/176381099?s=40&v=4",
+          "username": "massif-01"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
+          "avatar": "https://avatars.githubusercontent.com/u/56824280?s=40&v=4",
+          "username": "freesme"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/286490957?s=40&v=4",
-          "username": "cj-ant"
+          "avatar": "https://avatars.githubusercontent.com/u/30621586?s=40&v=4",
+          "username": "Activer007"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/27286675?s=40&v=4",
-          "username": "ericharmeling"
+          "avatar": "https://avatars.githubusercontent.com/u/36181736?s=40&v=4",
+          "username": "birdxs"
         }
       ],
       "source": "github"
     },
     {
       "rank": 3,
+      "full_name": "GoogleChrome/modern-web-guidance-src",
+      "owner": "GoogleChrome",
+      "name": "modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 1796,
+      "forks": 142,
+      "stars_since": "159",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/39191?s=40&v=4",
+          "username": "paulirish"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1120896?s=40&v=4",
+          "username": "rviscomi"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/126118814?s=40&v=4",
+          "username": "micahjo7"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/326742?s=40&v=4",
+          "username": "philipwalton"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 4,
+      "full_name": "shadcn/improve",
+      "owner": "shadcn",
+      "name": "improve",
+      "url": "https://github.com/shadcn/improve",
+      "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+      "language": "Others",
+      "language_color": "#8b949e",
+      "stars": 10923,
+      "forks": 445,
+      "stars_since": "361",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/124599?s=40&v=4",
+          "username": "shadcn"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6299331?s=40&v=4",
+          "username": "erikpr1994"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/888909?s=40&v=4",
+          "username": "beastawakens"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/10128372?s=40&v=4",
+          "username": "morinim"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 5,
       "full_name": "addyosmani/agent-skills",
       "owner": "addyosmani",
       "name": "agent-skills",
@@ -81,9 +153,9 @@
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 115149,
-      "forks": 12094,
-      "stars_since": "465",
+      "stars": 115981,
+      "forks": 12165,
+      "stars_since": "787",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -111,147 +183,7 @@
       "source": "github"
     },
     {
-      "rank": 4,
-      "full_name": "anthropics/claude-quickstarts",
-      "owner": "anthropics",
-      "name": "claude-quickstarts",
-      "url": "https://github.com/anthropics/claude-quickstarts",
-      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 20484,
-      "forks": 3469,
-      "stars_since": "531",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/286490957?s=40&v=4",
-          "username": "cj-ant"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4421754?s=40&v=4",
-          "username": "x5a"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/34638987?s=40&v=4",
-          "username": "alexalbertt"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/346275?s=40&v=4",
-          "username": "zealoushacker"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 5,
-      "full_name": "google-deepmind/mujoco",
-      "owner": "google-deepmind",
-      "name": "mujoco",
-      "url": "https://github.com/google-deepmind/mujoco",
-      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
-      "language": "C++",
-      "language_color": "#f34b7d",
-      "stars": 17342,
-      "forks": 2146,
-      "stars_since": "456",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6387526?s=40&v=4",
-          "username": "yuvaltassa"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/102665781?s=40&v=4",
-          "username": "quagla"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/29288912?s=40&v=4",
-          "username": "haroonq"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/42924292?s=40&v=4",
-          "username": "kbayes"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2200217?s=40&v=4",
-          "username": "saran-t"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 6,
-      "full_name": "we-promise/sure",
-      "owner": "we-promise",
-      "name": "sure",
-      "url": "https://github.com/we-promise/sure",
-      "description": "The personal finance app for everyone (by everyone)",
-      "language": "Ruby",
-      "language_color": "#701516",
-      "stars": 11921,
-      "forks": 888,
-      "stars_since": "159",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/187772?s=40&v=4",
-          "username": "jjmata"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/16676157?s=40&v=4",
-          "username": "zachgoll"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/35243?s=40&v=4",
-          "username": "Shpigford"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 7,
-      "full_name": "homeassistant-ai/ha-mcp",
-      "owner": "homeassistant-ai",
-      "name": "ha-mcp",
-      "url": "https://github.com/homeassistant-ai/ha-mcp",
-      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 6640,
-      "forks": 429,
-      "stars_since": "790",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/25392815?s=40&v=4",
-          "username": "kingpanther13"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/3122659?s=40&v=4",
-          "username": "julienld"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 8,
       "full_name": "vercel-labs/agent-browser",
       "owner": "vercel-labs",
       "name": "agent-browser",
@@ -259,9 +191,9 @@
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
       "language_color": "#dea584",
-      "stars": 49193,
-      "forks": 3448,
-      "stars_since": "780",
+      "stars": 49896,
+      "forks": 3491,
+      "stars_since": "708",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -285,137 +217,133 @@
       "source": "github"
     },
     {
-      "rank": 9,
-      "full_name": "sherlock-project/sherlock",
-      "owner": "sherlock-project",
-      "name": "sherlock",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "description": "Hunt down social media accounts by username across social networks",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 108942,
-      "forks": 12655,
-      "stars_since": "2,393",
+      "rank": 7,
+      "full_name": "we-promise/sure",
+      "owner": "we-promise",
+      "name": "sure",
+      "url": "https://github.com/we-promise/sure",
+      "description": "The personal finance app for everyone (by everyone)",
+      "language": "Ruby",
+      "language_color": "#701516",
+      "stars": 12992,
+      "forks": 959,
+      "stars_since": "1,078",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/27065646?s=40&v=4",
-          "username": "sdushantha"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1666888?s=40&v=4",
-          "username": "hoadlck"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/33327613?s=40&v=4",
-          "username": "ppfeister"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/15307244?s=40&v=4",
-          "username": "TheYahya"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13371865?s=40&v=4",
-          "username": "Czechball"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 10,
-      "full_name": "tokio-rs/topcoat",
-      "owner": "tokio-rs",
-      "name": "topcoat",
-      "url": "https://github.com/tokio-rs/topcoat",
-      "description": "A batteries-included framework for building web apps",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 6800,
-      "forks": 300,
-      "stars_since": "192",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/8947616?s=40&v=4",
-          "username": "pikaju"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/31693992?s=40&v=4",
-          "username": "akoll"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6180?s=40&v=4",
-          "username": "carllerche"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/62555273?s=40&v=4",
-          "username": "AmeinEskinder"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 11,
-      "full_name": "ranxianglei/billion-context",
-      "owner": "ranxianglei",
-      "name": "billion-context",
-      "url": "https://github.com/ranxianglei/billion-context",
-      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 6303,
-      "forks": 527,
-      "stars_since": "375",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/12445698?s=40&v=4",
-          "username": "ranxianglei"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/154221037?s=40&v=4",
-          "username": "YunzhouLi-hub"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/128966342?s=40&v=4",
-          "username": "z0d0dOr"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/98598692?s=40&v=4",
-          "username": "yanhuojiyusheng"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 12,
-      "full_name": "mattpocock/skills",
-      "owner": "mattpocock",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "language_color": "#89e051",
-      "stars": 320890,
-      "forks": 26909,
-      "stars_since": "1,225",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/28293365?s=40&v=4",
-          "username": "mattpocock"
+          "avatar": "https://avatars.githubusercontent.com/u/187772?s=40&v=4",
+          "username": "jjmata"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/39256258?s=40&v=4",
-          "username": "gabimoncha"
+          "avatar": "https://avatars.githubusercontent.com/u/16676157?s=40&v=4",
+          "username": "zachgoll"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/35243?s=40&v=4",
+          "username": "Shpigford"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 8,
+      "full_name": "homeassistant-ai/ha-mcp",
+      "owner": "homeassistant-ai",
+      "name": "ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 7390,
+      "forks": 454,
+      "stars_since": "645",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/25392815?s=40&v=4",
+          "username": "kingpanther13"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3122659?s=40&v=4",
+          "username": "julienld"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 9,
+      "full_name": "openai/codex-security",
+      "owner": "openai",
+      "name": "codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 11771,
+      "forks": 941,
+      "stars_since": "52",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/269034524?s=40&v=4",
+          "username": "mldangelo-oai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/267193182?s=40&v=4",
+          "username": "codex"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/269041055?s=40&v=4",
+          "username": "ianw-oai"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/272643392?s=40&v=4",
+          "username": "kmbroai"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 10,
+      "full_name": "TheAlgorithms/Java",
+      "owner": "TheAlgorithms",
+      "name": "Java",
+      "url": "https://github.com/TheAlgorithms/Java",
+      "description": "All Algorithms implemented in Java",
+      "language": "Java",
+      "language_color": "#b07219",
+      "stars": 67045,
+      "forks": 21510,
+      "stars_since": "51",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/19151554?s=40&v=4",
+          "username": "alxkm"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/65706193?s=40&v=4",
+          "username": "vil02"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/97388607?s=40&v=4",
+          "username": "Hardvan"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/21008209?s=40&v=4",
+          "username": "yanglbme"
         }
       ],
       "source": "github"
