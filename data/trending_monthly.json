@@ -2,44 +2,6 @@
   "repos": [
     {
       "rank": 1,
-      "full_name": "morluto/rea",
-      "owner": "morluto",
-      "name": "rea",
-      "url": "https://github.com/morluto/rea",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 455290,
-      "forks": 111815,
-      "stars_since": "325,178",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/76467478?s=40&v=4",
-          "username": "morluto"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/208281322?s=40&v=4",
-          "username": "kaoru0822-kitauji"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/161784452?s=40&v=4",
-          "username": "N0zoM1z0"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/342580529?s=40&v=4",
-          "username": "gensokyo-dev"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 2,
       "full_name": "Nutlope/hallmark",
       "owner": "Nutlope",
       "name": "hallmark",
@@ -47,9 +9,9 @@
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
       "language_color": "#663399",
-      "stars": 54013,
-      "forks": 2884,
-      "stars_since": "24,106",
+      "stars": 54520,
+      "forks": 2911,
+      "stars_since": "24,631",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -77,6 +39,44 @@
       "source": "github"
     },
     {
+      "rank": 2,
+      "full_name": "morluto/rea",
+      "owner": "morluto",
+      "name": "rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 457663,
+      "forks": 112304,
+      "stars_since": "271,084",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/76467478?s=40&v=4",
+          "username": "morluto"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/208281322?s=40&v=4",
+          "username": "kaoru0822-kitauji"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/161784452?s=40&v=4",
+          "username": "N0zoM1z0"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/342580529?s=40&v=4",
+          "username": "gensokyo-dev"
+        }
+      ],
+      "source": "github"
+    },
+    {
       "rank": 3,
       "full_name": "cloudflare/security-audit-skill",
       "owner": "cloudflare",
@@ -85,9 +85,9 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 71214,
-      "forks": 4735,
-      "stars_since": "42,602",
+      "stars": 71924,
+      "forks": 4791,
+      "stars_since": "42,839",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -115,9 +115,9 @@
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 116574,
-      "forks": 10110,
-      "stars_since": "17,162",
+      "stars": 116846,
+      "forks": 10139,
+      "stars_since": "17,120",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -153,9 +153,9 @@
       "description": "The best way to control Claude Code, Codex and more from any computer or phone",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 58382,
-      "forks": 10676,
-      "stars_since": "30,926",
+      "stars": 59588,
+      "forks": 10800,
+      "stars_since": "32,057",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -191,9 +191,9 @@
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
       "language_color": "#dea584",
-      "stars": 108994,
-      "forks": 6492,
-      "stars_since": "29,165",
+      "stars": 109599,
+      "forks": 6535,
+      "stars_since": "29,328",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -225,9 +225,9 @@
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 83438,
-      "forks": 7703,
-      "stars_since": "22,251",
+      "stars": 83941,
+      "forks": 7754,
+      "stars_since": "21,924",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -263,9 +263,9 @@
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 58652,
-      "forks": 7128,
-      "stars_since": "17,692",
+      "stars": 58943,
+      "forks": 7155,
+      "stars_since": "17,913",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -297,9 +297,9 @@
       "description": "Public repository for Agent Skills",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 193700,
-      "forks": 22788,
-      "stars_since": "13,440",
+      "stars": 194141,
+      "forks": 22831,
+      "stars_since": "13,734",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -328,6 +328,40 @@
     },
     {
       "rank": 10,
+      "full_name": "AgriciDaniel/claude-seo",
+      "owner": "AgriciDaniel",
+      "name": "claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 29070,
+      "forks": 3702,
+      "stars_since": "10,190",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/223140489?s=40&v=4",
+          "username": "AgriciDaniel"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
+          "username": "rudycelekli"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/129338099?s=40&v=4",
+          "username": "Nordalux"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 11,
       "full_name": "debpalash/VoiceStudio",
       "owner": "debpalash",
       "name": "VoiceStudio",
@@ -335,9 +369,9 @@
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 109194,
-      "forks": 12101,
-      "stars_since": "49,960",
+      "stars": 109973,
+      "forks": 12188,
+      "stars_since": "48,848",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -365,40 +399,6 @@
       "source": "github"
     },
     {
-      "rank": 11,
-      "full_name": "anthropics/claude-plugins-official",
-      "owner": "anthropics",
-      "name": "claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 47055,
-      "forks": 4883,
-      "stars_since": "9,515",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/8000722?s=40&v=4",
-          "username": "mhegazy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/305637556?s=40&v=4",
-          "username": "jordanecker-ant"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/238056179?s=40&v=4",
-          "username": "bryan-anthropic"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 12,
       "full_name": "Leonxlnx/taste-skill",
       "owner": "Leonxlnx",
@@ -407,9 +407,9 @@
       "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 114304,
-      "forks": 7692,
-      "stars_since": "19,580",
+      "stars": 115045,
+      "forks": 7719,
+      "stars_since": "19,948",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -438,40 +438,6 @@
     },
     {
       "rank": 13,
-      "full_name": "AgriciDaniel/claude-seo",
-      "owner": "AgriciDaniel",
-      "name": "claude-seo",
-      "url": "https://github.com/AgriciDaniel/claude-seo",
-      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 28686,
-      "forks": 3672,
-      "stars_since": "9,819",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/223140489?s=40&v=4",
-          "username": "AgriciDaniel"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
-          "username": "rudycelekli"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/129338099?s=40&v=4",
-          "username": "Nordalux"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 14,
       "full_name": "anthropics/knowledge-work-plugins",
       "owner": "anthropics",
       "name": "knowledge-work-plugins",
@@ -479,9 +445,9 @@
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 35586,
-      "forks": 3936,
-      "stars_since": "6,451",
+      "stars": 35670,
+      "forks": 3946,
+      "stars_since": "6,311",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -500,6 +466,74 @@
         {
           "avatar": "https://avatars.githubusercontent.com/u/227474486?s=40&v=4",
           "username": "mattpic-ant"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 14,
+      "full_name": "anthropics/claude-plugins-official",
+      "owner": "anthropics",
+      "name": "claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 47196,
+      "forks": 4896,
+      "stars_since": "9,580",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/8000722?s=40&v=4",
+          "username": "mhegazy"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/305637556?s=40&v=4",
+          "username": "jordanecker-ant"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/238056179?s=40&v=4",
+          "username": "bryan-anthropic"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 15,
+      "full_name": "vercel-labs/agent-browser",
+      "owner": "vercel-labs",
+      "name": "agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 50719,
+      "forks": 3526,
+      "stars_since": "6,810",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&v=4",
+          "username": "ctate"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/51397083?s=40&v=4",
+          "username": "Railly"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/70215676?s=40&v=4",
+          "username": "lahfir"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
         }
       ],
       "source": "github"
