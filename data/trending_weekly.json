@@ -2,6 +2,40 @@
   "repos": [
     {
       "rank": 1,
+      "full_name": "meta/astryx",
+      "owner": "meta",
+      "name": "astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 28122,
+      "forks": 2192,
+      "stars_since": "13,375",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2781099?s=40&v=4",
+          "username": "cixzhang"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/17398284?s=40&v=4",
+          "username": "josephfarina"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/254546175?s=40&v=4",
+          "username": "rubyycheung"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/197597?s=40&v=4",
+          "username": "vjeux"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 2,
       "full_name": "sherlock-project/sherlock",
       "owner": "sherlock-project",
       "name": "sherlock",
@@ -9,8 +43,8 @@
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 111132,
-      "forks": 12860,
+      "stars": 111764,
+      "forks": 12932,
       "stars_since": "13,364",
       "since": "weekly",
       "period_label": "this week",
@@ -39,7 +73,7 @@
       "source": "github"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "full_name": "anthropics/skills",
       "owner": "anthropics",
       "name": "skills",
@@ -47,8 +81,8 @@
       "description": "Public repository for Agent Skills",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 194141,
-      "forks": 22831,
+      "stars": 194614,
+      "forks": 22899,
       "stars_since": "6,169",
       "since": "weekly",
       "period_label": "this week",
@@ -77,44 +111,6 @@
       "source": "github"
     },
     {
-      "rank": 3,
-      "full_name": "milind-soni/OpenMausBot",
-      "owner": "milind-soni",
-      "name": "OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 22184,
-      "forks": 3077,
-      "stars_since": "7,763",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/46266943?s=40&v=4",
-          "username": "milind-soni"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/255997030?s=40&v=4",
-          "username": "aivsomkar"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/146627237?s=40&v=4",
-          "username": "AdityaUmale"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/331326017?s=40&v=4",
-          "username": "robinsonnblack"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 4,
       "full_name": "vercel-labs/agent-browser",
       "owner": "vercel-labs",
@@ -123,8 +119,8 @@
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
       "language_color": "#dea584",
-      "stars": 50719,
-      "forks": 3526,
+      "stars": 51192,
+      "forks": 3574,
       "stars_since": "4,360",
       "since": "weekly",
       "period_label": "this week",
@@ -157,8 +153,8 @@
       "description": "Open-source plugin for designing and reviewing software with agents",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 18620,
-      "forks": 1388,
+      "stars": 19169,
+      "forks": 1421,
       "stars_since": "5,560",
       "since": "weekly",
       "period_label": "this week",
@@ -184,6 +180,44 @@
     },
     {
       "rank": 6,
+      "full_name": "milind-soni/OpenMausBot",
+      "owner": "milind-soni",
+      "name": "OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 22754,
+      "forks": 3166,
+      "stars_since": "7,763",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/46266943?s=40&v=4",
+          "username": "milind-soni"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/255997030?s=40&v=4",
+          "username": "aivsomkar"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/146627237?s=40&v=4",
+          "username": "AdityaUmale"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/331326017?s=40&v=4",
+          "username": "robinsonnblack"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 7,
       "full_name": "ZhuLinsen/daily_stock_analysis",
       "owner": "ZhuLinsen",
       "name": "daily_stock_analysis",
@@ -191,8 +225,8 @@
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 71586,
-      "forks": 57281,
+      "stars": 72250,
+      "forks": 57475,
       "stars_since": "3,778",
       "since": "weekly",
       "period_label": "this week",
@@ -221,44 +255,6 @@
       "source": "github"
     },
     {
-      "rank": 7,
-      "full_name": "NVIDIA/auto-ontology",
-      "owner": "NVIDIA",
-      "name": "auto-ontology",
-      "url": "https://github.com/NVIDIA/auto-ontology",
-      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 12554,
-      "forks": 1028,
-      "stars_since": "4,108",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/263323607?s=40&v=4",
-          "username": "DinaLaptii"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/21292702?s=40&v=4",
-          "username": "yuvalshkolar"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/29655923?s=40&v=4",
-          "username": "liavnave"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/263700388?s=40&v=4",
-          "username": "liofnv"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/263323887?s=40&v=4",
-          "username": "tomer-levin-nv"
-        }
-      ],
-      "source": "github"
-    },
-    {
       "rank": 8,
       "full_name": "google-deepmind/mujoco",
       "owner": "google-deepmind",
@@ -267,8 +263,8 @@
       "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "language": "C++",
       "language_color": "#f34b7d",
-      "stars": 17874,
-      "forks": 2188,
+      "stars": 17978,
+      "forks": 2200,
       "stars_since": "1,764",
       "since": "weekly",
       "period_label": "this week",
@@ -298,30 +294,38 @@
     },
     {
       "rank": 9,
-      "full_name": "mattpocock/skills",
-      "owner": "mattpocock",
-      "name": "skills",
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "language_color": "#89e051",
-      "stars": 323824,
-      "forks": 27176,
-      "stars_since": "7,599",
+      "full_name": "backnotprop/plannotator",
+      "owner": "backnotprop",
+      "name": "plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 11094,
+      "forks": 923,
+      "stars_since": "511",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/28293365?s=40&v=4",
-          "username": "mattpocock"
+          "avatar": "https://avatars.githubusercontent.com/u/7244317?s=40&v=4",
+          "username": "backnotprop"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/39256258?s=40&v=4",
-          "username": "gabimoncha"
+          "avatar": "https://avatars.githubusercontent.com/u/110197373?s=40&v=4",
+          "username": "utpalsinghdev"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/47978193?s=40&v=4",
+          "username": "leoreisdias"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1078682?s=40&v=4",
+          "username": "uvw"
         }
       ],
       "source": "github"
@@ -335,8 +339,8 @@
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 117144,
-      "forks": 12250,
+      "stars": 117558,
+      "forks": 12296,
       "stars_since": "3,502",
       "since": "weekly",
       "period_label": "this week",
@@ -366,74 +370,6 @@
     },
     {
       "rank": 11,
-      "full_name": "cloudflare/security-audit-skill",
-      "owner": "cloudflare",
-      "name": "security-audit-skill",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 71924,
-      "forks": 4791,
-      "stars_since": "8,829",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/9935415?s=40&v=4",
-          "username": "literally-dan"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/59650384?s=40&v=4",
-          "username": "CooperSheroy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/228360615?s=40&v=4",
-          "username": "kennysarnoski-jarvis"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 12,
-      "full_name": "zed-industries/zed",
-      "owner": "zed-industries",
-      "name": "zed",
-      "url": "https://github.com/zed-industries/zed",
-      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 94961,
-      "forks": 11697,
-      "stars_since": "2,117",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/482957?s=40&v=4",
-          "username": "as-cii"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/326587?s=40&v=4",
-          "username": "maxbrunsfeld"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1486634?s=40&v=4",
-          "username": "maxdeviant"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1789?s=40&v=4",
-          "username": "nathansobo"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/94272?s=40&v=4",
-          "username": "ConradIrwin"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 13,
       "full_name": "anthropics/claude-quickstarts",
       "owner": "anthropics",
       "name": "claude-quickstarts",
@@ -441,8 +377,8 @@
       "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 20869,
-      "forks": 3490,
+      "stars": 20974,
+      "forks": 3497,
       "stars_since": "1,731",
       "since": "weekly",
       "period_label": "this week",
@@ -466,66 +402,6 @@
         {
           "avatar": "https://avatars.githubusercontent.com/u/346275?s=40&v=4",
           "username": "zealoushacker"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 14,
-      "full_name": "vercel-labs/agent-desktop",
-      "owner": "vercel-labs",
-      "name": "agent-desktop",
-      "url": "https://github.com/vercel-labs/agent-desktop",
-      "description": "Computer use CLI for AI agents",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 23290,
-      "forks": 1725,
-      "stars_since": "5,408",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/70215676?s=40&v=4",
-          "username": "lahfir"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&v=4",
-          "username": "ctate"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 15,
-      "full_name": "lobehub/lobehub",
-      "owner": "lobehub",
-      "name": "lobehub",
-      "url": "https://github.com/lobehub/lobehub",
-      "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 85393,
-      "forks": 16292,
-      "stars_since": "1,126",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/28616219?s=40&v=4",
-          "username": "arvinxx"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/32174276?s=40&v=4",
-          "username": "semantic-release-bot"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/41773861?s=40&v=4",
-          "username": "tjx666"
         }
       ],
       "source": "github"
