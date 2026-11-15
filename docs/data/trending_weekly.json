@@ -9,9 +9,9 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 28122,
-      "forks": 2192,
-      "stars_since": "13,375",
+      "stars": 28835,
+      "forks": 2252,
+      "stars_since": "13,660",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -36,44 +36,6 @@
     },
     {
       "rank": 2,
-      "full_name": "sherlock-project/sherlock",
-      "owner": "sherlock-project",
-      "name": "sherlock",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "description": "Hunt down social media accounts by username across social networks",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 111764,
-      "forks": 12932,
-      "stars_since": "13,364",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/27065646?s=40&v=4",
-          "username": "sdushantha"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1666888?s=40&v=4",
-          "username": "hoadlck"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/33327613?s=40&v=4",
-          "username": "ppfeister"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/15307244?s=40&v=4",
-          "username": "TheYahya"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/13371865?s=40&v=4",
-          "username": "Czechball"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 3,
       "full_name": "anthropics/skills",
       "owner": "anthropics",
       "name": "skills",
@@ -81,9 +43,9 @@
       "description": "Public repository for Agent Skills",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 194614,
-      "forks": 22899,
-      "stars_since": "6,169",
+      "stars": 195344,
+      "forks": 22961,
+      "stars_since": "6,220",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -111,189 +73,45 @@
       "source": "github"
     },
     {
+      "rank": 3,
+      "full_name": "sherlock-project/sherlock",
+      "owner": "sherlock-project",
+      "name": "sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 112467,
+      "forks": 12987,
+      "stars_since": "12,401",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/27065646?s=40&v=4",
+          "username": "sdushantha"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1666888?s=40&v=4",
+          "username": "hoadlck"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/33327613?s=40&v=4",
+          "username": "ppfeister"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/15307244?s=40&v=4",
+          "username": "TheYahya"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/13371865?s=40&v=4",
+          "username": "Czechball"
+        }
+      ],
+      "source": "github"
+    },
+    {
       "rank": 4,
-      "full_name": "vercel-labs/agent-browser",
-      "owner": "vercel-labs",
-      "name": "agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "language": "Rust",
-      "language_color": "#dea584",
-      "stars": 51192,
-      "forks": 3574,
-      "stars_since": "4,360",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&v=4",
-          "username": "ctate"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/51397083?s=40&v=4",
-          "username": "Railly"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/70215676?s=40&v=4",
-          "username": "lahfir"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 5,
-      "full_name": "google/elephant-goldfish-model",
-      "owner": "google",
-      "name": "elephant-goldfish-model",
-      "url": "https://github.com/google/elephant-goldfish-model",
-      "description": "Open-source plugin for designing and reviewing software with agents",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 19169,
-      "forks": 1421,
-      "stars_since": "5,560",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/5912894?s=40&v=4",
-          "username": "n3wth"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/329134269?s=40&v=4",
-          "username": "briansuchy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/22433831?s=40&v=4",
-          "username": "eewing314"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/270992383?s=40&v=4",
-          "username": "briansuchy-goog"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 6,
-      "full_name": "milind-soni/OpenMausBot",
-      "owner": "milind-soni",
-      "name": "OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 22754,
-      "forks": 3166,
-      "stars_since": "7,763",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/46266943?s=40&v=4",
-          "username": "milind-soni"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/255997030?s=40&v=4",
-          "username": "aivsomkar"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/146627237?s=40&v=4",
-          "username": "AdityaUmale"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/331326017?s=40&v=4",
-          "username": "robinsonnblack"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 7,
-      "full_name": "ZhuLinsen/daily_stock_analysis",
-      "owner": "ZhuLinsen",
-      "name": "daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 72250,
-      "forks": 57475,
-      "stars_since": "3,778",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/42829555?s=40&v=4",
-          "username": "ZhuLinsen"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/176381099?s=40&v=4",
-          "username": "massif-01"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/56824280?s=40&v=4",
-          "username": "freesme"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/30621586?s=40&v=4",
-          "username": "Activer007"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/36181736?s=40&v=4",
-          "username": "birdxs"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 8,
-      "full_name": "google-deepmind/mujoco",
-      "owner": "google-deepmind",
-      "name": "mujoco",
-      "url": "https://github.com/google-deepmind/mujoco",
-      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
-      "language": "C++",
-      "language_color": "#f34b7d",
-      "stars": 17978,
-      "forks": 2200,
-      "stars_since": "1,764",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/6387526?s=40&v=4",
-          "username": "yuvaltassa"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/102665781?s=40&v=4",
-          "username": "quagla"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/29288912?s=40&v=4",
-          "username": "haroonq"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/42924292?s=40&v=4",
-          "username": "kbayes"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/12521315?s=40&v=4",
-          "username": "thowell"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 9,
       "full_name": "backnotprop/plannotator",
       "owner": "backnotprop",
       "name": "plannotator",
@@ -301,9 +119,9 @@
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 11094,
-      "forks": 923,
-      "stars_since": "511",
+      "stars": 11815,
+      "forks": 1082,
+      "stars_since": "818",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -331,7 +149,223 @@
       "source": "github"
     },
     {
+      "rank": 5,
+      "full_name": "vercel-labs/agent-browser",
+      "owner": "vercel-labs",
+      "name": "agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "language_color": "#dea584",
+      "stars": 51602,
+      "forks": 3608,
+      "stars_since": "4,601",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/366502?s=40&v=4",
+          "username": "ctate"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/51397083?s=40&v=4",
+          "username": "Railly"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/70215676?s=40&v=4",
+          "username": "lahfir"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 6,
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "owner": "ZhuLinsen",
+      "name": "daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 72496,
+      "forks": 57569,
+      "stars_since": "4,526",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/42829555?s=40&v=4",
+          "username": "ZhuLinsen"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/176381099?s=40&v=4",
+          "username": "massif-01"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/56824280?s=40&v=4",
+          "username": "freesme"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/30621586?s=40&v=4",
+          "username": "Activer007"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/36181736?s=40&v=4",
+          "username": "birdxs"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 7,
+      "full_name": "we-promise/sure",
+      "owner": "we-promise",
+      "name": "sure",
+      "url": "https://github.com/we-promise/sure",
+      "description": "The personal finance app for everyone (by everyone)",
+      "language": "Ruby",
+      "language_color": "#701516",
+      "stars": 15696,
+      "forks": 1373,
+      "stars_since": "4,483",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/187772?s=40&v=4",
+          "username": "jjmata"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/16676157?s=40&v=4",
+          "username": "zachgoll"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/35243?s=40&v=4",
+          "username": "Shpigford"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 8,
+      "full_name": "milind-soni/OpenMausBot",
+      "owner": "milind-soni",
+      "name": "OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 23360,
+      "forks": 3242,
+      "stars_since": "6,413",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/46266943?s=40&v=4",
+          "username": "milind-soni"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/255997030?s=40&v=4",
+          "username": "aivsomkar"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/146627237?s=40&v=4",
+          "username": "AdityaUmale"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/331326017?s=40&v=4",
+          "username": "robinsonnblack"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 9,
+      "full_name": "google/elephant-goldfish-model",
+      "owner": "google",
+      "name": "elephant-goldfish-model",
+      "url": "https://github.com/google/elephant-goldfish-model",
+      "description": "Open-source plugin for designing and reviewing software with agents",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 19735,
+      "forks": 1460,
+      "stars_since": "5,539",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5912894?s=40&v=4",
+          "username": "n3wth"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/329134269?s=40&v=4",
+          "username": "briansuchy"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22433831?s=40&v=4",
+          "username": "eewing314"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/270992383?s=40&v=4",
+          "username": "briansuchy-goog"
+        }
+      ],
+      "source": "github"
+    },
+    {
       "rank": 10,
+      "full_name": "google-deepmind/mujoco",
+      "owner": "google-deepmind",
+      "name": "mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "language": "C++",
+      "language_color": "#f34b7d",
+      "stars": 18068,
+      "forks": 2213,
+      "stars_since": "1,859",
+      "since": "weekly",
+      "period_label": "this week",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/6387526?s=40&v=4",
+          "username": "yuvaltassa"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/102665781?s=40&v=4",
+          "username": "quagla"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/29288912?s=40&v=4",
+          "username": "haroonq"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/42924292?s=40&v=4",
+          "username": "kbayes"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/12521315?s=40&v=4",
+          "username": "thowell"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 11,
       "full_name": "addyosmani/agent-skills",
       "owner": "addyosmani",
       "name": "agent-skills",
@@ -339,9 +373,9 @@
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 117558,
-      "forks": 12296,
-      "stars_since": "3,502",
+      "stars": 117934,
+      "forks": 12340,
+      "stars_since": "3,670",
       "since": "weekly",
       "period_label": "this week",
       "contributors": [
@@ -354,54 +388,16 @@
           "username": "nucliweb"
         },
         {
+          "avatar": "https://avatars.githubusercontent.com/u/66267222?s=40&v=4",
+          "username": "ayobamiseun"
+        },
+        {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
           "username": "rudycelekli"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/66267222?s=40&v=4",
-          "username": "ayobamiseun"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 11,
-      "full_name": "anthropics/claude-quickstarts",
-      "owner": "anthropics",
-      "name": "claude-quickstarts",
-      "url": "https://github.com/anthropics/claude-quickstarts",
-      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 20974,
-      "forks": 3497,
-      "stars_since": "1,731",
-      "since": "weekly",
-      "period_label": "this week",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/286490957?s=40&v=4",
-          "username": "cj-ant"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4421754?s=40&v=4",
-          "username": "x5a"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/34638987?s=40&v=4",
-          "username": "alexalbertt"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/346275?s=40&v=4",
-          "username": "zealoushacker"
         }
       ],
       "source": "github"
