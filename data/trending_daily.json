@@ -2,44 +2,6 @@
   "repos": [
     {
       "rank": 1,
-      "full_name": "dream-num/univer",
-      "owner": "dream-num",
-      "name": "univer",
-      "url": "https://github.com/dream-num/univer",
-      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 25586,
-      "forks": 2335,
-      "stars_since": "1,041",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/14025786?s=40&v=4",
-          "username": "jikkai"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/68851825?s=40&v=4",
-          "username": "DR-Univer"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/26315959?s=40&v=4",
-          "username": "wpxp123456"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/12122021?s=40&v=4",
-          "username": "wzhudev"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/26371161?s=40&v=4",
-          "username": "Dushusir"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 2,
       "full_name": "ag-ui-protocol/ag-ui",
       "owner": "ag-ui-protocol",
       "name": "ag-ui",
@@ -47,9 +9,9 @@
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 17825,
-      "forks": 1817,
-      "stars_since": "393",
+      "stars": 19156,
+      "forks": 1971,
+      "stars_since": "791",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -77,45 +39,7 @@
       "source": "github"
     },
     {
-      "rank": 3,
-      "full_name": "google-labs-code/stitch-skills",
-      "owner": "google-labs-code",
-      "name": "stitch-skills",
-      "url": "https://github.com/google-labs-code/stitch-skills",
-      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 9274,
-      "forks": 1125,
-      "stars_since": "248",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/43076783?s=40&v=4",
-          "username": "JLXIA"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4570265?s=40&v=4",
-          "username": "davideast"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/201552351?s=40&v=4",
-          "username": "Emp1500"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/4770?s=40&v=4",
-          "username": "dalmaer"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1460397?s=40&v=4",
-          "username": "meeChn"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 4,
+      "rank": 2,
       "full_name": "backnotprop/plannotator",
       "owner": "backnotprop",
       "name": "plannotator",
@@ -123,9 +47,9 @@
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 11815,
-      "forks": 1082,
-      "stars_since": "860",
+      "stars": 12635,
+      "forks": 1231,
+      "stars_since": "696",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -153,41 +77,295 @@
       "source": "github"
     },
     {
-      "rank": 5,
-      "full_name": "ChromeDevTools/chrome-devtools-mcp",
-      "owner": "ChromeDevTools",
-      "name": "chrome-devtools-mcp",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "description": "Chrome DevTools for coding agents",
+      "rank": 3,
+      "full_name": "dream-num/univer",
+      "owner": "dream-num",
+      "name": "univer",
+      "url": "https://github.com/dream-num/univer",
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 56891,
-      "forks": 4811,
-      "stars_since": "718",
+      "stars": 27859,
+      "forks": 2531,
+      "stars_since": "1,828",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/399150?s=40&v=4",
-          "username": "OrKoN"
+          "avatar": "https://avatars.githubusercontent.com/u/14025786?s=40&v=4",
+          "username": "jikkai"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/34244704?s=40&v=4",
-          "username": "Lightning00Blade"
+          "avatar": "https://avatars.githubusercontent.com/u/68851825?s=40&v=4",
+          "username": "DR-Univer"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/133232582?s=40&v=4",
-          "username": "browser-automation-bot"
+          "avatar": "https://avatars.githubusercontent.com/u/26315959?s=40&v=4",
+          "username": "wpxp123456"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/11618243?s=40&v=4",
-          "username": "yulunz"
+          "avatar": "https://avatars.githubusercontent.com/u/12122021?s=40&v=4",
+          "username": "wzhudev"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/26371161?s=40&v=4",
+          "username": "Dushusir"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 4,
+      "full_name": "tradermonty/claude-trading-skills",
+      "owner": "tradermonty",
+      "name": "claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 6374,
+      "forks": 1332,
+      "stars_since": "837",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/205491838?s=40&v=4",
+          "username": "tradermonty"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/270693131?s=40&v=4",
+          "username": "raikkonenPotter"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/42257?s=40&v=4",
+          "username": "wolframarnold"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 5,
+      "full_name": "elementalsouls/Claude-BugHunter",
+      "owner": "elementalsouls",
+      "name": "Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 7486,
+      "forks": 1155,
+      "stars_since": "1,094",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/66463177?s=40&v=4",
+          "username": "injectifytest"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/49252733?s=40&v=4",
+          "username": "elementalsouls"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
+          "username": "rudycelekli"
         }
       ],
       "source": "github"
     },
     {
       "rank": 6,
+      "full_name": "getarcaneapp/arcane",
+      "owner": "getarcaneapp",
+      "name": "arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "language": "Go",
+      "language_color": "#00ADD8",
+      "stars": 8799,
+      "forks": 408,
+      "stars_since": "46",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/25576967?s=40&v=4",
+          "username": "kmendell"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/242722930?s=40&v=4",
+          "username": "getarcaneappbot"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/104145051?s=40&v=4",
+          "username": "cabaucom376"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/180265839?s=40&v=4",
+          "username": "GiulioSavini"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 7,
+      "full_name": "DeanChensj/jiangshan-map",
+      "owner": "DeanChensj",
+      "name": "jiangshan-map",
+      "url": "https://github.com/DeanChensj/jiangshan-map",
+      "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 6922,
+      "forks": 802,
+      "stars_since": "288",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/9414763?s=40&v=4",
+          "username": "DeanChensj"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/503123?s=40&v=4",
+          "username": "xcv58"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/14016345?s=40&v=4",
+          "username": "mathieuwang"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/3294106?s=40&v=4",
+          "username": "zsc8917zsc"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 8,
+      "full_name": "google-labs-code/stitch-skills",
+      "owner": "google-labs-code",
+      "name": "stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 9764,
+      "forks": 1244,
+      "stars_since": "529",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/43076783?s=40&v=4",
+          "username": "JLXIA"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4570265?s=40&v=4",
+          "username": "davideast"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/201552351?s=40&v=4",
+          "username": "Emp1500"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/4770?s=40&v=4",
+          "username": "dalmaer"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1460397?s=40&v=4",
+          "username": "meeChn"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 9,
+      "full_name": "mvanhorn/last30days-skill",
+      "owner": "mvanhorn",
+      "name": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 68197,
+      "forks": 6041,
+      "stars_since": "135",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/455140?s=40&v=4",
+          "username": "mvanhorn"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/517103?s=40&v=4",
+          "username": "tmchow"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/158724?s=40&v=4",
+          "username": "iliaal"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 10,
+      "full_name": "NVIDIA/SkillEvaluator",
+      "owner": "NVIDIA",
+      "name": "SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "language": "Python",
+      "language_color": "#3572A5",
+      "stars": 2792,
+      "forks": 367,
+      "stars_since": "873",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/32655573?s=40&v=4",
+          "username": "rng1995"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/256191862?s=40&v=4",
+          "username": "chrisknvidia"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/101849520?s=40&v=4",
+          "username": "YMuskrat"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/11586922?s=40&v=4",
+          "username": "kweinmeister"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 11,
       "full_name": "alibaba/open-code-review",
       "owner": "alibaba",
       "name": "open-code-review",
@@ -195,9 +373,9 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "language_color": "#00ADD8",
-      "stars": 52038,
-      "forks": 4107,
-      "stars_since": "688",
+      "stars": 53014,
+      "forks": 4303,
+      "stars_since": "951",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -225,161 +403,111 @@
       "source": "github"
     },
     {
-      "rank": 7,
-      "full_name": "Tencent/LoopForge",
-      "owner": "Tencent",
-      "name": "LoopForge",
-      "url": "https://github.com/Tencent/LoopForge",
-      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
-      "language": "Go",
-      "language_color": "#00ADD8",
-      "stars": 1450,
-      "forks": 264,
-      "stars_since": "484",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/342010948?s=40&v=4",
-          "username": "fx-kurumi"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/53806540?s=40&v=4",
-          "username": "Robert0622"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/43171452?s=40&v=4",
-          "username": "cocofhu"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 8,
-      "full_name": "ggml-org/ggml",
-      "owner": "ggml-org",
-      "name": "ggml",
-      "url": "https://github.com/ggml-org/ggml",
-      "description": "Tensor library for machine learning",
-      "language": "C++",
-      "language_color": "#f34b7d",
-      "stars": 15896,
-      "forks": 2018,
-      "stars_since": "53",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1991296?s=40&v=4",
-          "username": "ggerganov"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/18492268?s=40&v=4",
-          "username": "JohannesGaessler"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/8260565?s=40&v=4",
-          "username": "jeffbolznv"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/2141330?s=40&v=4",
-          "username": "slaren"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/91686602?s=40&v=4",
-          "username": "lhez"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 9,
-      "full_name": "elementalsouls/Claude-BugHunter",
-      "owner": "elementalsouls",
-      "name": "Claude-BugHunter",
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "rank": 12,
+      "full_name": "google-research/paper-orchestra",
+      "owner": "google-research",
+      "name": "paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 6391,
-      "forks": 967,
-      "stars_since": "221",
+      "stars": 1613,
+      "forks": 244,
+      "stars_since": "313",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
+          "avatar": "https://avatars.githubusercontent.com/u/34639474?s=40&v=4",
+          "username": "yiwen-song"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/66463177?s=40&v=4",
-          "username": "injectifytest"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/49252733?s=40&v=4",
-          "username": "elementalsouls"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/152970?s=40&v=4",
-          "username": "xiaolai"
+          "avatar": "https://avatars.githubusercontent.com/u/31419980?s=40&v=4",
+          "username": "obrienciaran"
         }
       ],
       "source": "github"
     },
     {
-      "rank": 10,
-      "full_name": "GoogleChrome/modern-web-guidance-src",
-      "owner": "GoogleChrome",
-      "name": "modern-web-guidance-src",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "description": "Keep your coding agent up to date with the latest web best practices",
+      "rank": 13,
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "owner": "ChromeDevTools",
+      "name": "chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 7119,
-      "forks": 597,
-      "stars_since": "1,220",
+      "stars": 57731,
+      "forks": 4853,
+      "stars_since": "841",
       "since": "daily",
       "period_label": "today",
       "contributors": [
         {
-          "avatar": "https://avatars.githubusercontent.com/u/39191?s=40&v=4",
-          "username": "paulirish"
+          "avatar": "https://avatars.githubusercontent.com/u/399150?s=40&v=4",
+          "username": "OrKoN"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/1120896?s=40&v=4",
-          "username": "rviscomi"
+          "avatar": "https://avatars.githubusercontent.com/u/34244704?s=40&v=4",
+          "username": "Lightning00Blade"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/126118814?s=40&v=4",
-          "username": "micahjo7"
+          "avatar": "https://avatars.githubusercontent.com/u/133232582?s=40&v=4",
+          "username": "browser-automation-bot"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/175836?s=40&v=4",
-          "username": "LeaVerou"
+          "avatar": "https://avatars.githubusercontent.com/u/11618243?s=40&v=4",
+          "username": "yulunz"
         }
       ],
       "source": "github"
     },
     {
-      "rank": 11,
-      "full_name": "tradermonty/claude-trading-skills",
-      "owner": "tradermonty",
-      "name": "claude-trading-skills",
-      "url": "https://github.com/tradermonty/claude-trading-skills",
-      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "rank": 14,
+      "full_name": "sveltejs/svelte",
+      "owner": "sveltejs",
+      "name": "svelte",
+      "url": "https://github.com/sveltejs/svelte",
+      "description": "web development for the rest of us",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 89026,
+      "forks": 6094,
+      "stars_since": "115",
+      "since": "daily",
+      "period_label": "today",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1162160?s=40&v=4",
+          "username": "Rich-Harris"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/5968653?s=40&v=4",
+          "username": "dummdidumm"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/16696352?s=40&v=4",
+          "username": "Conduitry"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/1519870?s=40&v=4",
+          "username": "trueadm"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 15,
+      "full_name": "kajisho5/ffmpeg-skill",
+      "owner": "kajisho5",
+      "name": "ffmpeg-skill",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 5512,
-      "forks": 1172,
-      "stars_since": "707",
+      "stars": 6889,
+      "forks": 607,
+      "stars_since": "367",
       "since": "daily",
       "period_label": "today",
       "contributors": [
@@ -388,54 +516,8 @@
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/205491838?s=40&v=4",
-          "username": "tradermonty"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/270693131?s=40&v=4",
-          "username": "raikkonenPotter"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/42257?s=40&v=4",
-          "username": "wolframarnold"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 12,
-      "full_name": "NVIDIA/SkillEvaluator",
-      "owner": "NVIDIA",
-      "name": "SkillEvaluator",
-      "url": "https://github.com/NVIDIA/SkillEvaluator",
-      "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 1645,
-      "forks": 227,
-      "stars_since": "205",
-      "since": "daily",
-      "period_label": "today",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/32655573?s=40&v=4",
-          "username": "rng1995"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/256191862?s=40&v=4",
-          "username": "chrisknvidia"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/101849520?s=40&v=4",
-          "username": "YMuskrat"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/11586922?s=40&v=4",
-          "username": "kweinmeister"
+          "avatar": "https://avatars.githubusercontent.com/u/20648875?s=40&v=4",
+          "username": "kajisho5"
         }
       ],
       "source": "github"
