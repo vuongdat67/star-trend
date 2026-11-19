@@ -9,9 +9,9 @@
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
       "language_color": "#663399",
-      "stars": 56921,
-      "forks": 3075,
-      "stars_since": "26,594",
+      "stars": 57551,
+      "forks": 3123,
+      "stars_since": "27,295",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -47,9 +47,9 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
       "language_color": "#f1e05a",
-      "stars": 74829,
-      "forks": 5011,
-      "stars_since": "44,314",
+      "stars": 75388,
+      "forks": 5061,
+      "stars_since": "44,600",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -77,9 +77,9 @@
       "description": "The best way to control Claude Code, Codex and more from any computer or phone",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 64178,
-      "forks": 11306,
-      "stars_since": "35,748",
+      "stars": 65277,
+      "forks": 11443,
+      "stars_since": "36,872",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -108,6 +108,82 @@
     },
     {
       "rank": 4,
+      "full_name": "php/php-src",
+      "owner": "php",
+      "name": "php-src",
+      "url": "https://github.com/php/php-src",
+      "description": "The PHP Interpreter",
+      "language": "C",
+      "language_color": "#555555",
+      "stars": 41810,
+      "forks": 8575,
+      "stars_since": "1,454",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2510034?s=40&v=4",
+          "username": "dstogov"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/216080?s=40&v=4",
+          "username": "nikic"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/22016?s=40&v=4",
+          "username": "weltling"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/2306138?s=40&v=4",
+          "username": "cmb69"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/158724?s=40&v=4",
+          "username": "iliaal"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 5,
+      "full_name": "milind-soni/OpenMausBot",
+      "owner": "milind-soni",
+      "name": "OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 25405,
+      "forks": 3591,
+      "stars_since": "20,270",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/46266943?s=40&v=4",
+          "username": "milind-soni"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/146627237?s=40&v=4",
+          "username": "AdityaUmale"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/255997030?s=40&v=4",
+          "username": "aivsomkar"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/331326017?s=40&v=4",
+          "username": "robinsonnblack"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 6,
       "full_name": "anthropics/skills",
       "owner": "anthropics",
       "name": "skills",
@@ -115,9 +191,9 @@
       "description": "Public repository for Agent Skills",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 196755,
-      "forks": 23064,
-      "stars_since": "15,351",
+      "stars": 197225,
+      "forks": 23097,
+      "stars_since": "15,769",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -145,7 +221,7 @@
       "source": "github"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "full_name": "thedotmack/claude-mem",
       "owner": "thedotmack",
       "name": "claude-mem",
@@ -153,9 +229,9 @@
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 118002,
-      "forks": 10253,
-      "stars_since": "17,236",
+      "stars": 118255,
+      "forks": 10280,
+      "stars_since": "17,311",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -183,7 +259,7 @@
       "source": "github"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "full_name": "pbakaus/impeccable",
       "owner": "pbakaus",
       "name": "impeccable",
@@ -191,9 +267,9 @@
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
       "language_color": "#dea584",
-      "stars": 112233,
-      "forks": 6695,
-      "stars_since": "30,177",
+      "stars": 112922,
+      "forks": 6723,
+      "stars_since": "30,662",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -217,7 +293,45 @@
       "source": "github"
     },
     {
-      "rank": 7,
+      "rank": 9,
+      "full_name": "backnotprop/plannotator",
+      "owner": "backnotprop",
+      "name": "plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 13463,
+      "forks": 1355,
+      "stars_since": "3,868",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/7244317?s=40&v=4",
+          "username": "backnotprop"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/47457359?s=40&v=4",
+          "username": "rudycelekli"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/110197373?s=40&v=4",
+          "username": "utpalsinghdev"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/47978193?s=40&v=4",
+          "username": "leoreisdias"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 10,
       "full_name": "HKUDS/DeepTutor",
       "owner": "HKUDS",
       "name": "DeepTutor",
@@ -225,9 +339,9 @@
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 60088,
-      "forks": 7273,
-      "stars_since": "18,753",
+      "stars": 60504,
+      "forks": 7324,
+      "stars_since": "19,065",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -251,45 +365,7 @@
       "source": "github"
     },
     {
-      "rank": 8,
-      "full_name": "backnotprop/plannotator",
-      "owner": "backnotprop",
-      "name": "plannotator",
-      "url": "https://github.com/backnotprop/plannotator",
-      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "language": "TypeScript",
-      "language_color": "#3178c6",
-      "stars": 13086,
-      "forks": 1314,
-      "stars_since": "3,475",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/7244317?s=40&v=4",
-          "username": "backnotprop"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/110197373?s=40&v=4",
-          "username": "utpalsinghdev"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/47978193?s=40&v=4",
-          "username": "leoreisdias"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/1078682?s=40&v=4",
-          "username": "uvw"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 9,
+      "rank": 11,
       "full_name": "sherlock-project/sherlock",
       "owner": "sherlock-project",
       "name": "sherlock",
@@ -297,9 +373,9 @@
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 113794,
-      "forks": 13098,
-      "stars_since": "19,596",
+      "stars": 114198,
+      "forks": 13131,
+      "stars_since": "20,046",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -327,17 +403,17 @@
       "source": "github"
     },
     {
-      "rank": 10,
+      "rank": 12,
       "full_name": "heygen-com/hyperframes",
       "owner": "heygen-com",
       "name": "hyperframes",
       "url": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
+      "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
       "language": "TypeScript",
       "language_color": "#3178c6",
-      "stars": 86020,
-      "forks": 7967,
-      "stars_since": "20,425",
+      "stars": 86545,
+      "forks": 8036,
+      "stars_since": "20,375",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -346,12 +422,12 @@
           "username": "miguel-heygen"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/337856?s=40&v=4",
-          "username": "vanceingalls"
-        },
-        {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/337856?s=40&v=4",
+          "username": "vanceingalls"
         },
         {
           "avatar": "https://avatars.githubusercontent.com/u/7664106?s=40&v=4",
@@ -365,45 +441,7 @@
       "source": "github"
     },
     {
-      "rank": 11,
-      "full_name": "Leonxlnx/taste-skill",
-      "owner": "Leonxlnx",
-      "name": "taste-skill",
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-      "language": "JavaScript",
-      "language_color": "#f1e05a",
-      "stars": 117778,
-      "forks": 7884,
-      "stars_since": "19,688",
-      "since": "monthly",
-      "period_label": "this month",
-      "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/219127460?s=40&v=4",
-          "username": "Leonxlnx"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
-          "username": "claude"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
-          "username": "cursoragent"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/122161868?s=40&v=4",
-          "username": "HugoSpy"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/36102904?s=40&v=4",
-          "username": "bougieL"
-        }
-      ],
-      "source": "github"
-    },
-    {
-      "rank": 12,
+      "rank": 13,
       "full_name": "AgriciDaniel/claude-seo",
       "owner": "AgriciDaniel",
       "name": "claude-seo",
@@ -411,9 +449,9 @@
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "language": "Python",
       "language_color": "#3572A5",
-      "stars": 30416,
-      "forks": 3799,
-      "stars_since": "11,246",
+      "stars": 30681,
+      "forks": 3826,
+      "stars_since": "11,532",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -441,7 +479,45 @@
       "source": "github"
     },
     {
-      "rank": 13,
+      "rank": 14,
+      "full_name": "Leonxlnx/taste-skill",
+      "owner": "Leonxlnx",
+      "name": "taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "language": "JavaScript",
+      "language_color": "#f1e05a",
+      "stars": 118445,
+      "forks": 7926,
+      "stars_since": "20,055",
+      "since": "monthly",
+      "period_label": "this month",
+      "contributors": [
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/219127460?s=40&v=4",
+          "username": "Leonxlnx"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
+          "username": "claude"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/199161495?s=40&v=4",
+          "username": "cursoragent"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/122161868?s=40&v=4",
+          "username": "HugoSpy"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/36102904?s=40&v=4",
+          "username": "bougieL"
+        }
+      ],
+      "source": "github"
+    },
+    {
+      "rank": 15,
       "full_name": "vercel-labs/agent-browser",
       "owner": "vercel-labs",
       "name": "agent-browser",
@@ -449,9 +525,9 @@
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
       "language_color": "#dea584",
-      "stars": 52389,
-      "forks": 3664,
-      "stars_since": "8,282",
+      "stars": 52655,
+      "forks": 3684,
+      "stars_since": "8,540",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
@@ -475,35 +551,35 @@
       "source": "github"
     },
     {
-      "rank": 14,
-      "full_name": "anthropics/knowledge-work-plugins",
-      "owner": "anthropics",
-      "name": "knowledge-work-plugins",
-      "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "language": "Python",
-      "language_color": "#3572A5",
-      "stars": 36441,
-      "forks": 4024,
-      "stars_since": "6,565",
+      "rank": 16,
+      "full_name": "Vincentwei1021/video-shotcraft",
+      "owner": "Vincentwei1021",
+      "name": "video-shotcraft",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
+      "language": "TypeScript",
+      "language_color": "#3178c6",
+      "stars": 21334,
+      "forks": 1967,
+      "stars_since": "8,934",
       "since": "monthly",
       "period_label": "this month",
       "contributors": [
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/305637556?s=40&v=4",
-          "username": "jordanecker-ant"
-        },
-        {
-          "avatar": "https://avatars.githubusercontent.com/u/238056179?s=40&v=4",
-          "username": "bryan-anthropic"
-        },
         {
           "avatar": "https://avatars.githubusercontent.com/u/81847?s=40&v=4",
           "username": "claude"
         },
         {
-          "avatar": "https://avatars.githubusercontent.com/u/227474486?s=40&v=4",
-          "username": "mattpic-ant"
+          "avatar": "https://avatars.githubusercontent.com/u/18239147?s=40&v=4",
+          "username": "Vincentwei1021"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/15373810?s=40&v=4",
+          "username": "skyzhao1223"
+        },
+        {
+          "avatar": "https://avatars.githubusercontent.com/u/184250974?s=40&v=4",
+          "username": "Nombah501"
         }
       ],
       "source": "github"
