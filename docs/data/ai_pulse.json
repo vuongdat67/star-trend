@@ -435,13 +435,45 @@
       ]
     },
     {
+      "title": "Time Series Structure Learning with Local Causal Parent Discovery",
+      "summary": "Learning and inference on time series can pose significant statistical challenges, including autocorrelated observations, distribution shift over time, and the curse of dimensionality. These challenges complicate the pra...",
+      "url": "https://huggingface.co/papers/2611.26232",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Jacqueline Maasch, Shu Wan, Hank Zhu",
+      "published_at": "2026-11-18",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Teaching Vision-Language-Action Models to Stop Safely",
+      "summary": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions. While prior work has explored task suppression and refusal, stopping prohibited behavior once...",
+      "url": "https://huggingface.co/papers/2611.26239",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 7",
+      "upvotes": 7,
+      "authors": "Zheyuan Liu, Chuhan Wang, Jinduo Guo",
+      "published_at": "2026-11-18",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
       "title": "PAD: Policy-Aware Data Valuation for Autonomous Driving",
       "summary": "End-to-end autonomous driving increasingly depends on scaling training demonstrations, yet data growth does not guarantee proportional gains. However, additional data do not guarantee better policies: a demonstration tha...",
       "url": "https://huggingface.co/papers/2611.25604",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 4",
+      "upvotes": 4,
       "authors": "Chengkai Xu, Yicheng Guo, Jiaqi Liu",
       "published_at": "2026-11-18",
       "tags": [
@@ -472,8 +504,8 @@
       "url": "https://huggingface.co/papers/2611.25200",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 3",
+      "upvotes": 3,
       "authors": "Rohith Pasula, Johari Dramiga, Viraj Shah",
       "published_at": "2026-11-17",
       "tags": [
@@ -488,8 +520,8 @@
       "url": "https://huggingface.co/papers/2611.26627",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 14",
-      "upvotes": 14,
+      "badge": "⭐ 17",
+      "upvotes": 17,
       "authors": "Tuna Han Salih Meral, Kaan Oktay, Alec Helbling",
       "published_at": "2026-11-18",
       "tags": [
@@ -504,8 +536,8 @@
       "url": "https://huggingface.co/papers/2611.23875",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 3",
+      "upvotes": 3,
       "authors": "Ilker Oguz, Colin Christian, Christophe Moser",
       "published_at": "2026-11-17",
       "tags": [
@@ -520,8 +552,8 @@
       "url": "https://huggingface.co/papers/2611.21885",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Jiajun Fan, Neil He, Changyi Yang",
       "published_at": "2026-11-15",
       "tags": [
@@ -536,8 +568,8 @@
       "url": "https://huggingface.co/papers/2611.21053",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Eleftherios Tzanis, Michail E. Klontzas",
       "published_at": "2026-11-15",
       "tags": [
@@ -552,8 +584,8 @@
       "url": "https://huggingface.co/papers/2611.25567",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 9",
-      "upvotes": 9,
+      "badge": "⭐ 11",
+      "upvotes": 11,
       "authors": "Amit Feldman, Ilan Shimshoni, Rotem Dror",
       "published_at": "2026-11-18",
       "tags": [
@@ -616,8 +648,8 @@
       "url": "https://huggingface.co/papers/2611.26450",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Tanmay Sah",
       "published_at": "2026-11-18",
       "tags": [
@@ -632,8 +664,8 @@
       "url": "https://huggingface.co/papers/2611.25179",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 4",
+      "upvotes": 4,
       "authors": "Zirui Song, Jiadong Zhang, Zheng Lu",
       "published_at": "2026-11-17",
       "tags": [
@@ -648,8 +680,8 @@
       "url": "https://huggingface.co/papers/2611.19499",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Afshin Sadeghi, Daniel Becker",
       "published_at": "2026-11-13",
       "tags": [
@@ -664,8 +696,8 @@
       "url": "https://huggingface.co/papers/2611.26286",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 9",
-      "upvotes": 9,
+      "badge": "⭐ 10",
+      "upvotes": 10,
       "authors": "Ilya Gusev",
       "published_at": "2026-11-18",
       "tags": [
@@ -680,8 +712,8 @@
       "url": "https://huggingface.co/papers/2611.26408",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
+      "badge": "⭐ 15",
+      "upvotes": 15,
       "authors": "Timo Ropinski, Sebastian Kranz",
       "published_at": "2026-11-18",
       "tags": [
@@ -712,41 +744,9 @@
       "url": "https://huggingface.co/papers/2611.26073",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 20",
-      "upvotes": 20,
+      "badge": "⭐ 23",
+      "upvotes": 23,
       "authors": "Nagham Omar, Rotem Dror, Almog Gueta",
-      "published_at": "2026-11-18",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Accord: Universal Online Metric Localization and Dense Mapping from one Camera and an IMU",
-      "summary": "Dense metric mapping from a single camera and IMU remains challenging: visual-inertial odometry (VIO) provides metric motion but sparse geometry, whereas feed-forward depth models predict dense structure without ensuring...",
-      "url": "https://huggingface.co/papers/2611.25279",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 9",
-      "upvotes": 9,
-      "authors": "Jaafar Mahmoud, Arthur Movsesyan, Cuong Huynh",
-      "published_at": "2026-11-17",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
-      "summary": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratc...",
-      "url": "https://huggingface.co/papers/2611.26617",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
-      "authors": "Yuxin Jiang, Wenqiang Sun, Jiaqi Li",
       "published_at": "2026-11-18",
       "tags": [
         "paper",
@@ -1008,13 +1008,118 @@
       ]
     },
     {
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "summary": "Hacker News (485 pts, 122 comments) by @rafaelc",
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "485 pts",
+      "upvotes": 485,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Lean verification of the Riemann Hypothesis",
+      "summary": "Hacker News (779 pts, 616 comments) by @g-b-r",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "779 pts",
+      "upvotes": 779,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Inkling-2-Mini in 5.4 GB Memory",
+      "summary": "Hacker News (322 pts, 87 comments) by @k__",
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "322 pts",
+      "upvotes": 322,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Detonating a pile of lead azide",
+      "summary": "Hacker News (492 pts, 324 comments) by @beginning_end",
+      "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "492 pts",
+      "upvotes": 492,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
+      "summary": "Hacker News (704 pts, 225 comments) by @dvaplima",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "704 pts",
+      "upvotes": 704,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Getting the mind to steer the body to steer you",
+      "summary": "Hacker News (118 pts, 45 comments) by @jger15",
+      "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "118 pts",
+      "upvotes": 118,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
+      "summary": "Hacker News (30 pts, 2 comments) by @sebaandrada",
+      "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "30 pts",
+      "upvotes": 30,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
       "title": "Hurried Announcement: Alessandro Masullo GRH",
-      "summary": "Hacker News (1495 pts, 684 comments) by @jasondavies",
+      "summary": "Hacker News (2380 pts, 1151 comments) by @jasondavies",
       "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "1495 pts",
-      "upvotes": 1495,
+      "badge": "2380 pts",
+      "upvotes": 2380,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1023,13 +1128,13 @@
       ]
     },
     {
-      "title": "Inkling 2 Mini",
-      "summary": "Hacker News (622 pts, 102 comments) by @jasondavies",
-      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "title": "My monitor was cutting my download speed by 75%",
+      "summary": "Hacker News (448 pts, 219 comments) by @soheilpro",
+      "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "622 pts",
-      "upvotes": 622,
+      "badge": "448 pts",
+      "upvotes": 448,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1038,13 +1143,13 @@
       ]
     },
     {
-      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
-      "summary": "Hacker News (2330 pts, 1574 comments) by @iamronaldo",
-      "url": "https://alpo.ge/remark.pdf",
+      "title": "PostgreSQL Extensions in Go",
+      "summary": "Hacker News (113 pts, 19 comments) by @valyala",
+      "url": "https://jespino.github.io/gopgext/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "2330 pts",
-      "upvotes": 2330,
+      "badge": "113 pts",
+      "upvotes": 113,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1053,13 +1158,13 @@
       ]
     },
     {
-      "title": "Re: Riemann",
-      "summary": "Hacker News (79 pts, 51 comments) by @_dain_",
-      "url": "https://borretti.me/article/re-riemann",
+      "title": "Advice for the next 100 Rust GUIs",
+      "summary": "Hacker News (44 pts, 4 comments) by @raphlinus",
+      "url": "https://linebender.org/blog/next-100-guis/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "79 pts",
-      "upvotes": 79,
+      "badge": "44 pts",
+      "upvotes": 44,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1068,13 +1173,13 @@
       ]
     },
     {
-      "title": "NINLIVE: The Nine Inch Nails live archive",
-      "summary": "Hacker News (93 pts, 23 comments) by @CharlesW",
-      "url": "https://ninlive.com/",
+      "title": "Tasklet (YC P26) Is Hiring Product and Agent Infra Engineers",
+      "summary": "Hacker News (1 pts, 0 comments) by @mayop100",
+      "url": "https://tasklet.ai/careers",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "93 pts",
-      "upvotes": 93,
+      "badge": "1 pts",
+      "upvotes": 1,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1083,13 +1188,13 @@
       ]
     },
     {
-      "title": "We promoted developers into architects without informing them",
-      "summary": "Hacker News (283 pts, 173 comments) by @QueensGambit",
-      "url": "https://manidoraisamy.com/developer-to-architect.html",
+      "title": "The Emergence of Inequality in the Czech Corded Ware Culture",
+      "summary": "Hacker News (15 pts, 10 comments) by @marojejian",
+      "url": "https://www.jna.uni-kiel.de/index.php/jna/article/view/1560/1746",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "283 pts",
-      "upvotes": 283,
+      "badge": "15 pts",
+      "upvotes": 15,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1098,13 +1203,13 @@
       ]
     },
     {
-      "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
-      "summary": "Hacker News (327 pts, 133 comments) by @archon1410",
-      "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+      "title": "Upload2Shell (CVE-2026-125396)",
+      "summary": "Hacker News (68 pts, 25 comments) by @f311a",
+      "url": "https://pwn.ai/upload2shell",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "327 pts",
-      "upvotes": 327,
+      "badge": "68 pts",
+      "upvotes": 68,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1113,118 +1218,13 @@
       ]
     },
     {
-      "title": "Sir Brian May adds new dimension to Hera asteroid",
-      "summary": "Hacker News (27 pts, 5 comments) by @mooreds",
-      "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/sir-brian-may-adds-new-dimension-to-hera-asteroid",
+      "title": "Tropical Rainforests Species may be surprisingly young",
+      "summary": "Hacker News (36 pts, 16 comments) by @PaulHoule",
+      "url": "https://phys.org/news/2026-11-species-tropical-rainforests-young-emergence.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "27 pts",
-      "upvotes": 27,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "summary": "Hacker News (331 pts, 108 comments) by @lwhsiao",
-      "url": "https://arxiv.org/abs/2611.21885",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "331 pts",
-      "upvotes": 331,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
-      "summary": "Hacker News (94 pts, 13 comments) by @facundo_olano",
-      "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "94 pts",
-      "upvotes": 94,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Finite-time blow-up for the Navier–Stokes equations",
-      "summary": "Hacker News (257 pts, 81 comments) by @trotro",
-      "url": "https://github.com/tristanbuckmaster/navier-stokes/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "257 pts",
-      "upvotes": 257,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "AI may have solved the most important problem in mathematics",
-      "summary": "Hacker News (21 pts, 8 comments) by @vinni2",
-      "url": "https://www.economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "21 pts",
-      "upvotes": 21,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "If you can't explain something in simple terms, you don't understand it (2017)",
-      "summary": "Hacker News (618 pts, 289 comments) by @sammatilda",
-      "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "618 pts",
-      "upvotes": 618,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "And yet, it moves",
-      "summary": "Hacker News (75 pts, 38 comments) by @notfried",
-      "url": "https://signoregalilei.com/2026/11/20/and-yet-it-moves/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "75 pts",
-      "upvotes": 75,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Valkey kills the skiplist, cuts sorted set overhead by up to 43%",
-      "summary": "Hacker News (8 pts, 1 comments) by @reconditerose",
-      "url": "https://valkey.io/blog/from-skiplist-to-b+tree/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "8 pts",
-      "upvotes": 8,
+      "badge": "36 pts",
+      "upvotes": 36,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1833,13 +1833,45 @@
       ]
     },
     {
+      "title": "Time Series Structure Learning with Local Causal Parent Discovery",
+      "summary": "Learning and inference on time series can pose significant statistical challenges, including autocorrelated observations, distribution shift over time, and the curse of dimensionality. These challenges complicate the pra...",
+      "url": "https://huggingface.co/papers/2611.26232",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Jacqueline Maasch, Shu Wan, Hank Zhu",
+      "published_at": "2026-11-18",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Teaching Vision-Language-Action Models to Stop Safely",
+      "summary": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions. While prior work has explored task suppression and refusal, stopping prohibited behavior once...",
+      "url": "https://huggingface.co/papers/2611.26239",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 7",
+      "upvotes": 7,
+      "authors": "Zheyuan Liu, Chuhan Wang, Jinduo Guo",
+      "published_at": "2026-11-18",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
       "title": "PAD: Policy-Aware Data Valuation for Autonomous Driving",
       "summary": "End-to-end autonomous driving increasingly depends on scaling training demonstrations, yet data growth does not guarantee proportional gains. However, additional data do not guarantee better policies: a demonstration tha...",
       "url": "https://huggingface.co/papers/2611.25604",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 4",
+      "upvotes": 4,
       "authors": "Chengkai Xu, Yicheng Guo, Jiaqi Liu",
       "published_at": "2026-11-18",
       "tags": [
@@ -1870,8 +1902,8 @@
       "url": "https://huggingface.co/papers/2611.25200",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
+      "badge": "⭐ 3",
+      "upvotes": 3,
       "authors": "Rohith Pasula, Johari Dramiga, Viraj Shah",
       "published_at": "2026-11-17",
       "tags": [
@@ -1886,8 +1918,8 @@
       "url": "https://huggingface.co/papers/2611.26627",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 14",
-      "upvotes": 14,
+      "badge": "⭐ 17",
+      "upvotes": 17,
       "authors": "Tuna Han Salih Meral, Kaan Oktay, Alec Helbling",
       "published_at": "2026-11-18",
       "tags": [
@@ -1902,8 +1934,8 @@
       "url": "https://huggingface.co/papers/2611.23875",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 3",
+      "upvotes": 3,
       "authors": "Ilker Oguz, Colin Christian, Christophe Moser",
       "published_at": "2026-11-17",
       "tags": [
@@ -1918,8 +1950,8 @@
       "url": "https://huggingface.co/papers/2611.21885",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 8",
+      "upvotes": 8,
       "authors": "Jiajun Fan, Neil He, Changyi Yang",
       "published_at": "2026-11-15",
       "tags": [
@@ -1934,8 +1966,8 @@
       "url": "https://huggingface.co/papers/2611.21053",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Eleftherios Tzanis, Michail E. Klontzas",
       "published_at": "2026-11-15",
       "tags": [
@@ -1950,8 +1982,8 @@
       "url": "https://huggingface.co/papers/2611.25567",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 9",
-      "upvotes": 9,
+      "badge": "⭐ 11",
+      "upvotes": 11,
       "authors": "Amit Feldman, Ilan Shimshoni, Rotem Dror",
       "published_at": "2026-11-18",
       "tags": [
@@ -2014,8 +2046,8 @@
       "url": "https://huggingface.co/papers/2611.26450",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Tanmay Sah",
       "published_at": "2026-11-18",
       "tags": [
@@ -2030,8 +2062,8 @@
       "url": "https://huggingface.co/papers/2611.25179",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
+      "badge": "⭐ 4",
+      "upvotes": 4,
       "authors": "Zirui Song, Jiadong Zhang, Zheng Lu",
       "published_at": "2026-11-17",
       "tags": [
@@ -2046,8 +2078,8 @@
       "url": "https://huggingface.co/papers/2611.19499",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 5",
+      "upvotes": 5,
       "authors": "Afshin Sadeghi, Daniel Becker",
       "published_at": "2026-11-13",
       "tags": [
@@ -2062,8 +2094,8 @@
       "url": "https://huggingface.co/papers/2611.26286",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 9",
-      "upvotes": 9,
+      "badge": "⭐ 10",
+      "upvotes": 10,
       "authors": "Ilya Gusev",
       "published_at": "2026-11-18",
       "tags": [
@@ -2078,8 +2110,8 @@
       "url": "https://huggingface.co/papers/2611.26408",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 12",
-      "upvotes": 12,
+      "badge": "⭐ 15",
+      "upvotes": 15,
       "authors": "Timo Ropinski, Sebastian Kranz",
       "published_at": "2026-11-18",
       "tags": [
@@ -2110,41 +2142,9 @@
       "url": "https://huggingface.co/papers/2611.26073",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 20",
-      "upvotes": 20,
+      "badge": "⭐ 23",
+      "upvotes": 23,
       "authors": "Nagham Omar, Rotem Dror, Almog Gueta",
-      "published_at": "2026-11-18",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Accord: Universal Online Metric Localization and Dense Mapping from one Camera and an IMU",
-      "summary": "Dense metric mapping from a single camera and IMU remains challenging: visual-inertial odometry (VIO) provides metric motion but sparse geometry, whereas feed-forward depth models predict dense structure without ensuring...",
-      "url": "https://huggingface.co/papers/2611.25279",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 9",
-      "upvotes": 9,
-      "authors": "Jaafar Mahmoud, Arthur Movsesyan, Cuong Huynh",
-      "published_at": "2026-11-17",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
-      "summary": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratc...",
-      "url": "https://huggingface.co/papers/2611.26617",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
-      "authors": "Yuxin Jiang, Wenqiang Sun, Jiaqi Li",
       "published_at": "2026-11-18",
       "tags": [
         "paper",
@@ -2406,13 +2406,118 @@
       ]
     },
     {
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "summary": "Hacker News (485 pts, 122 comments) by @rafaelc",
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "485 pts",
+      "upvotes": 485,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Lean verification of the Riemann Hypothesis",
+      "summary": "Hacker News (779 pts, 616 comments) by @g-b-r",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "779 pts",
+      "upvotes": 779,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Inkling-2-Mini in 5.4 GB Memory",
+      "summary": "Hacker News (322 pts, 87 comments) by @k__",
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "322 pts",
+      "upvotes": 322,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Detonating a pile of lead azide",
+      "summary": "Hacker News (492 pts, 324 comments) by @beginning_end",
+      "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "492 pts",
+      "upvotes": 492,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
+      "summary": "Hacker News (704 pts, 225 comments) by @dvaplima",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "704 pts",
+      "upvotes": 704,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "Getting the mind to steer the body to steer you",
+      "summary": "Hacker News (118 pts, 45 comments) by @jger15",
+      "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "118 pts",
+      "upvotes": 118,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
+      "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
+      "summary": "Hacker News (30 pts, 2 comments) by @sebaandrada",
+      "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+      "source": "Hacker News",
+      "category": "Hacker News Tech",
+      "badge": "30 pts",
+      "upvotes": 30,
+      "published_at": "Hôm nay",
+      "tags": [
+        "hackernews",
+        "tech-news",
+        "discussion"
+      ]
+    },
+    {
       "title": "Hurried Announcement: Alessandro Masullo GRH",
-      "summary": "Hacker News (1495 pts, 684 comments) by @jasondavies",
+      "summary": "Hacker News (2380 pts, 1151 comments) by @jasondavies",
       "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "1495 pts",
-      "upvotes": 1495,
+      "badge": "2380 pts",
+      "upvotes": 2380,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2421,13 +2526,13 @@
       ]
     },
     {
-      "title": "Inkling 2 Mini",
-      "summary": "Hacker News (622 pts, 102 comments) by @jasondavies",
-      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "title": "My monitor was cutting my download speed by 75%",
+      "summary": "Hacker News (448 pts, 219 comments) by @soheilpro",
+      "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "622 pts",
-      "upvotes": 622,
+      "badge": "448 pts",
+      "upvotes": 448,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2436,13 +2541,13 @@
       ]
     },
     {
-      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
-      "summary": "Hacker News (2330 pts, 1574 comments) by @iamronaldo",
-      "url": "https://alpo.ge/remark.pdf",
+      "title": "PostgreSQL Extensions in Go",
+      "summary": "Hacker News (113 pts, 19 comments) by @valyala",
+      "url": "https://jespino.github.io/gopgext/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "2330 pts",
-      "upvotes": 2330,
+      "badge": "113 pts",
+      "upvotes": 113,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2451,13 +2556,13 @@
       ]
     },
     {
-      "title": "Re: Riemann",
-      "summary": "Hacker News (79 pts, 51 comments) by @_dain_",
-      "url": "https://borretti.me/article/re-riemann",
+      "title": "Advice for the next 100 Rust GUIs",
+      "summary": "Hacker News (44 pts, 4 comments) by @raphlinus",
+      "url": "https://linebender.org/blog/next-100-guis/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "79 pts",
-      "upvotes": 79,
+      "badge": "44 pts",
+      "upvotes": 44,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2466,13 +2571,13 @@
       ]
     },
     {
-      "title": "NINLIVE: The Nine Inch Nails live archive",
-      "summary": "Hacker News (93 pts, 23 comments) by @CharlesW",
-      "url": "https://ninlive.com/",
+      "title": "Tasklet (YC P26) Is Hiring Product and Agent Infra Engineers",
+      "summary": "Hacker News (1 pts, 0 comments) by @mayop100",
+      "url": "https://tasklet.ai/careers",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "93 pts",
-      "upvotes": 93,
+      "badge": "1 pts",
+      "upvotes": 1,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2481,13 +2586,13 @@
       ]
     },
     {
-      "title": "We promoted developers into architects without informing them",
-      "summary": "Hacker News (283 pts, 173 comments) by @QueensGambit",
-      "url": "https://manidoraisamy.com/developer-to-architect.html",
+      "title": "The Emergence of Inequality in the Czech Corded Ware Culture",
+      "summary": "Hacker News (15 pts, 10 comments) by @marojejian",
+      "url": "https://www.jna.uni-kiel.de/index.php/jna/article/view/1560/1746",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "283 pts",
-      "upvotes": 283,
+      "badge": "15 pts",
+      "upvotes": 15,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2496,13 +2601,13 @@
       ]
     },
     {
-      "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
-      "summary": "Hacker News (327 pts, 133 comments) by @archon1410",
-      "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+      "title": "Upload2Shell (CVE-2026-125396)",
+      "summary": "Hacker News (68 pts, 25 comments) by @f311a",
+      "url": "https://pwn.ai/upload2shell",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "327 pts",
-      "upvotes": 327,
+      "badge": "68 pts",
+      "upvotes": 68,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2511,118 +2616,13 @@
       ]
     },
     {
-      "title": "Sir Brian May adds new dimension to Hera asteroid",
-      "summary": "Hacker News (27 pts, 5 comments) by @mooreds",
-      "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/sir-brian-may-adds-new-dimension-to-hera-asteroid",
+      "title": "Tropical Rainforests Species may be surprisingly young",
+      "summary": "Hacker News (36 pts, 16 comments) by @PaulHoule",
+      "url": "https://phys.org/news/2026-11-species-tropical-rainforests-young-emergence.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "27 pts",
-      "upvotes": 27,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "summary": "Hacker News (331 pts, 108 comments) by @lwhsiao",
-      "url": "https://arxiv.org/abs/2611.21885",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "331 pts",
-      "upvotes": 331,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
-      "summary": "Hacker News (94 pts, 13 comments) by @facundo_olano",
-      "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "94 pts",
-      "upvotes": 94,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Finite-time blow-up for the Navier–Stokes equations",
-      "summary": "Hacker News (257 pts, 81 comments) by @trotro",
-      "url": "https://github.com/tristanbuckmaster/navier-stokes/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "257 pts",
-      "upvotes": 257,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "AI may have solved the most important problem in mathematics",
-      "summary": "Hacker News (21 pts, 8 comments) by @vinni2",
-      "url": "https://www.economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "21 pts",
-      "upvotes": 21,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "If you can't explain something in simple terms, you don't understand it (2017)",
-      "summary": "Hacker News (618 pts, 289 comments) by @sammatilda",
-      "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "618 pts",
-      "upvotes": 618,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "And yet, it moves",
-      "summary": "Hacker News (75 pts, 38 comments) by @notfried",
-      "url": "https://signoregalilei.com/2026/11/20/and-yet-it-moves/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "75 pts",
-      "upvotes": 75,
-      "published_at": "Hôm nay",
-      "tags": [
-        "hackernews",
-        "tech-news",
-        "discussion"
-      ]
-    },
-    {
-      "title": "Valkey kills the skiplist, cuts sorted set overhead by up to 43%",
-      "summary": "Hacker News (8 pts, 1 comments) by @reconditerose",
-      "url": "https://valkey.io/blog/from-skiplist-to-b+tree/",
-      "source": "Hacker News",
-      "category": "Hacker News Tech",
-      "badge": "8 pts",
-      "upvotes": 8,
+      "badge": "36 pts",
+      "upvotes": 36,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
