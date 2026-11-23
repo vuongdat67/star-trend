@@ -456,8 +456,8 @@
       "url": "https://huggingface.co/papers/2611.26239",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
+      "badge": "⭐ 9",
+      "upvotes": 9,
       "authors": "Zheyuan Liu, Chuhan Wang, Jinduo Guo",
       "published_at": "2026-11-18",
       "tags": [
@@ -520,8 +520,8 @@
       "url": "https://huggingface.co/papers/2611.26627",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 17",
-      "upvotes": 17,
+      "badge": "⭐ 20",
+      "upvotes": 20,
       "authors": "Tuna Han Salih Meral, Kaan Oktay, Alec Helbling",
       "published_at": "2026-11-18",
       "tags": [
@@ -552,8 +552,8 @@
       "url": "https://huggingface.co/papers/2611.21885",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 8",
-      "upvotes": 8,
+      "badge": "⭐ 19",
+      "upvotes": 19,
       "authors": "Jiajun Fan, Neil He, Changyi Yang",
       "published_at": "2026-11-15",
       "tags": [
@@ -584,8 +584,8 @@
       "url": "https://huggingface.co/papers/2611.25567",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 11",
-      "upvotes": 11,
+      "badge": "⭐ 12",
+      "upvotes": 12,
       "authors": "Amit Feldman, Ilan Shimshoni, Rotem Dror",
       "published_at": "2026-11-18",
       "tags": [
@@ -600,8 +600,8 @@
       "url": "https://huggingface.co/papers/2611.26540",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 4",
+      "upvotes": 4,
       "authors": "Nathaniel Cohen, Nicolas Dufour, Amélie Royer",
       "published_at": "2026-11-18",
       "tags": [
@@ -616,8 +616,8 @@
       "url": "https://huggingface.co/papers/2611.26211",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 7",
+      "upvotes": 7,
       "authors": "Jiaming Li, Lingzhen Li, Xiaze Yang",
       "published_at": "2026-11-18",
       "tags": [
@@ -632,8 +632,8 @@
       "url": "https://huggingface.co/papers/2611.26511",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Shuang Wu, Jiachen Qian, Youtian Lin",
       "published_at": "2026-11-18",
       "tags": [
@@ -648,8 +648,8 @@
       "url": "https://huggingface.co/papers/2611.26450",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 7",
+      "upvotes": 7,
       "authors": "Tanmay Sah",
       "published_at": "2026-11-18",
       "tags": [
@@ -680,8 +680,8 @@
       "url": "https://huggingface.co/papers/2611.19499",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Afshin Sadeghi, Daniel Becker",
       "published_at": "2026-11-13",
       "tags": [
@@ -712,8 +712,8 @@
       "url": "https://huggingface.co/papers/2611.26408",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 15",
-      "upvotes": 15,
+      "badge": "⭐ 17",
+      "upvotes": 17,
       "authors": "Timo Ropinski, Sebastian Kranz",
       "published_at": "2026-11-18",
       "tags": [
@@ -1008,13 +1008,13 @@
       ]
     },
     {
-      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-      "summary": "Hacker News (485 pts, 122 comments) by @rafaelc",
-      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+      "summary": "Hacker News (100 pts, 55 comments) by @Qision",
+      "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "485 pts",
-      "upvotes": 485,
+      "badge": "100 pts",
+      "upvotes": 100,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1023,13 +1023,13 @@
       ]
     },
     {
-      "title": "Lean verification of the Riemann Hypothesis",
-      "summary": "Hacker News (779 pts, 616 comments) by @g-b-r",
-      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "title": "Nespresso's project to reduce grams of coffee per capsule",
+      "summary": "Hacker News (31 pts, 27 comments) by @bobbiechen",
+      "url": "https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "779 pts",
-      "upvotes": 779,
+      "badge": "31 pts",
+      "upvotes": 31,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1038,13 +1038,13 @@
       ]
     },
     {
-      "title": "Inkling-2-Mini in 5.4 GB Memory",
-      "summary": "Hacker News (322 pts, 87 comments) by @k__",
-      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "summary": "Hacker News (162 pts, 57 comments) by @Retell15",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "322 pts",
-      "upvotes": 322,
+      "badge": "162 pts",
+      "upvotes": 162,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1053,13 +1053,13 @@
       ]
     },
     {
-      "title": "Detonating a pile of lead azide",
-      "summary": "Hacker News (492 pts, 324 comments) by @beginning_end",
-      "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+      "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+      "summary": "Hacker News (319 pts, 138 comments) by @gaws",
+      "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "492 pts",
-      "upvotes": 492,
+      "badge": "319 pts",
+      "upvotes": 319,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1068,13 +1068,13 @@
       ]
     },
     {
-      "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
-      "summary": "Hacker News (704 pts, 225 comments) by @dvaplima",
-      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+      "title": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
+      "summary": "Hacker News (71 pts, 1 comments) by @graemep",
+      "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "704 pts",
-      "upvotes": 704,
+      "badge": "71 pts",
+      "upvotes": 71,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1083,13 +1083,13 @@
       ]
     },
     {
-      "title": "Getting the mind to steer the body to steer you",
-      "summary": "Hacker News (118 pts, 45 comments) by @jger15",
-      "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
+      "title": "GL.iNet Security Notice 2026-11-20",
+      "summary": "Hacker News (45 pts, 18 comments) by @gregsadetsky",
+      "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "118 pts",
-      "upvotes": 118,
+      "badge": "45 pts",
+      "upvotes": 45,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1098,13 +1098,13 @@
       ]
     },
     {
-      "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
-      "summary": "Hacker News (30 pts, 2 comments) by @sebaandrada",
-      "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+      "title": "The Usefulness of Useless Knowledge [pdf] (1939)",
+      "summary": "Hacker News (46 pts, 8 comments) by @hectormauer",
+      "url": "https://www.ias.edu/sites/default/files/library/UsefulnessHarpers.pdf",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "30 pts",
-      "upvotes": 30,
+      "badge": "46 pts",
+      "upvotes": 46,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1113,13 +1113,13 @@
       ]
     },
     {
-      "title": "Hurried Announcement: Alessandro Masullo GRH",
-      "summary": "Hacker News (2380 pts, 1151 comments) by @jasondavies",
-      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "title": "A miniature San Francisco with live buses, planes and boats",
+      "summary": "Hacker News (111 pts, 50 comments) by @dutilh",
+      "url": "https://smallsf.com/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "2380 pts",
-      "upvotes": 2380,
+      "badge": "111 pts",
+      "upvotes": 111,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1128,13 +1128,13 @@
       ]
     },
     {
-      "title": "My monitor was cutting my download speed by 75%",
-      "summary": "Hacker News (448 pts, 219 comments) by @soheilpro",
-      "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+      "title": "Nyx, the Oldest Internet Service Provider",
+      "summary": "Hacker News (85 pts, 8 comments) by @o_-_o",
+      "url": "https://nyx.net/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "448 pts",
-      "upvotes": 448,
+      "badge": "85 pts",
+      "upvotes": 85,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1143,13 +1143,13 @@
       ]
     },
     {
-      "title": "PostgreSQL Extensions in Go",
-      "summary": "Hacker News (113 pts, 19 comments) by @valyala",
-      "url": "https://jespino.github.io/gopgext/",
+      "title": "The struggle for freedom: How BSD escaped AT&T licensing",
+      "summary": "Hacker News (32 pts, 9 comments) by @joonehur",
+      "url": "https://fosscomics.com/posts/16.%20BSD%20Unix%20Part%206%20-%20The%20Struggle%20for%20Freedom/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "113 pts",
-      "upvotes": 113,
+      "badge": "32 pts",
+      "upvotes": 32,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1158,13 +1158,13 @@
       ]
     },
     {
-      "title": "Advice for the next 100 Rust GUIs",
-      "summary": "Hacker News (44 pts, 4 comments) by @raphlinus",
-      "url": "https://linebender.org/blog/next-100-guis/",
+      "title": "Perplexity and Intelligence",
+      "summary": "Hacker News (458 pts, 313 comments) by @acossta",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "44 pts",
-      "upvotes": 44,
+      "badge": "458 pts",
+      "upvotes": 458,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1173,13 +1173,13 @@
       ]
     },
     {
-      "title": "Tasklet (YC P26) Is Hiring Product and Agent Infra Engineers",
-      "summary": "Hacker News (1 pts, 0 comments) by @mayop100",
-      "url": "https://tasklet.ai/careers",
+      "title": "FBI is having a mass hire for IT specialists",
+      "summary": "Hacker News (13 pts, 9 comments) by @illidan1000",
+      "url": "https://apply.fbijobs.gov/psc/ps/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Action=U&FOCUS=Applicant&JobOpeningId=68871&Page=HRS_APP_JBPST_FL&PostingSeq=1&SiteId=1&",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "1 pts",
-      "upvotes": 1,
+      "badge": "13 pts",
+      "upvotes": 13,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1188,13 +1188,13 @@
       ]
     },
     {
-      "title": "The Emergence of Inequality in the Czech Corded Ware Culture",
-      "summary": "Hacker News (15 pts, 10 comments) by @marojejian",
-      "url": "https://www.jna.uni-kiel.de/index.php/jna/article/view/1560/1746",
+      "title": "What Happened to Silicon Valley?",
+      "summary": "Hacker News (369 pts, 211 comments) by @greenyouse",
+      "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "15 pts",
-      "upvotes": 15,
+      "badge": "369 pts",
+      "upvotes": 369,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1203,13 +1203,13 @@
       ]
     },
     {
-      "title": "Upload2Shell (CVE-2026-125396)",
-      "summary": "Hacker News (68 pts, 25 comments) by @f311a",
-      "url": "https://pwn.ai/upload2shell",
+      "title": "Agent swarm trying to solve P vs. NP",
+      "summary": "Hacker News (85 pts, 72 comments) by @bananaflag",
+      "url": "https://pequalnp.com/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "68 pts",
-      "upvotes": 68,
+      "badge": "85 pts",
+      "upvotes": 85,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1218,13 +1218,13 @@
       ]
     },
     {
-      "title": "Tropical Rainforests Species may be surprisingly young",
-      "summary": "Hacker News (36 pts, 16 comments) by @PaulHoule",
-      "url": "https://phys.org/news/2026-11-species-tropical-rainforests-young-emergence.html",
+      "title": "Show HN: I built a game where you are an LLM's subagent",
+      "summary": "Hacker News (265 pts, 60 comments) by @ivantgam",
+      "url": "https://github.com/gulivan/worker755",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "36 pts",
-      "upvotes": 36,
+      "badge": "265 pts",
+      "upvotes": 265,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1854,8 +1854,8 @@
       "url": "https://huggingface.co/papers/2611.26239",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 7",
-      "upvotes": 7,
+      "badge": "⭐ 9",
+      "upvotes": 9,
       "authors": "Zheyuan Liu, Chuhan Wang, Jinduo Guo",
       "published_at": "2026-11-18",
       "tags": [
@@ -1918,8 +1918,8 @@
       "url": "https://huggingface.co/papers/2611.26627",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 17",
-      "upvotes": 17,
+      "badge": "⭐ 20",
+      "upvotes": 20,
       "authors": "Tuna Han Salih Meral, Kaan Oktay, Alec Helbling",
       "published_at": "2026-11-18",
       "tags": [
@@ -1950,8 +1950,8 @@
       "url": "https://huggingface.co/papers/2611.21885",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 8",
-      "upvotes": 8,
+      "badge": "⭐ 19",
+      "upvotes": 19,
       "authors": "Jiajun Fan, Neil He, Changyi Yang",
       "published_at": "2026-11-15",
       "tags": [
@@ -1982,8 +1982,8 @@
       "url": "https://huggingface.co/papers/2611.25567",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 11",
-      "upvotes": 11,
+      "badge": "⭐ 12",
+      "upvotes": 12,
       "authors": "Amit Feldman, Ilan Shimshoni, Rotem Dror",
       "published_at": "2026-11-18",
       "tags": [
@@ -1998,8 +1998,8 @@
       "url": "https://huggingface.co/papers/2611.26540",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 4",
+      "upvotes": 4,
       "authors": "Nathaniel Cohen, Nicolas Dufour, Amélie Royer",
       "published_at": "2026-11-18",
       "tags": [
@@ -2014,8 +2014,8 @@
       "url": "https://huggingface.co/papers/2611.26211",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
+      "badge": "⭐ 7",
+      "upvotes": 7,
       "authors": "Jiaming Li, Lingzhen Li, Xiaze Yang",
       "published_at": "2026-11-18",
       "tags": [
@@ -2030,8 +2030,8 @@
       "url": "https://huggingface.co/papers/2611.26511",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Shuang Wu, Jiachen Qian, Youtian Lin",
       "published_at": "2026-11-18",
       "tags": [
@@ -2046,8 +2046,8 @@
       "url": "https://huggingface.co/papers/2611.26450",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 7",
+      "upvotes": 7,
       "authors": "Tanmay Sah",
       "published_at": "2026-11-18",
       "tags": [
@@ -2078,8 +2078,8 @@
       "url": "https://huggingface.co/papers/2611.19499",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
+      "badge": "⭐ 6",
+      "upvotes": 6,
       "authors": "Afshin Sadeghi, Daniel Becker",
       "published_at": "2026-11-13",
       "tags": [
@@ -2110,8 +2110,8 @@
       "url": "https://huggingface.co/papers/2611.26408",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 15",
-      "upvotes": 15,
+      "badge": "⭐ 17",
+      "upvotes": 17,
       "authors": "Timo Ropinski, Sebastian Kranz",
       "published_at": "2026-11-18",
       "tags": [
@@ -2406,13 +2406,13 @@
       ]
     },
     {
-      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-      "summary": "Hacker News (485 pts, 122 comments) by @rafaelc",
-      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+      "summary": "Hacker News (100 pts, 55 comments) by @Qision",
+      "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "485 pts",
-      "upvotes": 485,
+      "badge": "100 pts",
+      "upvotes": 100,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2421,13 +2421,13 @@
       ]
     },
     {
-      "title": "Lean verification of the Riemann Hypothesis",
-      "summary": "Hacker News (779 pts, 616 comments) by @g-b-r",
-      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "title": "Nespresso's project to reduce grams of coffee per capsule",
+      "summary": "Hacker News (31 pts, 27 comments) by @bobbiechen",
+      "url": "https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "779 pts",
-      "upvotes": 779,
+      "badge": "31 pts",
+      "upvotes": 31,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2436,13 +2436,13 @@
       ]
     },
     {
-      "title": "Inkling-2-Mini in 5.4 GB Memory",
-      "summary": "Hacker News (322 pts, 87 comments) by @k__",
-      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "summary": "Hacker News (162 pts, 57 comments) by @Retell15",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "322 pts",
-      "upvotes": 322,
+      "badge": "162 pts",
+      "upvotes": 162,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2451,13 +2451,13 @@
       ]
     },
     {
-      "title": "Detonating a pile of lead azide",
-      "summary": "Hacker News (492 pts, 324 comments) by @beginning_end",
-      "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+      "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+      "summary": "Hacker News (319 pts, 138 comments) by @gaws",
+      "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "492 pts",
-      "upvotes": 492,
+      "badge": "319 pts",
+      "upvotes": 319,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2466,13 +2466,13 @@
       ]
     },
     {
-      "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
-      "summary": "Hacker News (704 pts, 225 comments) by @dvaplima",
-      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+      "title": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
+      "summary": "Hacker News (71 pts, 1 comments) by @graemep",
+      "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "704 pts",
-      "upvotes": 704,
+      "badge": "71 pts",
+      "upvotes": 71,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2481,13 +2481,13 @@
       ]
     },
     {
-      "title": "Getting the mind to steer the body to steer you",
-      "summary": "Hacker News (118 pts, 45 comments) by @jger15",
-      "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
+      "title": "GL.iNet Security Notice 2026-11-20",
+      "summary": "Hacker News (45 pts, 18 comments) by @gregsadetsky",
+      "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "118 pts",
-      "upvotes": 118,
+      "badge": "45 pts",
+      "upvotes": 45,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2496,13 +2496,13 @@
       ]
     },
     {
-      "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
-      "summary": "Hacker News (30 pts, 2 comments) by @sebaandrada",
-      "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+      "title": "The Usefulness of Useless Knowledge [pdf] (1939)",
+      "summary": "Hacker News (46 pts, 8 comments) by @hectormauer",
+      "url": "https://www.ias.edu/sites/default/files/library/UsefulnessHarpers.pdf",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "30 pts",
-      "upvotes": 30,
+      "badge": "46 pts",
+      "upvotes": 46,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2511,13 +2511,13 @@
       ]
     },
     {
-      "title": "Hurried Announcement: Alessandro Masullo GRH",
-      "summary": "Hacker News (2380 pts, 1151 comments) by @jasondavies",
-      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "title": "A miniature San Francisco with live buses, planes and boats",
+      "summary": "Hacker News (111 pts, 50 comments) by @dutilh",
+      "url": "https://smallsf.com/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "2380 pts",
-      "upvotes": 2380,
+      "badge": "111 pts",
+      "upvotes": 111,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2526,13 +2526,13 @@
       ]
     },
     {
-      "title": "My monitor was cutting my download speed by 75%",
-      "summary": "Hacker News (448 pts, 219 comments) by @soheilpro",
-      "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+      "title": "Nyx, the Oldest Internet Service Provider",
+      "summary": "Hacker News (85 pts, 8 comments) by @o_-_o",
+      "url": "https://nyx.net/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "448 pts",
-      "upvotes": 448,
+      "badge": "85 pts",
+      "upvotes": 85,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2541,13 +2541,13 @@
       ]
     },
     {
-      "title": "PostgreSQL Extensions in Go",
-      "summary": "Hacker News (113 pts, 19 comments) by @valyala",
-      "url": "https://jespino.github.io/gopgext/",
+      "title": "The struggle for freedom: How BSD escaped AT&T licensing",
+      "summary": "Hacker News (32 pts, 9 comments) by @joonehur",
+      "url": "https://fosscomics.com/posts/16.%20BSD%20Unix%20Part%206%20-%20The%20Struggle%20for%20Freedom/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "113 pts",
-      "upvotes": 113,
+      "badge": "32 pts",
+      "upvotes": 32,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2556,13 +2556,13 @@
       ]
     },
     {
-      "title": "Advice for the next 100 Rust GUIs",
-      "summary": "Hacker News (44 pts, 4 comments) by @raphlinus",
-      "url": "https://linebender.org/blog/next-100-guis/",
+      "title": "Perplexity and Intelligence",
+      "summary": "Hacker News (458 pts, 313 comments) by @acossta",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "44 pts",
-      "upvotes": 44,
+      "badge": "458 pts",
+      "upvotes": 458,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2571,13 +2571,13 @@
       ]
     },
     {
-      "title": "Tasklet (YC P26) Is Hiring Product and Agent Infra Engineers",
-      "summary": "Hacker News (1 pts, 0 comments) by @mayop100",
-      "url": "https://tasklet.ai/careers",
+      "title": "FBI is having a mass hire for IT specialists",
+      "summary": "Hacker News (13 pts, 9 comments) by @illidan1000",
+      "url": "https://apply.fbijobs.gov/psc/ps/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Action=U&FOCUS=Applicant&JobOpeningId=68871&Page=HRS_APP_JBPST_FL&PostingSeq=1&SiteId=1&",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "1 pts",
-      "upvotes": 1,
+      "badge": "13 pts",
+      "upvotes": 13,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2586,13 +2586,13 @@
       ]
     },
     {
-      "title": "The Emergence of Inequality in the Czech Corded Ware Culture",
-      "summary": "Hacker News (15 pts, 10 comments) by @marojejian",
-      "url": "https://www.jna.uni-kiel.de/index.php/jna/article/view/1560/1746",
+      "title": "What Happened to Silicon Valley?",
+      "summary": "Hacker News (369 pts, 211 comments) by @greenyouse",
+      "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "15 pts",
-      "upvotes": 15,
+      "badge": "369 pts",
+      "upvotes": 369,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2601,13 +2601,13 @@
       ]
     },
     {
-      "title": "Upload2Shell (CVE-2026-125396)",
-      "summary": "Hacker News (68 pts, 25 comments) by @f311a",
-      "url": "https://pwn.ai/upload2shell",
+      "title": "Agent swarm trying to solve P vs. NP",
+      "summary": "Hacker News (85 pts, 72 comments) by @bananaflag",
+      "url": "https://pequalnp.com/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "68 pts",
-      "upvotes": 68,
+      "badge": "85 pts",
+      "upvotes": 85,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2616,13 +2616,13 @@
       ]
     },
     {
-      "title": "Tropical Rainforests Species may be surprisingly young",
-      "summary": "Hacker News (36 pts, 16 comments) by @PaulHoule",
-      "url": "https://phys.org/news/2026-11-species-tropical-rainforests-young-emergence.html",
+      "title": "Show HN: I built a game where you are an LLM's subagent",
+      "summary": "Hacker News (265 pts, 60 comments) by @ivantgam",
+      "url": "https://github.com/gulivan/worker755",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "36 pts",
-      "upvotes": 36,
+      "badge": "265 pts",
+      "upvotes": 265,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
