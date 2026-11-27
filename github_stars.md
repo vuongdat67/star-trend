@@ -1,7 +1,7 @@
 # 🌟 GitHub Starred Repositories - @vuongdat67
 
 > Danh sách toàn bộ starred repositories của **[@vuongdat67](https://github.com/vuongdat67)**.
-> 🕒 Cập nhật: `2026-11-26 02:35:33` | 📦 Tổng số: **701** repositories
+> 🕒 Cập nhật: `2026-11-27 02:35:39` | 📦 Tổng số: **700** repositories
 
 ---
 
@@ -9,13 +9,13 @@
 
 | Ngôn ngữ | Số lượng | Tỷ lệ (%) |
 | :--- | :---: | :---: |
-| **Python** | `195` | `27.8%` |
-| **TypeScript** | `125` | `17.8%` |
+| **Python** | `195` | `27.9%` |
+| **TypeScript** | `125` | `17.9%` |
 | **Others** | `63` | `9.0%` |
 | **Jupyter Notebook** | `59` | `8.4%` |
 | **Rust** | `44` | `6.3%` |
 | **JavaScript** | `34` | `4.9%` |
-| **Go** | `32` | `4.6%` |
+| **Go** | `31` | `4.4%` |
 | **HTML** | `27` | `3.9%` |
 | **C** | `27` | `3.9%` |
 | **C++** | `21` | `3.0%` |
@@ -36,58 +36,58 @@
 
 ### Python `(195)`
 
-- [**practical-tutorials/project-based-learning**](https://github.com/practical-tutorials/project-based-learning) - ⭐ **290.5k** | 🍴 36.9k | 📅 `2026-02-06`
+- [**practical-tutorials/project-based-learning**](https://github.com/practical-tutorials/project-based-learning) - ⭐ **290.6k** | 🍴 36.9k | 📅 `2026-02-06`
   - Curated list of project-based tutorials
 
-- [**NousResearch/hermes-agent**](https://github.com/NousResearch/hermes-agent) - ⭐ **266.1k** | 🍴 60.4k | 📅 `2026-04-05`
+- [**NousResearch/hermes-agent**](https://github.com/NousResearch/hermes-agent) - ⭐ **266.4k** | 🍴 60.4k | 📅 `2026-04-05`
   - The agent that grows with you
 
-- [**TheAlgorithms/Python**](https://github.com/TheAlgorithms/Python) - ⭐ **226.5k** | 🍴 51.4k | 📅 `2026-02-05`
+- [**TheAlgorithms/Python**](https://github.com/TheAlgorithms/Python) - ⭐ **226.5k** | 🍴 51.3k | 📅 `2026-02-05`
   - All Algorithms implemented in Python
 
-- [**anthropics/skills**](https://github.com/anthropics/skills) - ⭐ **200.6k** | 🍴 23.5k | 📅 `2026-04-03`
+- [**anthropics/skills**](https://github.com/anthropics/skills) - ⭐ **201.1k** | 🍴 23.5k | 📅 `2026-04-03`
   - Public repository for Agent Skills
 
-- [**microsoft/markitdown**](https://github.com/microsoft/markitdown) - ⭐ **198.5k** | 🍴 15.1k | 📅 `2026-04-10`
+- [**microsoft/markitdown**](https://github.com/microsoft/markitdown) - ⭐ **198.6k** | 🍴 15.1k | 📅 `2026-04-10`
   - Python tool for converting files and office documents to Markdown.
 
-- [**521xueweihan/HelloGitHub**](https://github.com/521xueweihan/HelloGitHub) - ⭐ **191.3k** | 🍴 13.4k | 📅 `2026-07-15`
+- [**521xueweihan/HelloGitHub**](https://github.com/521xueweihan/HelloGitHub) - ⭐ **191.5k** | 🍴 13.4k | 📅 `2026-07-15`
   - :octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.
 
 - [**Significant-Gravitas/AutoGPT**](https://github.com/Significant-Gravitas/AutoGPT) - ⭐ **188.2k** | 🍴 45.8k | 📅 `2026-08-23`
   - AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 
-- [**langgenius/dify**](https://github.com/langgenius/dify) - ⭐ **161.9k** | 🍴 25.6k | 📅 `2026-08-30`
+- [**langgenius/dify**](https://github.com/langgenius/dify) - ⭐ **162.0k** | 🍴 25.6k | 📅 `2026-08-30`
   - Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
 
-- [**nextlevelbuilder/ui-ux-pro-max-skill**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - ⭐ **154.2k** | 🍴 16.2k | 📅 `2026-01-12`
+- [**nextlevelbuilder/ui-ux-pro-max-skill**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - ⭐ **154.7k** | 🍴 16.3k | 📅 `2026-01-12`
   - An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
 
-- [**Graphify-Labs/graphify**](https://github.com/Graphify-Labs/graphify) - ⭐ **153.4k** | 🍴 14.8k | 📅 `2026-04-10`
+- [**Graphify-Labs/graphify**](https://github.com/Graphify-Labs/graphify) - ⭐ **153.9k** | 🍴 14.8k | 📅 `2026-04-10`
   - Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.
 
-- [**github/spec-kit**](https://github.com/github/spec-kit) - ⭐ **151.4k** | 🍴 13.6k | 📅 `2026-05-10`
+- [**github/spec-kit**](https://github.com/github/spec-kit) - ⭐ **151.7k** | 🍴 13.6k | 📅 `2026-05-10`
   - 💫 Toolkit to help you get started with SDD or any other process!
 
-- [**Comfy-Org/ComfyUI**](https://github.com/Comfy-Org/ComfyUI) - ⭐ **148.6k** | 🍴 17.7k | 📅 `2026-05-01`
+- [**Comfy-Org/ComfyUI**](https://github.com/Comfy-Org/ComfyUI) - ⭐ **148.8k** | 🍴 17.7k | 📅 `2026-05-01`
   - The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.
 
-- [**Shubhamsaboo/awesome-llm-apps**](https://github.com/Shubhamsaboo/awesome-llm-apps) - ⭐ **145.7k** | 🍴 21.4k | 📅 `2026-07-02`
-  - 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
-
-- [**harry0703/MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) - ⭐ **145.7k** | 🍴 23.5k | 📅 `2026-05-29`
+- [**harry0703/MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) - ⭐ **145.9k** | 🍴 23.5k | 📅 `2026-05-29`
   - 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
 
-- [**debpalash/VoiceStudio**](https://github.com/debpalash/VoiceStudio) - ⭐ **118.4k** | 🍴 13.2k | 📅 `2026-08-22`
+- [**Shubhamsaboo/awesome-llm-apps**](https://github.com/Shubhamsaboo/awesome-llm-apps) - ⭐ **145.9k** | 🍴 21.5k | 📅 `2026-07-02`
+  - 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
+
+- [**debpalash/VoiceStudio**](https://github.com/debpalash/VoiceStudio) - ⭐ **118.9k** | 🍴 13.3k | 📅 `2026-08-22`
   - VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
 
-- [**sherlock-project/sherlock**](https://github.com/sherlock-project/sherlock) - ⭐ **117.6k** | 🍴 13.4k | 📅 `2026-04-05`
+- [**sherlock-project/sherlock**](https://github.com/sherlock-project/sherlock) - ⭐ **118.2k** | 🍴 13.5k | 📅 `2026-04-05`
   - Hunt down social media accounts by username across social networks
 
-- [**unclecode/crawl4ai**](https://github.com/unclecode/crawl4ai) - ⭐ **87.9k** | 🍴 9.2k | 📅 `2026-07-13`
+- [**unclecode/crawl4ai**](https://github.com/unclecode/crawl4ai) - ⭐ **88.0k** | 🍴 9.2k | 📅 `2026-07-13`
   - Official Crawl4AI Cloud: a hosted web scraping, extraction, and search API for AI agents. Free API key, 1,000 credits a month, no card. Fully open source: this repo is the Apache-2.0 crawler that powers it, and you can self-host it.
 
-- [**OpenMontageInc/OpenMontage**](https://github.com/OpenMontageInc/OpenMontage) - ⭐ **83.4k** | 🍴 11.4k | 📅 `2026-06-24`
+- [**OpenMontageInc/OpenMontage**](https://github.com/OpenMontageInc/OpenMontage) - ⭐ **83.7k** | 🍴 11.4k | 📅 `2026-06-24`
   - World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.
 
 - [**swisskyrepo/PayloadsAllTheThings**](https://github.com/swisskyrepo/PayloadsAllTheThings) - ⭐ **83.0k** | 🍴 17.6k | 📅 `2026-01-22`
@@ -96,58 +96,58 @@
 - [**Z4nzu/hackingtool**](https://github.com/Z4nzu/hackingtool) - ⭐ **82.2k** | 🍴 9.3k | 📅 `2026-04-23`
   - ALL IN ONE Hacking Tool For Hackers
 
-- [**shareAI-lab/learn-claude-code**](https://github.com/shareAI-lab/learn-claude-code) - ⭐ **80.9k** | 🍴 12.9k | 📅 `2026-04-12`
+- [**shareAI-lab/learn-claude-code**](https://github.com/shareAI-lab/learn-claude-code) - ⭐ **81.0k** | 🍴 12.9k | 📅 `2026-04-12`
   - Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1
 
-- [**headroomlabs-ai/headroom**](https://github.com/headroomlabs-ai/headroom) - ⭐ **80.9k** | 🍴 6.3k | 📅 `2026-07-26`
+- [**headroomlabs-ai/headroom**](https://github.com/headroomlabs-ai/headroom) - ⭐ **81.0k** | 🍴 6.4k | 📅 `2026-07-26`
   - Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
 
-- [**ComposioHQ/awesome-claude-skills**](https://github.com/ComposioHQ/awesome-claude-skills) - ⭐ **80.3k** | 🍴 9.9k | 📅 `2026-08-07`
+- [**rohitg00/ai-engineering-from-scratch**](https://github.com/rohitg00/ai-engineering-from-scratch) - ⭐ **80.6k** | 🍴 14.5k | 📅 `2026-05-25`
+  - Learn AI Engineering! Learn it. Build it. Ship it for others.
+
+- [**ComposioHQ/awesome-claude-skills**](https://github.com/ComposioHQ/awesome-claude-skills) - ⭐ **80.4k** | 🍴 9.9k | 📅 `2026-08-07`
   - A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
 
 - [**unslothai/unsloth**](https://github.com/unslothai/unsloth) - ⭐ **80.3k** | 🍴 7.5k | 📅 `2026-08-14`
   - Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.
 
-- [**rohitg00/ai-engineering-from-scratch**](https://github.com/rohitg00/ai-engineering-from-scratch) - ⭐ **80.1k** | 🍴 14.3k | 📅 `2026-05-25`
-  - Learn AI Engineering! Learn it. Build it. Ship it for others.
-
-- [**Asabeneh/30-Days-Of-Python**](https://github.com/Asabeneh/30-Days-Of-Python) - ⭐ **79.5k** | 🍴 14.2k | 📅 `2026-05-12`
+- [**Asabeneh/30-Days-Of-Python**](https://github.com/Asabeneh/30-Days-Of-Python) - ⭐ **79.6k** | 🍴 14.2k | 📅 `2026-05-12`
   - The 30 Days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than 100 days. Follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw
 
-- [**usestrix/strix**](https://github.com/usestrix/strix) - ⭐ **77.6k** | 🍴 8.8k | 📅 `2026-07-02`
+- [**usestrix/strix**](https://github.com/usestrix/strix) - ⭐ **77.8k** | 🍴 8.9k | 📅 `2026-07-02`
   - Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
 
-- [**blader/humanizer**](https://github.com/blader/humanizer) - ⭐ **73.6k** | 🍴 5.8k | 📅 `2026-09-04`
+- [**blader/humanizer**](https://github.com/blader/humanizer) - ⭐ **74.0k** | 🍴 5.8k | 📅 `2026-09-04`
   - Agent skill that removes signs of AI-generated writing from text
 
-- [**ai-job-search-dev/ai-job-search**](https://github.com/ai-job-search-dev/ai-job-search) - ⭐ **73.5k** | 🍴 23.5k | 📅 `2026-07-06`
+- [**ai-job-search-dev/ai-job-search**](https://github.com/ai-job-search-dev/ai-job-search) - ⭐ **73.6k** | 🍴 23.5k | 📅 `2026-07-06`
   - The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.
 
-- [**Alishahryar1/free-claude-code**](https://github.com/Alishahryar1/free-claude-code) - ⭐ **73.2k** | 🍴 11.4k | 📅 `2026-04-24`
+- [**Alishahryar1/free-claude-code**](https://github.com/Alishahryar1/free-claude-code) - ⭐ **73.4k** | 🍴 11.4k | 📅 `2026-04-24`
   - Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)
 
 - [**asgeirtj/system_prompts_leaks**](https://github.com/asgeirtj/system_prompts_leaks) - ⭐ **72.7k** | 🍴 11.7k | 📅 `2026-01-29`
   - Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, in full, every version since May 2025. Also Anthropic Claude Code, OpenAI Codex, Google Antigravity, xAI Grok, Meta Muse, Moonshot Kimi, Alibaba Qwen, Z.ai GLM ZCode, MiniMax, Cursor, Perplexity, DeepSeek and 30+ others. Updated daily.
 
-- [**NanmiCoder/MediaCrawler**](https://github.com/NanmiCoder/MediaCrawler) - ⭐ **71.8k** | 🍴 13.5k | 📅 `2026-07-18`
+- [**NanmiCoder/MediaCrawler**](https://github.com/NanmiCoder/MediaCrawler) - ⭐ **71.9k** | 🍴 13.5k | 📅 `2026-07-18`
   - 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫
 
-- [**jingyaogong/minimind**](https://github.com/jingyaogong/minimind) - ⭐ **71.0k** | 🍴 9.2k | 📅 `2026-09-01`
+- [**jingyaogong/minimind**](https://github.com/jingyaogong/minimind) - ⭐ **71.7k** | 🍴 9.3k | 📅 `2026-09-01`
   - 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.
 
 - [**virattt/ai-hedge-fund**](https://github.com/virattt/ai-hedge-fund) - ⭐ **64.9k** | 🍴 11.4k | 📅 `2026-07-13`
   - An AI Hedge Fund Team
 
-- [**BerriAI/litellm**](https://github.com/BerriAI/litellm) - ⭐ **63.9k** | 🍴 13.6k | 📅 `2026-07-28`
+- [**BerriAI/litellm**](https://github.com/BerriAI/litellm) - ⭐ **64.0k** | 🍴 13.6k | 📅 `2026-07-28`
   - The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]
 
-- [**vectorize-io/hindsight**](https://github.com/vectorize-io/hindsight) - ⭐ **63.4k** | 🍴 7.4k | 📅 `2026-09-26`
+- [**vectorize-io/hindsight**](https://github.com/vectorize-io/hindsight) - ⭐ **63.7k** | 🍴 7.4k | 📅 `2026-09-26`
   - Hindsight: Agent Memory That Learns
 
-- [**HKUDS/DeepTutor**](https://github.com/HKUDS/DeepTutor) - ⭐ **62.8k** | 🍴 7.6k | 📅 `2026-05-02`
+- [**HKUDS/DeepTutor**](https://github.com/HKUDS/DeepTutor) - ⭐ **63.4k** | 🍴 7.6k | 📅 `2026-05-02`
   - DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
 
-- [**ayghri/i-have-adhd**](https://github.com/ayghri/i-have-adhd) - ⭐ **62.4k** | 🍴 3.7k | 📅 `2026-07-28`
+- [**ayghri/i-have-adhd**](https://github.com/ayghri/i-have-adhd) - ⭐ **62.6k** | 🍴 3.7k | 📅 `2026-07-28`
   - A skill to stop your coding agent from burying the answer. ADHD-friendly output.
 
 - [**microsoft/autogen**](https://github.com/microsoft/autogen) - ⭐ **62.0k** | 🍴 9.4k | 📅 `2026-01-17`
@@ -156,25 +156,25 @@
 - [**crewAIInc/crewAI**](https://github.com/crewAIInc/crewAI) - ⭐ **61.3k** | 🍴 9.3k | 📅 `2026-05-04`
   - Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
 
-- [**karpathy/nanochat**](https://github.com/karpathy/nanochat) - ⭐ **60.9k** | 🍴 8.5k | 📅 `2026-07-18`
+- [**karpathy/nanochat**](https://github.com/karpathy/nanochat) - ⭐ **60.9k** | 🍴 8.6k | 📅 `2026-07-18`
   - The best ChatGPT that $100 can buy.
 
 - [**MemPalace/mempalace**](https://github.com/MemPalace/mempalace) - ⭐ **60.7k** | 🍴 7.7k | 📅 `2026-04-10`
   - The best-benchmarked open-source AI memory system. And it's free.
 
-- [**bojieli/ai-agent-book**](https://github.com/bojieli/ai-agent-book) - ⭐ **60.0k** | 🍴 7.0k | 📅 `2026-07-18`
+- [**bojieli/ai-agent-book**](https://github.com/bojieli/ai-agent-book) - ⭐ **60.0k** | 🍴 7.1k | 📅 `2026-07-18`
   - 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码
 
 - [**FoundationAgents/OpenManus**](https://github.com/FoundationAgents/OpenManus) - ⭐ **59.0k** | 🍴 10.2k | 📅 `2026-08-12`
   - No fortress, purely open ground.  OpenManus is Coming.
 
-- [**hesreallyhim/awesome-claude-code**](https://github.com/hesreallyhim/awesome-claude-code) - ⭐ **58.8k** | 🍴 5.0k | 📅 `2026-07-08`
+- [**hesreallyhim/awesome-claude-code**](https://github.com/hesreallyhim/awesome-claude-code) - ⭐ **58.9k** | 🍴 5.0k | 📅 `2026-07-08`
   - A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affiliation). A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins
 
-- [**Imbad0202/academic-research-skills**](https://github.com/Imbad0202/academic-research-skills) - ⭐ **58.6k** | 🍴 4.5k | 📅 `2026-05-20`
+- [**Imbad0202/academic-research-skills**](https://github.com/Imbad0202/academic-research-skills) - ⭐ **58.7k** | 🍴 4.5k | 📅 `2026-05-20`
   - Academic Research Skills for Claude Code: research → write → review → revise → finalize
 
-- [**K-Dense-AI/scientific-agent-skills**](https://github.com/K-Dense-AI/scientific-agent-skills) - ⭐ **58.5k** | 🍴 5.1k | 📅 `2026-08-30`
+- [**K-Dense-AI/scientific-agent-skills**](https://github.com/K-Dense-AI/scientific-agent-skills) - ⭐ **58.6k** | 🍴 5.1k | 📅 `2026-08-30`
   - Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
 
 - [**zylon-ai/private-gpt**](https://github.com/zylon-ai/private-gpt) - ⭐ **57.7k** | 🍴 7.6k | 📅 `2026-06-07`
@@ -183,22 +183,22 @@
 - [**microsoft/VibeVoice**](https://github.com/microsoft/VibeVoice) - ⭐ **57.6k** | 🍴 6.5k | 📅 `2026-03-31`
   - Open-Source Frontier Voice AI
 
-- [**sickn33/agentic-awesome-skills**](https://github.com/sickn33/agentic-awesome-skills) - ⭐ **50.3k** | 🍴 7.3k | 📅 `2026-04-04`
+- [**sickn33/agentic-awesome-skills**](https://github.com/sickn33/agentic-awesome-skills) - ⭐ **50.4k** | 🍴 7.3k | 📅 `2026-04-04`
   - 3,000+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.
 
 - [**Aider-AI/aider**](https://github.com/Aider-AI/aider) - ⭐ **50.3k** | 🍴 5.2k | 📅 `2026-01-25`
   - aider is AI pair programming in your terminal
 
-- [**anthropics/claude-plugins-official**](https://github.com/anthropics/claude-plugins-official) - ⭐ **48.2k** | 🍴 5.0k | 📅 `2026-05-22`
+- [**anthropics/claude-plugins-official**](https://github.com/anthropics/claude-plugins-official) - ⭐ **48.4k** | 🍴 5.1k | 📅 `2026-05-22`
   - Official, Anthropic-managed directory of high quality Claude Code Plugins.
 
 - [**luongnv89/claude-howto**](https://github.com/luongnv89/claude-howto) - ⭐ **47.6k** | 🍴 5.8k | 📅 `2026-04-02`
   - A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.
 
-- [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) - ⭐ **42.8k** | 🍴 3.6k | 📅 `2026-07-06`
+- [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) - ⭐ **42.9k** | 🍴 3.6k | 📅 `2026-07-06`
   - Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.
 
-- [**frappe/erpnext**](https://github.com/frappe/erpnext) - ⭐ **41.6k** | 🍴 13.6k | 📅 `2026-09-29`
+- [**frappe/erpnext**](https://github.com/frappe/erpnext) - ⭐ **41.7k** | 🍴 13.6k | 📅 `2026-09-29`
   - Free and Open Source Enterprise Resource Planning (ERP)
 
 - [**anthropics/financial-services**](https://github.com/anthropics/financial-services) - ⭐ **41.5k** | 🍴 5.8k | 📅 `2026-05-09`
@@ -206,10 +206,10 @@
 - [**ashishpatel26/500-AI-Agents-Projects**](https://github.com/ashishpatel26/500-AI-Agents-Projects) - ⭐ **40.8k** | 🍴 7.3k | 📅 `2026-04-05`
   - The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.
 
-- [**HKUDS/Vibe-Trading**](https://github.com/HKUDS/Vibe-Trading) - ⭐ **38.9k** | 🍴 6.3k | 📅 `2026-07-13`
+- [**HKUDS/Vibe-Trading**](https://github.com/HKUDS/Vibe-Trading) - ⭐ **39.0k** | 🍴 6.3k | 📅 `2026-07-13`
   - "Vibe-Trading: Your Personal Trading Agent"
 
-- [**anthropics/knowledge-work-plugins**](https://github.com/anthropics/knowledge-work-plugins) - ⭐ **37.0k** | 🍴 4.1k | 📅 `2026-05-25`
+- [**anthropics/knowledge-work-plugins**](https://github.com/anthropics/knowledge-work-plugins) - ⭐ **37.1k** | 🍴 4.1k | 📅 `2026-05-25`
   - Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork
 
 - [**mukul975/Anthropic-Cybersecurity-Skills**](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) - ⭐ **36.8k** | 🍴 4.5k | 📅 `2026-06-23`
@@ -227,19 +227,19 @@
 - [**tirth8205/code-review-graph**](https://github.com/tirth8205/code-review-graph) - ⭐ **33.0k** | 🍴 3.0k | 📅 `2026-04-16`
   - Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.
 
-- [**baidu/Unlimited-OCR**](https://github.com/baidu/Unlimited-OCR) - ⭐ **32.8k** | 🍴 3.5k | 📅 `2026-06-25`
+- [**baidu/Unlimited-OCR**](https://github.com/baidu/Unlimited-OCR) - ⭐ **32.9k** | 🍴 3.5k | 📅 `2026-06-25`
   - Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.
 
 - [**openai/openai-agents-python**](https://github.com/openai/openai-agents-python) - ⭐ **30.9k** | 🍴 5.1k | 📅 `2026-03-20`
   - A lightweight, powerful framework for multi-agent workflows
 
-- [**ATH-MaaS/Pixelle-Video**](https://github.com/ATH-MaaS/Pixelle-Video) - ⭐ **30.5k** | 🍴 4.4k | 📅 `2026-05-16`
+- [**ATH-MaaS/Pixelle-Video**](https://github.com/ATH-MaaS/Pixelle-Video) - ⭐ **30.6k** | 🍴 4.4k | 📅 `2026-05-16`
   - 🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine
 
 - [**srbhr/Resume-Matcher**](https://github.com/srbhr/Resume-Matcher) - ⭐ **29.4k** | 🍴 5.2k | 📅 `2026-04-10`
   - The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.
 
-- [**guillaumemeyer/watermarks-remover**](https://github.com/guillaumemeyer/watermarks-remover) - ⭐ **28.7k** | 🍴 3.2k | 📅 `2026-08-12`
+- [**guillaumemeyer/watermarks-remover**](https://github.com/guillaumemeyer/watermarks-remover) - ⭐ **28.9k** | 🍴 3.2k | 📅 `2026-08-12`
   - A privacy-first app that strips AI watermarks from content you own.
 
 - [**SYSTRAN/faster-whisper**](https://github.com/SYSTRAN/faster-whisper) - ⭐ **27.0k** | 🍴 2.3k | 📅 `2026-08-09`
@@ -251,16 +251,16 @@
 - [**google/skills**](https://github.com/google/skills) - ⭐ **24.7k** | 🍴 2.1k | 📅 `2026-04-25`
   - Agent Skills for Google products and technologies
 
-- [**elementalsouls/Claude-BugHunter**](https://github.com/elementalsouls/Claude-BugHunter) - ⭐ **23.1k** | 🍴 2.4k | 📅 `2026-05-19`
+- [**elementalsouls/Claude-BugHunter**](https://github.com/elementalsouls/Claude-BugHunter) - ⭐ **24.7k** | 🍴 2.5k | 📅 `2026-05-19`
   - A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
 
-- [**img2threejs/img2threejs**](https://github.com/img2threejs/img2threejs) - ⭐ **21.9k** | 🍴 1.9k | 📅 `2026-08-27`
+- [**img2threejs/img2threejs**](https://github.com/img2threejs/img2threejs) - ⭐ **22.0k** | 🍴 1.9k | 📅 `2026-08-27`
   - Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.
 
 - [**SWE-agent/SWE-agent**](https://github.com/SWE-agent/SWE-agent) - ⭐ **20.9k** | 🍴 2.3k | 📅 `2026-01-16`
   - SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024]
 
-- [**jianchang512/pyvideotrans**](https://github.com/jianchang512/pyvideotrans) - ⭐ **19.8k** | 🍴 2.5k | 📅 `2026-08-09`
+- [**jianchang512/pyvideotrans**](https://github.com/jianchang512/pyvideotrans) - ⭐ **19.9k** | 🍴 2.5k | 📅 `2026-08-09`
   - Translate the video from one language to another and embed dubbing & subtitles.
 
 - [**andrewyng/openworker**](https://github.com/andrewyng/openworker) - ⭐ **19.6k** | 🍴 2.8k | 📅 `2026-07-26`
@@ -295,17 +295,17 @@
 - [**datalab-to/chandra**](https://github.com/datalab-to/chandra) - ⭐ **12.8k** | 🍴 1.3k | 📅 `2026-04-04`
   - OCR model that handles complex tables, forms, handwriting with full layout.
 
-- [**rany2/edge-tts**](https://github.com/rany2/edge-tts) - ⭐ **12.6k** | 🍴 1.2k | 📅 `2026-11-24`
+- [**rany2/edge-tts**](https://github.com/rany2/edge-tts) - ⭐ **12.7k** | 🍴 1.2k | 📅 `2026-11-24`
   - Use Microsoft Edge's online text-to-speech service from Python WITHOUT needing Microsoft Edge
 
 - [**LMCache/LMCache**](https://github.com/LMCache/LMCache) - ⭐ **12.5k** | 🍴 2.2k | 📅 `2026-08-05`
   - LMCache: Supercharge Your LLM with the Fastest KV Cache Layer
 
-- [**SigmaHQ/sigma**](https://github.com/SigmaHQ/sigma) - ⭐ **11.6k** | 🍴 3.0k | 📅 `2026-10-05`
-  - Main Sigma Rule Repository
-
 - [**omnigent-ai/omnigent**](https://github.com/omnigent-ai/omnigent) - ⭐ **11.6k** | 🍴 1.9k | 📅 `2026-06-17`
   - Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.
+
+- [**SigmaHQ/sigma**](https://github.com/SigmaHQ/sigma) - ⭐ **11.6k** | 🍴 3.0k | 📅 `2026-10-05`
+  - Main Sigma Rule Repository
 
 - [**MoonshotAI/kimi-cli**](https://github.com/MoonshotAI/kimi-cli) - ⭐ **11.4k** | 🍴 1.3k | 📅 `2026-08-10`
   - [Archived] Legacy Python Kimi CLI, no longer maintained. Please use Kimi Code CLI: https://github.com/MoonshotAI/kimi-code
@@ -313,7 +313,7 @@
 - [**Doriandarko/claude-engineer**](https://github.com/Doriandarko/claude-engineer) - ⭐ **11.2k** | 🍴 1.2k | 📅 `2026-01-04`
   - Claude Engineer is an interactive command-line interface (CLI) that leverages the power of Anthropic's Claude-3.5-Sonnet model to assist with software development tasks.This framework enables Claude to generate and manage its own tools, continuously expanding its capabilities through conversation. Available both as a CLI and a modern web interface
 
-- [**Agents365-ai/drawio-skill**](https://github.com/Agents365-ai/drawio-skill) - ⭐ **10.9k** | 🍴 749 | 📅 `2026-09-23`
+- [**Agents365-ai/drawio-skill**](https://github.com/Agents365-ai/drawio-skill) - ⭐ **11.0k** | 🍴 750 | 📅 `2026-09-23`
   - Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports.
 
 - [**OpenPipe/ART**](https://github.com/OpenPipe/ART) - ⭐ **10.9k** | 🍴 1.0k | 📅 `2026-01-28`
@@ -325,10 +325,10 @@
 - [**anthropics/claude-for-legal**](https://github.com/anthropics/claude-for-legal) - ⭐ **10.1k** | 🍴 2.0k | 📅 `2026-05-17`
   - A suite of plugins for legal workflows
 
-- [**beenuar/AiSOC**](https://github.com/beenuar/AiSOC) - ⭐ **7.9k** | 🍴 865 | 📅 `2026-11-15`
+- [**beenuar/AiSOC**](https://github.com/beenuar/AiSOC) - ⭐ **8.1k** | 🍴 875 | 📅 `2026-11-15`
   - Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.
 
-- [**PleasePrompto/notebooklm-skill**](https://github.com/PleasePrompto/notebooklm-skill) - ⭐ **7.8k** | 🍴 910 | 📅 `2026-01-30`
+- [**PleasePrompto/notebooklm-skill**](https://github.com/PleasePrompto/notebooklm-skill) - ⭐ **7.8k** | 🍴 911 | 📅 `2026-01-30`
   - Use this skill to enable Claude Code to communicate directly with your Google NotebookLM notebooks. Query your uploaded documents and get source-grounded, citation-backed answers from Gemini. Features browser automation, library management, persistent authentication, and answers exclusively from your own knowledge base.
 
 - [**anthropics/defending-code-reference-harness**](https://github.com/anthropics/defending-code-reference-harness) - ⭐ **7.8k** | 🍴 652 | 📅 `2026-06-06`
@@ -337,52 +337,52 @@
 - [**dwzhu-pku/PaperBanana**](https://github.com/dwzhu-pku/PaperBanana) - ⭐ **7.7k** | 🍴 580 | 📅 `2026-08-17`
   - PaperBanana: Automating Academic Illustration For AI Scientists
 
-- [**FlorianBruniaux/claude-code-ultimate-guide**](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) - ⭐ **7.4k** | 🍴 918 | 📅 `2026-04-04`
+- [**FlorianBruniaux/claude-code-ultimate-guide**](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) - ⭐ **7.5k** | 🍴 925 | 📅 `2026-04-04`
   - The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes, and production-ready templates. 430K+ lines.
 
-- [**deepseek-ai/DeepSpec**](https://github.com/deepseek-ai/DeepSpec) - ⭐ **7.3k** | 🍴 705 | 📅 `2026-06-30`
+- [**deepseek-ai/DeepSpec**](https://github.com/deepseek-ai/DeepSpec) - ⭐ **7.3k** | 🍴 704 | 📅 `2026-06-30`
   - DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms
 
 - [**guardicore/monkey**](https://github.com/guardicore/monkey) - ⭐ **7.1k** | 🍴 827 | 📅 `2026-05-17`
   - Infection Monkey - An open-source adversary emulation platform
 
-- [**BitterSecurity/Decepticon**](https://github.com/BitterSecurity/Decepticon) - ⭐ **6.7k** | 🍴 1.3k | 📅 `2026-05-01`
+- [**BitterSecurity/Decepticon**](https://github.com/BitterSecurity/Decepticon) - ⭐ **6.8k** | 🍴 1.3k | 📅 `2026-05-01`
   - Autonomous Hacking Agent for Red Team
 
-- [**jacob-bd/gemini-notebook-mcp-cli**](https://github.com/jacob-bd/gemini-notebook-mcp-cli) - ⭐ **6.6k** | 🍴 992 | 📅 `2026-07-24`
+- [**jacob-bd/gemini-notebook-mcp-cli**](https://github.com/jacob-bd/gemini-notebook-mcp-cli) - ⭐ **6.6k** | 🍴 993 | 📅 `2026-07-24`
   - Programmatic access to Gemini Notebook - via command-line interface (CLI), Model Context Protocol (MCP) server, and AI agent skills.
 
 - [**devanshbatham/Awesome-Bugbounty-Writeups**](https://github.com/devanshbatham/Awesome-Bugbounty-Writeups) - ⭐ **6.2k** | 🍴 1.2k | 📅 `2026-04-23`
   - A curated list of bugbounty writeups (Bug type wise) , inspired from https://github.com/ngalongc/bug-bounty-reference
 
-- [**microsoft/CUAWright**](https://github.com/microsoft/CUAWright) - ⭐ **6.1k** | 🍴 391 | 📅 `2026-05-29`
+- [**microsoft/CUAWright**](https://github.com/microsoft/CUAWright) - ⭐ **6.1k** | 🍴 390 | 📅 `2026-05-29`
   - A simple SWE-style browser+desktop agent framework that achieves SOTA results on long-horizon CUA tasks
+
+- [**geeklee/srt-whiteboard-animation**](https://github.com/geeklee/srt-whiteboard-animation) - ⭐ **5.9k** | 🍴 917 | 📅 `2026-08-19`
+  - 将 SRT 字幕做成暖米黄纸张底的流式笔迹白板手绘动画 skill：mask 分区遮罩编排 + stream 连续笔迹（ink→color）。
 
 - [**freedomofpress/dangerzone**](https://github.com/freedomofpress/dangerzone) - ⭐ **5.9k** | 🍴 281 | 📅 `2026-06-11`
   - Take potentially dangerous PDFs, office documents, or images and convert them to safe PDFs
 
-- [**geeklee/srt-whiteboard-animation**](https://github.com/geeklee/srt-whiteboard-animation) - ⭐ **5.8k** | 🍴 916 | 📅 `2026-08-19`
-  - 将 SRT 字幕做成暖米黄纸张底的流式笔迹白板手绘动画 skill：mask 分区遮罩编排 + stream 连续笔迹（ink→color）。
-
-- [**RhinoSecurityLabs/pacu**](https://github.com/RhinoSecurityLabs/pacu) - ⭐ **5.4k** | 🍴 804 | 📅 `2026-09-18`
+- [**RhinoSecurityLabs/pacu**](https://github.com/RhinoSecurityLabs/pacu) - ⭐ **5.4k** | 🍴 805 | 📅 `2026-09-18`
   - The AWS exploitation framework, designed for testing the security of Amazon Web Services environments.
 
 - [**aws-cloudformation/aws-cloudformation-templates**](https://github.com/aws-cloudformation/aws-cloudformation-templates) - ⭐ **5.2k** | 🍴 4.6k | 📅 `2026-07-27`
   - A collection of useful CloudFormation templates
 
-- [**arxhr007/Aliens_eye**](https://github.com/arxhr007/Aliens_eye) - ⭐ **4.9k** | 🍴 572 | 📅 `2026-07-16`
+- [**arxhr007/Aliens_eye**](https://github.com/arxhr007/Aliens_eye) - ⭐ **4.9k** | 🍴 577 | 📅 `2026-07-16`
   - AI powered OSINT engine to discover and map  7,700+ social media identities across the web
 
-- [**volatilityfoundation/volatility3**](https://github.com/volatilityfoundation/volatility3) - ⭐ **4.6k** | 🍴 762 | 📅 `2026-04-14`
+- [**volatilityfoundation/volatility3**](https://github.com/volatilityfoundation/volatility3) - ⭐ **4.6k** | 🍴 764 | 📅 `2026-04-14`
   - Volatility 3.0 development
 
-- [**JoshuaC215/agent-service-toolkit**](https://github.com/JoshuaC215/agent-service-toolkit) - ⭐ **4.6k** | 🍴 807 | 📅 `2026-01-25`
+- [**JoshuaC215/agent-service-toolkit**](https://github.com/JoshuaC215/agent-service-toolkit) - ⭐ **4.6k** | 🍴 808 | 📅 `2026-01-25`
   - Full toolkit for running an AI agent service built with LangGraph, FastAPI and Streamlit
 
 - [**stickerdaniel/linkedin-mcp-server**](https://github.com/stickerdaniel/linkedin-mcp-server) - ⭐ **4.3k** | 🍴 773 | 📅 `2026-06-27`
   - Open-source MCP server for LinkedIn. Give Claude and any MCP-compatible AI agent access to profiles, companies, jobs, and messages.
 
-- [**theori-io/copy-fail-CVE-2026-31431**](https://github.com/theori-io/copy-fail-CVE-2026-31431) - ⭐ **4.1k** | 🍴 898 | 📅 `2026-05-01`
+- [**theori-io/copy-fail-CVE-2026-31431**](https://github.com/theori-io/copy-fail-CVE-2026-31431) - ⭐ **4.1k** | 🍴 899 | 📅 `2026-05-01`
   - Copy Fail (CVE-2026-31431): 9-year-old Linux kernel LPE found by Theori's Xint Code
 
 - [**sanyuan0704/sanyuan-skills**](https://github.com/sanyuan0704/sanyuan-skills) - ⭐ **4.0k** | 🍴 349 | 📅 `2026-02-11`
@@ -391,7 +391,7 @@
 - [**TracecatHQ/tracecat**](https://github.com/TracecatHQ/tracecat) - ⭐ **3.9k** | 🍴 449 | 📅 `2026-09-22`
   - Open-source agentic security automation platform.
 
-- [**cv-cat/DouYin_Spider**](https://github.com/cv-cat/DouYin_Spider) - ⭐ **3.7k** | 🍴 978 | 📅 `2026-09-04`
+- [**cv-cat/DouYin_Spider**](https://github.com/cv-cat/DouYin_Spider) - ⭐ **3.7k** | 🍴 981 | 📅 `2026-09-04`
   - 抖音逆向，抖音爬虫，抖音全部api、私信、直播间监听
 
 - [**pnnbao97/VieNeu-TTS**](https://github.com/pnnbao97/VieNeu-TTS) - ⭐ **3.6k** | 🍴 1.1k | 📅 `2026-06-10`
@@ -400,25 +400,25 @@
 - [**deepseek-ai/DeepSeek-OCR-2**](https://github.com/deepseek-ai/DeepSeek-OCR-2) - ⭐ **3.6k** | 🍴 331 | 📅 `2026-02-02`
   - Visual Causal Flow
 
-- [**itsOwen/CyberScraper-2077**](https://github.com/itsOwen/CyberScraper-2077) - ⭐ **3.3k** | 🍴 358 | 📅 `2026-01-20`
+- [**itsOwen/CyberScraper-2077**](https://github.com/itsOwen/CyberScraper-2077) - ⭐ **3.3k** | 🍴 359 | 📅 `2026-01-20`
   - A Powerful web scraper powered by LLM | OpenAI, Gemini & Ollama
 
-- [**oil-oil/oil-motion**](https://github.com/oil-oil/oil-motion) - ⭐ **3.0k** | 🍴 216 | 📅 `2026-08-17`
+- [**oil-oil/oil-motion**](https://github.com/oil-oil/oil-motion) - ⭐ **3.0k** | 🍴 215 | 📅 `2026-08-17`
   - Web animation skill for Claude Code & Codex. 帮你做跟着滚动和鼠标动的网页动画。
 
-- [**zilliztech/memsearch**](https://github.com/zilliztech/memsearch) - ⭐ **2.9k** | 🍴 296 | 📅 `2026-10-24`
+- [**zilliztech/memsearch**](https://github.com/zilliztech/memsearch) - ⭐ **2.9k** | 🍴 297 | 📅 `2026-10-24`
   - A persistent, unified memory layer for all your AI agents (e.g. Claude Code, Codex, DSH), backed by Markdown and Milvus.
 
-- [**NVIDIA/NeMo-Agent-Toolkit**](https://github.com/NVIDIA/NeMo-Agent-Toolkit) - ⭐ **2.7k** | 🍴 838 | 📅 `2026-01-25`
+- [**NVIDIA/NeMo-Agent-Toolkit**](https://github.com/NVIDIA/NeMo-Agent-Toolkit) - ⭐ **2.7k** | 🍴 839 | 📅 `2026-01-25`
   - The NVIDIA NeMo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents.
 
-- [**yibie/awesome-jev**](https://github.com/yibie/awesome-jev) - ⭐ **2.6k** | 🍴 391 | 📅 `2026-10-24`
-  - A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.
-
-- [**zakirkun/deep-eye**](https://github.com/zakirkun/deep-eye) - ⭐ **2.6k** | 🍴 475 | 📅 `2026-08-22`
+- [**zakirkun/deep-eye**](https://github.com/zakirkun/deep-eye) - ⭐ **2.7k** | 🍴 496 | 📅 `2026-08-22`
   - Deep Eye orchestrates multiple AI providers (OpenAI, Claude, Grok, Gemini, OLLAMA, Groq, Mistral, OpenRouter, LiteLLM, LM Studio) for intelligent payload generation, scans targets for 45+ vulnerability types, and produces professional reports with compliance mapping.
 
-- [**showlab/Code2Video**](https://github.com/showlab/Code2Video) - ⭐ **2.4k** | 🍴 303 | 📅 `2026-08-16`
+- [**yibie/awesome-jev**](https://github.com/yibie/awesome-jev) - ⭐ **2.6k** | 🍴 392 | 📅 `2026-10-24`
+  - A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.
+
+- [**showlab/Code2Video**](https://github.com/showlab/Code2Video) - ⭐ **2.5k** | 🍴 303 | 📅 `2026-08-16`
   - [ICML 2026] Video generation via code
 
 - [**mgechev/skills-best-practices**](https://github.com/mgechev/skills-best-practices) - ⭐ **2.3k** | 🍴 167 | 📅 `2026-08-07`
@@ -430,16 +430,16 @@
 - [**travisvn/openai-edge-tts**](https://github.com/travisvn/openai-edge-tts) - ⭐ **2.2k** | 🍴 341 | 📅 `2026-08-09`
   - Free, high-quality text-to-speech API endpoint to replace OpenAI, Azure, or ElevenLabs
 
-- [**hexo-ai/sia**](https://github.com/hexo-ai/sia) - ⭐ **2.2k** | 🍴 255 | 📅 `2026-06-30`
+- [**hexo-ai/sia**](https://github.com/hexo-ai/sia) - ⭐ **2.2k** | 🍴 256 | 📅 `2026-06-30`
   - SIA is a Self Improving AI framework to autonomously improve the performance of any AI system (Model / Agent) on a benchmark task.
 
 - [**tsale/EDR-Telemetry**](https://github.com/tsale/EDR-Telemetry) - ⭐ **2.0k** | 🍴 201 | 📅 `2026-08-02`
   - This project aims to compare and evaluate the telemetry of various EDR products.
 
-- [**OpenOSINT/OpenOSINT**](https://github.com/OpenOSINT/OpenOSINT) - ⭐ **2.0k** | 🍴 308 | 📅 `2026-05-31`
+- [**OpenOSINT/OpenOSINT**](https://github.com/OpenOSINT/OpenOSINT) - ⭐ **2.0k** | 🍴 310 | 📅 `2026-05-31`
   - Open-source OSINT agent: 21 public-source tools behind natural-language chat, an MCP server and a Claude Code plugin. Passive by default, no keys to start.
 
-- [**mukul975/cve-mcp-server**](https://github.com/mukul975/cve-mcp-server) - ⭐ **1.8k** | 🍴 287 | 📅 `2026-04-29`
+- [**mukul975/cve-mcp-server**](https://github.com/mukul975/cve-mcp-server) - ⭐ **1.8k** | 🍴 288 | 📅 `2026-04-29`
   - Production-grade MCP server giving Claude 27 security intelligence tools across 21 APIs — CVE lookup, EPSS scoring, CISA KEV, MITRE ATT&CK, Shodan, VirusTotal, and more.
 
 - [**splunk/security_content**](https://github.com/splunk/security_content) - ⭐ **1.7k** | 🍴 513 | 📅 `2026-10-27`
@@ -457,19 +457,19 @@
 - [**GanyuanRan/Aegis**](https://github.com/GanyuanRan/Aegis) - ⭐ **1.5k** | 🍴 84 | 📅 `2026-08-19`
   - Make AI coding agents architecture-aware: baseline-first, evidence-verified, drift-checked, and safe across long tasks.
 
-- [**H-mmer/pentest-agents**](https://github.com/H-mmer/pentest-agents) - ⭐ **1.4k** | 🍴 261 | 📅 `2026-10-18`
+- [**H-mmer/pentest-agents**](https://github.com/H-mmer/pentest-agents) - ⭐ **1.4k** | 🍴 264 | 📅 `2026-10-18`
   - Bug bounty agent framework for Claude Code, Codex, Gemini, Cursor, Windsurf, Copilot, and OpenClaw — 48 agents, 26 commands, 19 CLI tools, 2 MCP servers, autonomous hunt loops, exploit chain builder.
 
-- [**ASCIT31/Dark-Moon**](https://github.com/ASCIT31/Dark-Moon) - ⭐ **1.3k** | 🍴 230 | 📅 `2026-07-10`
+- [**ASCIT31/Dark-Moon**](https://github.com/ASCIT31/Dark-Moon) - ⭐ **1.3k** | 🍴 232 | 📅 `2026-07-10`
   - Open-source autonomous AI penetration testing. 50 specialist agents across web, API, cloud, Active Directory, Kubernetes, CI/CD and AI/LLM (OWASP LLM Top 10), with an evidence-checked attack-path graph. Runs on a local LLM behind a Privacy Gateway. Integrates with GitHub, GitLab, Jenkins, VS Code, JetBrains, n8n, Grafana & Splunk.
 
 - [**FunnyWolf/agentic-soc-platform**](https://github.com/FunnyWolf/agentic-soc-platform) - ⭐ **1.2k** | 🍴 226 | 📅 `2026-04-05`
   - Agentic SOC Platform: A powerful, flexible, open-source, and agent-centric automated security operations platform (AI SOC)
 
-- [**AKCodez/hackingtool-plugin**](https://github.com/AKCodez/hackingtool-plugin) - ⭐ **1.2k** | 🍴 269 | 📅 `2026-05-21`
+- [**AKCodez/hackingtool-plugin**](https://github.com/AKCodez/hackingtool-plugin) - ⭐ **1.2k** | 🍴 270 | 📅 `2026-05-21`
   - Claude Code plugin: 183+ pentesting & OSINT tools from Z4nzu/hackingtool. Auto-runs what it can, hands off the rest.
 
-- [**pikpikcu/airecon**](https://github.com/pikpikcu/airecon) - ⭐ **1.1k** | 🍴 175 | 📅 `2026-10-18`
+- [**pikpikcu/airecon**](https://github.com/pikpikcu/airecon) - ⭐ **1.1k** | 🍴 176 | 📅 `2026-10-18`
   - AIRecon is an autonomous cybersecurity agent that combines a self-hosted Large Language Model (Ollama) with a Kali Linux Docker sandbox and a Textual TUI. It is designed to automate security assessments, penetration testing, and bug bounty reconnaissance — without any API keys or cloud dependency.
 
 - [**CRui5in/paper-ppt-agent**](https://github.com/CRui5in/paper-ppt-agent) - ⭐ **1.1k** | 🍴 69 | 📅 `2026-06-18`
@@ -478,33 +478,33 @@
 - [**vil/H4X-Tools**](https://github.com/vil/H4X-Tools) - ⭐ **858** | 🍴 111 | 📅 `2026-05-19`
   - A modular, terminal-based toolkit for OSINT, reconnaissance, and scraping - built in Python, runs on Linux and Windows.
 
-- [**splunk/attack_data**](https://github.com/splunk/attack_data) - ⭐ **848** | 🍴 156 | 📅 `2026-10-25`
+- [**splunk/attack_data**](https://github.com/splunk/attack_data) - ⭐ **850** | 🍴 157 | 📅 `2026-10-25`
   - A repository of curated datasets from various attacks
 
-- [**breslee1707/VI-Translate**](https://github.com/breslee1707/VI-Translate) - ⭐ **757** | 🍴 117 | 📅 `2026-08-28`
+- [**breslee1707/VI-Translate**](https://github.com/breslee1707/VI-Translate) - ⭐ **760** | 🍴 116 | 📅 `2026-08-28`
 
-- [**OWASP/DockSec**](https://github.com/OWASP/DockSec) - ⭐ **514** | 🍴 104 | 📅 `2026-07-08`
+- [**OWASP/DockSec**](https://github.com/OWASP/DockSec) - ⭐ **512** | 🍴 104 | 📅 `2026-07-08`
   - AI-powered Docker security scanner that explains vulnerabilities in plain English. An OWASP Lab Project.
 
-- [**safarsin/AutoRewarder**](https://github.com/safarsin/AutoRewarder) - ⭐ **469** | 🍴 33 | 📅 `2026-11-07`
+- [**safarsin/AutoRewarder**](https://github.com/safarsin/AutoRewarder) - ⭐ **470** | 🍴 33 | 📅 `2026-11-07`
   - An advanced, set-and-forget automation tool for Microsoft Rewards. AutoRewarder performs Bing searches for PC and mobile point collection, collects Daily Sets, and uses mathematically driven, human-like input simulation (W3C Actions, Bezier curves, and smart scrolling). Packaged as an executable app for a seamless, plug-and-play experience
 
-- [**Nebulock-Inc/agentic-threat-hunting-framework**](https://github.com/Nebulock-Inc/agentic-threat-hunting-framework) - ⭐ **430** | 🍴 56 | 📅 `2026-04-05`
+- [**Nebulock-Inc/agentic-threat-hunting-framework**](https://github.com/Nebulock-Inc/agentic-threat-hunting-framework) - ⭐ **431** | 🍴 56 | 📅 `2026-04-05`
   - ATHF is a framework for agentic threat hunting - building systems that can remember, learn, and act with increasing autonomy.
 
-- [**Anning01/novelvids**](https://github.com/Anning01/novelvids) - ⭐ **393** | 🍴 115 | 📅 `2026-08-17`
+- [**Anning01/novelvids**](https://github.com/Anning01/novelvids) - ⭐ **395** | 🍴 115 | 📅 `2026-08-17`
   - 从故事创作、角色资产管理、分镜设计，到 AI 图片与视频生成，打造完整的开源 AI 漫剧与短剧创作工作台。支持创作助手、无限画布、本地部署与多模型接入。
 
-- [**notepower2k1/CapCap**](https://github.com/notepower2k1/CapCap) - ⭐ **387** | 🍴 246 | 📅 `2026-08-17`
+- [**notepower2k1/CapCap**](https://github.com/notepower2k1/CapCap) - ⭐ **393** | 🍴 248 | 📅 `2026-08-17`
   - CapCap is a Windows desktop app for short-form video localization and dubbing. It brings transcription, translation, subtitle styling, voice generation, timeline editing, preview, and export into a single project workflow for content production.
 
-- [**Encod3d-Sec/TORCH**](https://github.com/Encod3d-Sec/TORCH) - ⭐ **344** | 🍴 49 | 📅 `2026-07-16`
+- [**Encod3d-Sec/TORCH**](https://github.com/Encod3d-Sec/TORCH) - ⭐ **343** | 🍴 49 | 📅 `2026-07-16`
   - Karpathy LLM based claude harness for PenetrationTesting / Bugbounty using obsidian
 
 - [**ValarDragon/CTF-Crypto**](https://github.com/ValarDragon/CTF-Crypto) - ⭐ **339** | 🍴 67 | 📅 `2026-04-06`
   - Contains tools for solving RSA and other crypto problems in CTFs.
 
-- [**Cuongyd196/cit-voice-studio**](https://github.com/Cuongyd196/cit-voice-studio) - ⭐ **267** | 🍴 129 | 📅 `2026-11-18`
+- [**Cuongyd196/cit-voice-studio**](https://github.com/Cuongyd196/cit-voice-studio) - ⭐ **272** | 🍴 135 | 📅 `2026-11-18`
   - CIT Voice Stuido - Chuyển văn bản thành giọng nói tự nhiên ngay trên máy tính của bạn: tiếng Việt và hơn 30 ngôn ngữ khác.
 
 - [**AgentSecOps/SecOpsAgentKit**](https://github.com/AgentSecOps/SecOpsAgentKit) - ⭐ **238** | 🍴 45 | 📅 `2026-09-05`
@@ -567,7 +567,7 @@
 - [**nexpeakcore/deepseek-harness-pr-review**](https://github.com/nexpeakcore/deepseek-harness-pr-review) - ⭐ **43** | 🍴 19 | 📅 `2026-08-16`
   - AI code review with DeepSeek: headless PR review automation that verifies PR descriptions claim-by-claim against real code, checks docs against reality, flags requirement impact, human-in-the-loop + auto review poller + web dashboard
 
-- [**heffrey78/lifecycle-mcp**](https://github.com/heffrey78/lifecycle-mcp) - ⭐ **39** | 🍴 5 | 📅 `2026-01-19`
+- [**heffrey78/lifecycle-mcp**](https://github.com/heffrey78/lifecycle-mcp) - ⭐ **38** | 🍴 5 | 📅 `2026-01-19`
   - MCP server for managing project lifecycles
 
 - [**Messi-Q/Cross-Modality-Bug-Detection**](https://github.com/Messi-Q/Cross-Modality-Bug-Detection) - ⭐ **37** | 🍴 6 | 📅 `2026-07-26`
@@ -593,7 +593,7 @@
 - [**grandcamel/Splunk-Assistant-Skills**](https://github.com/grandcamel/Splunk-Assistant-Skills) - ⭐ **17** | 🍴 3 | 📅 `2026-08-05`
   - A modular, production-ready Claude Code skills framework for Splunk REST API automation
 
-- [**TerzicScript/shorts-flow**](https://github.com/TerzicScript/shorts-flow) - ⭐ **7** | 🍴 1 | 📅 `2026-08-09`
+- [**TerzicScript/shorts-flow**](https://github.com/TerzicScript/shorts-flow) - ⭐ **8** | 🍴 1 | 📅 `2026-08-09`
   - An automated Python tool designed to create viral, short-form "Reddit Story" videos for TikTok, Reels, and YouTube Shorts. By combining **Kokoro TTS** for high-quality narration and **Faster-Whisper** for precise subtitle syncing, it transforms a simple text file and background footage into a fully edited, multi-part video series in minutes.
 
 - [**harvest-finance/snapshot**](https://github.com/harvest-finance/snapshot) - ⭐ **6** | 🍴 5 | 📅 `2026-10-13`
@@ -618,64 +618,64 @@
 
 ### TypeScript `(125)`
 
-- [**morluto/rea**](https://github.com/morluto/rea) - ⭐ **478.6k** | 🍴 116.4k | 📅 `2026-10-16`
+- [**morluto/rea**](https://github.com/morluto/rea) - ⭐ **479.9k** | 🍴 116.6k | 📅 `2026-10-16`
   - Reverse engineer anything with agents, from app behavior down to native binaries.
 
-- [**openclaw/openclaw**](https://github.com/openclaw/openclaw) - ⭐ **395.2k** | 🍴 83.0k | 📅 `2026-01-25`
+- [**openclaw/openclaw**](https://github.com/openclaw/openclaw) - ⭐ **395.3k** | 🍴 83.0k | 📅 `2026-01-25`
   - The AI that really does things. Any OS. Any Platform. The lobster way. 🦞
 
-- [**deepseek-ai/deepseek-harness**](https://github.com/deepseek-ai/deepseek-harness) - ⭐ **287.1k** | 🍴 35.8k | 📅 `2026-08-14`
+- [**deepseek-ai/deepseek-harness**](https://github.com/deepseek-ai/deepseek-harness) - ⭐ **287.7k** | 🍴 35.9k | 📅 `2026-08-14`
   - DeepSeek Harness: Everything is a Plugin.
 
-- [**anomalyco/opencode**](https://github.com/anomalyco/opencode) - ⭐ **229.2k** | 🍴 31.2k | 📅 `2026-04-23`
+- [**anomalyco/opencode**](https://github.com/anomalyco/opencode) - ⭐ **229.4k** | 🍴 31.2k | 📅 `2026-04-23`
   - The open source coding agent.
 
-- [**n8n-io/n8n**](https://github.com/n8n-io/n8n) - ⭐ **212.2k** | 🍴 61.7k | 📅 `2026-05-10`
+- [**n8n-io/n8n**](https://github.com/n8n-io/n8n) - ⭐ **212.3k** | 🍴 61.7k | 📅 `2026-05-10`
   - Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 
-- [**firecrawl/firecrawl**](https://github.com/firecrawl/firecrawl) - ⭐ **210.1k** | 🍴 11.0k | 📅 `2026-07-11`
+- [**firecrawl/firecrawl**](https://github.com/firecrawl/firecrawl) - ⭐ **211.0k** | 🍴 11.1k | 📅 `2026-07-11`
   - Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.
 
 - [**microsoft/vscode**](https://github.com/microsoft/vscode) - ⭐ **195.8k** | 🍴 43.9k | 📅 `2026-08-03`
   - Visual Studio Code
 
-- [**anthropics/claude-code**](https://github.com/anthropics/claude-code) - ⭐ **157.1k** | 🍴 25.1k | 📅 `2026-01-15`
+- [**anthropics/claude-code**](https://github.com/anthropics/claude-code) - ⭐ **157.2k** | 🍴 25.1k | 📅 `2026-01-15`
   - Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
 
-- [**iptv-org/iptv**](https://github.com/iptv-org/iptv) - ⭐ **144.7k** | 🍴 8.6k | 📅 `2026-06-14`
+- [**iptv-org/iptv**](https://github.com/iptv-org/iptv) - ⭐ **144.8k** | 🍴 8.6k | 📅 `2026-06-14`
   - Collection of publicly available IPTV channels from all over the world
 
 - [**garrytan/gstack**](https://github.com/garrytan/gstack) - ⭐ **142.7k** | 🍴 21.1k | 📅 `2026-04-04`
   - Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
 
-- [**stablyai/orca**](https://github.com/stablyai/orca) - ⭐ **138.2k** | 🍴 8.8k | 📅 `2026-07-18`
+- [**stablyai/orca**](https://github.com/stablyai/orca) - ⭐ **140.6k** | 🍴 9.0k | 📅 `2026-07-18`
   - Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.
 
-- [**shadcn-ui/ui**](https://github.com/shadcn-ui/ui) - ⭐ **129.1k** | 🍴 11.4k | 📅 `2026-11-06`
+- [**shadcn-ui/ui**](https://github.com/shadcn-ui/ui) - ⭐ **129.2k** | 🍴 11.4k | 📅 `2026-11-06`
   - Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.
 
-- [**earendil-works/pi**](https://github.com/earendil-works/pi) - ⭐ **123.9k** | 🍴 16.0k | 📅 `2026-07-21`
+- [**earendil-works/pi**](https://github.com/earendil-works/pi) - ⭐ **124.1k** | 🍴 16.0k | 📅 `2026-07-21`
   - AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
 
-- [**TauricResearch/TradingAgents**](https://github.com/TauricResearch/TradingAgents) - ⭐ **123.8k** | 🍴 23.7k | 📅 `2026-05-02`
+- [**TauricResearch/TradingAgents**](https://github.com/TauricResearch/TradingAgents) - ⭐ **123.9k** | 🍴 23.7k | 📅 `2026-05-02`
   - TradingAgents: Towards Agentic Finance Research
 
-- [**thedotmack/claude-mem**](https://github.com/thedotmack/claude-mem) - ⭐ **119.8k** | 🍴 10.4k | 📅 `2025-12-10`
+- [**thedotmack/claude-mem**](https://github.com/thedotmack/claude-mem) - ⭐ **120.0k** | 🍴 10.4k | 📅 `2025-12-10`
   - Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
 
-- [**paperclipai/paperclip**](https://github.com/paperclipai/paperclip) - ⭐ **117.1k** | 🍴 19.5k | 📅 `2026-09-26`
+- [**paperclipai/paperclip**](https://github.com/paperclipai/paperclip) - ⭐ **117.4k** | 🍴 19.5k | 📅 `2026-09-26`
   - The open-source app everyone uses to manage agents at work
 
-- [**nexu-io/open-design**](https://github.com/nexu-io/open-design) - ⭐ **109.5k** | 🍴 12.4k | 📅 `2026-05-01`
+- [**nexu-io/open-design**](https://github.com/nexu-io/open-design) - ⭐ **109.7k** | 🍴 12.4k | 📅 `2026-05-01`
   - The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.
 
-- [**google-gemini/gemini-cli**](https://github.com/google-gemini/gemini-cli) - ⭐ **109.1k** | 🍴 15.0k | 📅 `2026-05-17`
+- [**google-gemini/gemini-cli**](https://github.com/google-gemini/gemini-cli) - ⭐ **109.2k** | 🍴 15.0k | 📅 `2026-05-17`
   - An open-source AI agent that brings the power of Gemini directly into your terminal.
 
-- [**OpenCut-app/OpenCut**](https://github.com/OpenCut-app/OpenCut) - ⭐ **99.4k** | 🍴 9.9k | 📅 `2026-07-15`
+- [**OpenCut-app/OpenCut**](https://github.com/OpenCut-app/OpenCut) - ⭐ **99.5k** | 🍴 10.0k | 📅 `2026-07-15`
   - The open-source CapCut alternative
 
-- [**Egonex-AI/Understand-Anything**](https://github.com/Egonex-AI/Understand-Anything) - ⭐ **94.5k** | 🍴 8.0k | 📅 `2026-04-25`
+- [**Egonex-AI/Understand-Anything**](https://github.com/Egonex-AI/Understand-Anything) - ⭐ **94.6k** | 🍴 8.1k | 📅 `2026-04-25`
   - Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
 
 - [**modelcontextprotocol/servers**](https://github.com/modelcontextprotocol/servers) - ⭐ **92.3k** | 🍴 12.0k | 📅 `2026-01-25`
@@ -684,19 +684,19 @@
 - [**koala73/worldmonitor**](https://github.com/koala73/worldmonitor) - ⭐ **91.2k** | 🍴 14.2k | 📅 `2026-07-22`
   - Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
 
-- [**cheaper-inference/OmniRoute**](https://github.com/cheaper-inference/OmniRoute) - ⭐ **90.3k** | 🍴 14.1k | 📅 `2026-07-21`
-  - Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors
-
-- [**heygen-com/hyperframes**](https://github.com/heygen-com/hyperframes) - ⭐ **90.2k** | 🍴 8.4k | 📅 `2026-08-17`
+- [**heygen-com/hyperframes**](https://github.com/heygen-com/hyperframes) - ⭐ **90.9k** | 🍴 8.5k | 📅 `2026-08-17`
   - Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen.
 
-- [**ruvnet/ruflo**](https://github.com/ruvnet/ruflo) - ⭐ **82.4k** | 🍴 9.7k | 📅 `2026-04-09`
+- [**cheaper-inference/OmniRoute**](https://github.com/cheaper-inference/OmniRoute) - ⭐ **90.6k** | 🍴 14.1k | 📅 `2026-07-21`
+  - Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors
+
+- [**ruvnet/ruflo**](https://github.com/ruvnet/ruflo) - ⭐ **82.5k** | 🍴 9.7k | 📅 `2026-04-09`
   - 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated
 
-- [**pingdotgg/t3code**](https://github.com/pingdotgg/t3code) - ⭐ **79.6k** | 🍴 14.0k | 📅 `2026-07-13`
+- [**pingdotgg/t3code**](https://github.com/pingdotgg/t3code) - ⭐ **81.1k** | 🍴 14.3k | 📅 `2026-07-13`
   - The best way to control Claude Code, Codex and more from any computer or phone
 
-- [**colbymchenry/codegraph**](https://github.com/colbymchenry/codegraph) - ⭐ **78.7k** | 🍴 5.2k | 📅 `2026-05-20`
+- [**colbymchenry/codegraph**](https://github.com/colbymchenry/codegraph) - ⭐ **78.8k** | 🍴 5.3k | 📅 `2026-05-20`
   - Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local
 
 - [**cline/cline**](https://github.com/cline/cline) - ⭐ **71.9k** | 🍴 8.0k | 📅 `2026-08-31`
@@ -708,10 +708,10 @@
 - [**upstash/context7**](https://github.com/upstash/context7) - ⭐ **65.5k** | 🍴 3.3k | 📅 `2026-01-17`
   - Context7 Platform -- Up-to-date docs for AI agents
 
-- [**ChromeDevTools/chrome-devtools-mcp**](https://github.com/ChromeDevTools/chrome-devtools-mcp) - ⭐ **59.4k** | 🍴 4.9k | 📅 `2026-05-02`
+- [**ChromeDevTools/chrome-devtools-mcp**](https://github.com/ChromeDevTools/chrome-devtools-mcp) - ⭐ **59.5k** | 🍴 4.9k | 📅 `2026-05-02`
   - Chrome DevTools for coding agents
 
-- [**KeygraphHQ/shannon**](https://github.com/KeygraphHQ/shannon) - ⭐ **52.3k** | 🍴 6.1k | 📅 `2026-05-16`
+- [**KeygraphHQ/shannon**](https://github.com/KeygraphHQ/shannon) - ⭐ **52.4k** | 🍴 6.1k | 📅 `2026-05-16`
   - Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.
 
 - [**moeru-ai/airi**](https://github.com/moeru-ai/airi) - ⭐ **51.8k** | 🍴 5.2k | 📅 `2026-04-09`
@@ -720,16 +720,16 @@
 - [**chenglou/pretext**](https://github.com/chenglou/pretext) - ⭐ **51.1k** | 🍴 2.8k | 📅 `2026-03-31`
   - Fast, accurate & comprehensive text measurement & layout
 
-- [**abhigyanpatwari/GitNexus**](https://github.com/abhigyanpatwari/GitNexus) - ⭐ **48.8k** | 🍴 5.3k | 📅 `2026-03-20`
+- [**abhigyanpatwari/GitNexus**](https://github.com/abhigyanpatwari/GitNexus) - ⭐ **48.9k** | 🍴 5.4k | 📅 `2026-03-20`
   - GitNexus: The Zero-Server Code Intelligence Engine
 
-- [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) - ⭐ **44.4k** | 🍴 6.8k | 📅 `2026-08-30`
+- [**THU-MAIC/OpenMAIC**](https://github.com/THU-MAIC/OpenMAIC) - ⭐ **44.7k** | 🍴 6.9k | 📅 `2026-08-30`
   - Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
 
 - [**siddharthvaddem/openscreen**](https://github.com/siddharthvaddem/openscreen) - ⭐ **40.0k** | 🍴 3.3k | 📅 `2026-04-05`
   - Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.
 
-- [**can1357/oh-my-pi**](https://github.com/can1357/oh-my-pi) - ⭐ **39.9k** | 🍴 4.6k | 📅 `2026-08-08`
+- [**can1357/oh-my-pi**](https://github.com/can1357/oh-my-pi) - ⭐ **40.0k** | 🍴 4.6k | 📅 `2026-08-08`
   - ⌥ Coding agent with the IDE wired in. Built by Stencil Labs.
 
 - [**JCodesMore/ai-website-cloner-template**](https://github.com/JCodesMore/ai-website-cloner-template) - ⭐ **39.8k** | 🍴 5.9k | 📅 `2026-06-23`
@@ -738,7 +738,7 @@
 - [**medusajs/medusa**](https://github.com/medusajs/medusa) - ⭐ **37.4k** | 🍴 5.6k | 📅 `2026-08-02`
   - The world's most flexible commerce platform for agents and developers
 
-- [**Twigpine/openclaude**](https://github.com/Twigpine/openclaude) - ⭐ **34.5k** | 🍴 9.1k | 📅 `2026-04-02`
+- [**Twigpine/openclaude**](https://github.com/Twigpine/openclaude) - ⭐ **34.6k** | 🍴 9.1k | 📅 `2026-04-02`
   - runs anywhere. uses anything
 
 - [**Yeachan-Heo/oh-my-codex**](https://github.com/Yeachan-Heo/oh-my-codex) - ⭐ **33.9k** | 🍴 2.5k | 📅 `2026-04-05`
@@ -753,7 +753,7 @@
 - [**TencentCloud/TencentDB-Agent-Memory**](https://github.com/TencentCloud/TencentDB-Agent-Memory) - ⭐ **31.2k** | 🍴 3.1k | 📅 `2026-07-11`
   - TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.
 
-- [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) - ⭐ **30.9k** | 🍴 3.6k | 📅 `2026-04-10`
+- [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) - ⭐ **31.0k** | 🍴 3.6k | 📅 `2026-04-10`
   - An open-source AI coding agent that lives in your terminal.
 
 - [**rohitg00/agentmemory**](https://github.com/rohitg00/agentmemory) - ⭐ **30.6k** | 🍴 2.7k | 📅 `2026-05-13`
@@ -762,7 +762,7 @@
 - [**simstudioai/sim**](https://github.com/simstudioai/sim) - ⭐ **30.2k** | 🍴 3.9k | 📅 `2026-05-20`
   - Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders.
 
-- [**google-labs-code/design.md**](https://github.com/google-labs-code/design.md) - ⭐ **29.1k** | 🍴 2.4k | 📅 `2026-06-25`
+- [**google-labs-code/design.md**](https://github.com/google-labs-code/design.md) - ⭐ **29.2k** | 🍴 2.4k | 📅 `2026-06-25`
   - A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.
 
 - [**mattermost-community/focalboard**](https://github.com/mattermost-community/focalboard) - ⭐ **26.6k** | 🍴 2.6k | 📅 `2026-01-16`
@@ -771,7 +771,7 @@
 - [**Redocly/redoc**](https://github.com/Redocly/redoc) - ⭐ **26.0k** | 🍴 2.4k | 📅 `2026-11-08`
   - 📘  OpenAPI/Swagger-generated API Reference Documentation
 
-- [**getpaseo/paseo**](https://github.com/getpaseo/paseo) - ⭐ **25.5k** | 🍴 3.2k | 📅 `2026-08-27`
+- [**getpaseo/paseo**](https://github.com/getpaseo/paseo) - ⭐ **25.7k** | 🍴 3.2k | 📅 `2026-08-27`
   - Orchestrate multiple coding agents from desktop and mobile
 
 - [**different-ai/openwork**](https://github.com/different-ai/openwork) - ⭐ **24.6k** | 🍴 2.5k | 📅 `2026-01-20`
@@ -795,10 +795,10 @@
 - [**langchain-ai/openwiki**](https://github.com/langchain-ai/openwiki) - ⭐ **18.1k** | 🍴 1.3k | 📅 `2026-07-06`
   - OpenWiki is a CLI that writes and maintains agent documentation for your codebase.
 
-- [**Effect-TS/effect**](https://github.com/Effect-TS/effect) - ⭐ **17.7k** | 🍴 932 | 📅 `2026-08-28`
+- [**Effect-TS/effect**](https://github.com/Effect-TS/effect) - ⭐ **17.7k** | 🍴 935 | 📅 `2026-08-28`
   - Build production-ready applications in TypeScript
 
-- [**nexu-io/openmotion**](https://github.com/nexu-io/openmotion) - ⭐ **16.4k** | 🍴 1.6k | 📅 `2026-05-15`
+- [**nexu-io/openmotion**](https://github.com/nexu-io/openmotion) - ⭐ **16.7k** | 🍴 1.7k | 📅 `2026-05-15`
   - The open-source Claude Motion & CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.
 
 - [**YishenTu/claudian**](https://github.com/YishenTu/claudian) - ⭐ **16.1k** | 🍴 1.1k | 📅 `2026-04-16`
@@ -810,11 +810,11 @@
 - [**yc-software/qm**](https://github.com/yc-software/qm) - ⭐ **15.8k** | 🍴 2.0k | 📅 `2026-08-02`
   - Multiplayer agent harness for teams
 
+- [**Stremio/stremio-web**](https://github.com/Stremio/stremio-web) - ⭐ **15.6k** | 🍴 1.9k | 📅 `2026-06-14`
+  - Stremio - Freedom to Stream
+
 - [**NanmiCoder/cc-haha**](https://github.com/NanmiCoder/cc-haha) - ⭐ **15.6k** | 🍴 8.6k | 📅 `2026-04-02`
   - 本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、桌面宠物；支持微信、飞书、钉钉及 H5 等远程访问。 | Local-first Claude Code / AI Agent desktop workspace: multi-agent teams, Git worktrees, diffs, skills marketplace, multi-model, Computer Use, task-aware desktop pets; remote via WeChat, Feishu, DingTalk, Telegram, WhatsApp & H5.
-
-- [**Stremio/stremio-web**](https://github.com/Stremio/stremio-web) - ⭐ **15.5k** | 🍴 1.8k | 📅 `2026-06-14`
-  - Stremio - Freedom to Stream
 
 - [**oblien/openship**](https://github.com/oblien/openship) - ⭐ **15.4k** | 🍴 1.4k | 📅 `2026-07-28`
   - Self-hosted deployment platform
@@ -825,7 +825,7 @@
 - [**emdash-cms/emdash**](https://github.com/emdash-cms/emdash) - ⭐ **14.6k** | 🍴 1.4k | 📅 `2026-04-03`
   - EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress
 
-- [**krillinai/OpenCreator**](https://github.com/krillinai/OpenCreator) - ⭐ **14.5k** | 🍴 1.6k | 📅 `2026-08-17`
+- [**krillinai/OpenCreator**](https://github.com/krillinai/OpenCreator) - ⭐ **14.6k** | 🍴 1.6k | 📅 `2026-08-17`
   - Formerly KrillinAI, VideoTranslation and Dubbing Tool for 120+ Languages. Open-source AI workspace for creators, powered by Codex. Video downloader, video translation, create videos, images, audios, and edits with Agents in one place. For your Social Media like YouTube, TikTok, Instagram, etc.
 
 - [**openai/codex-security**](https://github.com/openai/codex-security) - ⭐ **14.4k** | 🍴 1.1k | 📅 `2026-11-13`
@@ -846,7 +846,7 @@
 - [**InsForge/InsForge**](https://github.com/InsForge/InsForge) - ⭐ **13.4k** | 🍴 1.3k | 📅 `2026-06-17`
   - The all-in-one, open-source backend platform for agentic coding. InsForge gives your coding agent database, auth, storage, compute, hosting, and AI gateway to ship full-stack apps end-to-end.
 
-- [**google-labs-code/stitch-skills**](https://github.com/google-labs-code/stitch-skills) - ⭐ **13.0k** | 🍴 1.5k | 📅 `2026-07-11`
+- [**google-labs-code/stitch-skills**](https://github.com/google-labs-code/stitch-skills) - ⭐ **13.3k** | 🍴 1.6k | 📅 `2026-07-11`
   - A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.
 
 - [**cobusgreyling/loop-engineering**](https://github.com/cobusgreyling/loop-engineering) - ⭐ **11.8k** | 🍴 1.6k | 📅 `2026-07-18`
@@ -855,16 +855,16 @@
 - [**mehdihadeli/awesome-software-architecture**](https://github.com/mehdihadeli/awesome-software-architecture) - ⭐ **11.8k** | 🍴 1.0k | 📅 `2025-12-18`
   - 📚 A curated list of awesome articles, videos, and other resources to learn and practice software architecture, patterns, and principles.
 
-- [**Narcooo/inkos**](https://github.com/Narcooo/inkos) - ⭐ **11.4k** | 🍴 2.1k | 📅 `2026-08-01`
+- [**Narcooo/inkos**](https://github.com/Narcooo/inkos) - ⭐ **11.5k** | 🍴 2.1k | 📅 `2026-08-01`
   - Story Creation AI Agent for novel, scripts, translation, interactive games, and IP content
 
-- [**ibelick/ui-skills**](https://github.com/ibelick/ui-skills) - ⭐ **11.4k** | 🍴 559 | 📅 `2026-07-16`
+- [**ibelick/ui-skills**](https://github.com/ibelick/ui-skills) - ⭐ **11.5k** | 🍴 563 | 📅 `2026-07-16`
   - Skills for Design Engineers
 
-- [**numman-ali/openskills**](https://github.com/numman-ali/openskills) - ⭐ **10.8k** | 🍴 669 | 📅 `2026-01-22`
+- [**numman-ali/openskills**](https://github.com/numman-ali/openskills) - ⭐ **10.8k** | 🍴 670 | 📅 `2026-01-22`
   - Universal skills loader for AI coding agents - npm i -g openskills
 
-- [**OpenCTI-Platform/opencti**](https://github.com/OpenCTI-Platform/opencti) - ⭐ **10.4k** | 🍴 1.5k | 📅 `2026-11-03`
+- [**OpenCTI-Platform/opencti**](https://github.com/OpenCTI-Platform/opencti) - ⭐ **10.5k** | 🍴 1.5k | 📅 `2026-11-03`
   - Open Cyber Threat Intelligence Platform
 
 - [**crynta/terax-ai**](https://github.com/crynta/terax-ai) - ⭐ **9.5k** | 🍴 1.1k | 📅 `2026-05-11`
@@ -879,7 +879,7 @@
 - [**freecodexyz/free-code**](https://github.com/freecodexyz/free-code) - ⭐ **8.8k** | 🍴 2.0k | 📅 `2026-04-02`
   - The free build of Claude Code. All telemetry removed, security-prompt guardrails stripped, all experimental features enabled.
 
-- [**lightningpixel/modly**](https://github.com/lightningpixel/modly) - ⭐ **8.8k** | 🍴 828 | 📅 `2026-08-14`
+- [**lightningpixel/modly**](https://github.com/lightningpixel/modly) - ⭐ **8.8k** | 🍴 830 | 📅 `2026-08-14`
   - Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU
 
 - [**MoonshotAI/kimi-code**](https://github.com/MoonshotAI/kimi-code) - ⭐ **8.3k** | 🍴 1.4k | 📅 `2026-08-01`
@@ -887,7 +887,7 @@
 
 - [**vudovn/ag-kit**](https://github.com/vudovn/ag-kit) - ⭐ **8.2k** | 🍴 1.5k | 📅 `2026-01-16`
 
-- [**tamaratran/fast-jev-compaction**](https://github.com/tamaratran/fast-jev-compaction) - ⭐ **8.0k** | 🍴 593 | 📅 `2026-09-21`
+- [**tamaratran/fast-jev-compaction**](https://github.com/tamaratran/fast-jev-compaction) - ⭐ **8.0k** | 🍴 594 | 📅 `2026-09-21`
   - Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.
 
 - [**bashalarmistalt/decimen-optical-transfer**](https://github.com/bashalarmistalt/decimen-optical-transfer) - ⭐ **7.1k** | 🍴 836 | 📅 `2026-08-02`
@@ -910,7 +910,7 @@
 - [**oboard/claude-code-rev**](https://github.com/oboard/claude-code-rev) - ⭐ **3.3k** | 🍴 3.8k | 📅 `2026-04-02`
   - Runnable ClaudeCode source code
 
-- [**dzhng/jevgrep**](https://github.com/dzhng/jevgrep) - ⭐ **3.3k** | 🍴 250 | 📅 `2026-10-24`
+- [**dzhng/jevgrep**](https://github.com/dzhng/jevgrep) - ⭐ **3.3k** | 🍴 251 | 📅 `2026-10-24`
   - Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.
 
 - [**mitsuhiko/agent-stuff**](https://github.com/mitsuhiko/agent-stuff) - ⭐ **3.2k** | 🍴 237 | 📅 `2026-08-01`
@@ -919,10 +919,10 @@
 - [**nuxt-content/docus**](https://github.com/nuxt-content/docus) - ⭐ **3.1k** | 🍴 295 | 📅 `2026-11-13`
   - Write beautiful documentations with Nuxt and Markdown.
 
-- [**alejandrobalderas/claude-code-from-source**](https://github.com/alejandrobalderas/claude-code-from-source) - ⭐ **3.0k** | 🍴 829 | 📅 `2026-08-30`
+- [**alejandrobalderas/claude-code-from-source**](https://github.com/alejandrobalderas/claude-code-from-source) - ⭐ **3.0k** | 🍴 828 | 📅 `2026-08-30`
   - Architecture, patterns & internals of Anthropic's AI coding agent — reverse-engineered from source maps
 
-- [**mitre-attack/attack-navigator**](https://github.com/mitre-attack/attack-navigator) - ⭐ **2.5k** | 🍴 723 | 📅 `2026-01-22`
+- [**mitre-attack/attack-navigator**](https://github.com/mitre-attack/attack-navigator) - ⭐ **2.5k** | 🍴 725 | 📅 `2026-01-22`
   - Web app that provides basic navigation and annotation of ATT&CK matrices
 
 - [**timmywil/panzoom**](https://github.com/timmywil/panzoom) - ⭐ **2.5k** | 🍴 410 | 📅 `2026-04-20`
@@ -943,7 +943,7 @@
 - [**vriteio/andesine**](https://github.com/vriteio/andesine) - ⭐ **2.0k** | 🍴 83 | 📅 `2026-07-26`
   - Open-source versatile content workspace
 
-- [**perminder-klair/subwave**](https://github.com/perminder-klair/subwave) - ⭐ **1.7k** | 🍴 143 | 📅 `2026-08-05`
+- [**perminder-klair/subwave**](https://github.com/perminder-klair/subwave) - ⭐ **1.7k** | 🍴 144 | 📅 `2026-08-05`
   - Personal internet radio: Agentic AI DJ
 
 - [**sourcey/sourcey**](https://github.com/sourcey/sourcey) - ⭐ **1.4k** | 🍴 332 | 📅 `2026-07-26`
@@ -955,16 +955,16 @@
 - [**numman-ali/n-skills**](https://github.com/numman-ali/n-skills) - ⭐ **1.1k** | 🍴 108 | 📅 `2026-01-18`
   - Curated plugin marketplace for AI agents - works with Claude Code, Codex, and openskills
 
-- [**zuplo/zudoku**](https://github.com/zuplo/zudoku) - ⭐ **625** | 🍴 98 | 📅 `2026-07-21`
+- [**zuplo/zudoku**](https://github.com/zuplo/zudoku) - ⭐ **626** | 🍴 97 | 📅 `2026-07-21`
   - Framework for building high quality, interactive API documentation.
 
-- [**HoangNguyen0403/agent-skills-standard**](https://github.com/HoangNguyen0403/agent-skills-standard) - ⭐ **584** | 🍴 164 | 📅 `2026-09-02`
+- [**HoangNguyen0403/agent-skills-standard**](https://github.com/HoangNguyen0403/agent-skills-standard) - ⭐ **584** | 🍴 163 | 📅 `2026-09-02`
   - A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent follow best practies on frameworks and programming laguages
 
 - [**Agions/dramaxis**](https://github.com/Agions/dramaxis) - ⭐ **468** | 🍴 108 | 📅 `2026-08-12`
   - 🎬 Dramaxis (剧枢) — 电影级多智能体影视叙事与智能解说平台 (Tauri 2 + Rust + React 19)。6 大智能体协同导演、5 轨毫秒级对齐时间轴、四道质量闸门硬核质检、本地优先沙箱架构与剪映草稿深度互通。
 
-- [**AprilNEA/claude-code-source**](https://github.com/AprilNEA/claude-code-source) - ⭐ **393** | 🍴 593 | 📅 `2026-08-30`
+- [**AprilNEA/claude-code-source**](https://github.com/AprilNEA/claude-code-source) - ⭐ **393** | 🍴 592 | 📅 `2026-08-30`
   - Claude Code source code recovered from source map
 
 - [**zstmfhy/Claude-code**](https://github.com/zstmfhy/Claude-code) - ⭐ **188** | 🍴 277 | 📅 `2026-04-05`
@@ -991,28 +991,28 @@
 
 ### Others `(63)`
 
-- [**sindresorhus/awesome**](https://github.com/sindresorhus/awesome) - ⭐ **542.9k** | 🍴 38.7k | 📅 `2026-02-11`
+- [**sindresorhus/awesome**](https://github.com/sindresorhus/awesome) - ⭐ **543.5k** | 🍴 38.7k | 📅 `2026-02-11`
   - 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]
 
-- [**multica-ai/andrej-karpathy-skills**](https://github.com/multica-ai/andrej-karpathy-skills) - ⭐ **235.7k** | 🍴 23.4k | 📅 `2026-04-10`
+- [**multica-ai/andrej-karpathy-skills**](https://github.com/multica-ai/andrej-karpathy-skills) - ⭐ **235.9k** | 🍴 23.4k | 📅 `2026-04-10`
   - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
 
 - [**x1xhlol/system-prompts-and-models-of-ai-tools**](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - ⭐ **144.9k** | 🍴 34.6k | 📅 `2026-02-22`
   - FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models
 
-- [**VoltAgent/awesome-design-md**](https://github.com/VoltAgent/awesome-design-md) - ⭐ **129.1k** | 🍴 14.2k | 📅 `2026-04-05`
+- [**VoltAgent/awesome-design-md**](https://github.com/VoltAgent/awesome-design-md) - ⭐ **129.2k** | 🍴 14.2k | 📅 `2026-04-05`
   - A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.
 
-- [**Hack-with-Github/Awesome-Hacking**](https://github.com/Hack-with-Github/Awesome-Hacking) - ⭐ **126.6k** | 🍴 11.1k | 📅 `2026-07-10`
+- [**Hack-with-Github/Awesome-Hacking**](https://github.com/Hack-with-Github/Awesome-Hacking) - ⭐ **126.7k** | 🍴 11.1k | 📅 `2026-07-10`
   - A collection of various awesome lists for hackers, pentesters and security researchers
 
-- [**punkpeye/awesome-mcp-servers**](https://github.com/punkpeye/awesome-mcp-servers) - ⭐ **98.5k** | 🍴 20.9k | 📅 `2026-05-23`
+- [**punkpeye/awesome-mcp-servers**](https://github.com/punkpeye/awesome-mcp-servers) - ⭐ **98.5k** | 🍴 21.0k | 📅 `2026-05-23`
   - A collection of MCP servers.
 
 - [**Developer-Y/cs-video-courses**](https://github.com/Developer-Y/cs-video-courses) - ⭐ **85.0k** | 🍴 11.7k | 📅 `2026-04-04`
   - List of Computer Science courses with video lectures.
 
-- [**awesomedata/awesome-public-datasets**](https://github.com/awesomedata/awesome-public-datasets) - ⭐ **80.4k** | 🍴 12.0k | 📅 `2026-05-31`
+- [**awesomedata/awesome-public-datasets**](https://github.com/awesomedata/awesome-public-datasets) - ⭐ **80.5k** | 🍴 12.0k | 📅 `2026-05-31`
   - A topic-centric list of HQ open datasets.
 
 - [**fffaraz/awesome-cpp**](https://github.com/fffaraz/awesome-cpp) - ⭐ **74.6k** | 🍴 8.4k | 📅 `2026-02-06`
@@ -1024,7 +1024,7 @@
 - [**ngosang/trackerslist**](https://github.com/ngosang/trackerslist) - ⭐ **55.8k** | 🍴 6.6k | 📅 `2026-07-16`
   - Updated list of public BitTorrent trackers
 
-- [**elder-plinius/CL4R1T4S**](https://github.com/elder-plinius/CL4R1T4S) - ⭐ **53.8k** | 🍴 11.2k | 📅 `2026-04-22`
+- [**elder-plinius/CL4R1T4S**](https://github.com/elder-plinius/CL4R1T4S) - ⭐ **53.9k** | 🍴 11.2k | 📅 `2026-04-22`
   - LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! 👐
 
 - [**liquidslr/leetcode-company-wise-problems**](https://github.com/liquidslr/leetcode-company-wise-problems) - ⭐ **35.8k** | 🍴 7.0k | 📅 `2026-03-30`
@@ -1039,7 +1039,7 @@
 - [**phuryn/pm-skills**](https://github.com/phuryn/pm-skills) - ⭐ **28.3k** | 🍴 2.9k | 📅 `2026-06-11`
   - PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.
 
-- [**togg53192-cmd/jailbreaks**](https://github.com/togg53192-cmd/jailbreaks) - ⭐ **20.7k** | 🍴 3.7k | 📅 `2026-10-13`
+- [**togg53192-cmd/jailbreaks**](https://github.com/togg53192-cmd/jailbreaks) - ⭐ **21.0k** | 🍴 3.8k | 📅 `2026-10-13`
   - LIST OF ALL MY JAILBREAKS
 
 - [**rshipp/awesome-malware-analysis**](https://github.com/rshipp/awesome-malware-analysis) - ⭐ **14.5k** | 🍴 2.7k | 📅 `2026-02-01`
@@ -1054,10 +1054,10 @@
 - [**MoonshotAI/Kimi-K3**](https://github.com/MoonshotAI/Kimi-K3) - ⭐ **9.1k** | 🍴 801 | 📅 `2026-08-08`
   - Open Frontier Intelligence
 
-- [**agrinman/tunnelto**](https://github.com/agrinman/tunnelto) - ⭐ **7.1k** | 🍴 561 | 📅 `2026-07-15`
+- [**agrinman/tunnelto**](https://github.com/agrinman/tunnelto) - ⭐ **7.1k** | 🍴 560 | 📅 `2026-07-15`
   - Expose your local web server to the internet with a public URL.
 
-- [**open-free-llm-api/awesome-freellm-apis**](https://github.com/open-free-llm-api/awesome-freellm-apis) - ⭐ **6.1k** | 🍴 957 | 📅 `2026-08-30`
+- [**open-free-llm-api/awesome-freellm-apis**](https://github.com/open-free-llm-api/awesome-freellm-apis) - ⭐ **6.1k** | 🍴 958 | 📅 `2026-08-30`
   - 134+ free LLM APIs & AI API keys from 40+ providers. Google Gemini, NVIDIA NIM, Groq, OpenRouter & more. One-click setup for Claude Code, Cursor and Codex.
 
 - [**Hamed233/Cybersecurity-Mastery-Roadmap**](https://github.com/Hamed233/Cybersecurity-Mastery-Roadmap) - ⭐ **3.9k** | 🍴 545 | 📅 `2026-02-12`
@@ -1094,10 +1094,10 @@
 - [**Ditectrev/AWS-Certified-Solutions-Architect-Associate-SAA-C03-Practice-Tests-Exams-Questions-Answers**](https://github.com/Ditectrev/AWS-Certified-Solutions-Architect-Associate-SAA-C03-Practice-Tests-Exams-Questions-Answers) - ⭐ **768** | 🍴 325 | 📅 `2026-06-06`
   - ⛳️ PASS: Amazon Web Services Certified (AWS Certified) Solutions Architect Associate (SAA-C03) by learning based on our Questions & Answers (Q&A) Practice Tests Exams.
 
-- [**mitre-attack/attack-stix-data**](https://github.com/mitre-attack/attack-stix-data) - ⭐ **732** | 🍴 149 | 📅 `2026-01-22`
+- [**mitre-attack/attack-stix-data**](https://github.com/mitre-attack/attack-stix-data) - ⭐ **733** | 🍴 151 | 📅 `2026-01-22`
   - STIX data representing MITRE ATT&CK
 
-- [**0x1ceKing/HTB-Certified-Penetration-Testing-Specialist**](https://github.com/0x1ceKing/HTB-Certified-Penetration-Testing-Specialist) - ⭐ **546** | 🍴 107 | 📅 `2026-10-05`
+- [**0x1ceKing/HTB-Certified-Penetration-Testing-Specialist**](https://github.com/0x1ceKing/HTB-Certified-Penetration-Testing-Specialist) - ⭐ **547** | 🍴 108 | 📅 `2026-10-05`
 
 - [**Fr6ey/HackTheBox-All-Cheatsheets**](https://github.com/Fr6ey/HackTheBox-All-Cheatsheets) - ⭐ **509** | 🍴 134 | 📅 `2026-08-18`
   - :)
@@ -1118,7 +1118,7 @@
 
 - [**JeffCX/collection-web3-bug-bounty**](https://github.com/JeffCX/collection-web3-bug-bounty) - ⭐ **118** | 🍴 14 | 📅 `2026-10-16`
 
-- [**kananinirav/aws-certified-ai-practitioner-study-notes**](https://github.com/kananinirav/aws-certified-ai-practitioner-study-notes) - ⭐ **96** | 🍴 34 | 📅 `2026-05-17`
+- [**kananinirav/aws-certified-ai-practitioner-study-notes**](https://github.com/kananinirav/aws-certified-ai-practitioner-study-notes) - ⭐ **97** | 🍴 34 | 📅 `2026-05-17`
   - AWS Certified AI Practitioner Exam Study Notes and Practice Test (AIF-C01)
 
 - [**naemazam/cybersecurity-career-roadmap**](https://github.com/naemazam/cybersecurity-career-roadmap) - ⭐ **88** | 🍴 15 | 📅 `2026-02-01`
@@ -1183,16 +1183,16 @@
 - [**Lordog/dive-into-llms**](https://github.com/Lordog/dive-into-llms) - ⭐ **61.3k** | 🍴 7.4k | 📅 `2026-04-16`
   - 《动手学大模型Dive into LLMs》系列编程实践教程
 
-- [**anthropics/claude-cookbooks**](https://github.com/anthropics/claude-cookbooks) - ⭐ **55.2k** | 🍴 6.7k | 📅 `2026-06-17`
+- [**anthropics/claude-cookbooks**](https://github.com/anthropics/claude-cookbooks) - ⭐ **55.3k** | 🍴 6.7k | 📅 `2026-06-17`
   - A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
 
-- [**patchy631/ai-engineering-hub**](https://github.com/patchy631/ai-engineering-hub) - ⭐ **42.1k** | 🍴 6.7k | 📅 `2026-01-06`
+- [**patchy631/ai-engineering-hub**](https://github.com/patchy631/ai-engineering-hub) - ⭐ **42.2k** | 🍴 6.7k | 📅 `2026-01-06`
   - In-depth tutorials on LLMs, RAGs and real-world AI agent applications.
 
 - [**The-Art-of-Hacking/h4cker**](https://github.com/The-Art-of-Hacking/h4cker) - ⭐ **30.4k** | 🍴 5.5k | 📅 `2026-03-06`
   - This repository is maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), AI security, vulnerability research, exploit development, reverse engineering, and more. 🔥 Also check: https://hackertraining.org
 
-- [**unslothai/notebooks**](https://github.com/unslothai/notebooks) - ⭐ **5.9k** | 🍴 981 | 📅 `2026-04-04`
+- [**unslothai/notebooks**](https://github.com/unslothai/notebooks) - ⭐ **5.9k** | 🍴 982 | 📅 `2026-04-04`
   - 250+ Fine-tuning & RL Notebooks for text, vision, audio, embedding, TTS models.
 
 - [**rolling-panda-san/notebooks**](https://github.com/rolling-panda-san/notebooks) - ⭐ **787** | 🍴 121 | 📅 `2026-06-17`
@@ -1215,7 +1215,7 @@
 - [**g-shreekant/Heart-Disease-Prediction-using-Machine-Learning**](https://github.com/g-shreekant/Heart-Disease-Prediction-using-Machine-Learning) - ⭐ **305** | 🍴 225 | 📅 `2026-05-08`
   - Machine Learning helps in predicting the Heart diseases, and the predictions made are quite accurate.
 
-- [**georgymh/ml-fraud-detection**](https://github.com/georgymh/ml-fraud-detection) - ⭐ **293** | 🍴 119 | 📅 `2026-05-12`
+- [**georgymh/ml-fraud-detection**](https://github.com/georgymh/ml-fraud-detection) - ⭐ **293** | 🍴 120 | 📅 `2026-05-12`
   - Credit card fraud detection through logistic regression, k-means, and deep learning.
 
 - [**krishnaik06/Car-Price-Prediction**](https://github.com/krishnaik06/Car-Price-Prediction) - ⭐ **293** | 🍴 524 | 📅 `2026-05-11`
@@ -1350,31 +1350,31 @@
 - [**ultraworkers/claw-code**](https://github.com/ultraworkers/claw-code) - ⭐ **194.7k** | 🍴 107.1k | 📅 `2026-04-01`
   - An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.
 
-- [**openai/codex**](https://github.com/openai/codex) - ⭐ **136.5k** | 🍴 21.6k | 📅 `2026-01-15`
+- [**openai/codex**](https://github.com/openai/codex) - ⭐ **136.6k** | 🍴 21.7k | 📅 `2026-01-15`
   - Lightweight coding agent that runs in your terminal
 
-- [**pbakaus/impeccable**](https://github.com/pbakaus/impeccable) - ⭐ **116.9k** | 🍴 7.0k | 📅 `2026-07-24`
+- [**pbakaus/impeccable**](https://github.com/pbakaus/impeccable) - ⭐ **117.6k** | 🍴 7.0k | 📅 `2026-07-24`
   - The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.
 
-- [**ruvnet/RuView**](https://github.com/ruvnet/RuView) - ⭐ **105.2k** | 🍴 13.7k | 📅 `2026-05-25`
+- [**ruvnet/RuView**](https://github.com/ruvnet/RuView) - ⭐ **105.3k** | 🍴 13.7k | 📅 `2026-05-25`
   - π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
 
 - [**oven-sh/bun**](https://github.com/oven-sh/bun) - ⭐ **97.0k** | 🍴 5.2k | 📅 `2026-05-17`
   - Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one
 
-- [**zed-industries/zed**](https://github.com/zed-industries/zed) - ⭐ **95.7k** | 🍴 11.9k | 📅 `2026-06-18`
+- [**zed-industries/zed**](https://github.com/zed-industries/zed) - ⭐ **95.8k** | 🍴 11.9k | 📅 `2026-06-18`
   - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
 
-- [**rtk-ai/rtk**](https://github.com/rtk-ai/rtk) - ⭐ **87.8k** | 🍴 5.6k | 📅 `2026-07-18`
+- [**rtk-ai/rtk**](https://github.com/rtk-ai/rtk) - ⭐ **88.0k** | 🍴 5.7k | 📅 `2026-07-18`
   - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
 
-- [**warpdotdev/warp**](https://github.com/warpdotdev/warp) - ⭐ **66.1k** | 🍴 5.8k | 📅 `2026-04-29`
+- [**warpdotdev/warp**](https://github.com/warpdotdev/warp) - ⭐ **66.2k** | 🍴 5.8k | 📅 `2026-04-29`
   - Warp is an agentic development environment, born out of the terminal.
 
-- [**vercel-labs/agent-browser**](https://github.com/vercel-labs/agent-browser) - ⭐ **54.0k** | 🍴 3.8k | 📅 `2026-06-26`
+- [**vercel-labs/agent-browser**](https://github.com/vercel-labs/agent-browser) - ⭐ **54.2k** | 🍴 3.8k | 📅 `2026-06-26`
   - Browser automation CLI for AI agents
 
-- [**herdrdev/herdr**](https://github.com/herdrdev/herdr) - ⭐ **52.9k** | 🍴 4.3k | 📅 `2026-09-26`
+- [**herdrdev/herdr**](https://github.com/herdrdev/herdr) - ⭐ **53.1k** | 🍴 4.3k | 📅 `2026-09-26`
   - the runtime your coding agents live on
 
 - [**bevyengine/bevy**](https://github.com/bevyengine/bevy) - ⭐ **50.0k** | 🍴 5.1k | 📅 `2026-01-28`
@@ -1389,7 +1389,7 @@
 - [**block/buzz**](https://github.com/block/buzz) - ⭐ **37.8k** | 🍴 5.0k | 📅 `2026-07-24`
   - A hive mind communication platform
 
-- [**h4ckf0r0day/obscura**](https://github.com/h4ckf0r0day/obscura) - ⭐ **37.4k** | 🍴 3.0k | 📅 `2026-08-17`
+- [**h4ckf0r0day/obscura**](https://github.com/h4ckf0r0day/obscura) - ⭐ **37.5k** | 🍴 3.0k | 📅 `2026-08-17`
   - The headless browser for AI agents and web scraping
 
 - [**xai-org/x-algorithm**](https://github.com/xai-org/x-algorithm) - ⭐ **34.4k** | 🍴 5.5k | 📅 `2026-05-18`
@@ -1398,7 +1398,7 @@
 - [**Zackriya-Solutions/meetily**](https://github.com/Zackriya-Solutions/meetily) - ⭐ **33.1k** | 🍴 3.7k | 📅 `2026-07-06`
   - Privacy-first AI meeting note taker for Windows, macOS and Linux. Free, open source (MIT). On-device Whisper/Parakeet transcription and speaker diarization, no meeting bot. Open-source alternative to Granola, Otter and Fireflies. https://meetily.ai
 
-- [**ankitects/anki**](https://github.com/ankitects/anki) - ⭐ **33.0k** | 🍴 3.5k | 📅 `2026-08-01`
+- [**ankitects/anki**](https://github.com/ankitects/anki) - ⭐ **33.1k** | 🍴 3.5k | 📅 `2026-08-01`
   - Anki is a smart spaced repetition flashcard program
 
 - [**BloopAI/vibe-kanban**](https://github.com/BloopAI/vibe-kanban) - ⭐ **28.8k** | 🍴 3.1k | 📅 `2026-05-31`
@@ -1410,7 +1410,7 @@
 - [**ai-openshell/openshell**](https://github.com/ai-openshell/openshell) - ⭐ **22.0k** | 🍴 2.2k | 📅 `2026-10-01`
   - OpenShell is the safe, private runtime for autonomous AI agents.
 
-- [**jlcodes99/cockpit-tools**](https://github.com/jlcodes99/cockpit-tools) - ⭐ **20.5k** | 🍴 1.9k | 📅 `2026-08-13`
+- [**jlcodes99/cockpit-tools**](https://github.com/jlcodes99/cockpit-tools) - ⭐ **20.6k** | 🍴 1.9k | 📅 `2026-08-13`
   - 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta
 
 - [**firecrawl/pdf-inspector**](https://github.com/firecrawl/pdf-inspector) - ⭐ **20.1k** | 🍴 1.4k | 📅 `2026-09-02`
@@ -1428,8 +1428,8 @@
 - [**Kuberwastaken/claurst**](https://github.com/Kuberwastaken/claurst) - ⭐ **10.3k** | 🍴 7.6k | 📅 `2026-04-02`
   - Agentic Coding for Builders who Ship
 
-- [**erkamyaman/rust-anything**](https://github.com/erkamyaman/rust-anything) - ⭐ **9.6k** | 🍴 789 | 📅 `2026-11-18`
-  - Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.
+- [**erkamyaman/rust-anything**](https://github.com/erkamyaman/rust-anything) - ⭐ **10.3k** | 🍴 832 | 📅 `2026-11-18`
+  - Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell.
 
 - [**xberg-io/xberg**](https://github.com/xberg-io/xberg) - ⭐ **9.6k** | 🍴 617 | 📅 `2026-01-12`
   - The fast, precise document-intelligence engine for every language: text, tables and metadata from 100+ formats, with OCR, transcription and code intelligence.
@@ -1440,7 +1440,7 @@
 - [**zensical/zensical**](https://github.com/zensical/zensical) - ⭐ **6.3k** | 🍴 146 | 📅 `2026-07-26`
   - A modern static site generator by the Material for MkDocs team
 
-- [**signalapp/libsignal**](https://github.com/signalapp/libsignal) - ⭐ **6.2k** | 🍴 824 | 📅 `2026-01-22`
+- [**signalapp/libsignal**](https://github.com/signalapp/libsignal) - ⭐ **6.2k** | 🍴 826 | 📅 `2026-01-22`
   - Home to the Signal Protocol as well as other cryptographic primitives which make Signal possible.
 
 - [**malisper/pgrust**](https://github.com/malisper/pgrust) - ⭐ **6.1k** | 🍴 249 | 📅 `2026-07-13`
@@ -1449,19 +1449,19 @@
 - [**marcelroed/gigatoken**](https://github.com/marcelroed/gigatoken) - ⭐ **4.2k** | 🍴 228 | 📅 `2026-07-24`
   - Language model tokenization at GB/s
 
-- [**dmtrKovalenko/fframes**](https://github.com/dmtrKovalenko/fframes) - ⭐ **3.1k** | 🍴 103 | 📅 `2026-10-01`
+- [**dmtrKovalenko/fframes**](https://github.com/dmtrKovalenko/fframes) - ⭐ **3.2k** | 🍴 103 | 📅 `2026-10-01`
   - programmatic video rendering framework that is actually fast
 
 - [**soongenwong/claudecode**](https://github.com/soongenwong/claudecode) - ⭐ **1.2k** | 🍴 420 | 📅 `2026-07-12`
   - Open Source ClaudeCode Leaked. Same functionalities as Claude Code by Anthropic. Written in Rust, Ready to use immediately for free.
 
-- [**Yeachan-Heo/clawhip**](https://github.com/Yeachan-Heo/clawhip) - ⭐ **940** | 🍴 164 | 📅 `2026-04-05`
+- [**Yeachan-Heo/clawhip**](https://github.com/Yeachan-Heo/clawhip) - ⭐ **940** | 🍴 165 | 📅 `2026-04-05`
   - claw + whip: Event-to-channel notification router — bypasses gateway sessions to avoid context pollution
 
-- [**milos-agathon/forge3d**](https://github.com/milos-agathon/forge3d) - ⭐ **864** | 🍴 87 | 📅 `2026-09-04`
+- [**milos-agathon/forge3d**](https://github.com/milos-agathon/forge3d) - ⭐ **867** | 🍴 87 | 📅 `2026-09-04`
   - Rust‑first, cross‑platform wgpu/WebGPU renderer exposed to Python for fast, headless 3D rendering. Built in Rust, shipped as Python wheels.
 
-- [**RustCrypto/signatures**](https://github.com/RustCrypto/signatures) - ⭐ **675** | 🍴 215 | 📅 `2026-05-04`
+- [**RustCrypto/signatures**](https://github.com/RustCrypto/signatures) - ⭐ **676** | 🍴 215 | 📅 `2026-05-04`
   - Cryptographic signature algorithms: DSA, ECDSA, Ed25519
 
 - [**srothgan/claude-code-rust**](https://github.com/srothgan/claude-code-rust) - ⭐ **281** | 🍴 62 | 📅 `2026-10-23`
@@ -1481,10 +1481,10 @@
 
 ### JavaScript `(34)`
 
-- [**affaan-m/ECC**](https://github.com/affaan-m/ECC) - ⭐ **310.8k** | 🍴 45.7k | 📅 `2026-01-20`
+- [**affaan-m/ECC**](https://github.com/affaan-m/ECC) - ⭐ **311.4k** | 🍴 45.7k | 📅 `2026-01-20`
   - The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
-- [**DietrichGebert/ponytail**](https://github.com/DietrichGebert/ponytail) - ⭐ **198.8k** | 🍴 11.3k | 📅 `2026-06-17`
+- [**DietrichGebert/ponytail**](https://github.com/DietrichGebert/ponytail) - ⭐ **199.4k** | 🍴 11.3k | 📅 `2026-06-17`
   - Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
 
 - [**vercel/next.js**](https://github.com/vercel/next.js) - ⭐ **143.7k** | 🍴 32.7k | 📅 `2026-07-11`
@@ -1493,19 +1493,19 @@
 - [**nodejs/node**](https://github.com/nodejs/node) - ⭐ **124.0k** | 🍴 38.0k | 📅 `2026-05-22`
   - Node.js JavaScript runtime ✨🐢🚀✨
 
-- [**Leonxlnx/taste-skill**](https://github.com/Leonxlnx/taste-skill) - ⭐ **121.6k** | 🍴 8.2k | 📅 `2026-07-14`
+- [**Leonxlnx/taste-skill**](https://github.com/Leonxlnx/taste-skill) - ⭐ **122.0k** | 🍴 8.2k | 📅 `2026-07-14`
   - Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages
 
-- [**addyosmani/agent-skills**](https://github.com/addyosmani/agent-skills) - ⭐ **120.4k** | 🍴 12.5k | 📅 `2026-04-07`
+- [**addyosmani/agent-skills**](https://github.com/addyosmani/agent-skills) - ⭐ **120.6k** | 🍴 12.6k | 📅 `2026-04-07`
   - Production-grade engineering skills for AI coding agents.
 
-- [**tt-a1i/archify**](https://github.com/tt-a1i/archify) - ⭐ **99.9k** | 🍴 6.8k | 📅 `2026-08-30`
+- [**tt-a1i/archify**](https://github.com/tt-a1i/archify) - ⭐ **100.6k** | 🍴 6.9k | 📅 `2026-08-30`
   - Turn any idea, plan, or codebase into an interactive diagram or one-page answer: 10 diagram types, Architecture Diagnosis, Story video and PR walkthroughs. An Agent Skill for Claude Code, Codex, Cursor and more.
 
 - [**jgraph/drawio-desktop**](https://github.com/jgraph/drawio-desktop) - ⭐ **64.2k** | 🍴 5.8k | 📅 `2026-07-17`
   - Official electron build of draw.io
 
-- [**coreyhaines31/marketingskills**](https://github.com/coreyhaines31/marketingskills) - ⭐ **62.7k** | 🍴 9.2k | 📅 `2026-01-22`
+- [**coreyhaines31/marketingskills**](https://github.com/coreyhaines31/marketingskills) - ⭐ **62.9k** | 🍴 9.2k | 📅 `2026-01-22`
   - Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
 
 - [**usebruno/bruno**](https://github.com/usebruno/bruno) - ⭐ **48.6k** | 🍴 3.2k | 📅 `2026-05-17`
@@ -1517,7 +1517,7 @@
 - [**saadeghi/daisyui**](https://github.com/saadeghi/daisyui) - ⭐ **43.0k** | 🍴 1.7k | 📅 `2026-07-06`
   - 🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library
 
-- [**vercel-labs/agent-skills**](https://github.com/vercel-labs/agent-skills) - ⭐ **34.9k** | 🍴 3.0k | 📅 `2026-01-19`
+- [**vercel-labs/agent-skills**](https://github.com/vercel-labs/agent-skills) - ⭐ **35.0k** | 🍴 3.1k | 📅 `2026-01-19`
   - Vercel's official collection of agent skills
 
 - [**decolua/9router**](https://github.com/decolua/9router) - ⭐ **32.9k** | 🍴 6.4k | 📅 `2026-03-31`
@@ -1526,7 +1526,7 @@
 - [**datawhalechina/easy-vibe**](https://github.com/datawhalechina/easy-vibe) - ⭐ **20.5k** | 🍴 2.0k | 📅 `2026-05-16`
   - 💻  Vibe Coding 101｜Your First Course For AI Product Builders.
 
-- [**ConardLi/garden-skills**](https://github.com/ConardLi/garden-skills) - ⭐ **15.8k** | 🍴 1.8k | 📅 `2026-05-11`
+- [**ConardLi/garden-skills**](https://github.com/ConardLi/garden-skills) - ⭐ **15.9k** | 🍴 1.8k | 📅 `2026-05-11`
   - ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.
 
 - [**wonderwhy-er/DesktopCommanderMCP**](https://github.com/wonderwhy-er/DesktopCommanderMCP) - ⭐ **10.4k** | 🍴 1.3k | 📅 `2026-07-10`
@@ -1535,13 +1535,13 @@
 - [**jgraph/drawio**](https://github.com/jgraph/drawio) - ⭐ **9.6k** | 🍴 1.4k | 📅 `2026-07-21`
   - draw.io is a JavaScript, client-side editor for general diagramming.
 
-- [**JannisX11/blockbench**](https://github.com/JannisX11/blockbench) - ⭐ **6.2k** | 🍴 551 | 📅 `2026-06-11`
+- [**JannisX11/blockbench**](https://github.com/JannisX11/blockbench) - ⭐ **6.3k** | 🍴 552 | 📅 `2026-06-11`
   - Blockbench - A low poly 3D model editor
 
 - [**darkzOGx/youtube-automation-agent**](https://github.com/darkzOGx/youtube-automation-agent) - ⭐ **5.4k** | 🍴 1.7k | 📅 `2026-08-18`
   - 🎬 Open-source, self-hosted AI agent that runs a YouTube channel end to end: researches topics, writes scripts, generates narration, visuals and video, optimizes SEO, and publishes after your approval, then learns from analytics. Works with Gemini, OpenAI, OpenRouter, DeepSeek and more.
 
-- [**QwenAudio/qwen-audio-agent**](https://github.com/QwenAudio/qwen-audio-agent) - ⭐ **3.3k** | 🍴 353 | 📅 `2026-08-01`
+- [**QwenAudio/qwen-audio-agent**](https://github.com/QwenAudio/qwen-audio-agent) - ⭐ **3.3k** | 🍴 354 | 📅 `2026-08-01`
   - A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voice Runtime for AI Agents
 
 - [**kimchi-project/kimchi**](https://github.com/kimchi-project/kimchi) - ⭐ **3.2k** | 🍴 360 | 📅 `2026-08-11`
@@ -1550,16 +1550,16 @@
 - [**LeoYeAI/talewell**](https://github.com/LeoYeAI/talewell) - ⭐ **549** | 🍴 28 | 📅 `2026-03-30`
   - Plugin-first long-term memory for agent platforms — reference implementation of AMP (Agent Memory Protocol).
 
-- [**ChathurangaVKD/AWS-Certified-Solutions-Architect-Associate-SAA-C03**](https://github.com/ChathurangaVKD/AWS-Certified-Solutions-Architect-Associate-SAA-C03) - ⭐ **448** | 🍴 180 | 📅 `2026-06-06`
+- [**ChathurangaVKD/AWS-Certified-Solutions-Architect-Associate-SAA-C03**](https://github.com/ChathurangaVKD/AWS-Certified-Solutions-Architect-Associate-SAA-C03) - ⭐ **450** | 🍴 180 | 📅 `2026-06-06`
   - Study notes, architecture diagrams, hands-on labs, and exam-focused summaries for the AWS Certified Solutions Architect – Associate (SAA-C03) certification.
 
-- [**wazuh/wazuh-documentation**](https://github.com/wazuh/wazuh-documentation) - ⭐ **281** | 🍴 402 | 📅 `2026-09-24`
+- [**wazuh/wazuh-documentation**](https://github.com/wazuh/wazuh-documentation) - ⭐ **281** | 🍴 401 | 📅 `2026-09-24`
   - Wazuh - Project documentation
 
 - [**fdhhhdjd/Class_RabbitMQ**](https://github.com/fdhhhdjd/Class_RabbitMQ) - ⭐ **161** | 🍴 53 | 📅 `2026-05-19`
   - 🐰 A practical RabbitMQ learning project demonstrating message queues, producers, consumers, and asynchronous communication using real-world examples. Designed to help developers understand how message brokers improve scalability, reliability, and decoupled system architecture.
 
-- [**bestagentkits/motion-video-skill**](https://github.com/bestagentkits/motion-video-skill) - ⭐ **156** | 🍴 42 | 📅 `2026-11-14`
+- [**bestagentkits/motion-video-skill**](https://github.com/bestagentkits/motion-video-skill) - ⭐ **157** | 🍴 42 | 📅 `2026-11-14`
   - Agent skill that produces beat-synced 1080p motion-graphic videos in HyperFrames (HTML + GSAP) with an AI voice-over, karaoke captions, SFX and generated music. MIT.
 
 - [**lacvietanh/aki-mcp-sv**](https://github.com/lacvietanh/aki-mcp-sv) - ⭐ **154** | 🍴 46 | 📅 `2026-08-09`
@@ -1571,7 +1571,7 @@
 - [**hieuphung97/dely**](https://github.com/hieuphung97/dely) - ⭐ **100** | 🍴 27 | 📅 `2026-08-30`
   - Multi-harness control protocol that turns requests into approved design contracts, orchestrating isolated worker sessions for sequential implementation and independent code reviews under Orca supervision for Claude Code, Codex, Cursor, Antigravity, and other AI coding agents.
 
-- [**splunk/splunk-agent-skills**](https://github.com/splunk/splunk-agent-skills) - ⭐ **70** | 🍴 10 | 📅 `2026-10-03`
+- [**splunk/splunk-agent-skills**](https://github.com/splunk/splunk-agent-skills) - ⭐ **71** | 🍴 10 | 📅 `2026-10-03`
   - Open source, enterprise-ready AI skills for Splunk use cases, built for secure discovery, consistent execution, and production-grade customer workflows.
 
 - [**fdhhhdjd/class-prometheus-grafana-telegram-alerts**](https://github.com/fdhhhdjd/class-prometheus-grafana-telegram-alerts) - ⭐ **60** | 🍴 34 | 📅 `2026-04-12`
@@ -1583,63 +1583,63 @@
 - [**BGIGOO/edge-rewards-bot**](https://github.com/BGIGOO/edge-rewards-bot) - ⭐ **7** | 🍴 0 | 📅 `2026-09-25`
 
 
-### Go `(32)`
+### Go `(31)`
 
-- [**golang/go**](https://github.com/golang/go) - ⭐ **140.1k** | 🍴 20.2k | 📅 `2026-09-26`
+- [**golang/go**](https://github.com/golang/go) - ⭐ **140.2k** | 🍴 20.2k | 📅 `2026-09-26`
   - The Go programming language
 
-- [**JuliusBrussee/caveman**](https://github.com/JuliusBrussee/caveman) - ⭐ **122.9k** | 🍴 7.2k | 📅 `2026-05-08`
+- [**JuliusBrussee/caveman**](https://github.com/JuliusBrussee/caveman) - ⭐ **123.1k** | 🍴 7.2k | 📅 `2026-05-08`
   - why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.
 
 - [**microsoft/TypeScript**](https://github.com/microsoft/TypeScript) - ⭐ **111.9k** | 🍴 14.6k | 📅 `2026-07-11`
   - TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
 
-- [**infiniflow/ragflow**](https://github.com/infiniflow/ragflow) - ⭐ **94.7k** | 🍴 11.4k | 📅 `2026-08-14`
+- [**infiniflow/ragflow**](https://github.com/infiniflow/ragflow) - ⭐ **94.8k** | 🍴 11.4k | 📅 `2026-08-14`
   - RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.
 
 - [**usememos/memos**](https://github.com/usememos/memos) - ⭐ **64.7k** | 🍴 5.0k | 📅 `2026-01-06`
   - Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline. Your data stays yours, and you choose what to keep private or share.
 
-- [**router-for-me/CLIProxyAPI**](https://github.com/router-for-me/CLIProxyAPI) - ⭐ **59.5k** | 🍴 9.1k | 📅 `2026-08-10`
+- [**router-for-me/CLIProxyAPI**](https://github.com/router-for-me/CLIProxyAPI) - ⭐ **59.6k** | 🍴 9.2k | 📅 `2026-08-10`
   - Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API
 
-- [**multica-ai/multica**](https://github.com/multica-ai/multica) - ⭐ **57.9k** | 🍴 7.6k | 📅 `2026-04-11`
-  - Make humans and AI agents work as one team — open-source and self-hostable.
+- [**multica-ai/multica**](https://github.com/multica-ai/multica) - ⭐ **58.1k** | 🍴 7.6k | 📅 `2026-04-11`
+  - Shared task board where people and AI coding agents work as teammates. Source-available, self-hostable.
 
-- [**alibaba/open-code-review**](https://github.com/alibaba/open-code-review) - ⭐ **56.4k** | 🍴 4.7k | 📅 `2026-06-06`
+- [**alibaba/open-code-review**](https://github.com/alibaba/open-code-review) - ⭐ **56.7k** | 🍴 4.7k | 📅 `2026-06-06`
   - Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.
 
-- [**hashicorp/terraform**](https://github.com/hashicorp/terraform) - ⭐ **50.3k** | 🍴 10.6k | 📅 `2026-07-11`
+- [**hashicorp/terraform**](https://github.com/hashicorp/terraform) - ⭐ **50.4k** | 🍴 10.6k | 📅 `2026-07-11`
   - Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
 
 - [**gofiber/fiber**](https://github.com/gofiber/fiber) - ⭐ **40.3k** | 🍴 2.2k | 📅 `2026-08-05`
   - ⚡️ Express inspired web framework written in Go
 
-- [**aquasecurity/trivy**](https://github.com/aquasecurity/trivy) - ⭐ **39.8k** | 🍴 942 | 📅 `2026-04-22`
+- [**aquasecurity/trivy**](https://github.com/aquasecurity/trivy) - ⭐ **39.8k** | 🍴 954 | 📅 `2026-04-22`
   - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
 
-- [**tailscale/tailscale**](https://github.com/tailscale/tailscale) - ⭐ **39.6k** | 🍴 3.6k | 📅 `2026-07-11`
+- [**tailscale/tailscale**](https://github.com/tailscale/tailscale) - ⭐ **39.7k** | 🍴 3.6k | 📅 `2026-07-11`
   - The easiest, most secure way to use WireGuard and 2FA.
 
 - [**esengine/DeepSeek-Reasonix**](https://github.com/esengine/DeepSeek-Reasonix) - ⭐ **36.1k** | 🍴 2.6k | 📅 `2026-08-01`
   - A reliable coding agent for complex software engineering tasks.
 
-- [**vxcontrol/pentagi**](https://github.com/vxcontrol/pentagi) - ⭐ **35.0k** | 🍴 5.6k | 📅 `2026-10-12`
+- [**vxcontrol/pentagi**](https://github.com/vxcontrol/pentagi) - ⭐ **35.1k** | 🍴 5.6k | 📅 `2026-10-12`
   - Fully autonomous AI Agents system capable of performing complex penetration testing tasks
 
 - [**goharbor/harbor**](https://github.com/goharbor/harbor) - ⭐ **29.8k** | 🍴 5.4k | 📅 `2026-09-17`
   - Harbor is a CNCF graduated open-source container registry to manage container images and other OCI artifacts securely with policies, role-based access control, vulnerability scans and signing.
 
-- [**dolthub/dolt**](https://github.com/dolthub/dolt) - ⭐ **25.0k** | 🍴 926 | 📅 `2026-05-04`
+- [**dolthub/dolt**](https://github.com/dolthub/dolt) - ⭐ **25.0k** | 🍴 927 | 📅 `2026-05-04`
   - Dolt – Git for Data
 
-- [**BaaRai/ARTEX**](https://github.com/BaaRai/ARTEX) - ⭐ **20.9k** | 🍴 7.8k | 📅 `2026-11-15`
+- [**BaaRai/ARTEX**](https://github.com/BaaRai/ARTEX) - ⭐ **22.4k** | 🍴 8.3k | 📅 `2026-11-15`
   - Actively maintained ARTEX: AI autonomous penetration testing system. Self-hosted, model-agnostic, evidence-backed findings. Community continuation of Autumn-27/ARTEX, AGPL-3.0.
 
 - [**TencentCloud/CubeSandbox**](https://github.com/TencentCloud/CubeSandbox) - ⭐ **13.5k** | 🍴 1.2k | 📅 `2026-04-23`
   - Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.
 
-- [**anchore/grype**](https://github.com/anchore/grype) - ⭐ **13.3k** | 🍴 961 | 📅 `2026-07-22`
+- [**anchore/grype**](https://github.com/anchore/grype) - ⭐ **13.4k** | 🍴 961 | 📅 `2026-07-22`
   - A vulnerability scanner for container images and filesystems
 
 - [**gcla/termshark**](https://github.com/gcla/termshark) - ⭐ **10.1k** | 🍴 441 | 📅 `2026-07-16`
@@ -1648,16 +1648,13 @@
 - [**anchore/syft**](https://github.com/anchore/syft) - ⭐ **10.0k** | 🍴 1.1k | 📅 `2026-04-26`
   - CLI tool and library for generating a Software Bill of Materials from container images and filesystems
 
-- [**AIPentest/CyberStrikeAI**](https://github.com/AIPentest/CyberStrikeAI) - ⭐ **9.1k** | 🍴 2.3k | 📅 `2026-08-19`
-  - The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.
-
 - [**btcsuite/btcd**](https://github.com/btcsuite/btcd) - ⭐ **6.7k** | 🍴 2.5k | 📅 `2026-04-02`
   - An alternative full node bitcoin implementation written in Go (golang)
 
-- [**seakee/CPA-Manager-Plus**](https://github.com/seakee/CPA-Manager-Plus) - ⭐ **4.1k** | 🍴 466 | 📅 `2026-09-16`
+- [**seakee/CPA-Manager-Plus**](https://github.com/seakee/CPA-Manager-Plus) - ⭐ **4.1k** | 🍴 467 | 📅 `2026-09-16`
   - A self-hosted CPA / CLIProxyAPI management panel and AI gateway observability dashboard for requests, usage, cost, quota, failures, and account health.
 
-- [**strelov1/freehire**](https://github.com/strelov1/freehire) - ⭐ **3.7k** | 🍴 404 | 📅 `2026-11-16`
+- [**strelov1/freehire**](https://github.com/strelov1/freehire) - ⭐ **3.8k** | 🍴 405 | 📅 `2026-11-16`
   - freehire — the open-source search engine for job seekers
 
 - [**nextlevelbuilder/goclaw**](https://github.com/nextlevelbuilder/goclaw) - ⭐ **3.7k** | 🍴 1.1k | 📅 `2026-04-08`
@@ -1666,10 +1663,10 @@
 - [**Asymptote-Labs/agent-beacon**](https://github.com/Asymptote-Labs/agent-beacon) - ⭐ **3.6k** | 🍴 329 | 📅 `2026-10-24`
   - The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu
 
-- [**Armur-Ai/Pentest-Swarm-AI**](https://github.com/Armur-Ai/Pentest-Swarm-AI) - ⭐ **3.3k** | 🍴 620 | 📅 `2026-06-17`
+- [**Armur-Ai/Pentest-Swarm-AI**](https://github.com/Armur-Ai/Pentest-Swarm-AI) - ⭐ **3.3k** | 🍴 622 | 📅 `2026-06-17`
   - Open-source autonomous AI pentester (the open-source XBOW alternative). A swarm of recon, exploit and report agents tests web apps and REST/GraphQL APIs, checks findings with non-LLM verification oracles, and runs on Claude, Gemini, OpenAI-compatible or local Ollama models. Go, AGPL-3.0, alpha.
 
-- [**voocel/ainovel-cli**](https://github.com/voocel/ainovel-cli) - ⭐ **2.4k** | 🍴 481 | 📅 `2026-08-28`
+- [**voocel/ainovel-cli**](https://github.com/voocel/ainovel-cli) - ⭐ **2.4k** | 🍴 482 | 📅 `2026-08-28`
   - ✨多agent实现全自动AI小说生成
 
 - [**versenilvis/IRIS**](https://github.com/versenilvis/IRIS) - ⭐ **1.3k** | 🍴 54 | 📅 `2026-08-02`
@@ -1684,31 +1681,31 @@
 
 ### HTML `(27)`
 
-- [**ripienaar/free-for-dev**](https://github.com/ripienaar/free-for-dev) - ⭐ **143.7k** | 🍴 15.5k | 📅 `2026-06-28`
+- [**ripienaar/free-for-dev**](https://github.com/ripienaar/free-for-dev) - ⭐ **143.8k** | 🍴 15.5k | 📅 `2026-06-28`
   - A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
 
-- [**cathrynlavery/diagram-design**](https://github.com/cathrynlavery/diagram-design) - ⭐ **73.1k** | 🍴 4.9k | 📅 `2026-08-12`
+- [**cathrynlavery/diagram-design**](https://github.com/cathrynlavery/diagram-design) - ⭐ **73.9k** | 🍴 4.9k | 📅 `2026-08-12`
   - Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.
 
 - [**shanraisshan/claude-code-best-practice**](https://github.com/shanraisshan/claude-code-best-practice) - ⭐ **69.4k** | 🍴 6.9k | 📅 `2026-04-10`
   - from vibe coding to agentic engineering - practice makes claude perfect
 
-- [**hasaneyldrm/exercises-dataset**](https://github.com/hasaneyldrm/exercises-dataset) - ⭐ **24.0k** | 🍴 3.1k | 📅 `2026-06-30`
+- [**hasaneyldrm/exercises-dataset**](https://github.com/hasaneyldrm/exercises-dataset) - ⭐ **24.1k** | 🍴 3.1k | 📅 `2026-06-30`
   - 1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.
 
 - [**xbtlin/ai-berkshire**](https://github.com/xbtlin/ai-berkshire) - ⭐ **17.3k** | 🍴 2.5k | 📅 `2026-06-27`
   - AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.
 
-- [**AhmadHassan-BTed/Turnitout-Humanizer**](https://github.com/AhmadHassan-BTed/Turnitout-Humanizer) - ⭐ **12.6k** | 🍴 346 | 📅 `2026-11-07`
+- [**AhmadHassan-BTed/Turnitout-Humanizer**](https://github.com/AhmadHassan-BTed/Turnitout-Humanizer) - ⭐ **12.7k** | 🍴 347 | 📅 `2026-11-07`
   - FREE FOREVER, NO LIMITS 100% Programmatic, Zero-AI Plagiarism Remover & Similarity Evader. Bypass Turnitin, iThenticate, GPTZero, CopyLeaks, Quillbot & ZeroGPT for LaTeX, DOCX, & Multi-Language Source Code.
 
 - [**cotes2020/jekyll-theme-chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy) - ⭐ **10.3k** | 🍴 7.1k | 📅 `2026-02-07`
   - A minimal, responsive, and feature-rich Jekyll theme for technical writing.
 
-- [**AhmadIbrahiim/Website-downloader**](https://github.com/AhmadIbrahiim/Website-downloader) - ⭐ **6.5k** | 🍴 1.5k | 📅 `2026-07-08`
+- [**AhmadIbrahiim/Website-downloader**](https://github.com/AhmadIbrahiim/Website-downloader) - ⭐ **6.6k** | 🍴 1.5k | 📅 `2026-07-08`
   - 💡  Download the complete source code of any website (including all assets). [ Javascripts, Stylesheets, Images ]  using Node.js
 
-- [**cclank/lanshu-create-ai-presenter-video**](https://github.com/cclank/lanshu-create-ai-presenter-video) - ⭐ **3.1k** | 🍴 462 | 📅 `2026-08-23`
+- [**cclank/lanshu-create-ai-presenter-video**](https://github.com/cclank/lanshu-create-ai-presenter-video) - ⭐ **3.1k** | 🍴 461 | 📅 `2026-08-23`
   - Provider-neutral Codex Skill for producing verified AI presenter videos from a script and an authorized presenter image.
 
 - [**anonystick/anonystick**](https://github.com/anonystick/anonystick) - ⭐ **2.8k** | 🍴 866 | 📅 `2026-04-08`
@@ -1717,7 +1714,7 @@
 - [**NomaDamas/slides-grab**](https://github.com/NomaDamas/slides-grab) - ⭐ **1.2k** | 🍴 131 | 📅 `2026-06-06`
   - Best harness + editor + linter for generating slides in Claude Code / Codex - Claude Design Open Source Alternative
 
-- [**bear2u/my-skills**](https://github.com/bear2u/my-skills) - ⭐ **946** | 🍴 206 | 📅 `2026-08-29`
+- [**bear2u/my-skills**](https://github.com/bear2u/my-skills) - ⭐ **947** | 🍴 207 | 📅 `2026-08-29`
   - 자주 사용하는 스킬들을 모은 나의 클로드 스킬들입니다.
 
 - [**digitalcraftsman/hugo-material-docs**](https://github.com/digitalcraftsman/hugo-material-docs) - ⭐ **696** | 🍴 174 | 📅 `2026-02-07`
@@ -1726,7 +1723,7 @@
 - [**eugenekolo/sec-tools**](https://github.com/eugenekolo/sec-tools) - ⭐ **692** | 🍴 142 | 📅 `2026-03-17`
   - A set of security related tools
 
-- [**OWASP/owasp.github.io**](https://github.com/OWASP/owasp.github.io) - ⭐ **670** | 🍴 322 | 📅 `2026-02-05`
+- [**OWASP/owasp.github.io**](https://github.com/OWASP/owasp.github.io) - ⭐ **671** | 🍴 322 | 📅 `2026-02-05`
   - OWASP Foundation main site repository
 
 - [**evondev/evondevKit**](https://github.com/evondev/evondevKit) - ⭐ **572** | 🍴 90 | 📅 `2026-11-15`
@@ -1739,7 +1736,7 @@
 - [**mduongvandinh/llm-wiki**](https://github.com/mduongvandinh/llm-wiki) - ⭐ **221** | 🍴 94 | 📅 `2026-04-07`
   - Hệ thống knowledge base cá nhân hoàn toàn tự động, vận hành bởi LLM. Dựa trên pattern LLM Wiki của Andrej Karpathy.
 
-- [**usnistgov/ACVP**](https://github.com/usnistgov/ACVP) - ⭐ **216** | 🍴 80 | 📅 `2026-06-17`
+- [**usnistgov/ACVP**](https://github.com/usnistgov/ACVP) - ⭐ **217** | 🍴 80 | 📅 `2026-06-17`
   - Industry Working Group on Automated Cryptographic Algorithm Validation
 
 - [**ditikrushna/End-to-End-Diabetes-Prediction-Application-Using-Machine-Learning**](https://github.com/ditikrushna/End-to-End-Diabetes-Prediction-Application-Using-Machine-Learning) - ⭐ **193** | 🍴 70 | 📅 `2026-05-04`
@@ -1754,7 +1751,7 @@
 - [**geekifan/hugo-theme-chirpy**](https://github.com/geekifan/hugo-theme-chirpy) - ⭐ **63** | 🍴 12 | 📅 `2026-02-07`
   - A hugo version of Chirpy Theme.
 
-- [**mh3400425/XiuGouDisco-master**](https://github.com/mh3400425/XiuGouDisco-master) - ⭐ **62** | 🍴 45 | 📅 `2026-08-10`
+- [**mh3400425/XiuGouDisco-master**](https://github.com/mh3400425/XiuGouDisco-master) - ⭐ **62** | 🍴 44 | 📅 `2026-08-10`
 
 - [**Vonng/vonng.com**](https://github.com/Vonng/vonng.com) - ⭐ **15** | 🍴 6 | 📅 `2026-04-05`
   - Vonng's Blog, about database, postgres, and cloud-exit
@@ -1765,7 +1762,7 @@
 
 ### C `(27)`
 
-- [**JustVugg/colibri**](https://github.com/JustVugg/colibri) - ⭐ **53.5k** | 🍴 6.5k | 📅 `2026-07-14`
+- [**JustVugg/colibri**](https://github.com/JustVugg/colibri) - ⭐ **53.6k** | 🍴 6.5k | 📅 `2026-07-14`
   - A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.
 
 - [**DeusData/codebase-memory-mcp**](https://github.com/DeusData/codebase-memory-mcp) - ⭐ **49.2k** | 🍴 4.1k | 📅 `2026-06-17`
@@ -1777,7 +1774,7 @@
 - [**redcanaryco/atomic-red-team**](https://github.com/redcanaryco/atomic-red-team) - ⭐ **12.9k** | 🍴 3.3k | 📅 `2026-05-06`
   - Small and highly portable detection tests based on MITRE's ATT&CK.
 
-- [**erincatto/box3d**](https://github.com/erincatto/box3d) - ⭐ **6.8k** | 🍴 395 | 📅 `2026-07-03`
+- [**erincatto/box3d**](https://github.com/erincatto/box3d) - ⭐ **6.8k** | 🍴 397 | 📅 `2026-07-03`
   - Box3D is a 3D physics engine for games
 
 - [**V4bel/dirtyfrag**](https://github.com/V4bel/dirtyfrag) - ⭐ **5.3k** | 🍴 823 | 📅 `2026-05-10`
@@ -1791,7 +1788,7 @@
 - [**concurrencykit/ck**](https://github.com/concurrencykit/ck) - ⭐ **2.7k** | 🍴 339 | 📅 `2026-05-11`
   - Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems developed in C99+.
 
-- [**NebuSec/CyberMeowfia**](https://github.com/NebuSec/CyberMeowfia) - ⭐ **1.9k** | 🍴 443 | 📅 `2026-07-09`
+- [**NebuSec/CyberMeowfia**](https://github.com/NebuSec/CyberMeowfia) - ⭐ **1.9k** | 🍴 442 | 📅 `2026-07-09`
   - PoCs and exploits for CVEs discovered by NebuSec.
 
 - [**microsoft/SymCrypt**](https://github.com/microsoft/SymCrypt) - ⭐ **901** | 🍴 92 | 📅 `2026-05-20`
@@ -1800,7 +1797,7 @@
 - [**libtom/libtommath**](https://github.com/libtom/libtommath) - ⭐ **817** | 🍴 226 | 📅 `2026-04-24`
   - LibTomMath is a free open source portable number theoretic multiple-precision integer library written entirely in C.
 
-- [**daandemeyer/reproc**](https://github.com/daandemeyer/reproc) - ⭐ **666** | 🍴 83 | 📅 `2026-05-17`
+- [**daandemeyer/reproc**](https://github.com/daandemeyer/reproc) - ⭐ **667** | 🍴 83 | 📅 `2026-05-17`
   - A cross-platform (C99/C++11) process library
 
 - [**h2o/quicly**](https://github.com/h2o/quicly) - ⭐ **664** | 🍴 134 | 📅 `2026-05-11`
@@ -1812,13 +1809,13 @@
 - [**apache/apr**](https://github.com/apache/apr) - ⭐ **538** | 🍴 224 | 📅 `2026-05-13`
   - Mirror of Apache Portable Runtime
 
-- [**relic-toolkit/relic**](https://github.com/relic-toolkit/relic) - ⭐ **514** | 🍴 188 | 📅 `2026-05-08`
+- [**relic-toolkit/relic**](https://github.com/relic-toolkit/relic) - ⭐ **513** | 🍴 188 | 📅 `2026-05-08`
   - Code
 
 - [**gost-engine/engine**](https://github.com/gost-engine/engine) - ⭐ **470** | 🍴 201 | 📅 `2026-05-03`
   - A reference implementation of the Russian GOST crypto algorithms for OpenSSL
 
-- [**berkeleydb/libdb**](https://github.com/berkeleydb/libdb) - ⭐ **415** | 🍴 91 | 📅 `2026-04-23`
+- [**berkeleydb/libdb**](https://github.com/berkeleydb/libdb) - ⭐ **415** | 🍴 92 | 📅 `2026-04-23`
   - Berkeley DB
 
 - [**cmc-labo/tinyos-rtos**](https://github.com/cmc-labo/tinyos-rtos) - ⭐ **236** | 🍴 8 | 📅 `2026-04-04`
@@ -1847,7 +1844,7 @@
 
 ### C++ `(21)`
 
-- [**Niko1221/Strata**](https://github.com/Niko1221/Strata) - ⭐ **48.2k** | 🍴 5.4k | 📅 `2026-10-01`
+- [**Niko1221/Strata**](https://github.com/Niko1221/Strata) - ⭐ **48.5k** | 🍴 5.5k | 📅 `2026-10-01`
   - Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.
 
 - [**grpc/grpc**](https://github.com/grpc/grpc) - ⭐ **45.5k** | 🍴 11.3k | 📅 `2026-07-11`
@@ -1862,7 +1859,7 @@
 - [**fmtlib/fmt**](https://github.com/fmtlib/fmt) - ⭐ **26.0k** | 🍴 3.1k | 📅 `2026-09-04`
   - A modern formatting library
 
-- [**imputnet/helium**](https://github.com/imputnet/helium) - ⭐ **23.0k** | 🍴 716 | 📅 `2026-08-27`
+- [**imputnet/helium**](https://github.com/imputnet/helium) - ⭐ **23.1k** | 🍴 719 | 📅 `2026-08-27`
   - Private, fast, and honest web browser
 
 - [**catchorg/Catch2**](https://github.com/catchorg/Catch2) - ⭐ **21.6k** | 🍴 3.4k | 📅 `2026-07-11`
@@ -1877,10 +1874,10 @@
 - [**PrismLauncher/PrismLauncher**](https://github.com/PrismLauncher/PrismLauncher) - ⭐ **11.2k** | 🍴 1.7k | 📅 `2026-04-13`
   - A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)
 
-- [**zeux/meshoptimizer**](https://github.com/zeux/meshoptimizer) - ⭐ **8.9k** | 🍴 770 | 📅 `2026-07-11`
+- [**zeux/meshoptimizer**](https://github.com/zeux/meshoptimizer) - ⭐ **9.0k** | 🍴 770 | 📅 `2026-07-11`
   - Mesh optimization library that makes meshes smaller and faster to render
 
-- [**TwilitRealm/dusklight**](https://github.com/TwilitRealm/dusklight) - ⭐ **6.5k** | 🍴 510 | 📅 `2026-05-12`
+- [**TwilitRealm/dusklight**](https://github.com/TwilitRealm/dusklight) - ⭐ **6.6k** | 🍴 510 | 📅 `2026-05-12`
   - Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.
 
 - [**chriskohlhoff/asio**](https://github.com/chriskohlhoff/asio) - ⭐ **6.2k** | 🍴 1.5k | 📅 `2026-07-11`
@@ -1892,7 +1889,7 @@
 - [**randombit/botan**](https://github.com/randombit/botan) - ⭐ **3.4k** | 🍴 674 | 📅 `2026-04-19`
   - Cryptography Toolkit
 
-- [**quickshell-mirror/quickshell**](https://github.com/quickshell-mirror/quickshell) - ⭐ **3.3k** | 🍴 277 | 📅 `2026-06-30`
+- [**quickshell-mirror/quickshell**](https://github.com/quickshell-mirror/quickshell) - ⭐ **3.3k** | 🍴 278 | 📅 `2026-06-30`
   - Flexible toolkit for making desktop shells with QtQuick, for Wayland and X11
 
 - [**rutura/The-C-20-Masterclass-Source-Code**](https://github.com/rutura/The-C-20-Masterclass-Source-Code) - ⭐ **2.3k** | 🍴 1.1k | 📅 `2026-02-07`
@@ -1901,10 +1898,10 @@
 - [**softhsm/SoftHSMv2**](https://github.com/softhsm/SoftHSMv2) - ⭐ **1.1k** | 🍴 432 | 📅 `2026-05-06`
   - SoftHSM version 2
 
-- [**hkr04/cpp-mcp**](https://github.com/hkr04/cpp-mcp) - ⭐ **348** | 🍴 87 | 📅 `2026-01-20`
+- [**hkr04/cpp-mcp**](https://github.com/hkr04/cpp-mcp) - ⭐ **349** | 🍴 88 | 📅 `2026-01-20`
   - Lightweight C++ MCP (Model Context Protocol) SDK
 
-- [**Bitfaring/Deskhub**](https://github.com/Bitfaring/Deskhub) - ⭐ **150** | 🍴 39 | 📅 `2026-08-13`
+- [**Bitfaring/Deskhub**](https://github.com/Bitfaring/Deskhub) - ⭐ **152** | 🍴 39 | 📅 `2026-08-13`
   - Open-source remote desktop for Windows, macOS, Linux, Android and iOS. Share your screen and control your computer over your own network or VPN.
 
 - [**BenjaminYde/CPP-Guide**](https://github.com/BenjaminYde/CPP-Guide) - ⭐ **82** | 🍴 7 | 📅 `2026-02-06`
@@ -1913,19 +1910,19 @@
 
 ### Shell `(17)`
 
-- [**mattpocock/skills**](https://github.com/mattpocock/skills) - ⭐ **333.0k** | 🍴 28.0k | 📅 `2026-03-20`
+- [**mattpocock/skills**](https://github.com/mattpocock/skills) - ⭐ **333.7k** | 🍴 28.1k | 📅 `2026-03-20`
   - Skills for Real Engineers. Straight from my .agents directory.
 
-- [**obra/superpowers**](https://github.com/obra/superpowers) - ⭐ **326.7k** | 🍴 29.0k | 📅 `2026-05-12`
+- [**obra/superpowers**](https://github.com/obra/superpowers) - ⭐ **327.5k** | 🍴 29.1k | 📅 `2026-05-12`
   - An agentic skills framework & software development methodology that works.
 
-- [**msitarzewski/agency-agents**](https://github.com/msitarzewski/agency-agents) - ⭐ **170.3k** | 🍴 27.7k | 📅 `2026-04-06`
+- [**msitarzewski/agency-agents**](https://github.com/msitarzewski/agency-agents) - ⭐ **170.5k** | 🍴 27.7k | 📅 `2026-04-06`
   - A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
 
 - [**dockur/windows**](https://github.com/dockur/windows) - ⭐ **54.3k** | 🍴 5.2k | 📅 `2026-06-29`
   - Windows inside a Docker container.
 
-- [**obsidianmd/obsidian-skills**](https://github.com/obsidianmd/obsidian-skills) - ⭐ **53.8k** | 🍴 3.8k | 📅 `2026-06-28`
+- [**obsidianmd/obsidian-skills**](https://github.com/obsidianmd/obsidian-skills) - ⭐ **54.0k** | 🍴 3.8k | 📅 `2026-06-28`
   - Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.
 
 - [**ramitsurana/awesome-kubernetes**](https://github.com/ramitsurana/awesome-kubernetes) - ⭐ **16.1k** | 🍴 2.5k | 📅 `2026-05-12`
@@ -1934,16 +1931,16 @@
 - [**ophub/amlogic-s9xxx-armbian**](https://github.com/ophub/amlogic-s9xxx-armbian) - ⭐ **10.4k** | 🍴 3.3k | 📅 `2026-07-08`
   - Supports running Armbian on Amlogic, Allwinner, and Rockchip devices. Support a311d, s922x, s905x3, s905x2, s912, s905d, s905x, s905w, s905, s905l, rk3588, rk3568, rk3399, rk3328, h6, etc.
 
-- [**steipete/agent-scripts**](https://github.com/steipete/agent-scripts) - ⭐ **7.6k** | 🍴 673 | 📅 `2026-07-10`
+- [**steipete/agent-scripts**](https://github.com/steipete/agent-scripts) - ⭐ **7.6k** | 🍴 674 | 📅 `2026-07-10`
   - Scripts for agents, shared between my repositories.
 
-- [**Astrosp/Awesome-OSINT-List**](https://github.com/Astrosp/Awesome-OSINT-List) - ⭐ **4.7k** | 🍴 755 | 📅 `2026-04-19`
+- [**Astrosp/Awesome-OSINT-List**](https://github.com/Astrosp/Awesome-OSINT-List) - ⭐ **4.7k** | 🍴 758 | 📅 `2026-04-19`
   - 📡 Comprehensive collection of OSINT tools for cybersecurity professionals, researchers, and bug bounty hunters. Topics: information gathering, reverse search, red team, trust & safety, AI.
 
 - [**internetwache/GitTools**](https://github.com/internetwache/GitTools) - ⭐ **4.2k** | 🍴 631 | 📅 `2026-05-11`
   - A repository with 3 tools for pwn'ing websites with .git repositories available
 
-- [**thananon/9arm-skills**](https://github.com/thananon/9arm-skills) - ⭐ **3.3k** | 🍴 425 | 📅 `2026-05-22`
+- [**thananon/9arm-skills**](https://github.com/thananon/9arm-skills) - ⭐ **3.3k** | 🍴 423 | 📅 `2026-05-22`
 
 - [**tracelabs/tlosint-vm**](https://github.com/tracelabs/tlosint-vm) - ⭐ **1.2k** | 🍴 135 | 📅 `2026-01-20`
   - Trace Labs OSINT VM
@@ -1957,7 +1954,7 @@
 - [**taovietducofficial/CI-CD-Beginner**](https://github.com/taovietducofficial/CI-CD-Beginner) - ⭐ **155** | 🍴 25 | 📅 `2026-08-12`
   - Production CI/CD pipeline template with quality gates, container security, SLSA provenance, cosign signing, and automated release management.
 
-- [**CommandCodeAI/desktop**](https://github.com/CommandCodeAI/desktop) - ⭐ **116** | 🍴 11 | 📅 `2026-11-24`
+- [**CommandCodeAI/desktop**](https://github.com/CommandCodeAI/desktop) - ⭐ **117** | 🍴 11 | 📅 `2026-11-24`
   - Desktop App For Command Code
 
 - [**vascoray/soc-toolkit-termux**](https://github.com/vascoray/soc-toolkit-termux) - ⭐ **6** | 🍴 0 | 📅 `2026-11-18`
@@ -1978,12 +1975,12 @@
 - [**openclaw/openclaw-windows-node**](https://github.com/openclaw/openclaw-windows-node) - ⭐ **2.2k** | 🍴 358 | 📅 `2026-09-27`
   - Windows companion suite for OpenClaw
 
-- [**microsoft/EventLogExpert**](https://github.com/microsoft/EventLogExpert) - ⭐ **597** | 🍴 59 | 📅 `2026-07-28`
+- [**microsoft/EventLogExpert**](https://github.com/microsoft/EventLogExpert) - ⭐ **598** | 🍴 59 | 📅 `2026-07-28`
 
 - [**usnistgov/ACVP-Server**](https://github.com/usnistgov/ACVP-Server) - ⭐ **135** | 🍴 40 | 📅 `2026-05-09`
   - A repository tracking releases of NIST's ACVP server. See www.github.com/usnistgov/ACVP for the protocol.
 
-- [**cherry9001/tiktok-live-bar**](https://github.com/cherry9001/tiktok-live-bar) - ⭐ **130** | 🍴 145 | 📅 `2026-08-12`
+- [**cherry9001/tiktok-live-bar**](https://github.com/cherry9001/tiktok-live-bar) - ⭐ **131** | 🍴 145 | 📅 `2026-08-12`
   - Biến phiên TikTok LIVE thành sàn nhảy 3D tương tác — Người xem gửi gift, chat, like, follow sẽ xuất hiện trên sàn nhảy với avatar TikTok thật, hiệu ứng ánh sáng, DJ booth và pháo hoa.
 
 - [**votrongdao/FlowX**](https://github.com/votrongdao/FlowX) - ⭐ **130** | 🍴 92 | 📅 `2026-08-08`
@@ -2000,7 +1997,7 @@
 - [**dair-ai/Prompt-Engineering-Guide**](https://github.com/dair-ai/Prompt-Engineering-Guide) - ⭐ **80.4k** | 🍴 8.8k | 📅 `2026-08-23`
   - 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.
 
-- [**mintlify/docs**](https://github.com/mintlify/docs) - ⭐ **466** | 🍴 249 | 📅 `2026-11-07`
+- [**mintlify/docs**](https://github.com/mintlify/docs) - ⭐ **466** | 🍴 248 | 📅 `2026-11-07`
   - Official Mintlify documentation
 
 - [**mitre-attack/attack-data-model**](https://github.com/mitre-attack/attack-data-model) - ⭐ **96** | 🍴 27 | 📅 `2026-01-22`
@@ -2012,7 +2009,7 @@
 - [**rapid7/metasploit-framework**](https://github.com/rapid7/metasploit-framework) - ⭐ **39.7k** | 🍴 15.1k | 📅 `2026-04-29`
   - Metasploit Framework
 
-- [**midudev/autoskills**](https://github.com/midudev/autoskills) - ⭐ **7.0k** | 🍴 634 | 📅 `2026-04-06`
+- [**midudev/autoskills**](https://github.com/midudev/autoskills) - ⭐ **7.0k** | 🍴 633 | 📅 `2026-04-06`
   - One command. Your entire AI skill stack. Installed.
 
 - [**biola/turnout**](https://github.com/biola/turnout) - ⭐ **584** | 🍴 98 | 📅 `2026-11-07`
@@ -2033,7 +2030,7 @@
 
 ### PowerShell `(3)`
 
-- [**ChrisTitusTech/winutil**](https://github.com/ChrisTitusTech/winutil) - ⭐ **66.7k** | 🍴 3.9k | 📅 `2026-06-29`
+- [**ChrisTitusTech/winutil**](https://github.com/ChrisTitusTech/winutil) - ⭐ **66.8k** | 🍴 3.9k | 📅 `2026-06-29`
   - Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates
 
 - [**zhaoxuya520/reverse-skill**](https://github.com/zhaoxuya520/reverse-skill) - ⭐ **45.3k** | 🍴 6.8k | 📅 `2026-06-24`
@@ -2045,37 +2042,37 @@
 
 ### Swift `(3)`
 
-- [**apple/container**](https://github.com/apple/container) - ⭐ **52.1k** | 🍴 1.8k | 📅 `2026-06-11`
+- [**apple/container**](https://github.com/apple/container) - ⭐ **52.1k** | 🍴 1.9k | 📅 `2026-06-11`
   - A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.
 
 - [**altic-dev/FluidVoice**](https://github.com/altic-dev/FluidVoice) - ⭐ **13.3k** | 🍴 1.0k | 📅 `2026-08-14`
   - Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. Windows, iOS testflight!  Android, Linux waitlist open! A local Wispr Flow alternative. Follow https://x.com/fluidvoiceapp for more
 
-- [**TableProApp/TablePro**](https://github.com/TableProApp/TablePro) - ⭐ **6.5k** | 🍴 448 | 📅 `2026-05-17`
+- [**TableProApp/TablePro**](https://github.com/TableProApp/TablePro) - ⭐ **6.5k** | 🍴 451 | 📅 `2026-05-17`
   - Free, open-source native database client for macOS, Linux, iPhone and iPad.
 
 
 ### Java `(3)`
 
-- [**NationalSecurityAgency/ghidra**](https://github.com/NationalSecurityAgency/ghidra) - ⭐ **101.4k** | 🍴 11.5k | 📅 `2026-08-03`
+- [**NationalSecurityAgency/ghidra**](https://github.com/NationalSecurityAgency/ghidra) - ⭐ **101.5k** | 🍴 11.6k | 📅 `2026-08-03`
   - Ghidra is a software reverse engineering (SRE) framework
 
 - [**opendataloader-project/opendataloader-pdf**](https://github.com/opendataloader-project/opendataloader-pdf) - ⭐ **30.4k** | 🍴 2.9k | 📅 `2026-04-10`
   - PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.
 
-- [**LaurieWired/GhidraMCP**](https://github.com/LaurieWired/GhidraMCP) - ⭐ **12.0k** | 🍴 1.3k | 📅 `2026-08-03`
+- [**LaurieWired/GhidraMCP**](https://github.com/LaurieWired/GhidraMCP) - ⭐ **12.1k** | 🍴 1.3k | 📅 `2026-08-03`
   - MCP Server for Ghidra
 
 
 ### CSS `(3)`
 
-- [**Nutlope/hallmark**](https://github.com/Nutlope/hallmark) - ⭐ **61.1k** | 🍴 3.3k | 📅 `2026-07-12`
+- [**Nutlope/hallmark**](https://github.com/Nutlope/hallmark) - ⭐ **61.7k** | 🍴 3.4k | 📅 `2026-07-12`
   - Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
 
 - [**isocpp/CppCoreGuidelines**](https://github.com/isocpp/CppCoreGuidelines) - ⭐ **45.5k** | 🍴 5.6k | 📅 `2026-02-06`
   - The C++ Core Guidelines are a set of tried-and-true guidelines, rules, and best practices about coding in C++
 
-- [**asiffer/mkdocs-shadcn**](https://github.com/asiffer/mkdocs-shadcn) - ⭐ **218** | 🍴 29 | 📅 `2026-03-01`
+- [**asiffer/mkdocs-shadcn**](https://github.com/asiffer/mkdocs-shadcn) - ⭐ **219** | 🍴 30 | 📅 `2026-03-01`
   - Documentation that also shines
 
 
@@ -2132,7 +2129,7 @@
 
 ### Visual Basic .NET `(1)`
 
-- [**Lake1059/FFmpegFreeUI**](https://github.com/Lake1059/FFmpegFreeUI) - ⭐ **8.6k** | 🍴 516 | 📅 `2026-08-18`
+- [**Lake1059/FFmpegFreeUI**](https://github.com/Lake1059/FFmpegFreeUI) - ⭐ **8.6k** | 🍴 517 | 📅 `2026-08-18`
   - 3FUI 是 ffmpeg 在 Windows 上的轻度专业交互外壳，收录大量参数，界面美观，交互友好。此项目面向国内使用环境，让普通人也能够轻松压制视频和转换格式。
 
 
@@ -2150,7 +2147,7 @@
 
 ### Batchfile `(1)`
 
-- [**massgravel/Microsoft-Activation-Scripts**](https://github.com/massgravel/Microsoft-Activation-Scripts) - ⭐ **201.0k** | 🍴 19.0k | 📅 `2026-07-18`
+- [**massgravel/Microsoft-Activation-Scripts**](https://github.com/massgravel/Microsoft-Activation-Scripts) - ⭐ **201.1k** | 🍴 19.0k | 📅 `2026-07-18`
   - Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.
 
 
@@ -2162,13 +2159,13 @@
 
 ### Clojure `(1)`
 
-- [**penpot/penpot**](https://github.com/penpot/penpot) - ⭐ **62.7k** | 🍴 4.5k | 📅 `2026-06-23`
+- [**penpot/penpot**](https://github.com/penpot/penpot) - ⭐ **62.8k** | 🍴 4.5k | 📅 `2026-06-23`
   - Penpot: The open-source design platform for Product teams that need scalable collaboration.
 
 
 ### Less `(1)`
 
-- [**catppuccin/userstyles**](https://github.com/catppuccin/userstyles) - ⭐ **1.2k** | 🍴 301 | 📅 `2026-06-13`
+- [**catppuccin/userstyles**](https://github.com/catppuccin/userstyles) - ⭐ **1.2k** | 🍴 302 | 📅 `2026-06-13`
   - 🖌 Soothing pastel userstyles
 
 
@@ -2180,7 +2177,7 @@
 
 ### Markdown `(1)`
 
-- [**codecrafters-io/build-your-own-x**](https://github.com/codecrafters-io/build-your-own-x) - ⭐ **565.6k** | 🍴 52.8k | 📅 `2026-04-29`
+- [**codecrafters-io/build-your-own-x**](https://github.com/codecrafters-io/build-your-own-x) - ⭐ **565.8k** | 🍴 52.9k | 📅 `2026-04-29`
   - Master programming by recreating your favorite technologies from scratch.
 
 
@@ -2192,7 +2189,7 @@
 
 ### Lua `(1)`
 
-- [**obsidian-nvim/obsidian.nvim**](https://github.com/obsidian-nvim/obsidian.nvim) - ⭐ **2.3k** | 🍴 154 | 📅 `2026-04-25`
+- [**obsidian-nvim/obsidian.nvim**](https://github.com/obsidian-nvim/obsidian.nvim) - ⭐ **2.3k** | 🍴 155 | 📅 `2026-04-25`
   - Obsidian 🤝 Neovim (actively maintained version)
 
 
@@ -2216,7 +2213,7 @@
 
 ### SCSS `(1)`
 
-- [**saberzero1/quartz-themes**](https://github.com/saberzero1/quartz-themes) - ⭐ **287** | 🍴 8 | 📅 `2026-04-11`
+- [**saberzero1/quartz-themes**](https://github.com/saberzero1/quartz-themes) - ⭐ **288** | 🍴 8 | 📅 `2026-04-11`
   - Obsidian 🤝 Quartz. Quartz-compatible Obsidian themes.
 
 
