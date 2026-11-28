@@ -435,15 +435,15 @@
       ]
     },
     {
-      "title": "DetourBench: Trajectory-Level Evaluation of Interactive Agents with Exact Minimum-Action Bounds",
-      "summary": "Benchmarks judge language-model agents mainly by whether they reach the correct final state, not by how they got there. Endpoint scoring cannot separate an agent that retrieved exactly the evidence a decision required fr...",
-      "url": "https://huggingface.co/papers/2611.20844",
+      "title": "LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing",
+      "summary": "3D layout-controlled image editing gives users explicit control over object placement and camera viewpoint. In a sequence of edits, however, the latest image can lose the appearance of an object when it is occluded or le...",
+      "url": "https://huggingface.co/papers/2611.33885",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Hanlin Tian, Sihan Zhu, Zhao Yang",
-      "published_at": "2026-11-15",
+      "badge": "⭐ 0",
+      "upvotes": 0,
+      "authors": "Yankuan Chi, Xin Lin, Baihan Yang",
+      "published_at": "2026-11-24",
       "tags": [
         "paper",
         "arxiv",
@@ -451,30 +451,14 @@
       ]
     },
     {
-      "title": "Who Makes the Decision? Auditing an Agentic LLM Pipeline for Illicit Cryptocurrency Transaction Monitoring",
-      "summary": "Agentic pipelines that combine graph detectors, deterministic rules, retrieval-augmented generation and an LLM judge are being proposed to monitor illicit cryptocurrency flows and to write regulation-citing justification...",
-      "url": "https://huggingface.co/papers/2611.29829",
+      "title": "Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning",
+      "summary": "Conventional artificial neurons separate spatial feature aggregation from continuous physical time, limiting their ability to model irregular observations. We introduce the Damped Atomic Wave Integration Neuron (DAWIN), ...",
+      "url": "https://huggingface.co/papers/2611.30025",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
-      "authors": "Vaishnavi Chaughule, Yuchen Zhang, Mohammed Ahnaf Tajwar",
-      "published_at": "2026-11-21",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes",
-      "summary": "Situated 3D reasoning requires embodied agents to interpret objects, scene geometry, and viewpoint dependent spatial relations. Existing methods learn grounded interactions from supervised traces, but largely imitate pre...",
-      "url": "https://huggingface.co/papers/2611.29969",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
-      "authors": "Xiaoqian Hu, Ruihong Qiu, Yanran Tang",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Byunggu Yu, Justin Kim",
       "published_at": "2026-11-22",
       "tags": [
         "paper",
@@ -483,126 +467,14 @@
       ]
     },
     {
-      "title": "Evaluating Memanto on DolphinBench for AI Agents",
-      "summary": "Memory benchmarks built on question answering tell an agent which fact to recall. Workplace requests often leave that need implicit: to post an update in the team's channel, an agent must work out which channel from earl...",
-      "url": "https://huggingface.co/papers/2611.28231",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Suleman Khan, Rasa Rahnema, Tara Khani",
-      "published_at": "2026-11-19",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Look Back: Reinforcement Learning with Counterfactual World Models",
-      "summary": "Agents in complex, stochastic environments must contend with dynamics that can exceed their world models' predictive capacity and randomness that obscure the consequences of their actions. We hypothesize that, compared t...",
-      "url": "https://huggingface.co/papers/2611.29259",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
-      "authors": "Jinwoo Kim, Toghrul Abbasov, Lucius E. J. Bynum",
-      "published_at": "2026-11-21",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
-      "summary": "Reinforcement learning (RL) for text-to-SQL agents pays a query when its result matches the reference on one database. However, a wrong query can match by luck when the data lack the rows that expose its bug. We study a ...",
-      "url": "https://huggingface.co/papers/2611.34363",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
-      "authors": "Shreshth Rai, Rishii Kumar Singh, Aksh Aggarwal",
-      "published_at": "2026-11-24",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
-      "summary": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performe...",
-      "url": "https://huggingface.co/papers/2611.28732",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Chendong Xiang, Chengwen Zhang, Ruowen Zhao",
-      "published_at": "2026-11-24",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
-      "summary": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and s...",
-      "url": "https://huggingface.co/papers/2611.33093",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Guangyuan Wang, Chengran Li, Minchen Luo",
-      "published_at": "2026-11-23",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "WorldBridge: Bridging Scattered Views for Coherent 3D World Generation",
-      "summary": "Generating coherent and explorable 3D worlds from scattered images with little or no visual overlap is a fundamental and long-standing challenge in computer vision, which existing geometry-aware methods fail to address. ...",
-      "url": "https://huggingface.co/papers/2611.34079",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
-      "authors": "Weilong Yan, Jingyu Hu, Hongli Xu",
-      "published_at": "2026-11-24",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?",
-      "summary": "After a large language model (LLM) agent generates an artifact, users often send edit requests for it. This paper studies whether an LLM can anticipate these requests before they are sent. Such anticipation is useful in ...",
-      "url": "https://huggingface.co/papers/2611.21155",
+      "title": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
+      "summary": "Speech language models (LMs) generate speech as sequences of discrete tokens. Their tokenizer must therefore preserve both acoustic detail and linguistic content at a low bitrate. Semantic-enhanced tokenizers may lose ac...",
+      "url": "https://huggingface.co/papers/2611.30723",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 2",
       "upvotes": 2,
-      "authors": "Daisuke Kikuta",
-      "published_at": "2026-11-15",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift",
-      "summary": "Entity disambiguation (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in tasks such as knowledge graph construction, question answering, and information extraction. Recent work...",
-      "url": "https://huggingface.co/papers/2611.30334",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
-      "authors": "Samy Haffoudhi, Fabian M Suchanek, Nils Holzenberger",
+      "authors": "Y. Lu, L. Wang, S. Okada",
       "published_at": "2026-11-22",
       "tags": [
         "paper",
@@ -611,30 +483,14 @@
       ]
     },
     {
-      "title": "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM",
-      "summary": "Panoramic cameras capture nearly the entire spherical field of view in a single frame. However, the mismatch between this panoramic coverage and the field of view of LiDAR poses a substantial challenge for panoramic Gaus...",
-      "url": "https://huggingface.co/papers/2611.32335",
+      "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+      "summary": "Teams put a one-page rules file in a repository and call it a control on coding agents. A registered study found agents rarely look up a repository's contribution rules. I asked the security question: what does a rules f...",
+      "url": "https://huggingface.co/papers/2611.27112",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Weicong Zhang, Yuan Huang, Yu Zheng",
-      "published_at": "2026-11-23",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
-      "summary": "Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research. However, existing agents rely on harnesses that combine multiple mechanisms,...",
-      "url": "https://huggingface.co/papers/2611.28244",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
-      "authors": "Kelvin Kiu-Wai Tam, Newt Hue-Nam K. Nguyen, Tianshi Zheng",
+      "badge": "⭐ 0",
+      "upvotes": 0,
+      "authors": "Sandeep Dhuri",
       "published_at": "2026-11-19",
       "tags": [
         "paper",
@@ -643,31 +499,15 @@
       ]
     },
     {
-      "title": "Efficient Video Retrieval Augmented Generation via Token Allocation",
-      "summary": "Efficient long-video understanding requires identifying relevant evidence while minimizing the tokens processed by vision-language models (VLMs). Existing video retrieval-augmented generation (RAG) methods rely on frame ...",
-      "url": "https://huggingface.co/papers/2611.32938",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
-      "authors": "Ayush Barik, Fan Lai, Francis Y. Yan",
-      "published_at": "2026-11-23",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Evaluation-Free Recursive Self-Improvement for Coding Agents",
-      "summary": "Recent self-improving coding agents have achieved strong benchmark performance by iteratively modifying their own executable implementations. A common pattern uses downstream task-derived evidence to decide which candida...",
-      "url": "https://huggingface.co/papers/2611.21056",
+      "title": "Revisiting LLMs as Context Engineers",
+      "summary": "As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method to efficiently steer LLMs by constructing instruction prompts or metadata without intensive training. ...",
+      "url": "https://huggingface.co/papers/2611.30494",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 4",
       "upvotes": 4,
-      "authors": "Zhe Ren, Guowei Rong, Yimeng Chen",
-      "published_at": "2026-11-15",
+      "authors": "Junrui Zhang, Zeyu Xu, Runchuan Zhu",
+      "published_at": "2026-11-22",
       "tags": [
         "paper",
         "arxiv",
@@ -675,30 +515,126 @@
       ]
     },
     {
-      "title": "Letting Models Manage Their Own Context: Where We Stand",
-      "summary": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction that summarizes the history. We study the alternative, model-driven context management, in which the mo...",
-      "url": "https://huggingface.co/papers/2611.34147",
+      "title": "InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion",
+      "summary": "Initialization-free bundle adjustment (InitFree BA) aims to jointly recover camera poses and scene structure without requiring an initial global estimate. It is a very challenging problem, especially compared to traditio...",
+      "url": "https://huggingface.co/papers/2611.31516",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Simon Weber, Mateo de Mayo, Je Hyeong Hong",
+      "published_at": "2026-11-22",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes",
+      "summary": "A publicly available dataset of 62029 rank-23 schemes for 3times3 matrix multiplication is presented. Every scheme in it has its own rank pattern, an invariant formed by the ranks of the factor matrices of a scheme, so a...",
+      "url": "https://huggingface.co/papers/2611.31155",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 0",
+      "upvotes": 0,
+      "authors": "Andrew Igorevich Perminov",
+      "published_at": "2026-11-22",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
+      "summary": "Spatial arbitrage pricing theory (S-APT) extends factor models to allow returns to spill over between connected firms, beyond what common risk factors explain. In recent years, tabular foundation models (TFMs) have match...",
+      "url": "https://huggingface.co/papers/2611.31491",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Marcus Gawronsky",
+      "published_at": "2026-11-22",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Guarding with Judgment: Learning to Intervene for Multimodal Safety",
+      "summary": "When visual context makes an ordinary request unsafe to answer as asked, a blanket refusal may leave the user's need unresolved. Choosing how to help requires distinguishing an established hazard from a condition that st...",
+      "url": "https://huggingface.co/papers/2611.28849",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Jipei He, Cheng Cheng, Liuguo Wang",
+      "published_at": "2026-11-20",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+      "summary": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards...",
+      "url": "https://huggingface.co/papers/2611.31619",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 57",
+      "upvotes": 57,
+      "authors": "Arya Sikder, Sriram Pillutla",
+      "published_at": "2026-11-22",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Generation as Reverse Encoding",
+      "summary": "Pretrained visual representations accelerate generative learning by abstracting away appearance and spatial detail. Yet the same abstraction makes the return to pixels far harder, shifting much of the burden onto a large...",
+      "url": "https://huggingface.co/papers/2611.34782",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Cheng Shi, Sibei Yang, Hanzhong Guo",
+      "published_at": "2026-11-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+      "summary": "AI agents now run statements against production databases, and several of the incidents that followed deleted production data, which came back only through backups or the provider's help. We ask what decides the damage w...",
+      "url": "https://huggingface.co/papers/2611.30483",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 4",
+      "upvotes": 4,
+      "authors": "Abdullah Kaya, Cevheri Bozoglan, Yusuf Gundogdu",
+      "published_at": "2026-11-22",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+      "summary": "Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies. Yet such systems often fail at the moment of handoff: a pol...",
+      "url": "https://huggingface.co/papers/2611.32238",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 7",
       "upvotes": 7,
-      "authors": "Alessio Devoto, Avinash Vem, Tara Safavi",
-      "published_at": "2026-11-24",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Simulator-as-Proxy World Model for Robot Manipulation",
-      "summary": "Video world models for robots are increasingly conditioned on a simulated or rendered proxy of the scene, on the assumption that the video will show what the proxy shows. Testing this assumption requires a proxy whose st...",
-      "url": "https://huggingface.co/papers/2611.32786",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Tingting Liao, Mingjia Huo, Hao Li",
+      "authors": "Kaipeng Fang, Yuhao Wang, Ji Zhang",
       "published_at": "2026-11-23",
       "tags": [
         "paper",
@@ -707,30 +643,14 @@
       ]
     },
     {
-      "title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
-      "summary": "Decision models are language models fine-tuned to return a probability for each option of a typed query, which routers and guardrails threshold directly. They are built on multilingual bases but ranked almost entirely in...",
-      "url": "https://huggingface.co/papers/2611.33307",
+      "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+      "summary": "Generalization to unseen image generators has driven efforts to adapt pretrained visual representations for detection. Yet recent findings show that vision foundation models already encode transferable detection knowledg...",
+      "url": "https://huggingface.co/papers/2611.34719",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Mingzhe Du, Thong Thanh Nguyen, Nguyen Tran Cong Duy",
-      "published_at": "2026-11-23",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "When Every Rollout Fails: Splicing Learner-Conditioned Options into Long-Horizon Agent RL",
-      "summary": "Group-based reinforcement learning with verifiable rewards often yields all-fail groups on long-horizon agent tasks: every sampled trajectory receives zero reward, leaving group-relative methods without a reward-based po...",
-      "url": "https://huggingface.co/papers/2611.34777",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Haowen Hou, Yicheng Liu, Zhen Huang",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Yuncheng Guo, Ying Dong, Xiaodong Gu",
       "published_at": "2026-11-24",
       "tags": [
         "paper",
@@ -739,14 +659,94 @@
       ]
     },
     {
-      "title": "Collect for Coverage, Replay with Evidence: Adaptive and Efficient On-Policy Distillation for Long-Horizon Agents",
-      "summary": "Fully online on-policy distillation (OPD) is costly for long-horizon agents because each update depends on fresh environment rollouts. Prefix replay offers an efficient alternative by sampling current-student responses f...",
-      "url": "https://huggingface.co/papers/2611.34756",
+      "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+      "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear w...",
+      "url": "https://huggingface.co/papers/2611.34232",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 104",
+      "upvotes": 104,
+      "authors": "Hui Shen, Yunta Hsieh, Jianing Ma",
+      "published_at": "2026-11-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+      "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated know...",
+      "url": "https://huggingface.co/papers/2611.34852",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 24",
+      "upvotes": 24,
+      "authors": "Han Huang, Yuchen Yan, Xingyu Wu",
+      "published_at": "2026-11-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
+      "summary": "Structured clinical decisions from volumetric computed tomography (CT) require anatomically grounded predictions and calibrated confidence estimates. However, existing 3D medical multimodal models often suffer from uncal...",
+      "url": "https://huggingface.co/papers/2611.32993",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 3",
       "upvotes": 3,
-      "authors": "Haowen Hou, Gen Li, Ruilin Li",
+      "authors": "Juntao Jiang, Wenqi Zhong, Guangyu Guo",
+      "published_at": "2026-11-23",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+      "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challen...",
+      "url": "https://huggingface.co/papers/2611.34290",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 27",
+      "upvotes": 27,
+      "authors": "Modi Jin, Xuying Zhang, Yijing Guo",
+      "published_at": "2026-11-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+      "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is consi...",
+      "url": "https://huggingface.co/papers/2611.34813",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 59",
+      "upvotes": 59,
+      "authors": "Dezhi Luo, Fengyuan Yu, Haotian Zhang",
+      "published_at": "2026-11-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+      "summary": "Interactive world models must generate video continuously while responding promptly to user actions. Real-time throughput alone leaves input latency unresolved: coarse generation blocks delay action updates, and generati...",
+      "url": "https://huggingface.co/papers/2611.34693",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 19",
+      "upvotes": 19,
+      "authors": "Yiren Song, Guian Fang, Mike Zheng Shou",
       "published_at": "2026-11-24",
       "tags": [
         "paper",
@@ -1000,13 +1000,13 @@
       ]
     },
     {
-      "title": "AI made self-hosting fun again",
-      "summary": "Hacker News (335 pts, 181 comments) by @jlelse",
-      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+      "summary": "Hacker News (119 pts, 35 comments) by @ComputedCamp995",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "335 pts",
-      "upvotes": 335,
+      "badge": "119 pts",
+      "upvotes": 119,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1015,13 +1015,13 @@
       ]
     },
     {
-      "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
-      "summary": "Hacker News (256 pts, 49 comments) by @dverlaeckt80",
-      "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "summary": "Hacker News (330 pts, 205 comments) by @dr_red_dog",
+      "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "256 pts",
-      "upvotes": 256,
+      "badge": "330 pts",
+      "upvotes": 330,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1030,13 +1030,13 @@
       ]
     },
     {
-      "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
-      "summary": "Hacker News (278 pts, 349 comments) by @iantongeorge",
-      "url": "https://github.com/antonpictures/youtube-punisher",
+      "title": "The Balatro Timeline",
+      "summary": "Hacker News (81 pts, 12 comments) by @sheepscreek",
+      "url": "https://localthunk.com/blog/balatro-timeline-3aarh",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "278 pts",
-      "upvotes": 278,
+      "badge": "81 pts",
+      "upvotes": 81,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1045,13 +1045,13 @@
       ]
     },
     {
-      "title": "AMD-specific fork of llama.cpp",
-      "summary": "Hacker News (291 pts, 72 comments) by @julianlam",
-      "url": "https://devnull.land/amd-specific-llama-cpp",
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "summary": "Hacker News (438 pts, 229 comments) by @scanr",
+      "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "291 pts",
-      "upvotes": 291,
+      "badge": "438 pts",
+      "upvotes": 438,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1060,13 +1060,13 @@
       ]
     },
     {
-      "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
-      "summary": "Hacker News (220 pts, 95 comments) by @Bender",
-      "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "title": "Convex skills send the user's app idea to a remote server without telling them",
+      "summary": "Hacker News (237 pts, 76 comments) by @MickyTheMouse",
+      "url": "https://github.com/convex/convex-backend-skill/issues/64",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "220 pts",
-      "upvotes": 220,
+      "badge": "237 pts",
+      "upvotes": 237,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1075,13 +1075,13 @@
       ]
     },
     {
-      "title": "Hard Drive pricing has gotten bad",
-      "summary": "Hacker News (10 pts, 0 comments) by @zdw",
-      "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+      "title": "Cyberpunk Television Shows",
+      "summary": "Hacker News (17 pts, 9 comments) by @zdw",
+      "url": "https://shellzine.net/cyberpunk-television/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "10 pts",
-      "upvotes": 10,
+      "badge": "17 pts",
+      "upvotes": 17,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1090,13 +1090,13 @@
       ]
     },
     {
-      "title": "Novita, StreamLake, etc. are ByteDance Ark wrappers",
-      "summary": "Hacker News (51 pts, 9 comments) by @leafingensemble",
-      "url": "https://kendell.dev/blog/arkwrapper/",
+      "title": "Passkey blues",
+      "summary": "Hacker News (44 pts, 11 comments) by @sedatk",
+      "url": "https://ssg.dev/passkey-blues/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "51 pts",
-      "upvotes": 51,
+      "badge": "44 pts",
+      "upvotes": 44,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1105,13 +1105,13 @@
       ]
     },
     {
-      "title": "Intel One Mono font (2023)",
-      "summary": "Hacker News (473 pts, 240 comments) by @saikatsg",
-      "url": "https://github.com/intel/intel-one-mono",
+      "title": "9/UX: a Macintosh-inspired desktop for 9front",
+      "summary": "Hacker News (78 pts, 16 comments) by @rbanffy",
+      "url": "https://progrium.github.io/9ux/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "473 pts",
-      "upvotes": 473,
+      "badge": "78 pts",
+      "upvotes": 78,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1120,13 +1120,13 @@
       ]
     },
     {
-      "title": "Company Culture = Slack Emoji ÷ √Headcount",
-      "summary": "Hacker News (122 pts, 34 comments) by @liamg",
-      "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
+      "title": "Citroën Hydraulic System",
+      "summary": "Hacker News (137 pts, 50 comments) by @o4c",
+      "url": "https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "122 pts",
-      "upvotes": 122,
+      "badge": "137 pts",
+      "upvotes": 137,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1135,13 +1135,13 @@
       ]
     },
     {
-      "title": "Rvoip: VoIP stack in Rust",
-      "summary": "Hacker News (93 pts, 18 comments) by @zerosegfaults",
-      "url": "https://github.com/eisenzopf/rvoip",
+      "title": "Source Control from Hell",
+      "summary": "Hacker News (67 pts, 47 comments) by @emschwartz",
+      "url": "https://frantic.im/git/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "93 pts",
-      "upvotes": 93,
+      "badge": "67 pts",
+      "upvotes": 67,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1150,13 +1150,13 @@
       ]
     },
     {
-      "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
-      "summary": "Hacker News (62 pts, 10 comments) by @ppmpreetham",
-      "url": "https://bui.preetham.top/charts/",
+      "title": "Build your own amp modeler: $78 DIY pedal kit from TONE3000",
+      "summary": "Hacker News (46 pts, 14 comments) by @gregsadetsky",
+      "url": "https://www.guitarworld.com/gear/guitar-pedals/tone3000-daisy-audio-diy-pedal-kit",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "62 pts",
-      "upvotes": 62,
+      "badge": "46 pts",
+      "upvotes": 46,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1165,13 +1165,13 @@
       ]
     },
     {
-      "title": "Show HN: Olumino, a Markdown notes and spaced repetition app",
-      "summary": "Hacker News (82 pts, 39 comments) by @Wiyseful",
-      "url": "https://olumino.app",
+      "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+      "summary": "Hacker News (35 pts, 12 comments) by @Tiwariparth6165",
+      "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "82 pts",
-      "upvotes": 82,
+      "badge": "35 pts",
+      "upvotes": 35,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1180,13 +1180,13 @@
       ]
     },
     {
-      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-      "summary": "Hacker News (252 pts, 215 comments) by @ritzaco",
-      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+      "summary": "Hacker News (329 pts, 114 comments) by @mday404",
+      "url": "https://bouncemarket.minhanhday.com/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "252 pts",
-      "upvotes": 252,
+      "badge": "329 pts",
+      "upvotes": 329,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1195,13 +1195,13 @@
       ]
     },
     {
-      "title": "An introduction to uncertainty in machine learning",
-      "summary": "Hacker News (13 pts, 0 comments) by @chrhenning",
-      "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
+      "title": "The AT&T Unix PC (3B1) VM",
+      "summary": "Hacker News (59 pts, 13 comments) by @ok123456",
+      "url": "https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "13 pts",
-      "upvotes": 13,
+      "badge": "59 pts",
+      "upvotes": 59,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1210,13 +1210,13 @@
       ]
     },
     {
-      "title": "George Whitesides, 1939-2026",
-      "summary": "Hacker News (68 pts, 7 comments) by @dverlaeckt80",
-      "url": "https://www.science.org/content/blog-post/george-whitesides-1939-2026",
+      "title": "First images of the impact of DART asteroid deflection experiment",
+      "summary": "Hacker News (186 pts, 56 comments) by @Bender",
+      "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "68 pts",
-      "upvotes": 68,
+      "badge": "186 pts",
+      "upvotes": 186,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -1825,15 +1825,15 @@
       ]
     },
     {
-      "title": "DetourBench: Trajectory-Level Evaluation of Interactive Agents with Exact Minimum-Action Bounds",
-      "summary": "Benchmarks judge language-model agents mainly by whether they reach the correct final state, not by how they got there. Endpoint scoring cannot separate an agent that retrieved exactly the evidence a decision required fr...",
-      "url": "https://huggingface.co/papers/2611.20844",
+      "title": "LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing",
+      "summary": "3D layout-controlled image editing gives users explicit control over object placement and camera viewpoint. In a sequence of edits, however, the latest image can lose the appearance of an object when it is occluded or le...",
+      "url": "https://huggingface.co/papers/2611.33885",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Hanlin Tian, Sihan Zhu, Zhao Yang",
-      "published_at": "2026-11-15",
+      "badge": "⭐ 0",
+      "upvotes": 0,
+      "authors": "Yankuan Chi, Xin Lin, Baihan Yang",
+      "published_at": "2026-11-24",
       "tags": [
         "paper",
         "arxiv",
@@ -1841,30 +1841,14 @@
       ]
     },
     {
-      "title": "Who Makes the Decision? Auditing an Agentic LLM Pipeline for Illicit Cryptocurrency Transaction Monitoring",
-      "summary": "Agentic pipelines that combine graph detectors, deterministic rules, retrieval-augmented generation and an LLM judge are being proposed to monitor illicit cryptocurrency flows and to write regulation-citing justification...",
-      "url": "https://huggingface.co/papers/2611.29829",
+      "title": "Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning",
+      "summary": "Conventional artificial neurons separate spatial feature aggregation from continuous physical time, limiting their ability to model irregular observations. We introduce the Damped Atomic Wave Integration Neuron (DAWIN), ...",
+      "url": "https://huggingface.co/papers/2611.30025",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
-      "authors": "Vaishnavi Chaughule, Yuchen Zhang, Mohammed Ahnaf Tajwar",
-      "published_at": "2026-11-21",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes",
-      "summary": "Situated 3D reasoning requires embodied agents to interpret objects, scene geometry, and viewpoint dependent spatial relations. Existing methods learn grounded interactions from supervised traces, but largely imitate pre...",
-      "url": "https://huggingface.co/papers/2611.29969",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
-      "authors": "Xiaoqian Hu, Ruihong Qiu, Yanran Tang",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Byunggu Yu, Justin Kim",
       "published_at": "2026-11-22",
       "tags": [
         "paper",
@@ -1873,126 +1857,14 @@
       ]
     },
     {
-      "title": "Evaluating Memanto on DolphinBench for AI Agents",
-      "summary": "Memory benchmarks built on question answering tell an agent which fact to recall. Workplace requests often leave that need implicit: to post an update in the team's channel, an agent must work out which channel from earl...",
-      "url": "https://huggingface.co/papers/2611.28231",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Suleman Khan, Rasa Rahnema, Tara Khani",
-      "published_at": "2026-11-19",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Look Back: Reinforcement Learning with Counterfactual World Models",
-      "summary": "Agents in complex, stochastic environments must contend with dynamics that can exceed their world models' predictive capacity and randomness that obscure the consequences of their actions. We hypothesize that, compared t...",
-      "url": "https://huggingface.co/papers/2611.29259",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 0",
-      "upvotes": 0,
-      "authors": "Jinwoo Kim, Toghrul Abbasov, Lucius E. J. Bynum",
-      "published_at": "2026-11-21",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
-      "summary": "Reinforcement learning (RL) for text-to-SQL agents pays a query when its result matches the reference on one database. However, a wrong query can match by luck when the data lack the rows that expose its bug. We study a ...",
-      "url": "https://huggingface.co/papers/2611.34363",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
-      "authors": "Shreshth Rai, Rishii Kumar Singh, Aksh Aggarwal",
-      "published_at": "2026-11-24",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
-      "summary": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performe...",
-      "url": "https://huggingface.co/papers/2611.28732",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Chendong Xiang, Chengwen Zhang, Ruowen Zhao",
-      "published_at": "2026-11-24",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
-      "summary": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and s...",
-      "url": "https://huggingface.co/papers/2611.33093",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Guangyuan Wang, Chengran Li, Minchen Luo",
-      "published_at": "2026-11-23",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "WorldBridge: Bridging Scattered Views for Coherent 3D World Generation",
-      "summary": "Generating coherent and explorable 3D worlds from scattered images with little or no visual overlap is a fundamental and long-standing challenge in computer vision, which existing geometry-aware methods fail to address. ...",
-      "url": "https://huggingface.co/papers/2611.34079",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 4",
-      "upvotes": 4,
-      "authors": "Weilong Yan, Jingyu Hu, Hongli Xu",
-      "published_at": "2026-11-24",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?",
-      "summary": "After a large language model (LLM) agent generates an artifact, users often send edit requests for it. This paper studies whether an LLM can anticipate these requests before they are sent. Such anticipation is useful in ...",
-      "url": "https://huggingface.co/papers/2611.21155",
+      "title": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
+      "summary": "Speech language models (LMs) generate speech as sequences of discrete tokens. Their tokenizer must therefore preserve both acoustic detail and linguistic content at a low bitrate. Semantic-enhanced tokenizers may lose ac...",
+      "url": "https://huggingface.co/papers/2611.30723",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 2",
       "upvotes": 2,
-      "authors": "Daisuke Kikuta",
-      "published_at": "2026-11-15",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift",
-      "summary": "Entity disambiguation (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in tasks such as knowledge graph construction, question answering, and information extraction. Recent work...",
-      "url": "https://huggingface.co/papers/2611.30334",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
-      "authors": "Samy Haffoudhi, Fabian M Suchanek, Nils Holzenberger",
+      "authors": "Y. Lu, L. Wang, S. Okada",
       "published_at": "2026-11-22",
       "tags": [
         "paper",
@@ -2001,30 +1873,14 @@
       ]
     },
     {
-      "title": "GOLD-SLAM: Gaussian-splatting Omnidirectional LiDAR-Depth SLAM",
-      "summary": "Panoramic cameras capture nearly the entire spherical field of view in a single frame. However, the mismatch between this panoramic coverage and the field of view of LiDAR poses a substantial challenge for panoramic Gaus...",
-      "url": "https://huggingface.co/papers/2611.32335",
+      "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+      "summary": "Teams put a one-page rules file in a repository and call it a control on coding agents. A registered study found agents rarely look up a repository's contribution rules. I asked the security question: what does a rules f...",
+      "url": "https://huggingface.co/papers/2611.27112",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Weicong Zhang, Yuan Huang, Yu Zheng",
-      "published_at": "2026-11-23",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
-      "summary": "Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research. However, existing agents rely on harnesses that combine multiple mechanisms,...",
-      "url": "https://huggingface.co/papers/2611.28244",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 5",
-      "upvotes": 5,
-      "authors": "Kelvin Kiu-Wai Tam, Newt Hue-Nam K. Nguyen, Tianshi Zheng",
+      "badge": "⭐ 0",
+      "upvotes": 0,
+      "authors": "Sandeep Dhuri",
       "published_at": "2026-11-19",
       "tags": [
         "paper",
@@ -2033,31 +1889,15 @@
       ]
     },
     {
-      "title": "Efficient Video Retrieval Augmented Generation via Token Allocation",
-      "summary": "Efficient long-video understanding requires identifying relevant evidence while minimizing the tokens processed by vision-language models (VLMs). Existing video retrieval-augmented generation (RAG) methods rely on frame ...",
-      "url": "https://huggingface.co/papers/2611.32938",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 2",
-      "upvotes": 2,
-      "authors": "Ayush Barik, Fan Lai, Francis Y. Yan",
-      "published_at": "2026-11-23",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Evaluation-Free Recursive Self-Improvement for Coding Agents",
-      "summary": "Recent self-improving coding agents have achieved strong benchmark performance by iteratively modifying their own executable implementations. A common pattern uses downstream task-derived evidence to decide which candida...",
-      "url": "https://huggingface.co/papers/2611.21056",
+      "title": "Revisiting LLMs as Context Engineers",
+      "summary": "As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method to efficiently steer LLMs by constructing instruction prompts or metadata without intensive training. ...",
+      "url": "https://huggingface.co/papers/2611.30494",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 4",
       "upvotes": 4,
-      "authors": "Zhe Ren, Guowei Rong, Yimeng Chen",
-      "published_at": "2026-11-15",
+      "authors": "Junrui Zhang, Zeyu Xu, Runchuan Zhu",
+      "published_at": "2026-11-22",
       "tags": [
         "paper",
         "arxiv",
@@ -2065,30 +1905,126 @@
       ]
     },
     {
-      "title": "Letting Models Manage Their Own Context: Where We Stand",
-      "summary": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction that summarizes the history. We study the alternative, model-driven context management, in which the mo...",
-      "url": "https://huggingface.co/papers/2611.34147",
+      "title": "InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion",
+      "summary": "Initialization-free bundle adjustment (InitFree BA) aims to jointly recover camera poses and scene structure without requiring an initial global estimate. It is a very challenging problem, especially compared to traditio...",
+      "url": "https://huggingface.co/papers/2611.31516",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Simon Weber, Mateo de Mayo, Je Hyeong Hong",
+      "published_at": "2026-11-22",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes",
+      "summary": "A publicly available dataset of 62029 rank-23 schemes for 3times3 matrix multiplication is presented. Every scheme in it has its own rank pattern, an invariant formed by the ranks of the factor matrices of a scheme, so a...",
+      "url": "https://huggingface.co/papers/2611.31155",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 0",
+      "upvotes": 0,
+      "authors": "Andrew Igorevich Perminov",
+      "published_at": "2026-11-22",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
+      "summary": "Spatial arbitrage pricing theory (S-APT) extends factor models to allow returns to spill over between connected firms, beyond what common risk factors explain. In recent years, tabular foundation models (TFMs) have match...",
+      "url": "https://huggingface.co/papers/2611.31491",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 1",
+      "upvotes": 1,
+      "authors": "Marcus Gawronsky",
+      "published_at": "2026-11-22",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Guarding with Judgment: Learning to Intervene for Multimodal Safety",
+      "summary": "When visual context makes an ordinary request unsafe to answer as asked, a blanket refusal may leave the user's need unresolved. Choosing how to help requires distinguishing an established hazard from a condition that st...",
+      "url": "https://huggingface.co/papers/2611.28849",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Jipei He, Cheng Cheng, Liuguo Wang",
+      "published_at": "2026-11-20",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+      "summary": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards...",
+      "url": "https://huggingface.co/papers/2611.31619",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 57",
+      "upvotes": 57,
+      "authors": "Arya Sikder, Sriram Pillutla",
+      "published_at": "2026-11-22",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Generation as Reverse Encoding",
+      "summary": "Pretrained visual representations accelerate generative learning by abstracting away appearance and spatial detail. Yet the same abstraction makes the return to pixels far harder, shifting much of the burden onto a large...",
+      "url": "https://huggingface.co/papers/2611.34782",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Cheng Shi, Sibei Yang, Hanzhong Guo",
+      "published_at": "2026-11-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+      "summary": "AI agents now run statements against production databases, and several of the incidents that followed deleted production data, which came back only through backups or the provider's help. We ask what decides the damage w...",
+      "url": "https://huggingface.co/papers/2611.30483",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 4",
+      "upvotes": 4,
+      "authors": "Abdullah Kaya, Cevheri Bozoglan, Yusuf Gundogdu",
+      "published_at": "2026-11-22",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+      "summary": "Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies. Yet such systems often fail at the moment of handoff: a pol...",
+      "url": "https://huggingface.co/papers/2611.32238",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 7",
       "upvotes": 7,
-      "authors": "Alessio Devoto, Avinash Vem, Tara Safavi",
-      "published_at": "2026-11-24",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "Simulator-as-Proxy World Model for Robot Manipulation",
-      "summary": "Video world models for robots are increasingly conditioned on a simulated or rendered proxy of the scene, on the assumption that the video will show what the proxy shows. Testing this assumption requires a proxy whose st...",
-      "url": "https://huggingface.co/papers/2611.32786",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 1",
-      "upvotes": 1,
-      "authors": "Tingting Liao, Mingjia Huo, Hao Li",
+      "authors": "Kaipeng Fang, Yuhao Wang, Ji Zhang",
       "published_at": "2026-11-23",
       "tags": [
         "paper",
@@ -2097,30 +2033,14 @@
       ]
     },
     {
-      "title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
-      "summary": "Decision models are language models fine-tuned to return a probability for each option of a typed query, which routers and guardrails threshold directly. They are built on multilingual bases but ranked almost entirely in...",
-      "url": "https://huggingface.co/papers/2611.33307",
+      "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+      "summary": "Generalization to unseen image generators has driven efforts to adapt pretrained visual representations for detection. Yet recent findings show that vision foundation models already encode transferable detection knowledg...",
+      "url": "https://huggingface.co/papers/2611.34719",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Mingzhe Du, Thong Thanh Nguyen, Nguyen Tran Cong Duy",
-      "published_at": "2026-11-23",
-      "tags": [
-        "paper",
-        "arxiv",
-        "ai-research"
-      ]
-    },
-    {
-      "title": "When Every Rollout Fails: Splicing Learner-Conditioned Options into Long-Horizon Agent RL",
-      "summary": "Group-based reinforcement learning with verifiable rewards often yields all-fail groups on long-horizon agent tasks: every sampled trajectory receives zero reward, leaving group-relative methods without a reward-based po...",
-      "url": "https://huggingface.co/papers/2611.34777",
-      "source": "Hugging Face Daily Papers",
-      "category": "Hugging Face Papers",
-      "badge": "⭐ 3",
-      "upvotes": 3,
-      "authors": "Haowen Hou, Yicheng Liu, Zhen Huang",
+      "badge": "⭐ 2",
+      "upvotes": 2,
+      "authors": "Yuncheng Guo, Ying Dong, Xiaodong Gu",
       "published_at": "2026-11-24",
       "tags": [
         "paper",
@@ -2129,14 +2049,94 @@
       ]
     },
     {
-      "title": "Collect for Coverage, Replay with Evidence: Adaptive and Efficient On-Policy Distillation for Long-Horizon Agents",
-      "summary": "Fully online on-policy distillation (OPD) is costly for long-horizon agents because each update depends on fresh environment rollouts. Prefix replay offers an efficient alternative by sampling current-student responses f...",
-      "url": "https://huggingface.co/papers/2611.34756",
+      "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+      "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear w...",
+      "url": "https://huggingface.co/papers/2611.34232",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 104",
+      "upvotes": 104,
+      "authors": "Hui Shen, Yunta Hsieh, Jianing Ma",
+      "published_at": "2026-11-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+      "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated know...",
+      "url": "https://huggingface.co/papers/2611.34852",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 24",
+      "upvotes": 24,
+      "authors": "Han Huang, Yuchen Yan, Xingyu Wu",
+      "published_at": "2026-11-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
+      "summary": "Structured clinical decisions from volumetric computed tomography (CT) require anatomically grounded predictions and calibrated confidence estimates. However, existing 3D medical multimodal models often suffer from uncal...",
+      "url": "https://huggingface.co/papers/2611.32993",
       "source": "Hugging Face Daily Papers",
       "category": "Hugging Face Papers",
       "badge": "⭐ 3",
       "upvotes": 3,
-      "authors": "Haowen Hou, Gen Li, Ruilin Li",
+      "authors": "Juntao Jiang, Wenqi Zhong, Guangyu Guo",
+      "published_at": "2026-11-23",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+      "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challen...",
+      "url": "https://huggingface.co/papers/2611.34290",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 27",
+      "upvotes": 27,
+      "authors": "Modi Jin, Xuying Zhang, Yijing Guo",
+      "published_at": "2026-11-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+      "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is consi...",
+      "url": "https://huggingface.co/papers/2611.34813",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 59",
+      "upvotes": 59,
+      "authors": "Dezhi Luo, Fengyuan Yu, Haotian Zhang",
+      "published_at": "2026-11-24",
+      "tags": [
+        "paper",
+        "arxiv",
+        "ai-research"
+      ]
+    },
+    {
+      "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+      "summary": "Interactive world models must generate video continuously while responding promptly to user actions. Real-time throughput alone leaves input latency unresolved: coarse generation blocks delay action updates, and generati...",
+      "url": "https://huggingface.co/papers/2611.34693",
+      "source": "Hugging Face Daily Papers",
+      "category": "Hugging Face Papers",
+      "badge": "⭐ 19",
+      "upvotes": 19,
+      "authors": "Yiren Song, Guian Fang, Mike Zheng Shou",
       "published_at": "2026-11-24",
       "tags": [
         "paper",
@@ -2390,13 +2390,13 @@
       ]
     },
     {
-      "title": "AI made self-hosting fun again",
-      "summary": "Hacker News (335 pts, 181 comments) by @jlelse",
-      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+      "summary": "Hacker News (119 pts, 35 comments) by @ComputedCamp995",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "335 pts",
-      "upvotes": 335,
+      "badge": "119 pts",
+      "upvotes": 119,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2405,13 +2405,13 @@
       ]
     },
     {
-      "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
-      "summary": "Hacker News (256 pts, 49 comments) by @dverlaeckt80",
-      "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "summary": "Hacker News (330 pts, 205 comments) by @dr_red_dog",
+      "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "256 pts",
-      "upvotes": 256,
+      "badge": "330 pts",
+      "upvotes": 330,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2420,13 +2420,13 @@
       ]
     },
     {
-      "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
-      "summary": "Hacker News (278 pts, 349 comments) by @iantongeorge",
-      "url": "https://github.com/antonpictures/youtube-punisher",
+      "title": "The Balatro Timeline",
+      "summary": "Hacker News (81 pts, 12 comments) by @sheepscreek",
+      "url": "https://localthunk.com/blog/balatro-timeline-3aarh",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "278 pts",
-      "upvotes": 278,
+      "badge": "81 pts",
+      "upvotes": 81,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2435,13 +2435,13 @@
       ]
     },
     {
-      "title": "AMD-specific fork of llama.cpp",
-      "summary": "Hacker News (291 pts, 72 comments) by @julianlam",
-      "url": "https://devnull.land/amd-specific-llama-cpp",
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "summary": "Hacker News (438 pts, 229 comments) by @scanr",
+      "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "291 pts",
-      "upvotes": 291,
+      "badge": "438 pts",
+      "upvotes": 438,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2450,13 +2450,13 @@
       ]
     },
     {
-      "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
-      "summary": "Hacker News (220 pts, 95 comments) by @Bender",
-      "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "title": "Convex skills send the user's app idea to a remote server without telling them",
+      "summary": "Hacker News (237 pts, 76 comments) by @MickyTheMouse",
+      "url": "https://github.com/convex/convex-backend-skill/issues/64",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "220 pts",
-      "upvotes": 220,
+      "badge": "237 pts",
+      "upvotes": 237,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2465,13 +2465,13 @@
       ]
     },
     {
-      "title": "Hard Drive pricing has gotten bad",
-      "summary": "Hacker News (10 pts, 0 comments) by @zdw",
-      "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+      "title": "Cyberpunk Television Shows",
+      "summary": "Hacker News (17 pts, 9 comments) by @zdw",
+      "url": "https://shellzine.net/cyberpunk-television/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "10 pts",
-      "upvotes": 10,
+      "badge": "17 pts",
+      "upvotes": 17,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2480,13 +2480,13 @@
       ]
     },
     {
-      "title": "Novita, StreamLake, etc. are ByteDance Ark wrappers",
-      "summary": "Hacker News (51 pts, 9 comments) by @leafingensemble",
-      "url": "https://kendell.dev/blog/arkwrapper/",
+      "title": "Passkey blues",
+      "summary": "Hacker News (44 pts, 11 comments) by @sedatk",
+      "url": "https://ssg.dev/passkey-blues/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "51 pts",
-      "upvotes": 51,
+      "badge": "44 pts",
+      "upvotes": 44,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2495,13 +2495,13 @@
       ]
     },
     {
-      "title": "Intel One Mono font (2023)",
-      "summary": "Hacker News (473 pts, 240 comments) by @saikatsg",
-      "url": "https://github.com/intel/intel-one-mono",
+      "title": "9/UX: a Macintosh-inspired desktop for 9front",
+      "summary": "Hacker News (78 pts, 16 comments) by @rbanffy",
+      "url": "https://progrium.github.io/9ux/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "473 pts",
-      "upvotes": 473,
+      "badge": "78 pts",
+      "upvotes": 78,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2510,13 +2510,13 @@
       ]
     },
     {
-      "title": "Company Culture = Slack Emoji ÷ √Headcount",
-      "summary": "Hacker News (122 pts, 34 comments) by @liamg",
-      "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
+      "title": "Citroën Hydraulic System",
+      "summary": "Hacker News (137 pts, 50 comments) by @o4c",
+      "url": "https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "122 pts",
-      "upvotes": 122,
+      "badge": "137 pts",
+      "upvotes": 137,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2525,13 +2525,13 @@
       ]
     },
     {
-      "title": "Rvoip: VoIP stack in Rust",
-      "summary": "Hacker News (93 pts, 18 comments) by @zerosegfaults",
-      "url": "https://github.com/eisenzopf/rvoip",
+      "title": "Source Control from Hell",
+      "summary": "Hacker News (67 pts, 47 comments) by @emschwartz",
+      "url": "https://frantic.im/git/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "93 pts",
-      "upvotes": 93,
+      "badge": "67 pts",
+      "upvotes": 67,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2540,13 +2540,13 @@
       ]
     },
     {
-      "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
-      "summary": "Hacker News (62 pts, 10 comments) by @ppmpreetham",
-      "url": "https://bui.preetham.top/charts/",
+      "title": "Build your own amp modeler: $78 DIY pedal kit from TONE3000",
+      "summary": "Hacker News (46 pts, 14 comments) by @gregsadetsky",
+      "url": "https://www.guitarworld.com/gear/guitar-pedals/tone3000-daisy-audio-diy-pedal-kit",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "62 pts",
-      "upvotes": 62,
+      "badge": "46 pts",
+      "upvotes": 46,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2555,13 +2555,13 @@
       ]
     },
     {
-      "title": "Show HN: Olumino, a Markdown notes and spaced repetition app",
-      "summary": "Hacker News (82 pts, 39 comments) by @Wiyseful",
-      "url": "https://olumino.app",
+      "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+      "summary": "Hacker News (35 pts, 12 comments) by @Tiwariparth6165",
+      "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "82 pts",
-      "upvotes": 82,
+      "badge": "35 pts",
+      "upvotes": 35,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2570,13 +2570,13 @@
       ]
     },
     {
-      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-      "summary": "Hacker News (252 pts, 215 comments) by @ritzaco",
-      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+      "summary": "Hacker News (329 pts, 114 comments) by @mday404",
+      "url": "https://bouncemarket.minhanhday.com/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "252 pts",
-      "upvotes": 252,
+      "badge": "329 pts",
+      "upvotes": 329,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2585,13 +2585,13 @@
       ]
     },
     {
-      "title": "An introduction to uncertainty in machine learning",
-      "summary": "Hacker News (13 pts, 0 comments) by @chrhenning",
-      "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
+      "title": "The AT&T Unix PC (3B1) VM",
+      "summary": "Hacker News (59 pts, 13 comments) by @ok123456",
+      "url": "https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "13 pts",
-      "upvotes": 13,
+      "badge": "59 pts",
+      "upvotes": 59,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
@@ -2600,13 +2600,13 @@
       ]
     },
     {
-      "title": "George Whitesides, 1939-2026",
-      "summary": "Hacker News (68 pts, 7 comments) by @dverlaeckt80",
-      "url": "https://www.science.org/content/blog-post/george-whitesides-1939-2026",
+      "title": "First images of the impact of DART asteroid deflection experiment",
+      "summary": "Hacker News (186 pts, 56 comments) by @Bender",
+      "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
       "source": "Hacker News",
       "category": "Hacker News Tech",
-      "badge": "68 pts",
-      "upvotes": 68,
+      "badge": "186 pts",
+      "upvotes": 186,
       "published_at": "Hôm nay",
       "tags": [
         "hackernews",
